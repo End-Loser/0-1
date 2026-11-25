@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://github.com/End-Loser/0-1/discussions/new?category=ideas"><img src="assets/btn-say.png" alt="说出我的想法" height="52"></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/End-Loser/0-1/discussions"><img src="assets/btn-browse.png" alt="先看看别人的" height="52"></a>
+  <a href="#精选条目"><img src="assets/btn-browse.png" alt="先看看别人的" height="52"></a>
 </p>
 
 <p align="center">
