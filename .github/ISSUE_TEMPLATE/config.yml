@@ -1,5 +1,14 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
+  - name: 💬 说出你的想法（讨论区）
+    url: https://github.com/End-Loser/0-1/discussions/new?category=ideas
+    about: 一句话也可以。讨论区即时公开，适合意见、问题和半成品想法。
+  - name: 📝 正式投稿（Issue 表单）
+    url: https://github.com/End-Loser/0-1/issues/new?template=idea.yml
+    about: 希望被审核并收录进 ideas/，用这个表单。
+  - name: 🧪 提交实验或代码
+    url: https://github.com/End-Loser/0-1/issues/new?template=experiment.yml
+    about: 说明运行环境、复现步骤、测试结果和限制。
   - name: 安全、隐私或滥用风险
     url: https://github.com/End-Loser/0-1/security
     about: 查看安全说明，并优先使用 GitHub 的私密安全报告功能或与维护者私密沟通。

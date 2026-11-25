@@ -1,3 +1,20 @@
+<h1 align="center">把想法放进来，让它被看见、被讨论、被实现</h1>
+
+<p align="center">
+  <strong>不必完整，不必正确。先说出来，再一起验证。</strong><br />
+  <sub>0-1 是一个公开的“想法 → 讨论 → 实验 → 代码”索引。你可以只带一个问题来。</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/End-Loser/0-1/discussions/new?category=ideas"><img src="assets/btn-say.png" alt="说出我的想法" height="52"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/End-Loser/0-1/discussions"><img src="assets/btn-browse.png" alt="先看看别人的" height="52"></a>
+</p>
+
+<p align="center">
+  <sub>想被正式收录？<a href="https://github.com/End-Loser/0-1/issues/new?template=idea.yml">填 Issue 表单</a> · 讨论区即时公开 · 进入 <code>ideas/</code> 需审核 · 代码与实验走 PR</sub>
+</p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
@@ -6,41 +23,55 @@
   </picture>
 </p>
 
-<p align="center">
-  <a href="LICENSE"><img alt="代码许可：MIT" src="https://img.shields.io/badge/code-MIT-E4572E?style=for-the-badge"></a>
-  <a href="LICENSE-CONTENT.md"><img alt="文档许可：CC BY 4.0" src="https://img.shields.io/badge/docs-CC%20BY%204.0-0D9488?style=for-the-badge"></a>
-  <a href="docs/ROADMAP.md"><img alt="状态：实验" src="https://img.shields.io/badge/status-experiment-B45309?style=for-the-badge"></a>
-  <a href=".github/CONTRIBUTING.md"><img alt="欢迎提交 PR" src="https://img.shields.io/badge/PRs-welcome-2563EB?style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <strong>记录经审核发布的 AI、科技、技术、技巧与思想，并链接相关实验和代码。</strong><br />
-  <sub>从一个问题或想法出发，通过讨论、证据和可复现实验不断检验、修正认识。</sub>
-</p>
-
-## 这是什么
-
-**0-1 是一个公开的“想法 → 实验 → 代码”索引。** 这里记录经审核发布的想法、批评与反例，并链接可复现的实验、原型和代码。投稿需要审核；发布内容会标注状态，区分事实、推断与猜测。
+## 精选条目
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="assets/icon-idea.png" width="44" alt="想法"><br />
-      <strong>想法 / Ideas</strong><br />
-      <sub>把问题写清楚，接受批评、反例与证伪</sub>
+    <td width="33%" valign="top">
+      <strong>EWC 电磁波计算</strong><br />
+      <sub>把电磁波的物理演化直接当作计算。</sub><br /><br />
+      <code>status:experiment</code><br /><br />
+      <a href="ideas/electromagnetic-wave-computing.md">读想法</a> ·
+      <a href="experiments/ewc-electromagnetic-wave-computing.md">看实验</a> ·
+      <a href="https://github.com/End-Loser/0-1/issues/1">讨论 / 认领</a>
     </td>
-    <td align="center" width="33%">
-      <img src="assets/icon-experiment.png" width="44" alt="实验"><br />
-      <strong>实验 / Experiments</strong><br />
-      <sub>可复现的仿真、原型与失败记录</sub>
+    <td width="33%" valign="top">
+      <strong>CVNS 小说写作</strong><br />
+      <sub>把长篇小说纵向拆成变量线，让冲突变成设计资源。</sub><br /><br />
+      <code>status:experiment</code><br /><br />
+      <a href="ideas/micro-task-variable-line-novel-writing.md">读想法</a> ·
+      <a href="experiments/cvns-micro-prompt-skill.md">看代码</a> ·
+      <a href="experiments/cvns-micro-prompt-skill/docs/origin/ORIGIN.md">原始思路</a>
     </td>
-    <td align="center" width="33%">
-      <img src="assets/icon-code.png" width="44" alt="代码"><br />
-      <strong>代码 / Code</strong><br />
-      <sub>能跑、能查、能接着做</sub>
+    <td width="33%" valign="top">
+      <strong>你的想法</strong><br />
+      <sub>一句话也可以。这里还空着，第一张新卡片可以是你。</sub><br /><br />
+      <sub>等待第一个投稿</sub><br /><br />
+      <a href="https://github.com/End-Loser/0-1/discussions/new?category=ideas">说出来</a> ·
+      <a href="https://github.com/End-Loser/0-1/issues/new?template=idea.yml">正式投稿</a>
     </td>
   </tr>
 </table>
+
+<p align="center"><sub>精选条目由维护者整理；最新讨论在 <a href="https://github.com/End-Loser/0-1/discussions">Discussions</a>。</sub></p>
+
+## 30 秒说出你的想法
+
+1. **点“说出我的想法”** → 进入 Discussions 的 Ideas 分类，写标题和正文。一句话、一个问题、一个反例都可以，不需要先写完整设计书。
+2. **有材料就附上** → 图片、视频、文件可在提交后的 Issue 正文中直接拖入；讨论区可贴链接。大文件、长视频或语音请贴外链；GitHub 附件有格式和大小限制。
+3. **想被正式收录** → 点“正式投稿”填 Issue 表单；通过审核后会整理进 `ideas/`，并保留署名。
+
+> 讨论区即时公开，但不等于收录；进入 `ideas/` 的内容会经过审核、整理和状态标注。
+
+## 做实验或写代码
+
+- **认领任务**：从 [Issue #1](https://github.com/End-Loser/0-1/issues/1) 的 MVE-1 / 开放任务开始，或对你感兴趣的想法提出反例。
+- **提交实验**：用[实验模板](https://github.com/End-Loser/0-1/issues/new?template=experiment.yml)说明对应想法、运行环境、依赖、复现步骤、测试结果和限制。
+- **提交代码**：先读[投稿与审核指南](.github/CONTRIBUTING.md)和[项目上传检查清单](docs/SUBMISSION_CHECKLIST.md)，再 Fork + PR，关联对应想法或 Issue。
+
+## 这是什么
+
+**0-1 是一个公开的“想法 → 讨论 → 实验 → 代码”索引。** 这里记录经审核发布的想法、批评与反例，并链接可复现的实验、原型和代码。发布内容会标注状态，区分事实、推断与猜测；你可以从一句话开始，不必先有完整方案。
 
 ## 重点项目：EWC 电磁波计算
 
@@ -64,7 +95,7 @@
   <a href="experiments/ewc-electromagnetic-wave-computing.md"><img src="assets/btn-experiment.png" alt="查看实验与代码" height="44"></a>
 </p>
 
-<sub>当前状态：`status:experiment`。16/16 是特定端口、负载、步数与离线判决下的仿真原型结果，不关闭整机门槛，也不构成硬件、速度或能效证据。</sub>
+<sub>当前状态：`status:experiment`。16/16 是特定端口、负载、步数与离线判决下的仿真原型结果，不关闭整机门槛，也不构成硬件、速度或能效证据。讨论与认领入口见 [Issue #1](https://github.com/End-Loser/0-1/issues/1)。</sub>
 
 ## 工作方式
 
@@ -76,9 +107,9 @@
   </picture>
 </p>
 
-<sub>想法先进入 Issue 讨论与审核，再进入实验 / 复现；代码与结果通过 PR 关联，反例与修正回到讨论。</sub>
+<sub>讨论区承接半成品想法；准备正式推进时，再进入 Issue 审核、实验 / 复现、代码 / 结果与发布。反例和修正回到讨论。</sub>
 
-## 已发布内容
+## 全部条目
 
 | 类型 | 条目 | 状态 | 入口 |
 |---|---|---|---|
@@ -87,13 +118,7 @@
 | 想法 | 微任务变量线长篇小说写作（CVNS R-06.2） | `status:experiment` | [阅读](ideas/micro-task-variable-line-novel-writing.md) |
 | 实验 / 工具 | CVNS R-06.2 小说写作 Skill v1.7.0：设计、代码与问题记录 | `status:experiment` | [条目](experiments/cvns-micro-prompt-skill.md) · [代码与提示词](experiments/cvns-micro-prompt-skill/README.md) |
 
-> 更多条目会在通过审核后补充；当前目录不代表已经有大量成果。
-
-## 如何参与
-
-1. **提出想法**：在 [Issues](https://github.com/End-Loser/0-1/issues/new/choose) 使用对应模板说明问题、依据、反例与验证方法。
-2. **提交实验或代码**：先读 [投稿与审核指南](.github/CONTRIBUTING.md) 与 [项目上传检查清单](docs/SUBMISSION_CHECKLIST.md)，再 Fork 并提交 PR。
-3. **接手实现**：从 [Issue #1](https://github.com/End-Loser/0-1/issues/1) 认领 MVE-1 / 开放任务，或直接对想法条目提出反例。
+> 更多条目会在通过审核后补充；当前目录不代表已经有大量成果。最新讨论见 [Discussions](https://github.com/End-Loser/0-1/discussions)。
 
 ## 项目结构
 
@@ -110,6 +135,12 @@ ideas/             经审核的想法、批评和反例
 
 <details>
 <summary><strong>展开：投稿规则、状态标签、内容边界与许可</strong></summary>
+
+### 讨论区与收录
+
+- 讨论区内容即时公开，适合问题、意见和半成品想法；维护者可编辑、隐藏或关闭违规内容。
+- 进入 `ideas/` 或 `experiments/` 的内容需要审核、整理和状态标注；讨论不等于收录。
+- 图片、视频、文件请确保有权公开且不含隐私；大文件请用外链，语音建议附文字摘要。
 
 ### 投稿与审核
 
@@ -132,7 +163,7 @@ ideas/             经审核的想法、批评和反例
 
 ### 内容边界
 
-不接受违法或危险内容、骚扰、诈骗、侵犯隐私、未经授权的数据或系统操作、抄袭及无权分发的材料。请勿提交密码、API 密钥、Token 或其他秘密信息。
+不接受违法或危险内容、骚扰、诈骗、侵犯隐私、未经授权的数据或系统操作、抄袭及无权分发的材料。请勿提交密码、API 密钥、Token、他人隐私或未经授权的人像 / 录音 / 视频。
 
 ### 许可
 
@@ -145,5 +176,11 @@ ideas/             经审核的想法、批评和反例
 ---
 
 <p align="center">
-  <sub>MIT · CC BY 4.0 · 由 End-Loser 维护 · <a href="https://github.com/End-Loser/0-1/issues">Issues</a> · <a href="https://github.com/End-Loser/0-1/pulls">Pull requests</a></sub>
+  <a href="LICENSE"><img alt="代码许可：MIT" src="https://img.shields.io/badge/code-MIT-E4572E?style=for-the-badge"></a>
+  <a href="LICENSE-CONTENT.md"><img alt="文档许可：CC BY 4.0" src="https://img.shields.io/badge/docs-CC%20BY%204.0-0D9488?style=for-the-badge"></a>
+  <a href="https://github.com/End-Loser/0-1/discussions"><img alt="讨论区" src="https://img.shields.io/badge/discussions-open-2563EB?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <sub>MIT · CC BY 4.0 · 由 End-Loser 维护 · <a href="https://github.com/End-Loser/0-1/discussions">Discussions</a> · <a href="https://github.com/End-Loser/0-1/issues">Issues</a> · <a href="https://github.com/End-Loser/0-1/pulls">Pull requests</a></sub>
 </p>
