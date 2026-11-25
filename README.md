@@ -6,15 +6,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/End-Loser/0-1/discussions/new?category=ideas"><img alt="说出我的想法：进入讨论区" src="https://img.shields.io/badge/%E8%AF%B4%E5%87%BA%E6%88%91%E7%9A%84%E6%83%B3%E6%B3%95-%E8%BF%9B%E5%85%A5%E8%AE%A8%E8%AE%BA%E5%8C%BA-E4572E?style=for-the-badge&logo=github"></a>
-  &nbsp;
-  <a href="https://github.com/End-Loser/0-1/discussions"><img alt="先看看别人的：想法与实验" src="https://img.shields.io/badge/%E5%85%88%E7%9C%8B%E7%9C%8B%E5%88%AB%E4%BA%BA%E7%9A%84-%E6%83%B3%E6%B3%95%E4%B8%8E%E5%AE%9E%E9%AA%8C-0D9488?style=for-the-badge"></a>
-  &nbsp;
-  <a href="https://github.com/End-Loser/0-1/issues/new?template=idea.yml"><img alt="正式投稿：Issue 表单" src="https://img.shields.io/badge/%E6%AD%A3%E5%BC%8F%E6%8A%95%E7%A8%BF-Issue%20%E8%A1%A8%E5%8D%95-2563EB?style=for-the-badge"></a>
+  <a href="https://github.com/End-Loser/0-1/discussions/new?category=ideas"><img src="assets/btn-say.png" alt="说出我的想法" height="52"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/End-Loser/0-1/discussions"><img src="assets/btn-browse.png" alt="先看看别人的" height="52"></a>
 </p>
 
 <p align="center">
-  <sub>讨论区即时公开 · 进入 <code>ideas/</code> 需审核 · 代码与实验走 PR</sub>
+  <sub>想被正式收录？<a href="https://github.com/End-Loser/0-1/issues/new?template=idea.yml">填 Issue 表单</a> · 讨论区即时公开 · 进入 <code>ideas/</code> 需审核 · 代码与实验走 PR</sub>
 </p>
 
 <p align="center">
