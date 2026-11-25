@@ -1,0 +1,82 @@
+[
+  {
+    "id": "resistive_dc_gear",
+    "load": "resistive",
+    "enable": "dc",
+    "method": "gear",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  },
+  {
+    "id": "resistive_dc_trap",
+    "load": "resistive",
+    "enable": "dc",
+    "method": "trap",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  },
+  {
+    "id": "resistive_cycle_gear",
+    "load": "resistive",
+    "enable": "cycle",
+    "method": "gear",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  },
+  {
+    "id": "resistive_cycle_trap",
+    "load": "resistive",
+    "enable": "cycle",
+    "method": "trap",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  },
+  {
+    "id": "current_dc_gear",
+    "load": "current",
+    "enable": "dc",
+    "method": "gear",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  },
+  {
+    "id": "current_dc_trap",
+    "load": "current",
+    "enable": "dc",
+    "method": "trap",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  },
+  {
+    "id": "current_cycle_gear",
+    "load": "current",
+    "enable": "cycle",
+    "method": "gear",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  },
+  {
+    "id": "current_cycle_trap",
+    "load": "current",
+    "enable": "cycle",
+    "method": "trap",
+    "finish_s": 0.01,
+    "step_s": 1e-07,
+    "vin_V": 5,
+    "target_V": 3.3
+  }
+]

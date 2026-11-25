@@ -1,0 +1,118 @@
+{
+  "case": "combined_ref_error_candidate_crosscheck_062_euler_50ns_100ps_gear",
+  "profile": "combined_ref_error",
+  "scope": "candidate_crosscheck",
+  "tag": "062_euler",
+  "errors": [
+    -0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 50,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 100,
+  "method": "gear",
+  "fingerprint": "963765a1f3877d8d7b36dd896f247bfdf30ed74e7cd3103dd3e2e18c72d76350",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 43574,
+  "unique_points": 43574,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 130,
+  "sample_passed": 130,
+  "minimum_late_margin_V": 0.5062471271815321,
+  "worst_slot": {
+    "slot": 10,
+    "state": "101",
+    "channel": "sum",
+    "margin_V": 0.5062471271815321
+  },
+  "first_bad": null,
+  "max_settling_ns": 36.50313440571759,
+  "unsettled": 0,
+  "energy_J": 9.390426961750817e-09,
+  "power_W": 0.002889362142077174,
+  "energy_per_slot_J": 1.4446810710385872e-10,
+  "warning": false
+}

@@ -1,0 +1,39 @@
+{
+  "read_date": "2026-11-18",
+  "scope": "Second-batch standalone software contract; archived candidate values only",
+  "inputs": {
+    "EWC真实材料与器件统一规划.md": "eafc14ad43e9c41b475e41bd5441d4a03e3f685227064f901523f48e08be857d",
+    "校准验证/校准时序与量化预算报告.md": "8116ab5aae5aaaf063c6ac1f51cd7228718663fc2271ac7f9ee520db6677d630",
+    "校准验证/model.py": "9a846498ae996a4c00cfdcc01e7c452f83947637e80c5f4102e0784b4ddb2523",
+    "校准验证/verify.py": "25e019a3656ea5fa35fb4895e2acec5eb5641277a77f011885dce7e78bc8aec5",
+    "校准验证/provenance.json": "431ac42bbd42783b869493564eaa47977aabf177953c57b789c5e0e0fb2fd2a5"
+  },
+  "input_note": "Read-only snapshot hashes. Parallel main-plan updates may change that file; runtime never reads first-batch or main-plan files.",
+  "adc": {
+    "candidate": "ADS8866",
+    "rate_ceiling_hz": 100000,
+    "source": "First-batch archived TI product page, not a newly checked datasheet",
+    "url": "https://www.ti.com/product/ADS8866",
+    "archived_snapshot_sha256": "d7f58202407602b76cef3d245a74ed0beefb6eac81c831c975e6617cd8c7a076",
+    "slot_note": "ceil(1e9/fs) ns per request, at least 10000 ns. Throughput allocation, NOT ADS8866 tCONV or pin timing.",
+    "adc_ready_note": "Separate explicit software completion delay; synthetic 10000 ns in aligned examples, null if unknown."
+  },
+  "dac": {
+    "candidate": "DAC80501",
+    "illustrative_settle_ns": 5000,
+    "source": "First-batch archived TI product page",
+    "url": "https://www.ti.com/product/DAC80501",
+    "archived_snapshot_sha256": "4c41fd891ec03e512e3f285f236668cbb658e95c56f3433c689dd7c520e3375e",
+    "worst_case_guarantee": false,
+    "note": "Explicit configurable delay after DAC SPI completion; real load, step, error band and gain settling remain unknown."
+  },
+  "new_downloads": 0,
+  "timing_class": "All executable hardware-dependent delays are synthetic explicit inputs; null blocks execution.",
+  "prohibited_claims": [
+    "Real ADS8866 timing passed",
+    "RTL passed",
+    "Real ADC/DAC model passed",
+    "System +/-1% passed",
+    "Procurement"
+  ]
+}

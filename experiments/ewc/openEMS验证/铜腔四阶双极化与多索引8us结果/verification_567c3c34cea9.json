@@ -1,0 +1,319 @@
+{
+  "partial_mode": true,
+  "source_manifest_read_sha256": "3dfaaaa3417b11d9cae3bf67b25870b6b6bd05a935a1e7691c8740ed2d5f4e1a",
+  "manifest_snapshot": {
+    "status": "failed_preserve_partial",
+    "source_sha256": {
+      "run_copper_gauss_longtime.py": "3bf1f0679d197fc2b942764ada3a4c61fcafc4b1e8d3984a5bca7297e68bf600",
+      "copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+      "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+      "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+      "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+      "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+    },
+    "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "approval_sha256": "27617c5451c5096cc3593b22b69fe4b03be819e52ef60e4ae5b63ddb55ccaf27",
+    "configuration_sha256": "65b639ce20408924ce5ffb81d503cbca1cb0dbea994d2d7eab5df0d9aeab66ae",
+    "cases": [
+      {
+        "id": "111_loss0_2.5ps",
+        "status": "running",
+        "chunks": [
+          {
+            "file": "steps_0000000_0040000.npz",
+            "sha256": "16716014d736fe9b941cb5f3be5c221202309a21a9482b50f7e4baeed38ca43d",
+            "start_step": 0,
+            "end_step": 40000,
+            "stepping_seconds": 2357.2834202999948
+          },
+          {
+            "file": "steps_0040000_0080000.npz",
+            "sha256": "adc6fb4e03c573dee5d53831fb084be429af583ffc101cbb269e8ae98d152b55",
+            "start_step": 40000,
+            "end_step": 80000,
+            "stepping_seconds": 2555.113002600032
+          },
+          {
+            "file": "steps_0080000_0120000.npz",
+            "sha256": "54cdf7940b0b8ebd41dccee2c892b88137acc065469c26577a68bcace9eec583",
+            "start_step": 80000,
+            "end_step": 120000,
+            "stepping_seconds": 2364.718706000014
+          },
+          {
+            "file": "steps_0120000_0160000.npz",
+            "sha256": "51398998265075cffe86db29b9f34ee2f2840a016694750b3c98223e2d9c78d7",
+            "start_step": 120000,
+            "end_step": 160000,
+            "stepping_seconds": 2463.723483699956
+          }
+        ],
+        "completed_steps": 160000
+      }
+    ],
+    "full_long_history_passed": false,
+    "general_initial_state_approved": false,
+    "actual_feed_passed": false,
+    "full_joint_simulation_passed": false,
+    "full_system_gates_closed": 0,
+    "failure_type": "MemoryError",
+    "failure_message": "Unable to allocate 6.75 MiB for an array with shape (6908, 64) and data type complex128"
+  },
+  "sources_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0000000_0040000.npz": "16716014d736fe9b941cb5f3be5c221202309a21a9482b50f7e4baeed38ca43d",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0040000_0080000.npz": "adc6fb4e03c573dee5d53831fb084be429af583ffc101cbb269e8ae98d152b55",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0080000_0120000.npz": "54cdf7940b0b8ebd41dccee2c892b88137acc065469c26577a68bcace9eec583",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0120000_0160000.npz": "51398998265075cffe86db29b9f34ee2f2840a016694750b3c98223e2d9c78d7"
+  },
+  "cases": [
+    {
+      "id": "111_loss0_2.5ps",
+      "completed_steps": 160000,
+      "completed_s": 4e-07,
+      "complete": false,
+      "chunks": [
+        {
+          "file": "steps_0000000_0040000.npz",
+          "energy_closure": 1.4000800518942924e-11,
+          "anchors": [
+            {
+              "step": 0,
+              "electric": 4.817185115454539e-12,
+              "magnetic": 1.3526284086186097e-16,
+              "RL": 9.737255925489652e-12,
+              "charge": 2.0758673397412583e-11,
+              "wall": 8.343848907383473e-14,
+              "energy": 1.3981692479186305e-15,
+              "before_energy_J": 0.5,
+              "after_energy_J": 0.49999999111321597,
+              "heat_J": 8.886784729966124e-09,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 799,
+              "electric": 2.317687743760185e-13,
+              "magnetic": 1.8471196235915547e-15,
+              "RL": 4.532565162371239e-11,
+              "charge": 7.197500838993804e-13,
+              "wall": 3.263106788176349e-13,
+              "energy": 1.4518377466363333e-15,
+              "before_energy_J": 0.49907149145496116,
+              "after_energy_J": 0.4990698667931024,
+              "heat_J": 1.6246618594924327e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 1599,
+              "electric": 2.221659405967286e-13,
+              "magnetic": 1.116790296873759e-14,
+              "RL": 8.147998486457319e-11,
+              "charge": 6.73624044631305e-13,
+              "wall": 6.094703357721765e-13,
+              "energy": 8.221211091987716e-16,
+              "before_energy_J": 0.4981133664041081,
+              "after_energy_J": 0.4981114083521936,
+              "heat_J": 1.9580519149063373e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 2399,
+              "electric": 2.1416529701079078e-13,
+              "magnetic": 4.571297708230734e-15,
+              "RL": 1.2023865214458627e-10,
+              "charge": 6.360172647096138e-13,
+              "wall": 1.5410926217682867e-12,
+              "energy": 1.0083834588451634e-15,
+              "before_energy_J": 0.4971616446557746,
+              "after_energy_J": 0.4971606303520706,
+              "heat_J": 1.0143037045291043e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 3199,
+              "electric": 1.936109774080583e-13,
+              "magnetic": 9.804773566733544e-16,
+              "RL": 4.936281005811674e-11,
+              "charge": 5.309609800847673e-13,
+              "wall": 4.5001010940902475e-13,
+              "energy": 2.088646223807143e-15,
+              "before_energy_J": 0.49622583098927986,
+              "after_energy_J": 0.49622548550753104,
+              "heat_J": 3.454817498566491e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 3999,
+              "electric": 2.5372967930973634e-13,
+              "magnetic": 7.838255621881242e-16,
+              "RL": 2.387309249295951e-11,
+              "charge": 8.110932516628821e-13,
+              "wall": 1.861192433803596e-13,
+              "energy": 1.1517171084909713e-16,
+              "before_energy_J": 0.49529216133481485,
+              "after_energy_J": 0.495291115732,
+              "heat_J": 1.0456028147738601e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 4799,
+              "electric": 2.2716740050047173e-13,
+              "magnetic": 3.705029888731925e-15,
+              "RL": 6.275445985142772e-11,
+              "charge": 6.962952279177561e-13,
+              "wall": 4.362200095951921e-13,
+              "energy": 3.399388567060161e-16,
+              "before_energy_J": 0.4943463266169669,
+              "after_energy_J": 0.49434436826503164,
+              "heat_J": 1.958351935114773e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 5599,
+              "electric": 2.1916141466290282e-13,
+              "magnetic": 2.0252914902446117e-14,
+              "RL": 1.0110283565991261e-10,
+              "charge": 6.614060758418615e-13,
+              "wall": 8.313888871785949e-13,
+              "energy": 1.7593080701010336e-16,
+              "before_energy_J": 0.49339695617606594,
+              "after_energy_J": 0.4933953736661521,
+              "heat_J": 1.5825099139201558e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 6399,
+              "electric": 2.0833473689074689e-13,
+              "magnetic": 2.1916101928123184e-15,
+              "RL": 1.0687762840085287e-10,
+              "charge": 6.094579954896622e-13,
+              "wall": 6.018608478518506e-12,
+              "energy": 1.511008144960429e-16,
+              "before_energy_J": 0.4924613759950776,
+              "after_energy_J": 0.4924608401026619,
+              "heat_J": 5.358924157950182e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 39999,
+              "electric": 2.6633624818519377e-13,
+              "magnetic": 5.289794717108666e-16,
+              "RL": 1.6312406324946332e-11,
+              "charge": 8.726635281868343e-13,
+              "wall": 1.2778577751261976e-13,
+              "energy": 1.5246733744070558e-15,
+              "before_energy_J": 0.45468524867062743,
+              "after_energy_J": 0.45468444455978535,
+              "heat_J": 8.041108413854071e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0040000_0080000.npz",
+          "energy_closure": 2.6917135187431995e-11,
+          "anchors": [
+            {
+              "step": 40000,
+              "electric": 2.580645268608662e-13,
+              "magnetic": 6.394425616957767e-16,
+              "RL": 1.984050315622756e-11,
+              "charge": 8.349052037059435e-13,
+              "wall": 1.5493130138056222e-13,
+              "energy": 1.3823919755695014e-15,
+              "before_energy_J": 0.45468444455978535,
+              "after_energy_J": 0.45468357094859685,
+              "heat_J": 8.736111891295966e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 79999,
+              "electric": 2.445151341948998e-13,
+              "magnetic": 1.1227299703373656e-15,
+              "RL": 3.199301778206617e-11,
+              "charge": 7.735831710129949e-13,
+              "wall": 2.2442759280704582e-13,
+              "energy": 9.397184924890275e-17,
+              "before_energy_J": 0.4134601304469406,
+              "after_energy_J": 0.4134590835384611,
+              "heat_J": 1.046908479501725e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0080000_0120000.npz",
+          "energy_closure": 3.876210463715779e-11,
+          "anchors": [
+            {
+              "step": 80000,
+              "electric": 2.405808441641608e-13,
+              "magnetic": 1.2479626797354675e-15,
+              "RL": 3.489176755417746e-11,
+              "charge": 7.53019585473486e-13,
+              "wall": 2.3801027265731547e-13,
+              "energy": 5.341578280531998e-16,
+              "before_energy_J": 0.4134590835384611,
+              "after_energy_J": 0.4134579706606362,
+              "heat_J": 1.112877825114518e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 119999,
+              "electric": 2.3341893904625045e-13,
+              "magnetic": 1.877472516291576e-15,
+              "RL": 4.5254040759030176e-11,
+              "charge": 7.240153597879385e-13,
+              "wall": 3.3894092946057584e-13,
+              "energy": 5.982692814882986e-16,
+              "before_energy_J": 0.3759714015111448,
+              "after_energy_J": 0.3759701748491552,
+              "heat_J": 1.2266619898200225e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0120000_0160000.npz",
+          "energy_closure": 4.9541259983243435e-11,
+          "anchors": [
+            {
+              "step": 120000,
+              "electric": 2.317542826831464e-13,
+              "magnetic": 2.0553028868008716e-15,
+              "RL": 4.782109939342517e-11,
+              "charge": 7.168178639364194e-13,
+              "wall": 3.500776386375966e-13,
+              "energy": 5.067934299000041e-16,
+              "before_energy_J": 0.3759701748491552,
+              "after_energy_J": 0.3759688983258937,
+              "heat_J": 1.2765232612936578e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 159999,
+              "electric": 2.2739389933675946e-13,
+              "magnetic": 2.982570764041742e-15,
+              "RL": 5.733062567864945e-11,
+              "charge": 6.959108796288895e-13,
+              "wall": 4.0050437533370236e-13,
+              "energy": 2.3961310653433076e-16,
+              "before_energy_J": 0.3418807034917688,
+              "after_energy_J": 0.34187940208401535,
+              "heat_J": 1.3014077533693034e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        }
+      ],
+      "metrics": null
+    }
+  ],
+  "pairs": [],
+  "all_cases_complete": false,
+  "specified_8us_histories_passed": false,
+  "general_initial_state_approved": false,
+  "actual_feed_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0,
+  "verifier_sha256": "8e52ba96901e9ce999a33c3eb128885167676a201e76c60387af94a206d736f3"
+}

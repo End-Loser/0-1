@@ -1,0 +1,118 @@
+{
+  "case": "skew_4ns_timing_probe_080_stress_30ns_200ps_trap",
+  "profile": "skew_4ns",
+  "scope": "timing_probe",
+  "tag": "080_stress",
+  "errors": [
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    -0.01
+  ],
+  "period_ns": 30,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "fe3d6834eaefae4ff0560dadbf3d84672e3eace49b692909306262429672c81c",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        7.680000000000001e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        7.680000000000001e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 97471,
+  "unique_points": 97471,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 512,
+  "sample_passed": 512,
+  "minimum_late_margin_V": 0.9843183481858442,
+  "worst_slot": {
+    "slot": 216,
+    "state": "011",
+    "channel": "carry",
+    "margin_V": 0.9843183481858442
+  },
+  "first_bad": null,
+  "max_settling_ns": 16.922765158856045,
+  "unsettled": 0,
+  "energy_J": 1.0309162156224314e-08,
+  "power_W": 0.0013423388224250406,
+  "energy_per_slot_J": 4.0270164672751225e-11,
+  "warning": false
+}

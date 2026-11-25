@@ -1,0 +1,118 @@
+{
+  "case": "compound_gain_loss_15pct_timing_probe_025_stress_30ns_200ps_trap",
+  "profile": "compound_gain_loss_15pct",
+  "scope": "timing_probe",
+  "tag": "025_stress",
+  "errors": [
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01
+  ],
+  "period_ns": 30,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "fc512c627fb4fbba4e0dbe069f6fd0e627cb9e0b372368aca61ff815475776a4",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        7.680000000000001e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        7.680000000000001e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        7.680000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        7.680000000000001e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 85660,
+  "unique_points": 85660,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 512,
+  "sample_passed": 512,
+  "minimum_late_margin_V": 0.9843193097700067,
+  "worst_slot": {
+    "slot": 216,
+    "state": "011",
+    "channel": "carry",
+    "margin_V": 0.9843193097700067
+  },
+  "first_bad": null,
+  "max_settling_ns": 14.31204441437453,
+  "unsettled": 0,
+  "energy_J": 1.0256259483369363e-08,
+  "power_W": 0.0013354504535637189,
+  "energy_per_slot_J": 4.006351360691157e-11,
+  "warning": false
+}

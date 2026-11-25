@@ -1,0 +1,25 @@
+{
+  "scenario": "nominal_gear_100ps",
+  "wave_scenario": "nominal",
+  "parameters": {
+    "method": "gear"
+  },
+  "slot_ns": 40,
+  "dt_ps": 100,
+  "supply_V": 3.3,
+  "capacitance_F": 1e-12,
+  "method": "gear",
+  "state_slots": 65,
+  "covered_directed_transitions": 64,
+  "decisions": 130,
+  "passed_decisions": 130,
+  "sample_passed_decisions": 130,
+  "unsettled_decisions": 0,
+  "max_observed_settling_s": 1.3298199999999975e-08,
+  "unchanged_expected_excursions": 6,
+  "duration_s": 2.6e-06,
+  "supply_energy_J": 3.0922517011615866e-09,
+  "mean_supply_power_W": 0.001189327577369841,
+  "peak_supply_power_W": 0.042687984899999996,
+  "solver_log_mentions_warning": false
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "cm3200_state100",
+    "state": 4,
+    "common_mode_V": 3.2,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3200_state101",
+    "state": 5,
+    "common_mode_V": 3.2,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3200_state110",
+    "state": 6,
+    "common_mode_V": 3.2,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3200_state111",
+    "state": 7,
+    "common_mode_V": 3.2,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state000",
+    "state": 0,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state001",
+    "state": 1,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state010",
+    "state": 2,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state011",
+    "state": 3,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state100",
+    "state": 4,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state101",
+    "state": 5,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state110",
+    "state": 6,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm2500_state111",
+    "state": 7,
+    "common_mode_V": 2.5,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state000",
+    "state": 0,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state001",
+    "state": 1,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state010",
+    "state": 2,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state011",
+    "state": 3,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state100",
+    "state": 4,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state101",
+    "state": 5,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state110",
+    "state": 6,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  },
+  {
+    "id": "cm3800_state111",
+    "state": 7,
+    "common_mode_V": 3.8,
+    "analysis": "DC operating point",
+    "source_model": "Ideal independent input sources; no ADL macro",
+    "feedback_resistance_ohm": 32750,
+    "bias_retuned": false,
+    "amplitude_gate_V": 0.001,
+    "solver_timeout_s": 60
+  }
+]

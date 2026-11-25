@@ -1,0 +1,13 @@
+{
+  "error": "KeyError: 'columns'",
+  "location": "run_adl_offset_holdout.py main, running_source construction",
+  "solver_calls": 0,
+  "output_files_created": ["declared_configurations.json"],
+  "frozen_runner": "runner_before_column_binding_fix.py",
+  "frozen_verifier": "verifier_before_output_path_fix.py",
+  "cause": "run.json contains chunk and solver metadata; declared column names are in running_source.json and NPZ.",
+  "resolution": "Use frozen column metadata and check exact first NPZ column names before new solver calls; retain this failed directory.",
+  "physical_models_changed": false,
+  "raw_waveforms_changed": false,
+  "full_system_gates_closed": 0
+}

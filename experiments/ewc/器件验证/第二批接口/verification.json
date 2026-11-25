@@ -1,0 +1,762 @@
+{
+  "scope": "independent_offline_CSV_and_hash_reconstruction_not_resimulation",
+  "summary_sha256": "645277faa47f0bde9a0f3f7e40ca896f8b0cb19f5fead91258ad724073d8c3cc",
+  "verifier_sha256": "9c2cd64af55a1eda5bc3ca74bc7c0ef6fc64fb85d84d483d316c7bbb40c4d136",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "datasets_reconstructed": 11,
+  "events_reconstructed": 44,
+  "independent_measurements": {
+    "c01_3p3_mid": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005000000000002e-07
+          ],
+          "output_crossings_s": [
+            2.0537416419268272e-07
+          ],
+          "delay_s": 5.324164192682699e-09,
+          "plateau_min_V": 3.297955267430774,
+          "plateau_max_V": 3.297955267430774,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.2004999999999996e-07
+          ],
+          "output_crossings_s": [
+            3.253671047943903e-07
+          ],
+          "delay_s": 5.317104794390353e-09,
+          "plateau_min_V": 3.034145468487882e-10,
+          "plateau_max_V": 3.034145468487882e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.400500000000001e-07
+          ],
+          "output_crossings_s": [
+            4.4537416419268283e-07
+          ],
+          "delay_s": 5.324164192682752e-09,
+          "plateau_min_V": 3.29795526743077,
+          "plateau_max_V": 3.29795526743077,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.653671047943904e-07
+          ],
+          "delay_s": 5.317104794390353e-09,
+          "plateau_min_V": 3.03419410356648e-10,
+          "plateau_max_V": 3.03419410356648e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 1.64,
+      "pin_max_V": 1.66,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    },
+    "c02_5_mid": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005e-07
+          ],
+          "output_crossings_s": [
+            2.0537415986816122e-07
+          ],
+          "delay_s": 5.3241598681612275e-09,
+          "plateau_min_V": 4.996901920349686,
+          "plateau_max_V": 4.996901920349686,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.2004999999999996e-07
+          ],
+          "output_crossings_s": [
+            3.2536887110878914e-07
+          ],
+          "delay_s": 5.318871108789184e-09,
+          "plateau_min_V": 4.597244547315614e-10,
+          "plateau_max_V": 4.597244547315614e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.400500000000001e-07
+          ],
+          "output_crossings_s": [
+            4.453741598681617e-07
+          ],
+          "delay_s": 5.324159868161598e-09,
+          "plateau_min_V": 4.996901920349686,
+          "plateau_max_V": 4.996901920349686,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.653688711087895e-07
+          ],
+          "delay_s": 5.318871108789449e-09,
+          "plateau_min_V": 4.597287460620259e-10,
+          "plateau_max_V": 4.597287460620259e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 2.49,
+      "pin_max_V": 2.51,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    },
+    "c03_3p3_low": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005000000000002e-07
+          ],
+          "output_crossings_s": [
+            2.0537416419268272e-07
+          ],
+          "delay_s": 5.324164192682699e-09,
+          "plateau_min_V": 3.297955267430774,
+          "plateau_max_V": 3.297955267430774,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.2004999999999996e-07
+          ],
+          "output_crossings_s": [
+            3.253671047943903e-07
+          ],
+          "delay_s": 5.317104794390353e-09,
+          "plateau_min_V": 3.034145468487882e-10,
+          "plateau_max_V": 3.034145468487882e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.400500000000001e-07
+          ],
+          "output_crossings_s": [
+            4.4537416419268283e-07
+          ],
+          "delay_s": 5.324164192682752e-09,
+          "plateau_min_V": 3.29795526743077,
+          "plateau_max_V": 3.29795526743077,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.653671047943904e-07
+          ],
+          "delay_s": 5.317104794390353e-09,
+          "plateau_min_V": 3.03419410356648e-10,
+          "plateau_max_V": 3.03419410356648e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 0.24,
+      "pin_max_V": 0.26,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    },
+    "c04_3p3_upper": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005000000000002e-07
+          ],
+          "output_crossings_s": [
+            2.0537416419268272e-07
+          ],
+          "delay_s": 5.324164192682699e-09,
+          "plateau_min_V": 3.297955267430774,
+          "plateau_max_V": 3.297955267430774,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.2004999999999996e-07
+          ],
+          "output_crossings_s": [
+            3.253671047943903e-07
+          ],
+          "delay_s": 5.317104794390353e-09,
+          "plateau_min_V": 3.034145468487882e-10,
+          "plateau_max_V": 3.034145468487882e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.400500000000001e-07
+          ],
+          "output_crossings_s": [
+            4.4537416419268283e-07
+          ],
+          "delay_s": 5.324164192682752e-09,
+          "plateau_min_V": 3.29795526743077,
+          "plateau_max_V": 3.29795526743077,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.653671047943904e-07
+          ],
+          "delay_s": 5.317104794390353e-09,
+          "plateau_min_V": 3.03419410356648e-10,
+          "plateau_max_V": 3.03419410356648e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 2.99,
+      "pin_max_V": 3.01,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    },
+    "c05_5_rx_cm": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005e-07
+          ],
+          "output_crossings_s": [
+            2.0537415986816122e-07
+          ],
+          "delay_s": 5.3241598681612275e-09,
+          "plateau_min_V": 4.996901920349686,
+          "plateau_max_V": 4.996901920349686,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.2004999999999996e-07
+          ],
+          "output_crossings_s": [
+            3.2536887110878914e-07
+          ],
+          "delay_s": 5.318871108789184e-09,
+          "plateau_min_V": 4.597244547315614e-10,
+          "plateau_max_V": 4.597244547315614e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.400500000000001e-07
+          ],
+          "output_crossings_s": [
+            4.453741598681617e-07
+          ],
+          "delay_s": 5.324159868161598e-09,
+          "plateau_min_V": 4.996901920349686,
+          "plateau_max_V": 4.996901920349686,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.653688711087895e-07
+          ],
+          "delay_s": 5.318871108789449e-09,
+          "plateau_min_V": 4.597287460620259e-10,
+          "plateau_max_V": 4.597287460620259e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 3.19,
+      "pin_max_V": 3.21,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    },
+    "c06_3p3_cm_conflict": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005e-07
+          ],
+          "output_crossings_s": [
+            2.0031269836648402e-07,
+            2.011890661532826e-07,
+            2.0206543907396748e-07,
+            2.0294182872729e-07,
+            2.038182469622345e-07,
+            2.046934640910228e-07,
+            2.055699710213361e-07,
+            2.064465931496754e-07,
+            2.0732340098145645e-07,
+            2.0820051248294643e-07,
+            2.0907766453019174e-07,
+            2.0995565496380816e-07,
+            2.1083457123907653e-07,
+            2.117145922832913e-07,
+            2.1259685084634166e-07,
+            2.134832868950475e-07,
+            2.1437457365149248e-07,
+            2.1527419695653212e-07,
+            2.1618995911539738e-07
+          ],
+          "delay_s": null,
+          "plateau_min_V": 1.649983500166645,
+          "plateau_max_V": 1.649983500166651,
+          "level_ok": false,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            3.2005e-07
+          ],
+          "output_crossings_s": [
+            3.203114322272232e-07,
+            3.211877036556967e-07,
+            3.220640639807354e-07,
+            3.2294037594461833e-07,
+            3.2381670917075377e-07,
+            3.2469168021359416e-07,
+            3.255678200717673e-07,
+            3.26443840078048e-07,
+            3.2731972435906817e-07,
+            3.2819536780230327e-07,
+            3.2907076720736425e-07,
+            3.2994544740060684e-07,
+            3.3081946177594083e-07,
+            3.316921470527549e-07,
+            3.325635121222281e-07,
+            3.334323531345601e-07,
+            3.342965466804634e-07,
+            3.351530749256199e-07,
+            3.3599679425867815e-07,
+            3.368053729354455e-07
+          ],
+          "delay_s": null,
+          "plateau_min_V": 1.649983500163348,
+          "plateau_max_V": 1.649983500163348,
+          "level_ok": false,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            4.4004999999999997e-07
+          ],
+          "output_crossings_s": [
+            4.4031217176813383e-07,
+            4.411885553452149e-07,
+            4.4206493392031096e-07,
+            4.4294132667163674e-07,
+            4.438177477606341e-07,
+            4.446931504974893e-07,
+            4.4556958694004857e-07,
+            4.4644629710331043e-07,
+            4.4732291518179757e-07,
+            4.4819977860251104e-07,
+            4.490770220803235e-07,
+            4.499549717179291e-07,
+            4.508338837917161e-07,
+            4.51714166860425e-07,
+            4.5259708850525345e-07,
+            4.534837111724668e-07,
+            4.543751483952184e-07,
+            4.5527542849833455e-07,
+            4.5619368888670696e-07
+          ],
+          "delay_s": null,
+          "plateau_min_V": 1.649983500166646,
+          "plateau_max_V": 1.649983500166651,
+          "level_ok": false,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.603119183823962e-07,
+            5.61188143040052e-07,
+            5.620644830060027e-07,
+            5.629407734291745e-07,
+            5.638171010891166e-07,
+            5.646921768598291e-07,
+            5.655683981932537e-07,
+            5.66444443382618e-07,
+            5.673203688230953e-07,
+            5.68195986568897e-07,
+            5.690712998107407e-07,
+            5.699460731709904e-07,
+            5.708199688306978e-07,
+            5.716930702307902e-07,
+            5.725645396244058e-07,
+            5.734334370814614e-07,
+            5.742981429728627e-07,
+            5.75155278447337e-07,
+            5.760001481455002e-07,
+            5.768125932451233e-07
+          ],
+          "delay_s": null,
+          "plateau_min_V": 1.649983500163348,
+          "plateau_max_V": 1.649983500163348,
+          "level_ok": false,
+          "delay_ok": false
+        }
+      ],
+      "pin_min_V": 2.7,
+      "pin_max_V": 3.7,
+      "range_ok": false,
+      "planning_margin_V": 0.9905,
+      "function_pass": false,
+      "status": "fail"
+    },
+    "c07_3p3_2mV": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005e-07
+          ],
+          "output_crossings_s": [],
+          "delay_s": null,
+          "plateau_min_V": 3.297955267430821,
+          "plateau_max_V": 3.297955267430821,
+          "level_ok": true,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            3.2005e-07
+          ],
+          "output_crossings_s": [],
+          "delay_s": null,
+          "plateau_min_V": 3.297955267430817,
+          "plateau_max_V": 3.297955267430817,
+          "level_ok": false,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            4.4004999999999997e-07
+          ],
+          "output_crossings_s": [],
+          "delay_s": null,
+          "plateau_min_V": 3.297955267430816,
+          "plateau_max_V": 3.297955267430816,
+          "level_ok": true,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [],
+          "delay_s": null,
+          "plateau_min_V": 3.297955267430813,
+          "plateau_max_V": 3.297955267430813,
+          "level_ok": false,
+          "delay_ok": false
+        }
+      ],
+      "pin_min_V": 1.649,
+      "pin_max_V": 1.651,
+      "range_ok": true,
+      "planning_margin_V": -0.0075,
+      "function_pass": false,
+      "status": "fail"
+    },
+    "c08_3p3_20pF": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005000000000002e-07
+          ],
+          "output_crossings_s": [
+            2.0619083205826644e-07
+          ],
+          "delay_s": 6.140832058266418e-09,
+          "plateau_min_V": 3.297955267428518,
+          "plateau_max_V": 3.297955267430794,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.2004999999999996e-07
+          ],
+          "output_crossings_s": [
+            3.2618229570311155e-07
+          ],
+          "delay_s": 6.132295703111597e-09,
+          "plateau_min_V": 3.034229580741629e-10,
+          "plateau_max_V": 3.05689004036212e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.400500000000001e-07
+          ],
+          "output_crossings_s": [
+            4.461908320582665e-07
+          ],
+          "delay_s": 6.140832058266418e-09,
+          "plateau_min_V": 3.297955267428518,
+          "plateau_max_V": 3.297955267430782,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.661822957031116e-07
+          ],
+          "delay_s": 6.132295703111544e-09,
+          "plateau_min_V": 3.03422958318806e-10,
+          "plateau_max_V": 3.056888591733917e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 1.64,
+      "pin_max_V": 1.66,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    },
+    "c09_3p3_1000pF": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005000000000002e-07
+          ],
+          "output_crossings_s": [
+            2.4831788107154906e-07
+          ],
+          "delay_s": 4.826788107154904e-08,
+          "plateau_min_V": 2.130115712319476,
+          "plateau_max_V": 2.571648799781649,
+          "level_ok": false,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            3.2004999999999996e-07
+          ],
+          "output_crossings_s": [
+            3.580437551271266e-07
+          ],
+          "delay_s": 3.799375512712662e-08,
+          "plateau_min_V": 0.6179247825782925,
+          "plateau_max_V": 0.9935709444809921,
+          "level_ok": false,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            4.400500000000001e-07
+          ],
+          "output_crossings_s": [
+            4.79760525461718e-07
+          ],
+          "delay_s": 3.97105254617179e-08,
+          "plateau_min_V": 2.278309444754716,
+          "plateau_max_V": 2.663813914297304,
+          "level_ok": false,
+          "delay_ok": false
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.9943189324047e-07
+          ],
+          "delay_s": 3.9381893240469964e-08,
+          "plateau_min_V": 0.6316778263436603,
+          "plateau_max_V": 1.015684679147801,
+          "level_ok": false,
+          "delay_ok": false
+        }
+      ],
+      "pin_min_V": 1.64,
+      "pin_max_V": 1.66,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": false,
+      "status": "fail"
+    },
+    "c10_3p3_slow": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0999999999999995e-07
+          ],
+          "output_crossings_s": [
+            2.163089667997606e-07
+          ],
+          "delay_s": 6.308966799760663e-09,
+          "plateau_min_V": 3.297955267430784,
+          "plateau_max_V": 3.297955267430784,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.3000000000000007e-07
+          ],
+          "output_crossings_s": [
+            3.373050280322404e-07
+          ],
+          "delay_s": 7.305028032240344e-09,
+          "plateau_min_V": 3.034145468487882e-10,
+          "plateau_max_V": 3.034145468487882e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.5000000000000003e-07
+          ],
+          "output_crossings_s": [
+            4.563089667997606e-07
+          ],
+          "delay_s": 6.308966799760584e-09,
+          "plateau_min_V": 3.297955267430784,
+          "plateau_max_V": 3.297955267430784,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.7e-07
+          ],
+          "output_crossings_s": [
+            5.773050280322406e-07
+          ],
+          "delay_s": 7.305028032240556e-09,
+          "plateau_min_V": 3.034231295097173e-10,
+          "plateau_max_V": 3.034231295097173e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 1.64,
+      "pin_max_V": 1.66,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    },
+    "c11_3p3_refined": {
+      "events": [
+        {
+          "input_crossings_s": [
+            2.0005e-07
+          ],
+          "output_crossings_s": [
+            2.0536473399098185e-07
+          ],
+          "delay_s": 5.314733990981858e-09,
+          "plateau_min_V": 3.297955267430746,
+          "plateau_max_V": 3.297955267430746,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            3.2005e-07
+          ],
+          "output_crossings_s": [
+            3.2537478358781153e-07
+          ],
+          "delay_s": 5.32478358781152e-09,
+          "plateau_min_V": 3.034194894241758e-10,
+          "plateau_max_V": 3.034194894241758e-10,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            4.4005e-07
+          ],
+          "output_crossings_s": [
+            4.453647339909821e-07
+          ],
+          "delay_s": 5.31473399098207e-09,
+          "plateau_min_V": 3.297955267430749,
+          "plateau_max_V": 3.297955267430749,
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "input_crossings_s": [
+            5.6005e-07
+          ],
+          "output_crossings_s": [
+            5.653747835878071e-07
+          ],
+          "delay_s": 5.3247835878070734e-09,
+          "plateau_min_V": 3.034322095782915e-10,
+          "plateau_max_V": 3.034322095782915e-10,
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "pin_min_V": 1.64,
+      "pin_max_V": 1.66,
+      "range_ok": true,
+      "planning_margin_V": 0.0105,
+      "function_pass": true,
+      "status": "pass"
+    }
+  },
+  "failure_details": []
+}

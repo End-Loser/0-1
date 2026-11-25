@@ -1,0 +1,139 @@
+{
+  "method": "unchanged full finite Maxwell; MMD_AT_PLUS_A factor ordering",
+  "controls": [
+    {
+      "archive": "copper_24x15x9_011_m64.npz",
+      "archive_sha256": "8f3fbd9bbae68b11636bebcfc673868daa03cedee471d668546aa5f483f51b53",
+      "full_field_relative_difference": 7.498509331176849e-11,
+      "source_power_relative_difference": 1.7541523789077473e-14,
+      "solve_seconds": 4.77333210001234
+    },
+    {
+      "archive": "copper_24x15x9_101_m64.npz",
+      "archive_sha256": "d7507468acbbb17b1795a1d94e705c82165d4405e192ac3639f8938dfff6155a",
+      "full_field_relative_difference": 4.739904335983512e-11,
+      "source_power_relative_difference": 1.6764367671839864e-14,
+      "solve_seconds": 4.162505000014789
+    }
+  ],
+  "cases": [
+    {
+      "case": "q_32x20x12_011",
+      "shape": [
+        32,
+        20,
+        12
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "frequency_solves": 6,
+      "full_edges": 25632,
+      "frequency_Hz": 2906491670.2265735,
+      "Q_pole": 23034.06852094903,
+      "Q_energy": 23034.31278429635,
+      "Q_error": 0.011728901685684079,
+      "frequency_error": 0.002391429395442568,
+      "five_vs_three_point_Q_difference": 7.047131767023984e-10,
+      "inverse_fit_residual": 2.4530368363594545e-05,
+      "solve_seconds": 139.0330740000354,
+      "file": "q_32x20x12_011.npz",
+      "sha256": "d5f855acf1a51e8f77d9269c41b2b1fda24deab5ccb91d9b2a515265a8304287",
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": true
+    },
+    {
+      "case": "q_32x20x12_101",
+      "shape": [
+        32,
+        20,
+        12
+      ],
+      "mode": [
+        1,
+        0,
+        1
+      ],
+      "frequency_solves": 6,
+      "full_edges": 25632,
+      "frequency_Hz": 2661280014.2160697,
+      "Q_pole": 19490.74496366895,
+      "Q_energy": 19490.98933923201,
+      "Q_error": 0.011472735619820984,
+      "frequency_error": 0.0025763248552967966,
+      "five_vs_three_point_Q_difference": 9.699010483643633e-10,
+      "inverse_fit_residual": 2.898173663837242e-05,
+      "solve_seconds": 135.62758850003593,
+      "file": "q_32x20x12_101.npz",
+      "sha256": "6a897875386920865c9e46b1cc6483f24bd12c9fdf1f069a9528129d337cfa53",
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": true
+    },
+    {
+      "case": "q_36x23x14_011",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "frequency_solves": 6,
+      "full_edges": 38157,
+      "frequency_Hz": 2908304906.7799067,
+      "Q_pole": 22963.36189578109,
+      "Q_energy": 22963.607711093293,
+      "Q_error": 0.008623243813823622,
+      "frequency_error": 0.0017690638319459717,
+      "five_vs_three_point_Q_difference": 7.751815855883137e-10,
+      "inverse_fit_residual": 2.4522202017043424e-05,
+      "solve_seconds": 363.86447199981194,
+      "file": "q_36x23x14_011.npz",
+      "sha256": "70d494e2bd268353b0932b0f678d6ad67761287a0c0c856ff489a91030b0849c",
+      "Q_1percent_pass": true,
+      "frequency_1percent_pass": true
+    },
+    {
+      "case": "q_36x23x14_101",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        1,
+        0,
+        1
+      ],
+      "frequency_solves": 6,
+      "full_edges": 38157,
+      "frequency_Hz": 2663076753.970591,
+      "Q_pole": 19432.04639296029,
+      "Q_energy": 19432.292292115144,
+      "Q_error": 0.008426571709599484,
+      "frequency_error": 0.0019029230487750404,
+      "five_vs_three_point_Q_difference": 9.526438526918923e-10,
+      "inverse_fit_residual": 2.8972277423442732e-05,
+      "solve_seconds": 346.66972620016895,
+      "file": "q_36x23x14_101.npz",
+      "sha256": "4eec87fbe236e32ad826119bc8d0eeb66ebd22283c571784431d554385e5f0f2",
+      "Q_1percent_pass": true,
+      "frequency_1percent_pass": true
+    }
+  ],
+  "full_frequency_solves": 26,
+  "source_sha256": {
+    "run_copper_q_refinement.py": "463f85d17b76ebb7b2a6601b50761f9013c239dd6d290b4096433748d291602f",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "copper_long_transient_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false
+}

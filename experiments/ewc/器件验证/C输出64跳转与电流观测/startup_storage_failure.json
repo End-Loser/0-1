@@ -1,0 +1,18 @@
+{
+  "scope": "Before SPICE execution; storage guard failure, not a physical experiment",
+  "returncode": 1,
+  "command_id": "0895edceb5347c04a84c2d2a408923d2",
+  "assertion": "min(output_drive_free, cache_drive_free) > 8 GiB",
+  "observed_C_free_bytes_on_followup": 4075433984,
+  "observed_D_free_bytes_on_followup": 32078798848,
+  "minimum_free_bytes": 8589934592,
+  "completed_solver_cases": 0,
+  "original_runner_sha256": "24689a1e7a42cdd9e871292a7cda160f1dd141255aca8178d15d95fbb61fadc6",
+  "original_runner_snapshot": "runner_before_cache_drive_fix.py",
+  "fix": "Use an independent D-drive cache outside the root workspace; use a new output directory",
+  "minimum_free_space_relaxed": false,
+  "simulator_binary_moved_or_changed": false,
+  "old_raw_evidence_deleted": false,
+  "safety_policy_changed": false,
+  "full_system_gates_closed": 0
+}

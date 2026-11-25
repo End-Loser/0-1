@@ -1,0 +1,18 @@
+{
+  "scope": "Historical source-table regression failure; not a material experiment",
+  "command": "python -B 材料验证/test_foil_tables.py",
+  "returncode": 1,
+  "tests_run": 8,
+  "failures": 1,
+  "test": "test_scale_not_loss_estimate",
+  "computed_reference_skin_depth_um": 1.200562629156405,
+  "incorrect_hand_entered_expected_um": 1.200577,
+  "places": 5,
+  "absolute_difference_um": 0.000014370843594901928,
+  "frozen_source": "test_foil_before_reference_fix.py",
+  "fix_scope": "Replace incorrect hand-entered reference with independent 60-digit Decimal formula",
+  "test_precision_relaxed": false,
+  "physical_parameters_changed": false,
+  "original_sources_changed": false,
+  "G2_closed": false
+}

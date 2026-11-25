@@ -1,0 +1,118 @@
+{
+  "case": "combined_ref_error_candidate_corners_069_50ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "candidate_corners",
+  "tag": "069",
+  "errors": [
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    0.01
+  ],
+  "period_ns": 50,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "6aeaa85096e8e61bf560861f201441dab57a3a46b5a91608340bb3861ccdf740",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 26257,
+  "unique_points": 26257,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 130,
+  "sample_passed": 130,
+  "minimum_late_margin_V": 0.6994064168241945,
+  "worst_slot": {
+    "slot": 10,
+    "state": "101",
+    "channel": "sum",
+    "margin_V": 0.6994064168241945
+  },
+  "first_bad": null,
+  "max_settling_ns": 33.882856641930665,
+  "unsettled": 0,
+  "energy_J": 9.361125122960695e-09,
+  "power_W": 0.0028803461916802136,
+  "energy_per_slot_J": 1.4401730958401068e-10,
+  "warning": false
+}

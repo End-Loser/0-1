@@ -1,0 +1,110 @@
+{
+  "scope": "partial_saved_cases_only",
+  "paired_time_steps_s": [
+    1e-12,
+    5e-13
+  ],
+  "independent_equation_source_energy_checks_passed": true,
+  "cases": [
+    {
+      "case": "111_loss0",
+      "dt_s": 1e-12,
+      "raw_sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+      "anchors_checked": 9,
+      "source_energy_closure": 3.4849900742983664e-12,
+      "maximum_equation_residuals": {
+        "electric": 9.889512352139961e-11,
+        "magnetic": 8.720000192625881e-15,
+        "RL": 1.051746506451674e-10,
+        "wall": 2.9426584979569465e-12,
+        "charge": 7.102359130829271e-10,
+        "energy": 6.437115994826442e-16
+      },
+      "final_energy_J": 0.49246140116997045,
+      "cumulative_heat_J": 0.007538598831771993,
+      "cumulative_source_work_J": 0.0,
+      "decay_metrics": {
+        "frequency_Hz": 3055287259.481218,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 20199.71359189322,
+            "log_energy_RMS_residual": 1.2360088927369913e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 20199.41942399464,
+            "log_energy_RMS_residual": 1.2381882094589226e-05
+          }
+        ],
+        "directional_reference_Q": 20044.3825031682,
+        "Q_continuum_error": 0.0077346818143155804,
+        "frequency_continuum_error": 0.0016645254406914,
+        "window_Q_difference": 1.4562973739362661e-05,
+        "selected_short_decay_passed": true
+      }
+    }
+  ],
+  "pairs": [],
+  "all_six_declared_cases_present": false,
+  "all_three_paired_short_histories_passed": false,
+  "summary_sha256": "ef28ef784d2325c9ef90f17b2a0f9d49ce1588396baf95528129207e76df862c",
+  "summary_snapshot": {
+    "status": "running",
+    "cases": [
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss0_1ps.npz",
+        "sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+        "stepping_seconds": 487.18565210001543
+      }
+    ],
+    "configuration_sha256": "69f9124503a3f90bd7d19779932ad375fdec1fc443aabd69a935bcb6ae77a93f",
+    "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "source_sha256": {
+      "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+      "copper_driven_midpoint.py": "5d383ec889e77b9f68b2ec4442eba1fa685a2c3f0df1798e807fddc68c5736e8",
+      "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+      "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+      "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+      "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+      "run_copper_driven_refinement.py": "fbd7cd268cedcdba333647b88085486cf1dc3dcd20a9582d9ddd95e7279598fd"
+    },
+    "full_long_history_passed": false,
+    "actual_feed_passed": false,
+    "manufactured_cavity_passed": false,
+    "full_joint_simulation_passed": false,
+    "full_system_gates_closed": 0
+  },
+  "configuration_sha256": "69f9124503a3f90bd7d19779932ad375fdec1fc443aabd69a935bcb6ae77a93f",
+  "verifier_sha256": "401e1f7d76ceac2518e98e3798b496ea4c8ae41c88e5a7fd1b7cce8a5c1463de",
+  "helper_sha256": {
+    "verify_copper_doublet.py": "beb2da57b6a09d4c71333bc3c61066180eacb256dc975be1e59997fefceedb59",
+    "verify_copper_driven_state.py": "d35d9b97d9d8008412e597d86e81dfa733a2df4ea36e8f7ecc32a4fa394ec3a1",
+    "verify_fine_copper_longtime.py": "646fc35f8145f8b32998f9238631f63b2f990220cb1f8d017481083f754cf35f",
+    "verify_fine_copper_ringdown.py": "5e868e53bd56bb9635209228a798e5a7afb26e708d05aac210c3429dc863651c",
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "full_long_history_passed": false,
+  "actual_feed_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0
+}

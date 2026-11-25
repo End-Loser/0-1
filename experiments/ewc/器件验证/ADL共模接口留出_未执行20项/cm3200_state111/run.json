@@ -1,0 +1,20 @@
+{
+  "id": "cm3200_state111",
+  "state": 7,
+  "common_mode_V": 3.2,
+  "analysis": "DC operating point",
+  "source_model": "Ideal independent input sources; no ADL macro",
+  "feedback_resistance_ohm": 32750,
+  "bias_retuned": false,
+  "amplitude_gate_V": 0.001,
+  "solver_timeout_s": 60,
+  "status": "dc_operating_point_observed_unverified",
+  "returncode": 0,
+  "files_sha256": {
+    "dc.txt": "78df3897e8678cd36355de8e0061b0e57ea46865c1fd9289e24f0fc63b86e71a",
+    "solver_stderr.log": "fd7ab1406dbe97c9ac6ff8f3e12da6ae6aa2fbe73d99b94470e25411806900c0",
+    "solver_stdout.log": "2e64aa7b54650029e0a62f864707fd94c8aa9c2ebbe80dbc4cd4246a29f3525d",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "85c2e062265ba05fecf25634ee2dced7906441eae7f736b156b880aa51f774f3"
+  }
+}

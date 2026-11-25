@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checks": 1656,
+  "method": "45-digit Decimal budget recalculation and separate protocol oracle",
+  "imports_model_or_runner": false,
+  "hardware_validation": false
+}

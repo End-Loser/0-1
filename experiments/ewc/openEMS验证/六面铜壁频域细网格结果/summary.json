@@ -1,0 +1,89 @@
+{
+  "method": "full finite integral Maxwell with six copper surface admittances, frequency domain",
+  "purpose": "rule-6 minimum grid (36x23x14) recheck of Q convergence for gates G1",
+  "cases": [
+    {
+      "case": "copper_36x23x14_011_m64",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 38157,
+      "wall_records": 6908,
+      "solve_seconds": 1592.882643699646,
+      "frequency_Hz": 2908304905.844751,
+      "Q_from_local_pole": 22963.361895170354,
+      "inverse_response_fit_residual": 2.3225445355622127e-05,
+      "continuum_Q": 22767.036191781215,
+      "Q_energy": 22963.607700018845,
+      "Q_relative_error": 0.008623243786998191,
+      "frequency_relative_error": 0.0017690641529237716,
+      "Q_1percent_pass": true,
+      "frequency_1percent_pass": true,
+      "file": "copper_36x23x14_011_m64.npz",
+      "sha256": "986187dbc0ac91745cae845cd5bf9f904d689f635966ed8345237df7ea19a813"
+    },
+    {
+      "case": "copper_36x23x14_101_m64",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        1,
+        0,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 38157,
+      "wall_records": 6908,
+      "solve_seconds": 1571.183259010315,
+      "frequency_Hz": 2663076752.775246,
+      "Q_from_local_pole": 19432.046392070348,
+      "inverse_response_fit_residual": 2.7440070451498722e-05,
+      "continuum_Q": 19269.669144097297,
+      "Q_energy": 19432.292279032423,
+      "Q_relative_error": 0.008426571663415983,
+      "frequency_relative_error": 0.0019029234967794517,
+      "Q_1percent_pass": true,
+      "frequency_1percent_pass": true,
+      "file": "copper_36x23x14_101_m64.npz",
+      "sha256": "b5813a984218c86e8e9c56a64fe83263a4385db02b250a2960db5cc4b1bc8804"
+    }
+  ],
+  "full_frequency_solves": 20,
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "model_path": "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u539a\u94dc\u8fb9\u754c\u57fa\u51c6\u7ed3\u679c\\passive_surface_models.json",
+  "source_sha256": {
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+    "run_finite_copper_cavity_fine.py": "1bf25880f5e86d14fd65e1ac8119408f8e55016b6b9cbfe27c58d2d1dd0d0d62"
+  },
+  "supersedes_nothing": true,
+  "prior_coarse_grid": {
+    "directory": "\u516d\u9762\u94dc\u58c1\u9891\u57df\u7ed3\u679c",
+    "best_Q_relative_error": 0.020462,
+    "best_shape": [
+      24,
+      15,
+      9
+    ]
+  },
+  "total_solve_seconds": 3164.134433746338,
+  "finite_copper_frequency_subtask_complete": true,
+  "copper_transient_boundary_complete": false,
+  "long_decay_Q_complete": false,
+  "arbitrary_corner_accuracy_complete": false,
+  "real_cavity_complete": false,
+  "full_joint_simulation_complete": false
+}

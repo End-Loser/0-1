@@ -1,0 +1,118 @@
+{
+  "case": "combined_ref_error_candidate_corners_105_50ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "candidate_corners",
+  "tag": "105",
+  "errors": [
+    0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01
+  ],
+  "period_ns": 50,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "7f2ed7e5969dec75cd3d0903308ce990f5a723ef63dbc40496905ce5367856df",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 26264,
+  "unique_points": 26264,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 130,
+  "sample_passed": 130,
+  "minimum_late_margin_V": 0.6687954786269555,
+  "worst_slot": {
+    "slot": 10,
+    "state": "101",
+    "channel": "sum",
+    "margin_V": 0.6687954786269555
+  },
+  "first_bad": null,
+  "max_settling_ns": 34.49043126283291,
+  "unsettled": 0,
+  "energy_J": 9.36856913544232e-09,
+  "power_W": 0.002882636657059175,
+  "energy_per_slot_J": 1.4413183285295876e-10,
+  "warning": false
+}

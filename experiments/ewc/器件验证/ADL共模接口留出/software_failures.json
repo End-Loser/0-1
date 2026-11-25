@@ -1,0 +1,27 @@
+{
+  "renderer_first_attempt": {
+    "module": "fitz",
+    "error": "ModuleNotFoundError: No module named 'fitz'",
+    "source_pdf_changed": false,
+    "resolution": "Use already available pypdfium2, as in the existing copper-foil original-table renderer."
+  },
+  "evaluation_first_test": {
+    "tests_run": 5,
+    "failures": 1,
+    "failed_test": "test_nominal_archived_window_is_not_ADL_certification",
+    "original_source": "evaluation_tests_before_transient_scope_fix.py",
+    "cause": "A transient sample was incorrectly expected to satisfy strict zero-capacitor-current DC KCL.",
+    "observed_common_mode_residual_A": 4.382888496580779e-09,
+    "observed_reference_residual_A": 1.6043999013560552e-08,
+    "resolution": "Require rejection of this transient sample as a complete DC point; retain amplitude and logic checks.",
+    "gate_A_before_and_after": 1e-9
+  },
+  "evaluation_json_failure": {
+    "original_source": "verifier_before_scalar_serialization_fix.py",
+    "error": "TypeError: Object of type bool_ is not JSON serializable",
+    "resolution": "Convert scalar input values from numpy scalars to Python float before evaluation.",
+    "physical_vectors_changed": false
+  },
+  "models_changed": false,
+  "full_system_gates_closed": 0
+}

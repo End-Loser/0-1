@@ -1,0 +1,212 @@
+{
+  "configurations": [
+    {
+      "case": "111_loss0",
+      "initial_seed": 1,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": []
+    },
+    {
+      "case": "111_loss0",
+      "initial_seed": 1,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": []
+    },
+    {
+      "case": "111_loss1",
+      "initial_seed": 2,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": []
+    },
+    {
+      "case": "111_loss1",
+      "initial_seed": 2,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": []
+    },
+    {
+      "case": "mixed_history",
+      "initial_seed": null,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [
+        {
+          "mode": 0,
+          "start_s": 5e-10,
+          "end_s": 2.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.0
+        },
+        {
+          "mode": 1,
+          "start_s": 2e-09,
+          "end_s": 4e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.3
+        },
+        {
+          "mode": 2,
+          "start_s": 3.5e-09,
+          "end_s": 5.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 1.1
+        },
+        {
+          "mode": 0,
+          "start_s": 6e-09,
+          "end_s": 8e-09,
+          "amplitude": -800000000.0,
+          "phase_rad": 0.7
+        },
+        {
+          "mode": 1,
+          "start_s": 7.5e-09,
+          "end_s": 1e-08,
+          "amplitude": 900000000.0,
+          "phase_rad": 2.0
+        },
+        {
+          "mode": 2,
+          "start_s": 9.5e-09,
+          "end_s": 1.2e-08,
+          "amplitude": -1000000000.0,
+          "phase_rad": 0.2
+        }
+      ]
+    },
+    {
+      "case": "mixed_history",
+      "initial_seed": null,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [
+        {
+          "mode": 0,
+          "start_s": 5e-10,
+          "end_s": 2.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.0
+        },
+        {
+          "mode": 1,
+          "start_s": 2e-09,
+          "end_s": 4e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.3
+        },
+        {
+          "mode": 2,
+          "start_s": 3.5e-09,
+          "end_s": 5.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 1.1
+        },
+        {
+          "mode": 0,
+          "start_s": 6e-09,
+          "end_s": 8e-09,
+          "amplitude": -800000000.0,
+          "phase_rad": 0.7
+        },
+        {
+          "mode": 1,
+          "start_s": 7.5e-09,
+          "end_s": 1e-08,
+          "amplitude": 900000000.0,
+          "phase_rad": 2.0
+        },
+        {
+          "mode": 2,
+          "start_s": 9.5e-09,
+          "end_s": 1.2e-08,
+          "amplitude": -1000000000.0,
+          "phase_rad": 0.2
+        }
+      ]
+    }
+  ],
+  "thresholds": {
+    "Q_continuum": 0.01,
+    "frequency_continuum": 0.01,
+    "fit_window_Q": 0.01,
+    "paired_complete_state_energy_norm": 0.01,
+    "sampled_source_energy_closure": 1e-07
+  },
+  "scope": "16 ns, 64-RL full-state; impressed distributed currents, not actual feed ports"
+}

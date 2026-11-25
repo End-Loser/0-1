@@ -1,0 +1,123 @@
+{
+  "solver": "ahkab",
+  "version": "0.18",
+  "license": "GPL-2.0",
+  "url": "https://github.com/ahkab/ahkab",
+  "analyses": "nonlinear DC operating points",
+  "scope": "Static hypothetical diode circuit, not 3 GHz RF or EM/circuit co-simulation",
+  "calibration_output_current_A": 1.0000000000000012e-06,
+  "nominal_input_unit_A": 1e-06,
+  "nominal_diode_IS_A": 1e-12,
+  "nominal_diode_N": 1,
+  "nominal_temperature_K": 300,
+  "solver_runs": 1779,
+  "scenarios": [
+    {
+      "scenario": "ideal_matched_multiply",
+      "operation": "multiply",
+      "parameters": {},
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "maximum_absolute_error": 0.00019599982917384295
+    },
+    {
+      "scenario": "ideal_matched_divide",
+      "operation": "divide",
+      "parameters": {},
+      "cases": 240,
+      "passed": 240,
+      "accuracy": 1.0,
+      "maximum_absolute_error": 3.2499985644918183e-06
+    },
+    {
+      "scenario": "diode_RS_1_ohm",
+      "operation": "multiply",
+      "parameters": {
+        "series_resistance": 1
+      },
+      "cases": 256,
+      "passed": 222,
+      "accuracy": 0.8671875,
+      "maximum_absolute_error": 1.6850518609618916
+    },
+    {
+      "scenario": "diode_RS_10_ohm",
+      "operation": "multiply",
+      "parameters": {
+        "series_resistance": 10
+      },
+      "cases": 256,
+      "passed": 137,
+      "accuracy": 0.53515625,
+      "maximum_absolute_error": 15.198385056842767
+    },
+    {
+      "scenario": "output_N_plus_0_1_percent",
+      "operation": "multiply",
+      "parameters": {
+        "output_ideality": 1.001
+      },
+      "cases": 256,
+      "passed": 106,
+      "accuracy": 0.4140625,
+      "maximum_absolute_error": 4.281720858261195
+    },
+    {
+      "scenario": "reference_current_plus_1_percent",
+      "operation": "multiply",
+      "parameters": {
+        "reference_scale": 1.01
+      },
+      "cases": 256,
+      "passed": 146,
+      "accuracy": 0.5703125,
+      "maximum_absolute_error": 2.227914635751887
+    },
+    {
+      "scenario": "all_diodes_310_K",
+      "operation": "multiply",
+      "parameters": {
+        "temperature": 310
+      },
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "maximum_absolute_error": 0.0008695120125423728
+    }
+  ],
+  "max_ideal_shockley_benchmark_error_A": 2.482822974991805e-17,
+  "netlist_round_trip_checks": [
+    {
+      "operation": "multiply",
+      "netlist": "diode_multiply_example.cir",
+      "output_current_A": 1.4999992000007024e-05,
+      "difference_from_API_current_A": 0.0
+    },
+    {
+      "operation": "divide",
+      "netlist": "diode_divide_example.cir",
+      "output_current_A": 1.6666671111109769e-06,
+      "difference_from_API_current_A": 0.0
+    }
+  ],
+  "compatibility": "Legacy scipy.signal window names alias scipy.signal.windows only.",
+  "ideal_elements": [
+    "Three unity-gain linear VCVS buffers",
+    "Zero-ohm current sensor",
+    "Ideal input/reference current sources"
+  ],
+  "excluded": [
+    "Junction capacitance",
+    "Transit time",
+    "Finite bandwidth and supply rails",
+    "Antenna coupling",
+    "EM feedback",
+    "Division-by-zero detection"
+  ],
+  "dependency_versions": {
+    "ahkab": "0.18",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1"
+  }
+}

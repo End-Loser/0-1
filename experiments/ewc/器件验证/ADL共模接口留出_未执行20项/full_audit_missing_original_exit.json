@@ -1,0 +1,8 @@
+﻿{
+    "returncode":  1,
+    "timestamp":  "2026-11-18T09:23:49.9367258+08:00",
+    "stdout_sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "stderr_sha256":  "CCB4A95FF06E78AC23EFA9ED4B0FAB6D8479035577C85BB81BDD0EBCAE418591",
+    "original_recovered":  false,
+    "full_audit_passed":  false
+}

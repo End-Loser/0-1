@@ -1,0 +1,11 @@
+{
+  "role": "drift negative evidence, preserved verbatim (ledger rule 5)",
+  "preserved_at": "2026-11-18T18:42:05+08:00",
+  "path_at_capture": "d:\\work\\trae_cn\\电磁波计算机构想\\器件验证\\真实参考供电联接\\batch_audit.json",
+  "captured_bytes": 20261,
+  "captured_sha256": "ba1aa793d55bc33190964583f7ea99996f51d8ae4e45be8392e9c61c44a884ba",
+  "why_not_authoritative": "produced by audit_batches.py in-place overwrite (:65) after %TEMP% cache loss changed retained_partial (:49)",
+  "authoritative_restore_source": "EWC_project_full_20261118_100850.zip -> 电磁波计算机构想/器件验证/真实参考供电联接/batch_audit.json",
+  "authoritative_sha256": "810621ab81f25f79e93ff1576b4487721f52676e3a4de256b967b88bf5792d5c",
+  "pinned_by": "器件验证/参考节点去耦/summary.json previous_device_evidence_sha256"
+}

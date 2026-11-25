@@ -1,0 +1,34 @@
+test_config_is_frozen (tests.BudgetTests.test_config_is_frozen) ... ok
+test_discards_count (tests.BudgetTests.test_discards_count) ... ok
+test_eight_full_slots (tests.BudgetTests.test_eight_full_slots) ... ok
+test_first_batch_alignment (tests.BudgetTests.test_first_batch_alignment) ... ok
+test_invalid_configuration (tests.BudgetTests.test_invalid_configuration) ... ok
+test_multiple_dac_updates (tests.BudgetTests.test_multiple_dac_updates) ... ok
+test_one_percent_active_interval (tests.BudgetTests.test_one_percent_active_interval) ... ok
+test_rate_rounds_up (tests.BudgetTests.test_rate_rounds_up) ... ok
+test_slow_hardware_expands_budget (tests.BudgetTests.test_slow_hardware_expands_budget) ... ok
+test_unknown_inputs_block (tests.BudgetTests.test_unknown_inputs_block) ... ok
+test_unknown_lower_bounds (tests.BudgetTests.test_unknown_lower_bounds) ... ok
+test_archive_verifies (tests.EvidenceTests.test_archive_verifies) ... ok
+test_raw_hash_tamper (tests.EvidenceTests.test_raw_hash_tamper) ... ok
+test_self_consistent_hash_budget_tamper (tests.EvidenceTests.test_self_consistent_hash_budget_tamper) ... ok
+test_self_consistent_hash_hardware_claim_tamper (tests.EvidenceTests.test_self_consistent_hash_hardware_claim_tamper) ... ok
+test_self_consistent_hash_rejection_tamper (tests.EvidenceTests.test_self_consistent_hash_rejection_tamper) ... ok
+test_self_consistent_hash_sample_tamper (tests.EvidenceTests.test_self_consistent_hash_sample_tamper) ... ok
+test_all_counterexamples_match_oracle (tests.ProtocolTests.test_all_counterexamples_match_oracle) ... ok
+test_dac_settle_starts_after_spi (tests.ProtocolTests.test_dac_settle_starts_after_spi) ... ok
+test_fault_idempotent_and_no_direct_run (tests.ProtocolTests.test_fault_idempotent_and_no_direct_run) ... ok
+test_fault_recovery_all_phases (tests.ProtocolTests.test_fault_recovery_all_phases) ... ok
+test_first_conversion_cannot_skip_slot (tests.ProtocolTests.test_first_conversion_cannot_skip_slot) ... ok
+test_kept_samples_are_per_point (tests.ProtocolTests.test_kept_samples_are_per_point) ... ok
+test_long_spi_and_delayed_events (tests.ProtocolTests.test_long_spi_and_delayed_events) ... ok
+test_nominal_and_oracle (tests.ProtocolTests.test_nominal_and_oracle) ... ok
+test_nonfinite_time_and_read (tests.ProtocolTests.test_nonfinite_time_and_read) ... ok
+test_snapshot_has_no_alias (tests.ProtocolTests.test_snapshot_has_no_alias) ... ok
+test_stale_token_after_reset_at_same_point (tests.ProtocolTests.test_stale_token_after_reset_at_same_point) ... ok
+test_two_cycles_and_freeze (tests.ProtocolTests.test_two_cycles_and_freeze) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 2.315s
+
+OK

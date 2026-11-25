@@ -1,0 +1,123 @@
+{
+  "independent_evidence_verification_pass": true,
+  "runs": [
+    {
+      "id": "ref_6V_2mA",
+      "reproduced_status": "pass",
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true
+      },
+      "output_error_V": 0.0024080351818840384,
+      "off_window_range_V": null,
+      "load_current_error_A": 0.0,
+      "upstream_resistor_error_A": 1.7763568394002505e-14,
+      "capacitor_integral_relative_error": 8.397118321124627e-13,
+      "capacitor_integral_1percent_passed": true
+    },
+    {
+      "id": "ref_line_step",
+      "reproduced_status": "pass",
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true
+      },
+      "output_error_V": 0.0024082682924637666,
+      "off_window_range_V": null,
+      "load_current_error_A": 0.0,
+      "upstream_resistor_error_A": 1.7351897696471497e-11,
+      "capacitor_integral_relative_error": 2.114375261231413e-06,
+      "capacitor_integral_1percent_passed": true
+    },
+    {
+      "id": "ref_load_step",
+      "reproduced_status": "pass",
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true
+      },
+      "output_error_V": 0.002125311690061693,
+      "off_window_range_V": null,
+      "load_current_error_A": 1.3019099687205937e-15,
+      "upstream_resistor_error_A": 2.4868995751603507e-14,
+      "capacitor_integral_relative_error": 3.036427784499624e-06,
+      "capacitor_integral_1percent_passed": true
+    },
+    {
+      "id": "ref_5V_headroom",
+      "reproduced_status": "fail",
+      "checks": {
+        "output_screen": false,
+        "input_headroom": false
+      },
+      "output_error_V": 0.11310765294587366,
+      "off_window_range_V": null,
+      "load_current_error_A": 0.0,
+      "upstream_resistor_error_A": 2.1316715753672e-14,
+      "capacitor_integral_relative_error": 3.543982660215523e-13,
+      "capacitor_integral_1percent_passed": true
+    },
+    {
+      "id": "ldo_5V_50mA",
+      "reproduced_status": "fail",
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true,
+        "enable_discharge": false
+      },
+      "output_error_V": 0.01241563233560683,
+      "off_window_range_V": [
+        0.06674868219869036,
+        0.3764904908498813
+      ],
+      "load_current_error_A": 2.168404344971009e-14,
+      "upstream_resistor_error_A": 2.4875934645507414e-14,
+      "capacitor_integral_relative_error": 0.000490059307381274,
+      "capacitor_integral_1percent_passed": true
+    },
+    {
+      "id": "ldo_load_step",
+      "reproduced_status": "fail",
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true,
+        "enable_discharge": false
+      },
+      "output_error_V": 0.04686004745545569,
+      "off_window_range_V": [
+        0.06657820518132247,
+        0.3755293948002503
+      ],
+      "load_current_error_A": 8.679168495007161e-14,
+      "upstream_resistor_error_A": 2.4924506902834764e-14,
+      "capacitor_integral_relative_error": 0.0004469260665365043,
+      "capacitor_integral_1percent_passed": true
+    },
+    {
+      "id": "ldo_3V3_headroom",
+      "reproduced_status": "fail",
+      "checks": {
+        "output_screen": false,
+        "input_headroom": false,
+        "enable_discharge": false
+      },
+      "output_error_V": 0.08494572796472788,
+      "off_window_range_V": [
+        0.06527604756866177,
+        0.3681804932739763
+      ],
+      "load_current_error_A": 2.1680574002758135e-14,
+      "upstream_resistor_error_A": 1.9546864127306662e-14,
+      "capacitor_integral_relative_error": 0.0021236969323712366,
+      "capacitor_integral_1percent_passed": true
+    }
+  ],
+  "solver_attempts_initial": 7,
+  "solver_attempts_instrumented": 7,
+  "initial_export_failures_preserved": true,
+  "regulator_quiescent_current_modeled": false,
+  "complete_power_chain_passed": false,
+  "datasheet_all_conditions_passed": false,
+  "summary_sha256": "316a7b4a91edd69f4b4a98f6cc572c9fc13bcb4f9ec82e998bff79bc57d2e4d5",
+  "verifier_sha256": "c77752aea6e3d9fc42e0a28d27bbb9623af727f532d3f8391152cfada1c7e28f"
+}

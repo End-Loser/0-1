@@ -1,0 +1,282 @@
+"""Render the ninth-round report from independently verified measurements."""
+
+import argparse
+import csv
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+
+
+def read_csv(path):
+    with path.open(encoding="utf-8-sig") as stream:
+        return list(csv.DictReader(stream))
+
+
+def main(folder):
+    summary = json.loads((folder / "gain_calibration_summary.json").read_text(encoding="utf-8"))
+    verified = json.loads((folder / "gain_calibration_verification.json").read_text(encoding="utf-8"))
+    assert verified["data_integrity"] == "PASS"
+    previous = json.loads((ROOT / "第八轮结果" / "reliability_summary.json").read_text(encoding="utf-8"))
+    costs = verified["costs"]
+    table, drift_table, uncertainty = [], [], []
+    for cost in costs:
+        label = cost["profile"]
+        old = next(p for p in previous["profiles"] if p["profile"] == label)
+        before = old["minimum_passing_grid_period_ns"]
+        before_text = f"{before} ns" if before is not None else "80 ns仍失败"
+        table.append(f"| {label} | {cost['trim']:.6f} | {cost['static_before']}/8→"
+                     f"{cost['static_after']}/8 | {before_text} | {cost['minimum_grid_period_ns']} ns | "
+                     f"{cost['power_mW']:.3f} | {cost['energy_per_slot_pJ']:.2f} | "
+                     f"{cost['training_energy_pJ']:.2f} |")
+        drift_table.append(f"| {label} | {cost['largest_tested_contiguous_residual']*100:g}% | "
+                           f"−{cost['static_cancel_loss_last_passing']*100:g}% | "
+                           f"+{cost['static_cancel_increase_last_passing']*100:g}% |")
+        record = next(t for t in summary["training"] if t["profile"] == label)
+        numerator = 2*sum(record["second_steps_V"])/3
+        denominator = record["cancellation_response_V"]
+        # Every measured voltage has an assumed bounded error of 0.5 mV.
+        bound = (1+4*.0005/numerator)/(1-2*.0005/denominator)-1
+        uncertainty.append(bound)
+    failed = read_csv(folder / "calibration_static.csv")
+    before_failure = [r for r in failed if r["mode"] == "before" and r["correct"] != "True"]
+    failure_text = "\n".join(
+        f"- `{r['profile']}`，`{r['state']}`：校准前和位{float(r['sum_V']):.6f} V，"
+        f"期望{r['expected_sum']}；校准后同状态通过。"
+        for r in before_failure)
+    minimum = min(c["largest_tested_contiguous_residual"] for c in costs)
+    corner_cases = [c for c in summary["cases"] if c["scope"] == "residual_corner"]
+    primary_cases = [c for c in summary["cases"] if c["scope"] == "primary"]
+    cross_cases = [c for c in summary["cases"] if c["scope"] == "crosscheck"]
+    corner_passed = sum(c["passed"] for c in corner_cases)
+    cross_passed = sum(c["passed"] for c in cross_cases)
+    corner_min_margin = min(c["minimum_late_margin_V"] for c in corner_cases)
+    max_diff = max(c["max_output_difference_V"] for c in verified["numerical_comparisons"])
+    max_energy_diff = max(c["energy_relative_difference"] for c in verified["numerical_comparisons"])
+    training_span = max(s[k] for t in summary["training"] for s in t["rail_spans"]+t["training_spans"]
+                        for k in ("carry", "carry_input", "sum_input", "cancel"))
+    acceptance = "通过" if summary["acceptance"] else "未通过"
+    report = f"""# 第九轮：独立增益标定、静态错误修复与重校准边界
+
+## 1. 结论
+
+**在既有单比特基带代理模型中，独立校准可修复第八轮的10%和15%复合偏差静态错误。**
+校准前正确状态60/64，校准后64/64；原先通过的六个工况全部保持8/8静态正确。
+全部参数由已知训练信号确定，随后冻结；真值仅用于测试验收，不用于选择或修改增益。
+
+本轮有限模型验收：**{acceptance}**。
+明确测试范围是：六条有效正向路径和完整抵消系数，各自独立的额外相对残余误差±1%；
+每个工况的供电、阈值、器件条件保持不变；指定1 ns边沿和64种有向跳转序列，
+四个包络端点工况采用80 ns状态周期及三组数值设置交叉检查。
+这些96组端点瞬态共{corner_passed:,}/{len(corner_cases)*130:,}个输出检查通过，
+最低末段电平裕量{corner_min_margin:.6f} V。
+
+**不是完整电磁系统、误差连续区间内所有瞬态、所有输入历史或真实测量/调增益硬件的可靠性证明。**
+直流误差包络与有限瞬态测试的证据等级不同，不能混为“实物在±1%内100%正确”。
+本轮未运行4位串行、并行或数字加法器联合仿真，没有给出性能优劣排名。
+
+## 2. 校准如何避免按答案调参
+
+仅增加`cancellation_trim`，默认为1，既有电路默认网表不变，回归检查为PASS。
+计算电路保留实际MOS进位输出经RC支路驱动抵消，没有布尔进位源。
+初始FDTD拟合系数继续作为既有代理电路的参数化输入；本轮没有新增FDTD。
+
+校准分两段：
+
+1. 输入已知训练状态`000 → 111`，记录真实进位输出的低、高电平。读模拟电压，不根据正确和位调整。
+2. 用理想校准开关，将这两个已测电平送入原抵消RC支路。
+   输入`000 / 100 / 010 / 001 / 000 / 000`，前五段注入低电平，最后一段注入高电平。
+   测量第一阶段和第二阶段的三条单位路径增量，以及第二阶段的高低电平抵消响应。
+3. 固定计算规则：
+
+\\[
+g_{{trim}} =
+\\frac{{2\\;\\mathrm{{mean}}(\\Delta V_{{sa}},\\Delta V_{{sb}},\\Delta V_{{sd}})}}
+{{V_{{s,low}}-V_{{s,high}}}}
+\\]
+
+目标是让进位高低电平之间的抵消量等于第二阶段平均两个逻辑单位，
+而不是对某个算错状态搜索最优值。所有工况使用同一个公式；假设可调范围0.5～2。
+公式只修正一个总体抵消系数，不逐路径归一化，也不修正阈值。
+所以校准后仍有路径不对称和阈值裕量限制，残余误差过大仍会失败。
+
+八个工况各自先校准再计算，不是用一个名义参数应对所有不同硬件条件。
+冻结后漂移扫描不会重新校准；计算网表中不存在校准注入源`Vprobe`。
+
+## 3. 原失败工况与回归
+
+{failure_text}
+
+各工况在校准后重新扫描`10 / 15 / 20 / 30 / 40 / 50 / 60 / 80 ns`。
+候选周期指该网格最低通过点，不是连续频率的保证上限。
+供电功率和单周期能量取候选周期100 ps梯形法。
+
+| 工况 | 固定增益修正 | 静态正确数 | 校准前最低周期 | 校准后最低周期 | 局部功率mW | 单状态能量pJ | 一次训练局部能量pJ |
+|---|---:|---:|---:|---:|---:|---:|---:|
+{chr(10).join(table)}
+
+校准后候选周期三组交叉检查共{cross_passed:,}/{len(cross_cases)*130:,}输出检查通过。
+“不退化”在这里指原通过工况仍静态正确，并重新取得通过的稳定窗口；
+功率、过渡毛刺和建立时间可能变化，不能解释为所有指标都不变。
+修复前失败工况的低功率包含错误状态，不能作为有效计算能耗基准。
+
+## 4. 残余误差：不是只修好几个输入
+
+残余误差定义为标定后额外变化，不是第八轮原始10%/15%参数偏差的同义词：
+
+- 第一阶段三条路径系数独立变化±δ。
+- 第二阶段三条正向路径系数独立变化±δ。
+- 完整负向抵消系数独立变化±δ，不再把第二阶段D路径误差与抵消误差重复相乘。
+- 供电、参考电压、器件模型和温度在每个已定义工况内固定。
+
+扫描δ=`0 / 1% / 2% / 3% / 5% / 7.5% / 10%`，保留通过和失败点。
+每个δ、每个工况运行四个全局包络端点的全部8个静态状态，共32个状态检查。
+在**直流传递单调、正向路径为正、抵消系数为负、进位输出非负**的结构假设下：
+第一阶段输入的上下界分别由三路径同时取上下界给出；
+第二阶段上下界由正向路径和抵消系数取相反方向端点给出。
+再分别组合进位路径上下界。这四个端点包络覆盖七个系数的独立误差盒，
+不是仅扫描所有路径同涨同跌。该结构推理是条件性包络论证，没有形式化证明MOS全域单调性。
+
+所有工况的共同直流通过网格范围至少达到±{minimum*100:g}%。
+但瞬态误差端点交叉检查只做到±1%，因此**不把更大的直流范围当成稳定运行范围**。
+四个全局包络端点也不等于128个独立符号角点的全部瞬态；
+时序、内部储能、毛刺和历史依赖不能从直流包络直接推出。
+运行80 ns是本轮残余误差测试的保守统一周期，不宣称它是最快可靠周期。
+
+判据沿用第八轮：期望1至少0.7 Vdd，期望0至多0.3 Vdd；
+每时隙90%采样和末段20%全部已归档点必须同时正确。
+每组65时隙、130个输出检查，覆盖全部64种有向跳转及自跳转。
+未覆盖任意历史顺序、随机噪声和真实采样时钟。
+
+## 5. 重校准边界
+
+冻结参数后，只改变完整抵消系数，相对漂移扫描−30%～+30%、步进1个百分点。
+表中抵消列是从0连续扫描到最后通过的**静态网格点**，
+不是建议运行到这个值，也不是连续边界或其瞬态可靠性证明。
+若最后点小于30%，再向外1个百分点的已测点失败；30%表示只知道扫描范围内未失败。
+
+| 工况 | 最大连续通过直流残余误差网格 | 抵消减弱最后通过点 | 抵消增强最后通过点 |
+|---|---:|---:|---:|
+{chr(10).join(drift_table)}
+
+推荐以总有效残余误差预算1%作为本轮保守控制范围：
+
+1. 需要用已知导频或暂停训练监测路径、抵消响应及进位标准电平。
+2. 校准/调增益误差、漂移、监测误差必须共同计入1%，不能各自占1%。
+3. 若校准初始相对不确定度预算0.5%，乘法误差合成要求
+   `(1+0.005)(1+d)−1 ≤ 0.01`，故后续漂移额度约0.4975%。
+   可以把**0.49%**作为有条件的保守重校准触发值；监测误差必须包含在该额度内。
+4. 任一路径超预算、进位高低电平变化导致等效抵消超预算，
+   或参考/器件/供电条件超出已测工况时，应停止接收计算结果并重新标定、验收。
+
+0.49%是按误差预算推导的建议值，**不是本轮测得的实物传感器精度或漂移速率**。
+若以理想无误差标定为起点，1%是本轮所测端点幅度；
+若要求对整个连续动态误差盒作保证，仍需补充验证。
+没有温漂时间模型，不能给出“每隔多少秒重校准”；若另行测得最坏相对漂移速率r，
+重校准间隔需小于可用漂移额度/r，并留监测间隔和校准期间的漂移余量。
+
+## 6. 修复代价与测量精度
+
+每次校准8个训练时隙，每时隙80 ns，信号采集总时长**640 ns**。
+训练波形的末段路径/抵消电压及进位电平最大跨度约{training_span*1e6:.3f} µV，
+独立核验按5 µV辅助稳定门限检查通过（取后述0.5 mV读数需求的1%）；
+这是有限输出精度下的数值稳定检查，不是测量噪声或ADC精度。
+从初态工作点启动，未测开机、增益编程和校准后重新投入计算的额外等待。
+
+训练能量由两段训练瞬态的Vdd电流积分取得，见上表。
+校准公式的主机耗时归档在`training.json`，不能当成硬件计算延迟。
+实际完整校准时间应为：
+
+`训练采集640 ns + 切换 + ADC读取 + 参数计算/写入 + 恢复等待`。
+
+ADC、导频生成、可调增益器、校准开关和控制器仍理想，没有计入其能量/噪声/延迟。
+只记录局部Vdd供能，输入源、线性叠加/抵消受控源、参考源及RF接口供能未计入。
+因此本轮测到的是修复后的**局部运行开销与训练供电能量**，不是完整标定硬件代价。
+
+作为器件精度需求示例，若每个路径电压读数具有硬上界±0.5 mV，
+分子N和分母D的误差保守界分别为4×0.5 mV及2×0.5 mV，
+则增益修正值相对误差上界可用`(1+4e/N)/(1−2e/D)−1`估计。
+八个工况中该假设下最大约{max(uncertainty)*100:.3f}%。
+这只针对公式的电压读数误差，未包括注入电平精度、增益量化、非线性及漂移。
+“0.5 mV”是需求假设，未验证真实ADC能做到；不能用标称位数代替总误差测量。
+
+若每N次有效状态更新校准一次，局部摊销为：
+
+`平均每状态能量 = 运行单状态能量 + 训练局部能量/N`；
+
+`平均每状态时间 = 运行周期 + 完整校准停机时间/N`。
+
+缺少实测漂移速率及校准硬件成本，不能选择N后宣称系统能效优势。
+
+## 7. 数值与独立核验
+
+实际完成{verified['static_checks']:,}个静态状态求解：
+校准前后128项、残余误差包络1,792项、冻结抵消漂移3,904项。
+另有16段训练瞬态和{len(summary['cases'])}组计算瞬态：
+主周期扫描{len(primary_cases)}组、候选交叉检查{len(cross_cases)}组、
+残余误差端点交叉检查{len(corner_cases)}组。
+计算输出检查共{verified['checked_decisions']:,}项，短周期失败保留，没有筛除。
+
+独立核验为PASS，计算瞬态日志无警告，未调用运行脚本的`measure()`或`train()`：
+
+- 从训练原始波形重算路径增量、抵消响应、冻结增益、采集时长及训练供电积分。
+- 检查全部计算网表不含校准注入源，且六条路径及抵消系数与冻结参数/残余端点一致。
+- 重新计算全部输出真值、采样点、末段窗口、建立时间与局部供电积分。
+- 核对八工况的回归状态数、误差/漂移扫描覆盖及最低通过周期。
+- 检查时间轴、最大步长、有限数组、完整64种跳转。
+
+八个校准后候选周期的100 ps梯形法与50 ps梯形法、100 ps Gear法比较：
+供电积分最大相对差{max_energy_diff*100:.6f}%，
+输出波形最大插值差{max_diff*1000:.3f} mV。
+它是数值可复现性证据，不是严格收敛阶或误差上界。
+残余端点三组求解设置也全部通过，但这里的波形差统计仅针对候选周期。
+
+## 8. 是否进入性能比较
+
+本轮已回答“增益标定能否修复静态算错”：**在明确代理模型内可以，且不是只修好几个状态。**
+有限模型的1%误差端点、80 ns序列测试门槛通过，可以据此设计下一轮4位联合验证。
+但用户要求的“明确误差范围内稳定正确”若指整个连续动态误差盒，
+现有四端点瞬态仍不足以构成完整证明。
+
+因此本轮不做性能排名，也不把`4×单比特周期`当成串行实测，
+不把四单元数量当成并行加速证明。下一轮应先补完整独立角点/更丰富历史的动态测试，
+将通过的可靠性范围、监测精度和重校准预算固定，再测：
+
+1. 4位串行复用：真实进位保持、位间数据搬移、采样和控制等待。
+2. 4位并行：实际进位链或已定义并行结构，不能假设四单元零延迟同步完成。
+3. 同位宽数字加法器：一致供电、输入边沿、负载、正确性窗口及全部输入验收。
+4. 完整局部供能、遗漏接口敏感性和校准摊销，以相同位宽与工作量比较延迟、吞吐和能量。
+
+只有在这一口径下出现有价值的优势，才决定继续投入真实RF接口及工艺模型。
+
+## 9. 数据与复现
+
+- `../run_gain_calibration.py`：已知信号训练、冻结参数、周期/残余/漂移扫描。
+- `../verify_gain_calibration.py`：独立波形核验及代价表。
+- `../report_gain_calibration.py`：按已核验数据生成本报告。
+- `training.json`：所有训练测量、固定参数与假设。
+- `gain_calibration_summary.json`、`gain_calibration_verification.json`：全量摘要与核验。
+- `calibration_static.csv`、`residual_envelopes.csv`、`cancellation_drift.csv`：所有静态通过/失败。
+- `calibration_decisions.csv`、`calibration_case_table.csv`、`calibration_costs.csv`：输出检查及代价。
+- 每段训练和计算的`*.npz`、`*.cir`：完整原始波形与可重跑网表。
+
+```powershell
+$env:PYTHONPYCACHEPREFIX = Join-Path $env:TEMP 'ewc-openems\\pycache'
+$spice = Join-Path $env:TEMP 'ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe'
+python "开源FDTD验证\\run_gain_calibration.py" --executable $spice
+python "开源FDTD验证\\verify_gain_calibration.py"
+python "开源FDTD验证\\report_gain_calibration.py"
+```
+
+以上命令在项目根目录运行。求解器为既有开源ngspice-47，摘要记录可执行文件SHA-256。
+没有修改安全策略、器件求解器或《构想.md》，也没有覆盖第八轮结果。
+"""
+    path = folder / "增益标定修复与可靠运行代价报告.md"
+    path.write_text(report, encoding="utf-8")
+    print(path)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, default=ROOT / "第九轮结果")
+    main(parser.parse_args().output)

@@ -1,0 +1,909 @@
+{
+  "case_count": 12,
+  "cases": [
+    {
+      "case": "dx1_nz8_t0um",
+      "dx_mm": 1.0,
+      "nz": 8,
+      "thickness_um": 0.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": null,
+      "sheet_target_max_relative_real_error": null,
+      "one_sided_thick_wall_max_relative_complex_error": null,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": 0.0,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.0,
+        -0.0
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx1_nz8_t0um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "444caf90ba122cd75cca701ebb3b5bc9a2eb730c4810f05c2d590c475039707b"
+        },
+        {
+          "name": "ht",
+          "sha256": "4885ac8012d3e33dcb2117587924f6878e37c6765308c64900388e75668de21a"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "246ba39f3c39524808e1f4aff41696d7684806357c1e8ab1f88d83fcd42ac3da"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "01f48920496cf11c23ac8d4b1de6b048af4f686cd2e9f334c0cdd060367c4498"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "b6d0b8d867ca5f518f27966c1f0b8b60d28ba65689fa4a4ba6d6fa425587c07b"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "3c0b5aaf15ee0e290cc24e15349790e433655a254dc58557449fb1798b496bb1"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "e7724f893261d6c203d5f5d3faa85325ba7d39af4a810c3bc6c258212a7204f4"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "b7328017d74f55fe2e1698bbb22329c1d32214a05d69af08d9401127f5d55f14"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "010396af33bfe5a268f86af2c8dabd089b2bdfd296b0c39ddfea09a27f7d5a6d"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "12237118a39248bb91c8c3544b28d1e1aeffaca4e72ab4d44ea686a885cf97d0"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "20aa605e13c3ca42c197dbfc7a79df794a7a86619009246d980a7fe490bf4274"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "83e24106962110b6ee2a5f183712749e1260ce96b70d5e582ce5dfa34b086a1e"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "7d378404a1007dfa6584358355562511fbd2e828a56c2a8c38e065a429a996ab"
+        }
+      ]
+    },
+    {
+      "case": "dx1_nz8_t2um",
+      "dx_mm": 1.0,
+      "nz": 8,
+      "thickness_um": 2.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.07515572460139737,
+      "sheet_target_max_relative_real_error": 0.010799839925422106,
+      "one_sided_thick_wall_max_relative_complex_error": 0.6056197190096339,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.008967415019963669,
+        0.0032537906098240358
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx1_nz8_t2um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "444caf90ba122cd75cca701ebb3b5bc9a2eb730c4810f05c2d590c475039707b"
+        },
+        {
+          "name": "ht",
+          "sha256": "4885ac8012d3e33dcb2117587924f6878e37c6765308c64900388e75668de21a"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "ae1c16165ee1175ba6d0183293dcb4df9b6610036194d1a9495b8a0cb182a082"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "1bf8301cf000f492efd482edfcc5d180276960efe2a5bf587bb99ee681f25da2"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "640bb0fc018b80c15f82ee243910aca01eaba432f00795a765dfcbe5cc9a1df1"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "9a3dcf83ac518b7fc97896c84b493b4d804ecdb6b63c9ad921c61afb6cf18fe2"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "cc5a8d53a655e72b1255aa0cfff2d111c103303ade3b013f24ade81d237c4b5b"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "864372850adadf032eefa6922993f7b20b923aeedd097d7f77da10409a8f04be"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "ef017f4f960283a61c0af736842ac5c7f5824b405577f0489ec1d13eaff936c1"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "307a1f3c37cb93fe2be1a4da9cc55ce4fef9dc908429b665acbe7f439f601a1e"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "8bb7e3dfe6d43e84f1d89f39190d28d785dfcca2c893e3e41bf6bc7ea1150641"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "020162a61c65d2338278d9e1411f6e2991c0093bbb23408a5320cc9b1b7e424d"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "aa5e2e9b8184fb92040616074a9985d25741abb528fdf7912f030d79858f78ed"
+        }
+      ]
+    },
+    {
+      "case": "dx1_nz8_t35um",
+      "dx_mm": 1.0,
+      "nz": 8,
+      "thickness_um": 35.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.3221904770113043,
+      "sheet_target_max_relative_real_error": 0.007728931156623542,
+      "one_sided_thick_wall_max_relative_complex_error": 0.6228278972918122,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.007143666035645408,
+        0.004166458675621276
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx1_nz8_t35um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "444caf90ba122cd75cca701ebb3b5bc9a2eb730c4810f05c2d590c475039707b"
+        },
+        {
+          "name": "ht",
+          "sha256": "4885ac8012d3e33dcb2117587924f6878e37c6765308c64900388e75668de21a"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "2952cde249eaa4d5b7729f05455ec890171559cac8cf9b87dfa4308584583519"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "afaecafefcec33860ae61df035100382545702f764a717ef7cf8f3f4a253bbbf"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "20a61e66548991d0a667648caeab55d19a9555a2fdd72094015f964a9c93fd75"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "9242ad27ff51ff8aaf6051cbba1a64a8670cc0ba1c187f2a90f55bb7e923ae20"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "38ecd5bb9b9209161bd7b34a208046efcca1f455e913c0849ef94d16f872e01a"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "005df3608d4045b4b359b94ab2dd71e802688e06b192d462f5b3108a39943356"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "a9f9790d8364b3128ee9247c264cbac4dc3f9f7e2f216c8caaa2fadf1eb910b8"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "5e81f4032af2a11c5122f190ae4292379b066f37039c140c514ac65007c499ba"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "5af6d0774eeb7c3eaabbb9ce5cc1fcf3da7d28c1f15126be2f726cbecddd91c5"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "af645f479cbc57015042b0476c350aee2cbb788dc2256af31717f81a87c9ae26"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "abadc2c1ff019c3e6b85c58ff9a8d17ff7f1b5f0ff2c37be2a249142ab736d67"
+        }
+      ]
+    },
+    {
+      "case": "dx0.5_nz8_t0um",
+      "dx_mm": 0.5,
+      "nz": 8,
+      "thickness_um": 0.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": null,
+      "sheet_target_max_relative_real_error": null,
+      "one_sided_thick_wall_max_relative_complex_error": null,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": 0.0,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.0,
+        -0.0
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx0.5_nz8_t0um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "2178bcd1a1a77ae0574597203378b88c8928c612e68bf324454ea3f763b4804f"
+        },
+        {
+          "name": "ht",
+          "sha256": "6c17c927593dccc04f6af4d42467185935ec14a90338b06d8e07bcd6468ec531"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "7f522fdd7816fdfeb157067c60488acf0a625e472d491a867e1c68e5bd4514b4"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "ab0e98188439979a02db0d9e4f372cc0f1a289db88b58e3eea05ee1564d7d622"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "54684fd32dd80ebc6d0c092278178c11acffd6f2e4274db7a19115db9560408c"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "940dc0c8aa4781dde58fd2c58d1635bdf4782101827127aa8eac68ac469ca951"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "3f8fdd55f0d262340ddeff39915eb8a9e700f83a089bf6381832a43bd79b3387"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "e74d93e90cabe82e1903560143a4b8dbcf4de7c4c0bbac8064293942b2a75c57"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "00a2116dcc88f3edcc1afc3333a879c7ae11fa9c16b475bfe9271af28476967d"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "5b2b284e66f1b8b904a8b155021f9ff59adf9ac5652a56b140829f565570fb73"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "0a6bcb0c8c006943ff567357ffe5ff425ca1e44fd3176afb17dbd3ece7a2248f"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "028063b4786ff22b07ebf2131da94fc1aad0951153189fee85e9f3d3d55d7b7e"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "6350b18b565cea2b9abcd047551c5a1c942c159b936b0b0455c3ff031990fb79"
+        }
+      ]
+    },
+    {
+      "case": "dx0.5_nz8_t2um",
+      "dx_mm": 0.5,
+      "nz": 8,
+      "thickness_um": 2.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.06882935777969361,
+      "sheet_target_max_relative_real_error": 0.004264713411848531,
+      "one_sided_thick_wall_max_relative_complex_error": 0.6045415274688934,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.008924599723769576,
+        0.003304986002655445
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx0.5_nz8_t2um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "2178bcd1a1a77ae0574597203378b88c8928c612e68bf324454ea3f763b4804f"
+        },
+        {
+          "name": "ht",
+          "sha256": "6c17c927593dccc04f6af4d42467185935ec14a90338b06d8e07bcd6468ec531"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "344ab26b39f07430202cc37492fe06ae345cef0936b72ecea1dc10fb138bd257"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "5a3ec3355240f6b4b5fecf9fe11ab88887191fa0c7b368a2e4d8615e00a13764"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "0041188bbfc055386899e90774bc7063719dd9f938aafa75967547619f795a88"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "94460cafd8b1121cf795377a6fb86aff3f08f252a25b68ad1c6375a6ff1317f5"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "a715df2bcea6e00e927b9cc12f36fceceab14ee2ded40f4525114f880126c1e1"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "e3bbf3cce0434bb1ce462d07581f9797a56ad2c862abead65e4b97167914b5b8"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "ddbc72977caa86db034a56d111f9f71c64dcf40c8a46860113b61716521a30d1"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "a3ec8cc9a4c52ca8fa5e485e1d6465d3a6797c54544e91ade2e6b70f17fcf5e9"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "6efdb91377c345af21a554ff30544c4a092a30fa106f46b87170b7d7445acfe6"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "fa12592c0a0dcaca3cea9d1894769b82fbd64c3b5e5eec0347438fcfebe0d8c1"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "a46d627784571b08b19cb16048b37e45e042b3244327321756561b93cc4cab20"
+        }
+      ]
+    },
+    {
+      "case": "dx0.5_nz8_t35um",
+      "dx_mm": 0.5,
+      "nz": 8,
+      "thickness_um": 35.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.32155493498727405,
+      "sheet_target_max_relative_real_error": 0.00617766575851153,
+      "one_sided_thick_wall_max_relative_complex_error": 0.62288146893194,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.007134378565284953,
+        0.004171042326307513
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx0.5_nz8_t35um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "2178bcd1a1a77ae0574597203378b88c8928c612e68bf324454ea3f763b4804f"
+        },
+        {
+          "name": "ht",
+          "sha256": "6c17c927593dccc04f6af4d42467185935ec14a90338b06d8e07bcd6468ec531"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "135610371e5d6d8b99cc3bf90b139e3dd27b70be01e3070ac25f3c06e60b9137"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "1d2999330ebbb999d81ca3fe2eee8e13fec6eae61763c18671ab1c1eb108182e"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "62c197eb5ae871d225e21f8c042b232eebaf2b8f3af5e6f3ed142e3c5944c4ea"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "7cf216aac2aa5f4b7abab5a017753db5a204f1f553ddacea81f1e69aa91779a2"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "9dfee6e27fb85f7794d06bbcf284caae9d9d2eb13b0a8c1f9d35e14021bcd588"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "2390cb5dc0a4f23aface9faee504070650952a1a9d722d9815822d9cb3e102d2"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "70479d567f58e7f5a2fbedbeccd021f24dcccf6e0f327cace0134ec0b1af69a5"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "e3a606049472a16f8e58fae812d6fcad2b9c039f6b863a6852a74764f11fd89e"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "3fbca6cdc7778439d9e84d6face42ff1fd7313085531baab91b1031c45bef762"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "3a10f04d25a98a4f4235b87890a436da961ae0e970319d5a195dde8beb9d5262"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "6a3be8cc6f0cdf37cd7410eca92da2d571e84c9e839dff1da5bd6e04f655c55d"
+        }
+      ]
+    },
+    {
+      "case": "dx1_nz16_t0um",
+      "dx_mm": 1.0,
+      "nz": 16,
+      "thickness_um": 0.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": null,
+      "sheet_target_max_relative_real_error": null,
+      "one_sided_thick_wall_max_relative_complex_error": null,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": 0.0,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.0,
+        -0.0
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx1_nz16_t0um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "a0406af4d1f3f1a5c3678757b2505b54a0ea077c21170e08cb91a70b21096fab"
+        },
+        {
+          "name": "ht",
+          "sha256": "7a49b5b90dd4e113e0729a81a9c87ef511f695dea049f71e9e66b897a478fee2"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "c059a5e9376646e5ff0001f2c513d3c6783c5da67ad33d8e2f16f4516e78a141"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "52dd1fe40e243b0d26cf1a44d5f617c74be194c4bb3b2682ca26a052c190506c"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "d77dad62a8959f5678c42d6942df86030c9f9b50bcb662b791d3105c5c5ff30c"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "92b0d1ae8b990511e47f6af156742b5534719f195d813e6505d05e1b97688791"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "97d37887c5b8cfc71fb4b169d9258017a15deacaadf56e6af069ce5c2e67231f"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "2d8dba240a7ba9cb19dfae907712149209a870a11614fb23c4cea0592c4d39ce"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "0270e8c1ba0c0d62fbf228495f5fbb2eb1f776475e1838bb6656801a95de3d1c"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "1eda01db501671b3d788175b72a9df21d73fb5eec0a5047d01bcb080cab73cc2"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "48fbdfc4ee8a2b438b96c1521852cf96f1d126ed0c8fa990f02cfb8a0d51105b"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "c33803ca83a0bf73ae5812f989f8db1c6329b3635a4aff35dc0e2b65977a71f8"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "ef46449a16feebe2da7ab37d187fb378bc0438ab82b42b5346b98385b4a22e6a"
+        }
+      ]
+    },
+    {
+      "case": "dx1_nz16_t2um",
+      "dx_mm": 1.0,
+      "nz": 16,
+      "thickness_um": 2.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.0698405629693935,
+      "sheet_target_max_relative_real_error": 0.005354199667719106,
+      "one_sided_thick_wall_max_relative_complex_error": 0.604713260032671,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.008931733865103183,
+        0.0032965494638944877
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx1_nz16_t2um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "a0406af4d1f3f1a5c3678757b2505b54a0ea077c21170e08cb91a70b21096fab"
+        },
+        {
+          "name": "ht",
+          "sha256": "7a49b5b90dd4e113e0729a81a9c87ef511f695dea049f71e9e66b897a478fee2"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "c592153e27a28a0dff6104bcfd68f460c59dae261c5bd3bb1349e622fca36c69"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "b0cda6b95b49919915a416c9c3164534c219a189d61f890877782294df740963"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "92a42c169095f5fb9152dab9d1a4f695bcb3befe8368a34df7357236231e01e9"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "614e546478e2131890e8e994ecd592a1f8501dfe5bd48e4dc98cb2f7e0c724bf"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "20e627018bfce3322e6afc1651ba914577668e8050f06b046be05c1c27f6b99d"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "5e8bfa8584a3b90ae3d264f124d554de26b2edb77dd1a33dcf19c17c721de9c4"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "23a2207770673d08c5355d5c81e2b89953000cf91b57d793b36367a0e4ed7afc"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "d48e4f3fcb8adcb294b340f638ce67c68e6c86458d68350eb3a1455fbe4ed2fb"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "25143dcef13a543109daa83cf07d2a5af537c27364131310e0559268c0377e17"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "0160e8c3f544ea8066fbf58f2745bafb03e9f6b5aa8dcfec58c51a5a3e9f26af"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "9fa25fb9d5bbcf9d6f505470c171cbd0c93bfd3c7e1160e97480a332862c4954"
+        }
+      ]
+    },
+    {
+      "case": "dx1_nz16_t35um",
+      "dx_mm": 1.0,
+      "nz": 16,
+      "thickness_um": 35.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.3216585945768444,
+      "sheet_target_max_relative_real_error": 0.006434030095482157,
+      "one_sided_thick_wall_max_relative_complex_error": 0.6228721105623908,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.007135914933331353,
+        0.004170289393100052
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx1_nz16_t35um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "a0406af4d1f3f1a5c3678757b2505b54a0ea077c21170e08cb91a70b21096fab"
+        },
+        {
+          "name": "ht",
+          "sha256": "7a49b5b90dd4e113e0729a81a9c87ef511f695dea049f71e9e66b897a478fee2"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "559fd2b263598296a5c7394a6f65caa5a901da99e98a6a90c0563bcf2b060a5a"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "96c5a2f769802c9badacd8976f2ca768f6229fe627ce75c6e23bef6630baa0a0"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "cf377880810900f5543e235c30e92fb7606ccb73de5d5ba9cc2f50e6d0a90b64"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "38dfde9e6fa6b5c2e4a4d39e08c3643aba837162c9b286f2df73a9d0f9b1019e"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "1d7df161d091cb97ff2f16da54afb3969c4feed4681ee224c8f07c7a652de30e"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "9a459379a692763588a1253c7bd74035e29800f6292215385a5d520c3f3baee2"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "1ee6e5c740ca443c8890718a8c08e1ad6699253661d2ee9d8857602282497147"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "2d147bf06aaf0702788e93768f63a7432f70fa22f1147ac3e3871df2b21326d4"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "1a1aa9728a7ffd5e22fe08d54dce7795b89c6c26e30c4f8f4f863b424e3ee669"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "2b57d75b097f90ccbc4ebd7b9b60cb2d510590906eb94d374368f8cb2317cf82"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "4abab753818fdbb9b5ea42440312d4e62245cc734879c1de560407a0c0916d50"
+        }
+      ]
+    },
+    {
+      "case": "dx0.5_nz16_t0um",
+      "dx_mm": 0.5,
+      "nz": 16,
+      "thickness_um": 0.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": null,
+      "sheet_target_max_relative_real_error": null,
+      "one_sided_thick_wall_max_relative_complex_error": null,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": 0.0,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.0,
+        -0.0
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx0.5_nz16_t0um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "8f1e9f657b22c1abca2c82c14b65e3952f12f03cc98cbbd2a4cee752d349301b"
+        },
+        {
+          "name": "ht",
+          "sha256": "6e21383be1c0308be226627bd1aaa25a47ab0cd460144882c728426875fb12bb"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "59a4a591825c6154bf1b156de24aac37d4f82e02e3ac3c6f992da8815ebb2f40"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "1917ba3159a3d683cfcf21873ab565cd408cc2f644c7ea0b43aae36089e8e424"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "e12991c8b2710c3377e17de5564ab39772455a283541fa2a6403404dbcecb0d5"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "fe1b0087f808ceef688fc17bbac4c18609d958faedbac7a2bbfd42240e623be4"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "157771d93bf70c7e82ec45f7419908bb2105a96a5762257e88fdb971d36a6915"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "db14aaee63973a5265670a4b784a7c63005cc59ed12f32c55f14c4343c529656"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "25efc9ee4c9f08be4b14b908bd5440d25e292184791e3613a7919d900351e54a"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "63149f41549ded751459d51b7dc709e4677b0017c90d12ceaf1d6aac09cedcec"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "f861739cd4d1f6002881d31a6ddfcf239a2bbb78710d5cce8a4ef1dc2c019b3f"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "8b784278c6785ef82942b3d55ff2844f53b0622967dd3272960bc0591b9dd613"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "f6ba8613fdb9b1f3885f6927c59b1b9d35defa3463162a8b55d55682096060bb"
+        }
+      ]
+    },
+    {
+      "case": "dx0.5_nz16_t2um",
+      "dx_mm": 0.5,
+      "nz": 16,
+      "thickness_um": 2.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.06786343502146201,
+      "sheet_target_max_relative_real_error": 0.003213987629234527,
+      "one_sided_thick_wall_max_relative_complex_error": 0.6043755400739307,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.008917725309293238,
+        0.003313109030560562
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx0.5_nz16_t2um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "8f1e9f657b22c1abca2c82c14b65e3952f12f03cc98cbbd2a4cee752d349301b"
+        },
+        {
+          "name": "ht",
+          "sha256": "6e21383be1c0308be226627bd1aaa25a47ab0cd460144882c728426875fb12bb"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "5213e9368c041340fb92b3d47f7d73fb840522d18198977b5636ba13d155bf18"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "070a34d7655c67ec0c36431d153af9093eaa55c4c146c14e6c635bb69cd56c3d"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "3f37e908feb043e3fdca133d93d972bcb271f2dd62cd11363e727c8651f6c6b6"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "a9f544b92ba9defdf44c0249665bbd4e83a36dfdf4f104df0545051bf34085b4"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "6033f618fa66ea01d32aaa96bf35a21cc3eb1ed5dd3f71e1b1714a21d97f8dc4"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "e6697c681c936a7eb20987bd264d931c8b06c7f741ab09165546590b5039014a"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "796248c07c0ef88bb02ac4be98ceb746824ea2636d041070c33152815fca1bfe"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "c954250e6b6b7062266db3d61134fc2a8e5d8211751c8302c9aecd2bd8fcb673"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "24b62d5961126cdd7629e36c1741f8665ac405c9eba9016e27dd8a5020c26cf4"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "1b6608fc08a17d3a14851b18bf4e3c4ad8ba3df7f03d75292b91d4bf18393a34"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "e5e5cfff9cd0c1837896e4f632e9952c728d506636256dbad006c61047c9b964"
+        }
+      ]
+    },
+    {
+      "case": "dx0.5_nz16_t35um",
+      "dx_mm": 0.5,
+      "nz": 16,
+      "thickness_um": 35.0,
+      "sigma_S_per_m": 58580000.0,
+      "temperature_assumption_C": 20,
+      "sheet_target_max_relative_complex_error": 0.321453153191582,
+      "sheet_target_max_relative_real_error": 0.005928488163145396,
+      "one_sided_thick_wall_max_relative_complex_error": 0.62289011712754,
+      "sheet_model_1percent_pass": false,
+      "thick_cavity_wall_pass": false,
+      "pec_impedance_max_ohm": null,
+      "surface_power_sign_nonnegative": true,
+      "Z_at_3GHz_ohm": [
+        0.007132893545518867,
+        0.004171777551495769
+      ],
+      "skin_depth_3GHz_um": 1.200562629156405,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx0.5_nz16_t35um",
+      "raw_manifest": [
+        {
+          "name": "et",
+          "sha256": "8f1e9f657b22c1abca2c82c14b65e3952f12f03cc98cbbd2a4cee752d349301b"
+        },
+        {
+          "name": "ht",
+          "sha256": "6e21383be1c0308be226627bd1aaa25a47ab0cd460144882c728426875fb12bb"
+        },
+        {
+          "name": "model.xml",
+          "sha256": "a37b297f42dece210bef85933753d35cc995da35cbf538e6558abc3831e24184"
+        },
+        {
+          "name": "port_it1a",
+          "sha256": "005931b07b680c3b0d7fcb3e8ca50a49bb84a0aaabd2dbe4eadd8fd9ad091bb1"
+        },
+        {
+          "name": "port_it1b",
+          "sha256": "d94567bfb352046f8120b3333cb85990fc533c7f3a9a3881457dfdbe4c89763b"
+        },
+        {
+          "name": "port_it2a",
+          "sha256": "5821deaaa10e080ba0409c973b46bcad5e2f231ca8c028d2674413c1666e6db9"
+        },
+        {
+          "name": "port_it2b",
+          "sha256": "19fbd192778a3e2698c20985ba8e7a383e068d9d6d7bb52e3f7441377b1eec95"
+        },
+        {
+          "name": "port_ut1",
+          "sha256": "6a0379feb3235be9aad2e8d01d993cb5ba9791cb2a1a8f45d5a86078d93b0db1"
+        },
+        {
+          "name": "port_ut2",
+          "sha256": "afeab44d5a323dcc791115134debac80d5c70c711306e97dc79dcb54e1ce808b"
+        },
+        {
+          "name": "sheet_E",
+          "sha256": "ce1769e90983c0c1ba08a61a0c3a8bf3fb25cf5f1c73a231322c9d9228730cad"
+        },
+        {
+          "name": "sheet_Hleft",
+          "sha256": "cffba1313d377e89cc0cf748b520f8cd90c6d52d370dfb06d3360152316cf923"
+        },
+        {
+          "name": "sheet_Hright",
+          "sha256": "d2832d42a22d2fff679f738ebf0ffd212109825a33c7eff9469c4f391cd3b2a1"
+        },
+        {
+          "name": "solver.log",
+          "sha256": "bf813ce969f5187c4cfe4cd38a85f68e64de6d317325de5c66ca1a506907892d"
+        }
+      ]
+    }
+  ],
+  "scope": "two-sided conducting-sheet model, not a thick copper cavity",
+  "script_sha256": "7995646dd05e53bc71cb64edd64f26176d881e6ef13a70269efe50749a4aea40",
+  "solver_sha256": "90944e794b9656681bc4d529cfa4bae6b10663bdf501f0198821dbb1fb185e54",
+  "full_joint_simulation_complete": false
+}

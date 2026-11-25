@@ -1,0 +1,124 @@
+{
+  "case": "combined_timing_probe_078_euler_40ns_200ps_trap",
+  "profile": "combined",
+  "scope": "timing_probe",
+  "tag": "078_euler",
+  "errors": [
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 40,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "f433ac0f238e85122dd424818d798a489bcf2376e5f06f4bd4c6c1b4ff690a5d",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        2.6e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        2.6e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        2.6e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        2.6e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        2.6e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        2.6e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        2.6e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 22835,
+  "unique_points": 22835,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 121,
+  "sample_passed": 130,
+  "minimum_late_margin_V": -0.5389046548883154,
+  "worst_slot": {
+    "slot": 10,
+    "state": "101",
+    "channel": "sum",
+    "margin_V": -0.5389046548883154
+  },
+  "first_bad": {
+    "slot": 6,
+    "state": "011",
+    "channel": "sum",
+    "sample_error6": -0.01,
+    "slot_start_ns": 240.00000000000003
+  },
+  "max_settling_ns": 34.45591442503854,
+  "unsettled": 0,
+  "energy_J": 9.067479067862389e-09,
+  "power_W": 0.0034874919491778415,
+  "energy_per_slot_J": 1.3949967796711367e-10,
+  "warning": false
+}

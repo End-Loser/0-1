@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_051_euler_15ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "051_euler",
+  "errors": [
+    -0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 15,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "659ff8ddc81004576308963a822fc607780448d516ef4778a44d8f8fe2676b15",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 13299,
+  "unique_points": 13299,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 65,
+  "sample_passed": 73,
+  "minimum_late_margin_V": -2.099279180360239,
+  "worst_slot": {
+    "slot": 41,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.099279180360239
+  },
+  "first_bad": {
+    "slot": 2,
+    "state": "001",
+    "channel": "sum",
+    "sample_error6": 0.01,
+    "slot_start_ns": 30.000000000000004
+  },
+  "max_settling_ns": 14.910523580981431,
+  "unsettled": 55,
+  "energy_J": 7.664635315712002e-09,
+  "power_W": 0.007861164426371284,
+  "energy_per_slot_J": 1.1791746639556926e-10,
+  "warning": false
+}

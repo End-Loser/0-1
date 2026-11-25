@@ -1,0 +1,54 @@
+{
+  "build_provenance_verified": true,
+  "provenance_scope": "permanent copies only; %TEMP% toolchain anchors registered unrecoverable in \u539f\u59cb\u8d44\u6599/manifest.json",
+  "environment_missing": true,
+  "toolchain_temp_root_present": false,
+  "unverified_anchors": [
+    {
+      "anchor": "blocked_binary",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe",
+      "sha256": "c33c40ebb006cdb5f0f651672d577fdf7c785f1141ba7ccdff9d6a1e32001417"
+    },
+    {
+      "anchor": "official_release_snapshot",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\official_msys_release.json",
+      "sha256": "f18313b47562d382703102f2c5c1940c383c0b6083e2f87327a39b8af45ea251"
+    },
+    {
+      "anchor": "package_log",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\var\\log\\pacman.log",
+      "sha256": "1dd9c47606d686e1d5b7d98456120f7d11dbed8caf3b1215c9362d8ac1297713"
+    },
+    {
+      "anchor": "portable_package",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys2-base-x86_64-20260927.tar.xz",
+      "sha256": "ea2f31a0b6ade63914ce441ffb022f0f6aa96982bfefa2326460a26d5fb01322"
+    },
+    {
+      "anchor": "tree_snapshot",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\official_source_tree.json",
+      "sha256": "2f4dd621d7d98d6e8773f298a59c1007394adb25b22f2227392bca40f168c126"
+    },
+    {
+      "anchor": "source_archive",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\ngspice-47.tar.gz",
+      "sha256": "c6b166d99fef4902135a3d1cd1aee913837beba101a949b93e030ead7f8e20eb"
+    },
+    {
+      "anchor": "complete_extraction",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\source-complete\\ngspice-a80f6e3e95d51534905b1f23410a951802666656",
+      "sha256": null
+    }
+  ],
+  "source_regular_files_verified": 0,
+  "claimed_source_regular_files": 4613,
+  "windows_extracted_missing_files": 18,
+  "separate_complete_extraction_verified": false,
+  "application_control_block_recorded": true,
+  "compiled_candidate": false,
+  "candidate_solver_run": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "evidence_sha256": "afcbb4e7e378175360ff3d0ce97fef61f4d298901684e5168cffd949b0e830a7",
+  "verifier_sha256": "dcd8195c7009f6dddc5913969c58fc86382a2875be54f38778b0855c5a4ab469"
+}

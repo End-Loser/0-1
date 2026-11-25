@@ -1,0 +1,11 @@
+{
+  "dx_mm": 2.5,
+  "time_refinement": 2,
+  "analytic_Hz": 1767647745.190545,
+  "discrete_Hz": 1767310685.56067,
+  "fitted_Hz": 1767310685.4010732,
+  "relative_analytic_error": 0.00019068266875510442,
+  "relative_discrete_error": 9.030487468919546e-11,
+  "name": "benchmark_2.5mm_dt_half",
+  "npz_sha256": "77fce19fbb3a9c33fe909fad7121f3c1f6d92bc9247dcf20aeabf42d7d4d9fe4"
+}

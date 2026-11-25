@@ -1,0 +1,416 @@
+{
+  "scope": "hypothetical homogeneous fully-filled TEM screening, not actual PCB",
+  "source_count": 3,
+  "source_parameters": {
+    "S01_printed_revision": "Revised 1603 080822 Publication #92-101, copyright 2022",
+    "process_Dk": {
+      "value": 2.2,
+      "tolerance": 0.02,
+      "frequency_Hz": 10000000000.0,
+      "condition": "Z direction, approx 23 C, IPC-TM-650 2.5.5.5"
+    },
+    "design_Dk": {
+      "value": 2.2,
+      "frequency_min_Hz": 8000000000.0,
+      "frequency_max_Hz": 40000000000.0
+    },
+    "tan_delta": {
+      "value": 0.0009,
+      "frequency_Hz": 10000000000.0,
+      "typical_not_limit": true
+    },
+    "tan_delta_1MHz": 0.0004,
+    "TCDk_ppm_per_C": -125,
+    "CTE_xyz_ppm_per_C": [
+      31,
+      48,
+      237
+    ],
+    "standard_0p062inch_thickness_mm": 1.575,
+    "standard_0p062inch_tolerance_mm": 0.0762
+  },
+  "assumed_3GHz_Dk": 2.2,
+  "assumed_3GHz_tan_delta": 0.0009,
+  "assumed_path_length_m": 0.12,
+  "assumed_center_Hz": 3000000000.0,
+  "loss_frequency_points": 101,
+  "sensitivity_cases": [
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.18545,
+      "phase_relative_error": -0.00331230386024961,
+      "phase_error_degree": -2.123859628838971,
+      "filled_cavity_frequency_relative_error": 0.003323311678350649,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.18545,
+      "phase_relative_error": -0.003930250231856225,
+      "phase_error_degree": -2.520088781361201,
+      "filled_cavity_frequency_relative_error": 0.003945758048340631,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.18545,
+      "phase_relative_error": -0.004269124048543738,
+      "phase_error_degree": -2.7373757359701747,
+      "filled_cavity_frequency_relative_error": 0.004287427608855143,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.18545,
+      "phase_relative_error": -0.008036603539951948,
+      "phase_error_degree": -5.153095407799342,
+      "filled_cavity_frequency_relative_error": 0.008101713801770938,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.18,
+      "phase_relative_error": -0.004555832349653621,
+      "phase_error_degree": -2.9212139983010954,
+      "filled_cavity_frequency_relative_error": 0.004576682949890776,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.18,
+      "phase_relative_error": -0.004555832349653621,
+      "phase_error_degree": -2.9212139983010954,
+      "filled_cavity_frequency_relative_error": 0.004576682949890776,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.18,
+      "phase_relative_error": -0.004555832349653621,
+      "phase_error_degree": -2.9212139983010954,
+      "filled_cavity_frequency_relative_error": 0.004576682949890776,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.18,
+      "phase_relative_error": -0.004555832349653621,
+      "phase_error_degree": -2.9212139983010954,
+      "filled_cavity_frequency_relative_error": 0.004576682949890776,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.16365,
+      "phase_relative_error": -0.00829577356589195,
+      "phase_error_degree": -5.319276041679243,
+      "filled_cavity_frequency_relative_error": 0.008365169114707971,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.16365,
+      "phase_relative_error": -0.006451203704724517,
+      "phase_error_degree": -4.136532058640383,
+      "filled_cavity_frequency_relative_error": 0.006493091963655662,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.16365,
+      "phase_relative_error": -0.005439665393761728,
+      "phase_error_degree": -3.487930519554554,
+      "filled_cavity_frequency_relative_error": 0.005469417193191495,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.18,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.16365,
+      "phase_relative_error": 0.005806260534001018,
+      "phase_error_degree": 3.7229924738114057,
+      "filled_cavity_frequency_relative_error": -0.005772742487125115,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.2055000000000002,
+      "phase_relative_error": 0.00124921972503933,
+      "phase_error_degree": 0.8010036076099655,
+      "filled_cavity_frequency_relative_error": -0.0012476611221553524,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.2055000000000002,
+      "phase_relative_error": 0.0006284452088098913,
+      "phase_error_degree": 0.40296103988117266,
+      "filled_cavity_frequency_relative_error": -0.0006280505134738101,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.2055000000000002,
+      "phase_relative_error": 0.0002880204741033676,
+      "phase_error_degree": 0.18467963177179791,
+      "filled_cavity_frequency_relative_error": -0.00028793754219591516,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.2055000000000002,
+      "phase_relative_error": -0.0034967015764573173,
+      "phase_error_degree": -2.2420960230912,
+      "filled_cavity_frequency_relative_error": 0.003508971402291561,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.2,
+      "phase_relative_error": 0.0,
+      "phase_error_degree": 0.0,
+      "filled_cavity_frequency_relative_error": 0.0,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.2,
+      "phase_relative_error": 0.0,
+      "phase_error_degree": 0.0,
+      "filled_cavity_frequency_relative_error": 0.0,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.2,
+      "phase_relative_error": 0.0,
+      "phase_error_degree": 0.0,
+      "filled_cavity_frequency_relative_error": 0.0,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.2,
+      "phase_relative_error": 0.0,
+      "phase_error_degree": 0.0,
+      "filled_cavity_frequency_relative_error": 0.0,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.1835000000000004,
+      "phase_relative_error": -0.0037570577414361983,
+      "phase_error_degree": -2.409037213044804,
+      "filled_cavity_frequency_relative_error": 0.003771226456991128,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.1835000000000004,
+      "phase_relative_error": -0.0019040458688353024,
+      "phase_error_degree": -1.2208801857846994,
+      "filled_cavity_frequency_relative_error": 0.0019076781755846817,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.1835000000000004,
+      "phase_relative_error": -0.0008878780677314957,
+      "phase_error_degree": -0.569310203093617,
+      "filled_cavity_frequency_relative_error": 0.0008886670957553022,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.2,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.1835000000000004,
+      "phase_relative_error": 0.010409516897480486,
+      "phase_error_degree": 6.674614898588998,
+      "filled_cavity_frequency_relative_error": -0.01030227518980964,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.22555,
+      "phase_relative_error": 0.005790055808684302,
+      "phase_error_degree": 3.7126019530896737,
+      "filled_cavity_frequency_relative_error": -0.005756724055129947,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.22555,
+      "phase_relative_error": 0.005166465974082879,
+      "phase_error_degree": 3.3127541943866037,
+      "filled_cavity_frequency_relative_error": -0.0051399107998257865,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.22555,
+      "phase_relative_error": 0.004824497355107926,
+      "phase_error_degree": 3.0934828428397725,
+      "filled_cavity_frequency_relative_error": -0.004801333335131552,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": -20,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.22555,
+      "phase_relative_error": 0.0010226109441511255,
+      "phase_error_degree": 0.6557013462309008,
+      "filled_cavity_frequency_relative_error": -0.0010215662792937286,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.22,
+      "phase_relative_error": 0.004535170659001331,
+      "phase_error_degree": 2.9079656574207235,
+      "filled_cavity_frequency_relative_error": -0.0045146957433318535,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.22,
+      "phase_relative_error": 0.004535170659001331,
+      "phase_error_degree": 2.9079656574207235,
+      "filled_cavity_frequency_relative_error": -0.0045146957433318535,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.22,
+      "phase_relative_error": 0.004535170659001331,
+      "phase_error_degree": 2.9079656574207235,
+      "filled_cavity_frequency_relative_error": -0.0045146957433318535,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 0,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.22,
+      "phase_relative_error": 0.004535170659001331,
+      "phase_error_degree": 2.9079656574207235,
+      "filled_cavity_frequency_relative_error": -0.0045146957433318535,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "fixed",
+      "adjusted_dk": 2.2033500000000004,
+      "phase_relative_error": 0.0007610740195320709,
+      "phase_error_degree": 0.48800304949092355,
+      "filled_cavity_frequency_relative_error": -0.0007604952263733367,
+      "allocated_phase_0p2percent_pass": true
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "x",
+      "adjusted_dk": 2.2033500000000004,
+      "phase_relative_error": 0.0026224896172084566,
+      "phase_error_degree": 1.6815485716394012,
+      "filled_cavity_frequency_relative_error": -0.0026156301542863414,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "y",
+      "adjusted_dk": 2.2033500000000004,
+      "phase_relative_error": 0.00364326591270836,
+      "phase_error_degree": 2.3360735353982123,
+      "filled_cavity_frequency_relative_error": -0.0036300407091310882,
+      "allocated_phase_0p2percent_pass": false
+    },
+    {
+      "dk_process_hypothesis": 2.22,
+      "delta_temperature_C": 60,
+      "length_axis_hypothesis": "z",
+      "adjusted_dk": 2.2033500000000004,
+      "phase_relative_error": 0.014991896492089651,
+      "phase_error_degree": 9.612851073657938,
+      "filled_cavity_frequency_relative_error": -0.014770459295195493,
+      "allocated_phase_0p2percent_pass": false
+    }
+  ],
+  "sensitivity_case_count": 36,
+  "phase_allocation_fraction_hypothesis": 0.002,
+  "conductivity_fit_S_per_m": 0.0003304570664680175,
+  "constant_sigma_loss_relative_error_max": 0.1999999465400406,
+  "constant_sigma_band_loss_1percent_pass": false,
+  "source_manifest_sha256": "9adb2e2b7eb4fd44e6df4415d3aa254d87e0162a7f4df8c138ccd951276cb0b4",
+  "loss_file_sha256": "e47398d90e46bce7fa46e112a30e80ab4b31883ab9bb0e24ff725eb85cc1dbfe",
+  "source_sha256": {
+    "run_dielectric.py": "b80cd3aad8d8666dc44c8c59161c8dc59ca8c8dd0bbca34a715d2e23273bccf6",
+    "collect_sources.py": "a1a24e427127904f6f6ef244ff6a3edff2de26265fa25749aa5afb826559e175"
+  },
+  "material_3GHz_guarantee_passed": false,
+  "causal_dispersion_model_passed": false,
+  "actual_microstrip_passed": false,
+  "thick_block_replacement_allowed": false,
+  "roughness_model_passed": false,
+  "full_joint_simulation_passed": false
+}

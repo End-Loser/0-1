@@ -1,0 +1,124 @@
+{
+  "case": "skew_4ns_timing_probe_115_euler_15ns_200ps_trap",
+  "profile": "skew_4ns",
+  "scope": "timing_probe",
+  "tag": "115_euler",
+  "errors": [
+    0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 15,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "eb7221d9b7d2e7c647b728c5d09e0eb681683fee9d3328e93e0f254f6eb53750",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 20532,
+  "unique_points": 20532,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 108,
+  "sample_passed": 111,
+  "minimum_late_margin_V": -2.30999999951871,
+  "worst_slot": {
+    "slot": 15,
+    "state": "001",
+    "channel": "sum",
+    "margin_V": -2.30999999951871
+  },
+  "first_bad": {
+    "slot": 6,
+    "state": "011",
+    "channel": "sum",
+    "sample_error6": 0.01,
+    "slot_start_ns": 90.00000000000001
+  },
+  "max_settling_ns": 14.92781320298006,
+  "unsettled": 12,
+  "energy_J": 2.2605478491269648e-09,
+  "power_W": 0.0023185106144891945,
+  "energy_per_slot_J": 3.477765921733792e-11,
+  "warning": false
+}

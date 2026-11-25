@@ -1,0 +1,36 @@
+test_adc_range_guard_and_top_code (tests.BudgetTests.test_adc_range_guard_and_top_code) ... ok
+test_coarse_worst_rounding (tests.BudgetTests.test_coarse_worst_rounding) ... ok
+test_correlated_noise_not_reduced (tests.BudgetTests.test_correlated_noise_not_reduced) ... ok
+test_dac_lsb_and_endpoint (tests.BudgetTests.test_dac_lsb_and_endpoint) ... ok
+test_discarded_samples_cost_time (tests.BudgetTests.test_discarded_samples_cost_time) ... ok
+test_eight_readings_floor (tests.BudgetTests.test_eight_readings_floor) ... ok
+test_explicit_serial_schedule (tests.BudgetTests.test_explicit_serial_schedule) ... ok
+test_fine_boundary (tests.BudgetTests.test_fine_boundary) ... ok
+test_fine_resolution_and_coverage_separate (tests.BudgetTests.test_fine_resolution_and_coverage_separate) ... ok
+test_fine_steep_slope_fails (tests.BudgetTests.test_fine_steep_slope_fails) ... ok
+test_impossible_start_period (tests.BudgetTests.test_impossible_start_period) ... ok
+test_invalid_quantization_inputs (tests.BudgetTests.test_invalid_quantization_inputs) ... ok
+test_invalid_timing_inputs (tests.BudgetTests.test_invalid_timing_inputs) ... ok
+test_missing_static_errors_block_combined (tests.BudgetTests.test_missing_static_errors_block_combined) ... ok
+test_multiple_dac_updates (tests.BudgetTests.test_multiple_dac_updates) ... ok
+test_pause_denominators_differ (tests.BudgetTests.test_pause_denominators_differ) ... ok
+test_repeat_scaling (tests.BudgetTests.test_repeat_scaling) ... ok
+test_small_signal_sensitivity_not_bits_precision (tests.BudgetTests.test_small_signal_sensitivity_not_bits_precision) ... ok
+test_synthetic_complete_is_still_not_hardware (tests.BudgetTests.test_synthetic_complete_is_still_not_hardware) ... ok
+test_uncorrelated_noise_average (tests.BudgetTests.test_uncorrelated_noise_average) ... ok
+test_unknown_overheads_not_complete (tests.BudgetTests.test_unknown_overheads_not_complete) ... ok
+test_all_eight_runtime_input_labels_no_programming (tests.ControlTests.test_all_eight_runtime_input_labels_no_programming) ... ok
+test_fault_cannot_resume_directly (tests.ControlTests.test_fault_cannot_resume_directly) ... ok
+test_incomplete_measurement_and_extra_read (tests.ControlTests.test_incomplete_measurement_and_extra_read) ... ok
+test_nominal_order_and_freeze (tests.ControlTests.test_nominal_order_and_freeze) ... ok
+test_pause_blocks_runtime_data (tests.ControlTests.test_pause_blocks_runtime_data) ... ok
+test_wait_boundaries (tests.ControlTests.test_wait_boundaries) ... ok
+test_hash_tampering_rejected (tests.EvidenceTests.test_hash_tampering_rejected) ... ok
+test_independent_verify (tests.EvidenceTests.test_independent_verify) ... ok
+test_numeric_and_control_tampering_rejected (tests.EvidenceTests.test_numeric_and_control_tampering_rejected) ... ok
+test_unearned_system_claim_rejected (tests.EvidenceTests.test_unearned_system_claim_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.130s
+
+OK

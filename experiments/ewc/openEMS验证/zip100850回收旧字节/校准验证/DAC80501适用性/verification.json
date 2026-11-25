@@ -1,0 +1,13 @@
+{
+  "source_integrity_passed": true,
+  "archives_verified": 2,
+  "archive_members_verified": 23,
+  "specification_pages_verified": 12,
+  "reference_cases_verified": 12,
+  "failed_model_runs_preserved": 4,
+  "model_waveforms": 0,
+  "device_accuracy_passed": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "verifier_sha256": "249cbf52ab1b039337d1d30ef1b2bfbd99b0b40dd535ce975b27b7bcab2d0db6"
+}

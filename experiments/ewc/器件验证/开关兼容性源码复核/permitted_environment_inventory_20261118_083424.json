@@ -1,0 +1,22 @@
+﻿{
+    "timestamp":  "2026-11-18T08:34:24.3386252+08:00",
+    "registered_app_query_pattern":  "PSpice|Cadence|OrCAD|Visual Studio|Build Tools",
+    "matched_registered_apps":  [
+
+                                ],
+    "visible_compiler_commands":  [
+                                      {
+                                          "Name":  "wsl.exe",
+                                          "Source":  "C:\\Windows\\system32\\wsl.exe"
+                                      }
+                                  ],
+    "wsl_list_exitcode":  0,
+    "wsl_list_output":  [
+
+                        ],
+    "portable_or_remote_environments_not_excluded":  true,
+    "security_policy_modified":  false,
+    "blocked_binary_executed":  false,
+    "software_installed":  false,
+    "goal_complete":  false
+}

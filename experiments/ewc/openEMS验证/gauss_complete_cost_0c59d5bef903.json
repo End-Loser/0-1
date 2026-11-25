@@ -1,0 +1,28 @@
+{
+  "scope": "Full 64-branch state cost measurement from 100 ns anchor; not acceptance",
+  "shape": [
+    36,
+    23,
+    14
+  ],
+  "dt_s": 2.5e-12,
+  "steps": 32,
+  "measured_duration_s": 8e-11,
+  "stepping_seconds": 2.474897400010377,
+  "seconds_per_step": 0.07734054375032429,
+  "max_scaled_residual": 7.20423913640714e-14,
+  "GMRES_iterations": 129,
+  "heat_J": 4.947445476387393e-05,
+  "exact_replay": true,
+  "evidence_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0000000_0040000.npz": "16716014d736fe9b941cb5f3be5c221202309a21a9482b50f7e4baeed38ca43d",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u539a\u94dc\u8fb9\u754c\u57fa\u51c6\u7ed3\u679c\\passive_surface_models.json": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\profile_copper_gauss_complete.py": "a08e5942c31242e0296bf3032ffca20951139ea6f3fd143a797371c74957fda6"
+  },
+  "profile": "         27071 function calls in 2.627 seconds\n\n   Ordered by: cumulative time\n   List reduced from 118 to 25 due to restriction <25>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.356    0.356    2.627    2.627 D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\profile_copper_gauss_complete.py:40(advance)\n       32    0.882    0.028    2.212    0.069 D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\copper_gauss_legendre.py:59(step)\n       32    0.048    0.001    0.694    0.022 D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\copper_gauss_legendre.py:36(solve)\n       32    0.118    0.004    0.565    0.018 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\iterative.py:587(gmres)\n      289    0.001    0.000    0.543    0.002 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\_base.py:919(__matmul__)\n      289    0.002    0.000    0.540    0.002 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\_base.py:788(_matmul_dispatch)\n      289    0.003    0.000    0.538    0.002 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\_compressed.py:387(_matmul_vector)\n      257    0.490    0.002    0.490    0.002 {built-in method scipy.sparse._sparsetools.csr_matvec}\n      386    0.002    0.000    0.396    0.001 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\linalg\\_interface.py:231(matvec)\n      193    0.000    0.000    0.393    0.002 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\linalg\\_interface.py:219(_matvec)\n      193    0.001    0.000    0.393    0.002 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\linalg\\_interface.py:337(matmat)\n      193    0.000    0.000    0.390    0.002 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\linalg\\_interface.py:827(_matmat)\n      193    0.001    0.000    0.389    0.002 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\_base.py:587(dot)\n      128    0.262    0.002    0.330    0.003 D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\copper_gauss_legendre.py:81(stages)\n      128    0.171    0.001    0.171    0.001 D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\copper_gauss_legendre.py:86(<genexpr>)\n      256    0.096    0.000    0.096    0.000 {method 'reduce' of 'numpy.ufunc' objects}\n       64    0.001    0.000    0.094    0.001 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\fromnumeric.py:2177(sum)\n       64    0.001    0.000    0.093    0.001 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\fromnumeric.py:71(_wrapreduction)\n      128    0.066    0.001    0.067    0.001 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\shape_base.py:372(stack)\n      482    0.005    0.000    0.048    0.000 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\linalg\\linalg.py:2383(norm)\n      964    0.042    0.000    0.042    0.000 {method 'dot' of 'numpy.ndarray' objects}\n       32    0.028    0.001    0.028    0.001 {built-in method scipy.sparse._sparsetools.csc_matvec}\n      417    0.014    0.000    0.014    0.000 {built-in method numpy.zeros}\n       32    0.001    0.000    0.009    0.000 C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\utils.py:31(make_system)\n      128    0.006    0.000    0.006    0.000 {built-in method numpy.array}\n\n\n",
+  "full_long_history_passed": false,
+  "full_system_gates_closed": 0,
+  "goal_complete": false
+}

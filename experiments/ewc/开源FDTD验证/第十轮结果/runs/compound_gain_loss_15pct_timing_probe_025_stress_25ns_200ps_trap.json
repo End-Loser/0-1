@@ -1,0 +1,118 @@
+{
+  "case": "compound_gain_loss_15pct_timing_probe_025_stress_25ns_200ps_trap",
+  "profile": "compound_gain_loss_15pct",
+  "scope": "timing_probe",
+  "tag": "025_stress",
+  "errors": [
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01
+  ],
+  "period_ns": 25,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "ad7b9f2ced7f647e3ce8d130b07925c8e4aee53a5e25f16a8969a4124319a8f3",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 79267,
+  "unique_points": 79267,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 512,
+  "sample_passed": 512,
+  "minimum_late_margin_V": 0.9843183450237829,
+  "worst_slot": {
+    "slot": 216,
+    "state": "011",
+    "channel": "carry",
+    "margin_V": 0.9843183450237829
+  },
+  "first_bad": null,
+  "max_settling_ns": 14.312740586796329,
+  "unsettled": 0,
+  "energy_J": 9.527311946325344e-09,
+  "power_W": 0.0014886424916133348,
+  "energy_per_slot_J": 3.7216062290333374e-11,
+  "warning": false
+}

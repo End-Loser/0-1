@@ -1,0 +1,29 @@
+{
+  "scope": "five independent offline evidence lines; not joint simulation",
+  "verification_lines": [
+    {"line": "copper_wall", "arguments": ["openEMS验证/verify_finite_copper_cavity.py", "openEMS验证/六面铜壁频域结果"]},
+    {"line": "receiver_interface", "arguments": ["器件验证/第二批接口/verify_offline.py"]},
+    {"line": "calibration_handshake", "arguments": ["校准验证/第二批握手/verify.py", "--results", "校准验证/第二批握手/结果", "--code-dir", "校准验证/第二批握手"]},
+    {"line": "coax_port", "arguments": ["射频端口验证/verify_coax_benchmark.py"], "post_arguments": [["射频端口验证/test_coax_benchmark.py"]]},
+    {"line": "dielectric_screen", "arguments": ["材料验证/verify_dielectric.py"]}
+  ],
+  "regressions": [
+    {"line": "EM_regressions", "arguments": ["-m", "unittest", "discover", "-s", "openEMS验证", "-p", "test_*.py"]}
+  ],
+  "evidence": [
+    "openEMS验证/六面铜壁频域结果/summary.json",
+    "openEMS验证/六面铜壁频域结果/verification.json",
+    "器件验证/第二批接口/summary.json",
+    "器件验证/第二批接口/verification.json",
+    "校准验证/第二批握手/结果/summary.json",
+    "校准验证/第二批握手/结果/manifest.json",
+    "校准验证/第二批握手/结果/evidence.json",
+    "校准验证/第二批握手/结果/tests.json",
+    "射频端口验证/结果/summary.json",
+    "射频端口验证/结果/verification.json",
+    "射频端口验证/结果/tests.json",
+    "材料验证/source_manifest.json",
+    "材料验证/结果/summary.json",
+    "材料验证/结果/verification.json"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": 15757,
+  "independent_oracle": true,
+  "decimal_budget": true,
+  "hardware_validation": false,
+  "imports_model_or_runner": false
+}

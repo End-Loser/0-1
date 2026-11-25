@@ -1,0 +1,124 @@
+{
+  "case": "heavy_20pF_timing_probe_035_stress_25ns_200ps_trap",
+  "profile": "heavy_20pF",
+  "scope": "timing_probe",
+  "tag": "035_stress",
+  "errors": [
+    -0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 25,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "6b44ae6c71e71144839e1ccfb4ae59a616431e517ce1785beea277d76196834e",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 68618,
+  "unique_points": 68618,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 445,
+  "sample_passed": 445,
+  "minimum_late_margin_V": -2.3025363088985507,
+  "worst_slot": {
+    "slot": 224,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.3025363088985507
+  },
+  "first_bad": {
+    "slot": 64,
+    "state": "001",
+    "channel": "sum",
+    "sample_error6": 0.01,
+    "slot_start_ns": 1600.0000000000002
+  },
+  "max_settling_ns": 13.404970596039274,
+  "unsettled": 67,
+  "energy_J": 3.9886101392680464e-08,
+  "power_W": 0.006232203342606322,
+  "energy_per_slot_J": 1.5580508356515806e-10,
+  "warning": false
+}

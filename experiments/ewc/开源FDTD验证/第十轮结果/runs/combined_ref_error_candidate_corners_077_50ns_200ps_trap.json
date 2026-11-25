@@ -1,0 +1,118 @@
+{
+  "case": "combined_ref_error_candidate_corners_077_50ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "candidate_corners",
+  "tag": "077",
+  "errors": [
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    -0.01,
+    0.01
+  ],
+  "period_ns": 50,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "02d098e42c4f33b8fc29d05e410fece07075f9bc9901688cfd67e9fb8143ef74",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.2500000000000002e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 26263,
+  "unique_points": 26263,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 130,
+  "sample_passed": 130,
+  "minimum_late_margin_V": 0.6689177271200315,
+  "worst_slot": {
+    "slot": 10,
+    "state": "101",
+    "channel": "sum",
+    "margin_V": 0.6689177271200315
+  },
+  "first_bad": null,
+  "max_settling_ns": 34.49246666300534,
+  "unsettled": 0,
+  "energy_J": 9.364489741396976e-09,
+  "power_W": 0.002881381458891377,
+  "energy_per_slot_J": 1.4406907294456887e-10,
+  "warning": false
+}

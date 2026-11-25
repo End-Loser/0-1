@@ -1,0 +1,388 @@
+{
+  "independent_evidence_verification_pass": true,
+  "runs": [
+    {
+      "id": "linked_ideal_control",
+      "status": "pass",
+      "checks": {
+        "dc_amplitude": true,
+        "common_mode": true,
+        "fda_pin_range": true,
+        "fda_output_range": true,
+        "comparator_pin_range": true,
+        "output_continuous_current": true,
+        "static_margin": true,
+        "levels": true,
+        "delays": true,
+        "rail5": true,
+        "rail3": true,
+        "reference": true
+      },
+      "events": [
+        {
+          "total_delay_s": 1.3088898621074778e-08,
+          "fda_delay_s": 7.606518872207503e-09,
+          "comparator_delay_s": 5.4823797488672756e-09,
+          "input_crossings_s": [
+            2.0099999999999999e-07
+          ],
+          "fda_crossings_s": [
+            2.086065188722075e-07
+          ],
+          "output_crossings_s": [
+            2.1408889862107476e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "total_delay_s": 1.3257332825389625e-08,
+          "fda_delay_s": 7.6134526844747e-09,
+          "comparator_delay_s": 5.6438801409149246e-09,
+          "input_crossings_s": [
+            4.01e-07
+          ],
+          "fda_crossings_s": [
+            4.086134526844747e-07
+          ],
+          "output_crossings_s": [
+            4.1425733282538963e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "total_delay_s": 1.3088898621025915e-08,
+          "fda_delay_s": 7.60603029952006e-09,
+          "comparator_delay_s": 5.482868321505855e-09,
+          "input_crossings_s": [
+            6.01e-07
+          ],
+          "fda_crossings_s": [
+            6.086060302995201e-07
+          ],
+          "output_crossings_s": [
+            6.14088898621026e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "total_delay_s": 1.3257332825327156e-08,
+          "fda_delay_s": 7.613452691299616e-09,
+          "comparator_delay_s": 5.643880134027541e-09,
+          "input_crossings_s": [
+            8.009999999999999e-07
+          ],
+          "fda_crossings_s": [
+            8.086134526912995e-07
+          ],
+          "output_crossings_s": [
+            8.142573328253271e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "dc_errors_V": [
+        0.0001862576121801629,
+        0.0002458522392306886,
+        0.00018624895309427014,
+        0.0002458522284348799
+      ],
+      "cm_errors_V": [
+        0.001437541934584674,
+        0.001437540264799697,
+        0.0014375419345524776,
+        0.0014375402647952562
+      ],
+      "max_rc_kcl_residual_A": 6.288136566559177e-11,
+      "source_probe_error_A": 3.382710778154774e-17,
+      "max_reference_sink_currents_A": [
+        0.008253830465111243,
+        0.007253838980030169
+      ],
+      "bias_threshold_range_V": [
+        0.09999999999999987,
+        0.09999999999999987
+      ],
+      "rail5_kcl_A": 0.0,
+      "rail3_kcl_A": 0.0,
+      "local_upstream_energy_J": 0.0,
+      "synthetic_source_energy_J": 5.089061155327254e-08,
+      "full_system_energy_passed": false
+    },
+    {
+      "id": "linked_passive_bias",
+      "status": "fail",
+      "checks": {
+        "dc_amplitude": false,
+        "common_mode": false,
+        "fda_pin_range": true,
+        "fda_output_range": true,
+        "comparator_pin_range": true,
+        "output_continuous_current": true,
+        "static_margin": true,
+        "levels": false,
+        "delays": false,
+        "rail5": true,
+        "rail3": true,
+        "reference": true
+      },
+      "events": [
+        {
+          "total_delay_s": null,
+          "fda_delay_s": null,
+          "comparator_delay_s": null,
+          "input_crossings_s": [
+            2.0099999999999999e-07
+          ],
+          "fda_crossings_s": [],
+          "output_crossings_s": [],
+          "level_ok": true,
+          "delay_ok": false
+        },
+        {
+          "total_delay_s": 1.852730632064979e-08,
+          "fda_delay_s": null,
+          "comparator_delay_s": null,
+          "input_crossings_s": [
+            4.01e-07
+          ],
+          "fda_crossings_s": [
+            4.13451706613406e-07,
+            4.302460827004453e-07
+          ],
+          "output_crossings_s": [
+            4.195273063206498e-07
+          ],
+          "level_ok": false,
+          "delay_ok": true
+        },
+        {
+          "total_delay_s": null,
+          "fda_delay_s": null,
+          "comparator_delay_s": null,
+          "input_crossings_s": [
+            6.01e-07
+          ],
+          "fda_crossings_s": [],
+          "output_crossings_s": [],
+          "level_ok": true,
+          "delay_ok": false
+        },
+        {
+          "total_delay_s": 1.852730632056011e-08,
+          "fda_delay_s": null,
+          "comparator_delay_s": null,
+          "input_crossings_s": [
+            8.009999999999999e-07
+          ],
+          "fda_crossings_s": [
+            8.134517070518051e-07,
+            8.302460834190187e-07
+          ],
+          "output_crossings_s": [
+            8.1952730632056e-07
+          ],
+          "level_ok": false,
+          "delay_ok": true
+        }
+      ],
+      "dc_errors_V": [
+        0.12505350342971544,
+        0.05646406891671874,
+        0.12505340707040824,
+        0.05646406889524392
+      ],
+      "cm_errors_V": [
+        0.1115537015089485,
+        0.11155373316743811,
+        0.11155369978951502,
+        0.1115537317493982
+      ],
+      "max_rc_kcl_residual_A": 1.533406829461015e-10,
+      "source_probe_error_A": 4.0007060164715114e-17,
+      "max_reference_sink_currents_A": [
+        7.34725232988831e-05,
+        6.284586941197378e-05
+      ],
+      "bias_threshold_range_V": [
+        -0.16529648528483998,
+        -0.011625920950061985
+      ],
+      "rail5_kcl_A": 0.0,
+      "rail3_kcl_A": 0.0,
+      "local_upstream_energy_J": 5.404232557476314e-09,
+      "synthetic_source_energy_J": 4.8987110072983744e-09,
+      "full_system_energy_passed": false
+    },
+    {
+      "id": "linked_buffered_bias",
+      "status": "fail",
+      "checks": {
+        "dc_amplitude": false,
+        "common_mode": true,
+        "fda_pin_range": true,
+        "fda_output_range": true,
+        "comparator_pin_range": true,
+        "output_continuous_current": true,
+        "static_margin": true,
+        "levels": true,
+        "delays": true,
+        "rail5": true,
+        "rail3": true,
+        "reference": true
+      },
+      "events": [
+        {
+          "total_delay_s": 1.2388898621163108e-08,
+          "fda_delay_s": 6.936747742157417e-09,
+          "comparator_delay_s": 5.452150879005691e-09,
+          "input_crossings_s": [
+            2.0100000000000123e-07
+          ],
+          "fda_crossings_s": [
+            2.0793674774215865e-07
+          ],
+          "output_crossings_s": [
+            2.1338889862116434e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "total_delay_s": 1.2477332824901485e-08,
+          "fda_delay_s": 6.895976780190881e-09,
+          "comparator_delay_s": 5.581356044710604e-09,
+          "input_crossings_s": [
+            4.0099999999999873e-07
+          ],
+          "fda_crossings_s": [
+            4.078959767801896e-07
+          ],
+          "output_crossings_s": [
+            4.134773328249002e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "total_delay_s": 1.2348898621117614e-08,
+          "fda_delay_s": 6.895535822745116e-09,
+          "comparator_delay_s": 5.453362798372498e-09,
+          "input_crossings_s": [
+            6.010000000000012e-07
+          ],
+          "fda_crossings_s": [
+            6.078955358227463e-07
+          ],
+          "output_crossings_s": [
+            6.133488986211188e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        },
+        {
+          "total_delay_s": 1.2477332824843675e-08,
+          "fda_delay_s": 6.8982169077829734e-09,
+          "comparator_delay_s": 5.5791159170607015e-09,
+          "input_crossings_s": [
+            8.009999999999988e-07
+          ],
+          "fda_crossings_s": [
+            8.078982169077817e-07
+          ],
+          "output_crossings_s": [
+            8.134773328248424e-07
+          ],
+          "level_ok": true,
+          "delay_ok": true
+        }
+      ],
+      "dc_errors_V": [
+        0.001841940235045643,
+        0.0017604461921422593,
+        0.0017246602237795464,
+        0.0017662800931203398
+      ],
+      "cm_errors_V": [
+        0.0022902832381497262,
+        0.0022868614677808985,
+        0.0022899097831254878,
+        0.0022867847205891856
+      ],
+      "max_rc_kcl_residual_A": 1.0647088528474436e-10,
+      "source_probe_error_A": 3.841517381975024e-12,
+      "max_reference_sink_currents_A": [
+        0.008251647927431566,
+        0.007250472682533169
+      ],
+      "bias_threshold_range_V": [
+        0.038684144560939826,
+        0.16148516256262901
+      ],
+      "rail5_kcl_A": 2.7261179424975523e-15,
+      "rail3_kcl_A": 3.434991006912025e-14,
+      "local_upstream_energy_J": 5.675353702257462e-09,
+      "synthetic_source_energy_J": 5.08621876315411e-08,
+      "full_system_energy_passed": false
+    },
+    {
+      "id": "linked_real_rails",
+      "status": "blocked",
+      "reason": "No complete waveform"
+    },
+    {
+      "id": "linked_real_rails_5ps",
+      "status": "blocked",
+      "reason": "No complete waveform"
+    },
+    {
+      "id": "linked_ratio_0p1pct",
+      "status": "blocked",
+      "reason": "No complete waveform"
+    },
+    {
+      "id": "linked_startup",
+      "status": "blocked",
+      "reason": "No complete waveform"
+    }
+  ],
+  "original_device_files_checked": 61,
+  "official_sources_checked": 4,
+  "official_sources_reverified": 3,
+  "environment_missing": true,
+  "unverified_anchors": [
+    {
+      "anchor": "source:buffer_page",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-buffer-official-elyzuldr\\buffer_page.raw",
+      "sha256": "582f026544da5655a1e50161cc31cf359e5024bfeb5321807792b0d4be3a0a07"
+    }
+  ],
+  "zip_members_checked": 15,
+  "refinement": {
+    "passed": false,
+    "reason": "complete matching four-edge waveforms required"
+  },
+  "full_G4_G5_passed": false,
+  "full_joint_passed": false,
+  "safe_startup_passed": false,
+  "vendor_library_edits": false,
+  "summary_sha256": "738342b38e3aa414cf049eec00f20202ac7832fefd07269f23aa180151dd5619",
+  "verifier_sha256": "5dd6e3873b8df9a350297b5522b89f8af154190e2b750e5dff57647038ba7b7d",
+  "sources_sha256": "59af3a67338fe398abe24346c52b55905a7d84306f71f11c4c4fd5f18fd9b9e5",
+  "matching_datasheet_sha256": "4a5ce0ae6fe0f529f2caf262589639361f118743ff3984d1dfa420e6815bc815",
+  "anchor_manifest_sha256": "8f0f5f2872d3210b2b3ec3453011e2156a12065af03aed827a3d0e7e63071e1f",
+  "integration_only_netlist_equivalence_checked": [
+    "linked_ideal_control",
+    "linked_passive_bias",
+    "linked_buffered_bias",
+    "linked_real_rails",
+    "linked_real_rails_5ps",
+    "linked_ratio_0p1pct",
+    "linked_startup"
+  ],
+  "original_tolerances_preserved": true,
+  "wrapper_verifier_sha256": "56b849513d6a1d360578b3ba92335d9de6887878f491ffa23f313cb1161a0c9e"
+}

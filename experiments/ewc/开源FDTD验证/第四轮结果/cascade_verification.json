@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Archive consistency, linear frontend and measured-input circuit equations; not real RF hardware validation",
+  "nominal_valid_arithmetic_cases": 1008,
+  "nominal_division_zero_rejections": 16,
+  "independent_direct_cascade_cases": 24,
+  "maximum_coordinate_error_to_measured_input_circuit_formula": 1.0231815394945443e-12,
+  "checks": [
+    "Counts, input identifiability, stored decoder weights",
+    "Direct FDTD waveform recovery and nominal arithmetic",
+    "One common output gain and absent output on rejection",
+    "Closed-form circuit response to measured, not requested inputs",
+    "Same-frequency collision negative control"
+  ]
+}

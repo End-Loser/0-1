@@ -1,0 +1,408 @@
+{
+  "runs": [
+    {
+      "id": "cm3200_state100",
+      "state": 4,
+      "common_mode_V": 3.2,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "reason": "Solver timeout; original output retained",
+      "files_sha256": {
+        "solver_stderr.log": "25eaf96d60e08bc9589e1143c1044bb889d7d3bfad94db4d7016ada8b9b80521",
+        "solver_stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "78c09994fffabb9cb231a196ff464d5721f1f5fe16ca3bf000462b188a9c3bb6"
+      }
+    },
+    {
+      "id": "cm3200_state101",
+      "state": 5,
+      "common_mode_V": 3.2,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "de5ecfee4dcf6077c76ecbcc3980cd46c779b5399b4cca3cd8643cac9d379d99",
+        "solver_stdout.log": "2499532db3cd1d68e68dc3d9b337b512dd9557a829877aa29e327cfe202e3b3a",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "3485417426981037f0d3af657710bd5dde61562f233abda7b7d164812d5490dc"
+      }
+    },
+    {
+      "id": "cm3200_state110",
+      "state": 6,
+      "common_mode_V": 3.2,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "de5ecfee4dcf6077c76ecbcc3980cd46c779b5399b4cca3cd8643cac9d379d99",
+        "solver_stdout.log": "c525b7e01ecde71fe5f5096a709171cce796342aa109c34f84ae3984ee9a208d",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "838108d88997f8eca8fbb05ed89e21a06f9f2c204dad77b03ab81ad08b0da7fe"
+      }
+    },
+    {
+      "id": "cm3200_state111",
+      "state": 7,
+      "common_mode_V": 3.2,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "dc_operating_point_observed_unverified",
+      "returncode": 0,
+      "files_sha256": {
+        "dc.txt": "78df3897e8678cd36355de8e0061b0e57ea46865c1fd9289e24f0fc63b86e71a",
+        "solver_stderr.log": "fd7ab1406dbe97c9ac6ff8f3e12da6ae6aa2fbe73d99b94470e25411806900c0",
+        "solver_stdout.log": "2e64aa7b54650029e0a62f864707fd94c8aa9c2ebbe80dbc4cd4246a29f3525d",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "85c2e062265ba05fecf25634ee2dced7906441eae7f736b156b880aa51f774f3"
+      }
+    },
+    {
+      "id": "cm2500_state000",
+      "state": 0,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "e4e6aecc37fdffe8aede640fd63d7bd9ca200edadca2d61ee0caaca2a8068275",
+        "solver_stdout.log": "f8dfe24631ac3c4015f824b4158cd96ec5f4a953e36c9d4a0442f93a13659932",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "2558dd0701c59dbdfb4c9db48fae61e85f09b839b33f5bb025b8e04da666d57e"
+      }
+    },
+    {
+      "id": "cm2500_state001",
+      "state": 1,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "d77245c94010889836b0286b02adb666379a1f0cfe46840e1d2b94508cb8a3f4",
+        "solver_stdout.log": "ef5ab9f28975ba8928d8295c72a4e3826f98c8e224ddeb6a91e82a46156e04dc",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "a6ff33a2982c83cd24bbd93dd7df566678072319df3a77c467163e51398637c9"
+      }
+    },
+    {
+      "id": "cm2500_state010",
+      "state": 2,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "d77245c94010889836b0286b02adb666379a1f0cfe46840e1d2b94508cb8a3f4",
+        "solver_stdout.log": "aeb3ac2de181390000a4ea1c624dc0cd91a14b13aab688fad3998498b07e4fab",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "1d204de78967762cae37abaffe00f3675dd8397a1f228c11dcab1966b202d88b"
+      }
+    },
+    {
+      "id": "cm2500_state011",
+      "state": 3,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "d411463d01bf5b652e36740c5463c876a83d2cfdac314a191b9d131d0faa40cf",
+        "solver_stdout.log": "407bdb2dc36f4f2ea1665d9a03ec5700fb51facfb951dd1258ab317e0c91bd79",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "a9d9b5a00ffe064d3d3aa2b3cb95b4e7d2a21572e0eac8232d428ea037d7ca6c"
+      }
+    },
+    {
+      "id": "cm2500_state100",
+      "state": 4,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "d77245c94010889836b0286b02adb666379a1f0cfe46840e1d2b94508cb8a3f4",
+        "solver_stdout.log": "b3d1f860be4a946b5383075cfc89eb1c9a8e9ed19c82d39406de9e4f63a29897",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "78be15b60c1814589ad2ab6f8ee7d3ad24dfb02b76157f8c5dc203adc97f6948"
+      }
+    },
+    {
+      "id": "cm2500_state101",
+      "state": 5,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "d411463d01bf5b652e36740c5463c876a83d2cfdac314a191b9d131d0faa40cf",
+        "solver_stdout.log": "1d8fb490a5114ace201c423d967e22e94131fc8ec7d19a2cbb770e7004b6e729",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "aee7dab6f787fa9dde7247910463b62a1d7f545a819c185a40b3ae70351b48e7"
+      }
+    },
+    {
+      "id": "cm2500_state110",
+      "state": 6,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "d411463d01bf5b652e36740c5463c876a83d2cfdac314a191b9d131d0faa40cf",
+        "solver_stdout.log": "ea3c856ce2fa236d8e2ddb6f9414eeef68e408e25134e37fc8e1981952a8cf6f",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "f924bc566ee639e02a0362bde73d92a5b381c50c09342be81cd9b2ba2b16e08c"
+      }
+    },
+    {
+      "id": "cm2500_state111",
+      "state": 7,
+      "common_mode_V": 2.5,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "3638ff1810ebd10b34403925e18a86c97843b62e21efe8dafeca3c9a009cf8bb",
+        "solver_stdout.log": "d9c64fdd0553d91de8c4edd0daf826cf477dade35d99a520dbc6fd03c42b9615",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "a3eccf24aaca00673b9379ad95fddb81071ebb95cc3bf098a138f2d67bd333ed"
+      }
+    },
+    {
+      "id": "cm3800_state000",
+      "state": 0,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "041b366615e70f42012c868664c6f89dbca326b1007631495813c1a79d448fad",
+        "solver_stdout.log": "ca40989f5445ea9102603d0ed8f375d31c02455d78b5c7e13209931f1f8bd76d",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "e75fe829b1010d81796cf8505c58752e0945295de85c40d93917ed42c2d50052"
+      }
+    },
+    {
+      "id": "cm3800_state001",
+      "state": 1,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "5a1727ef40dc2964227747fbc2ad068c520e0d251f9eadd95f8ff38be8dab7ce",
+        "solver_stdout.log": "11c40649d5ffd7b44d086c0d3f1dffbb6efcd9766a12cb8fb1069c0fd939eaa3",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "be3aa9c4ceb60456977ecd58eebe9d5da8674dc979bf0db9411f03aa6d8add1f"
+      }
+    },
+    {
+      "id": "cm3800_state010",
+      "state": 2,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "5a1727ef40dc2964227747fbc2ad068c520e0d251f9eadd95f8ff38be8dab7ce",
+        "solver_stdout.log": "1927fef4c6421100ee26c4748192f7cc70118507cd4b5ee2b85900c20cb6dfe0",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "d53510c70b7fd18d8487ad4c85ba27250e9268f11d651ccab8014f3e5e28f3f4"
+      }
+    },
+    {
+      "id": "cm3800_state011",
+      "state": 3,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "reason": "Solver timeout; original output retained",
+      "files_sha256": {
+        "solver_stderr.log": "949b1faf41e4c644f3e6b7b17f298156339b063e22f4a2ce3c9a660619a9dc0f",
+        "solver_stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "4b0b36ab935bc7e1316341598b8794340e84bd6ee48041fe60e75255443d5b75"
+      }
+    },
+    {
+      "id": "cm3800_state100",
+      "state": 4,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "5a1727ef40dc2964227747fbc2ad068c520e0d251f9eadd95f8ff38be8dab7ce",
+        "solver_stdout.log": "c2aac585f3ae0387c1ebbe253784152c688406e024d1be4e348a829d3779f988",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "7eab9f2d1df7bf7dfb324cd768aa2a954f521c2b42a57608c6624643c1fee2ed"
+      }
+    },
+    {
+      "id": "cm3800_state101",
+      "state": 5,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "reason": "Solver timeout; original output retained",
+      "files_sha256": {
+        "solver_stderr.log": "949b1faf41e4c644f3e6b7b17f298156339b063e22f4a2ce3c9a660619a9dc0f",
+        "solver_stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "c10d6e0c914985f1b4c2dc07474cfcb349e1d0a1f73f8493612d47048ab4b7a4"
+      }
+    },
+    {
+      "id": "cm3800_state110",
+      "state": 6,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "reason": "Solver timeout; original output retained",
+      "files_sha256": {
+        "solver_stderr.log": "949b1faf41e4c644f3e6b7b17f298156339b063e22f4a2ce3c9a660619a9dc0f",
+        "solver_stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "e4fe57238a1f496fb0ff7beec5bec12201b310d722b29cb468928f89acf6d815"
+      }
+    },
+    {
+      "id": "cm3800_state111",
+      "state": 7,
+      "common_mode_V": 3.8,
+      "analysis": "DC operating point",
+      "source_model": "Ideal independent input sources; no ADL macro",
+      "feedback_resistance_ohm": 32750,
+      "bias_retuned": false,
+      "amplitude_gate_V": 0.001,
+      "solver_timeout_s": 60,
+      "status": "failed_preserve_output",
+      "returncode": 0,
+      "reason": "No DC vector export",
+      "files_sha256": {
+        "solver_stderr.log": "67083b7e4c7f0c1b5ddd5c9902eb76df16c5aa1928116fd387aab276fbe73464",
+        "solver_stdout.log": "136c80c225c8b1f8fdb7822fe235046d4363012c513278c6b9a671d563a5db95",
+        "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "test.cir": "07df111b3c0f1e71565581871401bd8af83c4eeb674c5acbc3e1da2a90aff275"
+      }
+    }
+  ],
+  "cache": "D:\\work\\trae_cn\\ewc-solver-cache\\ewc-adl-dc-holdout-7eqn2r57",
+  "provenance_sha256": "87d40740598e6cfcaf42bf6d70a5630630ae6271e22bfade3cdda1bd5de53b1f",
+  "no_transient_history": true,
+  "actual_ADL_model": false,
+  "real_rails": false,
+  "startup_passed": false,
+  "full_power_passed": false,
+  "full_system_gates_closed": 0
+}

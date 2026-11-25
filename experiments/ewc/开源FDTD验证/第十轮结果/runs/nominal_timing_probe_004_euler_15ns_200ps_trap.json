@@ -1,0 +1,124 @@
+{
+  "case": "nominal_timing_probe_004_euler_15ns_200ps_trap",
+  "profile": "nominal",
+  "scope": "timing_probe",
+  "tag": "004_euler",
+  "errors": [
+    -0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    -0.01
+  ],
+  "period_ns": 15,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "0e2e108da52233e0225059866747326a4384a078a66971f30480e95a6faa4cd8",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 17877,
+  "unique_points": 17877,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 106,
+  "sample_passed": 130,
+  "minimum_late_margin_V": -2.3099454542267566,
+  "worst_slot": {
+    "slot": 15,
+    "state": "001",
+    "channel": "sum",
+    "margin_V": -2.3099454542267566
+  },
+  "first_bad": {
+    "slot": 6,
+    "state": "011",
+    "channel": "sum",
+    "sample_error6": -0.01,
+    "slot_start_ns": 90.00000000000001
+  },
+  "max_settling_ns": 13.309527448772862,
+  "unsettled": 0,
+  "energy_J": 2.0641893847059957e-09,
+  "power_W": 0.002117117317647175,
+  "energy_per_slot_J": 3.175675976470763e-11,
+  "warning": false
+}

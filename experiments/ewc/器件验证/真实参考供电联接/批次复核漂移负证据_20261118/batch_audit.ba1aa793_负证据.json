@@ -1,0 +1,552 @@
+{
+  "attempts": 28,
+  "complete_waveforms": 10,
+  "counts": {
+    "pass": 4,
+    "fail": 6,
+    "blocked": 18,
+    "observed": 0
+  },
+  "trials": [
+    {
+      "batch": "initial",
+      "id": "linked_ideal_control",
+      "status": "pass",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "a8f190fccc16ae6a724326c6619345bffba0b1f375c3e0d4435cca78d9c25df7",
+      "emitted_data_counts": [
+        100598
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": -0.0,
+        "fda_rail": 6.962065127540533e-09,
+        "comparator_rail": 1.1016861389492264e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 5.0890611553181985e-08
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.00024584586934185
+    },
+    {
+      "batch": "initial",
+      "id": "linked_passive_bias",
+      "status": "fail",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "f96c46946c0f8a72fedc58848e24105992bdc7ad74c1f55648cee4488c1e8d83",
+      "emitted_data_counts": [
+        100600
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": 5.40423255699204e-09,
+        "fda_rail": 7.047875519799651e-09,
+        "comparator_rail": 1.101969317926249e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 4.898711007111821e-09
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.1250534912725333
+    },
+    {
+      "batch": "initial",
+      "id": "linked_buffered_bias",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "baafc29eee0ef8b03a6d630953f5a1b92a0d8eaa3ac70fb3ed572b218a2ea245",
+      "emitted_data_counts": [
+        24758
+      ],
+      "timestep_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2.08068e-07, timestep = 1.25e-23: trouble with node \"xref.110\""
+      ],
+      "complete_chain_passed": false,
+      "retained_partial": {
+        "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-linked-reference-yv4vrrl6\\linked_buffered_bias\\wave.txt",
+        "sha256": "651e39dacb8e7bcf3b4029df7006dcbb937775b6937e8328447e61423d0a64d5",
+        "rows": 24758,
+        "last_time_s": 2.080683460801426e-07
+      },
+      "derived_failure": "transient incomplete"
+    },
+    {
+      "batch": "initial",
+      "id": "linked_real_rails",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "78736959398bded79e0417a2df20ef16f9cc5f8f5bc3afd872cf13ea3aa8c5c8",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xref.e29#branch\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "initial",
+      "id": "linked_real_rails_5ps",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "d184d982f8e0d3ae79bbc2a185d1de299c90af850cbbe47d4e9cca80c9275a74",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xref.e29#branch\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "initial",
+      "id": "linked_ratio_0p1pct",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "195a16815794e31d5e349ba8e7f8134f87c39f208aa3cb787d185845772a5005",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xref:dd-instance d.xref.d20"
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "initial",
+      "id": "linked_startup",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "db0ff5c78b1cdf94338c8d051e2c558a1c4831563a451c53fd31138f4e3c4746",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"xb2.n1356409\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "scoped",
+      "id": "linked_ideal_control",
+      "status": "pass",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "cbb4b0bca7967e0f4fcd8766e3bb5499ea9a5362114e2f9dc7f139b04e1a869b",
+      "emitted_data_counts": [
+        100598
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": -0.0,
+        "fda_rail": 6.962065127540533e-09,
+        "comparator_rail": 1.1016861389492264e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 5.0890611553181985e-08
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.00024584586934185
+    },
+    {
+      "batch": "scoped",
+      "id": "linked_passive_bias",
+      "status": "fail",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "7cebafccd18092a00d3a1a8993aff81e30c6150d278fa68e6d49869f374eaeb6",
+      "emitted_data_counts": [
+        100600
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": 5.40423255699204e-09,
+        "fda_rail": 7.047875519799651e-09,
+        "comparator_rail": 1.101969317926249e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 4.898711007111821e-09
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.1250534912725333
+    },
+    {
+      "batch": "scoped",
+      "id": "linked_buffered_bias",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "53f420b5168ce33f98c3f88cc3ce193da026dfa3ed75cc18b5c9d72b3c01278f",
+      "emitted_data_counts": [
+        24758
+      ],
+      "timestep_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2.08068e-07, timestep = 1.25e-23: trouble with node \"xref.xdevice.110\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "scoped",
+      "id": "linked_real_rails",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "432ae7b2dd2b8f85e97c71455a7a30f997278b250cc17616a8fadeb0a5994977",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xref.e.xdevice.e29#branch\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "scoped",
+      "id": "linked_real_rails_5ps",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "2e74022e7336f12de59aec421ce81cad41b7fd5e7a6745608a58da883416937e",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xref.e.xdevice.e29#branch\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "scoped",
+      "id": "linked_ratio_0p1pct",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "5cb5612d077ed596b2e599f264a83df46b95b17b82b49aa9ec5654c62c796758",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xref:xdevice:dd-instance d.xref.d.xdevice.d20"
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "scoped",
+      "id": "linked_startup",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "7ebe148567f812ab14c6076adc8858f56569357118079a67247f82d6bc9422e8",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"xb2.xdevice.n1356409\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "gear",
+      "id": "linked_ideal_control",
+      "status": "pass",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "1532bdd922737f12668e680896213a19bce9ea3164ccf4db5434a3e77fa51659",
+      "emitted_data_counts": [
+        100308
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": -0.0,
+        "fda_rail": 6.962065270442791e-09,
+        "comparator_rail": 1.1016910097195613e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 5.089061155327137e-08
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.0002458522392306886
+    },
+    {
+      "batch": "gear",
+      "id": "linked_passive_bias",
+      "status": "fail",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "29564ea0eb24bf474cbe9e3bd7f29ef3b64a2359e47e4036dd235645c0844fba",
+      "emitted_data_counts": [
+        100298
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": 5.404232557476314e-09,
+        "fda_rail": 7.047875840604958e-09,
+        "comparator_rail": 1.101954755658959e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 4.89871100729823e-09
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.12505350342971544
+    },
+    {
+      "batch": "gear",
+      "id": "linked_buffered_bias",
+      "status": "fail",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "c662d1af348e41fce8514bcea01dc56640fbc5e8d095d183b05957555f0a967b",
+      "emitted_data_counts": [
+        100308
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": 5.675353702257462e-09,
+        "fda_rail": 7.011113801541334e-09,
+        "comparator_rail": 1.1016897412545998e-08,
+        "buffer_rails": 1.435500009798704e-08,
+        "synthetic_source": 5.086218763154066e-08
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.001841940235045643
+    },
+    {
+      "batch": "gear",
+      "id": "linked_real_rails",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "dbe8a699add513ffc230f88903dcb950eb2a569bba34238c8017785fc9d97d4b",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xref.e.xdevice.e29#branch\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "gear",
+      "id": "linked_real_rails_5ps",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "d1b8a8ce535f1419dc9a1375c3c2d99eb6a55193cab820402ff1f52b9c4e4704",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xref.e.xdevice.e29#branch\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "gear",
+      "id": "linked_ratio_0p1pct",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "5cb5612d077ed596b2e599f264a83df46b95b17b82b49aa9ec5654c62c796758",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xref:xdevice:dd-instance d.xref.d.xdevice.d20"
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "gear",
+      "id": "linked_startup",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "7ebe148567f812ab14c6076adc8858f56569357118079a67247f82d6bc9422e8",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"xb2.xdevice.n1356409\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "nodeset",
+      "id": "linked_ideal_control",
+      "status": "pass",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "10e535dd704c2e2e857e08bc3d312cc613ccb10add67083aad47b1141ab17f0a",
+      "emitted_data_counts": [
+        100308
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": -0.0,
+        "fda_rail": 6.962065270442707e-09,
+        "comparator_rail": 1.1016910097434858e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 5.089061155327191e-08
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.00024585223923779403
+    },
+    {
+      "batch": "nodeset",
+      "id": "linked_passive_bias",
+      "status": "fail",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "7f70555dfb3d36f52edeac123304633a9f340c10f5d0bc22aa204a5d13e64e03",
+      "emitted_data_counts": [
+        100298
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": 5.404232557795209e-09,
+        "fda_rail": 7.047875840602715e-09,
+        "comparator_rail": 1.1019547556658623e-08,
+        "buffer_rails": 0.0,
+        "synthetic_source": 4.898711007308838e-09
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.12505350342840027
+    },
+    {
+      "batch": "nodeset",
+      "id": "linked_buffered_bias",
+      "status": "fail",
+      "complete_csv": true,
+      "solver_returncode": 0,
+      "log_sha256": "7984e8ae14832fabe0bad974cc45be9855adbee5751f9d4b5dde14262945a186",
+      "emitted_data_counts": [
+        100308
+      ],
+      "timestep_errors": [],
+      "complete_chain_passed": false,
+      "energy_channels_J": {
+        "upstream": 5.675353701897985e-09,
+        "fda_rail": 7.011113801506802e-09,
+        "comparator_rail": 1.1016897415524564e-08,
+        "buffer_rails": 1.435500009798704e-08,
+        "synthetic_source": 5.086218764586041e-08
+      },
+      "energies_not_summed": "upstream and rails overlap in real-rail configurations; scope incomplete",
+      "maximum_dc_error_V": 0.0018419402197394422
+    },
+    {
+      "batch": "nodeset",
+      "id": "linked_real_rails",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "fcb2e02b97a4e1abc613ac45d627bc69cb617f4514d5fa726223984850f63a0b",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xref:xdevice:dd-instance d.xref.d.xdevice.d20"
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "nodeset",
+      "id": "linked_real_rails_5ps",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "e491ba4c90bff2c026d31a841b6897d29ebeeaad72fb616d4018b2d11ed872a4",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xref:xdevice:dd-instance d.xref.d.xdevice.d20"
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "nodeset",
+      "id": "linked_ratio_0p1pct",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "2d2107e2944b797b8529090867bdda30babc3b5f179e297bd020ce5ff55715bf",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xref:xdevice:dd-instance d.xref.d.xdevice.d19"
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    },
+    {
+      "batch": "nodeset",
+      "id": "linked_startup",
+      "status": "blocked",
+      "complete_csv": false,
+      "solver_returncode": 0,
+      "log_sha256": "d76631bdbec2e2b86df33dfbaed4cb0ce8a09510b20c7713b1f23085401553ac",
+      "emitted_data_counts": [
+        0
+      ],
+      "timestep_errors": [
+        "Error: Transient op failed, timestep too small",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"xb2.xdevice.n1356409\""
+      ],
+      "complete_chain_passed": false,
+      "derived_failure": "operating point or waveform generation failed"
+    }
+  ],
+  "original_summaries_sha256": {
+    "initial": "de8f4574281eb2a5c76d9b3b4f38589aeea1b1eb0de53140b6067551a73c7c23",
+    "scoped": "421a025c83e4847dae2ab9bfb36fc3a89cbdd3ef38d5ef07dcf6af813c5e6931",
+    "gear": "738342b38e3aa414cf049eec00f20202ac7832fefd07269f23aa180151dd5619",
+    "nodeset": "a52c891d2bd10ef0e9e9dafeed244d2486e7a735b33492f143a329d3c8ad801b"
+  },
+  "full_G4_G5_passed": false,
+  "full_power_passed": false,
+  "safe_startup_passed": false,
+  "auditor_sha256": "7a1b5dd80e11e1328fcd3fa4d953c4d1c607f2cc075e7ed2b5b38cbeef06fd67"
+}

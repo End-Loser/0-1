@@ -1,0 +1,215 @@
+{
+  "method": "full finite integral Maxwell with six copper surface admittances, frequency domain",
+  "cases": [
+    {
+      "case": "copper_4x3x2_011_m64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 133,
+      "wall_records": 140,
+      "frequency_Hz": 2666039233.8425136,
+      "Q_from_local_pole": 34997.86568371652,
+      "inverse_response_fit_residual": 2.3920118699838405e-05,
+      "continuum_Q": 22767.036191781215,
+      "Q_energy": 34997.84721071256,
+      "Q_relative_error": 0.5372165875657795,
+      "frequency_relative_error": 0.08492303057522022,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": false,
+      "file": "copper_4x3x2_011_m64.npz",
+      "sha256": "b43cfae45648f097dde3991f5366a6aab4fb1062bb5e5f9fba7d04240e05da4e"
+    },
+    {
+      "case": "copper_8x5x3_011_m64",
+      "shape": [
+        8,
+        5,
+        3
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 534,
+      "wall_records": 380,
+      "frequency_Hz": 2804475239.6380687,
+      "Q_from_local_pole": 27449.08042620697,
+      "inverse_response_fit_residual": 2.364019395012345e-05,
+      "continuum_Q": 22767.036191781215,
+      "Q_energy": 27449.227726938185,
+      "Q_relative_error": 0.20565014238067358,
+      "frequency_relative_error": 0.03740700041534628,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": false,
+      "file": "copper_8x5x3_011_m64.npz",
+      "sha256": "087a93efbdb9ce903d924b295535f7e416381c83ae534d19f596c305598dbee1"
+    },
+    {
+      "case": "copper_16x10x6_011_m64",
+      "shape": [
+        16,
+        10,
+        6
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 3544,
+      "wall_records": 1392,
+      "frequency_Hz": 2885858594.8317313,
+      "Q_from_local_pole": 23853.621268506566,
+      "inverse_response_fit_residual": 2.3332465320857756e-05,
+      "continuum_Q": 22767.036191781215,
+      "Q_energy": 23853.84752381997,
+      "Q_relative_error": 0.04772624190396835,
+      "frequency_relative_error": 0.009473415235167981,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": true,
+      "file": "copper_16x10x6_011_m64.npz",
+      "sha256": "3dc946ce465bc70f98db04736491c8b4fb610a7ec1ede08c28c76483289b028f"
+    },
+    {
+      "case": "copper_24x15x9_011_m64",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 11190,
+      "wall_records": 3036,
+      "frequency_Hz": 2901131269.818025,
+      "Q_from_local_pole": 23243.62252806201,
+      "inverse_response_fit_residual": 2.3260767520288398e-05,
+      "continuum_Q": 22767.036191781215,
+      "Q_energy": 23243.862178745538,
+      "Q_relative_error": 0.02093317427293595,
+      "frequency_relative_error": 0.004231304404966663,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": true,
+      "file": "copper_24x15x9_011_m64.npz",
+      "sha256": "8f3fbd9bbae68b11636bebcfc673868daa03cedee471d668546aa5f483f51b53"
+    },
+    {
+      "case": "copper_16x10x6_101_m64",
+      "shape": [
+        16,
+        10,
+        6
+      ],
+      "mode": [
+        1,
+        0,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 3544,
+      "wall_records": 1392,
+      "frequency_Hz": 2640944684.4112196,
+      "Q_from_local_pole": 20167.71224864326,
+      "inverse_response_fit_residual": 2.7563824131747753e-05,
+      "continuum_Q": 19269.669144097297,
+      "Q_energy": 20167.939048104196,
+      "Q_relative_error": 0.04660397113362236,
+      "frequency_relative_error": 0.010197822510893073,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": false,
+      "file": "copper_16x10x6_101_m64.npz",
+      "sha256": "6a2668222ac14677b61ae93a35330d12303f414d4e65ddbc77d5bb7156d47139"
+    },
+    {
+      "case": "copper_24x15x9_101_m64",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode": [
+        1,
+        0,
+        1
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 11190,
+      "wall_records": 3036,
+      "frequency_Hz": 2655996502.2512107,
+      "Q_from_local_pole": 19663.966373207135,
+      "inverse_response_fit_residual": 2.7480936008053357e-05,
+      "continuum_Q": 19269.669144097297,
+      "Q_energy": 19664.206242663357,
+      "Q_relative_error": 0.020462065340162816,
+      "frequency_relative_error": 0.004556537344591383,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": true,
+      "file": "copper_24x15x9_101_m64.npz",
+      "sha256": "d7507468acbbb17b1795a1d94e705c82165d4405e192ac3639f8938dfff6155a"
+    },
+    {
+      "case": "copper_24x15x9_011_m16",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "terms": 16,
+      "frequency_solves": 10,
+      "full_edge_count": 11190,
+      "wall_records": 3036,
+      "frequency_Hz": 2901129583.4473176,
+      "Q_from_local_pole": 24704.87596363493,
+      "inverse_response_fit_residual": 2.3431425008124414e-05,
+      "continuum_Q": 22767.036191781215,
+      "Q_energy": 24705.07671159297,
+      "Q_relative_error": 0.08511603159629821,
+      "frequency_relative_error": 0.004231883225779498,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": true,
+      "file": "copper_24x15x9_011_m16.npz",
+      "sha256": "31e6216ee0a670d92a7301344e7c35e96d6031d74c13cfe2aa42ddb417c365fc"
+    }
+  ],
+  "full_frequency_solves": 70,
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "model_path": "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u539a\u94dc\u8fb9\u754c\u57fa\u51c6\u7ed3\u679c\\passive_surface_models.json",
+  "source_sha256": {
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+    "run_finite_copper_cavity.py": "e31020f51ae8019d02074edf1d6cd0d462de4257bd5485b8f225bf182e0607ce"
+  },
+  "finite_copper_frequency_subtask_complete": true,
+  "copper_transient_boundary_complete": false,
+  "long_decay_Q_complete": false,
+  "arbitrary_corner_accuracy_complete": false,
+  "real_cavity_complete": false,
+  "full_joint_simulation_complete": false
+}

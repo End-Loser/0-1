@@ -1,0 +1,196 @@
+{
+  "runs": [
+    {
+      "id": "original_single_control",
+      "reproduced_status": "pass",
+      "output_error_V": 0.011278360861459724,
+      "output_terminal_range_V": [
+        3.28872163913854,
+        3.293760833876021
+      ],
+      "waveform_complete": true,
+      "original_netlist_unchanged": true
+    },
+    {
+      "id": "direct_5Vin_3.3Vout",
+      "reproduced_status": "fail",
+      "output_error_V": 3.2989116295625416,
+      "output_terminal_range_V": [
+        0.00108837043745807,
+        0.00108837043745807
+      ],
+      "waveform_complete": true,
+      "upstream_resistor_error_A": 1.0658141036401503e-14,
+      "load_error_A": 1.6940658945086007e-21,
+      "internal_vout_terminal_range_V": [
+        3.300268975596356,
+        3.300268975596361
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "inferred_stationary_output_coupling_ohm": [
+        1000330.0000000045,
+        1000330.0000000059
+      ],
+      "coupling_scope": "diagnostic_only_no_supported_solver_root_cause_claim"
+    },
+    {
+      "id": "direct_6Vin_3.3Vout",
+      "reproduced_status": "fail",
+      "output_error_V": 3.298911570871678,
+      "output_terminal_range_V": [
+        0.001088429128321837,
+        0.001088429128321837
+      ],
+      "waveform_complete": true,
+      "upstream_resistor_error_A": 2.1316282072803006e-14,
+      "load_error_A": 1.6940658945086007e-21,
+      "internal_vout_terminal_range_V": [
+        3.30044694408041,
+        3.300446944080411
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "inferred_stationary_output_coupling_ohm": [
+        1000330.0000000055,
+        1000330.0000000056
+      ],
+      "coupling_scope": "diagnostic_only_no_supported_solver_root_cause_claim"
+    },
+    {
+      "id": "direct_6Vin_5Vout",
+      "reproduced_status": "fail",
+      "output_error_V": 4.995009853713663,
+      "output_terminal_range_V": [
+        0.004990146286337357,
+        0.004990146286337357
+      ],
+      "waveform_complete": true,
+      "upstream_resistor_error_A": 1.7763569241035452e-14,
+      "load_error_A": 8.470329472543003e-22,
+      "internal_vout_terminal_range_V": [
+        5.000126578910048,
+        5.000126578910048
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "inferred_stationary_output_coupling_ohm": [
+        1001000.0000000031,
+        1001000.0000000031
+      ],
+      "coupling_scope": "diagnostic_only_no_supported_solver_root_cause_claim"
+    },
+    {
+      "id": "scoped_5Vin_3.3Vout",
+      "reproduced_status": "fail",
+      "output_error_V": 3.2989116295625416,
+      "output_terminal_range_V": [
+        0.00108837043745807,
+        0.00108837043745807
+      ],
+      "waveform_complete": true,
+      "upstream_resistor_error_A": 1.0658141036401503e-14,
+      "load_error_A": 1.6940658945086007e-21,
+      "internal_vout_terminal_range_V": [
+        3.300268975596356,
+        3.300268975596361
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "inferred_stationary_output_coupling_ohm": [
+        1000330.0000000045,
+        1000330.0000000059
+      ],
+      "coupling_scope": "diagnostic_only_no_supported_solver_root_cause_claim"
+    },
+    {
+      "id": "scoped_6Vin_3.3Vout",
+      "reproduced_status": "fail",
+      "output_error_V": 3.298911570871678,
+      "output_terminal_range_V": [
+        0.001088429128321837,
+        0.001088429128321837
+      ],
+      "waveform_complete": true,
+      "upstream_resistor_error_A": 2.1316282072803006e-14,
+      "load_error_A": 1.6940658945086007e-21,
+      "internal_vout_terminal_range_V": [
+        3.30044694408041,
+        3.300446944080411
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "inferred_stationary_output_coupling_ohm": [
+        1000330.0000000055,
+        1000330.0000000056
+      ],
+      "coupling_scope": "diagnostic_only_no_supported_solver_root_cause_claim"
+    },
+    {
+      "id": "scoped_6Vin_5Vout",
+      "reproduced_status": "fail",
+      "output_error_V": 4.995009853713663,
+      "output_terminal_range_V": [
+        0.004990146286337357,
+        0.004990146286337357
+      ],
+      "waveform_complete": true,
+      "upstream_resistor_error_A": 1.7763569241035452e-14,
+      "load_error_A": 8.470329472543003e-22,
+      "internal_vout_terminal_range_V": [
+        5.000126578910048,
+        5.000126578910048
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "inferred_stationary_output_coupling_ohm": [
+        1001000.0000000031,
+        1001000.0000000031
+      ],
+      "coupling_scope": "diagnostic_only_no_supported_solver_root_cause_claim"
+    }
+  ],
+  "scope_pairs": [
+    {
+      "first": "direct_5Vin_3.3Vout",
+      "second": "scoped_5Vin_3.3Vout",
+      "maximum_all_column_difference": 0.0,
+      "identical_within_1e_12": true,
+      "scope": "only_this_single_regulator_resistive_fixture"
+    },
+    {
+      "first": "direct_6Vin_3.3Vout",
+      "second": "scoped_6Vin_3.3Vout",
+      "maximum_all_column_difference": 0.0,
+      "identical_within_1e_12": true,
+      "scope": "only_this_single_regulator_resistive_fixture"
+    },
+    {
+      "first": "direct_6Vin_5Vout",
+      "second": "scoped_6Vin_5Vout",
+      "maximum_all_column_difference": 0.0,
+      "identical_within_1e_12": true,
+      "scope": "only_this_single_regulator_resistive_fixture"
+    }
+  ],
+  "evidence_integrity_passed": true,
+  "pass_count": 1,
+  "scope_change_did_not_resolve_observed_failure": true,
+  "root_cause_proven": false,
+  "supported_pspice_verified": false,
+  "full_supply_acceptance_passed": false,
+  "summary_sha256": "04a2553f165d8cdfd435241c11435c7cdccf50328286d4ac45d6f1a634d58d00",
+  "verifier_sha256": "eb6c523cb59727883e770ef712a4dc62a9071b8cfd72d704fa7f8fcfa1f42bcb"
+}

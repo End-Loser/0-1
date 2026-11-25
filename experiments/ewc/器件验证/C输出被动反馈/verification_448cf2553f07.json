@@ -1,0 +1,360 @@
+{
+  "scope": "Actual C passive baseband preliminary evidence; not seven gates",
+  "cases": [
+    {
+      "id": "actual_C_10ps_diagnostic_rails",
+      "status": "local_pass",
+      "checks": {
+        "eight_states_present": true,
+        "actual_C_resistor_current": true,
+        "logic": true,
+        "amplitude": true,
+        "common_mode": true,
+        "input_pin_range": true,
+        "fda_output_range": true,
+        "output_continuous_current": true,
+        "comparator_pin_range": true,
+        "rails": true,
+        "reference": true,
+        "observed_capacitor_accounting": true
+      },
+      "local_passed": true,
+      "windows": [
+        {
+          "index": 0,
+          "input_state": 0,
+          "expected_carry": 0,
+          "expected_sum": 0,
+          "start_s": 1.2e-07,
+          "end_s": 1.7e-07,
+          "carry_amplitude_error_V": 9.248097277037015e-06,
+          "sum_amplitude_error_V": 5.3589708678282444e-05,
+          "carry_range_V": [
+            0.003821964134690122,
+            0.003821964970309162
+          ],
+          "sum_range_V": [
+            3.0341203150823e-10,
+            3.0341203150823e-10
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 1,
+          "input_state": 1,
+          "expected_carry": 0,
+          "expected_sum": 1,
+          "start_s": 3.2e-07,
+          "end_s": 3.6999999999999995e-07,
+          "carry_amplitude_error_V": 0.00013058453993429475,
+          "sum_amplitude_error_V": 0.00017969512058870624,
+          "carry_range_V": [
+            0.003821868682527039,
+            0.00382203044740694
+          ],
+          "sum_range_V": [
+            3.29795526661659,
+            3.29795526661659
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 2,
+          "input_state": 2,
+          "expected_carry": 0,
+          "expected_sum": 1,
+          "start_s": 5.2e-07,
+          "end_s": 5.699999999999999e-07,
+          "carry_amplitude_error_V": 9.118311242631294e-06,
+          "sum_amplitude_error_V": 5.3765475041787913e-05,
+          "carry_range_V": [
+            0.003821964803747054,
+            0.003821964847868865
+          ],
+          "sum_range_V": [
+            3.297955266616609,
+            3.297955266616609
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 3,
+          "input_state": 3,
+          "expected_carry": 1,
+          "expected_sum": 0,
+          "start_s": 7.2e-07,
+          "end_s": 7.699999999999999e-07,
+          "carry_amplitude_error_V": 0.00013075827789169048,
+          "sum_amplitude_error_V": 0.0006491193742287488,
+          "carry_range_V": [
+            3.29559657577703,
+            3.295597307192633
+          ],
+          "sum_range_V": [
+            3.034761780589759e-10,
+            3.034761780589759e-10
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 4,
+          "input_state": 4,
+          "expected_carry": 0,
+          "expected_sum": 1,
+          "start_s": 9.2e-07,
+          "end_s": 9.7e-07,
+          "carry_amplitude_error_V": 0.0001487285453706383,
+          "sum_amplitude_error_V": 0.0005053604388908436,
+          "carry_range_V": [
+            0.003821193994454403,
+            0.003821927822172482
+          ],
+          "sum_range_V": [
+            3.29795526661659,
+            3.29795526661659
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 5,
+          "input_state": 5,
+          "expected_carry": 1,
+          "expected_sum": 0,
+          "start_s": 1.1199999999999999e-06,
+          "end_s": 1.17e-06,
+          "carry_amplitude_error_V": 0.00013075277421262244,
+          "sum_amplitude_error_V": 0.000649115272174719,
+          "carry_range_V": [
+            3.295596575680753,
+            3.295597306836141
+          ],
+          "sum_range_V": [
+            3.034761780589759e-10,
+            3.034761780589759e-10
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 6,
+          "input_state": 6,
+          "expected_carry": 1,
+          "expected_sum": 0,
+          "start_s": 1.3199999999999999e-06,
+          "end_s": 1.37e-06,
+          "carry_amplitude_error_V": 8.946067704268534e-06,
+          "sum_amplitude_error_V": 0.00018550216897973704,
+          "carry_range_V": [
+            3.295596540457522,
+            3.295596540824032
+          ],
+          "sum_range_V": [
+            3.034603738363284e-10,
+            3.034603738363284e-10
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 7,
+          "input_state": 7,
+          "expected_carry": 1,
+          "expected_sum": 1,
+          "start_s": 1.5199999999999998e-06,
+          "end_s": 1.57e-06,
+          "carry_amplitude_error_V": 0.00013093015662721252,
+          "sum_amplitude_error_V": 0.0002757008618142348,
+          "carry_range_V": [
+            3.295596444176899,
+            3.295596605942916
+          ],
+          "sum_range_V": [
+            3.29795526661659,
+            3.29795526661659
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        },
+        {
+          "index": 8,
+          "input_state": 0,
+          "expected_carry": 0,
+          "expected_sum": 0,
+          "start_s": 1.7199999999999998e-06,
+          "end_s": 1.77e-06,
+          "carry_amplitude_error_V": 0.00042822215021404153,
+          "sum_amplitude_error_V": 0.0006002147382842896,
+          "carry_range_V": [
+            0.003821211488926759,
+            0.003821995498693638
+          ],
+          "sum_range_V": [
+            3.034761780589759e-10,
+            3.034761780589759e-10
+          ],
+          "logic_passed": true,
+          "amplitude_passed": true
+        }
+      ],
+      "raw_summing_kcl_A": 2.999992846734282e-13,
+      "input_source_kcl_A": [
+        6.665674956440881e-16,
+        6.665674956440881e-16,
+        6.665674956440881e-16
+      ],
+      "C_feedback_current_error_A": 5.119488674946906e-12,
+      "C_feedback_current_range_A": [
+        -6.185363412293456e-05,
+        3.853148791880367e-05
+      ],
+      "common_mode_error_V": 0.0027392303975597443,
+      "input_cap_kcl_A": [
+        1.2787022062406397e-13,
+        1.9889534630722708e-13,
+        1.7738920254959184e-13,
+        1.6733791714407022e-13,
+        1.8642322696676465e-13
+      ],
+      "fda_output_current_max_A": 0.0032052938372022365,
+      "input_cap_charge_relative_error": [
+        6.202273468389518e-12,
+        1.0157931502294799e-10,
+        4.663560665974354e-11,
+        5.193765383222941e-11,
+        8.184516566368366e-11
+      ],
+      "bias_cap_kcl_A": [
+        1.7129093100651165e-12,
+        1.720177203943668e-12,
+        1.9001166887512168e-12,
+        1.4295911434954071e-12
+      ],
+      "bias_cap_charge_relative_error": [
+        1.0424283396952101e-08,
+        9.55985867373117e-09,
+        1.0334131698467336e-08,
+        9.785536330526393e-09
+      ],
+      "independent_primitive_source_work": {
+        "upstream": {
+          "net_J": 1.1293293052390132e-08,
+          "delivered_J": 1.1293293052390132e-08,
+          "absorbed_J": 0.0
+        },
+        "input_a": {
+          "net_J": 7.986666998956625e-11,
+          "delivered_J": 7.988333625481203e-11,
+          "absorbed_J": 1.666626524578381e-14
+        },
+        "input_b": {
+          "net_J": 7.973333996337246e-11,
+          "delivered_J": 7.97750049917028e-11,
+          "absorbed_J": 4.166502833032999e-14
+        },
+        "input_cin": {
+          "net_J": 7.946667991098492e-11,
+          "delivered_J": 7.959167621115676e-11,
+          "absorbed_J": 1.2499630017186016e-13
+        },
+        "diagnostic_5V": {
+          "net_J": 2.5098536564485602e-08,
+          "delivered_J": 2.5098536564485602e-08,
+          "absorbed_J": 0.0
+        },
+        "diagnostic_3V3": {
+          "net_J": 8.23887002052894e-08,
+          "delivered_J": 8.23887002052894e-08,
+          "absorbed_J": 0.0
+        },
+        "synthetic_split_p1": {
+          "net_J": 5.085456575999449e-08,
+          "delivered_J": 5.085456575999449e-08,
+          "absorbed_J": 0.0
+        },
+        "synthetic_split_n1": {
+          "net_J": 4.081115107371561e-08,
+          "delivered_J": 4.081115107371561e-08,
+          "absorbed_J": 0.0
+        },
+        "synthetic_split_p2": {
+          "net_J": 5.119499443006007e-08,
+          "delivered_J": 5.119499443006007e-08,
+          "absorbed_J": 0.0
+        },
+        "synthetic_split_n2": {
+          "net_J": 4.0509105743736584e-08,
+          "delivered_J": 4.0509105743736584e-08,
+          "absorbed_J": 0.0
+        }
+      },
+      "feedback_port_transferred_net_J": 9.932311878707193e-11,
+      "feedback_resistor_heat_J": 1.6167666024867894e-10,
+      "feedback_transfer_is_not_extra_external_supply": true,
+      "unclosed_accounting": [
+        "Shared FDA common-mode pin current decomposition",
+        "REF output capacitor ESR node and full internal energy",
+        "Real LO/RF, control, register and calibration supply",
+        "TPS7A20 quiescent ground current and temperature"
+      ],
+      "initial_operating_point_not_cold_start": true,
+      "nominal_linear_margin_V": 0.023946360153256706,
+      "real_rails": false,
+      "last_time_s": 1.8e-06,
+      "G4_closed": false,
+      "G5_closed": false,
+      "G6_closed": false
+    },
+    {
+      "id": "actual_C_5ps_diagnostic_rails",
+      "status": "incomplete",
+      "last_time_s": 2.086509625839465e-07,
+      "local_passed": false
+    },
+    {
+      "id": "actual_C_10ps_real_rails",
+      "status": "missing_waveform",
+      "reason": "No waveform",
+      "local_passed": false
+    }
+  ],
+  "diagnostic_time_pair": {
+    "complete": false,
+    "passed": false
+  },
+  "evidence_sha256": {
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\u6267\u884c\u62a5\u544a.md": "9395090cbbf20fe00d6ad60d42f0dd056692364a791bbea21b44d0c787a00275",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\declared_configurations.json": "b10fbeb4c73339072c142fcd50eab91d818b1741a2c79332e45d8b04474a46de",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\running_source.json": "da3d4f63dacb7747acbe41133516c19858b4ce5ec0e88ef1ca170398a21727c6",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\summary.json": "99c1fd7cb72a1f9df42e6063d85af9026b202f2cddf4bfd9e05ba5656ce5f238",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_diagnostic_rails\\full_vectors.npz": "39f3c2087ef629ad37b4a9154c59526c9afcf6979adeba8e965b88948f26ac9d",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_diagnostic_rails\\run.json": "c40987a301e36c77e2e9452169a79949658200a3509420a86cf0228e7defd072",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_diagnostic_rails\\solver_stderr.log": "d680499878ba83fa0ae393a6f994d7d8e4ffff07785fdebfaff93ab6d7658eee",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_diagnostic_rails\\solver_stdout.log": "df08cb9dfaa22104689271068bafc9c76e453b4b3ab397284ceb7d16d8e9e6d5",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_diagnostic_rails\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_diagnostic_rails\\test.cir": "c32d66a1aa9d09693cf9390da779781b7b960b38b44455802c17bb4aeb49f6b9",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_real_rails\\run.json": "62d84d84276da4236edefae72f4335c57358a9402f358f2781f09c63ac8485cb",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_real_rails\\solver_stderr.log": "2dfa995bedfd1f8a98718eb01063e8f5bafe89f71a952e0c58365a3b4f688239",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_real_rails\\solver_stdout.log": "3f2d39273ab0bf4b1e79a4167f1ccba908a1673e09d84508eb1fee63b8df7ba5",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_real_rails\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_10ps_real_rails\\test.cir": "500aceb6b90c0c9064418190a07803c7fa964a80949a7a8adb13455f9fe28dcb",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_5ps_diagnostic_rails\\full_vectors.npz": "4829063796ad866da6d2ad5a584754d2f05508b4193e5d3ef0b2f27bf2ec443f",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_5ps_diagnostic_rails\\run.json": "87f4979e47566f663093ba00e80e97fbf58d56b8f8a2cbe008c072f57a7791a0",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_5ps_diagnostic_rails\\solver_stderr.log": "bf68de9db00e7326aa98da1f5e2fb0fb6d2068c016f446d3b60f197d1dbb3bd5",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_5ps_diagnostic_rails\\solver_stdout.log": "4a22ab40b6483b4f2c9badd40f731c0fab4a9fa4d0d8c1aa45d6d118d634a3fc",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_5ps_diagnostic_rails\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "C\u8f93\u51fa\u88ab\u52a8\u53cd\u9988\\actual_C_5ps_diagnostic_rails\\test.cir": "70bee4ee55809d8943bb7d6813dfd011ea3553f7560252777a4b1db9409dbe62"
+  },
+  "verifier_sha256": "dd7e91560a438813a836499c64069a8f51290686bdc6f9233c47ba94be7e6836",
+  "summary_sha256": "99c1fd7cb72a1f9df42e6063d85af9026b202f2cddf4bfd9e05ba5656ce5f238",
+  "full_64_transitions_present": false,
+  "actual_RF_feedback": false,
+  "full_power_passed": false,
+  "cold_start_passed": false,
+  "full_system_gates_closed": 0,
+  "goal_complete": false
+}

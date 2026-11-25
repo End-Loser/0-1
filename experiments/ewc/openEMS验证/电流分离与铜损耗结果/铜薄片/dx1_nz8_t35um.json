@@ -1,0 +1,75 @@
+{
+  "case": "dx1_nz8_t35um",
+  "dx_mm": 1.0,
+  "nz": 8,
+  "thickness_um": 35.0,
+  "sigma_S_per_m": 58580000.0,
+  "temperature_assumption_C": 20,
+  "sheet_target_max_relative_complex_error": 0.3221904770113043,
+  "sheet_target_max_relative_real_error": 0.007728931156623542,
+  "one_sided_thick_wall_max_relative_complex_error": 0.6228278972918122,
+  "sheet_model_1percent_pass": false,
+  "thick_cavity_wall_pass": false,
+  "pec_impedance_max_ohm": null,
+  "surface_power_sign_nonnegative": true,
+  "Z_at_3GHz_ohm": [
+    0.007143666035645408,
+    0.004166458675621276
+  ],
+  "skin_depth_3GHz_um": 1.200562629156405,
+  "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\copper-sheet-final\\dx1_nz8_t35um",
+  "raw_manifest": [
+    {
+      "name": "et",
+      "sha256": "444caf90ba122cd75cca701ebb3b5bc9a2eb730c4810f05c2d590c475039707b"
+    },
+    {
+      "name": "ht",
+      "sha256": "4885ac8012d3e33dcb2117587924f6878e37c6765308c64900388e75668de21a"
+    },
+    {
+      "name": "model.xml",
+      "sha256": "2952cde249eaa4d5b7729f05455ec890171559cac8cf9b87dfa4308584583519"
+    },
+    {
+      "name": "port_it1a",
+      "sha256": "afaecafefcec33860ae61df035100382545702f764a717ef7cf8f3f4a253bbbf"
+    },
+    {
+      "name": "port_it1b",
+      "sha256": "20a61e66548991d0a667648caeab55d19a9555a2fdd72094015f964a9c93fd75"
+    },
+    {
+      "name": "port_it2a",
+      "sha256": "9242ad27ff51ff8aaf6051cbba1a64a8670cc0ba1c187f2a90f55bb7e923ae20"
+    },
+    {
+      "name": "port_it2b",
+      "sha256": "38ecd5bb9b9209161bd7b34a208046efcca1f455e913c0849ef94d16f872e01a"
+    },
+    {
+      "name": "port_ut1",
+      "sha256": "005df3608d4045b4b359b94ab2dd71e802688e06b192d462f5b3108a39943356"
+    },
+    {
+      "name": "port_ut2",
+      "sha256": "a9f9790d8364b3128ee9247c264cbac4dc3f9f7e2f216c8caaa2fadf1eb910b8"
+    },
+    {
+      "name": "sheet_E",
+      "sha256": "5e81f4032af2a11c5122f190ae4292379b066f37039c140c514ac65007c499ba"
+    },
+    {
+      "name": "sheet_Hleft",
+      "sha256": "5af6d0774eeb7c3eaabbb9ce5cc1fcf3da7d28c1f15126be2f726cbecddd91c5"
+    },
+    {
+      "name": "sheet_Hright",
+      "sha256": "af645f479cbc57015042b0476c350aee2cbb788dc2256af31717f81a87c9ae26"
+    },
+    {
+      "name": "solver.log",
+      "sha256": "abadc2c1ff019c3e6b85c58ff9a8d17ff7f1b5f0ff2c37be2a249142ab736d67"
+    }
+  ]
+}

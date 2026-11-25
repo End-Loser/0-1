@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-11-17T15:06:34.670738+00:00",
+  "script_sha256": "9b5b769346cd4b20f24a9cddf8da0971bcd9c77c7ca1fa19eb99ffbec2bc01e2",
+  "scope": "candidate evidence and analytical constraints only",
+  "sources": {
+    "copper": "https://alloys.copper.org/alloy/C11000",
+    "laminate": "https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5880-laminates",
+    "lo": "https://www.analog.com/en/products/adf4351.html",
+    "tx": "https://www.analog.com/en/products/adl5375.html",
+    "rx": "https://www.analog.com/en/products/adl5380.html",
+    "comparator": "https://www.ti.com/product/TLV3501",
+    "comparator_timing": "https://www.ti.com/document-viewer/TLV3501/datasheet/specifications#SBOS3215427",
+    "adc": "https://www.ti.com/product/ADS8866",
+    "dac": "https://www.ti.com/product/DAC80501",
+    "coarse_gain": "https://www.analog.com/en/products/adl5335.html",
+    "ti_archive": "https://www.ti.com/lit/zip/SLAC576",
+    "ports": "https://docs.openems.de/python/openEMS/ports.html",
+    "sheet": "https://openems.readthedocs.io/en/latest/python/CSXCAD/CSProperties/CSPropConductingSheet.html"
+  },
+  "snapshots": [
+    {
+      "id": "adc",
+      "url": "https://www.ti.com/product/ADS8866",
+      "snapshot": "source_snapshots\\adc.md",
+      "sha256": "d7f58202407602b76cef3d245a74ed0beefb6eac81c831c975e6617cd8c7a076",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "comparator",
+      "url": "https://www.ti.com/product/TLV3501",
+      "snapshot": "source_snapshots\\comparator.md",
+      "sha256": "2f5c5679b622d9578f5c676c834ebf7822148643bfc757ec6235859df8959ac7",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "comparator_timing",
+      "url": "https://www.ti.com/document-viewer/TLV3501/datasheet/specifications#SBOS3215427",
+      "snapshot": "source_snapshots\\comparator_timing.md",
+      "sha256": "1a11076d5ecf4466d2ce76dd7d0fc4978da29dec030e00a5657f9d0f4933f22b",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "copper",
+      "url": "https://alloys.copper.org/alloy/C11000",
+      "snapshot": "source_snapshots\\copper.md",
+      "sha256": "0cb7fdb21d8b539f38aa270d9a4622cf99186e4253c69281fe727eb8df123bab",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "dac",
+      "url": "https://www.ti.com/product/DAC80501",
+      "snapshot": "source_snapshots\\dac.md",
+      "sha256": "4c41fd891ec03e512e3f285f236668cbb658e95c56f3433c689dd7c520e3375e",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "laminate",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5880-laminates",
+      "snapshot": "source_snapshots\\laminate.md",
+      "sha256": "35d9effcfe1b830ab16caf8f886aa271b0326cede5ea8565c8060458755a1802",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "lo",
+      "url": "https://www.analog.com/en/products/adf4351.html",
+      "snapshot": "source_snapshots\\lo.md",
+      "sha256": "4059b7b1794d68fd5823a6df403356fb90c15ba5177e6b95dd63e84c1dc45504",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "rx",
+      "url": "https://www.analog.com/en/products/adl5380.html",
+      "snapshot": "source_snapshots\\rx.md",
+      "sha256": "9fc5c719639bfe6e6db10522416b0cf421d266a5242ee0e02ff822cf933ee7f6",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    },
+    {
+      "id": "tx",
+      "url": "https://www.analog.com/en/products/adl5375.html",
+      "snapshot": "source_snapshots\\tx.md",
+      "sha256": "74ecaea1b211c3a3de6a6b1cc897010bb678ad5be9334a330d1bfb6f7290bfd4",
+      "format": "web-fetch markdown; not original manufacturer PDF"
+    }
+  ],
+  "ti_reference_archive": {
+    "url": "https://www.ti.com/lit/zip/SLAC576",
+    "sha256": "59d86992409abc168161fe6c8c8209873779d7658bebe316843885f63acd2953",
+    "files": [
+      {
+        "name": "Simulation/AC comparator Tran Final.TSC",
+        "bytes": 308064
+      },
+      {
+        "name": "Simulation/Complete Circuit Schematic.TSC",
+        "bytes": 9057
+      },
+      {
+        "name": "Simulation/Complete Input Scale Freq.TSC",
+        "bytes": 27286
+      },
+      {
+        "name": "Simulation/Front Page.TSC",
+        "bytes": 8095
+      },
+      {
+        "name": "Simulation/Plots.tdr",
+        "bytes": 3116243
+      },
+      {
+        "name": "Simulation/Transient Signal Source.TSC",
+        "bytes": 295969
+      },
+      {
+        "name": "IMP NOTICE for REF DESIGNS.pdf",
+        "bytes": 14136
+      }
+    ],
+    "readable_spice_extension_files": [],
+    "ngspice_compatibility": "not established; TINA project files are present",
+    "license": "original archive includes reference-design notice; kept in external cache, not redistributed"
+  },
+  "python_default_import_scope": {
+    "openEMS": false,
+    "CSXCAD": false,
+    "numpy": true
+  },
+  "fdtd_cached_source_inventory": {
+    "objects.py": {
+      "sha256": "81d881f8b5e03bf9bc8dadfb03d4e1e66a0c068ed4b645becb78af26394a4e77"
+    },
+    "sources.py": {
+      "sha256": "d40d9c94c62812b5710ba01bdf6cd233d00381f91693d93d06b82992edc6358f"
+    },
+    "detectors.py": {
+      "sha256": "eb7a53ce6fb34ffcff1efaa0b72b34b84aa099458ea8f2d552edeff333f037a7"
+    },
+    "__init__.py": {
+      "sha256": "d4afc48c5b0454398f6d599542f8483ded3a9c519fa9d2f31aac102d2b69432e"
+    }
+  },
+  "calculations": {
+    "method": "analytical screening; not FDTD or a device simulation",
+    "copper": {
+      "source": "https://alloys.copper.org/alloy/C11000",
+      "IACS_reference_S_per_m": 58000000.0,
+      "conductivity_typical_101pct_IACS_S_per_m": 58580000.0,
+      "temperature_C": 20,
+      "frequency_Hz": 3000000000.0,
+      "skin_depth_m": 1.2005626291564051e-06,
+      "smooth_thick_surface_resistance_ohm": 0.014218893850206561,
+      "five_mm_grid_to_skin_depth_ratio": 4164.714008725502,
+      "exclusions": [
+        "surface roughness",
+        "seams",
+        "plating",
+        "temperature drift",
+        "manufacturing variation"
+      ]
+    },
+    "gain_resolution": {
+      "source": "https://www.analog.com/en/products/adl5335.html",
+      "step_dB_typical": 0.5,
+      "nearest_code_half_step_dB": 0.25,
+      "positive_half_step_relative_amplitude_error": 0.029200527194428227,
+      "proxy_effective_coefficient_budget": 0.01,
+      "sole_fine_trim_adequate": false,
+      "condition": "arbitrary desired gain with nearest-code rounding; actual gain error and drift excluded"
+    },
+    "calibration": {
+      "source": "https://www.ti.com/product/ADS8866",
+      "ADC_max_samples_per_second": 100000.0,
+      "assumed_conversions": 8,
+      "minimum_sampling_sequence_s": 8e-05,
+      "previous_ideal_training_s": 6.4e-07,
+      "minimum_sequence_to_previous_training_ratio": 125.00000000000001,
+      "condition": "eight sequential conversions at maximum throughput; does not include startup, settling, averaging or SPI"
+    },
+    "dac": {
+      "source": "https://www.ti.com/product/DAC80501",
+      "assumed_full_scale_V": 2.5,
+      "bits": 16,
+      "ideal_LSB_V": 3.814697265625e-05,
+      "settling_time_product_page_typical_s": 5e-06,
+      "condition": "ideal quantization only; not actual gain precision"
+    }
+  },
+  "stage_A_complete": false,
+  "full_joint_simulation_complete": false
+}

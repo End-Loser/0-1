@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_042_euler_25ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "042_euler",
+  "errors": [
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 25,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "cae371aa7f0ce467407bc96585b44ebbeff91bfad89808f037c77e4f13b5988f",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.6250000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.6250000000000001e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.6250000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.6250000000000001e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.6250000000000001e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.6250000000000001e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.6250000000000001e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 16896,
+  "unique_points": 16896,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 106,
+  "sample_passed": 106,
+  "minimum_late_margin_V": -2.0999994403910667,
+  "worst_slot": {
+    "slot": 41,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.0999994403910667
+  },
+  "first_bad": {
+    "slot": 6,
+    "state": "011",
+    "channel": "sum",
+    "sample_error6": -0.01,
+    "slot_start_ns": 150.00000000000003
+  },
+  "max_settling_ns": 18.232793500129908,
+  "unsettled": 24,
+  "energy_J": 8.543766794701452e-09,
+  "power_W": 0.005257702642893201,
+  "energy_per_slot_J": 1.3144256607233003e-10,
+  "warning": false
+}

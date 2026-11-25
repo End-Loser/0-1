@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\continue_adl_offset_holdout.py": "34776af43bb0feba7addfc669906765a943a537b2992cbd040fa07e83ce541e4",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\test_adl_offset_archive.py": "3a143fc17ec8504ca00971c55fcdbc9ff12dea1ad8abdfdfc9cd3ea7f575a63c"
+  },
+  "original_source_sha256": "5c4bf0d3db3fb5e9dbbc75cbe0f35c6975eed4347a0c411973798d16531626a0",
+  "cache": "D:\\work\\trae_cn\\ewc-solver-cache\\ewc-adl-offset-xixc02_y",
+  "first_case_reexecuted": false,
+  "first_solver_returncode": null,
+  "archive_failure": "ValueError: too many values to unpack (expected 3)",
+  "reason": "archive_rows returns a dictionary; existing NPZ and ASCII retained",
+  "solver_calls_before_archive_failure": 1
+}

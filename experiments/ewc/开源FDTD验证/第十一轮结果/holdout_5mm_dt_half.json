@@ -1,0 +1,61 @@
+{
+  "grid_shape": [
+    33,
+    21,
+    13
+  ],
+  "dx_mm": 5,
+  "dt_s": 4.169551189976901e-12,
+  "time_refinement": 2,
+  "size_mm": [
+    160,
+    100,
+    60
+  ],
+  "epsilon_r": 2.1,
+  "dielectric_sigma_S_per_m": 0.002,
+  "pickup_sigma_z_S_per_m": 0.02,
+  "pickup_box_mm": [
+    10,
+    10,
+    10
+  ],
+  "centers_mm": [
+    [
+      40,
+      50,
+      30
+    ],
+    [
+      120,
+      50,
+      30
+    ],
+    [
+      80,
+      25,
+      30
+    ],
+    [
+      80,
+      75,
+      30
+    ]
+  ],
+  "source_rate_normalized_per_s": 1000000000.0,
+  "source_volume_m3": [
+    1.0000000000000002e-06,
+    1.0000000000000002e-06,
+    1.0000000000000002e-06,
+    1.0000000000000002e-06
+  ],
+  "normalization": "Normalized source-density drive and weighted mean Ez; not V/V or watts",
+  "boundary": "PEC tangential E fixed on all six faces; normal E retained",
+  "kind": "holdout",
+  "driven": 0,
+  "steps": 2878,
+  "runtime_s": 1.9756329000229016,
+  "final_other_E_fraction": 0.41010176832786954,
+  "name": "holdout_5mm_dt_half",
+  "npz_sha256": "1b07066d7650351056883b64ee55adcd05f02a0ad6e6dd05d65e1c94b8a7676d"
+}

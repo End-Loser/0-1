@@ -1,0 +1,118 @@
+{
+  "case": "combined_candidate_crosscheck_026_stress_50ns_100ps_gear",
+  "profile": "combined",
+  "scope": "candidate_crosscheck",
+  "tag": "026_stress",
+  "errors": [
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 50,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 100,
+  "method": "gear",
+  "fingerprint": "c85b11dd99b6da73b83035efd973099eb61e6d30619ccfcc45eaa11f5e69ea88",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 170999,
+  "unique_points": 170999,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 512,
+  "sample_passed": 512,
+  "minimum_late_margin_V": 0.6892408504002225,
+  "worst_slot": {
+    "slot": 232,
+    "state": "101",
+    "channel": "sum",
+    "margin_V": 0.6892408504002225
+  },
+  "first_bad": null,
+  "max_settling_ns": 34.012503924690776,
+  "unsettled": 0,
+  "energy_J": 3.6187692669482514e-08,
+  "power_W": 0.0028271634898033213,
+  "energy_per_slot_J": 1.4135817449016607e-10,
+  "warning": false
+}

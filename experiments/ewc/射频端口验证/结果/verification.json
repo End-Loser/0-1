@@ -1,0 +1,32 @@
+{
+  "independent_verification_pass": true,
+  "counts": {
+    "radial_fem_solves": 16,
+    "radial_physical_pass": 14,
+    "radial_physical_fail": 2,
+    "transmission_cases": 287,
+    "reference_planes": 4,
+    "fullwave_3ghz_feed_solves": 0,
+    "copper_loss_solves": 0,
+    "actual_sma_models": 0
+  },
+  "independent_sparse_fem_solves": 16,
+  "independently_assembled_radial_elements": 1020,
+  "checked_transmission_reference_samples": 1148,
+  "checked_raw_archive_hashes": 303,
+  "max_discrete_gauss_relative_residual": 7.935432559616353e-13,
+  "max_abcd_vs_waves_vi_absolute_error": 3.8735329709220344e-14,
+  "max_power_balance_absolute_error_w": 4.2825985813177425e-18,
+  "max_reflection_move_absolute_error": 7.322156524009416e-14,
+  "matched_R50_load_power_w_range": [
+    0.002499999999999312,
+    0.0024999999999996583
+  ],
+  "retained_physical_failures": [
+    "uniform_2",
+    "inner_graded_2"
+  ],
+  "verifier_sha256": "a5e28cc01572064c9bdb7011b7084d6b8f78bc5b4feac98b406da7f5227986f8",
+  "summary_sha256": "51a120a4098af2b9da3c7dc46c5039f23ca92069a26102950d431a2a23c5ffb2",
+  "note": "Reference samples and hash checks are not extra physical solves."
+}

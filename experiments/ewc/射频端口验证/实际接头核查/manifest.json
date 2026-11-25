@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "scope": "射频端口验证/实际接头核查/",
+  "conclusion": "资料核查完成；完整实际SMA全波模型阻塞",
+  "source_limit": 5,
+  "candidate_limit": 2,
+  "source_budget_closed": true,
+  "collection": {
+    "file": "collection.json",
+    "sha256": "7cd4ae9a9cc7655943b4c9b4b5e0fd0bc82d87d3a610d80aa756b6d9a9868e4c",
+    "raw_hash_meaning": "HTTP 403错误响应哈希，不是厂商原始图纸或STEP哈希"
+  },
+  "evidence": [
+    {"source": "S1", "file": "S1_132139_网页证据.txt", "sha256": "8cb062fd7882fbcf68260be34d17404f82f79d471f763e93ba2ffeed711f0040", "provenance": "WebFetch网页规格短摘录，手工转存", "result": "可用文本；原始HTML未取得"},
+    {"source": "S2", "file": "S2_901-9211_网页证据.txt", "sha256": "860fa662f83cb67d6ffca05d79de3a6f7dbd1bd15caf87d564b411f7ea5e3465", "provenance": "WebFetch网页规格短摘录，手工转存", "result": "可用文本；材料与图纸冲突"},
+    {"source": "S3", "file": "S3_132139_尺寸图获取记录.txt", "sha256": "d2187928a7edeb89075630a12221dfe057a9ec78d984f53cf7389979b3aa429d", "provenance": "WebFetch空内容及下载失败过程记录", "result": "缺失"},
+    {"source": "S4", "file": "S4_901-9211_尺寸图文本证据.txt", "sha256": "df60beeef403c461b649eb96ec2b9ea9c40f1cd04e8ed0d721c341648f2fc2d3", "provenance": "WebFetch图纸有限文本短摘录，手工转存；未获取图像", "result": "部分文本可用；尺寸数值与完整原件缺失"},
+    {"source": "S5", "file": "S5_901-9211_STEP获取记录.txt", "sha256": "b4387aa38f4b4986549a15800843caa121a0b9be50760b119412968f16bae32c", "provenance": "WebFetch登录页短摘录及下载失败过程记录", "result": "缺失"}
+  ],
+  "report": {
+    "file": "实际SMA馈通模型可用性报告.md",
+    "sha256": "b019e7e33bfeb8bf1967682b0569b6313b273741015c6dc11b9d3127d4310ef1"
+  },
+  "collector": {
+    "file": "collect_sources.py",
+    "sha256": "61196eb592ba62622d6f2f82bedd2edf7c78f47a27809d7a41d37aaa97357f42"
+  },
+  "required_items": ["内导体", "外导体", "介质支撑", "镀层和材料参数", "安装尺寸", "公差", "参考面", "频响"],
+  "candidates": [
+    {
+      "manufacturer": "Amphenol RF",
+      "part": "132139",
+      "sources": ["S1", "S3"],
+      "published_mechanical_links": ["尺寸图", "STEP"],
+      "max_frequency_ghz_from_page": 12.4,
+      "fixture_allowed": false,
+      "full_wave_requirements": [
+        {"item": "内导体", "status": "缺失", "missing": "插孔/触片/焊杯内部尺寸及间隙"},
+        {"item": "外导体", "status": "缺失", "missing": "内径/壁厚/台阶/回流接触"},
+        {"item": "介质支撑", "status": "缺失", "missing": "支撑分域和3 GHz复介电参数"},
+        {"item": "镀层和材料参数", "status": "缺失", "missing": "镀层层叠/厚度及电导率/磁性/粗糙度"},
+        {"item": "安装尺寸", "status": "缺失", "missing": "未取得图纸，孔/板厚/针伸出未知"},
+        {"item": "公差", "status": "缺失", "missing": "内部、安装、同心度与接触重复性"},
+        {"item": "参考面", "status": "缺失", "missing": "机械配合基准、电气端口和去嵌入"},
+        {"item": "频响", "status": "缺失", "missing": "3 GHz复数频响、条件及不确定度"}
+      ]
+    },
+    {
+      "manufacturer": "Amphenol RF",
+      "part": "901-9211",
+      "sources": ["S2", "S4", "S5"],
+      "published_mechanical_links": ["尺寸图", "STEP"],
+      "max_frequency_ghz_from_page": 18,
+      "fixture_allowed": false,
+      "conflicts": [
+        {"field": "本体", "page": "Brass", "drawing": "STAINLESS STEEL", "resolved": false},
+        {"field": "触点", "page": "Brass", "drawing": "BERYLLIUM COPPER", "resolved": false},
+        {"field": "耐久次数", "page": 100, "drawing": 500, "resolved": false}
+      ],
+      "full_wave_requirements": [
+        {"item": "内导体", "status": "缺失", "missing": "材料冲突；内部尺寸未知"},
+        {"item": "外导体", "status": "缺失", "missing": "材料冲突；内径/壁厚/回流路径未知"},
+        {"item": "介质支撑", "status": "缺失", "missing": "支撑分域和3 GHz介电/损耗/色散"},
+        {"item": "镀层和材料参数", "status": "缺失", "missing": "基材冲突、镀层厚度、钢种、电导率与磁性"},
+        {"item": "安装尺寸", "status": "缺失", "missing": "只有孔详情标题，没有可靠尺寸数值"},
+        {"item": "公差", "status": "缺失", "missing": "只有公差标题，内部与安装公差未取得"},
+        {"item": "参考面", "status": "缺失", "missing": "外形图不是电气参考面；端口定义未知"},
+        {"item": "频响", "status": "缺失", "missing": "复数频响/测量条件/版本/不确定度"}
+      ]
+    }
+  ],
+  "target_frequency_ghz": 3,
+  "provisional_check_band_ghz": [2.5, 3.5],
+  "band_is_frozen": false,
+  "successful_original_files": 0,
+  "fixture_created": false,
+  "geometry_parameter_fixture": null,
+  "field_runs": 0,
+  "s_parameter_runs": 0,
+  "complete_physical_port_pass": false,
+  "ideal_air_coax_substitution": false,
+  "tools_downloaded": false,
+  "purchases": false,
+  "vendor_request_sent": false
+}

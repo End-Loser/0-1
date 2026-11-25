@@ -1,0 +1,30 @@
+{
+  "source_integrity_passed": true,
+  "source_integrity_scope": "archived anchors plus %TEMP% anchors registered unrecoverable in \u539f\u59cb\u8d44\u6599/manifest.json",
+  "environment_missing": true,
+  "unverified_anchors": [
+    {
+      "anchor": "source:product",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\product.html",
+      "sha256": "39ec2ed9857ab7c3892c66d79436ad276f77bdfc8a49bb38735c5b1f925de0f4"
+    },
+    {
+      "anchor": "source_text:datasheet",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\datasheet_layout.txt",
+      "sha256": "f6565e7878d7934a3f4b6aa0c172043a44c894fd949d63c98d2f11ab5a07fd55",
+      "present_bytes_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "note": "recorded bytes absent; path holds different bytes"
+    }
+  ],
+  "runtime_library_recovered_from_archive": true,
+  "archives_verified": 2,
+  "archive_members_verified": 23,
+  "specification_pages_verified": 12,
+  "reference_cases_verified": 12,
+  "failed_model_runs_preserved": 4,
+  "model_waveforms": 0,
+  "device_accuracy_passed": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "verifier_sha256": "02108cb6172f180c6d6b60d23b91396712e0cf796efae788260cfd2d159d12b0"
+}

@@ -1,0 +1,32 @@
+来源编号：S2
+URL：https://www.amphenolrf.com/en-us/part/901-9211/4281/
+读取日期：2026-11-18
+获取方式：WebFetch 返回的网页文本，以下为选取的规格及模型链接摘录。
+不是原始HTML，不以本文件哈希冒充厂家原始文件哈希。
+直接HTTP下载结果：403；响应体另存TEMP，见collection.json。
+
+标题：SMA Straight Jack Solder Cup Bulkhead 50 Ohm
+型号：901-9211
+Part Status: Active
+Body Finish: Gold
+Body Material: Brass
+Contact Finish: Gold
+Contact Material: Brass
+Frequency (Max GHz): 18
+Impedance (Ohms): 50
+Insulator Material: PTFE
+Panel Mounting Feature: Bulkhead - Rear Mount
+Termination Style: Solder Cup
+Non Magnetic: Contains Magnetic Materials
+Temp (Min Degrees Celsius): -65
+Temp (Max Degrees Celsius): 165
+Mating Cycles (Min): 100
+
+All Related Documents
+901-9211 STP 3D Model: https://www.amphenolrf.com/en-us/assets/file/4068628677/
+网页发布日期：3/31/2026
+901-9211 PDF Customer Drawing: https://www.amphenolrf.com/en-us/assets/file/4065788912/
+网页发布日期：5/7/2026
+
+核查注：本页Brass/Brass/100 cycles与S4图纸材料和机械耐久摘录冲突，未自行选择某一版本。
+规格摘录没有内部导体截面、PTFE频率相关复介电参数、镀层厚度或端口参考面。

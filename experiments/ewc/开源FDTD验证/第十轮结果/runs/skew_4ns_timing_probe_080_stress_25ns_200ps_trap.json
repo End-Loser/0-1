@@ -1,0 +1,118 @@
+{
+  "case": "skew_4ns_timing_probe_080_stress_25ns_200ps_trap",
+  "profile": "skew_4ns",
+  "scope": "timing_probe",
+  "tag": "080_stress",
+  "errors": [
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    -0.01
+  ],
+  "period_ns": 25,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "b174d1676defcea71209fc6a6505e25fcbff82eafae3153f0bb142fac5e3286b",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        6.4000000000000006e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 91071,
+  "unique_points": 91071,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 512,
+  "sample_passed": 512,
+  "minimum_late_margin_V": 0.9842892755544437,
+  "worst_slot": {
+    "slot": 216,
+    "state": "011",
+    "channel": "carry",
+    "margin_V": 0.9842892755544437
+  },
+  "first_bad": null,
+  "max_settling_ns": 16.92276515886028,
+  "unsettled": 0,
+  "energy_J": 9.572169545964565e-09,
+  "power_W": 0.001495651491556963,
+  "energy_per_slot_J": 3.739128728892408e-11,
+  "warning": false
+}

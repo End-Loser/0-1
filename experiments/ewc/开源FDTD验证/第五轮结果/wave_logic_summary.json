@@ -1,0 +1,130 @@
+{
+  "solver": "flaport/fdtd 0.3.5",
+  "architecture": "Bit-serial wave interference, threshold carry regeneration, second-stage interference cancellation, ideal state controller",
+  "direct_fdtd_runs": 38,
+  "direct_gate_states": 16,
+  "source_projection_calibration": [
+    0.9999999999999999,
+    0.9999999999999999,
+    2.8743523795373873
+  ],
+  "minimum_direct_gate_threshold_margin": 0.41939428404184975,
+  "arithmetic_cases": 2048,
+  "arithmetic_results": [
+    {
+      "scenario": "nominal",
+      "operation": "add",
+      "cases": 256,
+      "passed": 256
+    },
+    {
+      "scenario": "nominal",
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256
+    },
+    {
+      "scenario": "nominal",
+      "operation": "multiply",
+      "cases": 256,
+      "passed": 256
+    },
+    {
+      "scenario": "nominal",
+      "operation": "divide",
+      "cases": 256,
+      "passed": 256
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "add",
+      "cases": 256,
+      "passed": 256
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "multiply",
+      "cases": 256,
+      "passed": 256
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "divide",
+      "cases": 256,
+      "passed": 256
+    }
+  ],
+  "bounded_error_results": [
+    {
+      "relative_projected_gain_bound": 0.05,
+      "combined_noise_offset_bound_logic_units": 0.05,
+      "cases": 2048,
+      "passed": 2048,
+      "minimum_sampled_threshold_distance": 0.24999999999999983,
+      "carry_sufficient_error_bound": 0.2,
+      "sum_sufficient_error_bound": 0.25,
+      "theoretical_guarantee": true,
+      "scope": "Scalar projected-gain and bounded-offset model, not new Maxwell or comparator simulations"
+    },
+    {
+      "relative_projected_gain_bound": 0.1,
+      "combined_noise_offset_bound_logic_units": 0.05,
+      "cases": 2048,
+      "passed": 2048,
+      "minimum_sampled_threshold_distance": 0.04999999999999988,
+      "carry_sufficient_error_bound": 0.35000000000000003,
+      "sum_sufficient_error_bound": 0.45,
+      "theoretical_guarantee": true,
+      "scope": "Scalar projected-gain and bounded-offset model, not new Maxwell or comparator simulations"
+    },
+    {
+      "relative_projected_gain_bound": 0.12,
+      "combined_noise_offset_bound_logic_units": 0.05,
+      "cases": 2048,
+      "passed": 2032,
+      "minimum_sampled_threshold_distance": 0.03000000000000025,
+      "carry_sufficient_error_bound": 0.41,
+      "sum_sufficient_error_bound": 0.53,
+      "theoretical_guarantee": false,
+      "scope": "Scalar projected-gain and bounded-offset model, not new Maxwell or comparator simulations"
+    },
+    {
+      "relative_projected_gain_bound": 0.15,
+      "combined_noise_offset_bound_logic_units": 0.05,
+      "cases": 2048,
+      "passed": 2016,
+      "minimum_sampled_threshold_distance": 0.0,
+      "carry_sufficient_error_bound": 0.49999999999999994,
+      "sum_sufficient_error_bound": 0.65,
+      "theoretical_guarantee": false,
+      "scope": "Scalar projected-gain and bounded-offset model, not new Maxwell or comparator simulations"
+    }
+  ],
+  "two_comparator_typical_quiescent_power_W": 0.02112,
+  "comparator_reference": {
+    "part": "TI TLV3501",
+    "product_url": "https://www.ti.com/product/TLV3501",
+    "typical_Iq_A_per_channel": 0.0032,
+    "assumed_supply_V": 3.3,
+    "advertised_delay_ns": 4.5,
+    "max_offset_25C_V": 0.0065,
+    "note": "Product-page values, not a validated 3.3 V corner specification or an RF detector model"
+  },
+  "limits": [
+    "Hard thresholds and emitted regenerated levels are ideal software interface models",
+    "Majority decision is active electronics, so this is not passive or all-wave computation",
+    "Fixed matched projection stands for an unsimulated coherent receiver",
+    "Two FDTD stages independently start from zero; no physical stage switching or feedback transient solved",
+    "Exhaustive arithmetic uses measured gate states as a primitive cache, not a whole-operation answer table",
+    "Bit inversion, routing, storage, shift and mode FSM are not transistor-level verified",
+    "No physical noise, supply, package, load or RF port-power calibration",
+    "Timing and total-power estimates are explicit assumptions, not measured simulation outputs",
+    "No guarantee of unlimited-time zero error outside the stated bounded model"
+  ]
+}

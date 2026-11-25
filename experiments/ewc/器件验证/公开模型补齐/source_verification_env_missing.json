@@ -1,0 +1,58 @@
+{
+  "offline_verification_pass": true,
+  "original_downloads_checked": 5,
+  "original_downloads_registered_unrecoverable": 4,
+  "environment_missing": true,
+  "unverified_anchors": [
+    {
+      "anchor": "source:ref_page",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-models-4eiy0i3s\\ref_page.raw",
+      "sha256": "cf94f646fc037063359c967a1616e8f40a5f600c42cede499ddd764a7f7e1415"
+    },
+    {
+      "anchor": "source:adc_page",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-models-4eiy0i3s\\adc_page.raw",
+      "sha256": "d49eb7de9b7dc6beca9e03000eb4b6ac2f7ce0afc06de0000f19090b43f2f065"
+    },
+    {
+      "anchor": "source:ldo_page",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-models-4eiy0i3s\\ldo_page.raw",
+      "sha256": "f126d2593079368a435236ba3bfc54e7bf953236c6431bffa80b8503ae332665"
+    },
+    {
+      "anchor": "source:ref_datasheet",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-models-4eiy0i3s\\ref_datasheet.raw",
+      "sha256": "ffdc0dac9748112da8cf8df6b078495beeb34d4348d3ab1cac8a502357560b8e"
+    },
+    {
+      "anchor": "capture:github_LICENSE",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\github_LICENSE",
+      "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6"
+    },
+    {
+      "anchor": "capture:search_ADL5380.json",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\search_ADL5380.json",
+      "sha256": "5edeb7d7291149dfe74ab9684a9a799ab2f29ca3ab2a576e38c033b86f7b6028"
+    },
+    {
+      "anchor": "capture:search_ADL5375.json",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\search_ADL5375.json",
+      "sha256": "1317531b37b50f111053cb8469a30594532e08bed38e0f2b3f234aed238a5e62"
+    },
+    {
+      "anchor": "repository_listing",
+      "recorded": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-open-hits-n7ho_rzg\\official_repository_root.txt",
+      "sha256": "1d2043906ccf6af8deadb036f71af1701a066d898382f574902f8bee9322b548"
+    }
+  ],
+  "zip_members_checked": 36,
+  "sampled_symbol_hits_rejected": 2,
+  "ads8881_to_ads8866_substitution_accepted": false,
+  "executable_rf_models_accepted": 0,
+  "whole_chain_passed": false,
+  "source_manifest_sha256": "2defe95b8a8f6337c81a1e9b89457ff1bfbf252f7737dfe09a26a80b30455d03",
+  "followup_manifest_sha256": "6ce871e0b501fbf9d72f2c16a89d9b9dcec87ffe5224c69af1c5f58164b2c18b",
+  "open_hits_sha256": "0e92ae5a2adbd8659fa71fab4a3cee9b12dd6b77590254f4d18c8700cac529ac",
+  "anchor_manifest_sha256": "8f0f5f2872d3210b2b3ec3453011e2156a12065af03aed827a3d0e7e63071e1f",
+  "verifier_sha256": "248080b207d1e4263f4bfcbd244be993f11292037e6c48eb31d009e292ce6f29"
+}

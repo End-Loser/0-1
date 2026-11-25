@@ -1,0 +1,118 @@
+{
+  "case": "compound_gain_loss_15pct_timing_probe_014_stress_50ns_200ps_trap",
+  "profile": "compound_gain_loss_15pct",
+  "scope": "timing_probe",
+  "tag": "014_stress",
+  "errors": [
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 50,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "3ca53f066a3b2feef0b433705983b246f0e27c3456bbbed6d535de6672fed050",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 111069,
+  "unique_points": 111069,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 512,
+  "sample_passed": 512,
+  "minimum_late_margin_V": 0.9843193452898737,
+  "worst_slot": {
+    "slot": 216,
+    "state": "011",
+    "channel": "carry",
+    "margin_V": 0.9843193452898737
+  },
+  "first_bad": null,
+  "max_settling_ns": 14.916414712893943,
+  "unsettled": 0,
+  "energy_J": 1.3280999272830202e-08,
+  "power_W": 0.0010375780681898595,
+  "energy_per_slot_J": 5.1878903409492976e-11,
+  "warning": false
+}

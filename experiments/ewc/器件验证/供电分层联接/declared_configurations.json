@@ -1,0 +1,101 @@
+[
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "dual_steady"
+  },
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": false,
+    "load_step": true,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "dual_load_step"
+  },
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": true,
+    "load_step": false,
+    "finish_s": 0.008,
+    "step_s": 1e-07,
+    "id": "dual_enable_cycle"
+  },
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "dual_ramp"
+  },
+  {
+    "reference": true,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "dual_reference"
+  },
+  {
+    "reference": true,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "dual_reference_ramp"
+  },
+  {
+    "reference": true,
+    "buffers": true,
+    "ideal_rails": true,
+    "ramp": false,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "buffer_ideal_control"
+  },
+  {
+    "reference": true,
+    "buffers": true,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "buffer_real_rails"
+  },
+  {
+    "reference": true,
+    "buffers": true,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 1e-07,
+    "id": "buffer_real_ramp"
+  }
+]

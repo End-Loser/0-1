@@ -1,0 +1,185 @@
+{
+  "sources": [
+    {
+      "id": "ref_family_datasheet",
+      "url": "https://www.ti.com/lit/gpn/ref50",
+      "models_accepted": false,
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/ds/symlink/ref50.pdf?ts=1794887633414&ref_url=https%253A%252F%252Fwww.mouser.jp%252F",
+      "content_type": "application/pdf",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\ref_family_datasheet.raw",
+      "sha256": "33b13191ad54693f9a4f52e226b354757ad092d2cec6b2c31dba2fecb710d0c6",
+      "bytes": 5082555,
+      "official_lit_links": [
+        "/lit/tsc/sboc246",
+        "/lit/tsc/slim159",
+        "/lit/zip/sbom306",
+        "/lit/zip/sbom485",
+        "/lit/zip/slim158",
+        "/lit/zip/slim160"
+      ]
+    },
+    {
+      "id": "ldo_pspice",
+      "url": "https://www.ti.com/lit/zip/sbvm961",
+      "models_accepted": false,
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/mo/sbvm961/sbvm961.zip?ts=1794892033882",
+      "content_type": "application/zip",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\ldo_pspice.raw",
+      "sha256": "4db279371817cb0873e103b03ddf26c6a5a1ff2c4672093c0037c940dc8c8fd2",
+      "bytes": 19591,
+      "official_lit_links": [],
+      "archive_members": [
+        {
+          "name": "Additional Files/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "Additional Files/TPS7A20-ADJ_TRANS.OLB",
+          "bytes": 14336,
+          "sha256": "0833c8a85dee8c392cda1c1f71af8a62e8060803957959f23558afb460870578"
+        },
+        {
+          "name": "tps7a20-adj_trans.lib",
+          "bytes": 6286,
+          "sha256": "154acfdd2199ac44259908b90b07d15bc7e535a45c8c51d1413894c900718b69",
+          "encrypted": false,
+          "subcircuits": [
+            "TPS7A20_ADJ_TRANS VIN GND EN N_C VOUT",
+            "TPS7A20_ADJ_F1 1 2 3 4  ",
+            "TPS7A20_ADJ_S1 1 2 3 4  ",
+            "TPS7A20_ADJ_H1 1 2 3 4  ",
+            "TPS7A20_ADJ_S4 1 2 3 4  ",
+            "TPS7A20_ADJ_S2 1 2 3 4  ",
+            "COMPHYS_BASIC_GEN INP INM HYS OUT PARAMS: VDD=1 VSS=0 VTHRESH=0.5\t",
+            "d_d 1 2"
+          ],
+          "ibis_components": [],
+          "ibis_version": []
+        },
+        {
+          "name": "tps7a20-adj_trans.libsig",
+          "bytes": 813,
+          "sha256": "fb645c3598ad3fee44cce52f8e35f001860f92c2437acbb7aae6e55f0004cc35"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient/transient.1OP",
+          "bytes": 1293,
+          "sha256": "3535c3b70a1b8db59952d744dab27b9c5f7eb0868b26618b4e5cb41fb380eaf9"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient/transient.cir",
+          "bytes": 839,
+          "sha256": "bef062183403d091c46192b4ac04cf1f994704631592ea3fc61f7530f3ec4462",
+          "encrypted": false,
+          "subcircuits": [],
+          "ibis_components": [],
+          "ibis_version": []
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient/transient.mif",
+          "bytes": 928,
+          "sha256": "c576ab9fa47359d0214a358676dca59fbee13824ab96d59ae63b54c3724a8e18"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient/transient.mrk",
+          "bytes": 396,
+          "sha256": "2db1b3518a90b6702b3552c724b167ad52537d1defd342ecaf3f8f09a33e95cd"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient/transient.out.1",
+          "bytes": 8281,
+          "sha256": "c05e98265af91ece8154c2b7769509294f0186c872bdb1f00b85060f65d3abcb"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient/transient.prb",
+          "bytes": 1880,
+          "sha256": "c05a022ac78b7695fd54b8aabb8fe2563e59c1cb451fd76cdd4989b846c95e3c"
+        },
+        {
+          "name": "TPS7A20_ADJ-PSpiceFiles/SCHEMATIC1/transient.sim",
+          "bytes": 1826,
+          "sha256": "7d73adc7be71f1b6683431fa1b07e5815a59871031211b8cb09720c6f5d7518a"
+        },
+        {
+          "name": "tps7a20_adj.dsn",
+          "bytes": 22528,
+          "sha256": "89559cc91a687b0e8e9b6425c2a9e1d4774f0d65ab5829eb732956c98830548d"
+        },
+        {
+          "name": "tps7a20_adj.opj",
+          "bytes": 2047,
+          "sha256": "4970e881aa47675ed726bcc1eb88b5d11799acd711326b65459fa5c9ffeaca7c"
+        }
+      ]
+    },
+    {
+      "id": "ldo_datasheet",
+      "url": "https://www.ti.com/lit/gpn/tps7a20",
+      "models_accepted": false,
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf?ts=1794878642431",
+      "content_type": "application/pdf",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\ldo_datasheet.raw",
+      "sha256": "3b7c1495906b88f48223f21a9bba1aad2f1d90a673fc3394aa6b5b5ece52ff53",
+      "bytes": 8987703,
+      "official_lit_links": []
+    }
+  ],
+  "github": [
+    {
+      "repository": "analogdevicesinc/system-level",
+      "commit": "beade5f4e35ee2b32fab5a3ef52c2835100b52d2",
+      "path": "docs/solutions/reference-designs/fmcomms2/common/math.rst",
+      "returncode": 0,
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\github_math.rst",
+      "sha256": "090f0d536e00c8c896ab14d22c8d5f9dc4360662fccaf4ba0a24739479f8da68",
+      "role": "open documentation, not executable RF device model"
+    },
+    {
+      "repository": "analogdevicesinc/system-level",
+      "commit": "beade5f4e35ee2b32fab5a3ef52c2835100b52d2",
+      "path": "LICENSE",
+      "returncode": 1,
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\github_LICENSE",
+      "sha256": "d2c8985c89b29a842ac4946d13bdbc297709f44f20bb968faf9682664b211db6",
+      "role": "open documentation, not executable RF device model"
+    }
+  ],
+  "github_searches": [
+    {
+      "query": "ADL5380 extension:lib",
+      "returncode": 0,
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\search_ADL5380.json",
+      "sha256": "5edeb7d7291149dfe74ab9684a9a799ab2f29ca3ab2a576e38c033b86f7b6028"
+    },
+    {
+      "query": "ADL5375 extension:lib",
+      "returncode": 0,
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna\\search_ADL5375.json",
+      "sha256": "1317531b37b50f111053cb8469a30594532e08bed38e0f2b3f234aed238a5e62"
+    }
+  ],
+  "official_download_attempts": 3,
+  "github_requests": 4,
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-followup-_tocuvna",
+  "full_chain_accepted": false,
+  "collector_sha256": "0e2d4d78b565a653eb64c263a42a9df4935282990bf066d6cf21b32033b3ab1b"
+}

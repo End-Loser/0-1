@@ -1,0 +1,130 @@
+{
+  "candidate": "THS4551",
+  "members": [
+    {
+      "name": "library/ths4551.olb",
+      "bytes": 34304,
+      "sha256": "4b166b2980900143227ce0d2ddb3051d4fbfe38eb09d76c90fd7374a3694d34f"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/schematic1.net",
+      "bytes": 407,
+      "sha256": "12de4a972a5747735b0db3c55d208c8cfc2b0d1b44b70e073b5e93d5715cf736"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/Install_TIPSpice.json",
+      "bytes": 39,
+      "sha256": "efe2b78890c616860c424bb034ff71c7b13a88ca7b4a62937142345f90a0cef9"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.1OP",
+      "bytes": 2654,
+      "sha256": "7b2bd8fbbe0ae47a31826a97d0679385ee3b8076154d8fd6460bc25703958257"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.cir",
+      "bytes": 719,
+      "sha256": "afa6d16c2994b587df6e8394ba208854962636477a310db57c600e7ae61f14f5"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.dat",
+      "bytes": 26102,
+      "sha256": "08fee0b6f82131709eeaa41250fe0ffa62b63156782cc0a6f017a0be971a9457"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.json",
+      "bytes": 8905,
+      "sha256": "e68cd1290ece41486508db15ce864287c55cf4054f57a7a55cabf2e93c85c924"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.mif",
+      "bytes": 2294,
+      "sha256": "9e0976d7191ea0a13ddf89025936be5e277d8cc999b551acfa5b1912289d3400"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.mrk",
+      "bytes": 336,
+      "sha256": "9d338c31f9f7162eab510cf2199172e5495e52066891160875608ab9535f021c"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.out",
+      "bytes": 10369,
+      "sha256": "c83e666a14519de26c184eab335627542ef358c69c51b54d6f550e67e1821abe"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.out.1",
+      "bytes": 7487,
+      "sha256": "f43b92deeaddb03fe0cd652ff4701a3e24e09603e8fab5ac723740e695c2d125"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/TransientAnalysis/TransientAnalysis.prb",
+      "bytes": 1168,
+      "sha256": "5d386d11682b70dd9b9095d4a5b287f15fbd5df084fcb8bc69949d78b76d9918"
+    },
+    {
+      "name": "THS4551-PSpiceFiles/SCHEMATIC1/transientanalysis.sim",
+      "bytes": 1896,
+      "sha256": "6bbcc945cc911afe38c2dd70476d597e16b89a6096de58861a83b47ded6fad84"
+    },
+    {
+      "name": "ths4551.dsn",
+      "bytes": 33792,
+      "sha256": "92950c02738ed87e09495b74a9ab97d0b2244d80a678d75e1ce7361479dde0c9"
+    },
+    {
+      "name": "ths4551.lib",
+      "bytes": 14067,
+      "sha256": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527"
+    },
+    {
+      "name": "ths4551.libsig",
+      "bytes": 813,
+      "sha256": "36e1fd60a03d8159e9791524396144eb7c508efa570fa2c9f7387376636ebb5c"
+    },
+    {
+      "name": "ths4551.opj",
+      "bytes": 2437,
+      "sha256": "dbfec2bd3df071f7e3fcf1ae13fe9eb626b747cc2db3cd473136362a99060b3e"
+    }
+  ],
+  "readable_models": [
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\TransientAnalysis.cir",
+      "sha256": "afa6d16c2994b587df6e8394ba208854962636477a310db57c600e7ae61f14f5",
+      "encrypted_marker": false,
+      "subcircuits": [],
+      "header": "** Profile: \"SCHEMATIC1-TransientAnalysis\"  [ C:\\Users\\a0232073\\Desktop\\GWL_Models\\THS4551\\AppendScript\\THS4551-PSpiceFiles\\SCHEMATIC1\\TransientAnalysis.sim ] \r\n\r\n** Creating circuit file \"TransientAnalysis.cir\" \r\n** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS\r\n\r\n*Libraries: \r\n* Profile Libraries :\r\n* Local Libraries :\r\n.LIB \"../../../THS4551.lib\" \r\n* From [PSPICE NETLIST] section of C:\\SPB_Data\\cdssetup\\OrCAD_PSpiceTIPSpice_Install\\17.4.0\\PSpice.ini file:\r\n.lib \"nom_pspti.lib\" \r\n.lib \"nom.lib\" \r\n\r\n*Analysis directives: \r\n.TRAN  0 100ns 0 0.1e-9 \r\n.OPTIONS ADVCONV\r\n.OPTIONS FILEMODELSEARCH\r\n.PROBE64 N([OUT-])\r\n.PROBE64 N([OUT+])\r\n.INC \"..\\SCHEMATIC1.net\" \r\n\r\n\r\n.END\r\n"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551.lib",
+      "sha256": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527",
+      "encrypted_marker": false,
+      "subcircuits": [
+        ".subckt THS4551 IN+ IN- OUT+ OUT- VOCM VCC VEE",
+        ".SUBCKT 08_OP_AMP_COMPLETE_H3_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_S10_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_S11_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_S12_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_S13_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_S14_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_S9_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_W1_THS4551 1 2 3 4  ",
+        ".SUBCKT 08_OP_AMP_COMPLETE_W2_THS4551 1 2 3 4  ",
+        ".SUBCKT AOL_1_THS4551 VC+ VC- IOUT+ IOUT-",
+        ".SUBCKT AOL_2_THS4551 VC+ VC- IOUT+ IOUT-",
+        ".SUBCKT CLAMP_AMP_LO_THS4551 VC+ VC- VIN COM VO+ VO-",
+        ".SUBCKT CLAWN_THS4551 VC+ VC- IOUT+ IOUT-",
+        ".SUBCKT CLAWP_THS4551 VC+ VC- IOUT+ IOUT-",
+        ".SUBCKT CLAW_SRC_THS4551 VC+ VC- IOUT+ IOUT-",
+        ".SUBCKT ESD_OUT_THS4551 OUT VCC VEE",
+        ".SUBCKT FEMT_THS4551 1 2",
+        ".SUBCKT IQ_SRC_THS4551 VC+ VC- IOUT+ IOUT-",
+        ".SUBCKT VCM_CLAMP_THS4551 VIN+ VIN- IOUT- IOUT+ VP+ VP-",
+        ".SUBCKT VNSE_THS4551 1 2",
+        ".SUBCKT VOS_DRIFT_THS4551 VOS+ VOS-",
+        ".SUBCKT VOS_VS_VCM_THS4551 V+ V- REF+ REF-"
+      ],
+      "header": "* THS4551 - Rev. A\r\n* Created by Sean Cashin; 06-10-2021\r\n* Created with Green-Williams-Lis Current Sense Amp Macro-model Architecture\r\n* Copyright 2020 by Texas Instruments Corporation\r\n******************************************************\r\n* MACRO-MODEL SIMULATED PARAMETERS:\r\n******************************************************\r\n* AC PARAMETERS\r\n**********************\r\n* CLOSED-LOOP OUTPUT IMPEDANCE VS. FREQUENCY (Zout vs. Freq.)\r\n* CLOSED-LOOP GAIN AND PHASE VS. FREQUENCY  WITH RL, CL EFFECTS (Acl vs. Freq.)\r\n* COMMON-MODE REJECTION RATIO VS. FREQUENCY (CMRR vs. Freq.)\r\n* POWER SUPPLY REJECTION RATIO VS. FREQUENCY (PSRR vs. Freq.)\r\n* INPUT VOLTAGE NOISE DENSITY VS. FREQUENCY (en vs. Freq.)\r\n**********************\r\n* DC PARAMETERS\r\n**********************\r\n* INPUT COMMON-MODE VOLTAGE RANGE (Vcm)\r\n* GAIN ERROR (Eg)\r\n* INPUT BIAS CURRENT VS. INPUT COMMON-MODE VOLTAGE (Ib vs. Vcm)\r\n* INPUT OFFSET VOLTAGE VS. TEMPERATURE (Vos vs. Temp)\r\n* OUTPUT VOLTAGE SWING vs. OUTPUT CURRENT (Vout vs. Iout)\r\n* SHORT-CIRCUIT OUTPUT CURRENT (Isc)\r\n* QUIESCENT CURRENT (Iq)\r\n**********************\r\n* TRANSIENT PARAMETERS\r\n**********************\r\n* SLEW RATE (SR)\r\n* SETTLING TIME VS. CAPACITIVE LOAD (ts)\r\n* OVERLOAD RECOVERY TIME (tor)\r\n******************************************************\r\n"
+    }
+  ]
+}

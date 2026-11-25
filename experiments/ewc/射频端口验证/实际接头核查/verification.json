@@ -1,0 +1,34 @@
+{
+  "status": "通过：证据一致性，非物理验收",
+  "official_resources_checked": 5,
+  "candidates_checked": 2,
+  "full_wave_missing_items": 16,
+  "baseline_files_checked": 310,
+  "context_documents": [
+    {
+      "path": "EWC真实材料与器件统一规划.md",
+      "captured_sha256": "c8b426a56ec22505cc3835e7356616b31819786eec716a20bae582e6372342a8",
+      "current_sha256": "c1c8e2015623dce1f03fb306f479e748f849d8c371580fb8152ddc6932a93655",
+      "role": "versioned planning context, not measurement evidence"
+    }
+  ],
+  "temp_response_hashes_checked": 0,
+  "temp_responses_absent": [],
+  "temp_responses_registered_unrecoverable": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "environment_missing": true,
+  "successful_original_files": 0,
+  "field_runs": 0,
+  "complete_physical_port_pass": false,
+  "fixture_created": false,
+  "require_temp": true,
+  "verified_utc": "2026-11-19T01:36:09.858887+00:00",
+  "manifest_sha256": "ba75b31df0224acdd62524e870be75df41e497b6547d28d8967cfb5798907006",
+  "verifier_sha256": "baded381e769637e80cf10b6a6c639a15ea73febf5a5a3b167bb3cdba708f65a",
+  "offline": true
+}

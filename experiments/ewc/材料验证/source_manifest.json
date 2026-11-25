@@ -1,0 +1,51 @@
+{
+  "source_count": 3,
+  "originals_redistributed": false,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "RT/duroid 5870-5880 Data Sheet",
+      "url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/data-sheets/rt-duroid-5870---5880-data-sheet.pdf",
+      "resolved_url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/data-sheets/rt-duroid-5870---5880-data-sheet.pdf",
+      "pdf_sha256": "65928dde6b9630eca447b59a73f70aeb11618ae630a93bfc4c5e0a64a495d1cf",
+      "pdf_bytes": 711689,
+      "pages": 2,
+      "cache_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc_dielectric_official_pdf\\S01.pdf",
+      "snapshot_path": "source_snapshots\\S01.txt",
+      "snapshot_sha256": "ac0acd1d10cdf2e100cdac1b0fc3d36a787e6812dd888c42304d77852b41efbd",
+      "cache_mtime_utc": "2026-11-17T16:44:44.401592+00:00",
+      "extracted_at_utc": "2026-11-17T16:44:44.504857+00:00",
+      "version": "Read printed revision/copyright in snapshot; no inferred current revision"
+    },
+    {
+      "id": "S02",
+      "title": "Fabrication Guidelines RT/duroid 5870-5880",
+      "url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/fabrication-guidelines-rt-duroid-5870-5880-high-frequency-circuit-materials.pdf",
+      "resolved_url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/fabrication-guidelines-rt-duroid-5870-5880-high-frequency-circuit-materials.pdf",
+      "pdf_sha256": "27fd781320cd6376b4806a391f72a4301a1b601cd4e167ff0a9a7d1baa0a4a32",
+      "pdf_bytes": 212241,
+      "pages": 8,
+      "cache_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc_dielectric_official_pdf\\S02.pdf",
+      "snapshot_path": "source_snapshots\\S02.txt",
+      "snapshot_sha256": "b059d485d24fe816d01011e5864b9fc59400675cfa2c371a0afbe655b8951e62",
+      "cache_mtime_utc": "2026-11-17T16:44:28.085629+00:00",
+      "extracted_at_utc": "2026-11-17T16:44:28.245578+00:00",
+      "version": "Read printed revision/copyright in snapshot; no inferred current revision"
+    },
+    {
+      "id": "S03",
+      "title": "Copper Foils for High Frequency Circuit Materials",
+      "url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/copper-foils-for-high-frequency-circuit-materials.pdf",
+      "resolved_url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/copper-foils-for-high-frequency-circuit-materials.pdf",
+      "pdf_sha256": "efb862793ca3262e88e6fa447a9b7af6c91b7aecbd5ae89363f2a4436e89fc66",
+      "pdf_bytes": 889784,
+      "pages": 8,
+      "cache_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc_dielectric_official_pdf\\S03.pdf",
+      "snapshot_path": "source_snapshots\\S03.txt",
+      "snapshot_sha256": "6a0d03365e8b13836195896698acb1e061f4b1b83413a901f3715b094e2704d3",
+      "cache_mtime_utc": "2026-11-17T16:45:42.861991+00:00",
+      "extracted_at_utc": "2026-11-17T16:45:43.046797+00:00",
+      "version": "Read printed revision/copyright in snapshot; no inferred current revision"
+    }
+  ]
+}

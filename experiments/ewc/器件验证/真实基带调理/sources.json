@@ -1,0 +1,37 @@
+{
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56",
+  "sources": [
+    {
+      "id": "ths4551_page.html",
+      "url": "https://www.ti.com/product/THS4551",
+      "retrieved_utc": "2026-11-17T17:11:13.159664+00:00",
+      "final_url": "https://www.ti.com/product/THS4551",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551_page.html",
+      "bytes": 458145,
+      "sha256": "6781304499304292a889b9fc16406ebd612757c326bc0a9f9ca11bb105752824"
+    },
+    {
+      "id": "ths4551_datasheet.pdf",
+      "url": "https://www.ti.com/lit/gpn/THS4551",
+      "retrieved_utc": "2026-11-17T17:11:17.919579+00:00",
+      "final_url": "https://www.ti.com/lit/ds/symlink/ths4551.pdf?ts=1794883729909&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTHS4551%253FkeyMatch%253DTHS4551%2526tisearch%253Duniversal_search%2526usecase%253DGPN-ALT",
+      "status": 200,
+      "content_type": "application/pdf",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551_datasheet.pdf",
+      "bytes": 4048873,
+      "sha256": "ee0fb24b601564720314990b57044c38904ddcd01961b5adda61658fa887d871"
+    },
+    {
+      "id": "ths4551_pspice.zip",
+      "url": "https://www.ti.com/lit/zip/SBOMB92",
+      "retrieved_utc": "2026-11-17T17:11:47.662884+00:00",
+      "final_url": "https://www.ti.com/lit/mo/sbomb92b/sbomb92b.zip?ts=1794880124888",
+      "status": 200,
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551_pspice.zip",
+      "bytes": 54832,
+      "sha256": "10922b527027603f0c047c1070c6ffd3504a9ecf8d9ce1127ade2965e3863602"
+    }
+  ]
+}

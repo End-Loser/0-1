@@ -1,0 +1,118 @@
+{
+  "case": "compound_gain_loss_15pct_candidate_corners_122_20ns_200ps_trap",
+  "profile": "compound_gain_loss_15pct",
+  "scope": "candidate_corners",
+  "tag": "122",
+  "errors": [
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 20,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "9eb463c805a834e05723745540b0972bad2dc151c2bc7235daaf6606bd394af0",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.3e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.3e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 19689,
+  "unique_points": 19689,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 130,
+  "sample_passed": 130,
+  "minimum_late_margin_V": 0.9842521359707206,
+  "worst_slot": {
+    "slot": 15,
+    "state": "001",
+    "channel": "sum",
+    "margin_V": 0.9842521359707206
+  },
+  "first_bad": null,
+  "max_settling_ns": 14.35412990845021,
+  "unsettled": 0,
+  "energy_J": 2.3402137471823934e-09,
+  "power_W": 0.0018001644209095333,
+  "energy_per_slot_J": 3.600328841819067e-11,
+  "warning": false
+}

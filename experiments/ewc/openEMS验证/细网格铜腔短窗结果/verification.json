@@ -1,0 +1,76 @@
+{
+  "independent_short_window_equations_passed": true,
+  "cases": [
+    {
+      "dt_s": 5e-12,
+      "snapshots_checked": 9,
+      "frequency_Hz": 2906285881.427557,
+      "decay_fits": [
+        {
+          "end_s": 8e-09,
+          "Q_decay": 23001.376096266227,
+          "log_energy_RMS_residual": 1.085308216204153e-05
+        },
+        {
+          "end_s": 1.6e-08,
+          "Q_decay": 22995.563810760603,
+          "log_energy_RMS_residual": 1.0876476821780435e-05
+        }
+      ],
+      "Q_vs_continuum_error": 0.010037653432548366,
+      "frequency_vs_continuum_error": 0.002462063236143397,
+      "Q_vs_midpoint_mapping_error": 1.1556949699009778e-05,
+      "fit_window_Q_difference": 0.00025269294677410237,
+      "short_window_frequency_Q_pass": false,
+      "energy_closure": 4.422018307081999e-13,
+      "sampled_energy_growth": 0.0,
+      "electric_residual": 8.513258231013977e-14,
+      "magnetic_residual": 1.228604674606955e-14,
+      "charge_residual": 2.155597972052972e-12,
+      "RL_residual": 3.195579828527971e-11,
+      "wall_residual": 4.2785804741699525e-12,
+      "snapshot_energy_closure": 4.168584768519318e-16
+    },
+    {
+      "dt_s": 2e-12,
+      "snapshots_checked": 9,
+      "frequency_Hz": 2907991893.049736,
+      "decay_fits": [
+        {
+          "end_s": 8e-09,
+          "Q_decay": 22971.77202454527,
+          "log_energy_RMS_residual": 1.0858904851866788e-05
+        },
+        {
+          "end_s": 1.6e-08,
+          "Q_decay": 22968.755025446117,
+          "log_energy_RMS_residual": 1.0880019738034348e-05
+        }
+      ],
+      "Q_vs_continuum_error": 0.00886012706993089,
+      "frequency_vs_continuum_error": 0.0018765009813911382,
+      "Q_vs_midpoint_mapping_error": 1.2258267757747632e-05,
+      "fit_window_Q_difference": 0.00013133506182849697,
+      "short_window_frequency_Q_pass": true,
+      "energy_closure": 3.370304035854588e-12,
+      "sampled_energy_growth": 0.0,
+      "electric_residual": 2.906705191729509e-13,
+      "magnetic_residual": 1.9190710391683815e-14,
+      "charge_residual": 6.075044528745927e-12,
+      "RL_residual": 5.822190409194625e-11,
+      "wall_residual": 1.498657355495036e-12,
+      "snapshot_energy_closure": 7.225848071969467e-16
+    }
+  ],
+  "snapshots_checked": 18,
+  "summary_sha256": "6ccbc5a3f42bb8c16ab95e581af750974a72c611620d9bae5cf132c8e6e55f26",
+  "verifier_sha256": "5e868e53bd56bb9635209228a798e5a7afb26e708d05aac210c3429dc863651c",
+  "helper_sha256": {
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "fine_grid_long_time_passed": false,
+  "arbitrary_modes_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false
+}

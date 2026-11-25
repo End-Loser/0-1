@@ -1,0 +1,58 @@
+{
+  "release_source_integrity_passed": true,
+  "original_runtime_points_reproduced": 5,
+  "original_runtime_formula_matches": true,
+  "runtime_comparison": [
+    {
+      "control_V": -0.001,
+      "recorded_output_V": 3.2999999967,
+      "release_formula_output_V": 3.2999999967,
+      "candidate_formula_resistance_ohm": 1e-06,
+      "candidate_not_executed_in_simulator": true
+    },
+    {
+      "control_V": 0,
+      "recorded_output_V": 0.003296703296703298,
+      "release_formula_output_V": 0.0032967032967032967,
+      "candidate_formula_resistance_ohm": 1.0000000000000004e-06,
+      "candidate_not_executed_in_simulator": true
+    },
+    {
+      "control_V": 1e-09,
+      "recorded_output_V": 0.003296703296703298,
+      "release_formula_output_V": 0.0032967032967032967,
+      "candidate_formula_resistance_ohm": 1.0000000000828923e-06,
+      "candidate_not_executed_in_simulator": true
+    },
+    {
+      "control_V": 0.001,
+      "recorded_output_V": 0.003296703296703298,
+      "release_formula_output_V": 0.0032967032967032967,
+      "candidate_formula_resistance_ohm": 999999.9999999995,
+      "candidate_not_executed_in_simulator": true
+    },
+    {
+      "control_V": 0.002,
+      "recorded_output_V": 0.003296703296703298,
+      "release_formula_output_V": 0.0032967032967032967,
+      "candidate_formula_resistance_ohm": 1000000.0,
+      "candidate_not_executed_in_simulator": true
+    }
+  ],
+  "candidate_formula_oracle_checks": 1421,
+  "maximum_relative_difference": 8.914346468878822e-15,
+  "changed_code_scope": "two_logarithmic_minimum_limiters_plus_notice_and_trailing_blank_formatting",
+  "linear_branch_and_parameter_clamps_unchanged": true,
+  "source_level_cause_for_isolated_zero_boundary_proven": true,
+  "compiled_candidate": false,
+  "candidate_solver_run": false,
+  "full_regulator_fix_verified": false,
+  "supported_pspice_verified": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "prior_runtime_summary_sha256": "0d88300d6c34ac238789d03e3ffb95c798f296812a7864aa769f0d5c2ab3b94a",
+  "sources_sha256": "5900cd8ff14ba5824cd58ec8afb0c014f5451075cdb0ce196c20b86616b500dc",
+  "candidate_sha256": "d63be31cb356f401cd99a2181343d18af4efd996245ceceb8b3fdea55a1d8210",
+  "patch_sha256": "df4be3ba497fe71745565b115dc01fc65daddc108d239173da4afc2c5d23c35e",
+  "verifier_sha256": "3cce9fe5f2126c94647be3e1c31d8f5b8ca8575546b0748b254e56da195b84a6"
+}

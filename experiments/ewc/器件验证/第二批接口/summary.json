@@ -1,0 +1,1222 @@
+{
+  "created_utc": "2026-11-17T16:45:51.296480+00:00",
+  "scope": "typical_macro_interface_screen_only",
+  "source_model_url": "https://www.ti.com/lit/zip/SBOMBU5",
+  "model_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tlv3501.lib",
+  "expected_model_sha256": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+  "model_redistributed": false,
+  "temperature_C": 25,
+  "ideal_conditioner": true,
+  "rf_model_simulations": 0,
+  "physical_tests": 0,
+  "procurement": 0,
+  "maximum_workers": 3,
+  "first_batch_sha256": {
+    "collect_evidence.py": "9f38889e541ac44d8ab57c90ded0865a5e83ed3d336da84a9b5ff2ff7b87c85b",
+    "interface_model_gaps.json": "9e5fe13ba16e06558c43fa590cdac382bf29e9e605f1dce0da8129382d68a42b",
+    "model_inspection.json": "98a351629fa98e2642f457b7620b50475db607297bf5168829de15d23cd44e1c",
+    "model_test_results.json": "291d445cc07b3d44e5e0f35fcbf65ad5e5e16c41693d8eed51beb3df8513e32a",
+    "offline_verification.json": "35cb83368149a9a2d9f8242585c2efece06ec47f0d912cd7455700fd5c387393",
+    "run_model_checks.py": "3eb5ebaaf877a193de34e3eba0299dfd4bc7c30b4dab84ad5ef816211fc3ae29",
+    "source_manifest.json": "a127f69188f86689f2376428840ee47118695208c20029ab691d7c5a9e43d114",
+    "verify_offline.py": "7d08c7471f04e2ce84c72888600529d758a2b16791d85d35536e47b861598bf2",
+    "收发与判决模型可用性报告.md": "eef1582ad2d9b0af8c624eb235d981669505080ba88565f32ea521fc084c8b77",
+    "results/native_5V_20mV.log": "4652761b2094349ed29163fe65cc2626f86b812b7a67f9a01926efe8c4290aec",
+    "results/ps_3p3V_20mV.csv": "f61612a4814dc30e8c1e19e8ea10c610b4186dc6fc37bb909010d7f31ba1c743",
+    "results/ps_3p3V_20mV.log": "a1a3c575b2631ed56a91a17d599905a5f563b3b790a49e14bbd845a2286e42e4",
+    "results/ps_5V_20mV.csv": "1d1daa91d943946a54dc8c82d4a8eb9719617972766db6b6927cdae88626a8ab",
+    "results/ps_5V_20mV.log": "bbdd0ff13ac40a0fcb5ca4db78d9db6d0ae69c6c5f766bbbda8a2dd3e356cb55",
+    "results/ps_5V_20pF.csv": "8077b5795f492c67934abcb22c102337487a1f04bb48efb654a748785a99e3c6",
+    "results/ps_5V_20pF.log": "6236491d9d2d609bedf21f9f5642457db69ba0ecd019bf124b66e6e52c4546ba",
+    "results/ps_5V_5mV.csv": "8ebaa3adb45d99dc3236845f2f92f36c346deac77ad868ff011f2c4ad109087b",
+    "results/ps_5V_5mV.log": "fe60f888ef715b5bb8a27d71dd9dd8abf086b6be72352c0453fd5e6e2183f1bd",
+    "results/ps_5V_refined.csv": "16d2e902da5ae4a95af6db7cb5fd552ea17fa0bc010505482032020cf4ff063a",
+    "results/ps_5V_refined.log": "b6b787b7b69d27d364e0f45fb57a99e9c3b0e1fb90b913ea8af722d4d2d30923",
+    "results/ps_shutdown.csv": "75ebc91039f819243aeae1edd89bb9893e06b174d0e374b75ac7efac4de7ad82",
+    "results/ps_shutdown.log": "ca793b8a14109910bc08e957f73910a7f0fd0e7c0362b2a591e298ac0eecdb64",
+    "source_snapshots/cmp_page.txt": "951c94e8655a88836bed36a07ed9f3c058ca9bf749ad10b026238d1ad15f9bf0",
+    "source_snapshots/cmp_pdf.txt": "6fd2bde8f47ca69ba2874c6ebf4e50dd44c5c95dfc23343f050450a828fb47e2",
+    "source_snapshots/cmp_pspice_zip.txt": "0d41dca387d8b39a610c8013c43b05bec2ce7675fc1a6adf222086b89fe442b8",
+    "source_snapshots/cmp_tina_zip.txt": "102a5f74b9b7d3918862ed24cfed9093243944ed6ea2d64f23cd8f9bffa17f9b",
+    "source_snapshots/rf_tool.txt": "0dd641474cecce573fc033a22164fc6818a95f22e04c895a1afb160231b6427d",
+    "source_snapshots/rx_page.txt": "c4b2072ee68a36d513dff938d1f24884792d8444e929935da3dfbe355e1fd19b",
+    "source_snapshots/rx_pdf.txt": "a9cee860c911051f38675ae0844daf09b73fa5071d3ad22f7052996db412bfcd",
+    "source_snapshots/tina_page.txt": "fd064dff0389da929b440922ff0acedb92ed56f84a28991dc580a2c465609adf",
+    "source_snapshots/tipd_page.txt": "cc1fd533fd3e105906949d1469191b1021d2df4ac14c0a874ca881252788a22a",
+    "source_snapshots/tipd_zip.txt": "6eeefe7cdf8b31217c784ea1f20de736d998d3fb8c31dc10cf1109ce34de1f58",
+    "source_snapshots/tx_page.txt": "e69ae4c1ed41bb263688297fa70010825f498fcdef2b4a0ab78a882fc9e2ad7f",
+    "source_snapshots/tx_pdf.txt": "4dfc018282106fb73568e16b9afbed6c674a575a8be529177e8630e6b7dac3a1"
+  },
+  "limitations": [
+    "fixed_internal_4.5ns_delay",
+    "no_validated_low_overdrive_timing",
+    "no_temperature_process_noise_acceptance",
+    "ideal_zero_impedance_conditioner_and_reference",
+    "no_RF_LO_or_C_feedback_or_level_shifter",
+    "no_full_system_energy_or_20ns_claim"
+  ],
+  "criteria": {
+    "low_fraction": 0.3,
+    "high_fraction": 0.7,
+    "delay_limit_s": 3e-08,
+    "input_lower_V": -0.2,
+    "input_upper": "supply_V - 0.2",
+    "offset_guard_V": 0.0065,
+    "half_hysteresis_guard_V": 0.003,
+    "refinement_limit_s": 2e-11
+  },
+  "model_sha256_before": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "simulator_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe",
+  "simulator_version": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at https://ngspice.sourceforge.io/bugrep.html\n** Creation Date: Aug 11 2026   13:55:25\n******\n",
+  "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j",
+  "runs": [
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 1.65,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c01_3p3_mid",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c01_3p3_mid",
+      "returncode": 0,
+      "rows": 17458,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005000000000002e-07
+            ],
+            "output_crossings_s": [
+              2.0537416419268272e-07
+            ],
+            "delay_s": 5.324164192682699e-09,
+            "plateau_min_V": 3.297955267430774,
+            "plateau_max_V": 3.297955267430774,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2004999999999996e-07
+            ],
+            "output_crossings_s": [
+              3.253671047943903e-07
+            ],
+            "delay_s": 5.317104794390353e-09,
+            "plateau_min_V": 3.034145468487882e-10,
+            "plateau_max_V": 3.034145468487882e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.400500000000001e-07
+            ],
+            "output_crossings_s": [
+              4.4537416419268283e-07
+            ],
+            "delay_s": 5.324164192682752e-09,
+            "plateau_min_V": 3.29795526743077,
+            "plateau_max_V": 3.29795526743077,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.653671047943904e-07
+            ],
+            "delay_s": 5.317104794390353e-09,
+            "plateau_min_V": 3.03419410356648e-10,
+            "plateau_max_V": 3.03419410356648e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 1.64,
+        "pin_max_V": 1.66,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 9.575673587391975e-16,
+        "common_mode_error_V": 6.661338147750939e-16,
+        "active_supply_current_A": 0.0032329739915626385
+      },
+      "files": {
+        "results/c01_3p3_mid/solver.log": "374c4b98c21f78a988d8792d96dac9398b782116dad622da845c43d2adcc365b",
+        "results/c01_3p3_mid/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c01_3p3_mid/test.cir": "a2645c8de6b8e6aaa28cf655c1d4aaa75537a62b614af0e2b3bbe6e7c9b8600c",
+        "results/c01_3p3_mid/wave.csv": "69dc6823ee309a512b97a99769e130424db79a230345c1c22bc23ec917099b06"
+      }
+    },
+    {
+      "supply_V": 5.0,
+      "common_mode_V": 2.5,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c02_5_mid",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c02_5_mid",
+      "returncode": 0,
+      "rows": 17390,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005e-07
+            ],
+            "output_crossings_s": [
+              2.0537415986816122e-07
+            ],
+            "delay_s": 5.3241598681612275e-09,
+            "plateau_min_V": 4.996901920349686,
+            "plateau_max_V": 4.996901920349686,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2004999999999996e-07
+            ],
+            "output_crossings_s": [
+              3.2536887110878914e-07
+            ],
+            "delay_s": 5.318871108789184e-09,
+            "plateau_min_V": 4.597244547315614e-10,
+            "plateau_max_V": 4.597244547315614e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.400500000000001e-07
+            ],
+            "output_crossings_s": [
+              4.453741598681617e-07
+            ],
+            "delay_s": 5.324159868161598e-09,
+            "plateau_min_V": 4.996901920349686,
+            "plateau_max_V": 4.996901920349686,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.653688711087895e-07
+            ],
+            "delay_s": 5.318871108789449e-09,
+            "plateau_min_V": 4.597287460620259e-10,
+            "plateau_max_V": 4.597287460620259e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 2.49,
+        "pin_max_V": 2.51,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 1.609823385706477e-15,
+        "common_mode_error_V": 0.0,
+        "active_supply_current_A": 0.0032499635628904225
+      },
+      "files": {
+        "results/c02_5_mid/solver.log": "36d39db0dfc4e174d09f90f5454fe469597889584fa0f029f990ae4c2ca0c87e",
+        "results/c02_5_mid/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c02_5_mid/test.cir": "2f5146d16f52bb28fe28acebe9e786f1598d131f727320277c250ff0ded391bf",
+        "results/c02_5_mid/wave.csv": "470fdc68271be4d558da806a6d0d1a1e88033c9e397428111c3c39d3e4301973"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 0.25,
+      "threshold_V": -0.05,
+      "overdrive_V": 0.02,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c03_3p3_low",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c03_3p3_low",
+      "returncode": 0,
+      "rows": 17458,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005000000000002e-07
+            ],
+            "output_crossings_s": [
+              2.0537416419268272e-07
+            ],
+            "delay_s": 5.324164192682699e-09,
+            "plateau_min_V": 3.297955267430774,
+            "plateau_max_V": 3.297955267430774,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2004999999999996e-07
+            ],
+            "output_crossings_s": [
+              3.253671047943903e-07
+            ],
+            "delay_s": 5.317104794390353e-09,
+            "plateau_min_V": 3.034145468487882e-10,
+            "plateau_max_V": 3.034145468487882e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.400500000000001e-07
+            ],
+            "output_crossings_s": [
+              4.4537416419268283e-07
+            ],
+            "delay_s": 5.324164192682752e-09,
+            "plateau_min_V": 3.29795526743077,
+            "plateau_max_V": 3.29795526743077,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.653671047943904e-07
+            ],
+            "delay_s": 5.317104794390353e-09,
+            "plateau_min_V": 3.03419410356648e-10,
+            "plateau_max_V": 3.03419410356648e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 0.24,
+        "pin_max_V": 0.26,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 1.6653345369377348e-16,
+        "common_mode_error_V": 5.551115123125783e-17,
+        "active_supply_current_A": 0.00323297412567225
+      },
+      "files": {
+        "results/c03_3p3_low/solver.log": "a7132cbab0550d13fe79472eec9a60b8abc4e9a387eb14cbd6f10de09a62716b",
+        "results/c03_3p3_low/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c03_3p3_low/test.cir": "1084672aea4de12e53b76e7a21a49bf7d9a90b224b238df4a1ac148fd592e6d8",
+        "results/c03_3p3_low/wave.csv": "c0c8bfc525e5e201b95ea310020db496b264201664c3c608e78bf89c87b9583e"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 3.0,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c04_3p3_upper",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c04_3p3_upper",
+      "returncode": 0,
+      "rows": 17458,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005000000000002e-07
+            ],
+            "output_crossings_s": [
+              2.0537416419268272e-07
+            ],
+            "delay_s": 5.324164192682699e-09,
+            "plateau_min_V": 3.297955267430774,
+            "plateau_max_V": 3.297955267430774,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2004999999999996e-07
+            ],
+            "output_crossings_s": [
+              3.253671047943903e-07
+            ],
+            "delay_s": 5.317104794390353e-09,
+            "plateau_min_V": 3.034145468487882e-10,
+            "plateau_max_V": 3.034145468487882e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.400500000000001e-07
+            ],
+            "output_crossings_s": [
+              4.4537416419268283e-07
+            ],
+            "delay_s": 5.324164192682752e-09,
+            "plateau_min_V": 3.29795526743077,
+            "plateau_max_V": 3.29795526743077,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.653671047943904e-07
+            ],
+            "delay_s": 5.317104794390353e-09,
+            "plateau_min_V": 3.03419410356648e-10,
+            "plateau_max_V": 3.03419410356648e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 2.99,
+        "pin_max_V": 3.01,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 1.6237011735142914e-15,
+        "common_mode_error_V": 0.0,
+        "active_supply_current_A": 0.003232973995287658
+      },
+      "files": {
+        "results/c04_3p3_upper/solver.log": "428c2e99d55359960413abe4a2e1aec9bdaa1516b4f9f7cfd396cbc8d8d1f37e",
+        "results/c04_3p3_upper/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c04_3p3_upper/test.cir": "43416e24ed4d6fc83ea50dd85effa6d370132568f378ea5c09d32aa7b7e53e8e",
+        "results/c04_3p3_upper/wave.csv": "ef997f027d71714a646d19436f1018cfce634d3c31c07404bf96a99ad2728a38"
+      }
+    },
+    {
+      "supply_V": 5.0,
+      "common_mode_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c05_5_rx_cm",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c05_5_rx_cm",
+      "returncode": 0,
+      "rows": 17390,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005e-07
+            ],
+            "output_crossings_s": [
+              2.0537415986816122e-07
+            ],
+            "delay_s": 5.3241598681612275e-09,
+            "plateau_min_V": 4.996901920349686,
+            "plateau_max_V": 4.996901920349686,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2004999999999996e-07
+            ],
+            "output_crossings_s": [
+              3.2536887110878914e-07
+            ],
+            "delay_s": 5.318871108789184e-09,
+            "plateau_min_V": 4.597244547315614e-10,
+            "plateau_max_V": 4.597244547315614e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.400500000000001e-07
+            ],
+            "output_crossings_s": [
+              4.453741598681617e-07
+            ],
+            "delay_s": 5.324159868161598e-09,
+            "plateau_min_V": 4.996901920349686,
+            "plateau_max_V": 4.996901920349686,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.653688711087895e-07
+            ],
+            "delay_s": 5.318871108789449e-09,
+            "plateau_min_V": 4.597287460620259e-10,
+            "plateau_max_V": 4.597287460620259e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 3.19,
+        "pin_max_V": 3.21,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 1.2351231148954867e-15,
+        "common_mode_error_V": 4.440892098500626e-16,
+        "active_supply_current_A": 0.0032499634958365045
+      },
+      "files": {
+        "results/c05_5_rx_cm/solver.log": "b3e72720394885b87040e7d627d544d24667efab4138386ec13cb9c464ad0008",
+        "results/c05_5_rx_cm/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c05_5_rx_cm/test.cir": "8e8bea945e417b7d3a615e7a27b526bfaeb2ee27db89b5448d8db5c8c4032a7b",
+        "results/c05_5_rx_cm/wave.csv": "9fd4dfbf0d46114323dde9536058b7982a521d3624ed643a2ef0cc0f562f3355"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 1.0,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c06_3p3_cm_conflict",
+      "status": "fail",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c06_3p3_cm_conflict",
+      "returncode": 0,
+      "rows": 16767,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005e-07
+            ],
+            "output_crossings_s": [
+              2.0031269836648402e-07,
+              2.011890661532826e-07,
+              2.0206543907396748e-07,
+              2.0294182872729e-07,
+              2.038182469622345e-07,
+              2.046934640910228e-07,
+              2.055699710213361e-07,
+              2.064465931496754e-07,
+              2.0732340098145645e-07,
+              2.0820051248294643e-07,
+              2.0907766453019174e-07,
+              2.0995565496380816e-07,
+              2.1083457123907653e-07,
+              2.117145922832913e-07,
+              2.1259685084634166e-07,
+              2.134832868950475e-07,
+              2.1437457365149248e-07,
+              2.1527419695653212e-07,
+              2.1618995911539738e-07
+            ],
+            "delay_s": null,
+            "plateau_min_V": 1.649983500166645,
+            "plateau_max_V": 1.649983500166651,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2005e-07
+            ],
+            "output_crossings_s": [
+              3.203114322272232e-07,
+              3.211877036556967e-07,
+              3.220640639807354e-07,
+              3.2294037594461833e-07,
+              3.2381670917075377e-07,
+              3.2469168021359416e-07,
+              3.255678200717673e-07,
+              3.26443840078048e-07,
+              3.2731972435906817e-07,
+              3.2819536780230327e-07,
+              3.2907076720736425e-07,
+              3.2994544740060684e-07,
+              3.3081946177594083e-07,
+              3.316921470527549e-07,
+              3.325635121222281e-07,
+              3.334323531345601e-07,
+              3.342965466804634e-07,
+              3.351530749256199e-07,
+              3.3599679425867815e-07,
+              3.368053729354455e-07
+            ],
+            "delay_s": null,
+            "plateau_min_V": 1.649983500163348,
+            "plateau_max_V": 1.649983500163348,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.4004999999999997e-07
+            ],
+            "output_crossings_s": [
+              4.4031217176813383e-07,
+              4.411885553452149e-07,
+              4.4206493392031096e-07,
+              4.4294132667163674e-07,
+              4.438177477606341e-07,
+              4.446931504974893e-07,
+              4.4556958694004857e-07,
+              4.4644629710331043e-07,
+              4.4732291518179757e-07,
+              4.4819977860251104e-07,
+              4.490770220803235e-07,
+              4.499549717179291e-07,
+              4.508338837917161e-07,
+              4.51714166860425e-07,
+              4.5259708850525345e-07,
+              4.534837111724668e-07,
+              4.543751483952184e-07,
+              4.5527542849833455e-07,
+              4.5619368888670696e-07
+            ],
+            "delay_s": null,
+            "plateau_min_V": 1.649983500166646,
+            "plateau_max_V": 1.649983500166651,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.603119183823962e-07,
+              5.61188143040052e-07,
+              5.620644830060027e-07,
+              5.629407734291745e-07,
+              5.638171010891166e-07,
+              5.646921768598291e-07,
+              5.655683981932537e-07,
+              5.66444443382618e-07,
+              5.673203688230953e-07,
+              5.68195986568897e-07,
+              5.690712998107407e-07,
+              5.699460731709904e-07,
+              5.708199688306978e-07,
+              5.716930702307902e-07,
+              5.725645396244058e-07,
+              5.734334370814614e-07,
+              5.742981429728627e-07,
+              5.75155278447337e-07,
+              5.760001481455002e-07,
+              5.768125932451233e-07
+            ],
+            "delay_s": null,
+            "plateau_min_V": 1.649983500163348,
+            "plateau_max_V": 1.649983500163348,
+            "level_ok": false,
+            "delay_ok": false
+          }
+        ],
+        "pin_min_V": 2.7,
+        "pin_max_V": 3.7,
+        "range_ok": false,
+        "planning_margin_V": 0.9905,
+        "function_pass": false,
+        "violations": [
+          "pin_range_outside_conservative_EC",
+          "unstable_or_incorrect_30_70_output",
+          "missing_multiple_or_outside_0_30ns_crossing"
+        ],
+        "conditioning_identity_error_V": 2.1371793224034263e-15,
+        "common_mode_error_V": 4.440892098500626e-16,
+        "active_supply_current_A": 0.0031999944144263104
+      },
+      "files": {
+        "results/c06_3p3_cm_conflict/solver.log": "78409adb8d6ee962ebcf1759af3335af8058ea96da019f3a8fd72b84a8f471da",
+        "results/c06_3p3_cm_conflict/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c06_3p3_cm_conflict/test.cir": "3ee3556c9942140fe7f474dd4a2bcd66f190efd5b7304be029e9bf76630fad03",
+        "results/c06_3p3_cm_conflict/wave.csv": "671279c033ed3798c22cfb080625f206d1c23436c2f5c514873f2ceee76a3cb9"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 1.65,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.002,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c07_3p3_2mV",
+      "status": "fail",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c07_3p3_2mV",
+      "returncode": 0,
+      "rows": 16032,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005e-07
+            ],
+            "output_crossings_s": [],
+            "delay_s": null,
+            "plateau_min_V": 3.297955267430821,
+            "plateau_max_V": 3.297955267430821,
+            "level_ok": true,
+            "delay_ok": false
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2005e-07
+            ],
+            "output_crossings_s": [],
+            "delay_s": null,
+            "plateau_min_V": 3.297955267430817,
+            "plateau_max_V": 3.297955267430817,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.4004999999999997e-07
+            ],
+            "output_crossings_s": [],
+            "delay_s": null,
+            "plateau_min_V": 3.297955267430816,
+            "plateau_max_V": 3.297955267430816,
+            "level_ok": true,
+            "delay_ok": false
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [],
+            "delay_s": null,
+            "plateau_min_V": 3.297955267430813,
+            "plateau_max_V": 3.297955267430813,
+            "level_ok": false,
+            "delay_ok": false
+          }
+        ],
+        "pin_min_V": 1.649,
+        "pin_max_V": 1.651,
+        "range_ok": true,
+        "planning_margin_V": -0.0075,
+        "function_pass": false,
+        "violations": [
+          "no_6p5mV_offset_plus_3mV_hysteresis_margin",
+          "unstable_or_incorrect_30_70_output",
+          "missing_multiple_or_outside_0_30ns_crossing"
+        ],
+        "conditioning_identity_error_V": 1.1796119636642288e-15,
+        "common_mode_error_V": 4.440892098500626e-16,
+        "active_supply_current_A": 0.003232973991545318
+      },
+      "files": {
+        "results/c07_3p3_2mV/solver.log": "c5cbd5d9dff4f3f2d70aad33f9d3571cf6af4ffca8e052c65b0991db694a2afc",
+        "results/c07_3p3_2mV/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c07_3p3_2mV/test.cir": "2e1d762ccdd23b4deaac65bb4b594dddd9c452d1c1adef963b03dcb9c19f55fa",
+        "results/c07_3p3_2mV/wave.csv": "a68cb12475a17d1714704edd346ebb264eea19c0558a48c31ce0fe6d0cb55a5f"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 1.65,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 2e-11,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c08_3p3_20pF",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c08_3p3_20pF",
+      "returncode": 0,
+      "rows": 17458,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005000000000002e-07
+            ],
+            "output_crossings_s": [
+              2.0619083205826644e-07
+            ],
+            "delay_s": 6.140832058266418e-09,
+            "plateau_min_V": 3.297955267428518,
+            "plateau_max_V": 3.297955267430794,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2004999999999996e-07
+            ],
+            "output_crossings_s": [
+              3.2618229570311155e-07
+            ],
+            "delay_s": 6.132295703111597e-09,
+            "plateau_min_V": 3.034229580741629e-10,
+            "plateau_max_V": 3.05689004036212e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.400500000000001e-07
+            ],
+            "output_crossings_s": [
+              4.461908320582665e-07
+            ],
+            "delay_s": 6.140832058266418e-09,
+            "plateau_min_V": 3.297955267428518,
+            "plateau_max_V": 3.297955267430782,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.661822957031116e-07
+            ],
+            "delay_s": 6.132295703111544e-09,
+            "plateau_min_V": 3.03422958318806e-10,
+            "plateau_max_V": 3.056888591733917e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 1.64,
+        "pin_max_V": 1.66,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 9.575673587391975e-16,
+        "common_mode_error_V": 6.661338147750939e-16,
+        "active_supply_current_A": 0.003232973991621216
+      },
+      "files": {
+        "results/c08_3p3_20pF/solver.log": "3ce8ccbf7ccb95c94b641ca5f7058bfb272ff5d87be5f453209be998604c01ee",
+        "results/c08_3p3_20pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c08_3p3_20pF/test.cir": "feaa01045f63d39fa5dc8c33c265e6e843cd40384b799b79803fe758feccf159",
+        "results/c08_3p3_20pF/wave.csv": "56efc5cd7a37eff9c266e1efd47aa6f690ecbd9950af696d615ba9b11b4c3e61"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 1.65,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 1e-09,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 5e-11,
+      "id": "c09_3p3_1000pF",
+      "status": "fail",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c09_3p3_1000pF",
+      "returncode": 0,
+      "rows": 17480,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005000000000002e-07
+            ],
+            "output_crossings_s": [
+              2.4831788107154906e-07
+            ],
+            "delay_s": 4.826788107154904e-08,
+            "plateau_min_V": 2.130115712319476,
+            "plateau_max_V": 2.571648799781649,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2004999999999996e-07
+            ],
+            "output_crossings_s": [
+              3.580437551271266e-07
+            ],
+            "delay_s": 3.799375512712662e-08,
+            "plateau_min_V": 0.6179247825782925,
+            "plateau_max_V": 0.9935709444809921,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.400500000000001e-07
+            ],
+            "output_crossings_s": [
+              4.79760525461718e-07
+            ],
+            "delay_s": 3.97105254617179e-08,
+            "plateau_min_V": 2.278309444754716,
+            "plateau_max_V": 2.663813914297304,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.9943189324047e-07
+            ],
+            "delay_s": 3.9381893240469964e-08,
+            "plateau_min_V": 0.6316778263436603,
+            "plateau_max_V": 1.015684679147801,
+            "level_ok": false,
+            "delay_ok": false
+          }
+        ],
+        "pin_min_V": 1.64,
+        "pin_max_V": 1.66,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": false,
+        "violations": [
+          "unstable_or_incorrect_30_70_output",
+          "missing_multiple_or_outside_0_30ns_crossing"
+        ],
+        "conditioning_identity_error_V": 9.575673587391975e-16,
+        "common_mode_error_V": 6.661338147750939e-16,
+        "active_supply_current_A": 0.01809916265625333
+      },
+      "files": {
+        "results/c09_3p3_1000pF/solver.log": "4d531bf67997ba8655b84c03f3c1bd78f4b508bd0fa590b2ccec2ee6bb7faa4d",
+        "results/c09_3p3_1000pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c09_3p3_1000pF/test.cir": "640f79ad87f12db044b8dfc67d507afa0ff065c7ffcb80c1a00f62b3f4010850",
+        "results/c09_3p3_1000pF/wave.csv": "1c442d819e34c4de6e47742c84353d7d7cf8d55db1145bd9b1d21215128af9cb"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 1.65,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 2e-08,
+      "max_step_s": 5e-11,
+      "id": "c10_3p3_slow",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c10_3p3_slow",
+      "returncode": 0,
+      "rows": 17648,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0999999999999995e-07
+            ],
+            "output_crossings_s": [
+              2.163089667997606e-07
+            ],
+            "delay_s": 6.308966799760663e-09,
+            "plateau_min_V": 3.297955267430784,
+            "plateau_max_V": 3.297955267430784,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.3000000000000007e-07
+            ],
+            "output_crossings_s": [
+              3.373050280322404e-07
+            ],
+            "delay_s": 7.305028032240344e-09,
+            "plateau_min_V": 3.034145468487882e-10,
+            "plateau_max_V": 3.034145468487882e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.5000000000000003e-07
+            ],
+            "output_crossings_s": [
+              4.563089667997606e-07
+            ],
+            "delay_s": 6.308966799760584e-09,
+            "plateau_min_V": 3.297955267430784,
+            "plateau_max_V": 3.297955267430784,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.7e-07
+            ],
+            "output_crossings_s": [
+              5.773050280322406e-07
+            ],
+            "delay_s": 7.305028032240556e-09,
+            "plateau_min_V": 3.034231295097173e-10,
+            "plateau_max_V": 3.034231295097173e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 1.64,
+        "pin_max_V": 1.66,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 1.3739009929736312e-15,
+        "common_mode_error_V": 6.661338147750939e-16,
+        "active_supply_current_A": 0.003232973991559307
+      },
+      "files": {
+        "results/c10_3p3_slow/solver.log": "4c99457f68a66e418e93fdfd7214bbe8cc075d8c69adc5ecd8ea8d55b49a263e",
+        "results/c10_3p3_slow/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c10_3p3_slow/test.cir": "98274e73ffb65b729f62b63961cd648c8fb41edf37743b8276b701b9cffb19bf",
+        "results/c10_3p3_slow/wave.csv": "67494a3fa949e0a56cee7d7665266ff30862e13fc7d1ba0165cf0c4e2c3b0cde"
+      }
+    },
+    {
+      "supply_V": 3.3,
+      "common_mode_V": 1.65,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.02,
+      "load_F": 1e-12,
+      "load_ohm": 100000,
+      "ramp_s": 1e-10,
+      "max_step_s": 2.5e-11,
+      "id": "c11_3p3_refined",
+      "status": "pass",
+      "attempted": true,
+      "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-second-xeyssh1j\\c11_3p3_refined",
+      "returncode": 0,
+      "rows": 32980,
+      "measurements": {
+        "events": [
+          {
+            "start_s": 2e-07,
+            "rising": true,
+            "input_crossings_s": [
+              2.0005e-07
+            ],
+            "output_crossings_s": [
+              2.0536473399098185e-07
+            ],
+            "delay_s": 5.314733990981858e-09,
+            "plateau_min_V": 3.297955267430746,
+            "plateau_max_V": 3.297955267430746,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 3.2e-07,
+            "rising": false,
+            "input_crossings_s": [
+              3.2005e-07
+            ],
+            "output_crossings_s": [
+              3.2537478358781153e-07
+            ],
+            "delay_s": 5.32478358781152e-09,
+            "plateau_min_V": 3.034194894241758e-10,
+            "plateau_max_V": 3.034194894241758e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 4.4e-07,
+            "rising": true,
+            "input_crossings_s": [
+              4.4005e-07
+            ],
+            "output_crossings_s": [
+              4.453647339909821e-07
+            ],
+            "delay_s": 5.31473399098207e-09,
+            "plateau_min_V": 3.297955267430749,
+            "plateau_max_V": 3.297955267430749,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "start_s": 5.6e-07,
+            "rising": false,
+            "input_crossings_s": [
+              5.6005e-07
+            ],
+            "output_crossings_s": [
+              5.653747835878071e-07
+            ],
+            "delay_s": 5.3247835878070734e-09,
+            "plateau_min_V": 3.034322095782915e-10,
+            "plateau_max_V": 3.034322095782915e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "pin_min_V": 1.64,
+        "pin_max_V": 1.66,
+        "range_ok": true,
+        "planning_margin_V": 0.0105,
+        "function_pass": true,
+        "violations": [],
+        "conditioning_identity_error_V": 9.159339953157541e-16,
+        "common_mode_error_V": 6.661338147750939e-16,
+        "active_supply_current_A": 0.0032329745133301566
+      },
+      "files": {
+        "results/c11_3p3_refined/solver.log": "120372c81c20d7b70fc79f0478a97c10f1b335b6614d41630d440d5a7c66d439",
+        "results/c11_3p3_refined/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/c11_3p3_refined/test.cir": "3f6dd5f864fbf69670845945e648c687da7ad3a3623ba5ae74190131083b1e8b",
+        "results/c11_3p3_refined/wave.csv": "41df1a85f6609892f3ad5ef640ed2830b9d8c5a9406f22ee5468cd38bb6871cb"
+      }
+    }
+  ],
+  "model_sha256_after": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+  "counts": {
+    "configurations": 11,
+    "solver_attempts": 11,
+    "datasets": 11,
+    "function_pass": 8,
+    "pass": 8,
+    "fail": 3,
+    "blocked": 0
+  },
+  "refinement": {
+    "event_differences_s": [
+      9.430201700840606e-12,
+      7.678793421167217e-12,
+      9.430201700681788e-12,
+      7.678793416720294e-12
+    ],
+    "pass_check": true
+  },
+  "executed_runner_sha256": "171cb9b99ea19d5cc4503b8e36bb5d04a2a3b5076fc5919188cb3c1196e60c44",
+  "post_run_edit": "Output-directory/source-directory bookkeeping corrected after solving; no deck, waveform, log, measurements or solver count changed. scripts_sha256 identifies delivered scripts; executed_runner_sha256 identifies the original run.",
+  "scripts_sha256": {
+    "run_screening.py": "845d84d4b272888773bfc515c0d5dbebfb7546133daaadf6399e28e1e4ceccd7",
+    "verify_offline.py": "9c2cd64af55a1eda5bc3ca74bc7c0ef6fc64fb85d84d483d316c7bbb40c4d136"
+  }
+}

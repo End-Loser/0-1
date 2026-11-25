@@ -1,0 +1,55 @@
+{
+  "data_integrity": "PASS",
+  "summary_sha256": "265afeff592e870af3d80560f870a37661cf5e8d647746a42de8c660ee79c7a5",
+  "refinement_summary_sha256": "fbe4e20ca59d716f4e116c7b26affa5d3d6d2b7c7858a022e6687082c71ed886",
+  "case_count": 18,
+  "benchmark_count": 3,
+  "holdout_checks": [
+    {
+      "dx_mm": 5,
+      "relative_holdout_error": 5.881488234651292e-16
+    },
+    {
+      "dx_mm": 2.5,
+      "relative_holdout_error": 4.866284723582185e-16
+    }
+  ],
+  "reciprocity_relative_difference": {
+    "5": 8.746664245903754e-17,
+    "2.5": 4.298884774183952e-17
+  },
+  "band_2p5_to_3p5GHz_relative_mesh_change": 0.37269311416480144,
+  "at_3GHz_relative_mesh_changes": [
+    0.310483809489904,
+    0.30551947278387986,
+    0.6657035143828485
+  ],
+  "time_refinement_relative_waveform_change": 1.1765061668435814,
+  "finite_bandwidth_holdout_changes": [
+    {
+      "left": "holdout_5mm",
+      "right": "holdout_2.5mm",
+      "relative_readout_waveform_change": 0.337427849647472
+    },
+    {
+      "left": "holdout_2.5mm",
+      "right": "holdout_2mm",
+      "relative_readout_waveform_change": 0.06696323329410452
+    },
+    {
+      "left": "holdout_5mm",
+      "right": "holdout_5mm_dt_half",
+      "relative_readout_waveform_change": 0.16040953496078728
+    }
+  ],
+  "source0_band_relative_mesh_change_2p5_to_2mm": 0.0700033893115896,
+  "load_material_sensitivities": {
+    "epsilon_plus_1pct": 0.23132864604813802,
+    "load_double": 0.030085871519575296,
+    "load_removed": 0.03766732833554978
+  },
+  "after_12ns_extended_response_norm_fraction": 0.6446413087975285,
+  "full_hardware_gate": false,
+  "bridge_readiness": "NOT_READY: normalized distributed interfaces, no validated physical RF port or detector",
+  "note": "Audit PASS establishes archive consistency, not physical hardware readiness or mesh convergence"
+}

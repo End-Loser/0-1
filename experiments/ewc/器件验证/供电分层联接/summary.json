@@ -1,0 +1,651 @@
+{
+  "runs": [
+    {
+      "reference": false,
+      "buffers": false,
+      "ideal_rails": false,
+      "ramp": false,
+      "enable_cycle": false,
+      "load_step": false,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "dual_steady",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 20008,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true
+        },
+        "errors_V": {
+          "r5": 4.995009853713699,
+          "r3": 3.298911570871697
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/dual_steady/solver.log": "b967bc85b82fcafb8764276304e70e35a439b35dfa3a97496a50c00246710a50",
+        "results/dual_steady/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/dual_steady/test.cir": "370ae565fca80f319e3f7701600bbdd554fc6e87e4b164c94efb1883f8a9eb2e",
+        "results/dual_steady/wave.csv": "33879e3a511ae481973953e1d33cc20daf00cd3d9724f4fdac0cc50c421bb8b1"
+      }
+    },
+    {
+      "reference": false,
+      "buffers": false,
+      "ideal_rails": false,
+      "ramp": false,
+      "enable_cycle": false,
+      "load_step": true,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "dual_load_step",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 20014,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true
+        },
+        "errors_V": {
+          "r5": 4.997090255953315,
+          "r3": 3.2994532653587396
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/dual_load_step/solver.log": "b531443423c04aabc9c157b6d2df821952d1b82df0a88c651672a4d2465ad3a5",
+        "results/dual_load_step/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/dual_load_step/test.cir": "82462daf75afb641fe7da15de5a497c8294ff0f030ba42ccda0539136c5d5bb7",
+        "results/dual_load_step/wave.csv": "e6494fca6be0f20894d3f1d3692ac66ea8ae963a16140694712e3d0b24e3e59e"
+      }
+    },
+    {
+      "reference": false,
+      "buffers": false,
+      "ideal_rails": false,
+      "ramp": false,
+      "enable_cycle": true,
+      "load_step": false,
+      "finish_s": 0.008,
+      "step_s": 1e-07,
+      "id": "dual_enable_cycle",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.008,
+      "rows": 80739,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true,
+          "off5": true,
+          "off3": true
+        },
+        "errors_V": {
+          "r5": 4.980370870183919,
+          "r3": 3.2988821626067426,
+          "off5": 1.459504263238524e-05,
+          "off3": 2.579889691923461e-06
+        },
+        "window_s": [
+          0.0077,
+          0.0079
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/dual_enable_cycle/solver.log": "1eecae39f6fa69674ee52a792c94079cbc92d6c743de1532cbaa4c8a4a4450e6",
+        "results/dual_enable_cycle/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/dual_enable_cycle/test.cir": "6b143a8f2d0aac87eb4f3d8578182c9be27a4f967ee91b9a139f3d0b42e0e8e6",
+        "results/dual_enable_cycle/wave.csv": "afeb0b726bbe4b08e747cebf9a73ca0e9f959809015a358a9bdd0753343d77a4"
+      }
+    },
+    {
+      "reference": false,
+      "buffers": false,
+      "ideal_rails": false,
+      "ramp": true,
+      "enable_cycle": false,
+      "load_step": false,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "dual_ramp",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 20485,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true
+        },
+        "errors_V": {
+          "r5": 4.967493613602401,
+          "r3": 3.298369466411789
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/dual_ramp/solver.log": "0975f2fc41fc591f8a8376b423d79df3fbaa473c379e9cdfe88a7e25af6e5289",
+        "results/dual_ramp/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/dual_ramp/test.cir": "f565ca6ac6de7b310cf64be1154a501754867639d5528bf42a91e7228ab16385",
+        "results/dual_ramp/wave.csv": "89fbf9d56d1ae7588fda1517dae23688942dcc259efe00c4a3b2d5d75bc19099"
+      }
+    },
+    {
+      "reference": true,
+      "buffers": false,
+      "ideal_rails": false,
+      "ramp": false,
+      "enable_cycle": false,
+      "load_step": false,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "dual_reference",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3",
+        "vref",
+        "cref",
+        "i_refin",
+        "i_refout"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 20008,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true,
+          "reference": true
+        },
+        "errors_V": {
+          "r5": 4.995009853738534,
+          "r3": 3.2989115708799033,
+          "vref": 0.0024079885954977343
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/dual_reference/solver.log": "061b08fda1897c46bfb3fca7209f2072cfbebb5bc7f7ffbbd4279b2cccba9200",
+        "results/dual_reference/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/dual_reference/test.cir": "33e0a20e6124e057335d541853045f52df23027e8e38586d8e466d5b5e46be09",
+        "results/dual_reference/wave.csv": "bee170458e20bdb545ff7b931b9341373e6eeb74620663b6feff4ea18f5ed2dc"
+      }
+    },
+    {
+      "reference": true,
+      "buffers": false,
+      "ideal_rails": false,
+      "ramp": true,
+      "enable_cycle": false,
+      "load_step": false,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "dual_reference_ramp",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3",
+        "vref",
+        "cref",
+        "i_refin",
+        "i_refout"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 20489,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true,
+          "reference": true
+        },
+        "errors_V": {
+          "r5": 4.963532073434204,
+          "r3": 3.2982905013295727,
+          "vref": 0.002407988595341415
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/dual_reference_ramp/solver.log": "42128d899c1f825df9e3b97d5863234fb1a5b1aabbd3f3c4e7167b6f549b7353",
+        "results/dual_reference_ramp/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/dual_reference_ramp/test.cir": "f01e0e70c160cc5f1b53dc655c16c6632223754b840cb047a608add0c20a1ffd",
+        "results/dual_reference_ramp/wave.csv": "47f1f31e3acbda72851c47f88e9361700067a36b9dde2510c00e65fbda0da3bb"
+      }
+    },
+    {
+      "reference": true,
+      "buffers": true,
+      "ideal_rails": true,
+      "ramp": false,
+      "enable_cycle": false,
+      "load_step": false,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "buffer_ideal_control",
+      "status": "pass",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3",
+        "vref",
+        "cref",
+        "i_refin",
+        "i_refout",
+        "b1",
+        "o1",
+        "i_brail1",
+        "i_bout1",
+        "i_bin1",
+        "i_fb1",
+        "b2",
+        "o2",
+        "i_brail2",
+        "i_bout2",
+        "i_bin2",
+        "i_fb2",
+        "b3",
+        "o3",
+        "i_brail3",
+        "i_bout3",
+        "i_bin3",
+        "i_fb3",
+        "srcp",
+        "srcn"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 20032,
+      "measurements": {
+        "checks": {
+          "rail5": true,
+          "rail3": true,
+          "headroom": true,
+          "reference": true,
+          "o1": true,
+          "o2": true,
+          "o3": true,
+          "threshold": true
+        },
+        "errors_V": {
+          "r5": 0.0,
+          "r3": 0.0,
+          "vref": 0.0024933846436852036,
+          "o1": 0.0008483609264731129,
+          "o2": 0.000823704915097867,
+          "o3": 0.0008735895066880328,
+          "threshold": 4.988459634111542e-05
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/buffer_ideal_control/solver.log": "c0ca236edcf7d4bb152de9586e2475d6642064b68b5ea905dd37c1666964b756",
+        "results/buffer_ideal_control/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/buffer_ideal_control/test.cir": "a02895d21f7b19f76d03928264097a8aefdb53a43aa08613791b76db4541e52b",
+        "results/buffer_ideal_control/wave.csv": "b0092fa353f7270abb5b066c7ae6865f4ba7ef87bc64f9eff97d77bb934f4d93"
+      }
+    },
+    {
+      "reference": true,
+      "buffers": true,
+      "ideal_rails": false,
+      "ramp": false,
+      "enable_cycle": false,
+      "load_step": false,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "buffer_real_rails",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3",
+        "vref",
+        "cref",
+        "i_refin",
+        "i_refout",
+        "b1",
+        "o1",
+        "i_brail1",
+        "i_bout1",
+        "i_bin1",
+        "i_fb1",
+        "b2",
+        "o2",
+        "i_brail2",
+        "i_bout2",
+        "i_bin2",
+        "i_fb2",
+        "b3",
+        "o3",
+        "i_brail3",
+        "i_bout3",
+        "i_bin3",
+        "i_fb3",
+        "srcp",
+        "srcn"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 21622,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true,
+          "reference": true,
+          "o1": false,
+          "o2": false,
+          "o3": false,
+          "threshold": false
+        },
+        "errors_V": {
+          "r5": 4.995955446090501,
+          "r3": 3.927936080810157,
+          "vref": 0.0024886812598179375,
+          "o1": 1.9642251757776936,
+          "o2": 1.8102291646981985,
+          "o3": 1.9146913109594983,
+          "threshold": 0.10446214748619193
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/buffer_real_rails/solver.log": "06ada268de9eeedb5adab919e53d326bb6621a3f2620043fc0f29cdb537840b5",
+        "results/buffer_real_rails/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/buffer_real_rails/test.cir": "0509524e4ce38db6049572f13aa3ff3951b1894305653ac63b6ef2cd85514a4a",
+        "results/buffer_real_rails/wave.csv": "46f1ed9618654878c3f4538e00be301c4be02aee2b1ee0e258879bb1a0a6bda5"
+      }
+    },
+    {
+      "reference": true,
+      "buffers": true,
+      "ideal_rails": false,
+      "ramp": true,
+      "enable_cycle": false,
+      "load_step": false,
+      "finish_s": 0.002,
+      "step_s": 1e-07,
+      "id": "buffer_real_ramp",
+      "status": "fail",
+      "columns": [
+        "time",
+        "upstream",
+        "vin",
+        "en",
+        "r5",
+        "c5",
+        "r3",
+        "c3",
+        "i_up",
+        "i_reg5in",
+        "i_reg3in",
+        "i_reg5out",
+        "i_reg3out",
+        "i_load5",
+        "i_load3",
+        "vref",
+        "cref",
+        "i_refin",
+        "i_refout",
+        "b1",
+        "o1",
+        "i_brail1",
+        "i_bout1",
+        "i_bin1",
+        "i_fb1",
+        "b2",
+        "o2",
+        "i_brail2",
+        "i_bout2",
+        "i_bin2",
+        "i_fb2",
+        "b3",
+        "o3",
+        "i_brail3",
+        "i_bout3",
+        "i_bin3",
+        "i_fb3",
+        "srcp",
+        "srcn"
+      ],
+      "returncode": 0,
+      "observed_last_time_s": 0.002,
+      "rows": 21920,
+      "measurements": {
+        "checks": {
+          "rail5": false,
+          "rail3": false,
+          "headroom": true,
+          "reference": true,
+          "o1": false,
+          "o2": false,
+          "o3": false,
+          "threshold": false
+        },
+        "errors_V": {
+          "r5": 4.995059481742928,
+          "r3": 3.9279365792021728,
+          "vref": 0.002496582329586161,
+          "o1": 1.9642256789845698,
+          "o2": 1.8102296564846792,
+          "o3": 1.9146918021598356,
+          "threshold": 0.10446214795378753
+        },
+        "window_s": [
+          0.0017000000000000001,
+          0.0019
+        ],
+        "scope": "resistive_fixture_terminal_window_not_complete_supply_acceptance"
+      },
+      "files": {
+        "results/buffer_real_ramp/solver.log": "c5ae69c8b1c53b673d67328b463fde94c041b25050dbe816a49f0c190805c6f4",
+        "results/buffer_real_ramp/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/buffer_real_ramp/test.cir": "e0c61895fd13ca0118ada6778e27d25fba8559495b08a290d1986066feb1056b",
+        "results/buffer_real_ramp/wave.csv": "4ade081344ff53d7dd8875f6d52578de11986c0dd2e9ee650d28c28373af71a7"
+      }
+    }
+  ],
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-supply-layers-q6_yh1aa",
+  "original_files_sha256": {
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-linked-reference-rbzxf63z\\OPAx320-Q1.LIB": "a272838427e8988bdc662887238d2698d23feb0d39400a2c4c4a929f10c29460",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551.lib": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tlv3501.lib": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\REF5050.LIB": "ed2d2602cfee90ae26eb7bf3644a4bcb6ce71f3eba71a7d014c53b87cc20f3ab",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\tps7a20-adj_trans.lib": "154acfdd2199ac44259908b90b07d15bc7e535a45c8c51d1413894c900718b69",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+  },
+  "previous_evidence_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\declared_configurations.json": "916b15dfa640c120659838fd65f1beb8e0410bcf4e36cb13c54034ef19a72819",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\run_fine_steps.py": "aabbe60c6b7a2c4df98cc6175a975e81bdd2f58acf38a3ac1ae982f25d52ba37",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\summary.json": "2bd2cfc358b143646b6134658f5ddb94e0c7290dae881c4011d47e4cd085d572",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\test_fine_steps.py": "87fa2839623d4844d7d4f388e8890157f9f5831b402ac926fc8cfa1da5ad54b0",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\verification.json": "73365004add383ec33934b1cec24c93fb8082dfe3cda537797922e057eb7329e",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\verify_fine_steps.py": "9ccf491dcace81a9b54760aff97a2caa317544efb2a38e98935227a1a6d87c57",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_2ps\\solver.log": "28ba23598313ccc8255fc6e19d9c08d289fd32217f60b3107f4f10c2e52dc9c9",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_2ps\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_2ps\\test.cir": "42b53f9d28fb9176fb44162f4c30c2f7a3fa8ffe79666dffad66c38279072023",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_2ps\\wave.csv": "6b05e2c6a2c56750e83a571949b9d4400d13488a5413598414edca46a17587b7",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_output100pF_5ps\\solver.log": "45f862f447c8c2d8ce176e03984b274aa8cd07a32a39afaf80f5a9c3e81947fd",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_output100pF_5ps\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_output100pF_5ps\\test.cir": "78cca988ac642219cc65cf05bebbd1921408a41d11f860297c4604a27d5c2f5a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_1000pF_output100pF_5ps\\wave.csv": "b011b7edb26c8d02c30cb7ca5bdea80eb58d63b473184954fbb07a5f31383d44",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_100pF_2ps\\solver.log": "38a3a162ce4c8adc440e346f50d1e1b2b9ee49226ad2a7d8179ca3db63a6cf6e",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_100pF_2ps\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_100pF_2ps\\test.cir": "4f5aab42394394d172c4f83b5286ca7cc11d2c23a51993b4ad6411b09a6639ee",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_100pF_2ps\\wave.csv": "0af969ae9a6746cef9925e1289ca07cfa4cffb26e1e673a894be96beb6210d10",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_100pF_5ps\\solver.log": "dfde017d7a13b7716f970ffe87574c06a94576d28a129293abaac80ffdde342a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_100pF_5ps\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u8f93\u5165\u65f6\u95f4\u6b65\u590d\u6838\\results\\input_100pF_5ps\\test.cir": "87421355e546da5cd2193442b0b163d16a102cf416059d39bda5aab9d06a955e"
+  },
+  "fixture_not_full_conditioner": true,
+  "vendor_library_edits": false,
+  "regulator_quiescent_current_modeled": false,
+  "source_control_ideal": true,
+  "external_components_ideal": true,
+  "startup_safety_passed": false,
+  "full_G4_G5_passed": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "declared_configurations_sha256": "1eef429c6046f7eda913c5dea073f1a5929285e59a4d4a2150af4134e7adccb9",
+  "runner_sha256": "044f611b866c3cf8477aae9504b42244dab17ec8b7b326c024bd697f4c644020"
+}

@@ -1,0 +1,86 @@
+{
+  "data_integrity": "PASS",
+  "static_rates": {
+    "nominal": {
+      "passed": 32,
+      "total": 32
+    },
+    "common_270K": {
+      "passed": 32,
+      "total": 32
+    },
+    "common_330K": {
+      "passed": 32,
+      "total": 32
+    },
+    "supply_3V": {
+      "passed": 32,
+      "total": 32
+    },
+    "input_VTO_plus_6p5mV": {
+      "passed": 32,
+      "total": 32
+    },
+    "input_VTO_minus_6p5mV": {
+      "passed": 32,
+      "total": 32
+    },
+    "input_KP_plus_10_percent": {
+      "passed": 32,
+      "total": 32
+    },
+    "mirror_KP_plus_10_percent": {
+      "passed": 32,
+      "total": 32
+    },
+    "input_only_330K": {
+      "passed": 32,
+      "total": 32
+    }
+  },
+  "static_total_passed": 288,
+  "boundary_total_passed": 36,
+  "energy_checks": [
+    {
+      "scenario": "nominal_200ps",
+      "energy_J": 5.926027346954475e-10
+    },
+    {
+      "scenario": "nominal_100ps",
+      "energy_J": 5.925960227461588e-10
+    },
+    {
+      "scenario": "nominal_50ps",
+      "energy_J": 5.925769418513901e-10
+    },
+    {
+      "scenario": "heavy_load_20pF",
+      "energy_J": 3.017055856236546e-09
+    },
+    {
+      "scenario": "too_fast_5ns",
+      "energy_J": 1.5363866490656543e-09
+    },
+    {
+      "scenario": "input_only_330K",
+      "energy_J": 6.01738338677385e-10
+    }
+  ],
+  "time_step_comparisons": [
+    {
+      "coarse": "nominal_200ps",
+      "fine": "nominal_100ps",
+      "carry_waveform_max_difference_V": 0.002087171046944669,
+      "sum_waveform_max_difference_V": 0.0019038781180658049,
+      "supply_energy_relative_difference": 1.1326348863348447e-05
+    },
+    {
+      "coarse": "nominal_100ps",
+      "fine": "nominal_50ps",
+      "carry_waveform_max_difference_V": 0.0018499651715044862,
+      "sum_waveform_max_difference_V": 0.001798337858703647,
+      "supply_energy_relative_difference": 3.219986034066918e-05
+    }
+  ],
+  "note": "Integrity PASS includes accurately recorded logic failures; not hardware certification."
+}

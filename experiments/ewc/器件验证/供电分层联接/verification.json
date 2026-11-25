@@ -1,0 +1,980 @@
+{
+  "scope": "independent_supply_fixture_audit_not_system_acceptance",
+  "runs": [
+    {
+      "id": "dual_steady",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "headroom": true
+      },
+      "errors_V": {
+        "r5": 4.995009853713699,
+        "r3": 3.298911570871697
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.004990146286300667,
+          0.004990146286300667
+        ],
+        "r3": [
+          0.001088429128303072,
+          0.001088429128303072
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 3.637978807091713e-18,
+          "charge_relative_error": 5.144920808312276e-16,
+          "accounting_passed": true,
+          "initial_energy_J": 1.2450779979340147e-11,
+          "final_energy_J": 1.2450779979340183e-11,
+          "energy_change_J": 3.557538378468061e-26,
+          "charge_scale_C": 4.99014628630067e-09
+        },
+        "c3": {
+          "window_kcl_A": 1.8189894035458564e-18,
+          "charge_relative_error": 1.3148737299158e-15,
+          "accounting_passed": true,
+          "initial_energy_J": 5.923389836692948e-13,
+          "final_energy_J": 5.923389836692937e-13,
+          "energy_change_J": -1.164670302474663e-27,
+          "charge_scale_C": 1.088429128303074e-09
+        },
+        "cin": {
+          "window_kcl_A": 8.152305456187672e-15,
+          "charge_relative_error": 1.4734463201477265e-12,
+          "accounting_passed": true,
+          "initial_energy_J": 1.7999996841606057e-05,
+          "final_energy_J": 1.7999996841606047e-05,
+          "energy_change_J": -1.0658141036401503e-20,
+          "charge_scale_C": 5.999999473600986e-06
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 8.470329472543003e-22,
+        "rail5": 2.2580204307905138e-17,
+        "load3": 1.6940658945086007e-21,
+        "rail3": 1.637992313400366e-17,
+        "upstream_resistor": 2.131628037873711e-14
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": true,
+      "modeled_source_energy": {
+        "upstream_source_J": 1.2633576403692168e-07
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": null
+    },
+    {
+      "id": "dual_load_step",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "headroom": true
+      },
+      "errors_V": {
+        "r5": 4.997090255953315,
+        "r3": 3.2994532653587396
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.00290974404668508,
+          0.003112561763166313
+        ],
+        "r3": [
+          0.0005467346412600091,
+          0.0005522552377035642
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 2.4673783668139834e-14,
+          "charge_relative_error": 8.15983076980168e-08,
+          "accounting_passed": true,
+          "initial_energy_J": 1.2450779979309776e-11,
+          "final_energy_J": 4.018521973846145e-12,
+          "energy_change_J": -8.432258005463631e-12,
+          "charge_scale_C": 4.990146286294577e-09
+        },
+        "c3": {
+          "window_kcl_A": 8.758500867634104e-15,
+          "charge_relative_error": 2.444688273596312e-07,
+          "accounting_passed": true,
+          "initial_energy_J": 5.923389836689835e-13,
+          "final_energy_J": 1.488783285029757e-13,
+          "energy_change_J": -4.434606551660078e-13,
+          "charge_scale_C": 1.088429128302788e-09
+        },
+        "cin": {
+          "window_kcl_A": 5.94797429910544e-14,
+          "charge_relative_error": 7.356230062012431e-13,
+          "accounting_passed": true,
+          "initial_energy_J": 1.7999996841606057e-05,
+          "final_energy_J": 1.799999684079699e-05,
+          "energy_change_J": -8.090701442142744e-16,
+          "charge_scale_C": 5.999999473600986e-06
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 2.3036114696014555e-11,
+        "rail5": 5.005964718272915e-17,
+        "load3": 4.596368093907454e-11,
+        "rail3": 2.3075718582048904e-17,
+        "upstream_resistor": 2.486900083380119e-14
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": true,
+      "modeled_source_energy": {
+        "upstream_source_J": 1.2634694227146926e-07
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": null
+    },
+    {
+      "id": "dual_enable_cycle",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "headroom": true,
+        "off5": true,
+        "off3": true
+      },
+      "errors_V": {
+        "r5": 4.980370870183919,
+        "r3": 3.2988821626067426,
+        "off5": 1.459504263238524e-05,
+        "off3": 2.579889691923461e-06
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.01962912981608036,
+          0.02287544021470943
+        ],
+        "r3": [
+          0.001117837393257294,
+          0.001142354267396436
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 9.003657669144453e-14,
+          "charge_relative_error": 0.049574695990982534,
+          "accounting_passed": false,
+          "initial_energy_J": 1.9926954293769217e-20,
+          "final_energy_J": 1.662395466629593e-10,
+          "energy_change_J": 1.6623954664303234e-10,
+          "charge_scale_C": 2.6252339664673965e-07
+        },
+        "c3": {
+          "window_kcl_A": 7.536210765110663e-15,
+          "charge_relative_error": 0.05027400240481117,
+          "accounting_passed": false,
+          "initial_energy_J": 1.047002363680429e-20,
+          "final_energy_J": 6.162124829123282e-13,
+          "energy_change_J": 6.162124724423045e-13,
+          "charge_scale_C": 1.7346606622370087e-07
+        },
+        "cin": {
+          "window_kcl_A": 6.293141499287642e-14,
+          "charge_relative_error": 2.8558465953501325e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 1.799999999918522e-05,
+          "final_energy_J": 1.799999684561417e-05,
+          "energy_change_J": -3.153571050518167e-12,
+          "charge_scale_C": 5.9999999998642165e-06
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 1.6263032587282567e-19,
+        "rail5": 3.1858738737400305e-15,
+        "load3": 2.710505431213761e-19,
+        "rail3": 2.9453436217741213e-15,
+        "upstream_resistor": 2.4875934645507414e-14
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": false,
+      "modeled_source_energy": {
+        "upstream_source_J": 5.594915913304496e-06
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": null
+    },
+    {
+      "id": "dual_ramp",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "headroom": true
+      },
+      "errors_V": {
+        "r5": 4.967493613602401,
+        "r3": 3.298369466411789
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.03250638639759897,
+          0.03860986895384118
+        ],
+        "r3": [
+          0.001630533588211004,
+          0.002083470628184491
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 1.7057258112473245e-13,
+          "charge_relative_error": 0.02046713056708458,
+          "accounting_passed": false,
+          "initial_energy_J": 0.0,
+          "final_energy_J": 4.4648634926983666e-10,
+          "energy_change_J": 4.4648634926983666e-10,
+          "charge_scale_C": 1.628734720120654e-07
+        },
+        "c3": {
+          "window_kcl_A": 1.3997522987633962e-13,
+          "charge_relative_error": 0.020643564820014466,
+          "accounting_passed": false,
+          "initial_energy_J": 0.0,
+          "final_energy_J": 1.1078683014091581e-12,
+          "energy_change_J": 1.1078683014091581e-12,
+          "charge_scale_C": 1.076964876553646e-07
+        },
+        "cin": {
+          "window_kcl_A": 5.695964419474346e-14,
+          "charge_relative_error": 0.00010285268783850235,
+          "accounting_passed": true,
+          "initial_energy_J": 0.0,
+          "final_energy_J": 1.7999996851209287e-05,
+          "energy_change_J": 1.7999996851209287e-05,
+          "charge_scale_C": 6.000054355838802e-06
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 1.3552527156068805e-19,
+        "rail5": 2.5292268279741847e-15,
+        "load3": 2.168404344971009e-19,
+        "rail3": 2.1328967238221086e-15,
+        "upstream_resistor": 4.263256414560601e-14
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": false,
+      "modeled_source_energy": {
+        "upstream_source_J": 1.9902612372371043e-05
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": null
+    },
+    {
+      "id": "dual_reference",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "reference": true,
+        "headroom": true
+      },
+      "errors_V": {
+        "r5": 4.995009853738534,
+        "r3": 3.2989115708799033,
+        "vref": 0.0024079885954977343
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.004990146261466061,
+          0.004990146261466061
+        ],
+        "r3": [
+          0.001088429120096689,
+          0.001088429120096689
+        ],
+        "vref": [
+          5.002407988595492,
+          5.002407988595498
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 3.637978807091713e-18,
+          "charge_relative_error": 4.84248291617357e-15,
+          "accounting_passed": true,
+          "initial_energy_J": 1.2450779855411966e-11,
+          "final_energy_J": 1.2450779855411872e-11,
+          "energy_change_J": -9.486769009248164e-26,
+          "charge_scale_C": 4.990146261466084e-09
+        },
+        "c3": {
+          "window_kcl_A": 9.094947017729282e-19,
+          "charge_relative_error": 2.8349474700409578e-15,
+          "accounting_passed": true,
+          "initial_energy_J": 5.923389747372263e-13,
+          "final_energy_J": 5.923389747372276e-13,
+          "energy_change_J": 1.2705494208814505e-27,
+          "charge_scale_C": 1.088429120096691e-09
+        },
+        "cin": {
+          "window_kcl_A": 4.0174404247750315e-14,
+          "charge_relative_error": 8.759924592055143e-12,
+          "accounting_passed": true,
+          "initial_energy_J": 1.7999157908126938e-05,
+          "final_energy_J": 1.7999157908126934e-05,
+          "energy_change_J": -3.552713678800501e-21,
+          "charge_scale_C": 5.999859649712976e-06
+        },
+        "cref": {
+          "window_kcl_A": 1.7936145013663917e-14,
+          "charge_relative_error": 4.9980954296041225e-12,
+          "accounting_passed": true,
+          "initial_energy_J": 1.2512042842182032e-05,
+          "final_energy_J": 1.2512042842181952e-05,
+          "energy_change_J": -7.993605777301126e-20,
+          "charge_scale_C": 5.002407988595498e-06
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 1.6940658945086007e-21,
+        "rail5": 1.1890648513555868e-17,
+        "load3": 1.6940658945086007e-21,
+        "rail3": 2.215202915306809e-17,
+        "upstream_resistor": 2.131584839193401e-14,
+        "reference": 1.2303526253365504e-15
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": true,
+      "modeled_source_energy": {
+        "upstream_source_J": 3.3684068887857907e-05
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": null
+    },
+    {
+      "id": "dual_reference_ramp",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "reference": true,
+        "headroom": true
+      },
+      "errors_V": {
+        "r5": 4.963532073434204,
+        "r3": 3.2982905013295727,
+        "vref": 0.002407988595341415
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.03646792656579577,
+          0.04344990755626605
+        ],
+        "r3": [
+          0.001709498670427044,
+          0.002228229961531332
+        ],
+        "vref": [
+          5.002407988595221,
+          5.002407988595341
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 1.9482437446085785e-13,
+          "charge_relative_error": 0.0226663422551207,
+          "accounting_passed": false,
+          "initial_energy_J": 6.965650336656617e-31,
+          "final_energy_J": 5.599575567767583e-10,
+          "energy_change_J": 5.599575567767583e-10,
+          "charge_scale_C": 1.8515289288013968e-07
+        },
+        "c3": {
+          "window_kcl_A": 1.6014656396181183e-13,
+          "charge_relative_error": 0.02289265259552675,
+          "accounting_passed": false,
+          "initial_energy_J": 3.6598931575465317e-31,
+          "final_energy_J": 1.1962659393176298e-12,
+          "energy_change_J": 1.1962659393176298e-12,
+          "charge_scale_C": 1.223931668790685e-07
+        },
+        "cin": {
+          "window_kcl_A": 9.73000864601387e-14,
+          "charge_relative_error": 9.761260055705179e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 6.292065721922595e-16,
+          "final_energy_J": 1.7999157918823853e-05,
+          "energy_change_J": 1.7999157918194646e-05,
+          "charge_scale_C": 5.999964216015087e-06
+        },
+        "cref": {
+          "window_kcl_A": 2.681792921066517e-14,
+          "charge_relative_error": 2.2398428697190866e-06,
+          "accounting_passed": true,
+          "initial_energy_J": 1.5502325327244047e-21,
+          "final_energy_J": 1.251204284218139e-05,
+          "energy_change_J": 1.2512042842181388e-05,
+          "charge_scale_C": 5.035849356865874e-06
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 1.3552527156068805e-19,
+        "rail5": 2.7046778445366515e-15,
+        "load3": 2.168404344971009e-19,
+        "rail3": 2.141624551310617e-15,
+        "upstream_resistor": 3.907985046680551e-14,
+        "reference": 2.714842239903703e-15
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": false,
+      "modeled_source_energy": {
+        "upstream_source_J": 7.810518272619865e-05
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": null
+    },
+    {
+      "id": "buffer_ideal_control",
+      "waveform_complete": true,
+      "interface_passed": true,
+      "checks": {
+        "rail5": true,
+        "rail3": true,
+        "reference": true,
+        "o1": true,
+        "o2": true,
+        "o3": true,
+        "headroom": true,
+        "threshold": true
+      },
+      "errors_V": {
+        "r5": 0.0,
+        "r3": 0.0,
+        "vref": 0.0024933846436852036,
+        "o1": 0.0008483609264731129,
+        "o2": 0.000823704915097867,
+        "o3": 0.0008735895066880328,
+        "threshold": 4.988459634111542e-05
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          5.0,
+          5.0
+        ],
+        "r3": [
+          3.3,
+          3.3
+        ],
+        "vref": [
+          5.002493384643572,
+          5.002493384643685
+        ],
+        "o1": [
+          1.650848360926427,
+          1.650848360926473
+        ],
+        "o2": [
+          1.600823704910342,
+          1.600823704915098
+        ],
+        "o3": [
+          1.700873589501945,
+          1.700873589506688
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 4.9952880090131654e-12,
+          "charge_relative_error": 1.9966320864729097e-09,
+          "accounting_passed": true,
+          "initial_energy_J": 1.2499999999999999e-05,
+          "final_energy_J": 1.2499999999998752e-05,
+          "energy_change_J": -1.2470025012589757e-18,
+          "charge_scale_C": 4.9999999999999996e-06
+        },
+        "c3": {
+          "window_kcl_A": 3.2988672273859266e-12,
+          "charge_relative_error": 1.99705797631572e-09,
+          "accounting_passed": true,
+          "initial_energy_J": 5.4449999999999995e-06,
+          "final_energy_J": 5.444999999999456e-06,
+          "energy_change_J": -5.435651928564767e-19,
+          "charge_scale_C": 3.2999999999999997e-06
+        },
+        "cin": {
+          "window_kcl_A": 4.042165907547357e-14,
+          "charge_relative_error": 2.8531520188596655e-11,
+          "accounting_passed": true,
+          "initial_energy_J": 1.7999716186132716e-05,
+          "final_energy_J": 1.7999716186114904e-05,
+          "energy_change_J": -1.780975367182691e-17,
+          "charge_scale_C": 5.999952749833108e-06
+        },
+        "cref": {
+          "window_kcl_A": 5.028668340401055e-12,
+          "charge_relative_error": 1.8439928490015951e-09,
+          "accounting_passed": true,
+          "initial_energy_J": 1.251250955174497e-05,
+          "final_energy_J": 1.2512470031676729e-05,
+          "energy_change_J": -3.9520068241927217e-11,
+          "charge_scale_C": 5.002501284717938e-06
+        },
+        "bin1": {
+          "window_kcl_A": 1.573365669346738e-17,
+          "charge_relative_error": 1.892478973487019e-08,
+          "accounting_passed": true,
+          "initial_energy_J": 1.3626122793741218e-09,
+          "final_energy_J": 1.3626076846848269e-09,
+          "energy_change_J": -4.594689295034371e-15,
+          "charge_scale_C": 1.6508254613337742e-09
+        },
+        "bout1": {
+          "window_kcl_A": 5.645933567194339e-17,
+          "charge_relative_error": 3.820199687856907e-06,
+          "accounting_passed": true,
+          "initial_energy_J": 1.3626551691886377e-10,
+          "final_energy_J": 1.3626501553620022e-10,
+          "energy_change_J": -5.013826635424934e-16,
+          "charge_scale_C": 1.650860363442156e-10
+        },
+        "bin2": {
+          "window_kcl_A": 1.2268504000906289e-17,
+          "charge_relative_error": 8.793170904930155e-08,
+          "accounting_passed": true,
+          "initial_energy_J": 1.281280977404552e-09,
+          "final_energy_J": 1.281276661248186e-09,
+          "energy_change_J": -4.3161563660909514e-15,
+          "charge_scale_C": 1.6008004389532162e-09
+        },
+        "bout2": {
+          "window_kcl_A": 5.150646416041127e-17,
+          "charge_relative_error": 1.773987729746615e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 1.2813229732681043e-10,
+          "final_energy_J": 1.281318267109654e-10,
+          "energy_change_J": -4.70615845027389e-16,
+          "charge_scale_C": 1.60099371601792e-10
+        },
+        "bin3": {
+          "window_kcl_A": 1.1841599395490122e-17,
+          "charge_relative_error": 7.485981118897052e-08,
+          "accounting_passed": true,
+          "initial_energy_J": 1.4464460832066138e-09,
+          "final_energy_J": 1.446441201217016e-09,
+          "energy_change_J": -4.8819895979157486e-15,
+          "charge_scale_C": 1.7008504527079893e-09
+        },
+        "bout3": {
+          "window_kcl_A": 6.26250736601719e-17,
+          "charge_relative_error": 1.5104818418398149e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 1.446490814966577e-10,
+          "final_energy_J": 1.4464854837188689e-10,
+          "energy_change_J": -5.331247708184605e-16,
+          "charge_scale_C": 1.700902394397591e-10
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 1.0000680839006293e-14,
+        "rail5": 2.4531592035526018e-14,
+        "load3": 1.999962695453661e-14,
+        "rail3": 4.123611174744468e-14,
+        "upstream_resistor": 3.907985046680551e-14,
+        "reference": 3.508234284674283e-15
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": true,
+      "modeled_source_energy": {
+        "upstream_source_J": 1.1352551326359802e-05,
+        "ideal_rail5_source_J": 5.000000005025978e-05,
+        "ideal_rail3_source_J": 9.481895623739508e-05
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": {
+        "datasheet_url": "https://www.ti.com/lit/gpn/opa320-q1",
+        "datasheet_revision": "SLOS884B",
+        "pages": [
+          4,
+          5
+        ],
+        "checked_scope": "buffer_supply_and_input_pins_only_not_all_ratings",
+        "supply_min_V": 3.3,
+        "supply_max_V": 3.3,
+        "terminal_supply_min_V": 3.3,
+        "recommended_all_samples": true,
+        "recommended_terminal_window": true,
+        "checked_absolute_limits_all_samples": true,
+        "checked_absolute_limits_terminal_window": true,
+        "invalid_recommended_samples": 0,
+        "real_chip_failure_inferred": false
+      }
+    },
+    {
+      "id": "buffer_real_rails",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "reference": true,
+        "o1": false,
+        "o2": false,
+        "o3": false,
+        "headroom": true,
+        "threshold": false
+      },
+      "errors_V": {
+        "r5": 4.995955446090501,
+        "r3": 3.927936080810157,
+        "vref": 0.0024886812598179375,
+        "o1": 1.9642251757776936,
+        "o2": 1.8102291646981985,
+        "o3": 1.9146913109594983,
+        "threshold": 0.10446214748619193
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.004044553909499068,
+          0.004215334273893164
+        ],
+        "r3": [
+          -0.6279360808101572,
+          -0.6279360378671209
+        ],
+        "vref": [
+          5.002488681259786,
+          5.002488681259818
+        ],
+        "o1": [
+          -0.3142251757776937,
+          -0.3142251553529021
+        ],
+        "o2": [
+          -0.2102291646981985,
+          -0.2102291366919199
+        ],
+        "o3": [
+          -0.2146913109594983,
+          -0.2146912841781118
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 6.118134859885572e-16,
+          "charge_relative_error": 0.00023883381335236295,
+          "accounting_passed": true,
+          "initial_energy_J": 2.4351732439263463e-22,
+          "final_energy_J": 9.197428808322705e-12,
+          "energy_change_J": 9.197428808079188e-12,
+          "charge_scale_C": 4.288922663868563e-09
+        },
+        "c3": {
+          "window_kcl_A": 6.483772096998811e-13,
+          "charge_relative_error": 8.2211225623425e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 4.942002305874375e-09,
+          "final_energy_J": 1.9715182684008132e-07,
+          "energy_change_J": 1.9220982453420692e-07,
+          "charge_scale_C": 6.281859384830734e-07
+        },
+        "cin": {
+          "window_kcl_A": 8.433197969115475e-14,
+          "charge_relative_error": 1.693124067748938e-07,
+          "accounting_passed": true,
+          "initial_energy_J": 1.7991521161675353e-05,
+          "final_energy_J": 1.7999687451376686e-05,
+          "energy_change_J": 8.166289701332374e-09,
+          "charge_scale_C": 5.99996427787219e-06
+        },
+        "cref": {
+          "window_kcl_A": 5.002022987810051e-12,
+          "charge_relative_error": 3.42262073934146e-06,
+          "accounting_passed": true,
+          "initial_energy_J": 1.9149275140204386e-06,
+          "final_energy_J": 1.2512446503041232e-05,
+          "energy_change_J": 1.0597518989020793e-05,
+          "charge_scale_C": 5.037776769786641e-06
+        },
+        "bin1": {
+          "window_kcl_A": 2.511589811453318e-15,
+          "charge_relative_error": 5.715398325849204e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 3.657639993308378e-11,
+          "final_energy_J": 2.869042609715966e-11,
+          "energy_change_J": -7.885973835924117e-12,
+          "charge_scale_C": 2.946588602166655e-10
+        },
+        "bout1": {
+          "window_kcl_A": 9.593256538198694e-16,
+          "charge_relative_error": 0.009204733732039862,
+          "accounting_passed": true,
+          "initial_energy_J": 1.2560725358633364e-13,
+          "final_energy_J": 4.936872252965562e-12,
+          "energy_change_J": 4.811264999379228e-12,
+          "charge_scale_C": 3.143503450126623e-11
+        },
+        "bin2": {
+          "window_kcl_A": 2.529167992239314e-15,
+          "charge_relative_error": 4.9700174454485914e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 3.6474037939861516e-11,
+          "final_energy_J": 2.872526423706324e-11,
+          "energy_change_J": -7.748773702798278e-12,
+          "charge_scale_C": 2.93977000396373e-10
+        },
+        "bout2": {
+          "window_kcl_A": 1.3081160538774844e-15,
+          "charge_relative_error": 0.011237250332131183,
+          "accounting_passed": false,
+          "initial_energy_J": 1.2670959668624325e-13,
+          "final_energy_J": 2.209814346022178e-12,
+          "energy_change_J": 2.0831047493359345e-12,
+          "charge_scale_C": 2.123330726744006e-11
+        },
+        "bin3": {
+          "window_kcl_A": 2.627785337251667e-15,
+          "charge_relative_error": 5.3319359829463205e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 3.667559223890399e-11,
+          "final_energy_J": 2.8654153863796747e-11,
+          "energy_change_J": -8.021438375107244e-12,
+          "charge_scale_C": 2.953046586284316e-10
+        },
+        "bout3": {
+          "window_kcl_A": 1.1471145707986339e-15,
+          "charge_relative_error": 0.011123231690723923,
+          "accounting_passed": false,
+          "initial_energy_J": 1.2299941308442562e-13,
+          "final_energy_J": 2.304617229280426e-12,
+          "energy_change_J": 2.181617816196e-12,
+          "charge_scale_C": 2.148376970801954e-11
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 8.578749689791554e-18,
+        "rail5": 1.984176711822272e-14,
+        "load3": 3.808151710638086e-15,
+        "rail3": 3.3232860907617123e-11,
+        "upstream_resistor": 6.039613253960852e-14,
+        "reference": 2.852926228591457e-14
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": false,
+      "modeled_source_energy": {
+        "upstream_source_J": 3.1176663276066924e-05
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": {
+        "datasheet_url": "https://www.ti.com/lit/gpn/opa320-q1",
+        "datasheet_revision": "SLOS884B",
+        "pages": [
+          4,
+          5
+        ],
+        "checked_scope": "buffer_supply_and_input_pins_only_not_all_ratings",
+        "supply_min_V": -0.6281859384852134,
+        "supply_max_V": -0.04535828588849185,
+        "terminal_supply_min_V": -0.6279360808101572,
+        "recommended_all_samples": false,
+        "recommended_terminal_window": false,
+        "checked_absolute_limits_all_samples": false,
+        "checked_absolute_limits_terminal_window": false,
+        "invalid_recommended_samples": 21622,
+        "real_chip_failure_inferred": false
+      }
+    },
+    {
+      "id": "buffer_real_ramp",
+      "waveform_complete": true,
+      "interface_passed": false,
+      "checks": {
+        "rail5": false,
+        "rail3": false,
+        "reference": true,
+        "o1": false,
+        "o2": false,
+        "o3": false,
+        "headroom": true,
+        "threshold": false
+      },
+      "errors_V": {
+        "r5": 4.995059481742928,
+        "r3": 3.9279365792021728,
+        "vref": 0.002496582329586161,
+        "o1": 1.9642256789845698,
+        "o2": 1.8102296564846792,
+        "o3": 1.9146918021598356,
+        "threshold": 0.10446214795378753
+      },
+      "terminal_node_ranges_V": {
+        "r5": [
+          0.004940518257072298,
+          0.004948240109258958
+        ],
+        "r3": [
+          -0.6279365792021728,
+          -0.627936495679732
+        ],
+        "vref": [
+          5.002496582329552,
+          5.002496582329586
+        ],
+        "o1": [
+          -0.3142256789845699,
+          -0.3142256372185158
+        ],
+        "o2": [
+          -0.2102296564846791,
+          -0.2102296007516433
+        ],
+        "o3": [
+          -0.2146918021598356,
+          -0.2146917487054308
+        ]
+      },
+      "capacitors": {
+        "c5": {
+          "window_kcl_A": 8.836502675908874e-16,
+          "charge_relative_error": 8.337532176738506e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 6.977152348253795e-31,
+          "final_energy_J": 1.226049988134629e-11,
+          "energy_change_J": 1.226049988134629e-11,
+          "charge_scale_C": 6.405172739498464e-09
+        },
+        "c3": {
+          "window_kcl_A": 2.1895374402449142e-14,
+          "charge_relative_error": 0.00032666689988750125,
+          "accounting_passed": true,
+          "initial_energy_J": 1.7140249665638236e-07,
+          "final_energy_J": 1.9715210722114326e-07,
+          "energy_change_J": 2.5749610564760882e-08,
+          "charge_scale_C": 7.913034010659735e-07
+        },
+        "cin": {
+          "window_kcl_A": 1.1899596621955928e-13,
+          "charge_relative_error": 9.287029406977353e-05,
+          "accounting_passed": true,
+          "initial_energy_J": 6.302455478718602e-16,
+          "final_energy_J": 1.799968745193531e-05,
+          "energy_change_J": 1.7999687451305068e-05,
+          "charge_scale_C": 5.999964184875109e-06
+        },
+        "cref": {
+          "window_kcl_A": 1.810872163332533e-14,
+          "charge_relative_error": 2.045876641730933e-06,
+          "accounting_passed": true,
+          "initial_energy_J": 3.415959352520005e-10,
+          "final_energy_J": 1.2512486028109479e-05,
+          "energy_change_J": 1.2512144432174228e-05,
+          "charge_scale_C": 5.037761159396492e-06
+        },
+        "bin1": {
+          "window_kcl_A": 2.8461221063396738e-15,
+          "charge_relative_error": 0.00018220371053979305,
+          "accounting_passed": true,
+          "initial_energy_J": 2.5209133685923454e-11,
+          "final_energy_J": 2.8690527170104934e-11,
+          "energy_change_J": 3.481393484181479e-12,
+          "charge_scale_C": 3.912234187867974e-10
+        },
+        "bout1": {
+          "window_kcl_A": 9.40561520897806e-16,
+          "charge_relative_error": 0.036091091017368654,
+          "accounting_passed": false,
+          "initial_energy_J": 4.2930217283702796e-12,
+          "final_energy_J": 4.936887200551322e-12,
+          "energy_change_J": 6.438654721810427e-13,
+          "charge_scale_C": 3.959688895693978e-11
+        },
+        "bin2": {
+          "window_kcl_A": 2.261959164286142e-15,
+          "charge_relative_error": 0.00018126334741882301,
+          "accounting_passed": true,
+          "initial_energy_J": 2.5165378622754976e-11,
+          "final_energy_J": 2.872536536683696e-11,
+          "energy_change_J": 3.559986744081985e-12,
+          "charge_scale_C": 3.9126143617063085e-10
+        },
+        "bout2": {
+          "window_kcl_A": 6.595339922199626e-16,
+          "charge_relative_error": 0.03675327734450456,
+          "accounting_passed": false,
+          "initial_energy_J": 4.023025925412955e-12,
+          "final_energy_J": 2.2098239366277076e-12,
+          "energy_change_J": -1.8132019887852471e-12,
+          "charge_scale_C": 3.867610310204866e-11
+        },
+        "bin3": {
+          "window_kcl_A": 2.4520512464307514e-15,
+          "charge_relative_error": 0.00018122082497010688,
+          "accounting_passed": true,
+          "initial_energy_J": 2.5249989549424346e-11,
+          "final_energy_J": 2.865425487756923e-11,
+          "energy_change_J": 3.4042653281448867e-12,
+          "charge_scale_C": 3.9118272877159636e-10
+        },
+        "bout3": {
+          "window_kcl_A": 7.207236414785696e-16,
+          "charge_relative_error": 0.03675328763543899,
+          "accounting_passed": false,
+          "initial_energy_J": 4.023047486425667e-12,
+          "final_energy_J": 2.3046270395527258e-12,
+          "energy_change_J": -1.7184204468729418e-12,
+          "charge_scale_C": 3.8676090649693115e-11
+        }
+      },
+      "algebraic_max_residual_A": {
+        "load5": 1.6940658945086007e-21,
+        "rail5": 6.098213703757335e-17,
+        "load3": 8.673617379884035e-19,
+        "rail3": 1.6404089198118754e-10,
+        "upstream_resistor": 4.263256414560601e-14,
+        "reference": 3.9119098585449485e-15
+      },
+      "algebraic_passed": true,
+      "capacitor_accounting_passed": false,
+      "modeled_source_energy": {
+        "upstream_source_J": 5.9450464883074434e-05
+      },
+      "energy_scope": "individual_sources_not_summed; ideal_signal_sources_not_measured; no_full_power_claim",
+      "buffer_range": {
+        "datasheet_url": "https://www.ti.com/lit/gpn/opa320-q1",
+        "datasheet_revision": "SLOS884B",
+        "pages": [
+          4,
+          5
+        ],
+        "checked_scope": "buffer_supply_and_input_pins_only_not_all_ratings",
+        "supply_min_V": -0.7913034010719392,
+        "supply_max_V": -0.3181485036233266,
+        "terminal_supply_min_V": -0.6279365792021728,
+        "recommended_all_samples": false,
+        "recommended_terminal_window": false,
+        "checked_absolute_limits_all_samples": false,
+        "checked_absolute_limits_terminal_window": false,
+        "invalid_recommended_samples": 21920,
+        "real_chip_failure_inferred": false
+      }
+    }
+  ],
+  "evidence_integrity_passed": true,
+  "interface_pass_count": 1,
+  "full_G4_G5_passed": false,
+  "startup_safety_passed": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "limits": {
+    "window_kcl_A": 1e-06,
+    "charge_relative_error": 0.01,
+    "charge_normalization": "C_times_max_absolute_node_voltage"
+  },
+  "summary_sha256": "79b566aa520009592251be02ce8f4755386289a5c50b12f0004c55cc82668d40",
+  "verifier_sha256": "216ae2cca26e010f7b58c8b0b0de4616a6d10ff62f216854e287d1d9183a7b1c"
+}

@@ -1,0 +1,219 @@
+{
+  "data_integrity": "PASS",
+  "directed_transition_coverage": 64,
+  "static_rates": {
+    "nominal": {
+      "passed": 16,
+      "total": 16
+    },
+    "common_270K": {
+      "passed": 16,
+      "total": 16
+    },
+    "common_330K": {
+      "passed": 16,
+      "total": 16
+    },
+    "supply_3V": {
+      "passed": 16,
+      "total": 16
+    },
+    "input_VTO_plus_6p5mV": {
+      "passed": 16,
+      "total": 16
+    },
+    "input_VTO_minus_6p5mV": {
+      "passed": 16,
+      "total": 16
+    },
+    "input_KP_plus_10_percent": {
+      "passed": 16,
+      "total": 16
+    },
+    "mirror_KP_plus_10_percent": {
+      "passed": 16,
+      "total": 16
+    },
+    "input_only_330K": {
+      "passed": 16,
+      "total": 16
+    }
+  },
+  "static_passed": 144,
+  "observed_transient_results": [
+    {
+      "scenario": "nominal_200ps",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193500000003,
+      "max_observed_settling_ns": 13.29954999999979,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 47.57731112530533
+    },
+    {
+      "scenario": "nominal_100ps",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193500000003,
+      "max_observed_settling_ns": 13.306920000000055,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 47.5770738128565
+    },
+    {
+      "scenario": "nominal_50ps",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193500000003,
+      "max_observed_settling_ns": 13.305000000000078,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 47.57596490249886
+    },
+    {
+      "scenario": "nominal_gear_100ps",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193500000003,
+      "max_observed_settling_ns": 13.298199999999975,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 47.573103094793645
+    },
+    {
+      "scenario": "nominal_20ns",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9842753500000003,
+      "max_observed_settling_ns": 13.299642000000018,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 34.91618797201003
+    },
+    {
+      "scenario": "nominal_10ns",
+      "passed": 106,
+      "total": 130,
+      "minimum_late_voltage_margin_V": -2.3099999994307203,
+      "max_observed_settling_ns": 7.253166999999963,
+      "unchanged_expected_excursions": 18,
+      "energy_per_state_slot_pJ": 28.57461543840088
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193500000003,
+      "max_observed_settling_ns": 13.405049999999845,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 47.5255357956669
+    },
+    {
+      "scenario": "heavy_load_20pF",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.7554496300000002,
+      "max_observed_settling_ns": 26.697569999999967,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 167.58267240381113
+    },
+    {
+      "scenario": "heavy_load_20pF_20ns",
+      "passed": 106,
+      "total": 130,
+      "minimum_late_voltage_margin_V": -2.3099982883635795,
+      "max_observed_settling_ns": 13.398665999999979,
+      "unchanged_expected_excursions": 18,
+      "energy_per_state_slot_pJ": 153.50575802748995
+    },
+    {
+      "scenario": "input_only_330K",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193500000003,
+      "max_observed_settling_ns": 13.394579999999557,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 48.473687107565105
+    },
+    {
+      "scenario": "supply_3V",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.8942402600000006,
+      "max_observed_settling_ns": 17.587972000000043,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 40.59299207954029
+    },
+    {
+      "scenario": "input_skew_4ns",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193400000003,
+      "max_observed_settling_ns": 16.842209999999582,
+      "unchanged_expected_excursions": 9,
+      "energy_per_state_slot_pJ": 50.0865981249071
+    },
+    {
+      "scenario": "cancel_gain_plus_10_percent",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.9843193500000003,
+      "max_observed_settling_ns": 13.424206999999985,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 47.63044921705789
+    },
+    {
+      "scenario": "combined_stress",
+      "passed": 121,
+      "total": 130,
+      "minimum_late_voltage_margin_V": -0.6519428200000001,
+      "max_observed_settling_ns": 34.76660800000002,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 139.61595220149678
+    },
+    {
+      "scenario": "combined_stress_50ns",
+      "passed": 130,
+      "total": 130,
+      "minimum_late_voltage_margin_V": 0.6482111079999999,
+      "max_observed_settling_ns": 34.74475499999989,
+      "unchanged_expected_excursions": 6,
+      "energy_per_state_slot_pJ": 144.4313289221978
+    },
+    {
+      "scenario": "negative_control_no_cancel",
+      "passed": 106,
+      "total": 130,
+      "minimum_late_voltage_margin_V": -2.30431935,
+      "max_observed_settling_ns": 7.440570000000128,
+      "unchanged_expected_excursions": 15,
+      "energy_per_state_slot_pJ": 41.27138243183612
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "nominal_200ps",
+      "right": "nominal_100ps",
+      "energy_relative_difference": 4.98795806086691e-06,
+      "carry_max_difference_V": 0.002041927805218613,
+      "sum_max_difference_V": 0.003463604347993421,
+      "sum_input_max_difference_V": 0.00046617868974552223,
+      "cancel_max_difference_V": 0.0004485625946808458
+    },
+    {
+      "left": "nominal_100ps",
+      "right": "nominal_50ps",
+      "energy_relative_difference": 2.3308205307081284e-05,
+      "carry_max_difference_V": 0.003452215263022307,
+      "sum_max_difference_V": 0.007742138002115206,
+      "sum_input_max_difference_V": 0.0002695849998972655,
+      "cancel_max_difference_V": 0.0013662893695620681
+    },
+    {
+      "left": "nominal_100ps",
+      "right": "nominal_gear_100ps",
+      "energy_relative_difference": 8.34656098623685e-05,
+      "carry_max_difference_V": 0.004426242178804385,
+      "sum_max_difference_V": 0.012935170831423815,
+      "sum_input_max_difference_V": 0.0003176082699791749,
+      "cancel_max_difference_V": 0.001527051928800538
+    }
+  ],
+  "note": "PASS verifies measurements including failures; not zero-error hardware certification."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "probe_equivalence_10ps",
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    0
+  ],
+  "step_s": 1e-11,
+  "hold_s": 2e-07,
+  "ramp_s": 2e-09,
+  "duration_s": 1.8e-06,
+  "real_rails": false,
+  "solver_timeout_s": 600,
+  "row_chunk_size": 10000,
+  "reset_between_transitions": false,
+  "amplitude_gate_V": 0.001,
+  "plot_save_mode": "All declared external observables; full circuit integration",
+  "edge_time_difference_gate_s": 2e-11,
+  "source": "Actual C pin; independent input sources and passive raw summation",
+  "integration_method": "trap",
+  "integration_max_order": 2,
+  "original_failure_replaced": false,
+  "tolerances_relaxed": false,
+  "status": "failed_preserve_partial",
+  "returncode": 0,
+  "raw_wave": {
+    "path": "D:\\work\\trae_cn\\ewc-solver-cache\\ewc-trap64-9b8l71yp\\probe_equivalence_10ps\\wave.txt",
+    "sha256": "8552823969b93183124111eecec5b727a861e56dd4d58b1f92cc26c31873a494"
+  },
+  "chunks": [
+    {
+      "file": "vectors_00000.npz",
+      "sha256": "1637538b7729cb21d4a177d46c0ef9747872485d2b6692b88cd983cb3f0a03d3",
+      "rows": 8,
+      "first_time_s": 0.0,
+      "last_time_s": 2.9140625e-13
+    }
+  ],
+  "rows": 8,
+  "observed_last_time_s": 2.9140625e-13,
+  "time_strictly_monotonic": true,
+  "raw_header": "time                   v(a)                   v(b)                   v(cin)                 v(raw)                 v(carry)               v(sum)                 v(vref)                v(rail5)               v(rail3)               v(upstream)            v(cm)                  v(ip1)                 v(im1)                 v(op1)                 v(om1)                 v(cp1)                 v(cn1)                 v(sp1)                 v(sn1)                 v(dp1)                 v(dn1)                 v(ip2)                 v(im2)                 v(op2)                 v(om2)                 v(cp2)                 v(cn2)                 v(sp2)                 v(sn2)                 v(dp2)                 v(dn2)                 v(b1)                  v(cm)                  i(VBIN1)               i(VFB1)                i(VBOUT1)              i(VBUF1)               v(b2)                  v(bias2)               i(VBIN2)               i(VFB2)                i(VBOUT2)              i(VBUF2)               v(b3)                  v(bias3)               i(VBIN3)               i(VFB3)                i(VBOUT3)              i(VBUF3)               v(b4)                  v(bias4)               i(VBIN4)               i(VFB4)                i(VBOUT4)              i(VBUF4)               v(b5)                  v(bias5)               i(VBIN5)               i(VFB5)                i(VBOUT5)              i(VBUF5)               i(VUP)                 i(V5)                  i(V3)                  i(VREF)                i(VF1)                 i(VF2)                 i(VC1)                 i(VC2)                 i(VA)                  i(VB)                  i(VCI)                 i(VSP1)                i(VSN1)                i(VSP2)                i(VSN2)                i(VSC)                 i(VCFEED)              i(VCM1)                i(VCM2)                i(VROUT)               v(cref)",
+  "files_sha256": {
+    "solver_exit.json": "b3544712cddcf6f4d8a656f3d3c0d059a7070cc930721127703b92e9c8b2a1d5",
+    "solver_stderr.log": "e90fea9746dac279ce53e3695c0c655123cfe6dd27049aafd48c25700933b1a3",
+    "solver_stdout.log": "b5feee3fb87ce21361760da2b47d9b6a476df90c0c968006a5f46344a1d3670e",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "abc4394d34ba2f6148c4db892bdab2fb6aaf0d99d42b612a0a7a8abf361bafb7",
+    "vectors_00000.npz": "1637538b7729cb21d4a177d46c0ef9747872485d2b6692b88cd983cb3f0a03d3"
+  }
+}

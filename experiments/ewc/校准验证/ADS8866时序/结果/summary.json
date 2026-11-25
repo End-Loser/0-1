@@ -1,0 +1,19 @@
+{
+  "scenario_count": 12,
+  "nominal_accepted": 4,
+  "negative_rejected": 8,
+  "unittest_count": 23,
+  "tamper_rejected": 4,
+  "claims": {
+    "analog_precision_passed": false,
+    "real_ADC_SPICE_passed": false,
+    "RTL_passed": false,
+    "hardware_passed": false,
+    "system_1pct_passed": false,
+    "procurement": false
+  },
+  "continuous_8_slot_ps": 80000000,
+  "serial_8_slot_ps": 86505600,
+  "startup_acquisition_ps": 1200000,
+  "pause_budget_161_2us_validated": false
+}

@@ -1,0 +1,69 @@
+{
+  "scope": "Same input, separate processes, different wall-clock times",
+  "evidence_level": "A (independent-process replay of the in-house FIT solver)",
+  "limitation": "Numerical repeatability of the model on this machine only. No temperature, supply, fabrication or device-level claim.",
+  "grid": {
+    "shape": [
+      16,
+      10,
+      6
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ]
+  },
+  "cases": [
+    {
+      "case": "mode_011",
+      "kind": "mode",
+      "indices": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "mode_111",
+      "kind": "mode",
+      "indices": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "transient_800ns",
+      "kind": "transient",
+      "dt_s": 2e-12,
+      "steps": 400,
+      "seed": 541
+    }
+  ],
+  "plan": [
+    {
+      "replay": 1,
+      "requested_threads": 1
+    },
+    {
+      "replay": 2,
+      "requested_threads": 1
+    },
+    {
+      "replay": 3,
+      "requested_threads": 1
+    },
+    {
+      "replay": 4,
+      "requested_threads": 4
+    }
+  ],
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "numpy": "1.26.4",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "cpu_count": 16
+  }
+}

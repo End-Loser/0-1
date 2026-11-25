@@ -1,0 +1,25 @@
+{
+  "scenario": "input_only_330K",
+  "wave_scenario": "nominal",
+  "parameters": {
+    "input_temperature": 330
+  },
+  "slot_ns": 40,
+  "dt_ps": 100,
+  "supply_V": 3.3,
+  "capacitance_F": 1e-12,
+  "method": "trap",
+  "state_slots": 65,
+  "covered_directed_transitions": 64,
+  "decisions": 130,
+  "passed_decisions": 130,
+  "sample_passed_decisions": 130,
+  "unsettled_decisions": 0,
+  "max_observed_settling_s": 1.3394579999999557e-08,
+  "unchanged_expected_excursions": 6,
+  "duration_s": 2.6e-06,
+  "supply_energy_J": 3.1507896619917316e-09,
+  "mean_supply_power_W": 0.0012118421776891274,
+  "peak_supply_power_W": 0.04274127395999999,
+  "solver_log_mentions_warning": false
+}

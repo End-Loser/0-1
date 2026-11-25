@@ -1,0 +1,118 @@
+{
+  "case": "nominal_history80_119_seeded_history_80ns_200ps_trap",
+  "profile": "nominal",
+  "scope": "history80",
+  "tag": "119_seeded_history",
+  "errors": [
+    0.01,
+    0.01,
+    0.01,
+    -0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 80,
+  "sequence": "seeded_history",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "53ba1b08cb2882fa844e1216871ff3db58b66af272faa5696eb13d82799be663",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 116124,
+  "unique_points": 116124,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 192,
+  "decisions": 384,
+  "passed": 384,
+  "sample_passed": 384,
+  "minimum_late_margin_V": 0.9843193452899253,
+  "worst_slot": {
+    "slot": 46,
+    "state": "011",
+    "channel": "carry",
+    "margin_V": 0.9843193452899253
+  },
+  "first_bad": null,
+  "max_settling_ns": 13.41213906112427,
+  "unsettled": 0,
+  "energy_J": 1.4017605532889141e-08,
+  "power_W": 0.0009126045268808033,
+  "energy_per_slot_J": 7.300836215046428e-11,
+  "warning": false
+}

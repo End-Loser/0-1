@@ -1,0 +1,24 @@
+{
+  "scope": "Historical stage 72 document resolution only; not current-stage acceptance",
+  "stage_file": "stage_72_with_8us_full_state_startup.json",
+  "stage_sha256": "4b51464bc32c32804a3b393dc3adca22a8ce4a91011329eb85ace2483ada0afb",
+  "reason": "The current ledger and execution record were advanced after stage 72. Exact historical bytes were recovered in separate files by reversing only this turn's known document edits, and matched against the already sealed SHA-256 values.",
+  "documents": [
+    {
+      "original_path": "EWC全任务验收台账.md",
+      "historical_path": "openEMS验证/阶段复核封存/stage72_EWC全任务验收台账.md",
+      "sha256": "0bcd24361cf0d2e8ed6f1e7c52d0848b50df7a696b9f8068ad2dc3125066ed29"
+    },
+    {
+      "original_path": "EWC全目标持续执行记录.md",
+      "historical_path": "openEMS验证/阶段复核封存/stage72_EWC全目标持续执行记录.md",
+      "sha256": "50b92bee9015ea340bc8b8f02308fecc77c10a645e1d062c980a7cea642650f8"
+    }
+  ],
+  "original_stage_json_modified": false,
+  "current_documents_reverted": false,
+  "original_physical_evidence_modified": false,
+  "current_stage_checks_complete": false,
+  "full_system_gates_closed": 0,
+  "goal_complete": false
+}

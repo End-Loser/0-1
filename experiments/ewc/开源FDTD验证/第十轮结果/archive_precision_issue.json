@@ -1,0 +1,11 @@
+{
+  "case": "heavy_20pF_drift_crosscheck_all_triangular_40ns_50ps_trap",
+  "nonincreasing_count": 494,
+  "time_s": 1.56e-05,
+  "adjacent_time_s": 1.56e-05,
+  "cause": "Default wrdata nine-significant-digit timestamp rounding",
+  "fix": "numdgt=17, retain raw repeated timestamps for late-window checks; validate unique axis for interpolation",
+  "high_precision_same_time_count": 38,
+  "high_precision_output_group_span_V": 1.554312234475219e-14,
+  "high_precision_vector_group_span": 9.370137581425284e-11
+}

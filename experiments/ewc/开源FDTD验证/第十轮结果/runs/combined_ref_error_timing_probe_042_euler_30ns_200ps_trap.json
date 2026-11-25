@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_042_euler_30ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "042_euler",
+  "errors": [
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 30,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "627bcba2713694fd982b4d9240fdf0b2da9edb617065553373a08d8a7b6e3e0e",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.95e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.95e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.95e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.95e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.95e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.95e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.95e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 19122,
+  "unique_points": 19122,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 106,
+  "sample_passed": 106,
+  "minimum_late_margin_V": -2.0961424355193228,
+  "worst_slot": {
+    "slot": 37,
+    "state": "010",
+    "channel": "sum",
+    "margin_V": -2.0961424355193228
+  },
+  "first_bad": {
+    "slot": 6,
+    "state": "011",
+    "channel": "sum",
+    "sample_error6": -0.01,
+    "slot_start_ns": 180.00000000000003
+  },
+  "max_settling_ns": 18.036051652510867,
+  "unsettled": 24,
+  "energy_J": 8.74568250410556e-09,
+  "power_W": 0.0044849653867208,
+  "energy_per_slot_J": 1.34548961601624e-10,
+  "warning": false
+}

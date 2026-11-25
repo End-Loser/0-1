@@ -1,0 +1,41 @@
+{
+  "independent_verification_pass": true,
+  "snapshots_checked": 82,
+  "records": [
+    {
+      "dt_s": 5e-12,
+      "Q_decay": 35038.501280460674,
+      "midpoint_expected_Q": 35038.77016454139,
+      "zero_crossing_frequency_Hz": 2664482334.722404,
+      "energy_closure": 1.376454505930269e-12,
+      "electric_residual": 4.790332096376931e-14,
+      "magnetic_residual": 8.04449627344585e-14,
+      "all_node_charge_residual": 2.1794023468496924e-13,
+      "RL_residual": 3.5450992001371764e-11,
+      "wall_algebra_residual": 9.488631800245532e-12,
+      "snapshot_energy_closure": 8.133284547326987e-16
+    },
+    {
+      "dt_s": 2e-11,
+      "Q_decay": 35648.662339817776,
+      "midpoint_expected_Q": 35648.9361261914,
+      "zero_crossing_frequency_Hz": 2641514174.946641,
+      "energy_closure": 2.6542101849713617e-11,
+      "electric_residual": 3.485457676764864e-14,
+      "magnetic_residual": 3.1375460631261554e-15,
+      "all_node_charge_residual": 1.2565967804574057e-13,
+      "RL_residual": 1.5193053810039753e-11,
+      "wall_algebra_residual": 3.108679733163773e-11,
+      "snapshot_energy_closure": 1.1475617749496767e-15
+    }
+  ],
+  "summary_sha256": "c63526a3033f79e9b182f71b4ce7929630cfa86889d0e4906e82352fb9460380",
+  "verifier_sha256": "76b1ca5000af0418d75b0801688d53e42c28a12632ea61a901246818b4f0af06",
+  "test_output": "test_all_node_charge_orientation (__main__.CopperTests.test_all_node_charge_orientation) ... ok\ntest_box_edges_two_parallel_records (__main__.CopperTests.test_box_edges_two_parallel_records) ... ok\ntest_continuum_Q_independent_quadrature (__main__.CopperTests.test_continuum_Q_independent_quadrature) ... ok\ntest_copper_conductivity_scaling (__main__.CopperTests.test_copper_conductivity_scaling) ... ok\ntest_driven_power_and_branch_loss (__main__.CopperTests.test_driven_power_and_branch_loss) ... ok\ntest_each_surface_tangent_area (__main__.CopperTests.test_each_surface_tangent_area) ... ok\ntest_full_weights_and_records (__main__.CopperTests.test_full_weights_and_records) ... ok\ntest_invalid_admittance (__main__.CopperTests.test_invalid_admittance) ... ok\ntest_local_pole_known_response (__main__.CopperTests.test_local_pole_known_response) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.089s\n\nOK\n",
+  "array_helper_sha256": {
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "fine_spatial_transient_accuracy_passed": false,
+  "full_joint_simulation_passed": false
+}

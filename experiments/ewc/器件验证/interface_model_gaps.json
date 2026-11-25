@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-18",
+  "scope": "Candidate interface screening and model availability; not procurement or real-device transient acceptance",
+  "candidate_freeze": false,
+  "full_joint_acceptance": false,
+  "sources_manifest": "source_manifest.json",
+  "candidates": [
+    {
+      "id": "ADL5375-05",
+      "planning_ids": ["R04", "R06"],
+      "datasheet": {"source_id": "tx_pdf", "revision": "D", "pages": [3, 6, 9, 20]},
+      "interfaces": {
+        "supply_V": {"min": 4.75, "max": 5.25},
+        "rf_frequency_Hz": {"min": 400000000, "max": 6000000000},
+        "baseband": {
+          "pins": ["IBBP", "IBBN", "QBBP", "QBBN"],
+          "type": "two differential voltage inputs, externally biased, low source impedance",
+          "recommended_common_mode_V": 0.5,
+          "table_per_pin_voltage_V": {"min": 0, "max": 1},
+          "table_per_pin_voltage_note": "EC table Absolute Voltage Level, not a full linearity guarantee; stress table separately says 0 to 2 V",
+          "characterized_differential_Vpp": 1,
+          "characterized_per_pin_Vpp": 0.5,
+          "differential_impedance_typical_ohm": 60000
+        },
+        "lo": {
+          "characterization": "single-ended 0 dBm at 5 V and 25 C",
+          "table_drive_dBm": {"min": -6, "typ": 0, "max": 6},
+          "coupling": "AC coupling; differential LO is also described, topology must be explicit"
+        },
+        "rf_output": {"pin": "RFOUT", "type": "single-ended", "nominal_ohm": 50, "coupling": "AC required"},
+        "disable": {
+          "pin": "DSOP", "active": "low", "high_min_V": 2,
+          "low_max_V": 0.8, "turn_on_typical_s": 0.000000220,
+          "turn_off_typical_s": 0.000000100,
+          "note": "Disable envelope times are not normal modulation settling times"
+        }
+      },
+      "model_resources": [
+        {"source_id": "tx_page", "type": "ADIsimRF chain calculator", "status": "listed_not_transient_model"},
+        {"source_id": "tx_page", "type": "Gerber and CAD", "status": "layout_not_electrical_macro"}
+      ],
+      "transient_model_status": "blocked_no_readable_vendor_transient_model_obtained_in_examined_resources",
+      "gaps": [
+        "No explicit vendor transient macro or Touchstone download obtained from inspected official page",
+        "Actual DC-preserving differential driver and bias reference not selected",
+        "3 GHz amplitude phase noise compression and dynamic error budget not validated",
+        "LO distribution, matching, real RF port and power supply not validated",
+        "No substitution with a fabricated vendor macro"
+      ]
+    },
+    {
+      "id": "ADL5380",
+      "planning_ids": ["R11", "R12"],
+      "datasheet": {"source_id": "rx_pdf", "revision": "C", "pdf_revised": "11/2026", "pages": [3, 6, 22, 24, 25, 27]},
+      "interfaces": {
+        "supply_V": {"min": 4.75, "max": 5.25},
+        "rf_frequency_Hz": {"min": 400000000, "max": 6000000000},
+        "rf_lo": {
+          "rf_pins": ["RFIP", "RFIN"], "lo_pins": ["LOIP", "LOIN"],
+          "nominal_differential_ohm": 50,
+          "recommended": "differential through 1:1 balun, AC coupling",
+          "single_ended_ohm": 25,
+          "single_ended_note": "LO alternative needs matching and sacrifices optimal performance",
+          "lo_table_dBm": {"min": -6, "typ": 0, "max": 6}
+        },
+        "baseband": {
+          "pins": ["IHI", "ILO", "QHI", "QLO"],
+          "type": "two differential voltage outputs",
+          "series_per_pin_ohm": 25,
+          "differential_source_ohm": 50,
+          "differential_swing_Vpp": 2,
+          "swing_load_ohm": 200,
+          "characterization_load_ohm": 450,
+          "default_ADJ_open_common_mode_approx_V": 3.2,
+          "ADJ_1540ohm_to_supply_common_mode_approx_V": 2.5,
+          "ADJ_note": "Table 4 approximate values, changes gain/noise/linearity; not a guaranteed adjustment circuit",
+          "gain_condition": "6.9 dB typical at 900 MHz, 450 ohm differential load; not unity or 3 GHz guarantee"
+        }
+      },
+      "model_resources": [
+        {"source_id": "rx_page", "type": "ADIsimRF chain calculator", "status": "listed_not_transient_model"},
+        {"source_id": "rx_page", "type": "archive-obsolete board Gerber and schematic", "status": "not_electrical_macro"}
+      ],
+      "transient_model_status": "blocked_no_readable_vendor_transient_model_obtained_in_examined_resources",
+      "gaps": [
+        "No explicit vendor transient macro or Touchstone download obtained from inspected official page",
+        "DC-preserving scaling, differential threshold generation and lowpass topology not selected",
+        "Default 3.2 V output common mode plus per-pin swing incompatible with an unconditioned 3.3 V comparator path",
+        "Balun and transformer example interfaces cannot silently be reused for static signed arithmetic",
+        "3 GHz actual load gain noise IQ imbalance and overload recovery not validated"
+      ]
+    },
+    {
+      "id": "TLV3501",
+      "planning_ids": ["R13", "R14"],
+      "datasheet": {"source_id": "cmp_pdf", "revision": "SBOS321E", "pdf_revised": "APRIL 2016", "pages": [3, 5, 6, 11]},
+      "interfaces": {
+        "supply_V": {"min": 2.7, "max": 5.5},
+        "macro_pin_order": ["IN+", "IN-", "SHDN", "V+", "V-", "OUT"],
+        "common_mode": {
+          "table_lower_from_negative_rail_V": -0.2,
+          "table_upper_from_positive_rail_V": -0.2,
+          "other_sections_upper_from_positive_rail_V": 0.2,
+          "status": "internal_datasheet_inconsistency_use_conservative_table_for_screening",
+          "note": "EC table, overview/CMRR and macro differ; no silent correction"
+        },
+        "offset_max_abs_V": 0.0065,
+        "hysteresis_typical_V": 0.006,
+        "output": {
+          "type": "push-pull CMOS; high impedance while shutdown",
+          "rail_distance_max_V_at_1mA": 0.05,
+          "external_load_in_this_batch": "100 kohm to ground plus 1 or 20 pF, not +/-1 mA EC test"
+        },
+        "shutdown": {
+          "disable_threshold_from_positive_rail_V": -0.9,
+          "enable_threshold_from_positive_rail_V": -1.7,
+          "turn_on_typical_s": 0.000000100,
+          "turn_off_typical_s": 0.000000030,
+          "unused_connection": "negative supply"
+        },
+        "delay": {
+          "input_step_V": 0.1,
+          "20mV_overdrive": {"typ_25C_s": 0.0000000045, "max_25C_s": 0.0000000064, "max_full_temp_s": 0.000000007},
+          "5mV_overdrive": {"typ_25C_s": 0.0000000075, "max_25C_s": 0.000000010, "max_full_temp_s": 0.000000012},
+          "temperature_range_C": [-40, 125],
+          "footnote": "Low overdrive delay ensured by characterization and testing at 100 mV overdrive; not all production tested"
+        }
+      },
+      "model_resources": [
+        {"source_id": "cmp_pspice_zip", "type": "readable .lib", "status": "obtained_and_tested_unchanged_ngspice_ps"},
+        {"source_id": "cmp_tina_zip", "type": "binary TSM/TSC", "status": "obtained_format_only_not_exported"},
+        {"source_id": "tipd_zip", "type": "AC coupled reference TSC", "status": "obtained_format_only_not_static_arithmetic_path"}
+      ],
+      "transient_model_status": "limited_typical_macro_functional_tests_pass_not_real_device_acceptance",
+      "gaps": [
+        "Native ngspice syntax blocked; requires ngbehavior=ps compatibility mode",
+        "Fixed 4.5 ns internal delay does not reproduce low-overdrive typical 7.5 ns",
+        "Noise, temperature maximum delays, process spread and actual +/-1 mA output tests not covered",
+        "5 V CMOS output cannot be connected to 3.3 V digital logic without receiver-specific limits or level translation",
+        "Actual C-driven modulation, differential arithmetic thresholds and latch timing not validated"
+      ]
+    }
+  ]
+}

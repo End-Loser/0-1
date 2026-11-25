@@ -1,0 +1,18 @@
+{
+  "first_review_failure": "KeyError: 'capacitor_windows_passed'",
+  "actual_accounting_field": "capacitor_passed",
+  "second_review_failure": "KeyError: 'i_op1'",
+  "output_current_resolution": "Derive output current from exported node voltages, original 1000 ohm feedback, 22 ohm isolation and 1 pF feedback capacitance; no unexported i_op vector.",
+  "second_failed_review_snapshot": "review_before_output_current_column_fix.py",
+  "original_frozen_verifier": "verify_adl_offset_holdout.py",
+  "failed_wrapper_snapshot": "verifier_continuation_before_capacitor_contract_fix.py",
+  "corrected_independent_review": "verify_adl_offset_review.py",
+  "original_source_manifest_changed": false,
+  "original_frozen_sources_changed": false,
+  "waveforms_changed": false,
+  "amplitude_gate_V": 0.001,
+  "algebraic_KCL_gate_A": 1e-9,
+  "capacitor_window_gate_A": 1e-6,
+  "capacitor_charge_gate_relative": 0.01,
+  "full_system_gates_closed": 0
+}

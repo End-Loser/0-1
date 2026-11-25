@@ -1,0 +1,111 @@
+{
+  "independent_full_equations_passed": true,
+  "full_fields_checked": 42,
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "Q": [
+        16510.478285436184,
+        20415.16680933855
+      ],
+      "reference_Q": [
+        16164.645300826136,
+        20044.38250316811
+      ],
+      "Q_relative_error": [
+        0.02139440601226017,
+        0.018498165563934466
+      ],
+      "frequency_relative_error": [
+        0.003911904133973243,
+        0.0039061347635461763
+      ],
+      "three_five_Q_difference": [
+        1.3919158048381064e-09,
+        1.384712122742826e-09
+      ],
+      "modal_energy_Q": [
+        16510.71770679908,
+        20415.285483449003
+      ],
+      "inverse_matrix_fit_residual": 3.486670781230399e-05,
+      "max_pole_null_residual": 5.15200532969675e-13,
+      "modal_energy_vs_pole_Q_difference": [
+        1.4501176692771622e-05,
+        5.813036531243654e-06
+      ],
+      "selected_doublet_frequency_Q_passed": false,
+      "modal_energy_pole_consistency_passed": true,
+      "full_fields_checked": 21,
+      "max_electric_residual": 6.246239179458022e-15,
+      "max_magnetic_residual": 1.6931089945940572e-16,
+      "max_charge_residual": 3.958110869835273e-14,
+      "max_power_closure": 4.64850380410553e-13,
+      "max_reciprocity": 9.208628550256534e-13,
+      "max_mixed_full_field_difference": 1.6789344780902162e-14
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "Q": [
+        16307.539590829478,
+        20198.231495099328
+      ],
+      "reference_Q": [
+        16164.645300826136,
+        20044.38250316811
+      ],
+      "Q_relative_error": [
+        0.008839927344155063,
+        0.007675416885848163
+      ],
+      "frequency_relative_error": [
+        0.0016438385005017597,
+        0.0016379423557496553
+      ],
+      "three_five_Q_difference": [
+        1.4119716507110525e-09,
+        1.4433542139258293e-09
+      ],
+      "modal_energy_Q": [
+        16307.785289125542,
+        20198.356879118775
+      ],
+      "inverse_matrix_fit_residual": 3.483340655860636e-05,
+      "max_pole_null_residual": 8.856246838703651e-13,
+      "modal_energy_vs_pole_Q_difference": [
+        1.5066546041220263e-05,
+        6.2076731559557174e-06
+      ],
+      "selected_doublet_frequency_Q_passed": true,
+      "modal_energy_pole_consistency_passed": true,
+      "full_fields_checked": 21,
+      "max_electric_residual": 1.0117922938050659e-14,
+      "max_magnetic_residual": 2.2306100308440797e-16,
+      "max_charge_residual": 9.043927684722847e-14,
+      "max_power_closure": 5.32018873400375e-13,
+      "max_reciprocity": 1.0319804822841388e-12,
+      "max_mixed_full_field_difference": 7.577007429059938e-14
+    }
+  ],
+  "finest_doublet_frequency_model_passed": true,
+  "doublet_long_transient_passed": false,
+  "arbitrary_modes_passed": false,
+  "general_boundaries_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0,
+  "summary_sha256": "2bffbf59e026a0633c4c74dd90f3953fdfdbe3d5648840201a2871ea6e2105a3",
+  "verifier_sha256": "beb2da57b6a09d4c71333bc3c61066180eacb256dc975be1e59997fefceedb59",
+  "helper_sha256": {
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  }
+}

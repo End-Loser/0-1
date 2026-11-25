@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_051_euler_30ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "051_euler",
+  "errors": [
+    -0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 30,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "4c758c9521d07bb2ec6b484954d6b9fca4732a34e600ae3bcc42920bbf8f0cc9",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.95e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.95e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.95e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.95e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.95e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.95e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.95e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 19167,
+  "unique_points": 19167,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 106,
+  "sample_passed": 106,
+  "minimum_late_margin_V": -2.097034587176588,
+  "worst_slot": {
+    "slot": 37,
+    "state": "010",
+    "channel": "sum",
+    "margin_V": -2.097034587176588
+  },
+  "first_bad": {
+    "slot": 6,
+    "state": "011",
+    "channel": "sum",
+    "sample_error6": 0.01,
+    "slot_start_ns": 180.00000000000003
+  },
+  "max_settling_ns": 17.41345670866809,
+  "unsettled": 24,
+  "energy_J": 8.736865160323456e-09,
+  "power_W": 0.004480443671960746,
+  "energy_per_slot_J": 1.344133101588224e-10,
+  "warning": false
+}

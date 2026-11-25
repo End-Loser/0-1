@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "-B",
+    "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\ADS8866时序\\oracle.py",
+    "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\ADS8866时序\\结果"
+  ],
+  "returncode": 0,
+  "stdout": "{\"verified\": true, \"scenarios\": 12, \"trace_events_checked\": 2432, \"hardware_passed\": false}\n",
+  "stderr": ""
+}

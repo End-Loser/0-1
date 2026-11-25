@@ -1,0 +1,146 @@
+{
+  "case": "supply_3V_drift_crosscheck_trigger_positive_25ns_50ps_trap",
+  "profile": "supply_3V",
+  "scope": "drift_crosscheck",
+  "tag": "trigger_positive",
+  "errors": [
+    0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01
+  ],
+  "period_ns": 25,
+  "sequence": "triples",
+  "mode": "trigger_positive",
+  "dt_ps": 50,
+  "method": "trap",
+  "fingerprint": "fc4d460c8cb81b68941f799c38940cef931d3ada9589510f3f0229085789f530",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2450000000000001e-05,
+        0.01
+      ],
+      [
+        1.285e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2450000000000001e-05,
+        0.01
+      ],
+      [
+        1.285e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2450000000000001e-05,
+        0.01
+      ],
+      [
+        1.285e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2450000000000001e-05,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2450000000000001e-05,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2450000000000001e-05,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.005
+      ],
+      [
+        1.2450000000000001e-05,
+        0.009924499999999892
+      ],
+      [
+        1.285e-05,
+        0.009924499999999892
+      ]
+    ]
+  ],
+  "raw_points": 296473,
+  "unique_points": 296473,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 514,
+  "decisions": 1028,
+  "passed": 1028,
+  "sample_passed": 1028,
+  "minimum_late_margin_V": 0.8941273896384634,
+  "worst_slot": {
+    "slot": 150,
+    "state": "001",
+    "channel": "sum",
+    "margin_V": 0.8941273896384634
+  },
+  "first_bad": null,
+  "max_settling_ns": 17.758947392719534,
+  "unsettled": 0,
+  "energy_J": 1.72685093437414e-08,
+  "power_W": 0.0013438528672172296,
+  "energy_per_slot_J": 3.359632168043074e-11,
+  "warning": false
+}

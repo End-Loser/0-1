@@ -1,0 +1,79 @@
+{
+  "method": "full_node dual charge from the finite six-face PEC FIT operator",
+  "charge_definition": "q_all = -full_gradient.T @ lift(m*e); equals the all-node discrete divergence of m*e",
+  "wall_definition": "PEC wall face interior: one node coordinate on a mesh boundary, the other two strictly interior",
+  "reference": "closed-form truncated midpoint sum of the analytic sin/cos mode ansatz",
+  "lengths_m": [
+    0.16,
+    0.1,
+    0.06
+  ],
+  "modes": [
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "main_quantitative_grid": [
+    36,
+    23,
+    14
+  ],
+  "cross_check_grid": [
+    24,
+    15,
+    9
+  ],
+  "grids": [
+    {
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ]
+    },
+    {
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ]
+    }
+  ],
+  "wall_keys": [
+    "0lo",
+    "0hi",
+    "1lo",
+    "1hi",
+    "2lo",
+    "2hi"
+  ]
+}

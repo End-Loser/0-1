@@ -1,0 +1,54 @@
+{
+  "evidence_audit_pass": true,
+  "verified_case_count": 17,
+  "batches": [
+    {
+      "batch": "主矩阵",
+      "case_count": 9,
+      "independent_DFT_max_complex_difference": 8.476491167231747e-12,
+      "transmission_gate": true,
+      "full_port_gate": false
+    },
+    {
+      "batch": "时间复核",
+      "case_count": 3,
+      "independent_DFT_max_complex_difference": 8.472686471676209e-12,
+      "transmission_gate": true,
+      "full_port_gate": false
+    },
+    {
+      "batch": "细网格复核",
+      "case_count": 3,
+      "independent_DFT_max_complex_difference": 8.62312401823668e-12,
+      "transmission_gate": true,
+      "full_port_gate": false
+    },
+    {
+      "batch": "附加细网格",
+      "case_count": 2,
+      "independent_DFT_max_complex_difference": 4.715340832331765e-12,
+      "transmission_gate": true,
+      "full_port_gate": false
+    }
+  ],
+  "time_window_checks": [
+    {
+      "load_ohm": 25,
+      "reflection_max_change": 4.797822115143658e-06,
+      "transmission_max_change": 1.6359740568529984e-06
+    },
+    {
+      "load_ohm": 50,
+      "reflection_max_change": 1.287751739619624e-06,
+      "transmission_max_change": 6.373525906239718e-07
+    },
+    {
+      "load_ohm": 100,
+      "reflection_max_change": 6.170351210180257e-07,
+      "transmission_max_change": 6.16883958370804e-07
+    }
+  ],
+  "scope": "hashes, independent DFT and analytic circuit reference only",
+  "DFT_method": "rectangular summation with explicit half-endpoint correction",
+  "not_claimed": "independent FDTD, copper loss, full physical port or chip validation"
+}

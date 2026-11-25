@@ -1,0 +1,28 @@
+{
+  "scope": "public web text follow-up, not material measurement or raw HTTP evidence",
+  "checked_date": "2026-11-18",
+  "retrieval": "WebFetch converted Markdown copied without editing; original HTML bytes, response status and revision not captured",
+  "existing_pdf_downloads_repeated": false,
+  "bom_changed": false,
+  "sources": [
+    {
+      "id": "M04",
+      "url": "https://tools.rogerscorp.com/acs/properties/laminates/index.aspx",
+      "snapshot": "laminate_tool_webfetch.txt",
+      "snapshot_sha256": "50127dc85864e5de1989e7bdd9ec721f09230beeddbdf14e7c0e546728b3c4e7",
+      "evidence_type": "converted_web_text",
+      "role": "5880 values and generic test-method caveats; no batch-specific 3 GHz evidence"
+    },
+    {
+      "id": "M05",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5880lz-laminates",
+      "snapshot": "5880lz_webfetch.txt",
+      "snapshot_sha256": "ada2ba04b6aedbd5086ae11a8be5036705d4d8767293b6879e2d7b33aaba23c4",
+      "evidence_type": "converted_web_text",
+      "role": "different product, not admissible substitution for RT/duroid 5880"
+    }
+  ],
+  "target_5880_3GHz_batch_evidence_obtained": false,
+  "causal_material_model_obtained": false,
+  "G2_closed": false
+}

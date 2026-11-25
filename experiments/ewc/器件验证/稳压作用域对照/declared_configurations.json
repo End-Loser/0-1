@@ -1,0 +1,56 @@
+[
+  {
+    "id": "original_single_control",
+    "baseline": true,
+    "finish_s": 0.01,
+    "target_V": 3.3
+  },
+  {
+    "id": "direct_5Vin_3.3Vout",
+    "baseline": false,
+    "scope": "direct",
+    "vin_V": 5,
+    "target_V": 3.3,
+    "finish_s": 0.002
+  },
+  {
+    "id": "direct_6Vin_3.3Vout",
+    "baseline": false,
+    "scope": "direct",
+    "vin_V": 6,
+    "target_V": 3.3,
+    "finish_s": 0.002
+  },
+  {
+    "id": "direct_6Vin_5Vout",
+    "baseline": false,
+    "scope": "direct",
+    "vin_V": 6,
+    "target_V": 5,
+    "finish_s": 0.002
+  },
+  {
+    "id": "scoped_5Vin_3.3Vout",
+    "baseline": false,
+    "scope": "scoped",
+    "vin_V": 5,
+    "target_V": 3.3,
+    "finish_s": 0.002
+  },
+  {
+    "id": "scoped_6Vin_3.3Vout",
+    "baseline": false,
+    "scope": "scoped",
+    "vin_V": 6,
+    "target_V": 3.3,
+    "finish_s": 0.002
+  },
+  {
+    "id": "scoped_6Vin_5Vout",
+    "baseline": false,
+    "scope": "scoped",
+    "vin_V": 6,
+    "target_V": 5,
+    "finish_s": 0.002
+  }
+]

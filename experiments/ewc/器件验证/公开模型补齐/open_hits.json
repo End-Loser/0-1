@@ -1,0 +1,36 @@
+{
+  "scope": "sampled_open_repository_availability_not_global_absence",
+  "hits": [
+    {
+      "repository": "loxodes/vna",
+      "commit": "35c49decfc713c3bc4ff1b8cac6d3eacd19f8c9c",
+      "path": "lib/adl5380.lib",
+      "returncode": 0,
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-open-hits-n7ho_rzg\\adl5380.lib",
+      "sha256": "42c3aa80aeea6748de920ca73e33e6877e2442dd50aab3dfe5f877e595ba2410",
+      "kicad_symbol_library": true,
+      "spice_subcircuits": [],
+      "dynamic_model_accepted": false,
+      "classification": "schematic symbol, not dynamic model"
+    },
+    {
+      "repository": "natsfr/kicad-components",
+      "commit": "da5d4b7a4f595b832451928a5e708fe55cf40cc7",
+      "path": "Transceiver/Mixer/AD/adl5375.lib",
+      "returncode": 0,
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-open-hits-n7ho_rzg\\adl5375.lib",
+      "sha256": "9a8e9de28fdcc467a86b24426126827d34bfc384b09a29f47972cbd8d41b6622",
+      "kicad_symbol_library": true,
+      "spice_subcircuits": [],
+      "dynamic_model_accepted": false,
+      "classification": "schematic symbol, not dynamic model"
+    }
+  ],
+  "repository_listing_returncode": 0,
+  "repository_listing_cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-open-hits-n7ho_rzg\\official_repository_root.txt",
+  "repository_listing_sha256": "1d2043906ccf6af8deadb036f71af1701a066d898382f574902f8bee9322b548",
+  "github_requests": 3,
+  "dynamic_RF_models_accepted": 0,
+  "authorization_needed_for_unprovided_models": true,
+  "collector_sha256": "e5a70c5cd1a92a901b1ce4e02e3a7b279a799a35721eef0733017f2f64b5edc1"
+}

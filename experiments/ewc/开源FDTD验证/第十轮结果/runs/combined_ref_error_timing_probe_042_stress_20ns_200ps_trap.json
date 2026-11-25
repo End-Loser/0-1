@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_042_stress_20ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "042_stress",
+  "errors": [
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 20,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "7b6cd7ea1d553880c872b43d8915bda60c143a2d4e71749bb72cc81ac9078376",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 56918,
+  "unique_points": 56918,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 364,
+  "sample_passed": 445,
+  "minimum_late_margin_V": -2.0999999994226677,
+  "worst_slot": {
+    "slot": 224,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.0999999994226677
+  },
+  "first_bad": {
+    "slot": 2,
+    "state": "000",
+    "channel": "carry",
+    "sample_error6": -0.01,
+    "slot_start_ns": 40.0
+  },
+  "max_settling_ns": 17.320122687968173,
+  "unsettled": 67,
+  "energy_J": 3.182671099201234e-08,
+  "power_W": 0.00621615449062741,
+  "energy_per_slot_J": 1.243230898125482e-10,
+  "warning": false
+}

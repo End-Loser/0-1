@@ -1,0 +1,33 @@
+{
+  "repository": "imr/ngspice",
+  "release": "ngspice-47",
+  "commit": "a80f6e3e95d51534905b1f23410a951802666656",
+  "files": [
+    {
+      "path": "src/xspice/icm/xtradev/pswitch/cfunc.mod",
+      "local": "original/cfunc.mod",
+      "commit": "a80f6e3e95d51534905b1f23410a951802666656",
+      "git_blob_sha": "3b8d0b6a38cc1e79b0be31c949eff47ad792d7ed",
+      "sha256": "83c2f7c80125348f59b8bd37c51561bb37fcd6713630c466e47fc95196077d08",
+      "source_url": "https://github.com/imr/ngspice/blob/a80f6e3e95d51534905b1f23410a951802666656/src/xspice/icm/xtradev/pswitch/cfunc.mod"
+    },
+    {
+      "path": "src/xspice/icm/xtradev/pswitch/ifspec.ifs",
+      "local": "original/ifspec.ifs",
+      "commit": "a80f6e3e95d51534905b1f23410a951802666656",
+      "git_blob_sha": "bf66557a9a4e6f352dd002bf858ee26b5ccef938",
+      "sha256": "782aa0648f3b283fc991e15239b4d09f3411b791e4fe37d62d901d7b3ffa46c0",
+      "source_url": "https://github.com/imr/ngspice/blob/a80f6e3e95d51534905b1f23410a951802666656/src/xspice/icm/xtradev/pswitch/ifspec.ifs"
+    },
+    {
+      "path": "COPYING",
+      "local": "original/COPYING",
+      "commit": "a80f6e3e95d51534905b1f23410a951802666656",
+      "git_blob_sha": "6e04a67d8ae87c761c75950c684888740f8630fd",
+      "sha256": "6d939001e899ede403277fb37124c2af6f1cf92926465cd8f4bf59859e06f579",
+      "source_url": "https://github.com/imr/ngspice/blob/a80f6e3e95d51534905b1f23410a951802666656/COPYING"
+    }
+  ],
+  "toolchain_installed": false,
+  "vendor_models_changed": false
+}

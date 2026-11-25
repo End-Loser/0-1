@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-18",
+  "initial_run": {
+    "command": "python -B run_all.py",
+    "returncode": 1,
+    "stage": "before unittest and before publication",
+    "error": "generator/model mismatch: startup_single_max",
+    "follow_up": "model SCLK_frequency and independent oracle SCLK_max_frequency incorrectly rejected nominal 20MHz"
+  },
+  "root_cause": "For f=1e12/period_ps <=66.6e6, period_ps*66.6e6 must be >=1e12, not <=1e12. Initially both validators repeated the same wrong multiplication inequality.",
+  "fix": "Model uses corrected integer multiplication; oracle now uses independent exact Fraction frequency division.",
+  "unchanged": ["official datasheet constants", "nominal/negative scene inputs", "acceptance expectations", "hardware false labels"],
+  "note": "This was not a completed 23-test run or a silicon failure; initial failure retained instead of counted as passed."
+}

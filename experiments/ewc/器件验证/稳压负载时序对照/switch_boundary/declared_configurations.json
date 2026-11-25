@@ -1,0 +1,22 @@
+[
+  {
+    "id": "negative",
+    "control_V": -0.001
+  },
+  {
+    "id": "zero",
+    "control_V": 0
+  },
+  {
+    "id": "positive_near_zero",
+    "control_V": 1e-09
+  },
+  {
+    "id": "on_threshold",
+    "control_V": 0.001
+  },
+  {
+    "id": "above_threshold",
+    "control_V": 0.002
+  }
+]

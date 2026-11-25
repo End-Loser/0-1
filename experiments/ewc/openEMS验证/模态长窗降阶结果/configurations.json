@@ -1,0 +1,35 @@
+{
+  "dt_s": 2e-12,
+  "duration_s": 8e-06,
+  "steps": 4000000,
+  "sample_every": 1000,
+  "windows_s": [
+    [
+      1e-06,
+      5e-06
+    ],
+    [
+      1e-06,
+      8e-06
+    ]
+  ],
+  "shapes": [
+    [
+      24,
+      15,
+      9
+    ],
+    [
+      36,
+      23,
+      14
+    ]
+  ],
+  "lengths_m": [
+    0.16,
+    0.1,
+    0.06
+  ],
+  "method": "closed-form exponential sampling of measured complex poles",
+  "initial_amplitude": "equal 1/sqrt(2) coherent two-mode, idealised mixed drive"
+}

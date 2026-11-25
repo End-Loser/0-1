@@ -1,0 +1,48 @@
+{
+  "partial_mode": true,
+  "cases": [
+    {
+      "id": "probe_equivalence_10ps",
+      "status": "not_archived",
+      "complete": false,
+      "coverage64": false,
+      "local_passed": false
+    },
+    {
+      "id": "continuous64_10ps",
+      "status": "not_archived",
+      "complete": false,
+      "coverage64": false,
+      "local_passed": false
+    },
+    {
+      "id": "continuous64_5ps",
+      "status": "not_archived",
+      "complete": false,
+      "coverage64": false,
+      "local_passed": false
+    }
+  ],
+  "evidence_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\C\u8f93\u51fa64\u8df3\u8f6c\u4e0e\u7535\u6d41\u89c2\u6d4b_D\u76d8\u7f13\u5b58\\declared_configurations.json": "165c0f26dde1be7af3bbe0cac684f7b7b001b9dd83eb8061cc93d6e3e1f0b3a0",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\C\u8f93\u51fa64\u8df3\u8f6c\u4e0e\u7535\u6d41\u89c2\u6d4b_D\u76d8\u7f13\u5b58\\running_source.json": "c879de0146d85e84d061c777ce09e04ca6a550c95f51d7e7782a1be2be8babd8"
+  },
+  "verifier_sha256": "b71c8d5dcdc4cfe28ab4d40cbe9aed7686fb1b843c76ead0b895870845c1a608",
+  "all_cases_archived": false,
+  "specified_64_transition_windows_passed": false,
+  "time_pair": {
+    "complete": false,
+    "passed": false
+  },
+  "probe_equivalence": {
+    "complete": false,
+    "passed": false
+  },
+  "time_pair_passed": false,
+  "probe_equivalence_passed": false,
+  "actual_RF_feedback": false,
+  "real_rails_passed": false,
+  "full_power_passed": false,
+  "full_system_gates_closed": 0,
+  "goal_complete": false
+}

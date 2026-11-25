@@ -1,0 +1,19 @@
+{
+  "algorithm": "SHA-256",
+  "sha256": {
+    "ADS8866数据手册时序验证报告.md": "7f68a409bd41064627f841ff52dd425ff0ceef020e0abd26c21158fea309f087",
+    "model.py": "e3fbdf990aab781611802e955e3dd871fe8495463cbc01dd973a3a65ae46c50f",
+    "oracle.py": "1c2bb30aabb339567116638bc0d4eef7ed7257a44157e89f2a405b5e7f229119",
+    "provenance.json": "5de7b78ba78e273b3e7d5ea15ae540b340cd3364f746afce909c2e7711e1c274",
+    "run_all.py": "50993298cb89c4de1c3085924a84da42781a1bb9de11e3eef4dc83649ea64a9c",
+    "tests.py": "5a1252abeb4090feefea59bd184b18bb978a33b98bca02f9afe382e06966593d",
+    "执行修订记录.json": "f73be7cd4b9964e9bf5995448b4c2dd42bf1a8909b08c1fe08940ce251f62334",
+    "结果/evidence.json": "e9187490b4b52df0666a748e1fd9b39ee0625edc3fa512a6a1f8a4613fbe3940",
+    "结果/published_verify.json": "ab3efb771bd1a408f835d9a03941aed19b493d9ab4ab2c22a38a12fb13fc5f0e",
+    "结果/run_record.json": "15d772cd8a8f02ccb5e49376221264dea19e4326e56c484b09c6275b89e8d1ea",
+    "结果/summary.json": "10d242eb0d6993f93ed1473e7eab21e869756da14bc672bfe65d923f2953fa08",
+    "结果/tamper_tests.json": "6cb49059529e70de4f111c7b28218c8a6b477dbaf72c29de563a44c9600f310a",
+    "结果/tests.json": "dc3cb3859e1a3aa45199675dc74a68912b0f3386614dcb6d222486d882987d3c"
+  },
+  "manifest_self_hash_excluded": true
+}

@@ -1,0 +1,274 @@
+"""Generate the tenth-round report from independently audited raw results."""
+
+import argparse
+import hashlib
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+
+
+def main(folder):
+    summary = json.loads((folder / "dynamic_reliability_summary.json").read_text(encoding="utf-8"))
+    verified = json.loads((folder / "dynamic_reliability_verification.json").read_text(encoding="utf-8"))
+    assert verified["data_integrity"] == "PASS"
+    assert hashlib.sha256((folder / "dynamic_reliability_summary.json").read_bytes()).hexdigest() == verified["summary_sha256"]
+    assert len(summary["boundaries"]) == 8 and verified["case_count"] == len(summary["cases"])
+    cases = summary["cases"]
+    source = json.loads((Path(summary["source"]) / "gain_calibration_summary.json").read_text(encoding="utf-8"))
+    scopes = Counter(c["scope"] for c in cases)
+    gate = "通过" if verified["finite_model_gate"] else "未通过"
+    cost_table, drift_table, scope_table = [], [], []
+    for boundary in verified["boundaries"]:
+        label, period = boundary["profile"], boundary["candidate_period_ns"]
+        old = next(p for p in source["profiles"] if p["profile"] == label)["minimum_grid_period_ns"]
+        center = next((c for c in cases if c["profile"] == label and c["scope"] == "candidate_crosscheck" and
+                       c["tag"] == "center_euler" and c["dt_ps"] == 100 and c["method"] == "trap"), None)
+        power, energy = ((f"{center['power_W']*1e3:.3f}", f"{center['energy_per_slot_J']*1e12:.2f}")
+                         if center else ("未取得", "未取得"))
+        confirmed = "通过" if boundary["confirmed"] else "未通过"
+        margin = boundary["candidate_corner_margin_V"]
+        cost_table.append(f"| {label} | {old} | {period} | {confirmed} | "
+                          f"{margin:.6f} | {boundary['candidate_corner_max_settling_ns']:.3f} | "
+                          f"{power} | {energy} |" if period is not None else
+                          f"| {label} | {old} | 无 | 未通过 | 未取得 | 未取得 | 未取得 | 未取得 |")
+        for mode in ("loss_ramp", "gain_ramp"):
+            record = next((c for c in cases if c["profile"] == label and c["mode"] == mode), None)
+            if record is None:
+                continue
+            bad = record["first_bad"]
+            direction = "减弱" if mode == "loss_ramp" else "增强"
+            if bad:
+                drift_table.append(f"| {label} | {direction} | {bad['sample_error6']*100:.3f}% | "
+                                   f"{bad['state']} | {bad['channel']} | {bad['slot_start_ns']:.1f} |")
+            else:
+                drift_table.append(f"| {label} | {direction} | 未观察到失败 | 无 | 无 | 无 |")
+    for scope in sorted(scopes):
+        selected = [c for c in cases if c["scope"] == scope]
+        decisions, passed = sum(c["decisions"] for c in selected), sum(c["passed"] for c in selected)
+        scope_table.append(f"| {scope} | {len(selected)} | {passed:,}/{decisions:,} |")
+    corner80 = [c for c in cases if c["scope"] == "corners80"]
+    interior80 = [c for c in cases if c["scope"] == "interior80"]
+    bounded = [c for c in cases if c["scope"] in ("bounded_drift", "drift_crosscheck")]
+    short_fail = sum(c["passed"] < c["decisions"] for c in cases if c["scope"] == "timing_probe")
+    budget_fail = sum(c["passed"] < c["decisions"] for c in cases if c["scope"] == "beyond_budget")
+    comparisons = verified["numerical_comparisons"]
+    energy_difference = max((r["energy_relative_difference"] for r in comparisons), default=0)
+    waveform_difference = max((r["max_output_difference_V"] for r in comparisons), default=0)
+    regression = max((r["max_output_difference_V"] for r in verified["center_regression"]), default=0)
+    report = f"""# 第十轮：全独立角点、历史压力与动态漂移验证
+
+## 1. 结论
+
+**预先规定的有限基带模型测试门槛：{gate}。**
+第九轮校准参数原样冻结，没有调用训练函数重新标定，没有根据正确答案改变增益。
+实际完成{len(cases):,}组ngspice瞬态、{verified['checked_decisions']:,}项计算输出检查；
+原始波形独立核验为PASS，求解失败{len(summary['failures'])}组。
+
+八个既有工况分别覆盖全部128个独立误差符号角点，六条正向路径和完整抵消系数各取±1%；
+80 ns主扫描共{sum(c['passed'] for c in corner80):,}/{sum(c['decisions'] for c in corner80):,}检查通过。
+另有每工况32个固定种子的区间内部点，共
+{sum(c['passed'] for c in interior80):,}/{sum(c['decisions'] for c in interior80):,}检查通过。
+全部角点均覆盖64种有向状态跳转和自跳转，不再只有四个全局端点。
+
+历史测试新增全部512种连续三状态组合，以及快速交替、持续进位和连续保持。
+有界动态漂移及交叉检查共{sum(c['passed'] for c in bounded):,}/
+{sum(c['decisions'] for c in bounded):,}项检查通过。
+更短周期和超预算漂移失败保留：短周期压力扫描有{short_fail}组未全部通过，
+超预算漂移有{budget_fail}组未全部通过。
+
+**这些证据足以判断所规定的有限模型测试是否通过，但仍不是整个连续动态误差盒、
+任意输入历史或实物可靠性的数学保证。**
+通过该门槛后可进入4位联合仿真对照，不需要先宣称完整电磁计算机可靠。
+本轮没有运行4位串行、并行或数字加法器，不能给出三者性能排名。
+
+## 2. 保持什么，改变什么
+
+固定内容：第九轮每个工况的`cancellation_trim`、初始两级路径系数、参考电压、
+供电、器件模型、负载与输入偏斜。摘要记录来源JSON和模型脚本SHA-256。
+八个工况各自使用其既有训练结果，不是一个名义标定参数覆盖所有硬件条件。
+这轮不新增FDTD；电磁接口和调增益动作仍是理想线性接口。
+
+独立变化内容：
+
+`第一阶段A/B/Cin路径，第二阶段A/B/Cin路径，完整抵消V/V系数`。
+
+七个有效系数分别乘以`1+error_i`。抵消系数直接独立修改，
+不通过第二阶段Cin路径再额外相乘，避免把一个误差重复计算。
+128个角点是七个系数±1%的笛卡尔积，不是七条路径同时增大/减小的两点测试。
+内部点使用种子20261118、均匀生成32个七维参数向量，并完整归档。
+均匀采样仅用于补充覆盖，不用于推导误码概率或置信度。
+
+动态漂移使用已知PWL环境控制电压，使原有线性接口系数随时间变化；
+没有用进位/和位真值驱动增益控制，实际进位仍来自MOS输出，经原RC支路抵消。
+这些PWL曲线是假定压力条件，不是实测温漂、老化或噪声谱。
+
+## 3. 输入历史和正确性判据
+
+每个固定角点的主扫描用65个时隙覆盖全部64种有向状态跳转。
+在80 ns结果中选择观测建立最慢和末段裕量最低的角点，另加零残余误差中心点，
+进行历史测试和周期压力扫描。若最慢与最低裕量角点相同，只保留一份。
+候选周期确认后，按该周期全角点结果重新选择交叉检查对象。
+这个选择只决定验收测试输入，不修改被冻结的计算参数。
+
+历史序列：
+
+1. `triples`：514个状态时隙，通过有向二阶图Euler路径覆盖全部8³=512种连续三状态组合。
+2. `stress`：256个时隙，包括`000↔111`、`001↔110`快速交替，
+   连续`011/101/110/111`进位保持，以及每种状态连续保持8个时隙。
+3. `seeded_history`：192个时隙的固定种子历史，用于改变较长上下文；
+   不是概率可靠性模型。
+
+历史测试只对中心点和选中的压力角点进行，不是128角点与所有512三状态历史的完整笛卡尔积。
+连续保持最长为8个状态周期，不能称为热稳定、长期寿命或所有保持时间验证。
+
+判据沿用前两轮：期望1≥0.7 Vdd，期望0≤0.3 Vdd；
+90%处采样及最后20%全部归档时间点必须同时正确。
+保留瞬态毛刺和观测建立时间，不把单点采样通过等同于整个稳定窗口通过。
+输入为1 ns边沿，偏斜沿用各工况；未加入真实锁存器、随机噪声和时钟不确定性。
+每个求解从初始工作点开始，不是开机或跨工况在线切换实验。
+
+## 4. 周期边界与局部能量
+
+周期压力网格为`15 / 20 / 25 / 30 / 40 / 50 / 60 / 80 ns`。
+先扫描选定压力角点/中心点的Euler与stress序列，再逐个候选周期确认全部128角点。
+更短周期若压力子集失败，足以拒绝该周期；压力子集通过不够，必须完成全角点确认。
+
+候选周期的中心与选定压力角点，分别对Euler、triples、stress序列做
+100 ps梯形法、50 ps梯形法、100 ps Gear法交叉检查。
+全角点主扫描及内部点扫描为200 ps梯形法；
+没有对全部128角点逐一执行三组更细数值设置。
+
+表中周期是本次网格与指定测试集的候选，不是连续频率或任意历史的保证边界。
+中心供电数据取候选周期、Euler输入、100 ps梯形法；
+它不是按所有误差工况平均的期望能量，更不是4位整数运算能量。
+
+| 工况 | 第九轮零残余周期ns | 本轮候选ns | 动态确认 | 全角点最低末段裕量V | 全角点最大建立ns | 中心局部功率mW | 中心单状态能量pJ |
+|---|---:|---:|---|---:|---:|---:|---:|
+{chr(10).join(cost_table)}
+
+没有新增校准动作，640 ns采集和训练供电能量继续沿用第九轮。
+实际校准还需要ADC、计算/编程、切换和恢复等待，本轮仍未建模。
+局部Vdd积分不包括RF接口、输入/参考源、理想叠加/抵消源、漂移控制源及真实增益器供能。
+
+## 5. 动态漂移与重校准
+
+候选周期运行时，校准参数始终固定，动态变化仅作用于物理代理的有效系数。
+有界测试包括：
+
+- 完整抵消系数从0残余逐渐变到+1%或−1%，其他路径保留所选压力角点误差。
+- 七系数各自沿不同相位/频次的三角PWL轨迹在±1%内变化。
+- 抵消初始误差+0.5%或−0.5%，再叠加同方向最多0.49%的漂移。
+  最后总相对误差分别约+0.99245%和−0.98755%，没有把两项预算各算成1%。
+
+每条有界曲线另以50 ps梯形法和100 ps Gear法检查。
+抵消单向漂移在前498个时隙完成，最后16个时隙保持终值；
+三角波全程变化。实际测试持续时间为514×该工况候选周期。
+这验证的是规定轨迹下的输出，不是任意变化速率或噪声波形。
+
+作为失败边界压力实验，另让完整抵消系数从0逐渐减弱30%或增强35%。
+下表记录首次未满足采样/稳定窗口判据的时隙，以及该时隙90%采样处的抵消残余误差。
+它不是精确首次越阈值时间，也不是所有状态共同的连续漂移边界。
+发现失败的输入状态依赖指定历史与漂移速率，不能把它当成允许漂移到这里的建议。
+
+| 工况 | 漂移方向 | 首个失败时隙采样处抵消误差 | 状态 | 通道 | 时隙起点ns |
+|---|---|---:|---|---|---:|
+{chr(10).join(drift_table)}
+
+保守策略仍按**总有效残余误差预算1%**管理：
+若初始标定/调增益不确定度占0.5%，剩余同方向漂移可用额度约0.4975%，
+因此0.49%可以作为有条件的暂停/重校准触发预算，监测不确定度也必须包含在额度内。
+本轮测试了该预算合成后的动态轨迹，但没有实现ADC监测、硬件报警或在线重校准闭环。
+0.5%和0.49%是显式需求假设，不是实测传感器误差与真实温漂速率。
+六条正向路径也必须分别守住各自预算，不能只监测抵消系数。
+
+没有实测最坏漂移速率r，不能给出固定秒数重校准间隔。
+测得r后，可用额度/r仅为间隔上限，还需减去监测和校准期间的漂移余量。
+每N次有效状态更新校准一次的局部摊销仍为：
+`E平均=E运行+E训练/N`，`T平均=T运行+T完整校准/N`。
+
+## 6. 独立核验与数值范围
+
+独立脚本没有调用运行脚本的输入生成、测量或漂移曲线函数，而是：
+
+- 检查来源文件SHA-256及全部冻结参数不变。
+- 验证128个独立角点、32个内部点及全部512种三状态历史覆盖。
+- 从网表检查六条路径、完整抵消系数和环境控制源，确认计算网表没有训练注入源。
+- 逐点检查实际归档输入和七条误差轨迹；对有界用例检查均位于±1%。
+- 从原始波形重算所有输出真值、采样、末段稳定窗口、建立时间及Vdd积分。
+- 核对候选全角点覆盖、交叉检查对象和动态预算合成。
+
+初始九位有效数字归档出现时间戳舍入重复，被独立核验拒绝，未作为最终验收证据。
+本轮以`set numdgt=17`重新运行；1 ns输入斜坡的输入对齐核验使用
+由17位时间舍入上界/1 ns推导的容差，逻辑输出仍直接使用原30%/70%门限。
+
+高精度输出仍可能有求解器同时间记录。所有原始点均保留，
+时间轴必须非递减，同时间组各向量跨度必须≤1e-9。
+仅插值采样使用每组最后一点构造的严格递增时间轴；
+稳定窗口、建立时间和供电积分均检查全部原始点，不通过删点隐藏失败。
+独立核验确认原始轴与唯一采样轴的对应关系。
+共保留{verified['raw_same_time_points']:,}个同时间额外记录，
+同时间组最大输出跨度为{verified['max_same_time_output_difference_V']:.6g} V。
+初始问题和复测处理记录保存在`archive_precision_issue.json`及对应波形中。
+
+零残余80 ns中心用例与第九轮相同条件比较，最大输出插值差
+{regression*1000:.6f} mV，说明新增误差控制配置没有明显改变零误差基准。
+候选及有界漂移数值交叉比较共{len(comparisons)}对：
+最大供电积分相对差{energy_difference*100:.6f}%，
+最大输出插值差{waveform_difference*1000:.3f} mV。
+这些数据支持有限测试结果可复现，不是严格误差上界、高阶收敛或亚稳态证明。
+
+| 数据范围 | 瞬态组数 | 正确输出检查/全部检查 |
+|---|---:|---:|
+{chr(10).join(scope_table)}
+
+短周期和超预算失败没有筛除；通过比例不能当成硬件误码概率。
+没有测量误差连续区间内的每个内部点、所有历史、所有动态轨迹、真实RF链或实测工艺模型。
+
+## 7. 下一步决策
+
+本轮将“全部独立角点+内部点+指定历史+有界漂移+数值交叉检查”定义为有限模型进入门槛，
+结果为**{gate}**。该门槛与“任意连续误差及实物100%可靠”明确区分。
+若门槛通过，下一步应开始4位串行复用、4位并行结构和同位宽数字加法器的联合仿真，
+不是继续仅根据单比特结果做速度外推。
+
+比较必须计入真实进位保持、寄存/采样、路由与控制等待；
+三者使用相同位宽、供电、输出负载、输入工作量、稳定窗口及正确性验收。
+记录运行能量、可建模控制开销、校准摊销与未建模接口敏感性。
+只有在该口径下出现有价值的优势，才投入真实RF接口和工艺模型。
+
+本轮未完成多位对照，不声称串行4×周期是实测，也不声称并行一定加速或省能。
+
+## 8. 数据与复现
+
+- `../run_dynamic_reliability.py`：冻结参数、全角点、内部点、历史、周期和动态漂移。
+- `../verify_dynamic_reliability.py`：独立原始波形核验和数值比较。
+- `../report_dynamic_reliability.py`：按核验结果生成本报告。
+- `dynamic_reliability_summary.json`：冻结值、全部序列、误差向量、曲线及全部用例。
+- `dynamic_reliability_verification.json`、`dynamic_boundaries.csv`、`dynamic_case_table.csv`：核验与边界。
+- `runs/*.npz / *.cir / *.csv / *.log / *.json`：每组唯一采样轴、网表、输出检查、日志和配置。
+- `runs/*.raw.npz`：存在同时间记录时的全部原始点；无重复时`.npz`同时为原始波形。
+- `archive_precision_issue.json / .npz`：初始归档被拒绝的问题证据和处理记录。
+
+```powershell
+$env:PYTHONPYCACHEPREFIX = Join-Path $env:TEMP 'ewc-openems\\pycache'
+$spice = Join-Path $env:TEMP 'ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe'
+python "开源FDTD验证\\run_dynamic_reliability.py" --executable $spice --workers 4
+python "开源FDTD验证\\verify_dynamic_reliability.py"
+python "开源FDTD验证\\report_dynamic_reliability.py"
+```
+
+中断后可以添加`--resume`，只复用配置、来源和代码指纹一致且完整归档的用例。
+并发仅调度独立求解和归档，不改变器件方程；`--workers 1`可顺序执行。
+本轮使用既有开源ngspice-47，没有修改安全策略或覆盖前九轮结果。
+"""
+    path = folder / "全角点动态可靠性与漂移边界报告.md"
+    path.write_text(report, encoding="utf-8")
+    print(path)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, default=ROOT / "第十轮结果")
+    main(parser.parse_args().output)

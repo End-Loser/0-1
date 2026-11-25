@@ -1,0 +1,64 @@
+{
+  "scope": "single-polarization (0,1,1) copper Q, two full-Maxwell meshes",
+  "lengths_m": [
+    0.16,
+    0.1,
+    0.06
+  ],
+  "sigma_S_per_m": 58580000.0,
+  "terms": 64,
+  "source_sha256": {
+    "run_single_mode_audit.py": "5cdf9b2117882e5745ac3c3a89a644f30db8456072af0093cde9eff2c0a3a1cb",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "status": "solver_complete_unverified",
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "dof": 11190,
+      "pec_frequency_Hz": 2901193670.3899446,
+      "reference_frequency_Hz": 2913459001.725717,
+      "reference_Q": 22767.036191781215,
+      "fitted_pole_Hz": 2901131270.750871,
+      "fitted_Q": 23243.62252887954,
+      "Q_relative_error": 0.020933174308844338,
+      "three_five_Q_difference": 6.936267116230965e-10,
+      "inverse_response_fit_residual": 2.4553939465605506e-05,
+      "solve_seconds": 4.136643400299363,
+      "passed": false
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "dof": 38157,
+      "pec_frequency_Hz": 2908368224.287714,
+      "reference_frequency_Hz": 2913459001.725717,
+      "reference_Q": 22767.036191781215,
+      "fitted_pole_Hz": 2908304906.7799044,
+      "fitted_Q": 22963.36189605029,
+      "Q_relative_error": 0.00862324382564772,
+      "three_five_Q_difference": 7.261660162072303e-10,
+      "inverse_response_fit_residual": 2.4522211359744546e-05,
+      "solve_seconds": 57.72177800012287,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "actual_C_10ps_diagnostic_rails",
+  "step_s": 1e-11,
+  "real_rails": false,
+  "duration_s": 1.8e-06,
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    0
+  ],
+  "hold_s": 2e-07,
+  "ramp_s": 2e-09,
+  "input_high_V": 0.3,
+  "summing_resistance_ohm": 300,
+  "carry_threshold_V": 0.15,
+  "sum_threshold_V": 0.05,
+  "cancellation_input_equivalent_V": 0.2,
+  "feedback_resistance_ohm": 32750,
+  "sum_bias_difference_V": 0.17348484848484852,
+  "status": "solver_complete_unverified",
+  "returncode": 0,
+  "raw_wave": {
+    "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-actual-c-feedback-y86yv8ao\\actual_C_10ps_diagnostic_rails\\wave.txt",
+    "sha256": "31e4b4450ae526af5b6fd274f641fe71bde91066f9082b4a6657d4503ca05e66"
+  },
+  "rows": 180805,
+  "observed_last_time_s": 1.8e-06,
+  "files_sha256": {
+    "full_vectors.npz": "39f3c2087ef629ad37b4a9154c59526c9afcf6979adeba8e965b88948f26ac9d",
+    "solver_stderr.log": "d680499878ba83fa0ae393a6f994d7d8e4ffff07785fdebfaff93ab6d7658eee",
+    "solver_stdout.log": "df08cb9dfaa22104689271068bafc9c76e453b4b3ab397284ceb7d16d8e9e6d5",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "c32d66a1aa9d09693cf9390da779781b7b960b38b44455802c17bb4aeb49f6b9"
+  }
+}

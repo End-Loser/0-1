@@ -1,0 +1,163 @@
+# RT/duroid® 5880LZ Laminates
+
+ Rogers RT/duroid 5880LZ laminates are filled PTFE composites designed for exacting strip-line and micro-strip circuit applications.  
+
+![](https://p16-cc-image-search-sign-sg.ibyteimg.com/tos-alisg-i-h9hire4aei-sg/image/9474eb2659af2d6c0611fa3e1da18859~tplv-h9hire4aei-image.jpeg?rk3s=add9cc80&x-expires=1800131550&x-signature=sXmlDrbGEtk0vQAur%2BtltDI6oqQ%3D)
+
+RT/duroid 5880LZ laminates contain a unique filler that results in a low density, lightweight material for high performance and weight sensitive applications. 
+
+#### Features
+
+-  Dk of 2.00 +/- .04 
+
+- Low dissipation factor ranging from .0021 to .0027 at 10GHz
+
+- Low Z-axis coefficient of thermal expansion at 40 ppm/°C 
+
+- Low density of 1.4 gm/cm<sup>3</sup>
+
+#### Benefits
+
+- Lightweight / low density
+
+- Uniform electrical properties over a wide frequency range
+
+- Resistant to all solvents and reagents, hot or cold, normally used in etching or plating
+
+### [ Properties](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5880lz-laminates#properties)
+
+Please see below for a sampling of data for this material formulation. For detailed material information and to use advanced features such as filtering, visit the [Laminate Properties Tool](https://tools.rogerscorp.com/acs/properties/laminates/index.aspx).
+
+| RT/duroid® 5880LZ | |
+|---|---|
+| Dielectric Constant, @10GHZ (2.5 GHz) Typical (Process) | 2.00 +/- 0.04 |
+| Dielectric Constant, @10GHZ (2.5 GHz) Typical (Design) | 2.0 |
+| Dissipation Factor TAN @10 GHz (2.5 GHz) (Typical) | 0.0021 |
+| Thermal Coefficient εr -50°C to 150°C ppm/°C (Typical) | 20 |
+| Volume Resistivity Mohm (Typical) | 1.74x10<sup>7</sup> |
+| Surface Resistivity Mohm (Typical) | 2.08x10<sup>6</sup> |
+| Water Absorption D48/50% (Typical) | 0.31 |
+| Thermal Conductivity W/m/°K (Typical) 50°C ASTM D5470 | 0.33 |
+| Coefficient of Thermal Expansion -55° to 288°C ppm/°C (Typical) X | 54 |
+| Coefficient of Thermal Expansion -55° to 288°C ppm/°C (Typical) Y | 47 |
+| Coefficient of Thermal Expansion -55° to 288°C ppm/°C (Typical) Z | 40 |
+| Peel Strength 1 oz (35um) ED Foil lbs/in. (N/mm) (Typical) | >4.0 |
+| Density gm/cm3 (Typical) | 1.4 |
+| Flammability Rating UL94 | V-0 |
+| Lead-Free Process Compatible | Y |
+| PIM dBc Typical | |
+
+###  Downloads
+
+| Description | Language | File Type | File Size |
+|---|---|---|---|
+| Data Sheets<colspan=4> |  |  |  |
+| [RT/duroid® 5880LZ High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/data-sheets/rt-duroid-5880lz-high-frequency-laminates.pdf) | English |  | 363KB |
+| [RT/duroid® 5880LZ 数据资料表](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/chinese/data-sheets/rt-duroid-5880lz-high-frequency-laminates---cn.pdf) | 中文 |  | 622KB |
+| Fabrication Information<colspan=4> |  |  |  |
+| [Fabrication Guidelines RT/duroid 5880LZ High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/fabrication-guidelines-rt-duroid-5880lz-high-frequency-laminates.pdf) | English |  | 290KB |
+| [Quick Reference Processing Guidelines RT-duroid 5880LZ High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/quick-reference-processing-guidelines-rt-duroid-5880lz-high-frequency-laminates.pdf) | English |  | 55KB |
+| [How to Avoid Creep on Board Assemblies](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/how-to-avoid-creep-on-board-assemblies.pdf) | English |  | 90KB |
+| [After Etch Stress Relief in RT/duroid Microwave Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/after-etch-stress-relief-in-rt-duroid-microwave-laminates.pdf) | English |  | 76KB |
+| [Safety Notes on Using PTFE Composite Material](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/safety-notes-on-using-ptfe-composite-material.pdf) | English |  | 63KB |
+| Electrical Design Data<colspan=4> |  |  |  |
+| [Line Widths for Various Characteristic Impedances of Centered Stripline Devices in a Variety of RT/duroid High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/electrical-design-data/line-widths-for-various-characteristic-impedance-of-center-stripline-devices-in-rt-duroid-laminates.pdf) | English |  | 86KB |
+| [Temperature Rise Estimations in Rogers High Frequency Circuit Boards Carrying Direct or RF Current](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/electrical-design-data/temperature-rise-estimations-in-rogers-high-frequency-circuit-boards-carrying-direct-or-rf-current.pdf) | English |  | 80KB |
+| [Design Equations for Broadside and Edgewise Stripline](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/electrical-design-data/design-equations-for-broadside-and-edgewise-stripline.pdf) | English |  | 147KB |
+| Properties - Detailed Characteristics<colspan=4> |  |  |  |
+| [A Study of Solder Temperature Effect of Copper Foil Adhesion to RT/duroid 5870 Material](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/a-study-of-solder-temperature-effect-of-copper-foil-adhesion-to-rt-duroid-5870-material.pdf) | English |  | 73KB |
+| [Copper Foils for High Frequency Circuit Materials](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/copper-foils-for-high-frequency-circuit-materials.pdf) | English |  | 868KB |
+| [RT/duroid PTFE-Based Composite Meets Flammability Requirements for Oxygen Environments](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/rt-duroid-ptfe-based-composite-meets-flammability-requirements-for-oxygen-environments.pdf) | English |  | 44KB |
+| [Good Performance of RT/duroid Microwave Laminate in a Cryogenic Stripline Application at NASA](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/good-performance-of-rt-duroid-microwave-laminate-in-a-cryogenic-stripline-application-at-nasa.pdf) | English |  | 52KB |
+| [Low Outgassing Characteristics of Rogers Laminates Approved for Spacecraft Applications](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/low-outgassing-characteristics-of-rogers-laminates-approved-for-spacecraft-applications.pdf) | English |  | 84KB |
+| [The Effect of Exposure of RT/duroid PTFE-Based Composites to Nuclear Radiation](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/the-effect-of-exposure-of-rt-duroid-ptfe-based-composites-to-nuclear-radiation.pdf) | English |  | 68KB |
+| [高频电路材料之铜箔概述](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/chinese/properties--detailed-characteristics/copper-foils-for-high-frequency-circuit-materials---cn.pdf) | 中文 |  | 894KB |
+| (M)SDS/PSIS<colspan=4> |  |  |  |
+| [RT/duroid 5880 LZ - PSIS](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/ehs/advanced-connectivity-solutions/english/msds/psis---rt-duroid-5880-lz.pdf) | English |  | 33KB |
+
+- [RT/duroid® 5880LZ High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/data-sheets/rt-duroid-5880lz-high-frequency-laminates.pdf)
+Data Sheets / English, 363KB
+
+- [RT/duroid® 5880LZ 数据资料表](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/chinese/data-sheets/rt-duroid-5880lz-high-frequency-laminates---cn.pdf)
+Data Sheets / 中文, 622KB
+
+- [Fabrication Guidelines RT/duroid 5880LZ High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/fabrication-guidelines-rt-duroid-5880lz-high-frequency-laminates.pdf)
+Fabrication Information / English, 290KB
+
+- [Quick Reference Processing Guidelines RT-duroid 5880LZ High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/quick-reference-processing-guidelines-rt-duroid-5880lz-high-frequency-laminates.pdf)
+Fabrication Information / English, 55KB
+
+- [How to Avoid Creep on Board Assemblies](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/how-to-avoid-creep-on-board-assemblies.pdf)
+Fabrication Information / English, 90KB
+
+- [After Etch Stress Relief in RT/duroid Microwave Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/after-etch-stress-relief-in-rt-duroid-microwave-laminates.pdf)
+Fabrication Information / English, 76KB
+
+- [Safety Notes on Using PTFE Composite Material](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/fabrication-information/safety-notes-on-using-ptfe-composite-material.pdf)
+Fabrication Information / English, 63KB
+
+- [Line Widths for Various Characteristic Impedances of Centered Stripline Devices in a Variety of RT/duroid High Frequency Laminates](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/electrical-design-data/line-widths-for-various-characteristic-impedance-of-center-stripline-devices-in-rt-duroid-laminates.pdf)
+Electrical Design Data / English, 86KB
+
+- [Temperature Rise Estimations in Rogers High Frequency Circuit Boards Carrying Direct or RF Current](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/electrical-design-data/temperature-rise-estimations-in-rogers-high-frequency-circuit-boards-carrying-direct-or-rf-current.pdf)
+Electrical Design Data / English, 80KB
+
+- [Design Equations for Broadside and Edgewise Stripline](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/electrical-design-data/design-equations-for-broadside-and-edgewise-stripline.pdf)
+Electrical Design Data / English, 147KB
+
+- [A Study of Solder Temperature Effect of Copper Foil Adhesion to RT/duroid 5870 Material](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/a-study-of-solder-temperature-effect-of-copper-foil-adhesion-to-rt-duroid-5870-material.pdf)
+Properties - Detailed Characteristics / English, 73KB
+
+- [Copper Foils for High Frequency Circuit Materials](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/copper-foils-for-high-frequency-circuit-materials.pdf)
+Properties - Detailed Characteristics / English, 868KB
+
+- [RT/duroid PTFE-Based Composite Meets Flammability Requirements for Oxygen Environments](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/rt-duroid-ptfe-based-composite-meets-flammability-requirements-for-oxygen-environments.pdf)
+Properties - Detailed Characteristics / English, 44KB
+
+- [Good Performance of RT/duroid Microwave Laminate in a Cryogenic Stripline Application at NASA](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/good-performance-of-rt-duroid-microwave-laminate-in-a-cryogenic-stripline-application-at-nasa.pdf)
+Properties - Detailed Characteristics / English, 52KB
+
+- [Low Outgassing Characteristics of Rogers Laminates Approved for Spacecraft Applications](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/low-outgassing-characteristics-of-rogers-laminates-approved-for-spacecraft-applications.pdf)
+Properties - Detailed Characteristics / English, 84KB
+
+- [The Effect of Exposure of RT/duroid PTFE-Based Composites to Nuclear Radiation](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/the-effect-of-exposure-of-rt-duroid-ptfe-based-composites-to-nuclear-radiation.pdf)
+Properties - Detailed Characteristics / English, 68KB
+
+- [高频电路材料之铜箔概述](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/chinese/properties--detailed-characteristics/copper-foils-for-high-frequency-circuit-materials---cn.pdf)
+Properties - Detailed Characteristics / 中文, 894KB
+
+- [RT/duroid 5880 LZ - PSIS](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/ehs/advanced-connectivity-solutions/english/msds/psis---rt-duroid-5880-lz.pdf)
+(M)SDS/PSIS / English, 33KB
+
+### Applications
+
+View current applications of this product.
+
+#### [Antenna Systems ](https://www.rogerscorp.com/applications/antenna-systems)
+
+![](https://p16-cc-image-search-sign-sg.ibyteimg.com/tos-alisg-i-h9hire4aei-sg/img/439bbcb7a65514f258a79fc69d798057~tplv-h9hire4aei-image.jpeg?rk3s=add9cc80&x-expires=1800131550&x-signature=pXnsDCEHjOh93R3ZE3BzvD0ZkZw%3D)
+
+#### [CommunicationsSystems ](https://www.rogerscorp.com/applications/communication-systems)
+
+![](https://p16-cc-image-search-sign-sg.ibyteimg.com/tos-alisg-i-h9hire4aei-sg/img/e4c768589188352072157d2779f1df69~tplv-h9hire4aei-image.jpeg?rk3s=add9cc80&x-expires=1800131550&x-signature=lVbb4JJCQcN3YPYPUDw5gaBbln8%3D)
+
+- [  Antenna Systems ](https://www.rogerscorp.com/applications/antenna-systems)
+
+-  [ Communications](https://www.rogerscorp.com/applications/communication-systems)
+[Systems ](https://www.rogerscorp.com/applications/communication-systems)
+
+### Tools 
+
+Explore our calculators, conversion tools, technical papers and more.
+
+- [Technology Support Hub](https://www.rogerstechub.com/login.php?utm_source=New%20Website&utm_medium=Widget&utm_campaign=Tech%20Support%20Hub%20Tools%20Widget)
+ Access technical papers, white papers, calculators, tools and more for circuit laminates, prepreg and bonding materials.  
+
+- [Laminates Properties Tool](http://tools.rogerscorp.com/acs/properties/laminates/index.aspx)
+ Sort and compare all Rogers' high frequency laminates according to product properties.  
+
+- [High Frequency Electronics Product Selector Guide](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/product-selection-guides/high-frequency-electronics-product-selector-guide.pdf)
+
+- [罗杰斯产品选购指南](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/chinese/product-selection-guides/92-601cs---acs-product-selector-guide-and-standard-thicknesses-and-tolerances---cn.pdf)
+
+- [The Advantage of Nearly Isotropic Dielectric Constant of RT/duroid 5870-5880 Glass Microfiber PTFE](https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/the-advantage-of-nearly-isotropic-dielectric-constant-of-rt-duroid-5870-5880-glass-microfiber-ptfe.pdf)

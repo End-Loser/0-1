@@ -1,0 +1,139 @@
+{
+  "scope": "Source transcription and dimensional screening only",
+  "evidence_sha256": {
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\render_manifest.json": "c52fcb91e87c155b81d69b95fa8c327958c52e196ac4df32b83cf74cd74d7a51",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\table_transcription.json": "51b2db55d34da3d352ff2a2a9669439dc36c0504a8e6ddb9d684f98fa0584a2f",
+    "source_manifest.json": "9adb2e2b7eb4fd44e6df4415d3aa254d87e0162a7f4df8c138ccd951276cb0b4",
+    "audit_foil_tables.py": "1868ff9d1eaa91e447dbecfa3a6acd6d0fa3c35cbc8413ed6bbedd9061b89594",
+    "source_snapshots\\S03.txt": "6a0d03365e8b13836195896698acb1e061f4b1b83413a901f3715b094e2704d3",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\S03_page_3.png": "97f1d4e9b46bbd2a71220bd2bbef5c7c7a0db0d5ef8901f8ac08a0c79861dc9e",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\S03_page_4.png": "78da6aa5726ad7393ea1f8dc1b4cc21ffe7055ad4ada3999263012fe2d7cc6f8",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\S03_page_7.png": "b85fa5b29597f8e0dcffa2bb8e7265eb600de71881ae0b8587eea33f3565cdd2",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\S03_page_8.png": "2070d89d20069e198627df9c481143111281423cf52974d8e4427fdea1ed8461",
+    "test_foil_tables.py": "66987d0fea0e22d25049d60d61a1374c0c6a7cc467e3d9be8ba04c75921753d0",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\test_foil_before_reference_fix.py": "1e7e889fcc4f069b94748011f6569afd7fbd1f5aead0d1d6f72ed1bfb5aab97f",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\initial_test_failure.json": "2c3e41e48430e1cdddb10377ff57b7422a2e2f6844f58da3d6daee228056eeaa",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\tests_after_reference_fix.log": "bae86e3c30549605087705454237f9098fc27c82a2f90a573002111c67fd4faf",
+    "\u94dc\u7b94\u539f\u8868\u590d\u6838\\\u94dc\u7b94\u539f\u8868\u5355\u4f4d\u4e0e\u9002\u7528\u8303\u56f4\u590d\u6838\u62a5\u544a.md": "1ce83a899ea1af1e2035f0cb126239932883ff00a351dbb09969710f6f75db09"
+  },
+  "verifier_sha256": "2917d077bb784416852c5973a90cba941b56791ca7822e60b89d9af401301369",
+  "rows_checked": 5,
+  "reviewed_units_and_sides_consistent": true,
+  "reference_sigma_S_per_m": 58580000.0,
+  "foil_sigma_measured": false,
+  "dimensional_scales": [
+    {
+      "frequency_Hz": 2500000000.0,
+      "reference_skin_depth_m": 1.3151504673733451e-06,
+      "rows": [
+        {
+          "id": "rolled_1oz",
+          "dielectric_Sq_over_reference_delta": 0.30414770775156325,
+          "top_Sq_over_reference_delta": 0.22811078081367242,
+          "thickness_over_reference_delta": 26.61292442826178
+        },
+        {
+          "id": "rolled_half_oz",
+          "dielectric_Sq_over_reference_delta": 0.30414770775156325,
+          "top_Sq_over_reference_delta": 0.22811078081367242,
+          "thickness_over_reference_delta": 13.686646848820347
+        },
+        {
+          "id": "ed_1oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 1.8248862465093794,
+          "top_Sq_over_reference_delta": 0.30414770775156325,
+          "thickness_over_reference_delta": 26.61292442826178
+        },
+        {
+          "id": "ed_half_oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 1.5207385387578163,
+          "top_Sq_over_reference_delta": 0.30414770775156325,
+          "thickness_over_reference_delta": 13.686646848820347
+        },
+        {
+          "id": "ed_quarter_oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 0.9884800501925806,
+          "top_Sq_over_reference_delta": 0.30414770775156325,
+          "thickness_over_reference_delta": 6.8433234244101735
+        }
+      ]
+    },
+    {
+      "frequency_Hz": 3000000000.0,
+      "reference_skin_depth_m": 1.2005626291564051e-06,
+      "rows": [
+        {
+          "id": "rolled_1oz",
+          "dielectric_Sq_over_reference_delta": 0.3331771206980401,
+          "top_Sq_over_reference_delta": 0.2498828405235301,
+          "thickness_over_reference_delta": 29.15299806107851
+        },
+        {
+          "id": "rolled_half_oz",
+          "dielectric_Sq_over_reference_delta": 0.3331771206980401,
+          "top_Sq_over_reference_delta": 0.2498828405235301,
+          "thickness_over_reference_delta": 14.992970431411807
+        },
+        {
+          "id": "ed_1oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 1.9990627241882408,
+          "top_Sq_over_reference_delta": 0.3331771206980401,
+          "thickness_over_reference_delta": 29.15299806107851
+        },
+        {
+          "id": "ed_half_oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 1.6658856034902008,
+          "top_Sq_over_reference_delta": 0.3331771206980401,
+          "thickness_over_reference_delta": 14.992970431411807
+        },
+        {
+          "id": "ed_quarter_oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 1.0828256422686304,
+          "top_Sq_over_reference_delta": 0.3331771206980401,
+          "thickness_over_reference_delta": 7.496485215705904
+        }
+      ]
+    },
+    {
+      "frequency_Hz": 3500000000.0,
+      "reference_skin_depth_m": 1.1115050131087797e-06,
+      "rows": [
+        {
+          "id": "rolled_1oz",
+          "dielectric_Sq_over_reference_delta": 0.35987242098102273,
+          "top_Sq_over_reference_delta": 0.26990431573576706,
+          "thickness_over_reference_delta": 31.48883683583949
+        },
+        {
+          "id": "rolled_half_oz",
+          "dielectric_Sq_over_reference_delta": 0.35987242098102273,
+          "top_Sq_over_reference_delta": 0.26990431573576706,
+          "thickness_over_reference_delta": 16.194258944146025
+        },
+        {
+          "id": "ed_1oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 2.1592345258861365,
+          "top_Sq_over_reference_delta": 0.35987242098102273,
+          "thickness_over_reference_delta": 31.48883683583949
+        },
+        {
+          "id": "ed_half_oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 1.7993621049051138,
+          "top_Sq_over_reference_delta": 0.35987242098102273,
+          "thickness_over_reference_delta": 16.194258944146025
+        },
+        {
+          "id": "ed_quarter_oz_5880_group",
+          "dielectric_Sq_over_reference_delta": 1.169585368188324,
+          "top_Sq_over_reference_delta": 0.35987242098102273,
+          "thickness_over_reference_delta": 8.097129472073012
+        }
+      ]
+    }
+  ],
+  "loss_multiplier_computed": false,
+  "target_band_material_validated": false,
+  "G2_closed": false,
+  "full_system_gates_closed": 0,
+  "goal_complete": false
+}

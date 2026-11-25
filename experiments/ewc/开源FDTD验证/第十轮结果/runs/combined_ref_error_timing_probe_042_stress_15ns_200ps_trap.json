@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_042_stress_15ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "042_stress",
+  "errors": [
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 15,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "b2414786d9c01ffadb31d03aec844c344af49a4497641eba7231606f95f1dff1",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.8400000000000005e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.8400000000000005e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.8400000000000005e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.8400000000000005e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.8400000000000005e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        3.8400000000000005e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        3.8400000000000005e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 50552,
+  "unique_points": 50552,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 309,
+  "sample_passed": 329,
+  "minimum_late_margin_V": -2.0999999994197345,
+  "worst_slot": {
+    "slot": 224,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.0999999994197345
+  },
+  "first_bad": {
+    "slot": 1,
+    "state": "111",
+    "channel": "sum",
+    "sample_error6": -0.01,
+    "slot_start_ns": 15.000000000000002
+  },
+  "max_settling_ns": 13.341542771327758,
+  "unsettled": 183,
+  "energy_J": 2.8776630000060432e-08,
+  "power_W": 0.0074939140625157365,
+  "energy_per_slot_J": 1.1240871093773606e-10,
+  "warning": false
+}

@@ -1,0 +1,38 @@
+{
+  "original_physical_report": "verification_f22be5b34ddc.json",
+  "original_verifier": "verifier_before_supply_sign_fix.py",
+  "original_supply_residual_A": {
+    "diagnostic_5V": 0.00973824603525595,
+    "diagnostic_3V3": 0.0827740342365803
+  },
+  "cause": "Supply-source currents and load-probe currents have opposite orientation; old verifier subtracted load currents again.",
+  "independent_signed_recomputation_A": {
+    "diagnostic_5V": 4.87066983967388e-15,
+    "diagnostic_3V3": 4.1397441030710525e-14
+  },
+  "test_fixture_failure": {
+    "source": "accounting_tests_before_float_fixture_fix.py",
+    "command": "python -B -m unittest discover -s 器件验证 -p test_c_history64*.py -v",
+    "tests_run": 14,
+    "failures": 1,
+    "failed_test": "test_nonzero_signed_supply_currents_close",
+    "observed_dtype": "int32",
+    "observed_i_5_i_3_i_f1_i_f2_i_c1_i_c2_A": 0,
+    "observed_3V3_residual_A": 0.0015,
+    "cause": "np.full inferred integer dtype from integer zero; nonzero fractional currents were truncated.",
+    "fix": "Use dtype=float for synthetic fixture arrays."
+  },
+  "physical_waveforms_changed": false,
+  "old_verifier_negative_replay": {
+    "test": "test_nonzero_signed_supply_currents_close",
+    "fixture_dtype": "float64",
+    "tests_run": 1,
+    "observed_assertion_failures": 1,
+    "expected_assertion_failures": 1,
+    "harness_returncode": 0,
+    "meaning": "The new nonzero-current regression rejects the frozen old verifier; harness zero means the expected rejection was observed."
+  },
+  "manufacturer_models_changed": false,
+  "gates_changed": false,
+  "full_system_gates_closed": 0
+}

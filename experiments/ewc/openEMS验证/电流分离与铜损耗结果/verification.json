@@ -1,0 +1,175 @@
+{
+  "current": {
+    "completed_runs": 12,
+    "independent_equation_audit_pass": true,
+    "DFT_max_absolute_A_s_difference": 2.3485338053937054e-25,
+    "partition_max_relative_error": 0.0031587041829307006,
+    "branch_max_relative_error": 0.0031595330884754812,
+    "center_voltage_checks": [
+      {
+        "case": "dx1_ny40_R25_guard0",
+        "guarded_load": false,
+        "dx_mm": 1.0,
+        "center_branch_max_relative_error": 0.053038257019923145,
+        "center_interface_pass": false
+      },
+      {
+        "case": "dx1_ny40_R25_guard1",
+        "guarded_load": true,
+        "dx_mm": 1.0,
+        "center_branch_max_relative_error": 0.017390196731835877,
+        "center_interface_pass": false
+      },
+      {
+        "case": "dx1_ny40_R50_guard0",
+        "guarded_load": false,
+        "dx_mm": 1.0,
+        "center_branch_max_relative_error": 0.051679667209043954,
+        "center_interface_pass": false
+      },
+      {
+        "case": "dx1_ny40_R50_guard1",
+        "guarded_load": true,
+        "dx_mm": 1.0,
+        "center_branch_max_relative_error": 0.009696519070670016,
+        "center_interface_pass": true
+      },
+      {
+        "case": "dx1_ny40_R100_guard0",
+        "guarded_load": false,
+        "dx_mm": 1.0,
+        "center_branch_max_relative_error": 0.05187660694856917,
+        "center_interface_pass": false
+      },
+      {
+        "case": "dx1_ny40_R100_guard1",
+        "guarded_load": true,
+        "dx_mm": 1.0,
+        "center_branch_max_relative_error": 0.0068733936814258665,
+        "center_interface_pass": true
+      },
+      {
+        "case": "dx0.5_ny40_R25_guard0",
+        "guarded_load": false,
+        "dx_mm": 0.5,
+        "center_branch_max_relative_error": 0.04992136109646151,
+        "center_interface_pass": false
+      },
+      {
+        "case": "dx0.5_ny40_R25_guard1",
+        "guarded_load": true,
+        "dx_mm": 0.5,
+        "center_branch_max_relative_error": 0.008684650095082586,
+        "center_interface_pass": true
+      },
+      {
+        "case": "dx0.5_ny40_R50_guard0",
+        "guarded_load": false,
+        "dx_mm": 0.5,
+        "center_branch_max_relative_error": 0.04961165934458554,
+        "center_interface_pass": false
+      },
+      {
+        "case": "dx0.5_ny40_R50_guard1",
+        "guarded_load": true,
+        "dx_mm": 0.5,
+        "center_branch_max_relative_error": 0.0048309228011715255,
+        "center_interface_pass": true
+      },
+      {
+        "case": "dx0.5_ny40_R100_guard0",
+        "guarded_load": false,
+        "dx_mm": 0.5,
+        "center_branch_max_relative_error": 0.049758281246219505,
+        "center_interface_pass": false
+      },
+      {
+        "case": "dx0.5_ny40_R100_guard1",
+        "guarded_load": true,
+        "dx_mm": 0.5,
+        "center_branch_max_relative_error": 0.003409787657834936,
+        "center_interface_pass": true
+      }
+    ]
+  },
+  "copper_sheet": {
+    "completed_runs": 12,
+    "DFT_max_impedance_difference_ohm": 6.243241470127527e-14,
+    "real_only_parameter_fit_confirmed": true,
+    "source_commit": "92cd92a8d924c78a93453c25fa541384c2ac1d0e",
+    "source_not_proven_identical_to_binary": true,
+    "comparisons": [
+      {
+        "case": "dx1_nz8_t2um",
+        "parameter_row": 0,
+        "measured_vs_pinned_rational_max_relative_error": 0.013071525022074126,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.0656031401497657,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.07515572460139737,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.010799839925422106
+      },
+      {
+        "case": "dx1_nz8_t35um",
+        "parameter_row": 7,
+        "measured_vs_pinned_rational_max_relative_error": 0.0024072671288656836,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.32121036400232184,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.3221904770113043,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.007728931156623542
+      },
+      {
+        "case": "dx0.5_nz8_t2um",
+        "parameter_row": 0,
+        "measured_vs_pinned_rational_max_relative_error": 0.004604557833715495,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.0656031401497657,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.06882935777969361,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.004264713411848531
+      },
+      {
+        "case": "dx0.5_nz8_t35um",
+        "parameter_row": 7,
+        "measured_vs_pinned_rational_max_relative_error": 0.0008502342268857955,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.32121036400232184,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.32155493498727405,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.00617766575851153
+      },
+      {
+        "case": "dx1_nz16_t2um",
+        "parameter_row": 0,
+        "measured_vs_pinned_rational_max_relative_error": 0.006004692569796483,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.0656031401497657,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.0698405629693935,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.005354199667719106
+      },
+      {
+        "case": "dx1_nz16_t35um",
+        "parameter_row": 7,
+        "measured_vs_pinned_rational_max_relative_error": 0.001106874751312458,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.32121036400232184,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.3216585945768444,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.006434030095482157
+      },
+      {
+        "case": "dx0.5_nz16_t2um",
+        "parameter_row": 0,
+        "measured_vs_pinned_rational_max_relative_error": 0.003252577785496649,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.0656031401497657,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.06786343502146201,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.003213987629234527
+      },
+      {
+        "case": "dx0.5_nz16_t35um",
+        "parameter_row": 7,
+        "measured_vs_pinned_rational_max_relative_error": 0.0006001072748348854,
+        "rational_vs_exact_sheet_max_relative_complex_error": 0.32121036400232184,
+        "measured_vs_exact_sheet_max_relative_complex_error": 0.321453153191582,
+        "measured_vs_exact_sheet_max_relative_real_error": 0.005928488163145396
+      }
+    ],
+    "complex_surface_impedance_1percent_pass": false,
+    "thick_cavity_wall_pass": false
+  },
+  "full_joint_simulation_complete": false,
+  "offline_unit_tests": {
+    "returncode": 0,
+    "log": "......\r\n----------------------------------------------------------------------\r\nRan 6 tests in 0.038s\r\n\r\nOK\r\n"
+  }
+}

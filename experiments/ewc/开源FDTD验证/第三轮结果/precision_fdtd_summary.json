@@ -1,0 +1,111 @@
+{
+  "solver": "flaport/fdtd 0.3.5",
+  "new_direct_runs": 18,
+  "scope": "New finite-Gaussian-line-source 2D model; not identical to old point-source model.",
+  "source_sigma_mm": 5,
+  "source_half_extent_mm": 20,
+  "material_rectangle_mm": [
+    60,
+    100,
+    35,
+    65
+  ],
+  "epsilon_r": 2.1,
+  "field_units": "Normalized solver fields, not calibrated V/m or watts",
+  "source_sampling": "Physical current sampled at time midpoints; recorded E at completed time steps.",
+  "grids_mm": [
+    5,
+    2.5,
+    1.25,
+    0.625
+  ],
+  "richardson": [
+    {
+      "coarse_mm": 5,
+      "medium_mm": 2.5,
+      "fine_mm": 1.25,
+      "monotonic": false,
+      "observed_order": 0.012940337350836278,
+      "eligible": false,
+      "extrapolated_magnitude": null,
+      "fine_GCI_fraction": null,
+      "meaning": "Conditional Richardson estimate, not a proven error bound."
+    },
+    {
+      "coarse_mm": 2.5,
+      "medium_mm": 1.25,
+      "fine_mm": 0.625,
+      "monotonic": true,
+      "observed_order": 1.5827750825963622,
+      "eligible": true,
+      "extrapolated_magnitude": 0.1754082407277922,
+      "fine_GCI_fraction": 3.54121398059397e-05,
+      "meaning": "Conditional Richardson estimate, not a proven error bound."
+    }
+  ],
+  "grid_changes": [
+    {
+      "coarse_mm": 5,
+      "fine_mm": 2.5,
+      "relative_full_waveform_change": 0.0508427633893512,
+      "relative_complex_coefficient_change": 0.019101344391003847
+    },
+    {
+      "coarse_mm": 2.5,
+      "fine_mm": 1.25,
+      "relative_full_waveform_change": 0.02000315618634477,
+      "relative_complex_coefficient_change": 0.004919824283313509
+    },
+    {
+      "coarse_mm": 1.25,
+      "fine_mm": 0.625,
+      "relative_full_waveform_change": 0.010504669043470331,
+      "relative_complex_coefficient_change": 0.0012041146314660184
+    }
+  ],
+  "fixed_grid_time_refinement_relative_complex_change": 0.0028254303131004695,
+  "direct_arithmetic": [
+    {
+      "operation": "add",
+      "A": 15,
+      "B": 15,
+      "coordinate": 29.999999999999996,
+      "target": 30,
+      "absolute_error": 3.552713678800501e-15,
+      "correct": true
+    },
+    {
+      "operation": "add",
+      "A": 5,
+      "B": 3,
+      "coordinate": 8.0,
+      "target": 8,
+      "absolute_error": 0.0,
+      "correct": true
+    },
+    {
+      "operation": "subtract",
+      "A": 15,
+      "B": 15,
+      "coordinate": 6.314872166773664e-16,
+      "target": 0,
+      "absolute_error": 6.314872166773664e-16,
+      "correct": true
+    },
+    {
+      "operation": "subtract",
+      "A": 5,
+      "B": 3,
+      "coordinate": 2.0,
+      "target": 2,
+      "absolute_error": 0.0,
+      "correct": true
+    }
+  ],
+  "matched_phase_quadrature_eta": 0.011323609953409905,
+  "positive_phase_boundary_degrees": 15.497739907168032,
+  "negative_phase_boundary_degrees": -14.200205245329514,
+  "ideal_quadrature_zero_phase_bound_degrees": 14.835111581975733,
+  "only_B_gain_strict_bound_percent": 3.3333333333333335,
+  "common_A_B_gain_strict_bound_percent": 1.6666666666666667
+}

@@ -1,0 +1,127 @@
+{
+  "method": "independent finite six-face PEC integral Maxwell baseline",
+  "selected_eigenmode_solves": 24,
+  "forced_transient_cases": 2,
+  "cases": [
+    {
+      "case": "pec_4x3x2",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "active_edges": 29,
+      "faces": 98,
+      "mode_count": 6,
+      "frequency_relative_error": [
+        0.039534102595936704,
+        0.0902113985057802,
+        0.08490995937241697,
+        0.07798620224910446,
+        0.15883482898967216,
+        0.07918027269793337
+      ],
+      "all_selected_modes_1percent_pass": false,
+      "file": "pec_4x3x2.npz",
+      "sha256": "b0c183d5b60ac5a422b5c3cba2a8a8e00755c0812ea80360d407e8b9dea0ccab"
+    },
+    {
+      "case": "pec_8x5x3",
+      "shape": [
+        8,
+        5,
+        3
+      ],
+      "active_edges": 218,
+      "faces": 439,
+      "mode_count": 6,
+      "frequency_relative_error": [
+        0.013561803032934416,
+        0.0402202360580749,
+        0.03738946848561686,
+        0.021929108295365207,
+        0.059196485638327245,
+        0.03444444739711172
+      ],
+      "all_selected_modes_1percent_pass": false,
+      "file": "pec_8x5x3.npz",
+      "sha256": "244cd7d0e32ce0f93780ec7f32d38000185fef624d2879d552ca4d22992df0b0"
+    },
+    {
+      "case": "pec_16x10x6",
+      "shape": [
+        16,
+        10,
+        6
+      ],
+      "active_edges": 2280,
+      "faces": 3196,
+      "mode_count": 6,
+      "frequency_relative_error": [
+        0.003403917663563516,
+        0.01017328581780963,
+        0.009452654859371634,
+        0.005512655527666888,
+        0.015045977777837005,
+        0.008714662718488086
+      ],
+      "all_selected_modes_1percent_pass": false,
+      "file": "pec_16x10x6.npz",
+      "sha256": "28326598611889ffe8a4ae60a58ac8c08dad408eebc44521508b052fd65b1b23"
+    },
+    {
+      "case": "pec_24x15x9",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "active_edges": 8346,
+      "faces": 10431,
+      "mode_count": 6,
+      "frequency_relative_error": [
+        0.0015139626139791806,
+        0.0045312285500660465,
+        0.004209886368232718,
+        0.0024525769334607928,
+        0.006707534584015851,
+        0.003881743181344266
+      ],
+      "all_selected_modes_1percent_pass": true,
+      "file": "pec_24x15x9.npz",
+      "sha256": "330756c63d0a2df2b34ded050d1b7c52cbf27baaa9601a330fdcc90e0a1a40e1"
+    },
+    {
+      "case": "forced_pec_dt5ps",
+      "shape": [
+        8,
+        5,
+        3
+      ],
+      "steps": 1600,
+      "file": "forced_pec_dt5ps.npz",
+      "sha256": "bfd706d613b129152c885ca2d3e26c727a9cfffa8c9f9cfda03b44671b35000c",
+      "transient_physical_accuracy_verified": false
+    },
+    {
+      "case": "forced_pec_dt20ps",
+      "shape": [
+        8,
+        5,
+        3
+      ],
+      "steps": 400,
+      "file": "forced_pec_dt20ps.npz",
+      "sha256": "676ee51ad95ad4e48be8c6e1e6cb0569e5fa230278aa35561c95068697519ff9",
+      "transient_physical_accuracy_verified": false
+    }
+  ],
+  "source_sha256": {
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+    "run_finite_pec_cavity.py": "a99aaa41bd8be48f52d315ed773ec61edd66e9a0bf091941e033e855d9107216"
+  },
+  "copper_boundary_complete": false,
+  "copper_cavity_Q_complete": false,
+  "PEC_surface_charge_complete": false,
+  "full_joint_simulation_complete": false
+}

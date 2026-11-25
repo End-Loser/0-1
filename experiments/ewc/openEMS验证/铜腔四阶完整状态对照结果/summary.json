@@ -1,0 +1,293 @@
+{
+  "status": "solver_complete_unverified",
+  "cases": [
+    {
+      "case": "111_loss0",
+      "initial_seed": 1,
+      "dt_s": 2e-11,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [],
+      "file": "111_loss0_20ps.npz",
+      "sha256": "b686ff3a8fa7f7229bc8c17dff1f7426a18e2d6a319acc1df36644ef9af1c6a7",
+      "stepping_seconds": 87.48602230008692
+    },
+    {
+      "case": "111_loss0",
+      "initial_seed": 1,
+      "dt_s": 1e-11,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [],
+      "file": "111_loss0_10ps.npz",
+      "sha256": "d9e5dd355972c855309cb357b0ae220fdd83f2fff747b6d5d0e6757c5cf19e36",
+      "stepping_seconds": 138.48785339994356
+    },
+    {
+      "case": "111_loss0",
+      "initial_seed": 1,
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [],
+      "file": "111_loss0_5ps.npz",
+      "sha256": "e701b8f35fdfad28918e5c2eb28353b5d895561a3be166a9bbd6bee801f31432",
+      "stepping_seconds": 256.9970473999856
+    },
+    {
+      "case": "111_loss1",
+      "initial_seed": 2,
+      "dt_s": 2e-11,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [],
+      "file": "111_loss1_20ps.npz",
+      "sha256": "c2027ff566108af3b6de80016dd25f58fa4eceb574ae76ee8f017ad4edf9b1d3",
+      "stepping_seconds": 100.07875110011082
+    },
+    {
+      "case": "111_loss1",
+      "initial_seed": 2,
+      "dt_s": 1e-11,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [],
+      "file": "111_loss1_10ps.npz",
+      "sha256": "ada4cc07a72a79828ac1af8d3e39ee07166e87ebde7357abdce448789645a703",
+      "stepping_seconds": 167.80400460003875
+    },
+    {
+      "case": "111_loss1",
+      "initial_seed": 2,
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [],
+      "file": "111_loss1_5ps.npz",
+      "sha256": "f04c1a91a311623b9ebce3b38ee149b4599956ad5a3ed7beed29281eb6741256",
+      "stepping_seconds": 259.98350109998137
+    },
+    {
+      "case": "mixed_history",
+      "initial_seed": null,
+      "dt_s": 2e-11,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [
+        {
+          "mode": 0,
+          "start_s": 5e-10,
+          "end_s": 2.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.0
+        },
+        {
+          "mode": 1,
+          "start_s": 2e-09,
+          "end_s": 4e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.3
+        },
+        {
+          "mode": 2,
+          "start_s": 3.5e-09,
+          "end_s": 5.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 1.1
+        },
+        {
+          "mode": 0,
+          "start_s": 6e-09,
+          "end_s": 8e-09,
+          "amplitude": -800000000.0,
+          "phase_rad": 0.7
+        },
+        {
+          "mode": 1,
+          "start_s": 7.5e-09,
+          "end_s": 1e-08,
+          "amplitude": 900000000.0,
+          "phase_rad": 2.0
+        },
+        {
+          "mode": 2,
+          "start_s": 9.5e-09,
+          "end_s": 1.2e-08,
+          "amplitude": -1000000000.0,
+          "phase_rad": 0.2
+        }
+      ],
+      "file": "mixed_history_20ps.npz",
+      "sha256": "bbf34db2b2d68379985e839534ddca35cb669079ca7c0adef739292428cd0158",
+      "stepping_seconds": 89.44310739997309
+    },
+    {
+      "case": "mixed_history",
+      "initial_seed": null,
+      "dt_s": 1e-11,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [
+        {
+          "mode": 0,
+          "start_s": 5e-10,
+          "end_s": 2.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.0
+        },
+        {
+          "mode": 1,
+          "start_s": 2e-09,
+          "end_s": 4e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.3
+        },
+        {
+          "mode": 2,
+          "start_s": 3.5e-09,
+          "end_s": 5.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 1.1
+        },
+        {
+          "mode": 0,
+          "start_s": 6e-09,
+          "end_s": 8e-09,
+          "amplitude": -800000000.0,
+          "phase_rad": 0.7
+        },
+        {
+          "mode": 1,
+          "start_s": 7.5e-09,
+          "end_s": 1e-08,
+          "amplitude": 900000000.0,
+          "phase_rad": 2.0
+        },
+        {
+          "mode": 2,
+          "start_s": 9.5e-09,
+          "end_s": 1.2e-08,
+          "amplitude": -1000000000.0,
+          "phase_rad": 0.2
+        }
+      ],
+      "file": "mixed_history_10ps.npz",
+      "sha256": "02f688361cf0864939329256f560e8a6851c3c834ce7bbb2557beb97224b7b38",
+      "stepping_seconds": 139.56620930007193
+    },
+    {
+      "case": "mixed_history",
+      "initial_seed": null,
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "pulses": [
+        {
+          "mode": 0,
+          "start_s": 5e-10,
+          "end_s": 2.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.0
+        },
+        {
+          "mode": 1,
+          "start_s": 2e-09,
+          "end_s": 4e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.3
+        },
+        {
+          "mode": 2,
+          "start_s": 3.5e-09,
+          "end_s": 5.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 1.1
+        },
+        {
+          "mode": 0,
+          "start_s": 6e-09,
+          "end_s": 8e-09,
+          "amplitude": -800000000.0,
+          "phase_rad": 0.7
+        },
+        {
+          "mode": 1,
+          "start_s": 7.5e-09,
+          "end_s": 1e-08,
+          "amplitude": 900000000.0,
+          "phase_rad": 2.0
+        },
+        {
+          "mode": 2,
+          "start_s": 9.5e-09,
+          "end_s": 1.2e-08,
+          "amplitude": -1000000000.0,
+          "phase_rad": 0.2
+        }
+      ],
+      "file": "mixed_history_5ps.npz",
+      "sha256": "a9fa22f1ed8ff6b2df4e380db4671cf3b8e517dd2abf5b981e26ab36fd770cac",
+      "stepping_seconds": 299.49980739993043
+    }
+  ],
+  "preflight": [
+    {
+      "duration_s": 8e-11,
+      "steps": 8,
+      "file": "preflight_0.npz",
+      "sha256": "4978d91c4b32b819e54f4e4969a5551e2fc6e842ca0c9aa0ca1bd4f9de5e8e45",
+      "reported_full_state_error": 0.10738672673108005
+    },
+    {
+      "duration_s": 8e-11,
+      "steps": 16,
+      "file": "preflight_1.npz",
+      "sha256": "20d530325c6137a92a2cdda26eeef612c31da0de5b4488642f107a7584e4e0b2",
+      "reported_full_state_error": 0.06361972461773763
+    },
+    {
+      "duration_s": 8e-11,
+      "steps": 32,
+      "file": "preflight_2.npz",
+      "sha256": "a5b3e224e29067b8e24356dda131eea3ff485f5554b95bc6d12b01fbd52fced5",
+      "reported_full_state_error": 0.014260235171723958
+    },
+    {
+      "duration_s": 1e-14,
+      "steps": 2,
+      "file": "preflight_3.npz",
+      "sha256": "da4bc6a8a0afb88b66761b78b7a4e79e59efdc21a1e914e87a3ec4ed47eaf15d",
+      "reported_full_state_error": 2.258782452926668e-06
+    },
+    {
+      "duration_s": 1e-14,
+      "steps": 4,
+      "file": "preflight_4.npz",
+      "sha256": "0eb4da3b2c24080dacbf03c568941f8d70617488c15805bef414a1e545231774",
+      "reported_full_state_error": 1.3941154826990361e-07
+    },
+    {
+      "duration_s": 1e-14,
+      "steps": 8,
+      "file": "preflight_5.npz",
+      "sha256": "454ddfb1c7b93a173897ca5cbebb99fe48642d4b316f8cfe25f3ac3b37a7cda9",
+      "reported_full_state_error": 8.685773855307372e-09
+    }
+  ],
+  "configuration_sha256": "aa02cee6bdcf6b09ab8cdb1a22ade14b2e80443ab4c533062ce9a6b06aa85d85",
+  "source_sha256": {
+    "run_copper_gauss_validation.py": "426d31e43e84f821e36f66f680baf1ebe77a2f3716cb8fa935171ed2da10383e",
+    "copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+    "test_copper_gauss_legendre.py": "e80f340a38bb9755c1dd8d5d8d8fea0001ef66b282ad0d64c35f5f72ae02cf99",
+    "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+    "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "general_initial_state_approved": false,
+  "full_long_history_passed": false,
+  "actual_feed_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0
+}

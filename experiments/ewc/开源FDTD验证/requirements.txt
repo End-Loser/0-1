@@ -1,0 +1,5 @@
+fdtd==0.3.5
+ahkab==0.18
+numpy==1.26.4
+scipy==1.17.1
+matplotlib==3.10.8

@@ -1,0 +1,129 @@
+{
+  "scope": "linearity and band prediction of the measured 2x2 cavity operator",
+  "limitation": "modal-projection ports, not physical 50 ohm connectors",
+  "source_sha256": {
+    "run_operator_prediction.py": "63eab2039f5d585794d21ce1bae7e6dab191284269b76e9763bee4e6fa3a1c22",
+    "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248"
+  },
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "frequencies_Hz": [
+        3048030250.933321,
+        3048218841.6305456,
+        3048407432.3277707,
+        3048596023.024996,
+        3048784613.7222204
+      ],
+      "operator_norm": 1.3436064637155478e-06,
+      "condition_numbers": [
+        1.0347101602742927,
+        1.0446539997967492,
+        1.1960880737490764,
+        1.1271183495975594,
+        1.0578578343699723
+      ],
+      "linearity_error": 6.838118372696501e-15,
+      "leave_one_out": [
+        {
+          "frequency_Hz": 3048030250.933321,
+          "error": 7.354580265640464e-05
+        },
+        {
+          "frequency_Hz": 3048218841.6305456,
+          "error": 3.856288190568465e-05
+        },
+        {
+          "frequency_Hz": 3048407432.3277707,
+          "error": 0.00017681735946987502
+        },
+        {
+          "frequency_Hz": 3048596023.024996,
+          "error": 4.2944899544241125e-05
+        },
+        {
+          "frequency_Hz": 3048784613.7222204,
+          "error": 7.781909966679749e-05
+        }
+      ],
+      "max_leave_one_out_error": 0.00017681735946987502,
+      "central_extrapolation": [
+        {
+          "frequency_Hz": 3048030250.933321,
+          "error": 4.9032988677157376e-05
+        },
+        {
+          "frequency_Hz": 3048784613.7222204,
+          "error": 5.1876875653726635e-05
+        }
+      ],
+      "max_extrapolation_error": 5.1876875653726635e-05,
+      "fitted_model_band_error": 0.00011943949148978232,
+      "passed": true
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "frequencies_Hz": [
+        3054971684.6665506,
+        3055160704.850926,
+        3055349725.0353017,
+        3055538745.2196774,
+        3055727765.4040527
+      ],
+      "operator_norm": 1.3280221197036001e-06,
+      "condition_numbers": [
+        1.0353074786099183,
+        1.0449821175729346,
+        1.2017488574527626,
+        1.1289874559627717,
+        1.0589135491837087
+      ],
+      "linearity_error": 6.030541485633296e-14,
+      "leave_one_out": [
+        {
+          "frequency_Hz": 3054971684.6665506,
+          "error": 7.368575122292173e-05
+        },
+        {
+          "frequency_Hz": 3055160704.850926,
+          "error": 3.8653958551308244e-05
+        },
+        {
+          "frequency_Hz": 3055349725.0353017,
+          "error": 0.0001753038864747078
+        },
+        {
+          "frequency_Hz": 3055538745.2196774,
+          "error": 4.267734617174055e-05
+        },
+        {
+          "frequency_Hz": 3055727765.4040527,
+          "error": 7.758514033240009e-05
+        }
+      ],
+      "max_leave_one_out_error": 0.0001753038864747078,
+      "central_extrapolation": [
+        {
+          "frequency_Hz": 3054971684.6665506,
+          "error": 4.912632112953466e-05
+        },
+        {
+          "frequency_Hz": 3055727765.4040527,
+          "error": 5.172087117489762e-05
+        }
+      ],
+      "max_extrapolation_error": 5.172087117489762e-05,
+      "fitted_model_band_error": 0.00011818499793798293,
+      "passed": true
+    }
+  ]
+}

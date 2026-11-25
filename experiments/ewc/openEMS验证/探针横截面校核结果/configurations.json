@@ -1,0 +1,46 @@
+[
+  {
+    "shape": [
+      24,
+      15,
+      9
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "sides": [
+      1,
+      2,
+      3
+    ],
+    "post_target_height_m": 0.03,
+    "matched_cells": 4,
+    "terms": 64,
+    "reference_impedance_ohm": 50.0,
+    "scan_points": 5
+  },
+  {
+    "shape": [
+      36,
+      23,
+      14
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "sides": [
+      1,
+      2,
+      3
+    ],
+    "post_target_height_m": 0.03,
+    "matched_cells": 4,
+    "terms": 64,
+    "reference_impedance_ohm": 50.0,
+    "scan_points": 5
+  }
+]

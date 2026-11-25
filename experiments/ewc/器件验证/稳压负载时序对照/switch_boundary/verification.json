@@ -1,0 +1,63 @@
+{
+  "runs": [
+    {
+      "id": "negative",
+      "control_V": -0.001,
+      "output_V": 3.2999999967,
+      "inferred_switch_resistance_ohm": 9.999999535864868e-07,
+      "load_kcl_residual_A": 1.4581392950713257e-11,
+      "expanded_model": "XSPICE pswitch",
+      "simulator_default_temperature_C": 27,
+      "physical_device_or_supported_pspice_claim": false
+    },
+    {
+      "id": "zero",
+      "control_V": 0.0,
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "load_kcl_residual_A": 8.470329472543003e-22,
+      "expanded_model": "XSPICE pswitch",
+      "simulator_default_temperature_C": 27,
+      "physical_device_or_supported_pspice_claim": false
+    },
+    {
+      "id": "positive_near_zero",
+      "control_V": 1e-09,
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "load_kcl_residual_A": 8.470329472543003e-22,
+      "expanded_model": "XSPICE pswitch",
+      "simulator_default_temperature_C": 27,
+      "physical_device_or_supported_pspice_claim": false
+    },
+    {
+      "id": "on_threshold",
+      "control_V": 0.001,
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "load_kcl_residual_A": 8.470329472543003e-22,
+      "expanded_model": "XSPICE pswitch",
+      "simulator_default_temperature_C": 27,
+      "physical_device_or_supported_pspice_claim": false
+    },
+    {
+      "id": "above_threshold",
+      "control_V": 0.002,
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "load_kcl_residual_A": 8.470329472543003e-22,
+      "expanded_model": "XSPICE pswitch",
+      "simulator_default_temperature_C": 27,
+      "physical_device_or_supported_pspice_claim": false
+    }
+  ],
+  "evidence_integrity_passed": true,
+  "zero_control_high_resistance_observed": true,
+  "negative_control_low_resistance_observed": true,
+  "scope": "isolated_switch_endpoint_in_ngspice47_ps_mode_not_full_LDO_root_cause",
+  "supported_pspice_verified": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "summary_sha256": "0d88300d6c34ac238789d03e3ffb95c798f296812a7864aa769f0d5c2ab3b94a",
+  "verifier_sha256": "ea99c9a544100c0e99752d829f0793605388da8b40be2467e74f79e99143eee1"
+}

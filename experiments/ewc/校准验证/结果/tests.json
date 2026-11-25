@@ -1,0 +1,10 @@
+{
+  "tests_run": 31,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "numeric_control_mutations": 8,
+  "hash_mutations": 1,
+  "system_claim_mutations": 1
+}

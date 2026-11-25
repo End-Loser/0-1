@@ -1,0 +1,124 @@
+{
+  "case": "combined_timing_probe_107_euler_20ns_200ps_trap",
+  "profile": "combined",
+  "scope": "timing_probe",
+  "tag": "107_euler",
+  "errors": [
+    0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 20,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "6f5617a98ee4dbeae6d16897b305f305a4648b52a069db692f5fc7e3b5613790",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.3e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.3e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.3e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 14911,
+  "unique_points": 14911,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 87,
+  "sample_passed": 106,
+  "minimum_late_margin_V": -2.099987202011847,
+  "worst_slot": {
+    "slot": 41,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.099987202011847
+  },
+  "first_bad": {
+    "slot": 3,
+    "state": "000",
+    "channel": "sum",
+    "sample_error6": 0.01,
+    "slot_start_ns": 60.00000000000001
+  },
+  "max_settling_ns": 17.470029123772804,
+  "unsettled": 24,
+  "energy_J": 8.254989183295086e-09,
+  "power_W": 0.006349991679457758,
+  "energy_per_slot_J": 1.2699983358915518e-10,
+  "warning": false
+}

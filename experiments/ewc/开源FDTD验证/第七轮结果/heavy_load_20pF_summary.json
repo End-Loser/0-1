@@ -1,0 +1,25 @@
+{
+  "scenario": "heavy_load_20pF",
+  "wave_scenario": "nominal",
+  "parameters": {
+    "capacitance": 2e-11
+  },
+  "slot_ns": 40,
+  "dt_ps": 100,
+  "supply_V": 3.3,
+  "capacitance_F": 2e-11,
+  "method": "trap",
+  "state_slots": 65,
+  "covered_directed_transitions": 64,
+  "decisions": 130,
+  "passed_decisions": 130,
+  "sample_passed_decisions": 130,
+  "unsettled_decisions": 0,
+  "max_observed_settling_s": 2.6697569999999967e-08,
+  "unchanged_expected_excursions": 6,
+  "duration_s": 2.6e-06,
+  "supply_energy_J": 1.0892873706247725e-08,
+  "mean_supply_power_W": 0.004189566810095279,
+  "peak_supply_power_W": 0.059818097790000004,
+  "solver_log_mentions_warning": false
+}

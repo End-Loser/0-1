@@ -1,0 +1,19 @@
+{
+  "scope": "Original PDF table views; not material or system acceptance",
+  "source_url": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/advanced-electronics-solutions/english/properties---detailed-characteristics/copper-foils-for-high-frequency-circuit-materials.pdf",
+  "pdf_sha256": "efb862793ca3262e88e6fa447a9b7af6c91b7aecbd5ae89363f2a4436e89fc66",
+  "snapshot_sha256": "6a0d03365e8b13836195896698acb1e061f4b1b83413a901f3715b094e2704d3",
+  "source_manifest_sha256": "9adb2e2b7eb4fd44e6df4415d3aa254d87e0162a7f4df8c138ccd951276cb0b4",
+  "renderer_sha256": "1868ff9d1eaa91e447dbecfa3a6acd6d0fa3c35cbc8413ed6bbedd9061b89594",
+  "render_scale": 3,
+  "images_sha256": {
+    "S03_page_3.png": "97f1d4e9b46bbd2a71220bd2bbef5c7c7a0db0d5ef8901f8ac08a0c79861dc9e",
+    "S03_page_4.png": "78da6aa5726ad7393ea1f8dc1b4cc21ffe7055ad4ada3999263012fe2d7cc6f8",
+    "S03_page_7.png": "b85fa5b29597f8e0dcffa2bb8e7265eb600de71881ae0b8587eea33f3565cdd2",
+    "S03_page_8.png": "2070d89d20069e198627df9c481143111281423cf52974d8e4427fdea1ed8461"
+  },
+  "original_pdf_download_repeated": false,
+  "original_text_modified": false,
+  "G2_closed": false,
+  "full_system_gates_closed": 0
+}

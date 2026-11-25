@@ -1,0 +1,152 @@
+{
+  "solver": "flaport/fdtd",
+  "solver_version": "0.3.5",
+  "solver_license": "MIT",
+  "solver_url": "https://github.com/flaport/fdtd",
+  "solver_module": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\fdtd-package\\fdtd\\__init__.py",
+  "scope": "2D TMz only, not a 3D cavity or a material-specific digital twin",
+  "direct_fdtd_runs": 272,
+  "addition_direct_cases": 256,
+  "addition_correct": 256,
+  "max_coordinate_absolute_error": 1.4210854715202004e-14,
+  "max_direct_superposition_error": 1.3307593617905715e-15,
+  "mirror_source_response_error": 0.0,
+  "repeat_same_initial_state_error": 0.0,
+  "geometry_mm": [
+    160,
+    100
+  ],
+  "epsilon_r_block": 2.1,
+  "material_loss": 0,
+  "boundary": "Ez=0 frozen perimeter, PEC in invariant 2D TMz",
+  "receiver_quantity": "Ez in normalized solver field units, no antenna load",
+  "source_model": "Ideal soft point source, amplitude A/15 or B/15",
+  "operator_amplitude_codes": {
+    "add": 0.25,
+    "subtract": 0.5,
+    "multiply": 0.75,
+    "divide": 1.0
+  },
+  "duration_ns": 5,
+  "source_frequency_Hz": 3000000000.0,
+  "actual_discrete_source_frequency_Hz": 3000000000.0,
+  "coarse_grid_shape": [
+    33,
+    21,
+    1
+  ],
+  "coarse_dt_s": 1.1111111111111111e-11,
+  "receiver_samples": 450,
+  "collisions": [
+    {
+      "operator": "subtract",
+      "input_1": "(5, 3)",
+      "input_2": "(4, 4)",
+      "correct_answer_1": 2,
+      "correct_answer_2": 0,
+      "relative_complete_waveform_difference": 5.890813987968698e-16,
+      "below_1e_minus_10": true
+    },
+    {
+      "operator": "multiply",
+      "input_1": "(1, 4)",
+      "input_2": "(2, 3)",
+      "correct_answer_1": 4,
+      "correct_answer_2": 6,
+      "relative_complete_waveform_difference": 6.637024182649013e-16,
+      "below_1e_minus_10": true
+    },
+    {
+      "operator": "divide",
+      "input_1": "(6, 2)",
+      "input_2": "(4, 4)",
+      "correct_answer_1": 3,
+      "correct_answer_2": 1,
+      "relative_complete_waveform_difference": 6.719672598586993e-16,
+      "below_1e_minus_10": true
+    }
+  ],
+  "noise": [
+    {
+      "sigma_result_levels": 0,
+      "trials": 25600,
+      "accuracy": 1.0,
+      "model": "Gaussian receiver coordinate noise, not full-wave material noise"
+    },
+    {
+      "sigma_result_levels": 0.05,
+      "trials": 25600,
+      "accuracy": 1.0,
+      "model": "Gaussian receiver coordinate noise, not full-wave material noise"
+    },
+    {
+      "sigma_result_levels": 0.1,
+      "trials": 25600,
+      "accuracy": 1.0,
+      "model": "Gaussian receiver coordinate noise, not full-wave material noise"
+    },
+    {
+      "sigma_result_levels": 0.2,
+      "trials": 25600,
+      "accuracy": 0.9889453125,
+      "model": "Gaussian receiver coordinate noise, not full-wave material noise"
+    },
+    {
+      "sigma_result_levels": 0.5,
+      "trials": 25600,
+      "accuracy": 0.6851171875,
+      "model": "Gaussian receiver coordinate noise, not full-wave material noise"
+    },
+    {
+      "sigma_result_levels": 1,
+      "trials": 25600,
+      "accuracy": 0.3840625,
+      "model": "Gaussian receiver coordinate noise, not full-wave material noise"
+    }
+  ],
+  "empty_cavity_benchmarks": [
+    {
+      "dx_mm": 5,
+      "analytic_empty_cavity_f11_Hz": 1767647745.190545,
+      "discrete_dispersion_f11_Hz": 1767262709.4158828,
+      "relative_dispersion_error": 0.00021782381456370015,
+      "upstream_fdtd_fitted_f11_Hz": 1767262709.7627747,
+      "fdtd_vs_analytic_relative_error": 0.00021782361831879093,
+      "fdtd_vs_discrete_relative_error": 1.962876527983326e-10
+    },
+    {
+      "dx_mm": 2.5,
+      "analytic_empty_cavity_f11_Hz": 1767647745.190545,
+      "discrete_dispersion_f11_Hz": 1767551570.452415,
+      "relative_dispersion_error": 5.440831658443113e-05,
+      "upstream_fdtd_fitted_f11_Hz": 1767551567.3822033,
+      "fdtd_vs_analytic_relative_error": 5.441005347550654e-05,
+      "fdtd_vs_discrete_relative_error": 1.7369856664117833e-09
+    },
+    {
+      "dx_mm": 1.25,
+      "analytic_empty_cavity_f11_Hz": 1767647745.190545,
+      "discrete_dispersion_f11_Hz": 1767623706.7633173,
+      "relative_dispersion_error": 1.359910496490091e-05,
+      "upstream_fdtd_fitted_f11_Hz": 1767623702.6900477,
+      "fdtd_vs_analytic_relative_error": 1.360140930950493e-05,
+      "fdtd_vs_discrete_relative_error": 2.304376023332111e-09
+    }
+  ],
+  "mesh_check": {
+    "coarse_dx_mm": 5,
+    "fine_dx_mm": 2.5,
+    "relative_time_waveform_change": 0.13225826141702549,
+    "fine_add_5_3_coordinate": 7.999999999999999,
+    "fine_add_5_3_decoded": 8,
+    "warning": "Two grids, point source and staircased material; not convergence proof."
+  },
+  "dependency_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "fdtd": "0.3.5"
+  },
+  "openEMS_status": "Official archive verified; Windows application control blocked execution.",
+  "openEMS_archive_sha256": "e4f14fd6e9be7d0c1fd9c244768c21c1c2b62b8aa81f08253ebf6e06040cda5a"
+}

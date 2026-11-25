@@ -1,0 +1,35 @@
+﻿{
+    "timestamp":  "2026-11-18T09:23:25.5640498+08:00",
+    "user_authorization":  "Inspect logs only; do not restore",
+    "missing_path":  "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe",
+    "expected_sha256":  "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+    "present":  false,
+    "cause_proven":  false,
+    "query_window_start":  "2026-11-18T06:23:25.4104527+08:00",
+    "security_queries":  [
+                             {
+                                 "log":  "Microsoft-Windows-Windows Defender/Operational",
+                                 "status":  "query_error_or_no_events",
+                                 "error_id":  "NoMatchingEventsFound,Microsoft.PowerShell.Commands.GetWinEventCommand",
+                                 "error_message":  "找不到任何与指定的选择条件匹配的事件。",
+                                 "matching_events":  [
+
+                                                     ]
+                             },
+                             {
+                                 "log":  "Microsoft-Windows-CodeIntegrity/Operational",
+                                 "status":  "query_error_or_no_events",
+                                 "error_id":  "NoMatchingEventsFound,Microsoft.PowerShell.Commands.GetWinEventCommand",
+                                 "error_message":  "找不到任何与指定的选择条件匹配的事件。",
+                                 "matching_events":  [
+
+                                                     ]
+                             }
+                         ],
+    "archived_continuation_runs":  20,
+    "full_verifier_passed":  false,
+    "original_file_restored":  false,
+    "security_policy_changed":  false,
+    "file_executed":  false,
+    "goal_complete":  false
+}

@@ -1,0 +1,239 @@
+{
+  "scope": "standalone_typical_supply_screens",
+  "runs": [
+    {
+      "id": "ref_6V_2mA",
+      "kind": "reference",
+      "vin_V": 6,
+      "second_vin_V": 6,
+      "load_A": 0.002,
+      "second_load_A": 0.002,
+      "status": "pass",
+      "returncode": 0,
+      "rows": 5018,
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true
+      },
+      "output_error_V": 0.0024080351818840384,
+      "target_V": 5,
+      "tolerance_V": 0.005,
+      "window_s": [
+        0.004,
+        0.0049
+      ],
+      "minimum_window_vin_V": 5.999860224265673,
+      "mean_upstream_A": 0.002795514686539491,
+      "files_sha256": {
+        "supply_results/ref_6V_2mA/solver.log": "d516f5f6895271a767b3be71a2118b8d7f981efecfccbbde2b01a09e183af933",
+        "supply_results/ref_6V_2mA/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "supply_results/ref_6V_2mA/test.cir": "331fa66247f12b355059270b513f01fee091c4dbe02246ba4b34f6def6581c64",
+        "supply_results/ref_6V_2mA/wave.csv": "dea5600d0f6c1452f12312ea225f2d1a14e8c807e7dcbdb5243fed9ec9aed8c4"
+      }
+    },
+    {
+      "id": "ref_line_step",
+      "kind": "reference",
+      "vin_V": 6,
+      "second_vin_V": 7,
+      "load_A": 0.002,
+      "second_load_A": 0.002,
+      "status": "pass",
+      "returncode": 0,
+      "rows": 5020,
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true
+      },
+      "output_error_V": 0.0024082682924637666,
+      "target_V": 5,
+      "tolerance_V": 0.005,
+      "window_s": [
+        0.004,
+        0.0049
+      ],
+      "minimum_window_vin_V": 6.999860223707046,
+      "mean_upstream_A": 0.002795525859060572,
+      "files_sha256": {
+        "supply_results/ref_line_step/solver.log": "e710ed8201bfb827518f7557a5ce5e7eaeb904918b9220b5b2ff5a0ca12f4a02",
+        "supply_results/ref_line_step/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "supply_results/ref_line_step/test.cir": "cf33257dceeb707587f704809c0c2dbeabc0cba9ec980bace593c572eba952fe",
+        "supply_results/ref_line_step/wave.csv": "b7f3012b17262bf782e851259b33cb0e284ed0ace425851363ad6643bb0ccb77"
+      }
+    },
+    {
+      "id": "ref_load_step",
+      "kind": "reference",
+      "vin_V": 6,
+      "second_vin_V": 6,
+      "load_A": 0.002,
+      "second_load_A": 0.008,
+      "status": "pass",
+      "returncode": 0,
+      "rows": 5018,
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true
+      },
+      "output_error_V": 0.002125311690061693,
+      "target_V": 5,
+      "tolerance_V": 0.005,
+      "window_s": [
+        0.004,
+        0.0049
+      ],
+      "minimum_window_vin_V": 5.999560236753185,
+      "mean_upstream_A": 0.008795264936235536,
+      "files_sha256": {
+        "supply_results/ref_load_step/solver.log": "d516f5f6895271a767b3be71a2118b8d7f981efecfccbbde2b01a09e183af933",
+        "supply_results/ref_load_step/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "supply_results/ref_load_step/test.cir": "3e7076ab1b3ff9820f5f9b2766dc0fdf6cc3ad95b9f954daa8062d364670fa9c",
+        "supply_results/ref_load_step/wave.csv": "d2e3c0af9817e56134e3e7614f4dd730b22570772957b25da9fbb3dd2d47a618"
+      }
+    },
+    {
+      "id": "ref_5V_headroom",
+      "kind": "reference",
+      "vin_V": 5,
+      "second_vin_V": 5,
+      "load_A": 0.002,
+      "second_load_A": 0.002,
+      "status": "fail",
+      "returncode": 0,
+      "rows": 5018,
+      "checks": {
+        "output_screen": false,
+        "input_headroom": false
+      },
+      "output_error_V": 0.11310765294587366,
+      "target_V": 5,
+      "tolerance_V": 0.005,
+      "window_s": [
+        0.004,
+        0.0049
+      ],
+      "minimum_window_vin_V": 4.999860336258751,
+      "mean_upstream_A": 0.002793274824995251,
+      "files_sha256": {
+        "supply_results/ref_5V_headroom/solver.log": "2be10a7078dc8ee20aaa25d83fa1cb0d61b7b76280e5d016668eb917504c9021",
+        "supply_results/ref_5V_headroom/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "supply_results/ref_5V_headroom/test.cir": "3fd03c8b0e71423693936061ea3a5e9cee1ae5ddaac5aecad20fa86f37720080",
+        "supply_results/ref_5V_headroom/wave.csv": "fd85affe63600db0eb75d7e5da4038e88f00c5bd1c9ccbf2a1e9d2b68767f473"
+      }
+    },
+    {
+      "id": "ldo_5V_50mA",
+      "kind": "regulator",
+      "vin_V": 5,
+      "second_vin_V": 5,
+      "load_A": 0.05,
+      "second_load_A": 0.05,
+      "status": "fail",
+      "returncode": 0,
+      "rows": 5246,
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true,
+        "enable_discharge": false
+      },
+      "output_error_V": 0.01241563233560683,
+      "target_V": 3.3,
+      "tolerance_V": 0.0495,
+      "window_s": [
+        0.009,
+        0.0099
+      ],
+      "minimum_window_vin_V": 4.997499548969572,
+      "mean_upstream_A": 0.05000544465291859,
+      "files_sha256": {
+        "supply_results/ldo_5V_50mA/solver.log": "f7292c59815d0bd5629095efcd90860e7f9c3d15fdc12025b462f3bb16314a0f",
+        "supply_results/ldo_5V_50mA/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "supply_results/ldo_5V_50mA/test.cir": "f53fa3ecafa2c54b278b4f94869dba9f7d9a6618105baec00cc10aecd2e8c8b7",
+        "supply_results/ldo_5V_50mA/wave.csv": "fb52c396dd060c1fc91d96019279e33261770f026223511ca4191b74cd8aba5e"
+      }
+    },
+    {
+      "id": "ldo_load_step",
+      "kind": "regulator",
+      "vin_V": 5,
+      "second_vin_V": 5,
+      "load_A": 0.05,
+      "second_load_A": 0.2,
+      "status": "fail",
+      "returncode": 0,
+      "rows": 5264,
+      "checks": {
+        "output_screen": true,
+        "input_headroom": true,
+        "enable_discharge": false
+      },
+      "output_error_V": 0.04686004745545569,
+      "target_V": 3.3,
+      "tolerance_V": 0.0495,
+      "window_s": [
+        0.009,
+        0.0099
+      ],
+      "minimum_window_vin_V": 4.989999550599103,
+      "mean_upstream_A": 0.20000541779731656,
+      "files_sha256": {
+        "supply_results/ldo_load_step/solver.log": "04bedd551181ce811ccad961df12d24c45d35c8edae806a26529aecfce2fe7e0",
+        "supply_results/ldo_load_step/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "supply_results/ldo_load_step/test.cir": "1dedca978e23b8e5ae12d94394b8fe36a9637d173491273a119dec93a1384658",
+        "supply_results/ldo_load_step/wave.csv": "206a5bc51f8b5db53b9fe71c7767519157cc3b1eca4948d1c9ff2afdd562ef91"
+      }
+    },
+    {
+      "id": "ldo_3V3_headroom",
+      "kind": "regulator",
+      "vin_V": 3.3,
+      "second_vin_V": 3.3,
+      "load_A": 0.05,
+      "second_load_A": 0.05,
+      "status": "fail",
+      "returncode": 0,
+      "rows": 5289,
+      "checks": {
+        "output_screen": false,
+        "input_headroom": false,
+        "enable_discharge": false
+      },
+      "output_error_V": 0.08494572796472788,
+      "target_V": 3.3,
+      "tolerance_V": 0.0495,
+      "window_s": [
+        0.009,
+        0.0099
+      ],
+      "minimum_window_vin_V": 3.297499806678711,
+      "mean_upstream_A": 0.050003764470021396,
+      "files_sha256": {
+        "supply_results/ldo_3V3_headroom/solver.log": "28debb2ae69c4be054006497105457d0f9c8e31f83eed7b285fdcda5b5a3dd3e",
+        "supply_results/ldo_3V3_headroom/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "supply_results/ldo_3V3_headroom/test.cir": "76c9b9c2a516a6807b3f7d38010bcbea9f6c9850461c22f069f3c36302a831cd",
+        "supply_results/ldo_3V3_headroom/wave.csv": "01ef44a8e73ec4111c5cc25bb188f0778be295f06f0a8715f9ac88d2d76e6be5"
+      }
+    }
+  ],
+  "original_files_sha256": {
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\REF5050.LIB": "ed2d2602cfee90ae26eb7bf3644a4bcb6ce71f3eba71a7d014c53b87cc20f3ab",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\tps7a20-adj_trans.lib": "154acfdd2199ac44259908b90b07d15bc7e535a45c8c51d1413894c900718b69",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+  },
+  "sources_sha256": "2defe95b8a8f6337c81a1e9b89457ff1bfbf252f7737dfe09a26a80b30455d03",
+  "followup_sha256": "6ce871e0b501fbf9d72f2c16a89d9b9dcec87ffe5224c69af1c5f58164b2c18b",
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_",
+  "model_library_edits": false,
+  "documented_output_selection_V": 3.3,
+  "whole_power_chain_passed": false,
+  "regulator_quiescent_current_modeled": false,
+  "full_temperature_accuracy_passed": false,
+  "runner_sha256": "f43b7dd58385f294ac32e09d81db0d957b23ed53bccd3713c488270e8475e1e0",
+  "execution_revision": {
+    "previous_summary_sha256": "3026abe87cb89a3f1816acb195a25cc81a0c98067fa660e6e4caf2b5ad187c57",
+    "previous_solver_attempts": 7,
+    "initial_issue": "ngspice i(ILOAD) unavailable; simulations completed without exported waveform",
+    "fix": "zero-volt series load-current probe, unchanged original device libraries",
+    "measurement_wrapper_sha256": "7c75d4790d2f6cd27d7c093b41b7cf0463be968afdea9929f13d703cf9d3dafc"
+  }
+}

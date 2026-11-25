@@ -1,0 +1,128 @@
+{
+  "runs": [
+    {
+      "id": "negative",
+      "control_V": -0.001,
+      "returncode": 0,
+      "status": "observed",
+      "output_V": 3.2999999967,
+      "inferred_switch_resistance_ohm": 9.999999535864868e-07,
+      "files_sha256": {
+        "negative/point.csv": "19ab050a0b94cf5f59a7bb5c54de2150d164e5de016600611d5895932b09dfc3",
+        "negative/solver.log": "d93bd690be7767aee839c5cb65ad43aac91a8bda8db6cc443240fe946165e3f4",
+        "negative/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "negative/test.cir": "dd590e07fcb7530bad6dc65dacc307d8175ca1b86e8baa2d30464a4366ddbc39"
+      }
+    },
+    {
+      "id": "zero",
+      "control_V": 0,
+      "returncode": 0,
+      "status": "observed",
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "files_sha256": {
+        "zero/point.csv": "85256717e1d92081387000ca1d3db1e98b06068dee74f0359edab92df611bffb",
+        "zero/solver.log": "343533f331600f2436e71302e27c5346469a5a6f47247e1b04b98b28e4a6bbfa",
+        "zero/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "zero/test.cir": "c95bbdad9a0ffcdde14069b7f06bb2d6aac5739c7d51d672749d5567b80b1ae2"
+      }
+    },
+    {
+      "id": "positive_near_zero",
+      "control_V": 1e-09,
+      "returncode": 0,
+      "status": "observed",
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "files_sha256": {
+        "positive_near_zero/point.csv": "a5150cd1df323f612baad0991ab05fcb83a42b611b5196ed84274a3274c000c4",
+        "positive_near_zero/solver.log": "4a1f2c42e10b0814ebee3851be07b0678aceda64f4158b42cb48ac95ecf1d0f5",
+        "positive_near_zero/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "positive_near_zero/test.cir": "d0ad74e2df737525e57175c0d5eb32942d153d7b6442f92316cbbb9c30a5f37b"
+      }
+    },
+    {
+      "id": "on_threshold",
+      "control_V": 0.001,
+      "returncode": 0,
+      "status": "observed",
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "files_sha256": {
+        "on_threshold/point.csv": "b0a8deac9d8dca43dc24157636cd5c2aef84803c2301145a0caa945de4752b31",
+        "on_threshold/solver.log": "d46cf54edd863af222c5243e4f69c4b4decd6ff2d84ee586c4121af94ad9ddbe",
+        "on_threshold/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "on_threshold/test.cir": "d9884d92ff59b279e5f887d5d9cc35e36e2b439a657bc0aa2c3db8d84d7c4198"
+      }
+    },
+    {
+      "id": "above_threshold",
+      "control_V": 0.002,
+      "returncode": 0,
+      "status": "observed",
+      "output_V": 0.003296703296703298,
+      "inferred_switch_resistance_ohm": 999999.9999999998,
+      "files_sha256": {
+        "above_threshold/point.csv": "ee4b8d66a78fe36811fedd9f5929dd068650f7f40a233cdd7177d7e007d4fb36",
+        "above_threshold/solver.log": "5d2a4dde33c6465cfe7b19b35ed222b85e3860e8e84d126451e43252dd6b16f9",
+        "above_threshold/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "above_threshold/test.cir": "899b6b9f64560e79befdfddbc7d919b006ba863725977955297848e8dd14ee46"
+      }
+    }
+  ],
+  "original_files_sha256": {
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-linked-reference-rbzxf63z\\OPAx320-Q1.LIB": "a272838427e8988bdc662887238d2698d23feb0d39400a2c4c4a929f10c29460",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551.lib": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tlv3501.lib": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\REF5050.LIB": "ed2d2602cfee90ae26eb7bf3644a4bcb6ce71f3eba71a7d014c53b87cc20f3ab",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\tps7a20-adj_trans.lib": "154acfdd2199ac44259908b90b07d15bc7e535a45c8c51d1413894c900718b69",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+  },
+  "previous_evidence_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\declared_configurations.json": "00e95794a03d20e39c9aa334fa1656b2bd7d58fec19d81e7871a6443ef842d0a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\run_load_history.py": "34e361307df349e649e55444c8a81fda9468d86a44adbbbbd5b6c5a2ee661e5c",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\run_switch_boundary.py": "80684faec77b6d88d5962fef7e87759cbc0366fc449e38d52777bde60e57d220",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\summary.json": "753c9c681f704e698aff0fe800095497696f3f9ea867e3e1baed85b0ea8d6ba6",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\verification.json": "f78c9c46705cab40c11721ef0058f210b4e014dc422f4ad709141fc00175da70",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\verify_load_history.py": "f7e3dd9ea6e922e1facd7baf793f259d85960c0c69769f5a66aedba8feea3ced",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_cycle_gear\\solver.log": "1cc43c0a4706de6b340b692fa9c8de079bddc86418eec0d282ae532234832fa6",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_cycle_gear\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_cycle_gear\\test.cir": "120358ad88164f89c175c8849db6fb6508d910fa8660fff46bad0d4879d1d604",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_cycle_trap\\solver.log": "de08b0c7bbee23ada12a0ff728053a029b947f2807b361334fc53a023e048343",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_cycle_trap\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_cycle_trap\\test.cir": "5e1e2377f873e98ff06df35604ec07752621386acda798f0e716c85c279b920e",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_cycle_trap\\wave.csv": "19b615cb68325b5d903d1398ba7fc939c77a76c9e73e7c9087acdb6622e21d0d",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_gear\\solver.log": "8643a96c372d2170cb9c038d19451ef3ee5ceaec0f3019f11f9eef4e8e7ae0ec",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_gear\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_gear\\test.cir": "a8e0bd17a25b841dfadc008586ebbe3a081593a84abe775c0c619c1869d021d4",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_gear\\wave.csv": "489db315cfb38b3724bd049e8409ba7664be4a097677ae3a79638f70739c7a44",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_trap\\solver.log": "22aacb76824e8abbf6b129610fdbf0b00cabcbdda9ae87e16072e29aa87cec44",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_trap\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_trap\\test.cir": "1b57097240caf663f1324d808b3b1c4e34f95a215f271050c99d7403791e97c5",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\current_dc_trap\\wave.csv": "c471713360599420284388b3c44b5c597191a0eef13db3bd1b33ae87cb92a0f9",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_cycle_gear\\solver.log": "2ea15919eb09020cd88dbb78049c91e28e43bd12bbbb1749b5ca3dba1efd4120",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_cycle_gear\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_cycle_gear\\test.cir": "728c7ed3f3b12c7094ce992831a40191288325c208910276cc9fa49c0c47d6a1",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_cycle_trap\\solver.log": "37ae35b09200abecca7766e0dd078529af8c7a7d67304c611c7b3a5953c931a6",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_cycle_trap\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_cycle_trap\\test.cir": "ba0de12cb8d9664315cb6b5b5d3a69337729f8d34bf47670bb03636f192324dd",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_cycle_trap\\wave.csv": "30e256dfff66edbb883923d72857c6e8f33cff09da3947f321e1179996084bcc",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_gear\\solver.log": "24d63ca17178e2a52b986ba6ee6fde457c52ba88c159c9419bcd32464a0799f6",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_gear\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_gear\\test.cir": "be35b70d2927539f4d081d5dbfa924e5f916de953da241d14e95564b0e18977d",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_gear\\wave.csv": "3ec65ce5c27f5a2c399b47e5cf6dc0f520096af5f436c142b2bd0e01d54e8c72",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_trap\\solver.log": "f4efacf72197f50e209d7ec26ef4a09e10d56b05fe498060198e81505f4a9688",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_trap\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_trap\\test.cir": "d23e021141b2593d6a8ce252cc507bcad8869b4a7395558afca53af5eb7b2f5a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u7a33\u538b\u8d1f\u8f7d\u65f6\u5e8f\u5bf9\u7167\\results\\resistive_dc_trap\\wave.csv": "120c0c312ad1ceafb9ed8a4bc253f0874cc48a1895e3979dfa5d752cdf6c79e9"
+  },
+  "declared_configurations_sha256": "e6b9edcc27cc4f8a90458b7c697162c2ff95eb3b32fe5f0dbfb3dda234d4bce9",
+  "runner_sha256": "80684faec77b6d88d5962fef7e87759cbc0366fc449e38d52777bde60e57d220",
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-switch-boundary-hly9cft_",
+  "scope": "isolated_vendor_switch_not_regulator_or_real_chip_acceptance",
+  "vendor_library_edits": false,
+  "supported_pspice_verified": false,
+  "full_power_passed": false,
+  "full_joint_passed": false
+}

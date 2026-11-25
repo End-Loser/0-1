@@ -1,0 +1,66 @@
+{
+  "original_pdf_sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+  "pages": [
+    {
+      "pdf_page": 4,
+      "path": "spec_snapshots/page_04.txt",
+      "sha256": "b37bcb9b1a1a30e2254d85322a65873a93dadaa8d9ad57111ed6e71ba7f2172d"
+    },
+    {
+      "pdf_page": 5,
+      "path": "spec_snapshots/page_05.txt",
+      "sha256": "ff02a1e274fbfd36721cd20af0b016af11e126395e90b00334e788d21ed8772f"
+    },
+    {
+      "pdf_page": 6,
+      "path": "spec_snapshots/page_06.txt",
+      "sha256": "503004e549380545935ad3419bf4716cd8b6f39f47bbe2a6b96326f09e22bb3f"
+    },
+    {
+      "pdf_page": 7,
+      "path": "spec_snapshots/page_07.txt",
+      "sha256": "dceac44cb129c3d8b2840a1bf5f7d47756ed4fcaf75a5552da7198c658bb8228"
+    },
+    {
+      "pdf_page": 8,
+      "path": "spec_snapshots/page_08.txt",
+      "sha256": "3550ac98974d95c8f63286e05cc1acc75017667d6181888db6378fad939eb93f"
+    },
+    {
+      "pdf_page": 9,
+      "path": "spec_snapshots/page_09.txt",
+      "sha256": "95ebaaa69a240034254be000cbf41b8fecd9513bed69b5a8b4309050628c526c"
+    },
+    {
+      "pdf_page": 21,
+      "path": "spec_snapshots/page_21.txt",
+      "sha256": "de836767d36e3d4e7fd984ef5a59f5e4a8000b5a099f491abaa9758dba1bb098"
+    },
+    {
+      "pdf_page": 22,
+      "path": "spec_snapshots/page_22.txt",
+      "sha256": "b81a45503c23ca78837f1105fb7cef1c5e5be77ef7ecfe6b2690bf6e9df94f4a"
+    },
+    {
+      "pdf_page": 23,
+      "path": "spec_snapshots/page_23.txt",
+      "sha256": "01a889e744cc5913ed3926a81ebe721484e8ac6121ef86db84b17c21de6c92f3"
+    },
+    {
+      "pdf_page": 30,
+      "path": "spec_snapshots/page_30.txt",
+      "sha256": "15b69efc9a3d6c9aa9d4d3574f05e28628da0854b443cc2ec816bfd8de29996f"
+    },
+    {
+      "pdf_page": 31,
+      "path": "spec_snapshots/page_31.txt",
+      "sha256": "c066aff7215dbdf820a2109c697c4a66c7fb99f3dca8aa1bbe5d9a05e1cce500"
+    },
+    {
+      "pdf_page": 32,
+      "path": "spec_snapshots/page_32.txt",
+      "sha256": "4228ee50768ba6fb54d4d562c92344423fa17b6a32bdd565bedc0525eec002cb"
+    }
+  ],
+  "preparer_sha256": "8a294f11155df1e5db8525047b328a064416f76ca6cf80daf09b11d4e577e752"
+}

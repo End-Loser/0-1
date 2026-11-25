@@ -1,0 +1,28 @@
+# 本地凭据，绝不提交
+账户.md
+
+# 大体积原始仿真数据与生成物（未纳入仓库）
+*.npz
+*.csv
+*.cir
+*.raw
+*.log
+__pycache__/
+
+# 第三方资料与厂商原件（版权/授权限制，仅本地保存）
+原始资料/
+**/source_snapshots/
+**/spec_snapshots/
+**/原件/
+**/original/
+**/fixed/
+
+# 资料页截图与常见大文件
+*_page_*.png
+*.pdf
+*.zip
+*.exe
+*.lib
+*.mod
+*.ifs
+*.patch

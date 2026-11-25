@@ -1,0 +1,199 @@
+{
+  "independent_verification_pass": true,
+  "case_count": 20,
+  "checks": [
+    {
+      "case": "nx60_ny8_TE_sweep",
+      "discrete_ABCD_reflection_difference": 9.051025712845579e-13,
+      "discrete_ABCD_absorption_relative_difference": 1.354472090042691e-13,
+      "reflection_error_vs_Fresnel": 0.1534008828123284,
+      "absorption_error_vs_Fresnel": 0.022427511924147048,
+      "independent_lifted_3d_equation_residual": 6.385460512866782e-14,
+      "independent_lifted_absorption_relative_difference": 3.3306690738754696e-16
+    },
+    {
+      "case": "nx60_ny8_TM_sweep",
+      "discrete_ABCD_reflection_difference": 3.983641459084192e-13,
+      "discrete_ABCD_absorption_relative_difference": 5.440092820663267e-14,
+      "reflection_error_vs_Fresnel": 0.13378577776955738,
+      "absorption_error_vs_Fresnel": 0.02512665288389837,
+      "independent_lifted_3d_equation_residual": 2.764209828855078e-14,
+      "independent_lifted_absorption_relative_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "nx60_ny16_TE_sweep",
+      "discrete_ABCD_reflection_difference": 2.2104111271148754e-12,
+      "discrete_ABCD_absorption_relative_difference": 3.5060843117662444e-13,
+      "reflection_error_vs_Fresnel": 0.040713235512119986,
+      "absorption_error_vs_Fresnel": 0.004752085584390997,
+      "independent_lifted_3d_equation_residual": 1.7642563482444702e-13,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx60_ny16_TM_sweep",
+      "discrete_ABCD_reflection_difference": 1.6226638074773477e-12,
+      "discrete_ABCD_absorption_relative_difference": 2.845501612114276e-13,
+      "reflection_error_vs_Fresnel": 0.03747380531740483,
+      "absorption_error_vs_Fresnel": 0.007947159458725706,
+      "independent_lifted_3d_equation_residual": 1.3727105187930082e-13,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx60_ny32_TE_sweep",
+      "discrete_ABCD_reflection_difference": 9.187244451742262e-13,
+      "discrete_ABCD_absorption_relative_difference": 1.5942802633617248e-13,
+      "reflection_error_vs_Fresnel": 0.017021972092617743,
+      "absorption_error_vs_Fresnel": 0.0036703200115787427,
+      "independent_lifted_3d_equation_residual": 6.360388538726647e-14,
+      "independent_lifted_absorption_relative_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "nx60_ny32_TM_sweep",
+      "discrete_ABCD_reflection_difference": 2.474363268216982e-12,
+      "discrete_ABCD_absorption_relative_difference": 4.2432724001173483e-13,
+      "reflection_error_vs_Fresnel": 0.017384543395533435,
+      "absorption_error_vs_Fresnel": 0.005089220880511225,
+      "independent_lifted_3d_equation_residual": 2.1493576973895616e-13,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx60_ny64_TE_sweep",
+      "discrete_ABCD_reflection_difference": 6.128128364625436e-12,
+      "discrete_ABCD_absorption_relative_difference": 1.0629275237761249e-12,
+      "reflection_error_vs_Fresnel": 0.0126649854944768,
+      "absorption_error_vs_Fresnel": 0.004201508446852409,
+      "independent_lifted_3d_equation_residual": 5.292002471925292e-13,
+      "independent_lifted_absorption_relative_difference": 6.661338147750939e-16
+    },
+    {
+      "case": "nx60_ny64_TM_sweep",
+      "discrete_ABCD_reflection_difference": 5.272337270663835e-12,
+      "discrete_ABCD_absorption_relative_difference": 9.002798506685394e-13,
+      "reflection_error_vs_Fresnel": 0.012700123220357963,
+      "absorption_error_vs_Fresnel": 0.0045564162346638515,
+      "independent_lifted_3d_equation_residual": 4.566994176585433e-13,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx120_ny8_TE_sweep",
+      "discrete_ABCD_reflection_difference": 3.846470688327799e-12,
+      "discrete_ABCD_absorption_relative_difference": 5.475619957451272e-13,
+      "reflection_error_vs_Fresnel": 0.15155874219610582,
+      "absorption_error_vs_Fresnel": 0.023632202643406153,
+      "independent_lifted_3d_equation_residual": 2.317911549853426e-13,
+      "independent_lifted_absorption_relative_difference": 3.3306690738754696e-16
+    },
+    {
+      "case": "nx120_ny8_TM_sweep",
+      "discrete_ABCD_reflection_difference": 1.5219457062790011e-12,
+      "discrete_ABCD_absorption_relative_difference": 2.6911806116913795e-13,
+      "reflection_error_vs_Fresnel": 0.1319785234225471,
+      "absorption_error_vs_Fresnel": 0.024013111767612783,
+      "independent_lifted_3d_equation_residual": 8.339340174151287e-14,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx120_ny16_TE_sweep",
+      "discrete_ABCD_reflection_difference": 8.603889668063806e-12,
+      "discrete_ABCD_absorption_relative_difference": 1.3937739851144215e-12,
+      "reflection_error_vs_Fresnel": 0.03888789758947191,
+      "absorption_error_vs_Fresnel": 0.005944855090367573,
+      "independent_lifted_3d_equation_residual": 5.351909085802921e-13,
+      "independent_lifted_absorption_relative_difference": 6.661338147750939e-16
+    },
+    {
+      "case": "nx120_ny16_TM_sweep",
+      "discrete_ABCD_reflection_difference": 6.5391593298117575e-12,
+      "discrete_ABCD_absorption_relative_difference": 1.0912382109040664e-12,
+      "reflection_error_vs_Fresnel": 0.03441389798727019,
+      "absorption_error_vs_Fresnel": 0.0067776117030384775,
+      "independent_lifted_3d_equation_residual": 4.0241712773520227e-13,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx120_ny32_TE_sweep",
+      "discrete_ABCD_reflection_difference": 3.692336273172721e-12,
+      "discrete_ABCD_absorption_relative_difference": 5.46451772720502e-13,
+      "reflection_error_vs_Fresnel": 0.010208017253996398,
+      "absorption_error_vs_Fresnel": 0.0011810303989647775,
+      "independent_lifted_3d_equation_residual": 2.1753283861984218e-13,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx120_ny32_TM_sweep",
+      "discrete_ABCD_reflection_difference": 9.95260885560019e-12,
+      "discrete_ABCD_absorption_relative_difference": 1.6571188865555087e-12,
+      "reflection_error_vs_Fresnel": 0.009387454807888789,
+      "absorption_error_vs_Fresnel": 0.0020502514977621678,
+      "independent_lifted_3d_equation_residual": 6.013190455763503e-13,
+      "independent_lifted_absorption_relative_difference": 5.551115123125783e-16
+    },
+    {
+      "case": "nx120_ny64_TE_sweep",
+      "discrete_ABCD_reflection_difference": 2.4591492684620727e-11,
+      "discrete_ABCD_absorption_relative_difference": 4.189315561120566e-12,
+      "reflection_error_vs_Fresnel": 0.004256395732583406,
+      "absorption_error_vs_Fresnel": 0.0009434813026946154,
+      "independent_lifted_3d_equation_residual": 1.5352206156127662e-12,
+      "independent_lifted_absorption_relative_difference": 1.1102230246251565e-16
+    },
+    {
+      "case": "nx120_ny64_TM_sweep",
+      "discrete_ABCD_reflection_difference": 2.1080881897680558e-11,
+      "discrete_ABCD_absorption_relative_difference": 3.5833558342801552e-12,
+      "reflection_error_vs_Fresnel": 0.004347011700354684,
+      "absorption_error_vs_Fresnel": 0.0012999245204066145,
+      "independent_lifted_3d_equation_residual": 1.3096345011508533e-12,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    },
+    {
+      "case": "nx240_ny64_TE_sweep",
+      "discrete_ABCD_reflection_difference": 9.629313080376588e-11,
+      "discrete_ABCD_absorption_relative_difference": 1.621347500702086e-11,
+      "reflection_error_vs_Fresnel": 0.0025538125284318026,
+      "absorption_error_vs_Fresnel": 0.0002665382921387405,
+      "independent_lifted_3d_equation_residual": 4.221247461406873e-12,
+      "independent_lifted_absorption_relative_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "nx240_ny64_TM_sweep",
+      "discrete_ABCD_reflection_difference": 8.436976707516326e-11,
+      "discrete_ABCD_absorption_relative_difference": 1.4058532116223432e-11,
+      "reflection_error_vs_Fresnel": 0.0023480351005692127,
+      "absorption_error_vs_Fresnel": 0.0005448093655286979,
+      "independent_lifted_3d_equation_residual": 3.656241978785688e-12,
+      "independent_lifted_absorption_relative_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "nx12_ny4_TE_fullcheck",
+      "discrete_ABCD_reflection_difference": 5.165818938893381e-15,
+      "discrete_ABCD_absorption_relative_difference": 3.1086244689504383e-15,
+      "reflection_error_vs_Fresnel": 0.6230396477476948,
+      "absorption_error_vs_Fresnel": 0.06429386588934471,
+      "independent_lifted_3d_equation_residual": 1.6396877554164508e-15,
+      "independent_lifted_absorption_relative_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "nx12_ny4_TM_fullcheck",
+      "discrete_ABCD_reflection_difference": 1.2227583303444302e-14,
+      "discrete_ABCD_absorption_relative_difference": 4.773959005888173e-15,
+      "reflection_error_vs_Fresnel": 0.6423019672557695,
+      "absorption_error_vs_Fresnel": 0.12768866994917594,
+      "independent_lifted_3d_equation_residual": 2.7079238213883267e-15,
+      "independent_lifted_absorption_relative_difference": 4.440892098500626e-16
+    }
+  ],
+  "projected_frequency_solutions": 1824,
+  "full_matrix_frequency_solutions": 6,
+  "independent_lifted_3d_frequency_checks": 60,
+  "test_output": "test_TM_longitudinal_field (__main__.ObliqueTests.test_TM_longitudinal_field) ... ok\ntest_air_impedance_duality (__main__.ObliqueTests.test_air_impedance_duality) ... ok\ntest_copper_positive_dissipation (__main__.ObliqueTests.test_copper_positive_dissipation) ... ok\ntest_cutoff_rejected (__main__.ObliqueTests.test_cutoff_rejected) ... ok\ntest_discrete_ABCD_agreement (__main__.ObliqueTests.test_discrete_ABCD_agreement) ... ok\ntest_full_matrix_projection_agreement (__main__.ObliqueTests.test_full_matrix_projection_agreement) ... ok\ntest_normal_incidence_limit (__main__.ObliqueTests.test_normal_incidence_limit) ... ok\ntest_projection_orthonormal (__main__.ObliqueTests.test_projection_orthonormal) ... ok\ntest_transverse_refinement (__main__.ObliqueTests.test_transverse_refinement) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.035s\n\nOK\n",
+  "summary_sha256": "5f5626640a99ff1fbf1fa76bc08f0ef5b4c88f098f00bc67296264a0e3285abf",
+  "verifier_sha256": "137ed7524740a3b3dd6fb9282186884f6b2325cc67c7a24616afee6aed09850d",
+  "test_sha256": "eab8c034b65870f3ef4441b525a8bb965af3a827c82671211d20dcc36ef985b7",
+  "all_physical_cases_pass": false,
+  "independent_array_helper_sha256": "e6f01ef25f5ae56c43d6af068c02cbd7df1933d2f0594126830a67dc09571401",
+  "oblique_transient_boundary_complete": false,
+  "finite_boundary_complete": false,
+  "closed_copper_cavity_complete": false,
+  "full_joint_simulation_complete": false
+}

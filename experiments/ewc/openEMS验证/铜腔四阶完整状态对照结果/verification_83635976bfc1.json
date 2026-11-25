@@ -1,0 +1,1258 @@
+{
+  "scope": "nine declared 16 ns full-state Gauss candidates",
+  "independent_discrete_checks_passed": true,
+  "preflight": {
+    "cases": [
+      {
+        "duration_s": 8e-11,
+        "steps": 8,
+        "file": "preflight_0.npz",
+        "raw_sha256": "4978d91c4b32b819e54f4e4969a5551e2fc6e842ca0c9aa0ca1bd4f9de5e8e45",
+        "full_steps_checked": 8,
+        "complete_state_energy_norm_error": 0.10738672673108007,
+        "one_percent_accuracy_passed": false,
+        "maximum_equation_residuals": {
+          "electric": 1.828800502949497e-11,
+          "magnetic": 1.2956962650356632e-14,
+          "RL": 1.2280470315803647e-13,
+          "wall": 2.1872713113792802e-16,
+          "charge": 2.335794925402617e-11,
+          "energy": 1.2291199839386174e-14
+        }
+      },
+      {
+        "duration_s": 8e-11,
+        "steps": 16,
+        "file": "preflight_1.npz",
+        "raw_sha256": "20d530325c6137a92a2cdda26eeef612c31da0de5b4488642f107a7584e4e0b2",
+        "full_steps_checked": 16,
+        "complete_state_energy_norm_error": 0.06361972461773764,
+        "one_percent_accuracy_passed": false,
+        "maximum_equation_residuals": {
+          "electric": 4.194695476377206e-13,
+          "magnetic": 2.6590365974383715e-14,
+          "RL": 2.841094324356799e-13,
+          "wall": 1.9035622159256794e-16,
+          "charge": 6.086585251214771e-13,
+          "energy": 5.73341239695996e-16
+        }
+      },
+      {
+        "duration_s": 8e-11,
+        "steps": 32,
+        "file": "preflight_2.npz",
+        "raw_sha256": "a5b3e224e29067b8e24356dda131eea3ff485f5554b95bc6d12b01fbd52fced5",
+        "full_steps_checked": 32,
+        "complete_state_energy_norm_error": 0.014260235171723958,
+        "one_percent_accuracy_passed": false,
+        "maximum_equation_residuals": {
+          "electric": 2.1252472840648283e-13,
+          "magnetic": 5.74414297144415e-14,
+          "RL": 1.124012759514507e-12,
+          "wall": 1.7661503859513142e-16,
+          "charge": 3.416661621691395e-13,
+          "energy": 4.562192639079703e-16
+        }
+      },
+      {
+        "duration_s": 1e-14,
+        "steps": 2,
+        "file": "preflight_3.npz",
+        "raw_sha256": "da4bc6a8a0afb88b66761b78b7a4e79e59efdc21a1e914e87a3ec4ed47eaf15d",
+        "full_steps_checked": 2,
+        "complete_state_energy_norm_error": 2.2587824529265263e-06,
+        "one_percent_accuracy_passed": true,
+        "maximum_equation_residuals": {
+          "electric": 2.402397829020056e-15,
+          "magnetic": 1.8446824939394807e-11,
+          "RL": 1.0196848502638206e-10,
+          "wall": 1.2691792976916887e-16,
+          "charge": 3.030613112470058e-15,
+          "energy": 5.03826908623755e-16
+        }
+      },
+      {
+        "duration_s": 1e-14,
+        "steps": 4,
+        "file": "preflight_4.npz",
+        "raw_sha256": "0eb4da3b2c24080dacbf03c568941f8d70617488c15805bef414a1e545231774",
+        "full_steps_checked": 4,
+        "complete_state_energy_norm_error": 1.394115482701823e-07,
+        "one_percent_accuracy_passed": true,
+        "maximum_equation_residuals": {
+          "electric": 5.9200805173494814e-15,
+          "magnetic": 3.6824400692218724e-11,
+          "RL": 1.065110806397846e-10,
+          "wall": 1.4985248407525288e-16,
+          "charge": 6.483775973226516e-15,
+          "energy": 4.597449638912315e-16
+        }
+      },
+      {
+        "duration_s": 1e-14,
+        "steps": 8,
+        "file": "preflight_5.npz",
+        "raw_sha256": "454ddfb1c7b93a173897ca5cbebb99fe48642d4b316f8cfe25f3ac3b37a7cda9",
+        "full_steps_checked": 8,
+        "complete_state_energy_norm_error": 8.685773855521655e-09,
+        "one_percent_accuracy_passed": true,
+        "maximum_equation_residuals": {
+          "electric": 1.4948968482085216e-14,
+          "magnetic": 6.856826304087273e-11,
+          "RL": 3.828372321218209e-10,
+          "wall": 1.6621873673601713e-16,
+          "charge": 1.39967873444665e-14,
+          "energy": 3.8459777166279083e-16
+        }
+      }
+    ],
+    "resolved_formal_order_error_ratios": [
+      16.202262158002593,
+      16.05056159521775
+    ],
+    "unresolved_initial_state_failed": true,
+    "general_initial_state_approved": false
+  },
+  "cases": [
+    {
+      "case": "111_loss0",
+      "dt_s": 2e-11,
+      "raw_sha256": "b686ff3a8fa7f7229bc8c17dff1f7426a18e2d6a319acc1df36644ef9af1c6a7",
+      "anchors_checked": 9,
+      "source_energy_closure": 6.161737786669619e-14,
+      "final_energy_J": 0.49246183070477834,
+      "cumulative_heat_J": 0.007538169295190863,
+      "cumulative_source_work_J": 0.0,
+      "maximum_equation_residuals": {
+        "electric": 1.299776708431885e-11,
+        "magnetic": 7.220204533810259e-15,
+        "RL": 1.3153941299186477e-11,
+        "wall": 1.6565639997701702e-11,
+        "charge": 5.5528214898377584e-11,
+        "energy": 3.5365004409461587e-15
+      },
+      "decay_metrics": {
+        "frequency_Hz": 3055289686.779308,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 20199.76708986315,
+            "log_energy_RMS_residual": 1.2381013221718703e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 20200.459332455983,
+            "log_energy_RMS_residual": 1.2388762654888173e-05
+          }
+        ],
+        "reference_Q": 20044.3825031682,
+        "Q_continuum_error": 0.0077865621085166925,
+        "frequency_continuum_error": 0.0016637323048633856,
+        "fit_window_Q_difference": 3.4269830426758574e-05,
+        "selected_short_decay_passed": true
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\111_loss0_1ps.npz",
+        "reference_sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+        "complete_state_energy_norm_errors": [
+          3.2064064336781626e-05,
+          6.207267267605662e-05,
+          9.2642827566572e-05,
+          0.00012266800869786378,
+          0.00015293063515099713,
+          0.000183118535421305,
+          0.00021348635537097793,
+          0.00024380637934033554
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "111_loss0",
+      "dt_s": 1e-11,
+      "raw_sha256": "d9e5dd355972c855309cb357b0ae220fdd83f2fff747b6d5d0e6757c5cf19e36",
+      "anchors_checked": 9,
+      "source_energy_closure": 5.238032230181489e-13,
+      "final_energy_J": 0.49246090235802353,
+      "cumulative_heat_J": 0.007539097642237496,
+      "cumulative_source_work_J": 0.0,
+      "maximum_equation_residuals": {
+        "electric": 1.827565097813045e-11,
+        "magnetic": 4.25667841249959e-14,
+        "RL": 1.9136495578208445e-11,
+        "wall": 1.2892393142654186e-11,
+        "charge": 8.406742257164891e-11,
+        "energy": 1.8193592198246936e-15
+      },
+      "decay_metrics": {
+        "frequency_Hz": 3055375507.7910233,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 20197.516188565824,
+            "log_energy_RMS_residual": 1.2380772816107105e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 20198.20230646971,
+            "log_energy_RMS_residual": 1.2388539338551903e-05
+          }
+        ],
+        "reference_Q": 20044.3825031682,
+        "Q_continuum_error": 0.00767396068585291,
+        "frequency_continuum_error": 0.001635689717315425,
+        "fit_window_Q_difference": 3.39704098999416e-05,
+        "selected_short_decay_passed": true
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\111_loss0_1ps.npz",
+        "reference_sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+        "complete_state_energy_norm_errors": [
+          0.0011068265344403576,
+          0.0022137003750868876,
+          0.0033205820134196364,
+          0.004427360792932488,
+          0.005534108536834942,
+          0.006641008293724274,
+          0.007747997878557809,
+          0.008854804369306921
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "111_loss0",
+      "dt_s": 5e-12,
+      "raw_sha256": "e701b8f35fdfad28918e5c2eb28353b5d895561a3be166a9bbd6bee801f31432",
+      "anchors_checked": 9,
+      "source_energy_closure": 1.1575185254741882e-12,
+      "final_energy_J": 0.49246084377315524,
+      "cumulative_heat_J": 0.0075391562274234915,
+      "cumulative_source_work_J": 0.0,
+      "maximum_equation_residuals": {
+        "electric": 1.3414544310526298e-11,
+        "magnetic": 1.6259618281310425e-14,
+        "RL": 4.475980024770958e-11,
+        "wall": 2.8560559111460386e-11,
+        "charge": 6.328523014974448e-11,
+        "energy": 1.466838660722741e-15
+      },
+      "decay_metrics": {
+        "frequency_Hz": 3055380902.7315483,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 20197.374019167524,
+            "log_energy_RMS_residual": 1.2380757878101866e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 20198.05974544591,
+            "log_energy_RMS_residual": 1.2388524978006082e-05
+          }
+        ],
+        "reference_Q": 20044.3825031682,
+        "Q_continuum_error": 0.007666848417676064,
+        "frequency_continuum_error": 0.0016339268845433352,
+        "fit_window_Q_difference": 3.3951259096109965e-05,
+        "selected_short_decay_passed": true
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\111_loss0_1ps.npz",
+        "reference_sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+        "complete_state_energy_norm_errors": [
+          0.0011745716381577726,
+          0.002349193507836306,
+          0.00352382364440895,
+          0.004698344602117959,
+          0.005872832605193266,
+          0.007047481821618258,
+          0.008222225970751595,
+          0.009396775581217045
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "111_loss1",
+      "dt_s": 2e-11,
+      "raw_sha256": "c2027ff566108af3b6de80016dd25f58fa4eceb574ae76ee8f017ad4edf9b1d3",
+      "anchors_checked": 9,
+      "source_energy_closure": 1.4899192990469593e-13,
+      "final_energy_J": 0.49068029954397685,
+      "cumulative_heat_J": 0.0093197004560972,
+      "cumulative_source_work_J": 0.0,
+      "maximum_equation_residuals": {
+        "electric": 1.9562630409577438e-11,
+        "magnetic": 6.8829924079039924e-15,
+        "RL": 1.3152859914624045e-11,
+        "wall": 1.4213805950169517e-11,
+        "charge": 6.31313433957493e-11,
+        "energy": 1.3242563223746589e-15
+      },
+      "decay_metrics": {
+        "frequency_Hz": 3055271586.4421606,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 16308.88935550466,
+            "log_energy_RMS_residual": 1.533478357689943e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 16309.448482362035,
+            "log_energy_RMS_residual": 1.5344398417839933e-05
+          }
+        ],
+        "reference_Q": 16164.645300826065,
+        "Q_continuum_error": 0.008958017874266089,
+        "frequency_continuum_error": 0.0016696467106592783,
+        "fit_window_Q_difference": 3.428356433032853e-05,
+        "selected_short_decay_passed": true
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\111_loss1_1ps.npz",
+        "reference_sha256": "8f21d373e8ffd656c3bdaa3c2cc0ced943ddac05e1b5402ef087f2a046aeeb9e",
+        "complete_state_energy_norm_errors": [
+          3.2487744483862886e-05,
+          6.240655183454683e-05,
+          9.310770547315658e-05,
+          0.00012297921356982597,
+          0.00015321114824390722,
+          0.0001833368033523487,
+          0.00021372161879481503,
+          0.00024407047245391238
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "111_loss1",
+      "dt_s": 1e-11,
+      "raw_sha256": "ada4cc07a72a79828ac1af8d3e39ee07166e87ebde7357abdce448789645a703",
+      "anchors_checked": 9,
+      "source_energy_closure": 4.969358258222199e-13,
+      "final_energy_J": 0.49067915361628756,
+      "cumulative_heat_J": 0.009320846383959996,
+      "cumulative_source_work_J": 0.0,
+      "maximum_equation_residuals": {
+        "electric": 2.1375315739295214e-11,
+        "magnetic": 3.6464677588929915e-14,
+        "RL": 1.9153217857134305e-11,
+        "wall": 1.3151150011652415e-11,
+        "charge": 7.800305621186823e-11,
+        "energy": 2.5508649341018587e-15
+      },
+      "decay_metrics": {
+        "frequency_Hz": 3055357445.3284693,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 16307.072273118889,
+            "log_energy_RMS_residual": 1.533448441898097e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 16307.626452946248,
+            "log_energy_RMS_residual": 1.5344118027613457e-05
+          }
+        ],
+        "reference_Q": 16164.645300826065,
+        "Q_continuum_error": 0.008845300930474309,
+        "frequency_continuum_error": 0.0016415917473355801,
+        "fit_window_Q_difference": 3.398401736842693e-05,
+        "selected_short_decay_passed": true
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\111_loss1_1ps.npz",
+        "reference_sha256": "8f21d373e8ffd656c3bdaa3c2cc0ced943ddac05e1b5402ef087f2a046aeeb9e",
+        "complete_state_energy_norm_errors": [
+          0.0011068041799779213,
+          0.002213666991278721,
+          0.0033205397144605536,
+          0.004427285335766113,
+          0.0055339925582477915,
+          0.006640888181539977,
+          0.0077478960962794425,
+          0.00885467843511356
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "111_loss1",
+      "dt_s": 5e-12,
+      "raw_sha256": "f04c1a91a311623b9ebce3b38ee149b4599956ad5a3ed7beed29281eb6741256",
+      "anchors_checked": 9,
+      "source_energy_closure": 8.872902412804247e-13,
+      "final_energy_J": 0.49067908130503857,
+      "cumulative_heat_J": 0.0093209186954045,
+      "cumulative_source_work_J": 0.0,
+      "maximum_equation_residuals": {
+        "electric": 1.9811127432369835e-11,
+        "magnetic": 1.6010830435380656e-14,
+        "RL": 4.475057413293854e-11,
+        "wall": 2.1651994766919582e-11,
+        "charge": 7.199408650947051e-11,
+        "energy": 1.9587969280782204e-15
+      },
+      "decay_metrics": {
+        "frequency_Hz": 3055362842.5461144,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 16306.957503282165,
+            "log_energy_RMS_residual": 1.5334465804420205e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 16307.511366562252,
+            "log_energy_RMS_residual": 1.5344100012640247e-05
+          }
+        ],
+        "reference_Q": 16164.645300826065,
+        "Q_continuum_error": 0.008838181294883451,
+        "frequency_continuum_error": 0.0016398281704992357,
+        "fit_window_Q_difference": 3.396484475870487e-05,
+        "selected_short_decay_passed": true
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\111_loss1_1ps.npz",
+        "reference_sha256": "8f21d373e8ffd656c3bdaa3c2cc0ced943ddac05e1b5402ef087f2a046aeeb9e",
+        "complete_state_energy_norm_errors": [
+          0.0011745470098843776,
+          0.0023491563065413767,
+          0.0035237761240845896,
+          0.004698261086021119,
+          0.005872705321104333,
+          0.007047349448571061,
+          0.008222112270134132,
+          0.009396635510723995
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "mixed_history",
+      "dt_s": 2e-11,
+      "raw_sha256": "bbf34db2b2d68379985e839534ddca35cb669079ca7c0adef739292428cd0158",
+      "anchors_checked": 9,
+      "source_energy_closure": 1.864209082782904e-12,
+      "final_energy_J": 0.35192131039602953,
+      "cumulative_heat_J": 0.004345721590029487,
+      "cumulative_source_work_J": 0.3562670319853226,
+      "maximum_equation_residuals": {
+        "electric": 8.247168805482914e-13,
+        "magnetic": 2.4873968576876443e-15,
+        "RL": 1.1757795367579937e-11,
+        "wall": 1.2495561965006908e-12,
+        "charge": 4.6734378070389385e-12,
+        "energy": 2.8602091693836584e-15
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\mixed_history_1ps.npz",
+        "reference_sha256": "cf2f50f6b1ca4da419913701063940a2d5d2cbf56b328fb42633a72b99c943aa",
+        "complete_state_energy_norm_errors": [
+          3.9949113321739145e-05,
+          0.00010788811783442929,
+          0.00015881143448058687,
+          0.0002360955944276673,
+          0.0002567138684574531,
+          0.0003146174514420384,
+          0.0003669299846021571,
+          0.0004217824214115882
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "mixed_history",
+      "dt_s": 1e-11,
+      "raw_sha256": "02f688361cf0864939329256f560e8a6851c3c834ce7bbb2557beb97224b7b38",
+      "anchors_checked": 9,
+      "source_energy_closure": 5.9553951832477645e-12,
+      "final_energy_J": 0.35310803967170046,
+      "cumulative_heat_J": 0.0043541385439967994,
+      "cumulative_source_work_J": 0.35746217821803516,
+      "maximum_equation_residuals": {
+        "electric": 7.495374838909198e-12,
+        "magnetic": 2.0212884767142074e-15,
+        "RL": 1.8986998628569144e-11,
+        "wall": 1.3919105091198155e-12,
+        "charge": 3.1640933868008175e-11,
+        "energy": 8.40452239980195e-14
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\mixed_history_1ps.npz",
+        "reference_sha256": "cf2f50f6b1ca4da419913701063940a2d5d2cbf56b328fb42633a72b99c943aa",
+        "complete_state_energy_norm_errors": [
+          0.0002766177345187423,
+          0.0009339413773570761,
+          0.0016448472854301325,
+          0.0027457621776474507,
+          0.003365735523000968,
+          0.00427931168463505,
+          0.005060463873936387,
+          0.0059346904531748824
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    },
+    {
+      "case": "mixed_history",
+      "dt_s": 5e-12,
+      "raw_sha256": "a9fa22f1ed8ff6b2df4e380db4671cf3b8e517dd2abf5b981e26ab36fd770cac",
+      "anchors_checked": 9,
+      "source_energy_closure": 1.3044317703431522e-12,
+      "final_energy_J": 0.35318289674971926,
+      "cumulative_heat_J": 0.004354669586796693,
+      "cumulative_source_work_J": 0.3575375663360011,
+      "maximum_equation_residuals": {
+        "electric": 6.373435056795219e-13,
+        "magnetic": 3.091127196283916e-15,
+        "RL": 4.572800100875685e-11,
+        "wall": 1.528032110766458e-12,
+        "charge": 2.390190753668771e-12,
+        "energy": 4.284071759290906e-15
+      },
+      "existing_midpoint_1ps_comparison": {
+        "reference_file": "\u94dc\u8154\u5e26\u6e90\u56e0\u679c\u5386\u53f2\u7ec6\u6b65\u7ed3\u679c\\mixed_history_1ps.npz",
+        "reference_sha256": "cf2f50f6b1ca4da419913701063940a2d5d2cbf56b328fb42633a72b99c943aa",
+        "complete_state_energy_norm_errors": [
+          0.00029199633017281323,
+          0.000986510075385981,
+          0.0017398272584006607,
+          0.00290664586905431,
+          0.003565151778462524,
+          0.004533352810418083,
+          0.005360975679810604,
+          0.006287458487527989
+        ],
+        "scope": "Existing independent full-field solver; not generic or long-history approval"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "case": "111_loss0",
+      "paired_dt_s": [
+        2e-11,
+        1e-11
+      ],
+      "common_after_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        0.001076465189227562,
+        0.0021529152447797534,
+        0.0032293899384864327,
+        0.004305751083624359,
+        0.005382088843854889,
+        0.006458570706677726,
+        0.0075351469552458195,
+        0.008611543314966708
+      ],
+      "selected_pair_passed": true
+    },
+    {
+      "case": "111_loss0",
+      "paired_dt_s": [
+        1e-11,
+        5e-12
+      ],
+      "common_after_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        6.777205179446142e-05,
+        0.00013554153773459942,
+        0.0002033031647651932,
+        0.00027105061091338645,
+        0.00033879111543473703,
+        0.00040653908132237427,
+        0.0004742926089899352,
+        0.0005420357293444674
+      ],
+      "selected_pair_passed": true
+    },
+    {
+      "case": "111_loss1",
+      "paired_dt_s": [
+        2e-11,
+        1e-11
+      ],
+      "common_after_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        0.0010764423262776023,
+        0.002152864384298887,
+        0.003229319542021419,
+        0.004305631087719472,
+        0.005381914725195363,
+        0.006458377939090318,
+        0.007534958474175488,
+        0.008611318749015665
+      ],
+      "selected_pair_passed": true
+    },
+    {
+      "case": "111_loss1",
+      "paired_dt_s": [
+        1e-11,
+        5e-12
+      ],
+      "common_after_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        6.777773062260838e-05,
+        0.00013555168119731498,
+        0.00020331507048780288,
+        0.00027106035592145984,
+        0.00033879693223533617,
+        0.00040654301037703483,
+        0.00047429623669132726,
+        0.0005420367160517759
+      ],
+      "selected_pair_passed": true
+    },
+    {
+      "case": "mixed_history",
+      "paired_dt_s": [
+        2e-11,
+        1e-11
+      ],
+      "common_after_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        0.00024559555592052704,
+        0.0008368628073905601,
+        0.0015119107764502205,
+        0.0025593574107241504,
+        0.003175706439562851,
+        0.004048749833789493,
+        0.0047880307330979135,
+        0.0056193978881061025
+      ],
+      "selected_pair_passed": true
+    },
+    {
+      "case": "mixed_history",
+      "paired_dt_s": [
+        1e-11,
+        5e-12
+      ],
+      "common_after_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        1.5448118953169284e-05,
+        5.2643253777875705e-05,
+        9.512384980277131e-05,
+        0.00016103873185748237,
+        0.0001998357486631116,
+        0.00025481871655763053,
+        0.00030141201028985234,
+        0.0003538022725934646
+      ],
+      "selected_pair_passed": true
+    }
+  ],
+  "all_nine_physical_cases_present": true,
+  "all_six_short_pairs_passed": true,
+  "summary_sha256": "e4ed51354b3f016ff551a04bd9cdf6e09891878ce32aab13bab4f0096d9d41fd",
+  "summary_snapshot": {
+    "status": "solver_complete_unverified",
+    "cases": [
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "dt_s": 2e-11,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [],
+        "file": "111_loss0_20ps.npz",
+        "sha256": "b686ff3a8fa7f7229bc8c17dff1f7426a18e2d6a319acc1df36644ef9af1c6a7",
+        "stepping_seconds": 87.48602230008692
+      },
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "dt_s": 1e-11,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [],
+        "file": "111_loss0_10ps.npz",
+        "sha256": "d9e5dd355972c855309cb357b0ae220fdd83f2fff747b6d5d0e6757c5cf19e36",
+        "stepping_seconds": 138.48785339994356
+      },
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "dt_s": 5e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [],
+        "file": "111_loss0_5ps.npz",
+        "sha256": "e701b8f35fdfad28918e5c2eb28353b5d895561a3be166a9bbd6bee801f31432",
+        "stepping_seconds": 256.9970473999856
+      },
+      {
+        "case": "111_loss1",
+        "initial_seed": 2,
+        "dt_s": 2e-11,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [],
+        "file": "111_loss1_20ps.npz",
+        "sha256": "c2027ff566108af3b6de80016dd25f58fa4eceb574ae76ee8f017ad4edf9b1d3",
+        "stepping_seconds": 100.07875110011082
+      },
+      {
+        "case": "111_loss1",
+        "initial_seed": 2,
+        "dt_s": 1e-11,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [],
+        "file": "111_loss1_10ps.npz",
+        "sha256": "ada4cc07a72a79828ac1af8d3e39ee07166e87ebde7357abdce448789645a703",
+        "stepping_seconds": 167.80400460003875
+      },
+      {
+        "case": "111_loss1",
+        "initial_seed": 2,
+        "dt_s": 5e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [],
+        "file": "111_loss1_5ps.npz",
+        "sha256": "f04c1a91a311623b9ebce3b38ee149b4599956ad5a3ed7beed29281eb6741256",
+        "stepping_seconds": 259.98350109998137
+      },
+      {
+        "case": "mixed_history",
+        "initial_seed": null,
+        "dt_s": 2e-11,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [
+          {
+            "mode": 0,
+            "start_s": 5e-10,
+            "end_s": 2.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.0
+          },
+          {
+            "mode": 1,
+            "start_s": 2e-09,
+            "end_s": 4e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.3
+          },
+          {
+            "mode": 2,
+            "start_s": 3.5e-09,
+            "end_s": 5.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 1.1
+          },
+          {
+            "mode": 0,
+            "start_s": 6e-09,
+            "end_s": 8e-09,
+            "amplitude": -800000000.0,
+            "phase_rad": 0.7
+          },
+          {
+            "mode": 1,
+            "start_s": 7.5e-09,
+            "end_s": 1e-08,
+            "amplitude": 900000000.0,
+            "phase_rad": 2.0
+          },
+          {
+            "mode": 2,
+            "start_s": 9.5e-09,
+            "end_s": 1.2e-08,
+            "amplitude": -1000000000.0,
+            "phase_rad": 0.2
+          }
+        ],
+        "file": "mixed_history_20ps.npz",
+        "sha256": "bbf34db2b2d68379985e839534ddca35cb669079ca7c0adef739292428cd0158",
+        "stepping_seconds": 89.44310739997309
+      },
+      {
+        "case": "mixed_history",
+        "initial_seed": null,
+        "dt_s": 1e-11,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [
+          {
+            "mode": 0,
+            "start_s": 5e-10,
+            "end_s": 2.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.0
+          },
+          {
+            "mode": 1,
+            "start_s": 2e-09,
+            "end_s": 4e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.3
+          },
+          {
+            "mode": 2,
+            "start_s": 3.5e-09,
+            "end_s": 5.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 1.1
+          },
+          {
+            "mode": 0,
+            "start_s": 6e-09,
+            "end_s": 8e-09,
+            "amplitude": -800000000.0,
+            "phase_rad": 0.7
+          },
+          {
+            "mode": 1,
+            "start_s": 7.5e-09,
+            "end_s": 1e-08,
+            "amplitude": 900000000.0,
+            "phase_rad": 2.0
+          },
+          {
+            "mode": 2,
+            "start_s": 9.5e-09,
+            "end_s": 1.2e-08,
+            "amplitude": -1000000000.0,
+            "phase_rad": 0.2
+          }
+        ],
+        "file": "mixed_history_10ps.npz",
+        "sha256": "02f688361cf0864939329256f560e8a6851c3c834ce7bbb2557beb97224b7b38",
+        "stepping_seconds": 139.56620930007193
+      },
+      {
+        "case": "mixed_history",
+        "initial_seed": null,
+        "dt_s": 5e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "pulses": [
+          {
+            "mode": 0,
+            "start_s": 5e-10,
+            "end_s": 2.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.0
+          },
+          {
+            "mode": 1,
+            "start_s": 2e-09,
+            "end_s": 4e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.3
+          },
+          {
+            "mode": 2,
+            "start_s": 3.5e-09,
+            "end_s": 5.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 1.1
+          },
+          {
+            "mode": 0,
+            "start_s": 6e-09,
+            "end_s": 8e-09,
+            "amplitude": -800000000.0,
+            "phase_rad": 0.7
+          },
+          {
+            "mode": 1,
+            "start_s": 7.5e-09,
+            "end_s": 1e-08,
+            "amplitude": 900000000.0,
+            "phase_rad": 2.0
+          },
+          {
+            "mode": 2,
+            "start_s": 9.5e-09,
+            "end_s": 1.2e-08,
+            "amplitude": -1000000000.0,
+            "phase_rad": 0.2
+          }
+        ],
+        "file": "mixed_history_5ps.npz",
+        "sha256": "a9fa22f1ed8ff6b2df4e380db4671cf3b8e517dd2abf5b981e26ab36fd770cac",
+        "stepping_seconds": 299.49980739993043
+      }
+    ],
+    "preflight": [
+      {
+        "duration_s": 8e-11,
+        "steps": 8,
+        "file": "preflight_0.npz",
+        "sha256": "4978d91c4b32b819e54f4e4969a5551e2fc6e842ca0c9aa0ca1bd4f9de5e8e45",
+        "reported_full_state_error": 0.10738672673108005
+      },
+      {
+        "duration_s": 8e-11,
+        "steps": 16,
+        "file": "preflight_1.npz",
+        "sha256": "20d530325c6137a92a2cdda26eeef612c31da0de5b4488642f107a7584e4e0b2",
+        "reported_full_state_error": 0.06361972461773763
+      },
+      {
+        "duration_s": 8e-11,
+        "steps": 32,
+        "file": "preflight_2.npz",
+        "sha256": "a5b3e224e29067b8e24356dda131eea3ff485f5554b95bc6d12b01fbd52fced5",
+        "reported_full_state_error": 0.014260235171723958
+      },
+      {
+        "duration_s": 1e-14,
+        "steps": 2,
+        "file": "preflight_3.npz",
+        "sha256": "da4bc6a8a0afb88b66761b78b7a4e79e59efdc21a1e914e87a3ec4ed47eaf15d",
+        "reported_full_state_error": 2.258782452926668e-06
+      },
+      {
+        "duration_s": 1e-14,
+        "steps": 4,
+        "file": "preflight_4.npz",
+        "sha256": "0eb4da3b2c24080dacbf03c568941f8d70617488c15805bef414a1e545231774",
+        "reported_full_state_error": 1.3941154826990361e-07
+      },
+      {
+        "duration_s": 1e-14,
+        "steps": 8,
+        "file": "preflight_5.npz",
+        "sha256": "454ddfb1c7b93a173897ca5cbebb99fe48642d4b316f8cfe25f3ac3b37a7cda9",
+        "reported_full_state_error": 8.685773855307372e-09
+      }
+    ],
+    "configuration_sha256": "aa02cee6bdcf6b09ab8cdb1a22ade14b2e80443ab4c533062ce9a6b06aa85d85",
+    "source_sha256": {
+      "run_copper_gauss_validation.py": "426d31e43e84f821e36f66f680baf1ebe77a2f3716cb8fa935171ed2da10383e",
+      "copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+      "test_copper_gauss_legendre.py": "e80f340a38bb9755c1dd8d5d8d8fea0001ef66b282ad0d64c35f5f72ae02cf99",
+      "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+      "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+      "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+      "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+    },
+    "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "general_initial_state_approved": false,
+    "full_long_history_passed": false,
+    "actual_feed_passed": false,
+    "full_joint_simulation_passed": false,
+    "full_system_gates_closed": 0
+  },
+  "configuration_sha256": "aa02cee6bdcf6b09ab8cdb1a22ade14b2e80443ab4c533062ce9a6b06aa85d85",
+  "midpoint_reference_summary_sha256": "341e1e010b263a89847c007ab5bd0fce777ddf7bcb22036d0b11bda88b02251e",
+  "midpoint_reference_summary_snapshot": {
+    "status": "solver_complete_unverified",
+    "cases": [
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss0_1ps.npz",
+        "sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+        "stepping_seconds": 487.18565210001543
+      },
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 5e-13,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss0_0.5ps.npz",
+        "sha256": "319c84c8c96e7fdd6aecbe97150faa3791d61565b99fd0d2c2d8e3a32f851f2c",
+        "stepping_seconds": 714.0071860000025
+      },
+      {
+        "case": "111_loss1",
+        "initial_seed": 2,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss1_1ps.npz",
+        "sha256": "8f21d373e8ffd656c3bdaa3c2cc0ced943ddac05e1b5402ef087f2a046aeeb9e",
+        "stepping_seconds": 435.37079319998156
+      },
+      {
+        "case": "111_loss1",
+        "initial_seed": 2,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 5e-13,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss1_0.5ps.npz",
+        "sha256": "518e369d2985cfd9d214e851a822eb88e3ffdbe7a2c4b618b1fbba3a091ffa89",
+        "stepping_seconds": 944.8595402999781
+      },
+      {
+        "case": "mixed_history",
+        "initial_seed": null,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [
+          {
+            "mode": 0,
+            "start_s": 5e-10,
+            "end_s": 2.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.0
+          },
+          {
+            "mode": 1,
+            "start_s": 2e-09,
+            "end_s": 4e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.3
+          },
+          {
+            "mode": 2,
+            "start_s": 3.5e-09,
+            "end_s": 5.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 1.1
+          },
+          {
+            "mode": 0,
+            "start_s": 6e-09,
+            "end_s": 8e-09,
+            "amplitude": -800000000.0,
+            "phase_rad": 0.7
+          },
+          {
+            "mode": 1,
+            "start_s": 7.5e-09,
+            "end_s": 1e-08,
+            "amplitude": 900000000.0,
+            "phase_rad": 2.0
+          },
+          {
+            "mode": 2,
+            "start_s": 9.5e-09,
+            "end_s": 1.2e-08,
+            "amplitude": -1000000000.0,
+            "phase_rad": 0.2
+          }
+        ],
+        "file": "mixed_history_1ps.npz",
+        "sha256": "cf2f50f6b1ca4da419913701063940a2d5d2cbf56b328fb42633a72b99c943aa",
+        "stepping_seconds": 455.61599929991644
+      },
+      {
+        "case": "mixed_history",
+        "initial_seed": null,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 5e-13,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [
+          {
+            "mode": 0,
+            "start_s": 5e-10,
+            "end_s": 2.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.0
+          },
+          {
+            "mode": 1,
+            "start_s": 2e-09,
+            "end_s": 4e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.3
+          },
+          {
+            "mode": 2,
+            "start_s": 3.5e-09,
+            "end_s": 5.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 1.1
+          },
+          {
+            "mode": 0,
+            "start_s": 6e-09,
+            "end_s": 8e-09,
+            "amplitude": -800000000.0,
+            "phase_rad": 0.7
+          },
+          {
+            "mode": 1,
+            "start_s": 7.5e-09,
+            "end_s": 1e-08,
+            "amplitude": 900000000.0,
+            "phase_rad": 2.0
+          },
+          {
+            "mode": 2,
+            "start_s": 9.5e-09,
+            "end_s": 1.2e-08,
+            "amplitude": -1000000000.0,
+            "phase_rad": 0.2
+          }
+        ],
+        "file": "mixed_history_0.5ps.npz",
+        "sha256": "11d15a7d6dd0c7faae656734a00b8bc0de15adbe3076042b50301782463d680e",
+        "stepping_seconds": 720.2320787999779
+      }
+    ],
+    "configuration_sha256": "69f9124503a3f90bd7d19779932ad375fdec1fc443aabd69a935bcb6ae77a93f",
+    "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "source_sha256": {
+      "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+      "copper_driven_midpoint.py": "5d383ec889e77b9f68b2ec4442eba1fa685a2c3f0df1798e807fddc68c5736e8",
+      "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+      "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+      "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+      "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+      "run_copper_driven_refinement.py": "fbd7cd268cedcdba333647b88085486cf1dc3dcd20a9582d9ddd95e7279598fd"
+    },
+    "full_long_history_passed": false,
+    "actual_feed_passed": false,
+    "manufactured_cavity_passed": false,
+    "full_joint_simulation_passed": false,
+    "full_system_gates_closed": 0
+  },
+  "verifier_sha256": "d1dbf42c74414dcd0d57281bd9ea7352db8306bac0a566243ba1c6d5a0db19f2",
+  "helper_sha256": {
+    "verify_copper_gauss_state.py": "2419d0083d63967bbd43f8d88a880f52e026435a14c03c7e826d7e348e3cc629",
+    "verify_copper_doublet.py": "beb2da57b6a09d4c71333bc3c61066180eacb256dc975be1e59997fefceedb59",
+    "verify_copper_driven_history.py": "60536b00afea8309ff09dccbdfc94d3b1e6774fc38b56551cd47bf01acb75764",
+    "verify_copper_driven_state.py": "d35d9b97d9d8008412e597d86e81dfa733a2df4ea36e8f7ecc32a4fa394ec3a1",
+    "verify_fine_copper_longtime.py": "646fc35f8145f8b32998f9238631f63b2f990220cb1f8d017481083f754cf35f",
+    "verify_fine_copper_ringdown.py": "5e868e53bd56bb9635209228a798e5a7afb26e708d05aac210c3429dc863651c",
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "general_initial_state_approved": false,
+  "full_long_history_passed": false,
+  "actual_feed_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0
+}

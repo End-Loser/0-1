@@ -1,0 +1,13 @@
+{
+  "status": "通过",
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "negative_controls": 13,
+  "manifest_sha256": "ba75b31df0224acdd62524e870be75df41e497b6547d28d8967cfb5798907006",
+  "test_source_sha256": "40fe9368577bfa45f0ff62979f79ebdc5fbb286d177a6650de4e6ce2baa6634a",
+  "verifier_sha256": "baded381e769637e80cf10b6a6c639a15ea73febf5a5a3b167bb3cdba708f65a",
+  "detail": "test_archived_evidence_passes_without_physical_pass (__main__.EvidenceTests.test_archived_evidence_passes_without_physical_pass) ... ok\ntest_reject_evidence_path_escape (__main__.EvidenceTests.test_reject_evidence_path_escape) ... ok\ntest_reject_fake_field_run (__main__.EvidenceTests.test_reject_fake_field_run) ... ok\ntest_reject_fake_original (__main__.EvidenceTests.test_reject_fake_original) ... ok\ntest_reject_false_availability (__main__.EvidenceTests.test_reject_false_availability) ... ok\ntest_reject_fixture (__main__.EvidenceTests.test_reject_fixture) ... ok\ntest_reject_ideal_air_substitution (__main__.EvidenceTests.test_reject_ideal_air_substitution) ... ok\ntest_reject_omitted_requirement (__main__.EvidenceTests.test_reject_omitted_requirement) ... ok\ntest_reject_physical_pass (__main__.EvidenceTests.test_reject_physical_pass) ... ok\ntest_reject_source_limit_change (__main__.EvidenceTests.test_reject_source_limit_change) ... ok\ntest_reject_text_hash_change (__main__.EvidenceTests.test_reject_text_hash_change) ... ok\ntest_reject_unclosed_budget (__main__.EvidenceTests.test_reject_unclosed_budget) ... ok\ntest_reject_unresolved_conflict_claimed_resolved (__main__.EvidenceTests.test_reject_unresolved_conflict_claimed_resolved) ... ok\ntest_reject_wrong_candidate_evidence (__main__.EvidenceTests.test_reject_wrong_candidate_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.251s\n\nOK\n",
+  "physical_validation": false
+}

@@ -1,0 +1,1811 @@
+[
+  {
+    "id": "unknown_lower_bound",
+    "parameters": {
+      "pause_ack_s": null,
+      "switch_cal_s": null,
+      "probe_settle_s": null,
+      "mux_settle_s": null,
+      "adc_transfer_s": null,
+      "solve_s": null,
+      "dac_transfer_s": null,
+      "gain_settle_s": null,
+      "switch_run_s": null,
+      "restore_s": null,
+      "adc_span_V": null,
+      "input_min_V": null,
+      "input_max_V": null,
+      "input_guard_V": null,
+      "noise_sigma_V": null,
+      "noise_rho": null,
+      "noise_bound_V": null,
+      "adc_coeff_sensitivity_per_V": null,
+      "dac_span_V": null,
+      "fine_slope_dB_per_V": null,
+      "fine_center_V": null,
+      "fine_budget_relative": null,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 1,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "archived_values_with_unknown_interfaces",
+    "expected_failed_screens": [],
+    "timing": {
+      "conversions": 8,
+      "retained_readings": 8,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 8e-05,
+      "pause_s": 8.5e-05,
+      "missing": [
+        "pause_ack_s",
+        "switch_cal_s",
+        "probe_settle_s",
+        "mux_settle_s",
+        "adc_transfer_s",
+        "solve_s",
+        "dac_transfer_s",
+        "gain_settle_s",
+        "switch_run_s",
+        "restore_s"
+      ],
+      "kind": "lower_bound_with_missing_overheads",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 0.0
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 0.0
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 0.0
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 8e-05
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 0.0
+        },
+        {
+          "name": "solve",
+          "duration_s": 0.0
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 0.0
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 0.0
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 0.0
+        },
+        {
+          "name": "restore",
+          "duration_s": 0.0
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.00842835894893406,
+      "pause_fraction_start_to_start": 0.0085,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.008414999999999999,
+      "active_pause_budget_met": true,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_span_V",
+        "input_min_V",
+        "input_max_V",
+        "input_guard_V",
+        "noise_sigma_V",
+        "noise_rho",
+        "noise_bound_V",
+        "adc_coeff_sensitivity_per_V",
+        "dac_span_V",
+        "fine_slope_dB_per_V",
+        "fine_center_V",
+        "fine_budget_relative",
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": null,
+      "fine": null,
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [],
+    "expectations_match": true
+  },
+  {
+    "id": "assumed_m1",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 1,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct"
+    ],
+    "timing": {
+      "conversions": 8,
+      "retained_readings": 8,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 8e-05,
+      "pause_s": 0.00016120000000000002,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 8e-05
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 1.28e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.01586426799984254,
+      "pause_fraction_start_to_start": 0.016120000000000002,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0159588,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 0.002,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "assumed_m4",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 4,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct"
+    ],
+    "timing": {
+      "conversions": 32,
+      "retained_readings": 32,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 0.00032,
+      "pause_s": 0.0004396,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 0.00032
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 5.12e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.04210889306103682,
+      "pause_fraction_start_to_start": 0.04396,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0435204,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.0005,
+        "mean_noise_coeff_sigma_relative": 0.001,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "assumed_m16",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 16,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct"
+    ],
+    "timing": {
+      "conversions": 128,
+      "retained_readings": 128,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 0.00128,
+      "pause_s": 0.0015532,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 0.00128
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 0.0002048
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.13443894332306203,
+      "pause_fraction_start_to_start": 0.15531999999999999,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.1537668,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.00025,
+        "mean_noise_coeff_sigma_relative": 0.0005,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "short_recalibration_period",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 16,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.001,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct",
+      "start_period"
+    ],
+    "timing": {
+      "conversions": 128,
+      "retained_readings": 128,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 0.00128,
+      "pause_s": 0.0015532,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 0.00128
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 0.0002048
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.13443894332306203,
+      "pause_fraction_start_to_start": null,
+      "start_to_start_feasible": false,
+      "active_interval_for_pause_budget_s": 0.1537668,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.00025,
+        "mean_noise_coeff_sigma_relative": 0.0005,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct",
+      "start_period"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "discard_two_each_point",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 1,
+      "discard_per_point": 2,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct"
+    ],
+    "timing": {
+      "conversions": 24,
+      "retained_readings": 8,
+      "discarded_readings": 16,
+      "adc_throughput_only_s": 0.00024,
+      "pause_s": 0.0003468,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 0.00024
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 3.84e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.03351760930915839,
+      "pause_fraction_start_to_start": 0.03468,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0343332,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 0.002,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "fine_too_steep",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 20000,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 1,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct",
+      "fine_rounding"
+    ],
+    "timing": {
+      "conversions": 8,
+      "retained_readings": 8,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 8e-05,
+      "pause_s": 0.00016120000000000002,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 8e-05
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 1.28e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.01586426799984254,
+      "pause_fraction_start_to_start": 0.016120000000000002,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0159588,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 0.002,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 0.762939453125,
+        "rounding_bound_relative": 0.0448970097435624,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 21,
+        "necessary_rounding_condition_ok": false,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": false,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct",
+      "fine_rounding"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "fine_insufficient_range",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 0.1,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 1,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct",
+      "fine_coverage"
+    ],
+    "timing": {
+      "conversions": 8,
+      "retained_readings": 8,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 8e-05,
+      "pause_s": 0.00016120000000000002,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 8e-05
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 1.28e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.01586426799984254,
+      "pause_fraction_start_to_start": 0.016120000000000002,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0159588,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 0.002,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-06,
+        "rounding_bound_relative": 2.195916505630748e-07,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 3,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": false,
+        "conditional_quantization_screen_ok": false,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct",
+      "fine_coverage"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "adc_overrange",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.6,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 1,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct",
+      "adc_range"
+    ],
+    "timing": {
+      "conversions": 8,
+      "retained_readings": 8,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 8e-05,
+      "pause_s": 0.00016120000000000002,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 8e-05
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 1.28e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.01586426799984254,
+      "pause_fraction_start_to_start": 0.016120000000000002,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0159588,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": false,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 0.002,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct",
+      "adc_range"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "correlated_m16",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 1.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 16,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct"
+    ],
+    "timing": {
+      "conversions": 128,
+      "retained_readings": 128,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 0.00128,
+      "pause_s": 0.0015532,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 0.00128
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 0.0002048
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.13443894332306203,
+      "pause_fraction_start_to_start": 0.15531999999999999,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.1537668,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 0.002,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct"
+    ],
+    "expectations_match": true
+  },
+  {
+    "id": "synthetic_bounded_budget",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.5,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.01,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 2.0,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": 1e-05,
+      "adc_inl_bound_V": 2e-05,
+      "adc_reference_bound_V": 1e-05,
+      "dac_static_bound_V": 3e-05,
+      "other_coeff_bound_relative": 0.002,
+      "averages": 1,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.02,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [],
+    "timing": {
+      "conversions": 8,
+      "retained_readings": 8,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 8e-05,
+      "pause_s": 0.00016120000000000002,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 8e-05
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 1.28e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.007995555820090074,
+      "pause_fraction_start_to_start": 0.016120000000000002,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0159588,
+      "active_pause_budget_met": true,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 3.814697265625e-05,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 0.002,
+        "bounded_noise_coeff_relative": 0.006,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": 0.008136079011585418
+    },
+    "failed_screens": [],
+    "expectations_match": true
+  },
+  {
+    "id": "small_signal_high_sensitivity",
+    "parameters": {
+      "pause_ack_s": 2e-06,
+      "switch_cal_s": 3e-06,
+      "probe_settle_s": 4e-06,
+      "mux_settle_s": 1e-06,
+      "adc_transfer_s": 1.6e-06,
+      "solve_s": 6e-06,
+      "dac_transfer_s": 2.4e-06,
+      "gain_settle_s": 3e-06,
+      "switch_run_s": 3e-06,
+      "restore_s": 4e-06,
+      "adc_span_V": 2.5,
+      "input_min_V": 0.0001,
+      "input_max_V": 2.0,
+      "input_guard_V": 0.0,
+      "noise_sigma_V": 0.001,
+      "noise_rho": 0.0,
+      "noise_bound_V": 0.003,
+      "adc_coeff_sensitivity_per_V": 10000,
+      "dac_span_V": 2.5,
+      "fine_slope_dB_per_V": 1.0,
+      "fine_center_V": 1.25,
+      "fine_budget_relative": 0.002,
+      "adc_offset_bound_V": null,
+      "adc_inl_bound_V": null,
+      "adc_reference_bound_V": null,
+      "dac_static_bound_V": null,
+      "other_coeff_bound_relative": null,
+      "averages": 1,
+      "discard_per_point": 0,
+      "updates": 1,
+      "sample_rate_Hz": 100000,
+      "active_interval_s": 0.01,
+      "start_interval_s": 0.01,
+      "pause_budget_relative": 0.01
+    },
+    "assumption_class": "synthetic_design_example",
+    "expected_failed_screens": [
+      "pause_1pct"
+    ],
+    "timing": {
+      "conversions": 8,
+      "retained_readings": 8,
+      "discarded_readings": 0,
+      "adc_throughput_only_s": 8e-05,
+      "pause_s": 0.00016120000000000002,
+      "missing": [],
+      "kind": "assumed_serial_schedule",
+      "segments": [
+        {
+          "name": "pause_ack",
+          "duration_s": 2e-06
+        },
+        {
+          "name": "switch_cal",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "probe_and_mux",
+          "duration_s": 3.9999999999999996e-05
+        },
+        {
+          "name": "adc_conversion_slots",
+          "duration_s": 8e-05
+        },
+        {
+          "name": "adc_serial_nonoverlap",
+          "duration_s": 1.28e-05
+        },
+        {
+          "name": "solve",
+          "duration_s": 6e-06
+        },
+        {
+          "name": "dac_serial_nonoverlap",
+          "duration_s": 2.4e-06
+        },
+        {
+          "name": "dac_candidate_settle",
+          "duration_s": 5e-06
+        },
+        {
+          "name": "gain_settle",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "switch_run",
+          "duration_s": 3e-06
+        },
+        {
+          "name": "restore",
+          "duration_s": 4e-06
+        }
+      ],
+      "pause_fraction_active_plus_pause": 0.01586426799984254,
+      "pause_fraction_start_to_start": 0.016120000000000002,
+      "start_to_start_feasible": true,
+      "active_interval_for_pause_budget_s": 0.0159588,
+      "active_pause_budget_met": false,
+      "conditions": [
+        "one ADC, eight distinct probe points",
+        "per-point repeats, discarded samples included",
+        "serialized transfer, no SPI overlap credited",
+        "DAC 5us is a candidate value, not a guaranteed worst case",
+        "startup and fault recovery outside periodic budget"
+      ]
+    },
+    "quantization": {
+      "missing": [
+        "adc_offset_bound_V",
+        "adc_inl_bound_V",
+        "adc_reference_bound_V",
+        "dac_static_bound_V",
+        "other_coeff_bound_relative"
+      ],
+      "coarse_positive_relative": 0.02920052719442817,
+      "coarse_negative_relative": 0.028372048422893828,
+      "coarse_only_within_1pct": false,
+      "fine_step_limit_for_1pct_dB": 0.17285495130570314,
+      "real_effective_accuracy_status": "BLOCKED_NO_HARDWARE_MODEL",
+      "adc": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "range_with_guard_ok": true,
+        "quantization_coeff_bound_relative": 0.19073486328125,
+        "mean_noise_sigma_V": 0.001,
+        "mean_noise_coeff_sigma_relative": 10.0,
+        "bounded_noise_coeff_relative": 30.0,
+        "quantization_bound_reduced_by_average": false,
+        "noise_sigma_is_not_a_deterministic_bound": true
+      },
+      "fine": {
+        "ideal_lsb_V": 3.814697265625e-05,
+        "max_code_V": 2.4999618530273438,
+        "ideal_step_dB": 3.814697265625e-05,
+        "rounding_bound_relative": 2.1959186755542036e-06,
+        "step_limit_dB": 0.03470886124907653,
+        "minimum_bits_rounding_only": 7,
+        "necessary_rounding_condition_ok": true,
+        "coarse_residual_coverage_ok": true,
+        "conditional_quantization_screen_ok": true,
+        "assumption": "affine log-gain slope over full control range, symmetric correction about center"
+      },
+      "conditional_combined_bound_relative": null
+    },
+    "failed_screens": [
+      "pause_1pct"
+    ],
+    "expectations_match": true
+  }
+]

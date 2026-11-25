@@ -1,0 +1,46 @@
+[
+  {
+    "shape": [
+      24,
+      15,
+      9
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "mode": [
+      1,
+      1,
+      1
+    ],
+    "port": "single interior edge current filament, delta-gap",
+    "drive_current_A": 1.0,
+    "reference_impedance_ohm": 50.0,
+    "sweep_points": 9,
+    "terms": 64
+  },
+  {
+    "shape": [
+      36,
+      23,
+      14
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "mode": [
+      1,
+      1,
+      1
+    ],
+    "port": "single interior edge current filament, delta-gap",
+    "drive_current_A": 1.0,
+    "reference_impedance_ohm": 50.0,
+    "sweep_points": 9,
+    "terms": 64
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "independent_verification_pass": true,
+  "full_field_frequency_points_checked": 24,
+  "ordering_control_frequency_points": 2,
+  "cases": [
+    {
+      "case": "q_32x20x12_011",
+      "Q_error": 0.011728901685683857,
+      "frequency_error": 0.002391429395442568,
+      "full_e_equation_residual": 6.587115287384542e-15,
+      "power_closure": 7.216449660063518e-15,
+      "all_node_charge_residual": 7.853893820327488e-14,
+      "energy_vs_pole_Q": 1.0604437819639045e-05,
+      "five_vs_three_Q": 7.047129546577935e-10
+    },
+    {
+      "case": "q_32x20x12_101",
+      "Q_error": 0.011472735619820984,
+      "frequency_error": 0.0025763248552967966,
+      "full_e_equation_residual": 7.614961053262566e-15,
+      "power_closure": 4.3298697960381105e-15,
+      "all_node_charge_residual": 7.80113735227027e-14,
+      "energy_vs_pole_Q": 1.2538030922382148e-05,
+      "five_vs_three_Q": 9.699012704089682e-10
+    },
+    {
+      "case": "q_36x23x14_011",
+      "Q_error": 0.008623243813824288,
+      "frequency_error": 0.0017690638319459717,
+      "full_e_equation_residual": 8.283575197888966e-15,
+      "power_closure": 5.773159728050814e-15,
+      "all_node_charge_residual": 9.829131230847485e-14,
+      "energy_vs_pole_Q": 1.0704674396011526e-05,
+      "five_vs_three_Q": 7.751826958113384e-10
+    },
+    {
+      "case": "q_36x23x14_101",
+      "Q_error": 0.008426571709599262,
+      "frequency_error": 0.0019029230487750404,
+      "full_e_equation_residual": 2.0118320733208176e-14,
+      "power_closure": 1.4654943925052066e-14,
+      "all_node_charge_residual": 4.098069192174693e-13,
+      "energy_vs_pole_Q": 1.2654310809656621e-05,
+      "five_vs_three_Q": 9.526438526918923e-10
+    }
+  ],
+  "summary_sha256": "4d99e6638ff04b8883e687058f5eff7ef0c4e3ad4504c9f5c778c42a05d3ca1f",
+  "verifier_sha256": "ed25d08253188b6cd6308397ae94d5c3227aacfa3c61ce44974d3b3f1117d3a8",
+  "helper_sha256": {
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "test_output": "test_all_node_charge_orientation (__main__.CopperTests.test_all_node_charge_orientation) ... ok\ntest_box_edges_two_parallel_records (__main__.CopperTests.test_box_edges_two_parallel_records) ... ok\ntest_continuum_Q_independent_quadrature (__main__.CopperTests.test_continuum_Q_independent_quadrature) ... ok\ntest_copper_conductivity_scaling (__main__.CopperTests.test_copper_conductivity_scaling) ... ok\ntest_driven_power_and_branch_loss (__main__.CopperTests.test_driven_power_and_branch_loss) ... ok\ntest_each_surface_tangent_area (__main__.CopperTests.test_each_surface_tangent_area) ... ok\ntest_full_weights_and_records (__main__.CopperTests.test_full_weights_and_records) ... ok\ntest_invalid_admittance (__main__.CopperTests.test_invalid_admittance) ... ok\ntest_local_pole_known_response (__main__.CopperTests.test_local_pole_known_response) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.097s\n\nOK\n",
+  "manufactured_cavity_passed": false,
+  "copper_long_transient_passed": false,
+  "full_joint_simulation_passed": false
+}

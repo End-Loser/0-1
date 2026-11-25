@@ -1,0 +1,172 @@
+{
+  "scope": "Recomputation of stored energy from saved replay arrays",
+  "note": "summary.json \u7684 final_b_energy_J = 0.5*sum(b^2/q) \u91cf\u7eb2\u53d6\u5012\uff0c\u4e0d\u4f5c\u4f9d\u636e\uff1b\u6b63\u786e\u78c1\u80fd\u4e3a 0.5*q@(b*b)\uff0c\u4e0e maxwell3d_boundary.py energy() \u4e00\u81f4\u3002",
+  "evidence_sha256": {
+    "summary": "c3a65bb905ac6bc7b5488c220374576d70806665f8e0edc3b5e6be2c230d5d0d",
+    "recheck_script": "cb0adee6c6ff9838db267008ea4da4d1b6eebeaee15f5c31ed95736957dcde1b",
+    "finite_pec_cavity": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "grid": {
+    "shape": [
+      16,
+      10,
+      6
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "unknowns": 2280,
+    "faces": 3196,
+    "magnetic_inverse_mass_min": 39788735.77297383,
+    "magnetic_inverse_mass_max": 79577471.54594766
+  },
+  "cases": [
+    {
+      "case": "mode_011",
+      "replays": [
+        {
+          "replay": "replay1_threads1",
+          "array_sha256": {
+            "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+          },
+          "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+          "frequency_Hz": 2885919079.3354745,
+          "mode_mass_norm": 1.0
+        },
+        {
+          "replay": "replay2_threads1",
+          "array_sha256": {
+            "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+          },
+          "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+          "frequency_Hz": 2885919079.3354745,
+          "mode_mass_norm": 1.0
+        },
+        {
+          "replay": "replay3_threads1",
+          "array_sha256": {
+            "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+          },
+          "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+          "frequency_Hz": 2885919079.3354745,
+          "mode_mass_norm": 1.0
+        },
+        {
+          "replay": "replay4_threads4",
+          "array_sha256": {
+            "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+          },
+          "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+          "frequency_Hz": 2885919079.3354745,
+          "mode_mass_norm": 1.0
+        }
+      ],
+      "all_replays_bitwise_identical": true,
+      "replay_count": 4
+    },
+    {
+      "case": "mode_111",
+      "replays": [
+        {
+          "replay": "replay1_threads1",
+          "array_sha256": {
+            "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+          },
+          "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+          "frequency_Hz": 3033711150.8971233,
+          "mode_mass_norm": 1.0
+        },
+        {
+          "replay": "replay2_threads1",
+          "array_sha256": {
+            "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+          },
+          "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+          "frequency_Hz": 3033711150.8971233,
+          "mode_mass_norm": 1.0
+        },
+        {
+          "replay": "replay3_threads1",
+          "array_sha256": {
+            "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+          },
+          "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+          "frequency_Hz": 3033711150.8971233,
+          "mode_mass_norm": 1.0
+        },
+        {
+          "replay": "replay4_threads4",
+          "array_sha256": {
+            "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+          },
+          "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+          "frequency_Hz": 3033711150.8971233,
+          "mode_mass_norm": 1.0
+        }
+      ],
+      "all_replays_bitwise_identical": true,
+      "replay_count": 4
+    },
+    {
+      "case": "transient_800ns",
+      "replays": [
+        {
+          "replay": "replay1_threads1",
+          "array_sha256": {
+            "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+            "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+            "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+            "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+          },
+          "electric_energy_J": 6.852720821740223e-20,
+          "magnetic_energy_J": 1.2564373677831628e-22,
+          "source_work_J": 6.8652851954186e-20,
+          "closure_relative": 7.942553003748719e-14
+        },
+        {
+          "replay": "replay2_threads1",
+          "array_sha256": {
+            "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+            "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+            "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+            "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+          },
+          "electric_energy_J": 6.852720821740223e-20,
+          "magnetic_energy_J": 1.2564373677831628e-22,
+          "source_work_J": 6.8652851954186e-20,
+          "closure_relative": 7.942553003748719e-14
+        },
+        {
+          "replay": "replay3_threads1",
+          "array_sha256": {
+            "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+            "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+            "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+            "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+          },
+          "electric_energy_J": 6.852720821740223e-20,
+          "magnetic_energy_J": 1.2564373677831628e-22,
+          "source_work_J": 6.8652851954186e-20,
+          "closure_relative": 7.942553003748719e-14
+        },
+        {
+          "replay": "replay4_threads4",
+          "array_sha256": {
+            "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+            "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+            "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+            "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+          },
+          "electric_energy_J": 6.852720821740223e-20,
+          "magnetic_energy_J": 1.2564373677831628e-22,
+          "source_work_J": 6.8652851954186e-20,
+          "closure_relative": 7.942553003748719e-14
+        }
+      ],
+      "all_replays_bitwise_identical": true,
+      "replay_count": 4
+    }
+  ]
+}

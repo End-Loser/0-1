@@ -1,0 +1,225 @@
+{
+  "cases": [
+    {
+      "file": "seed1_2.5ps.npz",
+      "sha256": "eb99f656ea58d1762799c041de416c95674f67892d995100dd8247954a58b490",
+      "configuration": {
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 2.5e-12,
+        "sample_interval_s": 2e-11,
+        "initial_seed": 1,
+        "pulses": []
+      },
+      "actual_steps": 8,
+      "actual_duration_s": 2e-11,
+      "energy_closure": 2.6645352591003757e-15,
+      "anchors": [
+        {
+          "step": 0,
+          "electric": 4.817185115454539e-12,
+          "magnetic": 1.3526284086186097e-16,
+          "RL": 9.737255925489652e-12,
+          "charge": 2.0758673397412583e-11,
+          "wall": 8.343848907383473e-14,
+          "energy": 1.3981692479186305e-15,
+          "before_energy_J": 0.5,
+          "after_energy_J": 0.49999999111321597,
+          "heat_J": 8.886784729966124e-09,
+          "source_work_J": 0.0
+        },
+        {
+          "step": 7,
+          "electric": 2.696701046048291e-13,
+          "magnetic": 9.281385367614728e-16,
+          "RL": 4.2361066111865655e-11,
+          "charge": 8.62767080861723e-13,
+          "wall": 2.713274278926973e-13,
+          "energy": 1.9723799027958066e-16,
+          "before_energy_J": 0.49999888641943313,
+          "after_energy_J": 0.4999984569085318,
+          "heat_J": 4.295109012466237e-07,
+          "source_work_J": 0.0
+        }
+      ]
+    },
+    {
+      "file": "seed1_1.25ps.npz",
+      "sha256": "e2bc68fb997be9ab78c70b79d9aa048a6c599fa959229fa0e7371a7b878dd8fc",
+      "configuration": {
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1.25e-12,
+        "sample_interval_s": 2e-11,
+        "initial_seed": 1,
+        "pulses": []
+      },
+      "actual_steps": 16,
+      "actual_duration_s": 2e-11,
+      "energy_closure": 8.659739592076221e-15,
+      "anchors": [
+        {
+          "step": 0,
+          "electric": 1.603538827081613e-10,
+          "magnetic": 1.3947928958238545e-16,
+          "RL": 1.1758715293032385e-11,
+          "charge": 4.883529578414403e-10,
+          "wall": 5.733262618728873e-14,
+          "energy": 1.5799906263966488e-15,
+          "before_energy_J": 0.5,
+          "after_energy_J": 0.4999999984281979,
+          "heat_J": 1.5718028673778135e-09,
+          "source_work_J": 0.0
+        },
+        {
+          "step": 15,
+          "electric": 2.183651558431727e-12,
+          "magnetic": 1.8644199447849475e-15,
+          "RL": 7.385717643287148e-11,
+          "charge": 2.957923348668053e-12,
+          "wall": 2.7914776170695003e-13,
+          "energy": 2.915146272007725e-15,
+          "before_energy_J": 0.49999868165894656,
+          "after_energy_J": 0.49999845691352834,
+          "heat_J": 2.247454196778317e-07,
+          "source_work_J": 0.0
+        }
+      ]
+    },
+    {
+      "file": "seed2_2.5ps.npz",
+      "sha256": "81ba3388a9fa52d8278e1cd0fb1d0c69bf26a92a7ff44c66e230af3391316026",
+      "configuration": {
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 2.5e-12,
+        "sample_interval_s": 2e-11,
+        "initial_seed": 2,
+        "pulses": []
+      },
+      "actual_steps": 8,
+      "actual_duration_s": 2e-11,
+      "energy_closure": 3.552713678800501e-15,
+      "anchors": [
+        {
+          "step": 0,
+          "electric": 5.862303314565415e-12,
+          "magnetic": 1.526894145082241e-16,
+          "RL": 9.737111818507068e-12,
+          "charge": 1.9965722338777987e-11,
+          "wall": 7.848247458136921e-14,
+          "energy": 8.460570958158917e-16,
+          "before_energy_J": 0.5000000000000001,
+          "after_energy_J": 0.49999998899302556,
+          "heat_J": 1.1006974977057207e-08,
+          "source_work_J": 0.0
+        },
+        {
+          "step": 7,
+          "electric": 5.025473158393582e-13,
+          "magnetic": 9.265356297019262e-16,
+          "RL": 4.23609951164853e-11,
+          "charge": 1.0099931028232395e-12,
+          "wall": 2.58223909283408e-13,
+          "energy": 2.6698763904307182e-17,
+          "before_energy_J": 0.4999986207486031,
+          "after_energy_J": 0.4999980887686445,
+          "heat_J": 5.319799585979102e-07,
+          "source_work_J": 0.0
+        }
+      ]
+    },
+    {
+      "file": "seed2_1.25ps.npz",
+      "sha256": "7309d700a8a0e0bda905ab08bea7b68b17ddfff49ba6e0abc359a03d0cd001e6",
+      "configuration": {
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1.25e-12,
+        "sample_interval_s": 2e-11,
+        "initial_seed": 2,
+        "pulses": []
+      },
+      "actual_steps": 16,
+      "actual_duration_s": 2e-11,
+      "energy_closure": 5.773159728050814e-15,
+      "anchors": [
+        {
+          "step": 0,
+          "electric": 1.8057970423439998e-10,
+          "magnetic": 1.522779074778346e-16,
+          "RL": 1.1758289201175186e-11,
+          "charge": 4.528885182052523e-10,
+          "wall": 5.599559683795136e-14,
+          "energy": 2.7639731973506478e-15,
+          "before_energy_J": 0.5000000000000001,
+          "after_energy_J": 0.49999999805319734,
+          "heat_J": 1.946804156530553e-09,
+          "source_work_J": 0.0
+        },
+        {
+          "step": 15,
+          "electric": 2.665020795464773e-12,
+          "magnetic": 1.8797487007253916e-15,
+          "RL": 7.38572019975652e-11,
+          "charge": 2.9335416932906304e-12,
+          "wall": 2.729236319702056e-13,
+          "energy": 5.490645372502143e-16,
+          "before_energy_J": 0.499998367138127,
+          "after_energy_J": 0.4999980887749052,
+          "heat_J": 2.783632220807196e-07,
+          "source_work_J": 0.0
+        }
+      ]
+    }
+  ],
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "source_sha256": {
+    "run_copper_longtime_preflight.py": "b789385f0ee8e9fff8df184da8f4ea1b3893b3b2ad6bcf9c4ace6cd6dc2c6db8",
+    "run_copper_gauss_longtime.py": "83917b54e6ab28209007ed624783c1fb34068292c476f1fb304fdd2096ebce7c",
+    "verify_copper_gauss_longtime.py": "4995bbd3c863353020511d1ddc5b6fb335fd293098cd95b0bdad7361e2986c42",
+    "copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+    "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "full_state_startup_equations_passed": true,
+  "actual_8us_passed": false,
+  "general_initial_state_approved": false,
+  "real_feed_passed": false,
+  "full_joint_passed": false,
+  "full_system_gates_closed": 0,
+  "scope": "Four complete-grid 20 ps no-source startup witnesses only"
+}

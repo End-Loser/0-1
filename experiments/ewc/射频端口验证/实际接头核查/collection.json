@@ -1,0 +1,1335 @@
+{
+  "schema": 1,
+  "source_limit": 5,
+  "candidate_limit": 2,
+  "raw_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-sma-audit-lb263e49",
+  "sources": [
+    {
+      "id": "S1",
+      "part": "132139",
+      "kind": "html",
+      "url": "https://www.amphenolrf.com/132139.html",
+      "retrieved_utc": "2026-11-17T17:11:47.107637+00:00",
+      "status_code": 403,
+      "final_url": "https://www.amphenolrf.com/132139.html",
+      "redirects": [],
+      "content_type": "text/html",
+      "raw_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-sma-audit-lb263e49\\S1.html",
+      "raw_bytes": 385,
+      "raw_sha256": "60019606c671495fd76aaf60be42ae5528f3a2fdac555ecba086d42fcb7ab02a",
+      "acquired": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.amphenolrf.com/132139.html"
+    },
+    {
+      "id": "S2",
+      "part": "901-9211",
+      "kind": "html",
+      "url": "https://www.amphenolrf.com/en-us/part/901-9211/4281/",
+      "retrieved_utc": "2026-11-17T17:11:47.107637+00:00",
+      "status_code": 403,
+      "final_url": "https://www.amphenolrf.com/en-us/part/901-9211/4281/",
+      "redirects": [],
+      "content_type": "text/html",
+      "raw_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-sma-audit-lb263e49\\S2.html",
+      "raw_bytes": 419,
+      "raw_sha256": "952a4d260c3f04e7541231236ca25a967bc78f5a20c1f447b72f7cf33a65d40e",
+      "acquired": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.amphenolrf.com/en-us/part/901-9211/4281/"
+    },
+    {
+      "id": "S3",
+      "part": "132139",
+      "kind": "pdf",
+      "url": "https://www.amphenolrf.com/en-us/assets/file/4065786252/",
+      "retrieved_utc": "2026-11-17T17:11:47.108666+00:00",
+      "status_code": 403,
+      "final_url": "https://www.amphenolrf.com/en-us/assets/file/4065786252/",
+      "redirects": [],
+      "content_type": "text/html",
+      "raw_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-sma-audit-lb263e49\\S3.pdf",
+      "raw_bytes": 419,
+      "raw_sha256": "44460157261de893b83e0b4d16da025399667b91352a07e09f2650ed8d5a18fd",
+      "acquired": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.amphenolrf.com/en-us/assets/file/4065786252/"
+    },
+    {
+      "id": "S4",
+      "part": "901-9211",
+      "kind": "pdf",
+      "url": "https://www.amphenolrf.com/en-us/assets/file/4065788912/",
+      "retrieved_utc": "2026-11-17T17:11:48.725814+00:00",
+      "status_code": 403,
+      "final_url": "https://www.amphenolrf.com/en-us/assets/file/4065788912/",
+      "redirects": [],
+      "content_type": "text/html",
+      "raw_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-sma-audit-lb263e49\\S4.pdf",
+      "raw_bytes": 419,
+      "raw_sha256": "a3e26d10746472eef1c69ed48b007b1f7ea53d62bf5d9ffa8067289886a2f515",
+      "acquired": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.amphenolrf.com/en-us/assets/file/4065788912/"
+    },
+    {
+      "id": "S5",
+      "part": "901-9211",
+      "kind": "step",
+      "url": "https://www.amphenolrf.com/en-us/assets/file/4068628677/",
+      "retrieved_utc": "2026-11-17T17:11:48.767886+00:00",
+      "status_code": 403,
+      "final_url": "https://www.amphenolrf.com/en-us/assets/file/4068628677/",
+      "redirects": [],
+      "content_type": "text/html",
+      "raw_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-sma-audit-lb263e49\\S5.step",
+      "raw_bytes": 419,
+      "raw_sha256": "fe7d735f46ea81cb10da5674424c0c654311e49590f320958734289aba142e5e",
+      "acquired": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.amphenolrf.com/en-us/assets/file/4068628677/"
+    }
+  ],
+  "baseline": [
+    {
+      "path": "射频端口验证\\run_coax_benchmark.py",
+      "sha256": "a1f8698fcf73c91354d83d3e3bbbc83b23eb5bfca9912147cbce6c3a930efa4f"
+    },
+    {
+      "path": "射频端口验证\\test_coax_benchmark.py",
+      "sha256": "1633f8e3bbe376f15f60e2d865f737d4158f9e44d1a63332b813f7a8cfc1a16c"
+    },
+    {
+      "path": "射频端口验证\\verify_coax_benchmark.py",
+      "sha256": "a5e28cc01572064c9bdb7011b7084d6b8f78bc5b4feac98b406da7f5227986f8"
+    },
+    {
+      "path": "射频端口验证\\同轴端口归一化与参考面基准报告.md",
+      "sha256": "99c3c9a68ce4f7d40a36355b2a8ecd8151f32b24a158a4d149b4bbdbbf42d954"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_00.npz",
+      "sha256": "1e94edcbdb81fef9dddfd19ef551dbb067a82c7a42006a8cdf47edb2ae325d05"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_01.npz",
+      "sha256": "3962b984da28dd96b0b4b51cc98bf122e5149a082685417719e98701cc3f82c2"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_02.npz",
+      "sha256": "65fce0311b4a88ad457460883d256e3b53dc57bdf0af9249426bedc9cffbc287"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_03.npz",
+      "sha256": "9690311d5ccfc2a21c84d112fdc8420b47892ab4c293c10724d9b4c9fce64f7e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_04.npz",
+      "sha256": "28db310b9ad9c3ba116c92f407977830810d61e65d33cac00f91ba0aad3f623e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_05.npz",
+      "sha256": "5351edafc2dfb8ae777c35faf2c3ef751ceabd90ba518b3c264c49517d856abe"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_06.npz",
+      "sha256": "f6d85da2452f86b6427d4f77fa0b8840a98d4476201444a624ce16bd628fe917"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_07.npz",
+      "sha256": "cf18d8dee1b01a46f044810bacd1f84f1d6f9658198064faa46fb793ca9f0c6e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_08.npz",
+      "sha256": "bf13415f164d3a1583eb85ab138a7991e8d6a3b2c0b1addf0b541dfc63f5c11d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_09.npz",
+      "sha256": "9c5465b7136fe7d4fe2654f86ed5953d9373ff2c52929f08c90cd648e35e9a5d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_10.npz",
+      "sha256": "5d4cca078ed4a973b986d1458e206dda27ee09d131e514ec55b51658030518bb"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_11.npz",
+      "sha256": "0cebe64a56e0f71d2331fff5e71f8b55638d12c01d9a546e6e2f4b9d3277be6f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_12.npz",
+      "sha256": "5d005f75c4f2810f61f8b99fc6229c1ee653f9ee092b4aec7681dffc13c17119"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_13.npz",
+      "sha256": "296d2c1f4823dd3c6970f3a5e90920d67437a6196aac549b5f1bcb15749455d8"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_14.npz",
+      "sha256": "498adcc41d3740ae66389bb59ebb34cfd367ca1e12cb8e0637f999a3a4cac15a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_15.npz",
+      "sha256": "de1c3242626151e79b38fc50e13d022600eda5d3fd4e138b011de38e0869dff8"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_16.npz",
+      "sha256": "2eb239bd06a8491a9d5b1665a37d0d5c3a0e02a1b3265de27a17f43cedafd929"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_17.npz",
+      "sha256": "9808b293c45a117466a4d53a84078d622525ecc6ed75879dedc86eeb1a31a67e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_18.npz",
+      "sha256": "c762e96a42543a8585abb20840c06edd307774e6f37499ddc0519f9c3afe3af3"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_19.npz",
+      "sha256": "58f1ca642426db9037ade677b594bc9df559623678a320f88ce1a86ae88c511a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_20.npz",
+      "sha256": "4bc1083163ca12082bcb3a4b33502074995c0e2cf8457c34f2c4c68d002c2b66"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_21.npz",
+      "sha256": "383ffb457639aac4cee8e6be204916fa76503b09dd6f520ea390549de75973ec"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_22.npz",
+      "sha256": "5bce9dd886be357d757a2ae614f52a2841311d2ec488d193a3d6d02d4bf43359"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_23.npz",
+      "sha256": "6b3b5c2d0efb5a9436dfed0d7d079c15dae8d6ad02ceb55203b65be922a7c9d7"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_24.npz",
+      "sha256": "428471b773ad904cac59084b6b08e0ce274c8371283fc82d01d2a321957eb547"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_25.npz",
+      "sha256": "2b0ba691548b084cfbed2da7a9e946972dc101f1db6a176966db0f58ae591116"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_26.npz",
+      "sha256": "a136feb42bebf4cf8493ab7a2b782ab4f521ea82a2a47cdc07d4e8fbc37f9b64"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_27.npz",
+      "sha256": "ffe3c577827a5536f17438bf90eb459770d05e38980d6e1082eec6bb0206e120"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_28.npz",
+      "sha256": "91e0fccbe0aa0fe13d9ee4cd8931476637abf1461c47d1a08a37bc0abf3a74f5"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_29.npz",
+      "sha256": "8d851201b6108fdd7c76b5c16cde3a2ab681ac7a7e2b11907d2f930148cf9652"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_30.npz",
+      "sha256": "c5fa7c5f0f757cec20db248a772aa125fae4a7329a534ea4594ffb6a68ec01c4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_31.npz",
+      "sha256": "25076eafcc50bb2539e3a1f40f3c27abb2199bbdf23e1f501f8842ad8286f739"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_32.npz",
+      "sha256": "0306b7253d5816860f1648fca686ee0f37c851649b2b4632d6f193b4fc2c1a4c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_33.npz",
+      "sha256": "291a1146ac5d57279af9558827d4cc35ab0c978d9ef64c0a2c46b96241b46c36"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_34.npz",
+      "sha256": "663737b28d85d34cd2ea637860a0279405aaceb23062c22543346853df88253b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_35.npz",
+      "sha256": "5af9a634be67209688e98559b53c3fd5f69ee608fbfb4eab519a498d8fb2b9ae"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_36.npz",
+      "sha256": "820e7ae3206bceef0e45896be2530243c7f130b33e2424ed87044406b43650eb"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_37.npz",
+      "sha256": "4277bb348744fb91481a7e463f822563fe1d3098bc31d36b98520bd4b83c0de0"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_38.npz",
+      "sha256": "45899ff9241f06ebddec258ee4c466f8a8f6d8c39d77854e2be0d1c8cf658056"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_39.npz",
+      "sha256": "34c611daa23780d6e95cb368f4c255ced1459605891a3c2249ab1a252bfb0ebc"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_open_40.npz",
+      "sha256": "bc5f70f0a5602f9b3ec61b681f6dba57aa97f2dbb6cbd82965a61070f5bd88f2"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_00.npz",
+      "sha256": "6e318f0450a449bad88b4ad6aa79ebc724bdf8c7b20db980a401fdb81bfd2ab3"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_01.npz",
+      "sha256": "b90dd77eee682511be460ff305ac02c0f5c8c628a54fc420d4f0826d1815453f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_02.npz",
+      "sha256": "4b5f6dda26a92c5a7f35fd632df6fde987a4fac646c9db1e1684a8384c2a796d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_03.npz",
+      "sha256": "f3af0637762c9d39010670f67ce0eaff5b17a547530a0409e7a5547ef2f1f554"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_04.npz",
+      "sha256": "5249a0421d2d62a1610119e104e53e42592820033d84ea8cca3962a4633007a9"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_05.npz",
+      "sha256": "64a3aef5c85f21231efb988f1515eb86ef0da010f8c06a766705b2c3631ed1ae"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_06.npz",
+      "sha256": "a28c673e667ee8b324e3c551760e11d90a2a312c3e309703e5c7af11bb7e1464"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_07.npz",
+      "sha256": "8c72fdc825fda1bc838422b9413d28f09ecbd240755c743ce6419d750b8104c4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_08.npz",
+      "sha256": "c5757056187430ebe82fadef28fe83399f6862ff9bdfacb562304760e0653e2e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_09.npz",
+      "sha256": "5a7d7c4ef1d0156baff95254072d0c67bab22bc6c4bd83b34a0b4d9299bfddac"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_10.npz",
+      "sha256": "b8a95f5342e68b99ef6d256712301b10cbf628a7a2661be12bf78f6e67707e11"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_11.npz",
+      "sha256": "6b87229a5d8d91f84d41e319cd03fb81c8c28fc444105264f1a5e79fda4a07bd"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_12.npz",
+      "sha256": "2b80800d58bf2da4bac3095d1199755888b9a1986b1c71804a537563fde4db7d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_13.npz",
+      "sha256": "089c1af60620b27e63478b7f7a7aaa9d72e1b8b05c2fd28f321996851f8cfa9f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_14.npz",
+      "sha256": "175b41dc910bc59ea683688278410ae3feee6b725c3cd062d4d8ac6bc68886fd"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_15.npz",
+      "sha256": "d64dbf1aa91e2252ba7fa106411003ce259cb367178e61d09f832f806e27805f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_16.npz",
+      "sha256": "0af1df7534c0d94a980e70310323958e73efb318c14a71600cbed32bccd320ba"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_17.npz",
+      "sha256": "2964cf85be5e80a4222d4f084d82095e918c56e23fc18abc5d6e8028c15283d7"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_18.npz",
+      "sha256": "37de0131c0c937971316e2a5ee9b250de68be8f1b0f87f7f7482f0a4d422b4b9"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_19.npz",
+      "sha256": "8236df010e64c176f7527b1f6e266909a7117fc20201a8f105f1f11cf7ceb032"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_20.npz",
+      "sha256": "18b7f17d45055e94b71852eabd52a41fe2a642fbeb5baf9cc519cce8bf3116fa"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_21.npz",
+      "sha256": "13a399ec6873ba2d780c80aa4f257cc859bb238c28e6ff642a41379cb8d61190"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_22.npz",
+      "sha256": "605b6a695e111f7f2c665bc13d04395b919cab2801643384d0fb12ecba4931f1"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_23.npz",
+      "sha256": "ad42bbe9c581b588e20fd2d9c5cf9ffcc4a0a2ac76fc2f6aa36355c49c022ec8"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_24.npz",
+      "sha256": "17f3fb67ef357fba2808223e9f9451dcd72d450b7f84166ea5393443b54ec76b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_25.npz",
+      "sha256": "c5b9c59ceb0f71ce27824089e58ecf6473fed882576f87e28a650738ac31b98b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_26.npz",
+      "sha256": "17fa62f676943edf9d601d43d896dfe24a416570bc0a465c4a9980046e12f723"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_27.npz",
+      "sha256": "f2c6f0ee3fbf791a47545df8ba4ffa625cb3c040cb5ab9df10da92f7f5fad197"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_28.npz",
+      "sha256": "22d782850283ce80d5638559a5bbd5cb60de7725496eb9bd552b29bf0b5adf6c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_29.npz",
+      "sha256": "5cdad7cce163deb8a9484648ff75fbd6ca6881bd39178e6889388af5f75a0e8b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_30.npz",
+      "sha256": "7585a930c03179aa094cfe10db63210730eebf957e646c149690af66f9142d60"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_31.npz",
+      "sha256": "a3f762df5e6947dbcb1226b8dd7f6a95cf8d7d17652b41325216b0cbca15a0f4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_32.npz",
+      "sha256": "0b761e46ed496d49caf4e1e1cf54d993cef7a720e5b381bc9387c0dbdc848149"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_33.npz",
+      "sha256": "f7d096d59a922a9780f8dd76a8496ea316e65364f7abd2bd71968d43cb7cdb69"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_34.npz",
+      "sha256": "6a4472b416d527e32935976364aec7391100f07de0133b20967e3315f7a4f67a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_35.npz",
+      "sha256": "06da8822503577bddf9aee419574d19e92513cba74c8d5b4351f5c175ca72e15"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_36.npz",
+      "sha256": "124abba3927bf1191883a597c3f193f31c8cbe3f2e2bb5f7de5fe3cda24a9088"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_37.npz",
+      "sha256": "f95233f61938d653c2ddb5c2b1b1c16b7154b3fdcc4d7cb1fefd7045973b12cb"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_38.npz",
+      "sha256": "079a20dab558a9c90c570b45960cba36e41bc8de4e02372c4a26d6f93f0e4cf3"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_39.npz",
+      "sha256": "9722dc4e4ab66d11bebae18d6856834b32038776d29680ddd2f819b74abb5859"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R100_40.npz",
+      "sha256": "29cd1c4a62227ae3ea1b895a6db1e69fd6ccbae5d1c3683f804c5168be3b23b6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_00.npz",
+      "sha256": "f32e31227d409b7e3a3fdff7c8f0250c82f42451136f1d4aaa7b8b1a2e09d2cd"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_01.npz",
+      "sha256": "7dedf7a8ba5ce511388cfd9129c3f14c3bfbc29ffb13a686d6b4a5e10e1a5c8b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_02.npz",
+      "sha256": "a7d64f890dff1b2160475c7ab3411978aac962e1881da1d6daf322a85aac2f4d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_03.npz",
+      "sha256": "e6e878aa1ac8e1b05d70902e5d3bb355f8e0faeb9ec7f6d83f867d980c0274ca"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_04.npz",
+      "sha256": "6ed74e98c093b593260abc483a7b2486730d8651ca331c7b642cbd3b0580e2f6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_05.npz",
+      "sha256": "430aed1d34aa6b1addca652d19d0cb847ba154e91f9677d3a79fc86cb6a3ab2d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_06.npz",
+      "sha256": "a34bdcb27977028e50aceee3b690cf6f75766a09620da09a64d9ca4f12e132ea"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_07.npz",
+      "sha256": "3ec55dc1610b46d53c192eabdee780e471800bd0b26db0a5ee11e150ccf9d1b2"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_08.npz",
+      "sha256": "0ad748254d36f5ba2255b9b5a208a03ac67ddd28c98f4fb6d6c98c0522380c2f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_09.npz",
+      "sha256": "91aa8965628baa860019abe81420264a43d52d9d2585dc5bb61d2efb1b8ec290"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_10.npz",
+      "sha256": "82e2ec6d61eec5abde0891bd2c0aa3ecca6aafe90382f0fa3312421848bfae0c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_11.npz",
+      "sha256": "3c0cbd65b87bc313489bc3d49b6460e70cd4e8ce7067ff19d48e03d9b5711ba1"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_12.npz",
+      "sha256": "b1e6a457ef0db51e3c53e077ede238c4439687888af7247eca2f10426f5d429c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_13.npz",
+      "sha256": "fcfa5b49162c72fa8637f43bdcd8b469dfaf9becbdac098150b8beaea2324d27"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_14.npz",
+      "sha256": "feccf4436e61f0863c5f4c1b421f3fa36969549c7f49a79e17433b66f5fcdb12"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_15.npz",
+      "sha256": "26163f1e56ef56d8f7de22b762c0f2745b7399cbd1d9e2f3a269975473ddb2fa"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_16.npz",
+      "sha256": "cb62fdeb4efb7c6c9d21197c6e722c0c37775f92654693d5e09909dfe5601617"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_17.npz",
+      "sha256": "2fe1aaf5d9ded0ab048c02f946603afe479f6f120acd11107b29805a45f08c44"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_18.npz",
+      "sha256": "2fa3cadcfd86e0e7ae8991452065a7601f4be3a3d6577e84c90ee8d544fc2984"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_19.npz",
+      "sha256": "e27c12dfeaa5c6462a676e80a5f2354d2d48829170804d8a0d71b3b35f5b1fb4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_20.npz",
+      "sha256": "78b8f3e86d929c44be5f48dd956213ce090dcaa30c610fc5c396f809256617e5"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_21.npz",
+      "sha256": "be007d95db4ea5fbde088fd6d5126952139bf9598ce4142bd819af2cbf4132f1"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_22.npz",
+      "sha256": "710985b740c66dd97a2749fb7604e589fe8f84921a6aea26318505e8f6ed1f35"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_23.npz",
+      "sha256": "52c4f658064e4a347218798298775187597f441cda98bd50dc28923d45880b75"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_24.npz",
+      "sha256": "c8e1d51f3640b113909e7e5304845bb6564cb7ff920b15dfc1c87e9819199c0e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_25.npz",
+      "sha256": "297d7287e1432cbb7eb634f3fc639dc84814e7c3b6dd4403f20e4c61eb8b08f5"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_26.npz",
+      "sha256": "489c7468665b65748961d69e5f46a20897d6367ad4451a92c500b586ec88110d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_27.npz",
+      "sha256": "4b42808b66a14e4ad96281be40142078251ab0b352757746d6dfe1d8f0f85758"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_28.npz",
+      "sha256": "db7163182cb197dc6ca0bdf6d28b3ad2578215db10563b331b8bcb8ce0690230"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_29.npz",
+      "sha256": "41caea89523f9375c06a0ae3a01dd73a3d33d1e14b6e0155238607a60cb950be"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_30.npz",
+      "sha256": "9b1184fc5e67ab9eaf0d6d9d55558ace4e4edc787a2de9d57f49ac2956d700fb"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_31.npz",
+      "sha256": "38997ffececad569c81f0f37a396c99f57b273f5ec003e24147ab189f3d3d45e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_32.npz",
+      "sha256": "daefcfc86ab68047f11b323a4a31f8eb132ccbbbc89d7ae295247dae6e29551c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_33.npz",
+      "sha256": "dabd5d9e9201aa910c1b69e100d347b4dd8a36df248724bd52a238f241565777"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_34.npz",
+      "sha256": "a1fde2a1c16c49ac747193cdbcd9e943c435cfc62e2d7e79428e2133d8b79bd3"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_35.npz",
+      "sha256": "716b983cb127a3f1e1dc943cc92d1209015943ee3e1caaa6be99b461ec6f2fdd"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_36.npz",
+      "sha256": "a2179a5a275c16730c7a7a7670010d1dd4bd1dd28162cbd62333207b2de00977"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_37.npz",
+      "sha256": "c671d16f06e93831c0bff5a617c0b16e47da9297f435d30bd24e78ad4f4e5f27"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_38.npz",
+      "sha256": "3aa84918bec7e89b6a3fa52f36902237392a7ec6e61771833fc2c3d14637b8cb"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_39.npz",
+      "sha256": "c68561153ce27e75a1131cecb8b537376f76ecd96f439addc80d954946df9e87"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R25_40.npz",
+      "sha256": "a00d70a688e53c4a574f24a6a934ab8bb814dd1d00f36abc48353c41b29c394d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_00.npz",
+      "sha256": "3133539bb12fd5181fa5c165de8c42b9aea9fe86adce34daca961e6dbcb89629"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_01.npz",
+      "sha256": "c1d828f4f9f2cd3d2e559b72800ad41d1be01116ed19a39c83431e1a8e9afd6b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_02.npz",
+      "sha256": "cf0b6c498ef18eb43b50a56f846c3eecf35142c538d98a3a8718b4f71606130d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_03.npz",
+      "sha256": "24b6fa3c0af6b5a320731e2bdb70a63ea5639b436d35b1be043d32d997b5eea7"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_04.npz",
+      "sha256": "253de01aa11a564e2f26b6f5523f83aa62f3b1775d5b8c1166e2b7ba54b49161"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_05.npz",
+      "sha256": "1c1d7cd2ff13d93c956757448f0cdb8781bb640479ea303db8f12e45006e43f4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_06.npz",
+      "sha256": "0243e8526cf0dd42490eb974e740717296049643727d25a4f19ec81fce48cbce"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_07.npz",
+      "sha256": "79a5f5c4fc054b43e37166849a58a69f94c95eaa707644d69a6e2bd2f220816d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_08.npz",
+      "sha256": "30b5ce08d0d2e419da6472947daffadca002e602146c31b715f7c5b2b07e8d46"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_09.npz",
+      "sha256": "1cd5401fa8609f0acd90e950f55406a78ec4f067f52ba216bb31e7888689daa6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_10.npz",
+      "sha256": "815ce55c939e3a7a31e7520bbfcaf28b195106d516d854a416011b2094652caa"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_11.npz",
+      "sha256": "2187e892a18e611f054c09440774218dcaf0998330b4b6bb5b5c9ed7f896261d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_12.npz",
+      "sha256": "db715a650b57ef095d1b3ad2af11281db87ff2ca91727187d804c3cf005a6724"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_13.npz",
+      "sha256": "3740f12e8c29c753382ced8e80fa5a533d1267a11bb250049c04aa6f6ab066b4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_14.npz",
+      "sha256": "dc117b7d341ea33bfa84c1d920080b0c26a28c3eff3c41dfd9a1238c25f3ab22"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_15.npz",
+      "sha256": "4435e041369cc2f371c0da8c8548004ba6273fc7e8e830a1a03792b00de2e471"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_16.npz",
+      "sha256": "ebcf5cb9d7d5551ae152cfaad53df617e6a9d7a3569ece950efb203c35aa7db6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_17.npz",
+      "sha256": "c9cfbb19542a2b70b7a9db447a4948308a2668a02c8e9af2c06417a1fd4b8bf8"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_18.npz",
+      "sha256": "db325bb6c1e93d6151a93f5c82fd542a24e9f9eb2bc47d43904e572b84fa4409"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_19.npz",
+      "sha256": "fa266a66507d726e1b435c5f9bd375eb9dabb669f3010fc8937f7f355ed0c64a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_20.npz",
+      "sha256": "e911f0274f1b1a72e7da61f1fb475f1d1594af76dcbcd9eb679ad3caf2d7cc50"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_21.npz",
+      "sha256": "6e82fc04aa1fc69f4447f97ab15cf1d6d2459448af78560baaab1e10ff3cb1de"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_22.npz",
+      "sha256": "c7e6901be5e83e01b75e1ed7b8e2af157a7751151d1a3a4a303f9fcb308201b1"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_23.npz",
+      "sha256": "086f9b6f7050d98bcd91918125663296801c73971b7da271132731accae3545a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_24.npz",
+      "sha256": "d0b0601a4835c77329158b5687334d21b55528bafaa00469a83212194ebc2cc6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_25.npz",
+      "sha256": "814264dee4168fb0f124c6d24a5b902d1b1ff65ed2f4b713c1f222638861fd27"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_26.npz",
+      "sha256": "da91e11481d117dd4e236d0edff4e40d74836b7d0c28b5885f4859bd72e5a453"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_27.npz",
+      "sha256": "51398be5356e6df00b13550d35a5804ebfed952befd499893d4281ba1b4cf4b4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_28.npz",
+      "sha256": "c9236fe325327800a0f337ea002415d2d1bb9ffeffc60d27654b271bf63dba53"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_29.npz",
+      "sha256": "f0ac48c75d16612c00d92f9f6911c0de714a9db48fd083df6bfd6cee85bcd113"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_30.npz",
+      "sha256": "3e5dd3582eeb7cf09c7990a12173a971dae8de203a8ca61f496db601da23f728"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_31.npz",
+      "sha256": "1c76dc33cd9c94e5fc8e944f9a2c5d47f004dfa5607d884bb759818b992c2ac1"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_32.npz",
+      "sha256": "b7b83809abebb1f976e5459870806512466a158c9f7e1eda65512d997e078588"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_33.npz",
+      "sha256": "8b9df2e289beeb444cde1cb93a66e1b8f99b7d68ae34fcb32524be0e955379fe"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_34.npz",
+      "sha256": "71e43c772fd6d2b2f5cace10dee31c3e6b0f259ee8f3e37ec16ce808fad9bec0"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_35.npz",
+      "sha256": "69a0e5271b4e3b1958eed94e41d3c5b576f03ca91646a445a473a1ff4d150b20"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_36.npz",
+      "sha256": "f8c4aa85fbf3450a03f7b1667675f0933c1b4bd20999249a54ba2a196d929028"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_37.npz",
+      "sha256": "68f293728eccbb3ca90968f793e5176f34ea8e1ea06b48e0efe435ca4d97c260"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_38.npz",
+      "sha256": "1f09cb9e8420c2daeeba4b5dcbb2e0a21c56d707931c399ea8b083ea6eccae23"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_39.npz",
+      "sha256": "71a2391f36335d812184fe6d166c8b25296937c8edfa534d8d8387d1625ac9e7"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_40.npz",
+      "sha256": "e6e409b629b3630b3687c3f64175e9dbdf19d075105b349d030a1c898a1cbe12"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_00.npz",
+      "sha256": "88329faa6df4c0022e86c44a845cb6f9c0440a441982105e4d2982dfbe39e6ab"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_01.npz",
+      "sha256": "490bd9a413b48c76bd1891a0e910ae2a45235f18e294c41c71a4956871d10e31"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_02.npz",
+      "sha256": "87572e70eee60715233ae6898ebbbf59873e56cecc6afaa48b1a99f4eeb2c83b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_03.npz",
+      "sha256": "8f2711fc2b3b55fa4403ede9df5924c88ddb8f831169e7a4507bbd2cb11882bd"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_04.npz",
+      "sha256": "d570cbe1ee2c680eddb78e5373c37d04d3c99cac8364f7ccd1b7bd89adae2adf"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_05.npz",
+      "sha256": "5063c1ef82451ca7497eea48efa5372cf19c29a1ee2b7f395697939ea3645df4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_06.npz",
+      "sha256": "ccf46423bd5725d210d40bebbf39f26f88254ed2e3d43f4c74f0423f2006d110"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_07.npz",
+      "sha256": "e3cfeada80740067e198f77baa4a6ae08b7ecb5a52c72926353a77da43c2844f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_08.npz",
+      "sha256": "75501e86d3ab27fddb29aa101f53eb941fdce50296b4afc279603f5b8449f736"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_09.npz",
+      "sha256": "1c25027f29aa2fb47720be57955d018a55b5ae6864969fec1fa7fd3fcbd478bb"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_10.npz",
+      "sha256": "4955fc4e757959ec873c7da555948f4918f41c31cd814414c345f3f0ecf26d0a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_11.npz",
+      "sha256": "21fac5ceaddc0e15d5c5c89eb3030ef3c3e485431fbf1ce6f4f6b61ea05db8b1"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_12.npz",
+      "sha256": "c584d8ea7cca5f8295096b383a24de1f2a9e1c17f1e23c11fdd9cabc632f58ec"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_13.npz",
+      "sha256": "1385e213ab3997a1477e0848c70c53768e4d822d507feb6f0cc1e9cb3ade41aa"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_14.npz",
+      "sha256": "91fe47f9bda02447ddc41f7f24454f44c26374615522b4b92b454d8e1b769303"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_15.npz",
+      "sha256": "105c5a28e8fc565d34c3432460efc9c12c43f6810479171f14b9db7e6be79fb6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_16.npz",
+      "sha256": "7e7f42801e9a9b7f0f5d90f10d7c0bb01dada4e17e5c321df2e9ccea48c56be8"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_17.npz",
+      "sha256": "33553514b39aa85d1a5b6436e16d82e2eb8c0608819b393b88e17a150a50085d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_18.npz",
+      "sha256": "30fcea11c99d96fe1d2f156244162b6b3deb7be64c088f9c526913f980bdde05"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_19.npz",
+      "sha256": "ca0de7a85cbb7899f9eaebb70da34abdd9bf087a164f9b93f9a63e2e25465f2c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_20.npz",
+      "sha256": "dd6a1b36badababbbdc840b9be4619a04cbeb87edaedde0f2db691e9e5668d0d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_21.npz",
+      "sha256": "e20a5532a26ccd4ec8bacd621ca21a60d76aee43c3bb7e25a1a80178d247eed4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_22.npz",
+      "sha256": "c8943869dece3f1c9d82c0e4615f9a64670a327c422d36a5d5293cc5bbb5453a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_23.npz",
+      "sha256": "5078f4aa6d6209ece40180a425794f2caa210ac9430fd47caceb3eadcc890293"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_24.npz",
+      "sha256": "e8b94e3d2975c804cf8f5065c97a9cadef0fd5a6e5d7d78e3ed2ee0d4e12a482"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_25.npz",
+      "sha256": "ea1b1a0abcc47b1956878bf5d284a4e7b12997c5d04bc32d79b6d1521d958fba"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_26.npz",
+      "sha256": "568f5fbc971495796070f56363662c72bce2777cea7f856b7b545973f9bd526d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_27.npz",
+      "sha256": "db7dd4a5e928b9d8b66ed83d1971239088ced5a3a1805dec58771af3883f96b9"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_28.npz",
+      "sha256": "fd06f1a21558ea599ca834f528d03d3cab1199de31809f21a956e83e54a2d455"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_29.npz",
+      "sha256": "c7a78afc6997b009522eb5800187a0fe9324dd87be34728a42dd55ef64bf2a6c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_30.npz",
+      "sha256": "6287424de6d8e420077820250625fca947ca52d15df43bc53a16b5aa6e875226"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_31.npz",
+      "sha256": "5ed353767dec366c1b17ca59f044723a6bbcb8eca9362a4e93e1e1c9a8318c6f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_32.npz",
+      "sha256": "92a0c3bbed1737fce16827f32bd9e6d77497397ab16a9cc91899953385718af4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_33.npz",
+      "sha256": "4d3fe8f2df0db61dceb4c946e9c412ea93c84e8f1522f9bac2bd6b96e53e19cb"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_34.npz",
+      "sha256": "84178d38823168837a64d076391aac018e01a0eb25266e4e14d42eae84776bb6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_35.npz",
+      "sha256": "ab350fa6afe20cfb8a57e962810b0aeb5275509a8852a91e3b6ce430d56eda37"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_36.npz",
+      "sha256": "e66a32728cb3de0372d56d65e21c31a997dcb828abc6fc1db363dcf948786265"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_37.npz",
+      "sha256": "4e4d68e045eb5221fbeb21dbdb0196d2f0386e757d4584a9fddab18109c59745"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_38.npz",
+      "sha256": "86bba6211f1d8dd00c3ac72120fc8dcdd0ea1b9c46b8b7c1b4bdf024ae6df23d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_39.npz",
+      "sha256": "ee726e74859d472ab793e1f7f931a3d8618ebccde91c87aa6bcdfc901adc1e34"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R50_X25_40.npz",
+      "sha256": "1590d2e0992dc1bf9f6c64de3f10c3592169f46d2e4a33c9e25115423a38c0c8"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_00.npz",
+      "sha256": "2af5c16ab17c82724bdadb798c0d99f1d7a043c1ebdd1f48ff6d897040160290"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_01.npz",
+      "sha256": "8bee47b9366a6af3a810ccb196d1048f736702166b1f1980f97d8d02b5bed06f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_02.npz",
+      "sha256": "82f499f15d59e002580f6e718d3575bd996eee60715e00b65bbca79395854b1e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_03.npz",
+      "sha256": "a2bdfe38106e89534117df3282c9034db3655dfb8cede028cc9c7b6cd7fadab9"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_04.npz",
+      "sha256": "94bc85b5577471133d1f0863f4075a18556115957b9c804dda1ffb3306fd6e90"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_05.npz",
+      "sha256": "548ccac31fb54447f48458aceedd8909b0f4b6cca693d23dcdeafe37fafef980"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_06.npz",
+      "sha256": "0c8dea2072a97f111142a6ac1a8fb218b523b214e2c6c658b50a6341f95d07b7"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_07.npz",
+      "sha256": "f68a7855da5b22e3b5e45b1894e0c7edc5230aaff28937363ca58114f3343809"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_08.npz",
+      "sha256": "9b25f8348faff5512d65d3cbb1c72aac5a00d38c4f9cb041ea757995633abbbf"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_09.npz",
+      "sha256": "2d074c836fbf80141a1245d84b7e471912696308b9b60c0e92681fd701c19147"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_10.npz",
+      "sha256": "4af073925697224499aa70d75eed9c9bb03944e05878f4ed9e8687e4579c6bfd"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_11.npz",
+      "sha256": "53d7a5487b663375976533bbe0f7415d8ced0b5ee1f0e98145ac53575508c1a9"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_12.npz",
+      "sha256": "56f0e2753b0ff590121fd9aa4c120d65bbde9d39561a25e6cad4c67ae12ace82"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_13.npz",
+      "sha256": "29ad397ce521b9b4d98169d9f412e2fc9bb8639219db359e471b86b59dc0c872"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_14.npz",
+      "sha256": "509757b67b0a4c32b2ddc1f332262e4ebfd3c9cc566a5ad14df6b93f84e92915"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_15.npz",
+      "sha256": "87413988ddf2b725cb27a7226d94f26e45c42065b6de59d71e10b2cddabc8eca"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_16.npz",
+      "sha256": "702795ef11240b7e53f82436768b892f404c083749118bb2c8b7051f02e44c73"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_17.npz",
+      "sha256": "e235ed3ed89baead3188c4f0ff351ad13503a20ae4a2763911f84e6e0d5ea2fa"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_18.npz",
+      "sha256": "1f8e932cbaeed50107ffae415c8335e0a46c137e31bac29d571fc569964f78cf"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_19.npz",
+      "sha256": "7c1774ff70584402b6f041b5b64bf97e2811c0a6a441e5db3d5f86758917e62c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_20.npz",
+      "sha256": "4ebeb8b0ef6fc92047f83e52689781a77b6663f7480eea5376565acd94d3abed"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_21.npz",
+      "sha256": "1d4e24387e250fb60441a204b52f4ec5de8d9891fcc98cbd30d5d69fff16b863"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_22.npz",
+      "sha256": "f4bd84261372c19f11e0c7c663c899bc3ca6cdd8b738d69727059bab84205c84"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_23.npz",
+      "sha256": "b557c75ba1e91b0f19c35b412ae84d195e838790a30acd37264062d5772e13e2"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_24.npz",
+      "sha256": "2d929aacb3dcaa3ad6ebe9389bf3f6d9d92abce34b494af63b5d6a40153a5863"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_25.npz",
+      "sha256": "6a003f7ab6fd77253f658c0045beabb9f0ddc30a23498b707c01a331290473ee"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_26.npz",
+      "sha256": "ecdb99d48e9338ca37645400036276e9ada9068490c0e4e39ab39db911cab90b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_27.npz",
+      "sha256": "b11e131acdd9216b97b1d0962a0c623ae50fc8d7e751bb3e448bc1b03a1ca604"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_28.npz",
+      "sha256": "11a1b03109868d57b2fa34c06b6e814595450db296cd6a83ba0161e44f24b016"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_29.npz",
+      "sha256": "69e689d3a8ca8b1daf31ac63b92cf3b95e6c02e2a373b42342549d6b2e6aa944"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_30.npz",
+      "sha256": "83d55e42df38aee0a818950ee6c7bd3ebe30596f4e39ba81292e9882457c5640"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_31.npz",
+      "sha256": "3e23db733d467fac2fc111636f805ba6ce83dbcd5d967c455531e88d4d3bf656"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_32.npz",
+      "sha256": "b815bacef9935da5dddc41826f018fd6323a21326dc3898ff60a85e117f000f4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_33.npz",
+      "sha256": "91f00d2a0970b73d9e373bbfc10e17bb989b1c16d8da99a46d3aa5c87d0fe3c5"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_34.npz",
+      "sha256": "419a1edcfe6d9ba168b628e9758eb03071c8bfe294e57238680d3d8e7018c9f6"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_35.npz",
+      "sha256": "da54e6f3e001a65ea81cf0135f07ee81890e41bb8ad57e8813fefb477f7c5b2f"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_36.npz",
+      "sha256": "cdaa531b840b0a0479af5142758973fffa7a68afb1a3c4771b278f3bdff46924"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_37.npz",
+      "sha256": "9b47db9a7e5e2729b242c5fa959eeb52535ebd5750fd7c30affc95fe16b705e0"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_38.npz",
+      "sha256": "447e718526c77e087da2800fde6f7c690eef0a7a82e6e2507b134d124640c071"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_39.npz",
+      "sha256": "81b41692d7a03d054baa5d1fd999015aad716eabe9e4bb417a4f9ba3d85f94ee"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_R5_X100_40.npz",
+      "sha256": "10f50c3ae879b07e0ba578621db071e8b18fef46a18902582cf7c2e16b546c24"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_00.npz",
+      "sha256": "482963e33bbc6c72a9d4d0aec750ac45204476c3df0699348a24b1b51a93c53a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_01.npz",
+      "sha256": "abebd5f9d84007318f69537fa02177d1f60aec0c4055e6f07605991266cd29c2"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_02.npz",
+      "sha256": "7e8cc56c17665f7bf1c30472af5f8f332585553bfdedcf3d3dbe2efa81c087c3"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_03.npz",
+      "sha256": "7b31e51276151066f0c81014433a92bd11b0fa9776995a39e043ba50bc13548b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_04.npz",
+      "sha256": "2f0a22fdccd733dfc0c2bfbdb0ead3ba9f121de991b8b5bf180b0bb960bfa4fa"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_05.npz",
+      "sha256": "b56a64a1ab87041032142245cc04d7614500adf8adc38633d6b6dbde04ec086d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_06.npz",
+      "sha256": "e41551ab90066e5d28064ebb360b86fe6c456243fac38ffcb6d57f84b133549d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_07.npz",
+      "sha256": "e3aab547202d790bde322b2bd1b31cfc31f6c944df9e27161b58cda175dafb00"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_08.npz",
+      "sha256": "78bdd570b2b40d1a6d23bc66814a26c185e68edbf77753ce8aaaf98508a074b0"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_09.npz",
+      "sha256": "35c557517c9c257fe0a0e19aab2069516cf4b68ed4528fa9e48894c9ddcc2990"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_10.npz",
+      "sha256": "d17f681eadf0e440ac28ee9706ff3fda8d2c591ed636abe86181f55c483089ad"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_11.npz",
+      "sha256": "0f122006bb23bb4984772253daf247367895cddbe5b88259b28695515de8c6f2"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_12.npz",
+      "sha256": "b3bce5151be629a74787b618b51cb31976c58f0bda1ad38997dc2a90a3dd1e2a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_13.npz",
+      "sha256": "39f3e6d9f76b290039dcc6291065d6852c891402f7fc23467e1972b86d9b5ced"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_14.npz",
+      "sha256": "7aa8f5a6ab7c2aeac7fda5d6df751dc7662c43585b7aa354e0c5cdaa4be50cb4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_15.npz",
+      "sha256": "1368ca46e26d79207631bdcb5e86c8af0b8ac6404e06eeb9cbd80d0345ffdc4c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_16.npz",
+      "sha256": "ea411d1bb5028f05b999b68d7c6b53206854e337f8d6329cb77e467463a00cee"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_17.npz",
+      "sha256": "976aa04514322a5bfae882e994c501414cf6af1e95af5621885ae4b007b8ffd8"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_18.npz",
+      "sha256": "82e86ddfd8650bda92febfdc1918a618c350be40d561dfe2596c1d11e4483a39"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_19.npz",
+      "sha256": "5f16e354d0113dfd9d1dc76c8df76acb215b34360d23cda6a81d6f3aadbcd13b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_20.npz",
+      "sha256": "42210f8e482c4b3a63af478868994baf0de600d7587075d94f073bdd9edbe765"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_21.npz",
+      "sha256": "bbd471f61a40cb5040846ed1e7de64f681edc265856cd2a92fb2ffc6ed693ad9"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_22.npz",
+      "sha256": "71b2d3a40ac393abf3e3cda0f90864d7a57078f95e853d4f8ed718a129d9fbba"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_23.npz",
+      "sha256": "d92f8c4de5589f269e6a1fedc19594fb3857fbf671a6bd901a0ed1cbb75c5e72"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_24.npz",
+      "sha256": "c520e89bf768d2c09aead5879b3b30915c34729f0c9ebf96b74d11eee8865ce4"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_25.npz",
+      "sha256": "38a6c00b60b07b2faaf951ad8508d864c231fda8119085c7510b7734d226cd7b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_26.npz",
+      "sha256": "ec415067fe33faaf464e91bce5d500b076e95ef0d8250a3343209c26b85aa72e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_27.npz",
+      "sha256": "7b1c79fbc057af938ff23496ca77d620519c53dadaf6fe2ac73d7fd4d6666880"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_28.npz",
+      "sha256": "daaa4decc7e76761001671a215b4e23d40f1a20becfb0ba528106d6d48ff6c4a"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_29.npz",
+      "sha256": "a7d86260c6e5cc461e19d592de32093b05af2ba05ffe82c728cb0bdf36fbb176"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_30.npz",
+      "sha256": "dd4744a47de13222e69c1a4da6b45b63ee67cc575118507433a75994987c3e11"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_31.npz",
+      "sha256": "d8a9e3bb128d549833f06c93c13224bbc32cfda2a744910de9deb88596912ba3"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_32.npz",
+      "sha256": "ab210084128968ca18565c099eaaa54d55b1d9a16f6c6b478b31cd87d52e1f6b"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_33.npz",
+      "sha256": "7279744b2272a1fa8949c8c071911107891633ee2545e0107e98c0c4d9b90d4d"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_34.npz",
+      "sha256": "99d4bb4d64761aa6ff8b19a55719abb5d375bf4ccc554ed98b9d51939aa14512"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_35.npz",
+      "sha256": "0a9bde80e3fba33f728ebf0af9a6bf9dcefe182ff2a7fafb3bb202b3bbe9f49c"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_36.npz",
+      "sha256": "ecbc3483b823010f16de951af361475b76cf6425b3165aa265e2e3c81b848091"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_37.npz",
+      "sha256": "da913d841069ac516adab90ec776b7d909ad60059156e8143623ef6fe489795e"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_38.npz",
+      "sha256": "0f630f27bd9a4f241dbcc3a9ef8fe96bb795d5e8c4d01c6817e236987615d2b7"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_39.npz",
+      "sha256": "580ff2aa4b5201ee4e526f6b7e589796487aca2a4584ab0552a8c9b1fe1cda37"
+    },
+    {
+      "path": "射频端口验证\\结果\\line_short_40.npz",
+      "sha256": "47d65d66b236dc3b309cdb5b361dcd66f771dbce97c8edd6e79e913dd8c37adf"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_128.npz",
+      "sha256": "ae8621708922dace2622b2041570f1b630d42bd19dd7ee6c1c96a7697c1c01cf"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_16.npz",
+      "sha256": "f7592e7dcf7d10b47b70978e439b9eed295e14f431c399d0413bbde3f8b59b98"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_2.npz",
+      "sha256": "91aa4e48d44c2d8793dd7231371b5bda380aef699bc23127c0f7e3f1c6e59c9b"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_256.npz",
+      "sha256": "377181e600b1431dfd891b92de22273952b222bc881021774c1f2702f4d6edd1"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_32.npz",
+      "sha256": "185f53147ceecc67e9a79c06592f73fe626a65c98aa18214cf50eddcc5120658"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_4.npz",
+      "sha256": "76727a3e813a4120aefe5f68a5ac144f07f27ba535053818a3c35b6e13a38063"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_64.npz",
+      "sha256": "93b05749e93f4b7c70df3d52aed6f373337e9bcde053fb9369fba7ca540cc08d"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_inner_graded_8.npz",
+      "sha256": "245a8070a8994170f91ac79eabc1650ebc48b72cc693339af67438e558735dcd"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_128.npz",
+      "sha256": "a8cf7a0fa321590d88f6444c9132bac5b768705d35e6a4a996903dc47b53fc5f"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_16.npz",
+      "sha256": "9ada84228c03e879e5856f3e2502025c64a18194e8d7f3c5b7579a12db3f4c7b"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_2.npz",
+      "sha256": "78bfffb59882b13629773dc944fe4a5540b3f179d47ae1a37bf2e810e7886b53"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_256.npz",
+      "sha256": "ca9ee3788f7f18137182f78031554ba36af09c187c33ebf45653b73b87b024fd"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_32.npz",
+      "sha256": "44d12695c4ca0db32327b47e00d7b6cc572a2d8a7046f7e9ad47b961447bba5d"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_4.npz",
+      "sha256": "5150e6a2e8aa2041a89d31a6ecdb38cd4d138281a87a6f9a434d42a57105843f"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_64.npz",
+      "sha256": "dfb0e3be668d24e1a8a03c9bab2125c77f4fce89f2c51bb36aa89c542887adaa"
+    },
+    {
+      "path": "射频端口验证\\结果\\radial_uniform_8.npz",
+      "sha256": "9368c6d957ffc2cdabb5b0ab0c3018d181180ed49728d940e2bb9f7fec5207b5"
+    },
+    {
+      "path": "射频端口验证\\结果\\summary.json",
+      "sha256": "51a120a4098af2b9da3c7dc46c5039f23ca92069a26102950d431a2a23c5ffb2"
+    },
+    {
+      "path": "射频端口验证\\结果\\tests.json",
+      "sha256": "464a471e92ccaecfa47c6cd8771e3cd187a79bc847fc0d9212c7fb80ba07f441"
+    },
+    {
+      "path": "射频端口验证\\结果\\verification.json",
+      "sha256": "ae21cf765de5218974013fd7c320d470121a5a111b51bc7ddb997b0b0bac3188"
+    },
+    {
+      "path": "EWC真实材料与器件统一规划.md",
+      "sha256": "c8b426a56ec22505cc3835e7356616b31819786eec716a20bae582e6372342a8"
+    }
+  ],
+  "note": "原始资料仅存TEMP；文本抽取不是电磁场模型。"
+}

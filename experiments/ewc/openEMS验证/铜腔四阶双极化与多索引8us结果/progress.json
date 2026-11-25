@@ -1,0 +1,212 @@
+{
+  "status": "failed_preserve_partial",
+  "source_sha256": {
+    "run_copper_gauss_longtime.py": "3bf1f0679d197fc2b942764ada3a4c61fcafc4b1e8d3984a5bca7297e68bf600",
+    "copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+    "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+    "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "approval_sha256": "27617c5451c5096cc3593b22b69fe4b03be819e52ef60e4ae5b63ddb55ccaf27",
+  "configuration_sha256": "65b639ce20408924ce5ffb81d503cbca1cb0dbea994d2d7eab5df0d9aeab66ae",
+  "cases": [
+    {
+      "id": "111_loss0_2.5ps",
+      "status": "running",
+      "chunks": [
+        {
+          "file": "steps_0000000_0040000.npz",
+          "sha256": "16716014d736fe9b941cb5f3be5c221202309a21a9482b50f7e4baeed38ca43d",
+          "start_step": 0,
+          "end_step": 40000,
+          "stepping_seconds": 2357.2834202999948
+        },
+        {
+          "file": "steps_0040000_0080000.npz",
+          "sha256": "adc6fb4e03c573dee5d53831fb084be429af583ffc101cbb269e8ae98d152b55",
+          "start_step": 40000,
+          "end_step": 80000,
+          "stepping_seconds": 2555.113002600032
+        },
+        {
+          "file": "steps_0080000_0120000.npz",
+          "sha256": "54cdf7940b0b8ebd41dccee2c892b88137acc065469c26577a68bcace9eec583",
+          "start_step": 80000,
+          "end_step": 120000,
+          "stepping_seconds": 2364.718706000014
+        },
+        {
+          "file": "steps_0120000_0160000.npz",
+          "sha256": "51398998265075cffe86db29b9f34ee2f2840a016694750b3c98223e2d9c78d7",
+          "start_step": 120000,
+          "end_step": 160000,
+          "stepping_seconds": 2463.723483699956
+        },
+        {
+          "file": "steps_0160000_0200000.npz",
+          "sha256": "0ab7db4e076ec7288f01a898c18257c2a62dd917627639fc14cce3c6a27e6c4a",
+          "start_step": 160000,
+          "end_step": 200000,
+          "stepping_seconds": 2400.1390381000238
+        },
+        {
+          "file": "steps_0200000_0240000.npz",
+          "sha256": "7e9a4176fac8503513b36f17fa4797745f7229ed719c1c4a3e1dd820f888105f",
+          "start_step": 200000,
+          "end_step": 240000,
+          "stepping_seconds": 2345.3580449
+        },
+        {
+          "file": "steps_0240000_0280000.npz",
+          "sha256": "56d72ac5fe624cfee0241e8442ed34e6ac6b2e4aa5ed1fcc5e9ce7eadfae445a",
+          "start_step": 240000,
+          "end_step": 280000,
+          "stepping_seconds": 2309.691667899955
+        },
+        {
+          "file": "steps_0280000_0320000.npz",
+          "sha256": "6425b38c047d5b2301ad22376829163637b9d69250dc308bf9e41691bdfc333c",
+          "start_step": 280000,
+          "end_step": 320000,
+          "stepping_seconds": 2195.439499200089
+        },
+        {
+          "file": "steps_0320000_0360000.npz",
+          "sha256": "9c43605e39851d4d6af7b62647472371239dfa70f2ad95b0d0e754ae6ce95a93",
+          "start_step": 320000,
+          "end_step": 360000,
+          "stepping_seconds": 2218.0325666000135
+        },
+        {
+          "file": "steps_0360000_0400000.npz",
+          "sha256": "4f024603974c95a514fd22f28c71b5a4c595a3f695f6b9401a851f9a78dc793c",
+          "start_step": 360000,
+          "end_step": 400000,
+          "stepping_seconds": 3113.698265200015
+        },
+        {
+          "file": "steps_0400000_0440000.npz",
+          "sha256": "235a323753e3f2778d4dfe04bf07d3ce42ca24a64553aa32fef25c6b164dc34c",
+          "start_step": 400000,
+          "end_step": 440000,
+          "stepping_seconds": 4811.143996699946
+        },
+        {
+          "file": "steps_0440000_0480000.npz",
+          "sha256": "2c6da32a2773174bc141e5147dab41d07b7f8455450e7f1c55adde1bb53e1e38",
+          "start_step": 440000,
+          "end_step": 480000,
+          "stepping_seconds": 4323.699383300031
+        },
+        {
+          "file": "steps_0480000_0520000.npz",
+          "sha256": "ec9f275e1810680f38cd034d92c0a91226d589944303ab6aed4e960d57aada4e",
+          "start_step": 480000,
+          "end_step": 520000,
+          "stepping_seconds": 4780.691333199968
+        },
+        {
+          "file": "steps_0520000_0560000.npz",
+          "sha256": "5e230d7cfb18bf0b02083c0d10c02601c30da5a5cf8bbfbcab954b4b19e75d15",
+          "start_step": 520000,
+          "end_step": 560000,
+          "stepping_seconds": 4636.407929699984
+        },
+        {
+          "file": "steps_0560000_0600000.npz",
+          "sha256": "4cbd7a3c79cfaab8db9e3066fd540e7dd0a57f7b1dd4a4494a956917bb73e9e7",
+          "start_step": 560000,
+          "end_step": 600000,
+          "stepping_seconds": 4517.588493200019
+        },
+        {
+          "file": "steps_0600000_0640000.npz",
+          "sha256": "d6103811862548dcd286f9df95756fc90165cf089b071eebcf81a2f88f9f0930",
+          "start_step": 600000,
+          "end_step": 640000,
+          "stepping_seconds": 4475.248054499971
+        },
+        {
+          "file": "steps_0640000_0680000.npz",
+          "sha256": "8585d004374ce10fd45c8c3b573dd6c2adaae79338a814d39926be4c9edd364b",
+          "start_step": 640000,
+          "end_step": 680000,
+          "stepping_seconds": 4134.86917630001
+        },
+        {
+          "file": "steps_0680000_0720000.npz",
+          "sha256": "931775f5f10d28c814804e7316a9b0635dc4f894850ec60c29de52dac2806d42",
+          "start_step": 680000,
+          "end_step": 720000,
+          "stepping_seconds": 3529.722052500001
+        },
+        {
+          "file": "steps_0720000_0760000.npz",
+          "sha256": "15598a840bf44cde3ec4ed1fa1e5b5baa1e6d0ec7a3c2e7265759b6d3c9605f5",
+          "start_step": 720000,
+          "end_step": 760000,
+          "stepping_seconds": 3534.952799199964
+        },
+        {
+          "file": "steps_0760000_0800000.npz",
+          "sha256": "b7a2870380a5baf269f24ffee1cdd9eeba8cfc5ee8d842e6f0608f77317657ed",
+          "start_step": 760000,
+          "end_step": 800000,
+          "stepping_seconds": 3624.120662900037
+        },
+        {
+          "file": "steps_0800000_0840000.npz",
+          "sha256": "a27c8c1e0f0fc0059a19f952048e5ae7796d25790c3d28052f522db11773bc82",
+          "start_step": 800000,
+          "end_step": 840000,
+          "stepping_seconds": 5839.610703700106
+        },
+        {
+          "file": "steps_0840000_0880000.npz",
+          "sha256": "a80c803af0dada10e380dfb37cb1b570dba4ce0b77414bf109fa6bb4ff2e9fd3",
+          "start_step": 840000,
+          "end_step": 880000,
+          "stepping_seconds": 6032.5224080999615
+        },
+        {
+          "file": "steps_0880000_0920000.npz",
+          "sha256": "23903bcfdb5a4fa043176519b65416bc5a0d468e2b4b3683faae04878b721b6b",
+          "start_step": 880000,
+          "end_step": 920000,
+          "stepping_seconds": 4549.92393639998
+        },
+        {
+          "file": "steps_0920000_0960000.npz",
+          "sha256": "ecc43eb9de3b601a45c45e8e990654fb9830d1bd40e881864fc5807046262f11",
+          "start_step": 920000,
+          "end_step": 960000,
+          "stepping_seconds": 5707.036298899911
+        },
+        {
+          "file": "steps_0960000_1000000.npz",
+          "sha256": "a40515352f6a3171dbfe93489328f4234c243b188014cd39573f6bcba8a85bc1",
+          "start_step": 960000,
+          "end_step": 1000000,
+          "stepping_seconds": 6187.618370500044
+        },
+        {
+          "file": "steps_1000000_1040000.npz",
+          "sha256": "5e98ac1ca377aa33c79ed0faa5f5fe41ccab155b707fc8daf993715e78640c49",
+          "start_step": 1000000,
+          "end_step": 1040000,
+          "stepping_seconds": 6210.251417399966
+        }
+      ],
+      "completed_steps": 1040000
+    }
+  ],
+  "full_long_history_passed": false,
+  "general_initial_state_approved": false,
+  "actual_feed_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0,
+  "failure_type": "RuntimeError",
+  "failure_message": "Less than 8 GiB free; preserve originals and request storage"
+}

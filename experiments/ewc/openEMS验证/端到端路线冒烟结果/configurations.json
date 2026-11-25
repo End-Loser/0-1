@@ -1,0 +1,86 @@
+{
+  "created": "2026-11-19T13:41:10",
+  "scope": "surrogate end-to-end route smoke: FIT copper cavity, six 2x2 delta-gap ports, shunt 50 ohm loads, phase-locked readout, differential decision, four-bit calibration decode",
+  "evidence_level": "A (local full-wave time and frequency domain, cross-checked) for the surrogate interface only",
+  "limitations": [
+    "ports are axial delta-gap edge clusters, not real SMA/coaxial feeds",
+    "loads are shunt conductances inside the same operator, not a physical termination",
+    "detection and decision are offline post-processing of gap voltages, no RF detector or comparator",
+    "single fixed geometry, single frequency, ten-port cluster set; no hardware, no BOM",
+    "no eight-state/twenty-four-transition long history, no 512-combination G7 matrix",
+    "cannot be used to claim real 20 ns switching speed or system level 0.5 percent accuracy"
+  ],
+  "not_claimed": {
+    "full_system_gates_closed": 0,
+    "total_system_gates": 7,
+    "goal_complete": false
+  },
+  "steps_per_case": 60000,
+  "periods_used": 20,
+  "workers": 2,
+  "source_sha256": {
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+    "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+    "copper_driven_midpoint.py": "5d383ec889e77b9f68b2ec4442eba1fa685a2c3f0df1798e807fddc68c5736e8",
+    "厚铜边界基准结果/passive_surface_models.json": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3"
+  },
+  "runner_sha256": "1285109064db668a5ec664bcc5c1e13f6ee3752818df30ff2d6824cdc92c6a78",
+  "grid": {
+    "shape": [
+      12,
+      9,
+      7
+    ],
+    "lengths": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "ne": 2806,
+    "nf": 2523,
+    "frequency_Hz": 1767647745.190545,
+    "port_edges": [
+      [
+        1973,
+        1980,
+        2043,
+        2050
+      ],
+      [
+        2323,
+        2330,
+        2393,
+        2400
+      ],
+      [
+        2603,
+        2610,
+        2673,
+        2680
+      ],
+      [
+        2001,
+        2008,
+        2071,
+        2078
+      ],
+      [
+        2351,
+        2358,
+        2421,
+        2428
+      ],
+      [
+        2631,
+        2638,
+        2701,
+        2708
+      ]
+    ],
+    "dt_s": 5e-12,
+    "load_ohm": 50.0
+  },
+  "lockin_window_steps": 2263,
+  "warmup_steps": 57737
+}

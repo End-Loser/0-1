@@ -1,0 +1,118 @@
+{
+  "case": "combined_ref_error_history80_051_seeded_history_80ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "history80",
+  "tag": "051_seeded_history",
+  "errors": [
+    -0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 80,
+  "sequence": "seeded_history",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "250dabb508e27a7a8b91ccfde8f61d9ab10ed0f66f2c14b06ba8f34444462e80",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 106834,
+  "unique_points": 106834,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 192,
+  "decisions": 384,
+  "passed": 384,
+  "sample_passed": 384,
+  "minimum_late_margin_V": 0.893962592486842,
+  "worst_slot": {
+    "slot": 172,
+    "state": "010",
+    "channel": "sum",
+    "margin_V": 0.893962592486842
+  },
+  "first_bad": null,
+  "max_settling_ns": 34.604180115036364,
+  "unsettled": 0,
+  "energy_J": 2.989602668602103e-08,
+  "power_W": 0.0019463559040378273,
+  "energy_per_slot_J": 1.557084723230262e-10,
+  "warning": false
+}

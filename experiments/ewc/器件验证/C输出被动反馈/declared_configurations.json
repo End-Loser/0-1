@@ -1,0 +1,80 @@
+[
+  {
+    "id": "actual_C_10ps_diagnostic_rails",
+    "step_s": 1e-11,
+    "real_rails": false,
+    "duration_s": 1.8e-06,
+    "states": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0
+    ],
+    "hold_s": 2e-07,
+    "ramp_s": 2e-09,
+    "input_high_V": 0.3,
+    "summing_resistance_ohm": 300,
+    "carry_threshold_V": 0.15,
+    "sum_threshold_V": 0.05,
+    "cancellation_input_equivalent_V": 0.2,
+    "feedback_resistance_ohm": 32750,
+    "sum_bias_difference_V": 0.17348484848484852
+  },
+  {
+    "id": "actual_C_5ps_diagnostic_rails",
+    "step_s": 5e-12,
+    "real_rails": false,
+    "duration_s": 1.8e-06,
+    "states": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0
+    ],
+    "hold_s": 2e-07,
+    "ramp_s": 2e-09,
+    "input_high_V": 0.3,
+    "summing_resistance_ohm": 300,
+    "carry_threshold_V": 0.15,
+    "sum_threshold_V": 0.05,
+    "cancellation_input_equivalent_V": 0.2,
+    "feedback_resistance_ohm": 32750,
+    "sum_bias_difference_V": 0.17348484848484852
+  },
+  {
+    "id": "actual_C_10ps_real_rails",
+    "step_s": 1e-11,
+    "real_rails": true,
+    "duration_s": 1.8e-06,
+    "states": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0
+    ],
+    "hold_s": 2e-07,
+    "ramp_s": 2e-09,
+    "input_high_V": 0.3,
+    "summing_resistance_ohm": 300,
+    "carry_threshold_V": 0.15,
+    "sum_threshold_V": 0.05,
+    "cancellation_input_equivalent_V": 0.2,
+    "feedback_resistance_ohm": 32750,
+    "sum_bias_difference_V": 0.17348484848484852
+  }
+]

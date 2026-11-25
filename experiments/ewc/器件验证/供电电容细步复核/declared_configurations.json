@@ -1,0 +1,122 @@
+[
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": true,
+    "load_step": false,
+    "finish_s": 0.008,
+    "step_s": 5e-08,
+    "id": "dual_enable_cycle_50ns",
+    "baseline_id": "dual_enable_cycle"
+  },
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": true,
+    "load_step": false,
+    "finish_s": 0.008,
+    "step_s": 2e-08,
+    "id": "dual_enable_cycle_20ns",
+    "baseline_id": "dual_enable_cycle"
+  },
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 5e-08,
+    "id": "dual_ramp_50ns",
+    "baseline_id": "dual_ramp"
+  },
+  {
+    "reference": false,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 2e-08,
+    "id": "dual_ramp_20ns",
+    "baseline_id": "dual_ramp"
+  },
+  {
+    "reference": true,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 5e-08,
+    "id": "dual_reference_ramp_50ns",
+    "baseline_id": "dual_reference_ramp"
+  },
+  {
+    "reference": true,
+    "buffers": false,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 2e-08,
+    "id": "dual_reference_ramp_20ns",
+    "baseline_id": "dual_reference_ramp"
+  },
+  {
+    "reference": true,
+    "buffers": true,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 5e-08,
+    "id": "buffer_real_rails_50ns",
+    "baseline_id": "buffer_real_rails"
+  },
+  {
+    "reference": true,
+    "buffers": true,
+    "ideal_rails": false,
+    "ramp": false,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 2e-08,
+    "id": "buffer_real_rails_20ns",
+    "baseline_id": "buffer_real_rails"
+  },
+  {
+    "reference": true,
+    "buffers": true,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 5e-08,
+    "id": "buffer_real_ramp_50ns",
+    "baseline_id": "buffer_real_ramp"
+  },
+  {
+    "reference": true,
+    "buffers": true,
+    "ideal_rails": false,
+    "ramp": true,
+    "enable_cycle": false,
+    "load_step": false,
+    "finish_s": 0.002,
+    "step_s": 2e-08,
+    "id": "buffer_real_ramp_20ns",
+    "baseline_id": "buffer_real_ramp"
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "archives": [
+    {
+      "id": "SBAM485",
+      "url": "https://www.ti.com/lit/zip/SBAM485",
+      "final_url": "https://www.ti.com/lit/mo/sbam485/sbam485.zip?ts=1794944487875",
+      "status": 200,
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\SBAM485.zip",
+      "sha256": "7d79deb257e10f04cf53278741441bcbc067f47ac79bc74ea77c357f1d4bf211",
+      "bytes": 3732708,
+      "members": [
+        {
+          "name": "DAC80501_Pspice/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501.lib",
+          "bytes": 34324,
+          "sha256": "0a97817f51e0d9cdaf725e1f4744d837747d917add46f5cd9123081c46de04d8",
+          "subcircuits": [
+            "DAC80501 VOUT DAC_REF VCC GND",
+            "dac_ladder_noise 1 2 params: noise_1f_nv_rthz = 100 noise_1f_freq = 150",
+            "zp1 vc+ vc- out+ out- 1",
+            "pz1 vc+ vc- out+ out- 1",
+            "zout_dc_sub ina inb outa outb com",
+            "gbw_slew_en  vip  vim  vo vcc vee en gndf params: aol = 140 gbw = 130e6",
+            "vnse 1 2 params: nlf_nv_rthz=4 flw_hz=2 nvr_nv_rthz=8000",
+            "voltage_ref_noise 1 2 params: noise_1f_nv_rthz = 100 noise_1f_freq =",
+            "DAC_LADDER_N REF GND OUT VLSB V_B_TRUE NOISE_IN B23 B22 B21 B20 B19 B18 B17 B16",
+            "VCLAMP_W_CLAW   VDD  VSS  VI  VO VIMON  GNDF",
+            "PSRR   VDD  VSS  VI  VO  GNDF PARAMS: PSRR = 130 FPSRR = 1.6",
+            "AMETER   VI  VO VIMON",
+            "OUT_CURRENT_CLAMP  IN  OUT",
+            "VOLTAGE_REF VOUT REF_VIN VCC GND PARAMS: REF_VIN_NOM_V=2.5 DRIFT_OUT_PPM=5",
+            "DAC_INL_TABLE VOUT GND VTRUE VLSB B23 B22 B21 B20 B19 B18 B17 B16"
+          ],
+          "encrypted": false,
+          "ibis_components": [],
+          "header": "* PSpice Model Editor - Version 17.4.0\n* DAC80501\n*****************************************************************************\n* (C) Copyright 2020 Texas Instruments Incorporated. All rights reserved.\n*****************************************************************************\n** This model is designed as an aid for customers of Texas Instruments.\n** TI and its licensors and suppliers make no warranties, either expressed\n** or implied, with respect to this model, including the warranties of\n** merchantability or fitness for a particular purpose.  The model is\n** provided solely on an \"as is\" basis.  The entire risk as to its quality\n** and performance is with the customer\n*****************************************************************************\n*\n* This model is subject to change without notice. Texas Instruments\n* Incorporated is not responsible for updating this model.\n*\n*****************************************************************************\n*\n** Released by: Texas Instruments Inc.\n* Part: DAC80501\n* Date: 13 Aug 2020\n* Model Type: All in One\n* Simulator: PSPICE\n* Simulator Version: 17.4.0.p010\n* EVM Order Number:\n* EVM Users Guide:\n* Datasheet: SBAS794C\n*\n*\n* Model Version: Final 1.0\n\n* Model Usage Notes:\n\n* * The following features have been modeled\n******** DAC Ladder *************************\n*Noise (Both Broadband and 1/F Noise)\n**** Reference  Block*************************\n*Noise (both 1/f and Broadband Noise)\n*Line & Load Regulation\n*Short circuit current limit\n*Output Impedance\n*Temperature Drift\n********Output Buffer Block:******************\n*Voltage and Current noise (1/f and Broadband)\n*Offset and temperature drift\n*Open loop Gain\n*Slew rate\n*PSRR\n*Gain Error , Headroom and Footroom\n*Zero Code Error and Full Scale Error\n*Gain Error Drift\n*Output Impedance\n*Output Current and Short Ciruit Current limits\n\n\n*****************************************************************************\n**\n.SUBCKT DAC80501 VOUT DAC_REF VCC GND\n+ B15 B14 B13 B12 B11 B10 B9 B8 B7 B6 B5 B4 B3 B2 B1 B0\n.PARAM  vref=2 vos_typ=0.3m vos_tc=2 gain_err_fsr=-0.02 footroom=0.3m\n+  buffer_gain=1 headroom=0.3m gain_err_tc_fsrppm=1 tnom=27\nV_V8         N286842 GND 2.5Vdc\nG_G2         GND DAC_LADDER_OUT_WINL DAC_ERROR_OUT GND 1\nX_U102         GND N286494 dac_ladder_noise PARAMS:  NOISE_1F_NV_RTHZ=58\n+  NOISE_1F_FREQ=100 NOISE_FLAT_NV_RTHZ=56\nX_U108         DAC_REF 0 DAC_LADDER_OUT DAC_LSB VTRUE N286494 B23 B22 B21 B20\n+  B19 B18 B17 B16 B15 B14 B13 B12 B11 B10 B9 B8 B"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501.libsig",
+          "bytes": 813,
+          "sha256": "20f9ccf86e45a1351108f320eca3dfd01956d94e052309c4b91ec235b82b27b4"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501.OLB",
+          "bytes": 8192,
+          "sha256": "9ae33e3b6097d19dcab8270b209532f3c2ff43fda30d5f34a3f079a751742dbb"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/SCHEMATIC1.als",
+          "bytes": 768,
+          "sha256": "4f4bca2017e6c22f699103f0031596537c711a0614bafea6786e6923259f7e14"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/SCHEMATIC1.net",
+          "bytes": 399,
+          "sha256": "7e61d6e8749596a90e70d3a53f3e0f701c0d4645da265c1ab6bdce47d6451750"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/SCHEMATIC1_sch.prp",
+          "bytes": 9919,
+          "sha256": "ee04b4c8831d842b477ceecf48ee64f4d650b3ae7c7b5c44c8b8c37a9336714d"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.1OP",
+          "bytes": 2342,
+          "sha256": "93325d615e98cf4b553c6add2aea5fa0c0c192b7da5d54c9275f4c3ef7e8f1f3"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.cir",
+          "bytes": 707,
+          "sha256": "9e6b711ec5ab993b7cad517e047e1d830f7126dc5ca471fdcd4ab7c3a6de4d96",
+          "subcircuits": [],
+          "encrypted": false,
+          "ibis_components": [],
+          "header": "** Profile: \"SCHEMATIC1-test\"  [ C:\\Users\\a0132066\\Desktop\\DAC_WORK\\Projects\\DAC80501_Model\\DAC80501_Pspice_Dev\\dac80501_pspice-PSpiceFiles\\SCHEMATIC1\\test.sim ] \r\n\r\n** Creating circuit file \"test.cir\" \r\n** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS\r\n\r\n*Libraries: \r\n* Profile Libraries :\r\n* Local Libraries :\r\n.LIB \"../../../dac80501.lib\" \r\n* From [PSPICE NETLIST] section of C:\\Users\\a0132066\\AppData\\Roaming\\SPB_Data\\cdssetup\\OrCAD_PSpice\\17.4.0\\PSpice.ini file:\r\n.lib \"nom.lib\" \r\n\r\n*Analysis directives: \r\n.TRAN  0 15m 0 100n \r\n.OPTIONS ADVCONV\r\n.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) \r\n.INC \"..\\SCHEMATIC1.net\" \r\n\r\n\r\n.END\r\n"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.dat",
+          "bytes": 69396499,
+          "sha256": "6fb8774fdc0d5ca59948faffc4f95c1bc7336175d3c9141f7ba41eb2bd152231"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.mif",
+          "bytes": 2152,
+          "sha256": "1e4783b60b428461a1bca029b4c1f5d53ea42ea0acd19d48dbc57b9c75a20db7"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.mrk",
+          "bytes": 401,
+          "sha256": "667461a84b4921939b05254d85fa7cf216e942ed0ff873b628be111375299356"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.out",
+          "bytes": 10746,
+          "sha256": "53b3badb52a9abcbb6d5469ed75be4f1030638e9f3952c41ab3f90de14fae00d"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.out.1",
+          "bytes": 50672,
+          "sha256": "3fd097709cd074479990f722a5579d0ea84be2f2c9f44b974c6b8e9821f3be4f"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.prb",
+          "bytes": 745,
+          "sha256": "406e53f9b432d55cbc1f27d59c8c910257d5761487ec45391ea9d1b22fa795d5"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test.sim",
+          "bytes": 1825,
+          "sha256": "b735bf97eb61ebdcc6356c8902b7e945939806e53fe1a274345a15030db61543"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_Pspice.DSN",
+          "bytes": 35840,
+          "sha256": "94822c5b0d3919ca9a746f64e2d456507bd4f5f118dbe6f56c42593c88415f1a"
+        },
+        {
+          "name": "DAC80501_Pspice/dac80501_pspice.opj",
+          "bytes": 4021,
+          "sha256": "54fec50c5e77cd2dff757336dce03cb69c40c9621be7180df8b47dc87fa2c668"
+        }
+      ]
+    },
+    {
+      "id": "SBAM420",
+      "url": "https://www.ti.com/lit/zip/SBAM420",
+      "final_url": "https://www.ti.com/lit/mo/sbam420/sbam420.zip?ts=1794944539860",
+      "status": 200,
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\SBAM420.zip",
+      "sha256": "0131019a825f02a1c1359c3dcb0f7afb8a5dd884e13cf44054762284fcf55e8b",
+      "bytes": 24961,
+      "members": [
+        {
+          "name": "DAC80501_IBIS/",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "DAC80501_IBIS/dacx0501.ibs",
+          "bytes": 153583,
+          "sha256": "034e3173c76fa5ed2f1b20449c0db71cbd0033aa722b43bf71dac6711978a639",
+          "subcircuits": [],
+          "encrypted": false,
+          "ibis_components": [
+            "DACX0501DQF | 8 pin VSON     ",
+            "DACX0501DGS | 10 pin MSOP    "
+          ],
+          "header": "|*******************************************************************************\n|Texas Instruments Incorporated\n| \n|  part#    Digital Voltage Range    \n| DACx0501        2.7V - 5.5V                  \n|\n|*******************************************************************************\n|\n[IBIS Ver]        4.1\n[File name]       dacx0501.ibs\n[File Rev]        1.0\n[Date]           01/11/2019\n[Source]\n| Texas Instruments Incorporated.\n| 12500 TI Blvd\n| Dallas, TX -75243\n|\n[Notes]         Revision History:\n| Rev 1.0: 01/11/2019\n| - Initial version of the model\n| - Model generated from simulations in TISPICE\n| - C_comp although listed in numerical order of value are\n|   obtained from varying PVT conditions. For PVT conditions for\n|   each specific value refer the buffer description under\n|   respective [Model]. IBIS model user is responsible for using\n|   appropriate C_comp to simulate for Signal Integrity.\n| - Warnings regarding combined Non-monotonicity of various models have been\n|    reviewed and considered minor and can be ignored.\n| - Model names with a trailing _3p0 contain the model for \n|   3.0V operation. Model names with a trailing _5p0 contain the model \n|   for 5.0V operation. \n|\n[Disclaimer]\n| This model is designed as an aid for customers of Texas Instruments.\n| TI and its licensors and suppliers make no warranties, either expressed\n| or implied, with respect to this  model, including the warranties of\n| merchantability or fitness for a particular purpose. The model is\n| provided solely on an \"as is\" basis. The entire risk as to its quality\n| and performance is with the customer.\n| This model is subject to change without notice. Texas Instruments\n| Incorporated is not responsible for updating this model.\n|\n[Copyright]\n (C) Copyright 2019 Texas Instruments Incorporated. All rights reserved.\n|\n|\n|*******************************************************************************\n|                                 Device\n|*******************************************************************************\n|\n[Component]  DACX0501DQF | 8 pin VSON     \n[Manufacturer]    TI\n\n\n[Package]      \n| variable       typ             min            max\nR_pkg           0.05            0.04           0.06\nL_pkg           1.0nH          0.8nH           1.2nH\nC_pkg           0.2pF           0.16pF          0.24pF\n\n\n\n|\n[Pin]  signal_name      model_name           R_pin     L_pin      C_pin         \n1       VDD       POWER       na             na       na \n2       VOUT       NC    "
+        }
+      ]
+    }
+  ],
+  "originals_redistributed": false,
+  "model_executed": false,
+  "first_attempt_failed": "20 MB member bound rejected vendor 69 MB binary waveform; subsequent inventory streams hashes without decoding waveform",
+  "supported_pspice_verified": false,
+  "collector_sha256": "8dad287c7ac7649e331bfacf63471555c255b16cb0b57579741c2353d99a794a"
+}

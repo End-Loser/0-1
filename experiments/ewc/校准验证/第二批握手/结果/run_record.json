@@ -1,0 +1,53 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "intermediate_directory": "OS TEMP; automatically cleaned",
+  "subprocess_command_count": 2,
+  "subprocess_commands": [
+    [
+      "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\第二批握手\\verify.py",
+      "--results",
+      "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-handshake-eg9z2nzp\\results",
+      "--code-dir",
+      "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\第二批握手"
+    ],
+    [
+      "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\第二批握手\\verify.py",
+      "--results",
+      "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\第二批握手\\结果",
+      "--code-dir",
+      "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\第二批握手"
+    ]
+  ],
+  "artifacts_sha256": {
+    "evidence.json": "b6e77796e58fd743a8e7734c49259b00f40400f0a6c76ddf49c4df33975a83fb",
+    "manifest.json": "a4a192521f67e9ed5b49a05ab8f471ab5b68a8d7f4cd1e57417db1dba6e6ce97",
+    "provenance.json": "9e7154cde4bc1b27e3eb8f569ae40200830534b43036705039a0b2cbe952e6d6",
+    "published_verify.json": "5ad7ebb979b11451014bcd5d1507a78d7f20187de865c1c51830bf074cab1080",
+    "summary.json": "c88a49b49b3beccf006d6e896f968e55c8a1dc1c84ecdcb69374a6c1f3cc5fac",
+    "tests.json": "077861be7926862033268d465aeb0821ab5f2bed7b637459f9cd889cfb63d763",
+    "tests.txt": "f238711572f8a1ea82ee9382fa24bad31d7fa81f6701818f1a5d933964084b16",
+    "verify.json": "5ad7ebb979b11451014bcd5d1507a78d7f20187de865c1c51830bf074cab1080"
+  },
+  "hardware_simulator_commands": 0,
+  "new_download_commands": 0,
+  "tests": {
+    "tests": 29,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "verification": {
+    "passed": true,
+    "checks": 15757,
+    "independent_oracle": true,
+    "decimal_budget": true,
+    "hardware_validation": false,
+    "imports_model_or_runner": false
+  }
+}

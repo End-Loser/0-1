@@ -1,0 +1,107 @@
+{
+  "independent_verification_pass": true,
+  "case_count": 7,
+  "checks": [
+    {
+      "case": "nx60_dt1ps_y_m64_plane",
+      "snapshot_steps": 41,
+      "energy_closure_relative": 3.9728484232468896e-14,
+      "electric_equation_relative_residual": 4.971455026617281e-13,
+      "magnetic_equation_relative_residual": 2.0951657991208885e-13,
+      "RL_equation_relative_residual": 9.899672378547885e-10,
+      "snapshot_divergence_B_Wb": 2.9818942217354246e-28,
+      "prior_1d_file": "openEMS\u9a8c\u8bc1\\\u5e73\u9762\u8fb9\u754c\u77ac\u6001\u7ed3\u679c\\copper_dx2mm_dt1ps_m64_t8ns.npz",
+      "prior_1d_sha256": "7de431d2aabf740d22c9aaf4847475b26fcf3e430f4ec25a4617d9da44cb8155",
+      "reflection_difference_vs_1d": 7.995236732852189e-14,
+      "copper_loss_3d_to_1d_area_ratio": 1.0000000000000704
+    },
+    {
+      "case": "nx60_dt1ps_z_m64_plane",
+      "snapshot_steps": 41,
+      "energy_closure_relative": 3.516921167486976e-14,
+      "electric_equation_relative_residual": 4.096939354187794e-13,
+      "magnetic_equation_relative_residual": 1.4417594745765797e-13,
+      "RL_equation_relative_residual": 9.89967705371237e-10,
+      "snapshot_divergence_B_Wb": 3.5165671189012945e-28,
+      "prior_1d_file": "openEMS\u9a8c\u8bc1\\\u5e73\u9762\u8fb9\u754c\u77ac\u6001\u7ed3\u679c\\copper_dx2mm_dt1ps_m64_t8ns.npz",
+      "prior_1d_sha256": "7de431d2aabf740d22c9aaf4847475b26fcf3e430f4ec25a4617d9da44cb8155",
+      "reflection_difference_vs_1d": 7.255446030119359e-14,
+      "copper_loss_3d_to_1d_area_ratio": 1.000000000000065
+    },
+    {
+      "case": "nx120_dt1ps_y_m64_plane",
+      "snapshot_steps": 41,
+      "energy_closure_relative": 1.5083532551510993e-13,
+      "electric_equation_relative_residual": 5.353417473894181e-13,
+      "magnetic_equation_relative_residual": 2.6847450498371325e-13,
+      "RL_equation_relative_residual": 5.846821122261054e-10,
+      "snapshot_divergence_B_Wb": 1.7453547528014886e-28,
+      "prior_1d_file": "openEMS\u9a8c\u8bc1\\\u5e73\u9762\u8fb9\u754c\u77ac\u6001\u7ed3\u679c\\copper_dx1mm_dt1ps_m64_t8ns.npz",
+      "prior_1d_sha256": "a469c390396ce876c29bbbfbf77272a08976da08d3b5fc9e3dff7ee833b551d5",
+      "reflection_difference_vs_1d": 2.290594860334264e-13,
+      "copper_loss_3d_to_1d_area_ratio": 0.9999999999997867
+    },
+    {
+      "case": "nx120_dt1ps_z_m64_plane",
+      "snapshot_steps": 41,
+      "energy_closure_relative": 2.856462460457541e-14,
+      "electric_equation_relative_residual": 7.95130932347837e-13,
+      "magnetic_equation_relative_residual": 1.8634399444439768e-13,
+      "RL_equation_relative_residual": 5.846821118747089e-10,
+      "snapshot_divergence_B_Wb": 2.3401746633807093e-28,
+      "prior_1d_file": "openEMS\u9a8c\u8bc1\\\u5e73\u9762\u8fb9\u754c\u77ac\u6001\u7ed3\u679c\\copper_dx1mm_dt1ps_m64_t8ns.npz",
+      "prior_1d_sha256": "a469c390396ce876c29bbbfbf77272a08976da08d3b5fc9e3dff7ee833b551d5",
+      "reflection_difference_vs_1d": 1.0081925444863849e-13,
+      "copper_loss_3d_to_1d_area_ratio": 0.9999999999999122
+    },
+    {
+      "case": "nx120_dt5ps_y_m64_plane",
+      "snapshot_steps": 41,
+      "energy_closure_relative": 2.021837558460499e-14,
+      "electric_equation_relative_residual": 1.5604584876895598e-12,
+      "magnetic_equation_relative_residual": 1.4887779953968164e-14,
+      "RL_equation_relative_residual": 4.0069319683448945e-11,
+      "snapshot_divergence_B_Wb": 1.5067243289721325e-28,
+      "prior_1d_file": "openEMS\u9a8c\u8bc1\\\u5e73\u9762\u8fb9\u754c\u77ac\u6001\u7ed3\u679c\\copper_dx1mm_dt5ps_m64_t8ns.npz",
+      "prior_1d_sha256": "238164b2c17450e750d00b01bedee85689b396617d9a0ffc74147fdd5efdc962",
+      "reflection_difference_vs_1d": 2.17776408595881e-14,
+      "copper_loss_3d_to_1d_area_ratio": 0.9999999999999957
+    },
+    {
+      "case": "nx120_dt1ps_y_m16_plane",
+      "snapshot_steps": 41,
+      "energy_closure_relative": 1.5114801513637005e-13,
+      "electric_equation_relative_residual": 6.426202355398819e-13,
+      "magnetic_equation_relative_residual": 2.7767807449848736e-13,
+      "RL_equation_relative_residual": 2.621189911673828e-09,
+      "snapshot_divergence_B_Wb": 1.3252863207712998e-28
+    },
+    {
+      "case": "nx60_dt5ps_both_m64_nonuniform",
+      "snapshot_steps": 41,
+      "energy_closure_relative": 1.7689789878559762e-15,
+      "electric_equation_relative_residual": 1.4218012334414831e-12,
+      "magnetic_equation_relative_residual": 5.978596004752008e-15,
+      "RL_equation_relative_residual": 8.245203940948028e-11,
+      "snapshot_divergence_B_Wb": 2.9030081312133234e-28,
+      "all_six_components_excited": true,
+      "snapshot_six_component_peaks_integral_units": [
+        0.0011970386776656895,
+        0.016165253506078232,
+        0.020459656675311994,
+        1.2231931914340664e-13,
+        2.0011090461858863e-13,
+        1.33407269748665e-13
+      ]
+    }
+  ],
+  "test_output": "test_curl_independent_components (__main__.Maxwell3DTests.test_curl_independent_components) ... ok\ntest_curl_of_gradient (__main__.Maxwell3DTests.test_curl_of_gradient) ... ok\ntest_discrete_energy_adjoint (__main__.Maxwell3DTests.test_discrete_energy_adjoint) ... ok\ntest_divergence_of_curl (__main__.Maxwell3DTests.test_divergence_of_curl) ... ok\ntest_invalid_arguments (__main__.Maxwell3DTests.test_invalid_arguments) ... ok\ntest_nonuniform_energy (__main__.Maxwell3DTests.test_nonuniform_energy) ... ok\ntest_surface_mapping (__main__.Maxwell3DTests.test_surface_mapping) ... ok\ntest_three_axis_bulk_dispersion (__main__.Maxwell3DTests.test_three_axis_bulk_dispersion) ... ok\ntest_transpose_independent_components (__main__.Maxwell3DTests.test_transpose_independent_components) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.179s\n\nOK\n",
+  "verifier_sha256": "e6f01ef25f5ae56c43d6af068c02cbd7df1933d2f0594126830a67dc09571401",
+  "test_sha256": "382c9726bf601dfa8859eb724a11e213ebde5c4150a6f0d6a58069688e840e7c",
+  "summary_sha256": "513ede185e7735082e8f10600abbb7159646ea458ecd9d08ea1d7097086a5836",
+  "all_physical_cases_pass": false,
+  "nonuniform_3d_accuracy_complete": false,
+  "openems_extension_complete": false,
+  "closed_copper_cavity_complete": false,
+  "full_joint_simulation_complete": false
+}

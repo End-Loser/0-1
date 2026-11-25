@@ -1,0 +1,2765 @@
+{
+  "scope": "official-source and format audit, not transient acceptance",
+  "collector_sha256": "9f38889e541ac44d8ab57c90ded0865a5e83ed3d336da84a9b5ff2ff7b87c85b",
+  "sources": [
+    {
+      "id": "tx_page",
+      "url": "https://www.analog.com/en/products/adl5375.html",
+      "retrieved_utc": "2026-11-17T16:29:38.781782+00:00",
+      "status": 200,
+      "final_url": "https://www.analog.com/en/products/adl5375.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 255352,
+      "raw_sha256": "ed4454c59574c7b7827214365f95f3c50e9611383a1ef1079645a0b5f4b1f5ec",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tx_page.html",
+      "links": [
+        {
+          "label": "Home",
+          "href": "https://www.analog.com/en/index.html"
+        },
+        {
+          "label": "Products",
+          "href": "https://www.analog.com/en/product-category.html"
+        },
+        {
+          "label": "RF & Microwave",
+          "href": "https://www.analog.com/en/product-category/rf-microwave.html"
+        },
+        {
+          "label": "Beamformers & Vector Modulators",
+          "href": "https://www.analog.com/en/product-category/beamformers-vector-modulators.html"
+        },
+        {
+          "label": "Frequency Dividers & Multipliers",
+          "href": "https://www.analog.com/en/product-category/frequency-dividers-multipliers.html"
+        },
+        {
+          "label": "Mixed Signal Front Ends (MxFE)",
+          "href": "https://www.analog.com/en/product-category/mixed-signal-frontends.html"
+        },
+        {
+          "label": "Modulators & Demodulators",
+          "href": "https://www.analog.com/en/product-category/modulators-demodulators.html"
+        },
+        {
+          "label": "Oscillators",
+          "href": "https://www.analog.com/en/product-category/oscillators.html"
+        },
+        {
+          "label": "Phase Shifters",
+          "href": "https://www.analog.com/en/product-category/phase-shifters.html"
+        },
+        {
+          "label": "PLL Synthesizers",
+          "href": "https://www.analog.com/en/product-category/pll-synthesizers.html"
+        },
+        {
+          "label": "RF ADCs",
+          "href": "https://www.analog.com/en/product-category/rf-adc.html"
+        },
+        {
+          "label": "RF Amplifiers",
+          "href": "https://www.analog.com/en/product-category/rf-amplifiers.html"
+        },
+        {
+          "label": "RF Analog Receivers & Transmitters",
+          "href": "https://www.analog.com/en/product-category/rf-analog-receivers-transmitters.html"
+        },
+        {
+          "label": "RF Attenuators",
+          "href": "https://www.analog.com/en/product-category/rf-attenuators.html"
+        },
+        {
+          "label": "RF DACs & DDS",
+          "href": "https://www.analog.com/en/product-category/rf-dacs-dds.html"
+        },
+        {
+          "label": "RF Mixers",
+          "href": "https://www.analog.com/en/product-category/rf-mixers.html"
+        },
+        {
+          "label": "RF Power Detectors",
+          "href": "https://www.analog.com/en/product-category/rf-power-detectors.html"
+        },
+        {
+          "label": "RF Switches",
+          "href": "https://www.analog.com/en/product-category/rf-switches.html"
+        },
+        {
+          "label": "Software Defined Radio & Digitizers",
+          "href": "https://www.analog.com/en/product-category/software-defined-radio-digitizers.html"
+        },
+        {
+          "label": "Tunable Filters & RF Limiters",
+          "href": "https://www.analog.com/en/product-category/tunable-filters-rf-limiters.html"
+        },
+        {
+          "label": "Voltage to Frequency Converters",
+          "href": "https://www.analog.com/en/product-category/voltage-to-frequency-converters.html"
+        },
+        {
+          "label": "Modulators & Demodulators",
+          "href": "https://www.analog.com/en/product-category/modulators-demodulators.html"
+        },
+        {
+          "label": "Back to Modulators & Demodulators",
+          "href": "https://www.analog.com/en/product-category/modulators-demodulators.html"
+        },
+        {
+          "label": "Data Sheet (Rev. D)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5375.pdf"
+        },
+        {
+          "label": "Product Selection Table",
+          "href": "https://www.analog.com/en/parametricsearch/2441"
+        },
+        {
+          "label": "Sample & Buy",
+          "href": "https://www.analog.com/en/products/ADL5375/sample-buy.html"
+        },
+        {
+          "label": "ADL5375-EP Data Sheet",
+          "href": "/media/en/technical-documentation/evaluation-documentation/ADL5375-EP.pdf"
+        },
+        {
+          "label": "Sample & Buy",
+          "href": "https://www.analog.com/en/products/ADL5375/sample-buy.html"
+        },
+        {
+          "label": "Data Sheet (Rev. D)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5375.pdf"
+        },
+        {
+          "label": "Product Selection Table",
+          "href": "https://www.analog.com/en/parametricsearch/2441"
+        },
+        {
+          "label": "Visit the ADI Support Page",
+          "href": "https://www.analog.com/en/support.html"
+        },
+        {
+          "label": "Ask the EngineerZone Community",
+          "href": "https://ez.analog.com/"
+        },
+        {
+          "label": "Sales & Ordering FAQs",
+          "href": "https://www.analog.com/en/support/ordering-faqs.html"
+        },
+        {
+          "label": "ADL5375: 400 MHz to 6 GHz Broadband Quadrature Modulator Data Sheet (Rev.D)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5375.pdf"
+        },
+        {
+          "label": "ADL5375-EP: Enhanced Product Data Sheet (Rev.A)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5375-EP.pdf"
+        },
+        {
+          "label": "ADL5375-DSCC: Military Data Sheet",
+          "href": "https://weaponssupportapps.dla.mil/Downloads/MilSpec/Vid/V6212649.pdf"
+        },
+        {
+          "label": "UG-521: Evaluating the CN-0285 Wideband Tx Modulator Solution",
+          "href": "https://www.analog.com/media/en/technical-documentation/user-guides/UG-521.pdf"
+        },
+        {
+          "label": "AN-2547: Providing Fixed Power Gain at the Output of an IQ Modulator",
+          "href": "https://www.analog.com/en/resources/app-notes/an-2547.html"
+        },
+        {
+          "label": "AN-1039: Correcting Imperfections in IQ Modulators to Improve RF Signal Fidelity",
+          "href": "https://www.analog.com/en/resources/app-notes/an-1039.html"
+        },
+        {
+          "label": "AN-1100: Wireless Transmitter IQ Balance and Sideband Suppression",
+          "href": "https://www.analog.com/en/resources/app-notes/an-1100.html"
+        },
+        {
+          "label": "AN-0996: The Advantages of Using a Quadrature Digital Upconverter (QDUC) in Point-to-Point Microwave Transmit Systems",
+          "href": "https://www.analog.com/en/resources/app-notes/an-0996.html"
+        },
+        {
+          "label": "AN-1425: Interfacing the ADL5375 I/Q Modulator to the AD9779A Dual-Channel, 1 GSPS High Speed DAC (Rev.B)",
+          "href": "https://www.analog.com/media/en/technical-documentation/application-notes/AN-1425.pdf"
+        },
+        {
+          "label": "AN-1039: Correcting Imperfections in IQ Modulators to Improve RF Signal Fidelity (Rev.0)",
+          "href": "https://www.analog.com/media/en/technical-documentation/application-notes/AN-1039.pdf"
+        },
+        {
+          "label": "Semiconductors Simplify Direct-Conversion Design",
+          "href": "http://mwrf.com/markets/semiconductors-simplify-direct-conversion-design"
+        },
+        {
+          "label": "ADL5375-05 Gerber Files",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5375-05_fab_a02295b_Gerber.zip"
+        },
+        {
+          "label": "ADL5375-15 Gerber Files",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5375-15_fab_a02295b_Gerber.zip"
+        },
+        {
+          "label": "RF, Microwave, and Millimeter Wave Product Selection Guide",
+          "href": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/rf-microwave-and-millimeter-wave-ic-selection-guide.pdf"
+        },
+        {
+          "label": "CN-0134: Broadband Low Error Vector Magnitude (EVM) Direct Conversion Transmitter",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/reference-designs/CN0134.pdf"
+        },
+        {
+          "label": "CN-0205: Interfacing the ADL5375 I/Q Modulator to the AD9122 Dual Channel, 1.2 GSPS High Speed DAC",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/reference-designs/CN0205.pdf"
+        },
+        {
+          "label": "CN-0285: Broadband Low Error Vector Magnitude (EVM) Direct Conversion Transmitter",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/reference-designs/CN0285.pdf"
+        },
+        {
+          "label": "CN0432: Wideband Baseband I/Q Transmitter Design Using Two AD9139 Devices with Multi-DAC Synchronization (Rev.0)",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/reference-designs/CN0432.pdf"
+        },
+        {
+          "label": "quality and reliability program and certifications",
+          "href": "/en/support/quality-and-reliability.html"
+        },
+        {
+          "label": "24-Lead LFCSP (4mm x 4mm w/ EP)",
+          "href": "https://mds.analog.com/api/public/content/cp_24_7.pdf"
+        },
+        {
+          "label": "Material Declaration",
+          "href": "https://quality.analog.com/searchresults.aspx "
+        },
+        {
+          "label": "Reliability Report",
+          "href": "https://www.analog.com/en/reliability/Product/GeneratePdf?modelType=nonautomotive&modelName=ADL5375-05ACPZ-R2&datasheetLink=https://www.analog.com/en/ADL5375/datasheet"
+        },
+        {
+          "label": "Package Resources",
+          "href": "https://www.analog.com/en/resources/packaging-quality-symbols-footprints/package-resources.html"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/adi/embedded?vdrPN=ADL5375-05ACPZ-R2"
+        },
+        {
+          "label": "SamacSys",
+          "href": "#"
+        },
+        {
+          "label": "24-Lead LFCSP (4mm x 4mm w/ EP)",
+          "href": "https://mds.analog.com/api/public/content/cp_24_7.pdf"
+        },
+        {
+          "label": "Material Declaration",
+          "href": "https://quality.analog.com/searchresults.aspx "
+        },
+        {
+          "label": "Reliability Report",
+          "href": "https://www.analog.com/en/reliability/Product/GeneratePdf?modelType=nonautomotive&modelName=ADL5375-05ACPZ-R7&datasheetLink=https://www.analog.com/en/ADL5375/datasheet"
+        },
+        {
+          "label": "Package Resources",
+          "href": "https://www.analog.com/en/resources/packaging-quality-symbols-footprints/package-resources.html"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/adi/embedded?vdrPN=ADL5375-05ACPZ-R7"
+        },
+        {
+          "label": "SamacSys",
+          "href": "#"
+        },
+        {
+          "label": "24-Lead LFCSP (4mm x 4mm w/ EP)",
+          "href": "https://mds.analog.com/api/public/content/cp_24_7.pdf"
+        },
+        {
+          "label": "Material Declaration",
+          "href": "https://quality.analog.com/searchresults.aspx "
+        },
+        {
+          "label": "Reliability Report",
+          "href": "https://www.analog.com/en/reliability/Product/GeneratePdf?modelType=nonautomotive&modelName=ADL5375-05SCPZEPR7&datasheetLink=https://www.analog.com/en/ADL5375/datasheet"
+        },
+        {
+          "label": "Package Resources",
+          "href": "https://www.analog.com/en/resources/packaging-quality-symbols-footprints/package-resources.html"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/adi/embedded?vdrPN=ADL5375-05SCPZEPR7"
+        },
+        {
+          "label": "SamacSys",
+          "href": "#"
+        },
+        {
+          "label": "24-Lead LFCSP (4mm x 4mm w/ EP)",
+          "href": "https://mds.analog.com/api/public/content/cp_24_7.pdf"
+        },
+        {
+          "label": "Material Declaration",
+          "href": "https://quality.analog.com/searchresults.aspx "
+        },
+        {
+          "label": "Reliability Report",
+          "href": "https://www.analog.com/en/reliability/Product/GeneratePdf?modelType=nonautomotive&modelName=ADL5375-15ACPZ-R7&datasheetLink=https://www.analog.com/en/ADL5375/datasheet"
+        },
+        {
+          "label": "Package Resources",
+          "href": "https://www.analog.com/en/resources/packaging-quality-symbols-footprints/package-resources.html"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/adi/embedded?vdrPN=ADL5375-15ACPZ-R7"
+        },
+        {
+          "label": "SamacSys",
+          "href": "#"
+        },
+        {
+          "label": "24-Lead LFCSP (4mm x 4mm w/ EP)",
+          "href": "https://mds.analog.com/api/public/content/cp_24_7.pdf"
+        },
+        {
+          "label": "Material Declaration",
+          "href": "https://quality.analog.com/searchresults.aspx "
+        },
+        {
+          "label": "Reliability Report",
+          "href": "https://www.analog.com/en/reliability/Product/GeneratePdf?modelType=nonautomotive&modelName=ADL5375-15ACPZ-WP&datasheetLink=https://www.analog.com/en/ADL5375/datasheet"
+        },
+        {
+          "label": "Package Resources",
+          "href": "https://www.analog.com/en/resources/packaging-quality-symbols-footprints/package-resources.html"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/adi/embedded?vdrPN=ADL5375-15ACPZ-WP"
+        },
+        {
+          "label": "SamacSys",
+          "href": "#"
+        },
+        {
+          "label": "PCN12_0063_Form",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Form.pdf"
+        },
+        {
+          "label": "Material_Report",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Material_Report.xls"
+        },
+        {
+          "label": "Detailed Change Description",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Bill of Materials.pdf"
+        },
+        {
+          "label": "Detailed Parts List",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Parts and Wire Size.pdf"
+        },
+        {
+          "label": "Package Outline Drawing",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_POD.pdf"
+        },
+        {
+          "label": "Qualification Report Summary",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Qual Report.pdf"
+        },
+        {
+          "label": "PCN10_0141_Form",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_10_0141_Rev_-_Form.pdf"
+        },
+        {
+          "label": "Material_Report",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_10_0141_Rev_-_Material_Report.xls"
+        },
+        {
+          "label": "Qualification Plan Summary",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_10_0141_Rev_-_ADL5375-05 QUALIFICATION PLAN.doc"
+        },
+        {
+          "label": "Datasheet Specification Comparison",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_10_0141_Rev_-_ADL5375-05_ssb.pdf"
+        },
+        {
+          "label": "PCN12_0063_Form",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_B_Form.pdf"
+        },
+        {
+          "label": "Material_Report",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_B_Material_Report.xls"
+        },
+        {
+          "label": "Detailed Change Description",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_B_Bill of Materials.pdf"
+        },
+        {
+          "label": "Detailed Parts List",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_B_Parts and Wire size to use.pdf"
+        },
+        {
+          "label": "Package Outline Drawing",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_B_POD.pdf"
+        },
+        {
+          "label": "Qualification Report Summary",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_B_Qual Report.pdf"
+        },
+        {
+          "label": "Data Sheet (Rev. D)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5375.pdf"
+        },
+        {
+          "label": "Learn More",
+          "href": "#"
+        },
+        {
+          "label": "WATCH SERIES",
+          "href": "#"
+        },
+        {
+          "label": "Request a Driver/Software",
+          "href": "https://support.analog.com/en-US/create-case-driver/?partnumber=adl5375"
+        },
+        {
+          "label": "AD9717",
+          "href": "https://www.analog.com/en/products/ad9717.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9717/sample-buy.html"
+        },
+        {
+          "label": "AD9783",
+          "href": "https://www.analog.com/en/products/ad9783.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9783/sample-buy.html"
+        },
+        {
+          "label": "AD9122",
+          "href": "https://www.analog.com/en/products/ad9122.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9122/sample-buy.html"
+        },
+        {
+          "label": "AD9747",
+          "href": "https://www.analog.com/en/products/ad9747.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9747/sample-buy.html"
+        },
+        {
+          "label": "AD9125",
+          "href": "https://www.analog.com/en/products/ad9125.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9125/sample-buy.html"
+        },
+        {
+          "label": "AD9117",
+          "href": "https://www.analog.com/en/products/ad9117.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9117/sample-buy.html"
+        },
+        {
+          "label": "AD9146",
+          "href": "https://www.analog.com/en/products/ad9146.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9146/sample-buy.html"
+        },
+        {
+          "label": "ADP7104",
+          "href": "https://www.analog.com/en/products/adp7104.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adp7104/sample-buy.html"
+        },
+        {
+          "label": "ADF4350",
+          "href": "https://www.analog.com/en/products/adf4350.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adf4350/sample-buy.html"
+        },
+        {
+          "label": "ADF4106",
+          "href": "https://www.analog.com/en/products/adf4106.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adf4106/sample-buy.html"
+        },
+        {
+          "label": "ADF4156",
+          "href": "https://www.analog.com/en/products/adf4156.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adf4156/sample-buy.html"
+        },
+        {
+          "label": "Open Tool",
+          "href": "https://www.analog.com/en/lp/resources/adisimpll.html"
+        },
+        {
+          "label": "Open Tool",
+          "href": "https://www.analog.com/en/lp/resources/adisimrf.html"
+        },
+        {
+          "label": "AD-FMCOMMS1-EBZ",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-fmcomms.html"
+        },
+        {
+          "label": "Buy Now",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-fmcomms/sample-buy.html"
+        },
+        {
+          "label": "View Details",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-fmcomms.html"
+        },
+        {
+          "label": "AD-FMCOMMS1-EBZ User Guide",
+          "href": "http://wiki.analog.com/resources/eval/user-guides/ad-fmcomms1-ebz"
+        },
+        {
+          "label": "AD-FMCOMMS1-EBZ-Software",
+          "href": "http://wiki.analog.com/resources/eval/user-guides/ad-fmcomms1-ebz/software"
+        },
+        {
+          "label": "EVAL-ADL5375",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adl5375.html"
+        },
+        {
+          "label": "Buy Now",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adl5375/sample-buy.html"
+        },
+        {
+          "label": "View Details",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adl5375.html"
+        },
+        {
+          "label": "ADL5320",
+          "href": "http://www.analog.com/ADL5320"
+        },
+        {
+          "label": "ADL5320",
+          "href": "http://www.analog.com/ADL5320"
+        },
+        {
+          "label": "ADL5375-05 Gerber Files",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5375-05_fab_a02295b_Gerber.zip"
+        },
+        {
+          "label": "ADL5375-15 Gerber Files",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5375-15_fab_a02295b_Gerber.zip"
+        },
+        {
+          "label": "UG-521: Evaluating the CN-0285 Wideband Tx Modulator Solution",
+          "href": "https://www.analog.com/media/en/technical-documentation/user-guides/UG-521.pdf"
+        },
+        {
+          "label": "CN0285",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0285.html"
+        },
+        {
+          "label": "View Detailed Reference Design",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0285.html"
+        },
+        {
+          "label": "ADP3334",
+          "href": "https://www.analog.com/en/products/adp3334.html"
+        },
+        {
+          "label": "ADL5375",
+          "href": "https://www.analog.com/en/products/adl5375.html"
+        },
+        {
+          "label": "ADP150",
+          "href": "https://www.analog.com/en/products/adp150.html"
+        },
+        {
+          "label": "ADF4351",
+          "href": "https://www.analog.com/en/products/adf4351.html"
+        },
+        {
+          "label": "ADP150 Regulator Fixed Voltage Linux Driver",
+          "href": "http://wiki.analog.com/resources/tools-software/linux-drivers/regulator/adp150"
+        },
+        {
+          "label": "ADF4350 IIO Wideband Synthesizer GitHub Linux Driver Source Code",
+          "href": "https://github.com/analogdevicesinc/linux/tree/main/drivers/iio/frequency/adf4350.c"
+        },
+        {
+          "label": "CN0285 Design & Integration Files",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/design-integration-files/CN0285-DesignSupport.zip"
+        },
+        {
+          "label": "CN0134",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0134.html"
+        },
+        {
+          "label": "View Detailed Reference Design",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0134.html"
+        },
+        {
+          "label": "ADP3334",
+          "href": "https://www.analog.com/en/products/adp3334.html"
+        },
+        {
+          "label": "ADL5375",
+          "href": "https://www.analog.com/en/products/adl5375.html"
+        },
+        {
+          "label": "ADF4350",
+          "href": "https://www.analog.com/en/products/adf4350.html"
+        },
+        {
+          "label": "ADP150",
+          "href": "https://www.analog.com/en/products/adp150.html"
+        },
+        {
+          "label": "ADF4350 IIO Wideband Synthesizer GitHub Linux Driver Source Code",
+          "href": "https://github.com/analogdevicesinc/linux/tree/main/drivers/iio/frequency/adf4350.c"
+        },
+        {
+          "label": "CN0134 Design & Integration Files",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/design-integration-files/CN0134-DesignSupport.zip"
+        },
+        {
+          "label": "CN0205",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0205.html"
+        },
+        {
+          "label": "View Detailed Reference Design",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0205.html"
+        },
+        {
+          "label": "ADL5375",
+          "href": "https://www.analog.com/en/products/adl5375.html"
+        },
+        {
+          "label": "AD9122",
+          "href": "https://www.analog.com/en/products/ad9122.html"
+        },
+        {
+          "label": "CN0205 Design & Integration Files",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/design-integration-files/CN0205-DesignSupport.zip"
+        },
+        {
+          "label": "CN0432",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0432.html"
+        },
+        {
+          "label": "View Detailed Reference Design",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0432.html"
+        },
+        {
+          "label": "AD9516-1",
+          "href": "https://www.analog.com/en/products/ad9516-1.html"
+        },
+        {
+          "label": "ADL5375",
+          "href": "https://www.analog.com/en/products/adl5375.html"
+        },
+        {
+          "label": "AD9139",
+          "href": "https://www.analog.com/en/products/ad9139.html"
+        },
+        {
+          "label": "cn0432-DesignSupport.zip",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/design-integration-files/cn0432-DesignSupport.zip"
+        },
+        {
+          "label": "1 Years Ago Capacitance Unit for LO interface",
+          "href": "https://ez.analog.com/rf/f/q-a/590573/capacitance-unit-for-lo-interface"
+        },
+        {
+          "label": "2 Years Ago ADL5375",
+          "href": "https://ez.analog.com/rf/f/q-a/579758/adl5375"
+        },
+        {
+          "label": "2 Years Ago Update Keyword Interceptor",
+          "href": "https://ez.analog.com/using_engineerzone/f/q-a/577858/update-keyword-interceptor"
+        },
+        {
+          "label": "View related discussion on EngineerZone®",
+          "href": "https://ez.analog.com/search?q=ADL5375"
+        },
+        {
+          "label": "",
+          "href": "#"
+        }
+      ],
+      "format": "official HTML extracted text; not a device model",
+      "snapshot": "source_snapshots/tx_page.txt",
+      "snapshot_sha256": "e69ae4c1ed41bb263688297fa70010825f498fcdef2b4a0ab78a882fc9e2ad7f",
+      "result": "retrieved"
+    },
+    {
+      "id": "rx_page",
+      "url": "https://www.analog.com/en/products/adl5380.html",
+      "retrieved_utc": "2026-11-17T16:29:38.781782+00:00",
+      "status": 200,
+      "final_url": "https://www.analog.com/en/products/adl5380.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 249790,
+      "raw_sha256": "722d15b8dbd8b1c67ed91e7504b6f7e3c944c783b0505ea5ccfaa04d846ba64a",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\rx_page.html",
+      "links": [
+        {
+          "label": "Get the X-MWblock® drop-in module for this part.",
+          "href": "https://catalog.quanticxmw.com/keyword/converters-and-modulators/demodulators?keyword=ADL5380ACPZ&key=product&SchType=2&filter=1"
+        },
+        {
+          "label": "Home",
+          "href": "https://www.analog.com/en/index.html"
+        },
+        {
+          "label": "Products",
+          "href": "https://www.analog.com/en/product-category.html"
+        },
+        {
+          "label": "RF & Microwave",
+          "href": "https://www.analog.com/en/product-category/rf-microwave.html"
+        },
+        {
+          "label": "Beamformers & Vector Modulators",
+          "href": "https://www.analog.com/en/product-category/beamformers-vector-modulators.html"
+        },
+        {
+          "label": "Frequency Dividers & Multipliers",
+          "href": "https://www.analog.com/en/product-category/frequency-dividers-multipliers.html"
+        },
+        {
+          "label": "Mixed Signal Front Ends (MxFE)",
+          "href": "https://www.analog.com/en/product-category/mixed-signal-frontends.html"
+        },
+        {
+          "label": "Modulators & Demodulators",
+          "href": "https://www.analog.com/en/product-category/modulators-demodulators.html"
+        },
+        {
+          "label": "Oscillators",
+          "href": "https://www.analog.com/en/product-category/oscillators.html"
+        },
+        {
+          "label": "Phase Shifters",
+          "href": "https://www.analog.com/en/product-category/phase-shifters.html"
+        },
+        {
+          "label": "PLL Synthesizers",
+          "href": "https://www.analog.com/en/product-category/pll-synthesizers.html"
+        },
+        {
+          "label": "RF ADCs",
+          "href": "https://www.analog.com/en/product-category/rf-adc.html"
+        },
+        {
+          "label": "RF Amplifiers",
+          "href": "https://www.analog.com/en/product-category/rf-amplifiers.html"
+        },
+        {
+          "label": "RF Analog Receivers & Transmitters",
+          "href": "https://www.analog.com/en/product-category/rf-analog-receivers-transmitters.html"
+        },
+        {
+          "label": "RF Attenuators",
+          "href": "https://www.analog.com/en/product-category/rf-attenuators.html"
+        },
+        {
+          "label": "RF DACs & DDS",
+          "href": "https://www.analog.com/en/product-category/rf-dacs-dds.html"
+        },
+        {
+          "label": "RF Mixers",
+          "href": "https://www.analog.com/en/product-category/rf-mixers.html"
+        },
+        {
+          "label": "RF Power Detectors",
+          "href": "https://www.analog.com/en/product-category/rf-power-detectors.html"
+        },
+        {
+          "label": "RF Switches",
+          "href": "https://www.analog.com/en/product-category/rf-switches.html"
+        },
+        {
+          "label": "Software Defined Radio & Digitizers",
+          "href": "https://www.analog.com/en/product-category/software-defined-radio-digitizers.html"
+        },
+        {
+          "label": "Tunable Filters & RF Limiters",
+          "href": "https://www.analog.com/en/product-category/tunable-filters-rf-limiters.html"
+        },
+        {
+          "label": "Voltage to Frequency Converters",
+          "href": "https://www.analog.com/en/product-category/voltage-to-frequency-converters.html"
+        },
+        {
+          "label": "Modulators & Demodulators",
+          "href": "https://www.analog.com/en/product-category/modulators-demodulators.html"
+        },
+        {
+          "label": "Back to Modulators & Demodulators",
+          "href": "https://www.analog.com/en/product-category/modulators-demodulators.html"
+        },
+        {
+          "label": "Data Sheet (Rev. C)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf"
+        },
+        {
+          "label": "Product Selection Table",
+          "href": "https://www.analog.com/en/parametricsearch/2441"
+        },
+        {
+          "label": "Sample & Buy",
+          "href": "https://www.analog.com/en/products/ADL5380/sample-buy.html"
+        },
+        {
+          "label": "Sample & Buy",
+          "href": "https://www.analog.com/en/products/ADL5380/sample-buy.html"
+        },
+        {
+          "label": "Data Sheet (Rev. C)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf"
+        },
+        {
+          "label": "Product Selection Table",
+          "href": "https://www.analog.com/en/parametricsearch/2441"
+        },
+        {
+          "label": "Visit the ADI Support Page",
+          "href": "https://www.analog.com/en/support.html"
+        },
+        {
+          "label": "Ask the EngineerZone Community",
+          "href": "https://ez.analog.com/"
+        },
+        {
+          "label": "Sales & Ordering FAQs",
+          "href": "https://www.analog.com/en/support/ordering-faqs.html"
+        },
+        {
+          "label": "ADL5380: 400 MHz to 6 GHz Quadrature Demodulator Data Sheet (Rev.C)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf"
+        },
+        {
+          "label": "AN-2536: Wideband LO PLL Synthesizer with Simple Interface to Quadrature Demodulators",
+          "href": "https://www.analog.com/en/resources/app-notes/an-2536.html"
+        },
+        {
+          "label": "Semiconductors Simplify Direct-Conversion Design",
+          "href": "http://mwrf.com/markets/semiconductors-simplify-direct-conversion-design"
+        },
+        {
+          "label": "Direct Conversion Receiver Designs Enable Multi-standard/Multi-band Operation",
+          "href": "http://www.rfdesignline.com/213400602;jsessionid=VBLQKK1J3P3YNQE1GHOSKH4ATMY32JVN?printableArticle=true"
+        },
+        {
+          "label": "Assess Quadrature-Demodulator Noise Figure Using Vector Signal Analysis",
+          "href": "http://mwrf.com/test-and-measurement/assess-quadrature-demodulator-noise-figure-using-vector-signal-analysis"
+        },
+        {
+          "label": "ADL5380-29A Archive-obsolete Board Gerber Files",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5380-29A_a02029c_Gerber.zip"
+        },
+        {
+          "label": "ADL5380-30A - Archive-obsolete Board Design and Schematics",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5380_30_A_Archive_Obsolete_Schematic_Board_Design.zip"
+        },
+        {
+          "label": "RF, Microwave, and Millimeter Wave Product Selection Guide",
+          "href": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/rf-microwave-and-millimeter-wave-ic-selection-guide.pdf"
+        },
+        {
+          "label": "CN-0245: Wideband LO PLL Synthesizer with Simple Interface to Quadrature Demodulators",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/reference-designs/CN0245.pdf"
+        },
+        {
+          "label": "CN0374: RF-to-Bits Solution Offers Precise Phase and Magnitude Data to 6 GHz",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/reference-designs/CN0374.pdf"
+        },
+        {
+          "label": "Differential Interfaces Improve Performance in RF Transceiver Designs",
+          "href": "https://www.analog.com/en/resources/analog-dialogue/articles/differential-interfaces-improve-rf-performance.html"
+        },
+        {
+          "label": "Power Management for Integrated RF ICs",
+          "href": "https://www.analog.com/en/resources/analog-dialogue/articles/power-management-for-integrated-rfics.html"
+        },
+        {
+          "label": "RF-to-Bits Solution Offers Precise Phase and Magnitude Data for Material Analysis",
+          "href": "https://www.analog.com/en/resources/analog-dialogue/articles/rf-to-bits-solution.html"
+        },
+        {
+          "label": "ADALM2000 Activity: Polyphase Filter Circuits",
+          "href": "https://www.analog.com/en/resources/analog-dialogue/studentzone/studentzone-august-2024.html"
+        },
+        {
+          "label": "ADALM2000 Activity: Envelope Detector",
+          "href": "https://www.analog.com/en/resources/analog-dialogue/studentzone/studentzone-september-2024.html"
+        },
+        {
+          "label": "Solving Next Generation Aerospace and Defense Challenges",
+          "href": "https://www.analog.com/en/education/education-library/Webcasts/solving-next-generation-aerospace-defense-challenges.html"
+        },
+        {
+          "label": "Solutions for Fitting High Performance RF Signal Chains into Small Spaces",
+          "href": "https://www.analog.com/en/education/education-library/Webcasts/rf-sig-chains-in-small-places.html"
+        },
+        {
+          "label": "quality and reliability program and certifications",
+          "href": "/en/support/quality-and-reliability.html"
+        },
+        {
+          "label": "24-Lead LFCSP (4mm x 4mm x 0.75mm w/ EP)",
+          "href": "https://mds.analog.com/api/public/content/CP_24_8.pdf"
+        },
+        {
+          "label": "Material Declaration",
+          "href": "https://quality.analog.com/searchresults.aspx "
+        },
+        {
+          "label": "Reliability Report",
+          "href": "https://www.analog.com/en/reliability/Product/GeneratePdf?modelType=nonautomotive&modelName=ADL5380ACPZ-R7&datasheetLink=https://www.analog.com/en/ADL5380/datasheet"
+        },
+        {
+          "label": "Package Resources",
+          "href": "https://www.analog.com/en/resources/packaging-quality-symbols-footprints/package-resources.html"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/adi/embedded?vdrPN=ADL5380ACPZ-R7"
+        },
+        {
+          "label": "SamacSys",
+          "href": "#"
+        },
+        {
+          "label": "24-Lead LFCSP (4mm x 4mm x 0.75mm w/ EP)",
+          "href": "https://mds.analog.com/api/public/content/CP_24_8.pdf"
+        },
+        {
+          "label": "Material Declaration",
+          "href": "https://quality.analog.com/searchresults.aspx "
+        },
+        {
+          "label": "Reliability Report",
+          "href": "https://www.analog.com/en/reliability/Product/GeneratePdf?modelType=nonautomotive&modelName=ADL5380ACPZ-WP&datasheetLink=https://www.analog.com/en/ADL5380/datasheet"
+        },
+        {
+          "label": "Package Resources",
+          "href": "https://www.analog.com/en/resources/packaging-quality-symbols-footprints/package-resources.html"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/adi/embedded?vdrPN=ADL5380ACPZ-WP"
+        },
+        {
+          "label": "SamacSys",
+          "href": "#"
+        },
+        {
+          "label": "PCN14_0020_Form",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_14_0020_Rev_A_Form.pdf"
+        },
+        {
+          "label": "Material_Report",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_14_0020_Rev_A_Material_Report.xls"
+        },
+        {
+          "label": "Detailed Change Description",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_14_0020_Rev_A_Materials and Package Configuration.pdf"
+        },
+        {
+          "label": "Package Outline Drawing",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_14_0020_Rev_A_Package Outline Drawing.pdf"
+        },
+        {
+          "label": "Qualification Report Summary",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_14_0020_Rev_A_Qualification Summary.pdf"
+        },
+        {
+          "label": "PCN12_0063_Form",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Form.pdf"
+        },
+        {
+          "label": "Material_Report",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Material_Report.xls"
+        },
+        {
+          "label": "Detailed Change Description",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Bill of Materials.pdf"
+        },
+        {
+          "label": "Detailed Parts List",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Parts and Wire Size.pdf"
+        },
+        {
+          "label": "Package Outline Drawing",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_POD.pdf"
+        },
+        {
+          "label": "Qualification Report Summary",
+          "href": "https://www.analog.com/media/en/pcn/ADI_PCN_12_0063_Rev_-_Qual Report.pdf"
+        },
+        {
+          "label": "Data Sheet (Rev. C)",
+          "href": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf"
+        },
+        {
+          "label": "Learn More",
+          "href": "#"
+        },
+        {
+          "label": "WATCH SERIES",
+          "href": "#"
+        },
+        {
+          "label": "Request a Driver/Software",
+          "href": "https://support.analog.com/en-US/create-case-driver/?partnumber=adl5380"
+        },
+        {
+          "label": "AD9231",
+          "href": "https://www.analog.com/en/products/ad9231.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9231/sample-buy.html"
+        },
+        {
+          "label": "AD9258",
+          "href": "https://www.analog.com/en/products/ad9258.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9258/sample-buy.html"
+        },
+        {
+          "label": "AD9251",
+          "href": "https://www.analog.com/en/products/ad9251.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9251/sample-buy.html"
+        },
+        {
+          "label": "AD9262",
+          "href": "https://www.analog.com/en/products/ad9262.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9262/sample-buy.html"
+        },
+        {
+          "label": "AD9268",
+          "href": "https://www.analog.com/en/products/ad9268.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9268/sample-buy.html"
+        },
+        {
+          "label": "AD9650",
+          "href": "https://www.analog.com/en/products/ad9650.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9650/sample-buy.html"
+        },
+        {
+          "label": "AD9269",
+          "href": "https://www.analog.com/en/products/ad9269.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad9269/sample-buy.html"
+        },
+        {
+          "label": "ADA4950-1",
+          "href": "https://www.analog.com/en/products/ada4950-1.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ada4950-1/sample-buy.html"
+        },
+        {
+          "label": "ADA4950-2",
+          "href": "https://www.analog.com/en/products/ada4950-2.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ada4950-2/sample-buy.html"
+        },
+        {
+          "label": "ADA4930-1",
+          "href": "https://www.analog.com/en/products/ada4930-1.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ada4930-1/sample-buy.html"
+        },
+        {
+          "label": "ADA4930-2",
+          "href": "https://www.analog.com/en/products/ada4930-2.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ada4930-2/sample-buy.html"
+        },
+        {
+          "label": "ADP7104",
+          "href": "https://www.analog.com/en/products/adp7104.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adp7104/sample-buy.html"
+        },
+        {
+          "label": "ADF4350",
+          "href": "https://www.analog.com/en/products/adf4350.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adf4350/sample-buy.html"
+        },
+        {
+          "label": "ADF4106",
+          "href": "https://www.analog.com/en/products/adf4106.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adf4106/sample-buy.html"
+        },
+        {
+          "label": "ADF4156",
+          "href": "https://www.analog.com/en/products/adf4156.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adf4156/sample-buy.html"
+        },
+        {
+          "label": "AD8366",
+          "href": "https://www.analog.com/en/products/ad8366.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/ad8366/sample-buy.html"
+        },
+        {
+          "label": "ADL5562",
+          "href": "https://www.analog.com/en/products/adl5562.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adl5562/sample-buy.html"
+        },
+        {
+          "label": "ADL5565",
+          "href": "https://www.analog.com/en/products/adl5565.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adl5565/sample-buy.html"
+        },
+        {
+          "label": "ADRF6510",
+          "href": "https://www.analog.com/en/products/adrf6510.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adrf6510/sample-buy.html"
+        },
+        {
+          "label": "ADRF6516",
+          "href": "https://www.analog.com/en/products/adrf6516.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/en/products/adrf6516/sample-buy.html"
+        },
+        {
+          "label": "Open Tool",
+          "href": "https://www.analog.com/en/lp/resources/adisimpll.html"
+        },
+        {
+          "label": "Open Tool",
+          "href": "https://www.analog.com/en/lp/resources/adisimrf.html"
+        },
+        {
+          "label": "AD-FMCOMMS6-EBZ",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms6-ebz.html"
+        },
+        {
+          "label": "Buy Now",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms6-ebz/sample-buy.html"
+        },
+        {
+          "label": "View Details",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad-fmcomms6-ebz.html"
+        },
+        {
+          "label": "AD9652",
+          "href": "https://www.analog.com/en/products/ad9652.html"
+        },
+        {
+          "label": "ADL5566",
+          "href": "https://www.analog.com/en/products/adl5566.html"
+        },
+        {
+          "label": "ADL5380",
+          "href": "https://www.analog.com/en/products/adl5380.html"
+        },
+        {
+          "label": "AD-FMCOMMS6-EBZ User Guide",
+          "href": "http://wiki.analog.com/resources/eval/user-guides/ad-fmcomms6-ebz"
+        },
+        {
+          "label": "EVAL-ADL5380",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adl5380.html"
+        },
+        {
+          "label": "Buy Now",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adl5380/sample-buy.html"
+        },
+        {
+          "label": "View Details",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adl5380.html"
+        },
+        {
+          "label": "ADL5380-EVALZ Schematics and BOM",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5380_EVALZ_Schematics__BOM.zip"
+        },
+        {
+          "label": "ADL5380-30A - Archive-obsolete Board Design and Schematics",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5380_30_A_Archive_Obsolete_Schematic_Board_Design.zip"
+        },
+        {
+          "label": "ADL5380-29A Archive-obsolete Board Gerber Files",
+          "href": "https://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5380-29A_a02029c_Gerber.zip"
+        },
+        {
+          "label": "AD-FMCOMMS1-EBZ",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-fmcomms.html"
+        },
+        {
+          "label": "Buy Now",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-fmcomms/sample-buy.html"
+        },
+        {
+          "label": "View Details",
+          "href": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-fmcomms.html"
+        },
+        {
+          "label": "AD-FMCOMMS1-EBZ User Guide",
+          "href": "http://wiki.analog.com/resources/eval/user-guides/ad-fmcomms1-ebz"
+        },
+        {
+          "label": "AD-FMCOMMS1-EBZ-Software",
+          "href": "http://wiki.analog.com/resources/eval/user-guides/ad-fmcomms1-ebz/software"
+        },
+        {
+          "label": "CN0507",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0507.html"
+        },
+        {
+          "label": "View Detailed Reference Design",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0507.html"
+        },
+        {
+          "label": "ADF4355-3",
+          "href": "https://www.analog.com/en/products/adf4355-3.html"
+        },
+        {
+          "label": "ADL5380",
+          "href": "https://www.analog.com/en/products/adl5380.html"
+        },
+        {
+          "label": "HMC1044",
+          "href": "https://www.analog.com/en/products/hmc1044.html"
+        },
+        {
+          "label": "ADM7172",
+          "href": "https://www.analog.com/en/products/adm7172.html"
+        },
+        {
+          "label": "HMC8038",
+          "href": "https://www.analog.com/en/products/hmc8038.html"
+        },
+        {
+          "label": "HMC788A",
+          "href": "https://www.analog.com/en/products/hmc788a.html"
+        },
+        {
+          "label": "ADG739",
+          "href": "https://www.analog.com/en/products/adg739.html"
+        },
+        {
+          "label": "AD8426",
+          "href": "https://www.analog.com/en/products/ad8426.html"
+        },
+        {
+          "label": "ADM7150",
+          "href": "https://www.analog.com/en/products/adm7150.html"
+        },
+        {
+          "label": "ADR127",
+          "href": "https://www.analog.com/en/products/adr127.html"
+        },
+        {
+          "label": "CN0507 - Designs Files",
+          "href": "http://www.analog.com/cn0507-designsupport"
+        },
+        {
+          "label": "CN0374",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0374.html"
+        },
+        {
+          "label": "View Detailed Reference Design",
+          "href": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0374.html"
+        },
+        {
+          "label": "AD7903",
+          "href": "https://www.analog.com/en/products/ad7903.html"
+        },
+        {
+          "label": "ADA4940-2",
+          "href": "https://www.analog.com/en/products/ada4940-2.html"
+        },
+        {
+          "label": "ADL5380",
+          "href": "https://www.analog.com/en/products/adl5380.html"
+        },
+        {
+          "label": "ADR435",
+          "href": "https://www.analog.com/en/products/adr435.html"
+        },
+        {
+          "label": "",
+          "href": "https://www.analog.com/media/en/evaluation-boards-kits/evaluation-software/CN0374-Evaluation-Software.zip"
+        },
+        {
+          "label": "CN0374 Design & Integration Files",
+          "href": "https://www.analog.com/media/en/reference-design-documentation/design-integration-files/CN0374-DesignSupport.zip"
+        },
+        {
+          "label": "2 Weeks Ago ADL5380 I/Q output impedance—clarification of published S-parameter dat",
+          "href": "https://ez.analog.com/rf/f/q-a/606667/adl5380-i-q-output-impedance-clarification-of-published-s-parameter-dat"
+        },
+        {
+          "label": "13 Weeks Ago Clarification of ADL5380 RF-port S-parameter reference plane and balun de-embedding",
+          "href": "https://ez.analog.com/rf/f/q-a/605677/clarification-of-adl5380-rf-port-s-parameter-reference-plane-and-balun-de-embedding"
+        },
+        {
+          "label": "2 Years Ago Update Keyword Interceptor",
+          "href": "https://ez.analog.com/using_engineerzone/f/q-a/577858/update-keyword-interceptor"
+        },
+        {
+          "label": "View related discussion on EngineerZone®",
+          "href": "https://ez.analog.com/search?q=ADL5380"
+        },
+        {
+          "label": "",
+          "href": "#"
+        }
+      ],
+      "format": "official HTML extracted text; not a device model",
+      "snapshot": "source_snapshots/rx_page.txt",
+      "snapshot_sha256": "c4b2072ee68a36d513dff938d1f24884792d8444e929935da3dfbe355e1fd19b",
+      "result": "retrieved"
+    },
+    {
+      "id": "cmp_page",
+      "url": "https://www.ti.com/product/TLV3501",
+      "retrieved_utc": "2026-11-17T16:29:38.781782+00:00",
+      "status": 200,
+      "final_url": "https://www.ti.com/product/TLV3501",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 311639,
+      "raw_sha256": "5069da95f9cb6b2a1a8496ca6effbeddbdc4e285b2b2e16de28a6c1b9ff75c32",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\cmp_page.html",
+      "links": [
+        {
+          "label": "Home",
+          "href": "https://www.ti.com"
+        },
+        {
+          "label": "Amplifiers",
+          "href": "/en-us/product-category/amplifiers"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/products"
+        },
+        {
+          "label": "Amplifiers",
+          "href": "/en-us/product-category/amplifiers"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/audio/products"
+        },
+        {
+          "label": "Audio, haptics & piezo",
+          "href": "/en-us/product-category/audio"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/battery-management-ics/products"
+        },
+        {
+          "label": "Battery management ICs",
+          "href": "/en-us/product-category/battery-management-ics"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/clocks-timing/products"
+        },
+        {
+          "label": "Clocks & timing",
+          "href": "/en-us/product-category/clocks-timing"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/data-converters/products"
+        },
+        {
+          "label": "Data converters",
+          "href": "/en-us/product-category/data-converters"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/die-wafer-services/products"
+        },
+        {
+          "label": "Die & wafer services",
+          "href": "/en-us/product-category/die-wafer-services"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/dlp-products/products"
+        },
+        {
+          "label": "DLP products",
+          "href": "/en-us/product-category/dlp-products"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/interface/products"
+        },
+        {
+          "label": "Interface",
+          "href": "/en-us/product-category/interface"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/isolation/products"
+        },
+        {
+          "label": "Isolation",
+          "href": "/en-us/product-category/isolation"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/logic-voltage-translation/products"
+        },
+        {
+          "label": "Logic & voltage translation",
+          "href": "/en-us/product-category/logic-voltage-translation"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/microcontrollers-processors/products"
+        },
+        {
+          "label": "Microcontrollers (MCUs) & processors",
+          "href": "/en-us/product-category/microcontrollers-processors"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/motor-drivers/products"
+        },
+        {
+          "label": "Motor drivers",
+          "href": "/en-us/product-category/motor-drivers"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/passive-discrete/products"
+        },
+        {
+          "label": "Passive and discrete",
+          "href": "/en-us/product-category/passive-discrete"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/power-management/products"
+        },
+        {
+          "label": "Power management",
+          "href": "/en-us/product-category/power-management"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/rf-microwave/products"
+        },
+        {
+          "label": "RF & microwave",
+          "href": "/en-us/product-category/rf-microwave"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/sensors/products"
+        },
+        {
+          "label": "Sensors",
+          "href": "/en-us/product-category/sensors"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/switches-multiplexers/products"
+        },
+        {
+          "label": "Switches & multiplexers",
+          "href": "/en-us/product-category/switches-multiplexers"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/wireless-connectivity/products"
+        },
+        {
+          "label": "Wireless connectivity",
+          "href": "/en-us/product-category/wireless-connectivity"
+        },
+        {
+          "label": "Comparators",
+          "href": "/en-us/product-category/amplifiers/comparators"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/comparators/products"
+        },
+        {
+          "label": "Comparators",
+          "href": "/en-us/product-category/amplifiers/comparators"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/current-sense/products"
+        },
+        {
+          "label": "Current-sense amplifiers",
+          "href": "/en-us/product-category/amplifiers/current-sense"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/difference/products"
+        },
+        {
+          "label": "Difference amplifiers",
+          "href": "/en-us/product-category/amplifiers/difference"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/fully-differential/products"
+        },
+        {
+          "label": "Fully differential amplifiers",
+          "href": "/en-us/product-category/amplifiers/fully-differential"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/instrumentation/products"
+        },
+        {
+          "label": "Instrumentation amplifiers",
+          "href": "/en-us/product-category/amplifiers/instrumentation"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/op-amps/products"
+        },
+        {
+          "label": "Operational amplifiers (op amps)",
+          "href": "/en-us/product-category/amplifiers/op-amps"
+        },
+        {
+          "label": "parametric-filter",
+          "href": ""
+        },
+        {
+          "label": "Other amplifiers",
+          "href": ""
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/pga-vga/products"
+        },
+        {
+          "label": "Programmable & variable gain amplifiers (PGAs & VGAs)",
+          "href": "/en-us/product-category/amplifiers/pga-vga"
+        },
+        {
+          "label": "parametric-filter",
+          "href": "/en-us/product-category/amplifiers/special-function/products"
+        },
+        {
+          "label": "Special function amplifiers",
+          "href": "/en-us/product-category/amplifiers/special-function"
+        },
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Amplifiers",
+          "href": "/en-us/product-category/amplifiers"
+        },
+        {
+          "label": "Comparators",
+          "href": "/en-us/product-category/amplifiers/comparators"
+        },
+        {
+          "label": "ACTIVE",
+          "href": "/quality-reliability/quality/product-life-cycle.html"
+        },
+        {
+          "label": "Order now",
+          "href": "#order-quality"
+        },
+        {
+          "label": "document-pdfAcrobat",
+          "href": "https://www.ti.com/lit/gpn/TLV3501"
+        },
+        {
+          "label": "TLV350x 4.5-ns, Rail-to-Rail, High-Speed\n\t Comparator in Microsize Packages datasheet (Rev. E)",
+          "href": "https://www.ti.com/lit/gpn/TLV3501"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/gpn/TLV3501"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/TLV3501/datasheet"
+        },
+        {
+          "label": "Compare alternates",
+          "href": "/compare-products/?id=50002&type=GPT&mode=alternate-gpn&partList=TLV3601&sticky=true"
+        },
+        {
+          "label": "TLV3601",
+          "href": "/product/TLV3601"
+        },
+        {
+          "label": "ACTIVE",
+          "href": "/quality-reliability/quality/product-life-cycle.html"
+        },
+        {
+          "label": "ACTIVE",
+          "href": "/quality-reliability/quality/product-life-cycle.html"
+        },
+        {
+          "label": "Data sheet",
+          "href": "https://www.ti.com/lit/gpn/TLV3501"
+        },
+        {
+          "label": "Order now",
+          "href": "#order-quality"
+        },
+        {
+          "label": "SOIC (D)",
+          "href": "https://www.ti.com/lit/pdf/MSOI002K"
+        },
+        {
+          "label": "SOT-23 (DBV)",
+          "href": "https://www.ti.com/lit/pdf/MPDS026Q"
+        },
+        {
+          "label": "filter Find other Comparators",
+          "href": "/en-us/product-category/amplifiers/comparators/products"
+        },
+        {
+          "label": "TLV350x 4.5-ns, Rail-to-Rail, High-Speed\n\t Comparator in Microsize Packages datasheet (Rev. E)",
+          "href": "https://www.ti.com/lit/gpn/TLV3501"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/gpn/TLV3501"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/TLV3501/datasheet"
+        },
+        {
+          "label": "Time of Flight and LIDAR - Optical Front End Design (Rev. A)",
+          "href": "https://www.ti.com/lit/pdf/SBOA337"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SBOA337"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SBOA337"
+        },
+        {
+          "label": "Signal and clock recovery comparator circuit (Rev. A)",
+          "href": "https://www.ti.com/lit/pdf/SBOA317"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SBOA317"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SBOA317"
+        },
+        {
+          "label": "AN-31 Amplifier Circuit Collection (Rev. D)",
+          "href": "https://www.ti.com/lit/pdf/SNLA140"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SNLA140"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SNLA140"
+        },
+        {
+          "label": "High Speed Comparators for Triggering in Oscilloscopes",
+          "href": "https://www.ti.com/lit/pdf/SNOA984"
+        },
+        {
+          "label": "The Signal e-book: A compendium of blog posts on op amp design topics",
+          "href": "https://www.ti.com/lit/pdf/SLYT701"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SLYT701"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SLYT701"
+        },
+        {
+          "label": "AMP-PDK-EVM",
+          "href": "/tool/AMP-PDK-EVM"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SBOU297"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SBOU297"
+        },
+        {
+          "label": "View options",
+          "href": "/tool/AMP-PDK-EVM"
+        },
+        {
+          "label": "Clock and Data Restoration Circuit",
+          "href": "https://www.ti.com/lit/zip/SNOM661"
+        },
+        {
+          "label": "Download",
+          "href": "https://www.ti.com/lit/zip/SNOM661"
+        },
+        {
+          "label": "TLV3501 and TLV3502 PSpice Model",
+          "href": "https://www.ti.com/lit/zip/SBOMBU5"
+        },
+        {
+          "label": "Download",
+          "href": "https://www.ti.com/lit/zip/SBOMBU5"
+        },
+        {
+          "label": "TLV3501 and TLV3502 TINA-TI MACRO and Reference Design",
+          "href": "https://www.ti.com/lit/zip/SBOMBU6"
+        },
+        {
+          "label": "Download",
+          "href": "https://www.ti.com/lit/zip/SBOMBU6"
+        },
+        {
+          "label": "CIRCUIT060072",
+          "href": "/tool/CIRCUIT060072"
+        },
+        {
+          "label": "View options",
+          "href": "/tool/CIRCUIT060072"
+        },
+        {
+          "label": "Download options",
+          "href": "/tool/download/SBOC552"
+        },
+        {
+          "label": "TIDA-060025",
+          "href": "/tool/TIDA-060025"
+        },
+        {
+          "label": "TIPD105",
+          "href": "/tool/TIPD105"
+        },
+        {
+          "label": "SOIC (D)",
+          "href": "https://www.ti.com/lit/pdf/MSOI002K"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/TI/embedded/?gpn=TLV3501&package=D&pin=8"
+        },
+        {
+          "label": "SOT-23 (DBV)",
+          "href": "https://www.ti.com/lit/pdf/MPDS026Q"
+        },
+        {
+          "label": "Ultra Librarian",
+          "href": "https://vendor.ultralibrarian.com/TI/embedded/?gpn=TLV3501&package=DBV&pin=6"
+        },
+        {
+          "label": "TI's Standard Terms and Conditions for Evaluation Items apply.",
+          "href": "/legal/terms-of-sale.html"
+        },
+        {
+          "label": "View all forum topics",
+          "href": "https://e2e.ti.com/search?category=forum&q=TLV3501"
+        },
+        {
+          "label": "terms of use",
+          "href": "/legal/terms-conditions/terms-of-use.html"
+        },
+        {
+          "label": "TI support",
+          "href": "/info/customer-support.html"
+        },
+        {
+          "label": "View all videos",
+          "href": "/sitesearch/en-us/docs/universalsearch.tsp?langPref=en-us&searchTerm=null&preFilter=videos_Video,Video%20series"
+        }
+      ],
+      "format": "official HTML extracted text; not a device model",
+      "snapshot": "source_snapshots/cmp_page.txt",
+      "snapshot_sha256": "951c94e8655a88836bed36a07ed9f3c058ca9bf749ad10b026238d1ad15f9bf0",
+      "result": "retrieved"
+    },
+    {
+      "id": "tx_pdf",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5375.pdf",
+      "retrieved_utc": "2026-11-17T16:29:38.781782+00:00",
+      "status": 200,
+      "final_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5375.pdf",
+      "content_type": "application/pdf",
+      "bytes": 960263,
+      "raw_sha256": "0d52b606ba2d9a7d1db3827d66b418e8fc74331c44cbdae8b65ad87929e30357",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tx_pdf.pdf",
+      "pages": 36,
+      "format": "official PDF extracted text; original in TEMP",
+      "snapshot": "source_snapshots/tx_pdf.txt",
+      "snapshot_sha256": "4dfc018282106fb73568e16b9afbed6c674a575a8be529177e8630e6b7dac3a1",
+      "result": "retrieved"
+    },
+    {
+      "id": "rx_pdf",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf",
+      "retrieved_utc": "2026-11-17T16:29:38.781782+00:00",
+      "status": 200,
+      "final_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5380.pdf",
+      "content_type": "application/pdf",
+      "bytes": 2606789,
+      "raw_sha256": "33f3646f21556dea639f0b49416649496faa895f44c0a963c1654236981f2e5b",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\rx_pdf.pdf",
+      "pages": 35,
+      "format": "official PDF extracted text; original in TEMP",
+      "snapshot": "source_snapshots/rx_pdf.txt",
+      "snapshot_sha256": "a9cee860c911051f38675ae0844daf09b73fa5071d3ad22f7052996db412bfcd",
+      "result": "retrieved"
+    },
+    {
+      "id": "cmp_pdf",
+      "url": "https://www.ti.com/lit/gpn/TLV3501",
+      "retrieved_utc": "2026-11-17T16:29:40.615038+00:00",
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/ds/symlink/tlv3501.pdf?ts=1794881761352&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fzh-tw%252FTLV3501%252Fpart-details%252FTLV3501AIDR%253FkeyMatch%253DTLV3501AIDR%2526tisearch%253Duniversal_search%2526usecase%253DOPN",
+      "content_type": "application/pdf",
+      "bytes": 1074854,
+      "raw_sha256": "fcfbeffce874629849fe7b2324fa40731a41453b587b8f50782f0ff42311b946",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\cmp_pdf.pdf",
+      "pages": 33,
+      "format": "official PDF extracted text; original in TEMP",
+      "snapshot": "source_snapshots/cmp_pdf.txt",
+      "snapshot_sha256": "6fd2bde8f47ca69ba2874c6ebf4e50dd44c5c95dfc23343f050450a828fb47e2",
+      "result": "retrieved"
+    },
+    {
+      "id": "tipd_page",
+      "url": "https://www.ti.com/tool/TIPD105",
+      "retrieved_utc": "2026-11-17T16:29:40.616066+00:00",
+      "status": 200,
+      "final_url": "https://www.ti.com/tool/TIPD105",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 35834,
+      "raw_sha256": "e322dd6ad31fe71223e1deaa6135fe0785bfdcfe796d8d85d07bdc0c7f4c4959",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tipd_page.html",
+      "links": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Design & development",
+          "href": "/design-development/overview.html"
+        },
+        {
+          "label": "Reference designs",
+          "href": "/reference-designs/index.html"
+        },
+        {
+          "label": "Design files",
+          "href": "#design-products"
+        },
+        {
+          "label": "Design files",
+          "href": "#design-products"
+        },
+        {
+          "label": "Analytical lab instrumentation",
+          "href": "/solution/analytical-lab-instrumentation?variantid=25141&subsystemid=37350"
+        },
+        {
+          "label": "Digitizer (>= 50MSPS)",
+          "href": "/solution/oscilloscopes-digitizers?variantid=20222&subsystemid=32737"
+        },
+        {
+          "label": "Digitizer (>= 50MSPS)",
+          "href": "/solution/oscilloscopes-digitizers?variantid=20222&subsystemid=32733"
+        },
+        {
+          "label": "Portable field instrumentation",
+          "href": "/solution/portable-field-instrumentation?variantid=25140&subsystemid=37415"
+        },
+        {
+          "label": "download Bill of materials (BOM) — TIPD105",
+          "href": "https://www.ti.com/lit/pdf/TIDR150"
+        },
+        {
+          "label": "download Schematic — TIPD105",
+          "href": "https://www.ti.com/lit/zip/SLAC576"
+        },
+        {
+          "label": "download Schematic — TIPD105",
+          "href": "https://www.ti.com/lit/pdf/TIDR149"
+        },
+        {
+          "label": "TLV3501",
+          "href": "/product/TLV3501"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/gpn/TLV3501"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/TLV3501/datasheet"
+        },
+        {
+          "label": "AC-Coupled, Single-Supply Comparator Reference Design (Rev. A)",
+          "href": "https://www.ti.com/lit/pdf/SLAU505"
+        },
+        {
+          "label": "TINA-TI",
+          "href": "/tool/TINA-TI"
+        },
+        {
+          "label": "View all forum topics",
+          "href": "https://e2e.ti.com/search?category=forum&q=TIPD105"
+        },
+        {
+          "label": "terms of use",
+          "href": "/legal/terms-of-use.html"
+        },
+        {
+          "label": "TI support",
+          "href": "/guidedsupport/call-ti-support/#popularlinks"
+        },
+        {
+          "label": "View all videos",
+          "href": "/sitesearch/en-us/docs/universalsearch.tsp?langPref=en-us&searchTerm=Amplifiers#f-videos=Video,Video%20series"
+        },
+        {
+          "label": "See the important notice and disclaimer covering reference designs and other TI resources.",
+          "href": "/legal/important-notice-and-disclaimer.html"
+        }
+      ],
+      "format": "official HTML extracted text; not a device model",
+      "snapshot": "source_snapshots/tipd_page.txt",
+      "snapshot_sha256": "cc1fd533fd3e105906949d1469191b1021d2df4ac14c0a874ca881252788a22a",
+      "result": "retrieved"
+    },
+    {
+      "id": "tipd_zip",
+      "url": "https://www.ti.com/lit/zip/SLAC576",
+      "retrieved_utc": "2026-11-17T16:29:43.812252+00:00",
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/df/slac576/slac576.zip?ts=1794927564850",
+      "content_type": "application/zip",
+      "bytes": 1432092,
+      "raw_sha256": "59d86992409abc168161fe6c8c8209873779d7658bebe316843885f63acd2953",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tipd_zip.zip",
+      "entries": [
+        {
+          "name": "Simulation/AC comparator Tran Final.TSC",
+          "bytes": 308064,
+          "sha256": "9f8b4d5d7266eae6a315d6cee75a58367bb3da5b4b047e23115745b8173e9b7f",
+          "header_hex": "4f4253531a01000000000002000000ba00000014436972637569742044657363"
+        },
+        {
+          "name": "Simulation/Complete Circuit Schematic.TSC",
+          "bytes": 9057,
+          "sha256": "3987267ba278715b689dfc2c3a313ef5b191f8569d2eb39c79774d9ff803b069",
+          "header_hex": "4f4253531a01000000000002000000ba00000014436972637569742044657363"
+        },
+        {
+          "name": "Simulation/Complete Input Scale Freq.TSC",
+          "bytes": 27286,
+          "sha256": "11c4e9302523f3e326c19f73f500e76ada6c4932e10bcbd759a343f4a948c606",
+          "header_hex": "4f4253531a01000000000002000000ba00000014436972637569742044657363"
+        },
+        {
+          "name": "Simulation/Front Page.TSC",
+          "bytes": 8095,
+          "sha256": "0e983761d7382ff95fd76e48849e50b745372058c8d7b4ca370853d7c8808a59",
+          "header_hex": "4f4253531a01000000000002000000ba00000014436972637569742044657363"
+        },
+        {
+          "name": "Simulation/Plots.tdr",
+          "bytes": 3116243,
+          "sha256": "aa955bdfa7a1a40e1bc1fa95f020c2c96e06039a9aac27275db7501e727d51d5",
+          "header_hex": "4f4253531a01000000000002000000b300000010416e616c7973697320726573"
+        },
+        {
+          "name": "Simulation/Transient Signal Source.TSC",
+          "bytes": 295969,
+          "sha256": "51e0e3d3d451f52e5f6bc9744e964578a3fb4f097689e4aa68954cc69718e6cf",
+          "header_hex": "4f4253531a01000000000002000000ba00000014436972637569742044657363"
+        },
+        {
+          "name": "IMP NOTICE for REF DESIGNS.pdf",
+          "bytes": 14136,
+          "sha256": "1d1f8697ef070340a55a17f6f79fd7693cb9e8075bdfcb5856588c093ddab598",
+          "header_hex": "255044462d312e360d25e2e3cfd30d0a392030206f626a0d3c3c2f4c696e6561"
+        }
+      ],
+      "format": "ZIP inventory only; no proprietary model conversion",
+      "snapshot": "source_snapshots/tipd_zip.txt",
+      "snapshot_sha256": "6eeefe7cdf8b31217c784ea1f20de736d998d3fb8c31dc10cf1109ce34de1f58",
+      "result": "retrieved"
+    },
+    {
+      "id": "tina_page",
+      "url": "https://www.ti.com/tool/TINA-TI",
+      "retrieved_utc": "2026-11-17T16:29:44.013124+00:00",
+      "status": 200,
+      "final_url": "https://www.ti.com/tool/TINA-TI",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 149493,
+      "raw_sha256": "2b6358e6cc8f5a92008c4f66fbdc04c6df344d8ca2574bc3a447837c17658bdb",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tina_page.html",
+      "links": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Design & development",
+          "href": "/design-development/overview.html"
+        },
+        {
+          "label": "Downloads",
+          "href": "#downloads"
+        },
+        {
+          "label": "Downloads",
+          "href": "#downloads"
+        },
+        {
+          "label": "SpiceRack -- A Complete List",
+          "href": "https://webench.ti.com/webench5/spicemodels/?DCMP=hpa_hpa_elabs&HQS=spicerack#search=tina"
+        },
+        {
+          "label": "here",
+          "href": "https://www.ti.com/packaged_lits/hspice_files/ti_hspice.zip"
+        },
+        {
+          "label": "lock Download",
+          "href": "https://software-dl.ti.com/dsps/forms/self_cert_export.html?prod_no=Tina90-TIen.9.3.200.277.zip&ref_url=https://software-dl.ti.com/analog/TINA-TI"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/TINA-TI_ENGLISH"
+        },
+        {
+          "label": "lock Download",
+          "href": "https://software-dl.ti.com/dsps/forms/self_cert_export.html?prod_no=Tina90-TIja.9.3.150.328.zip&ref_url=https://software-dl.ti.com/analog/TINA-TI"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/TINA-TI_JAPANESE"
+        },
+        {
+          "label": "lock Download",
+          "href": "https://software-dl.ti.com/dsps/forms/self_cert_export.html?prod_no=Tina90-TIru.9.3.150.328.zip&ref_url=https://software-dl.ti.com/analog/TINA-TI"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/TINA-TI_RUSSIAN"
+        },
+        {
+          "label": "lock Download",
+          "href": "https://software-dl.ti.com/dsps/forms/self_cert_export.html?prod_no=Tina90-TIzh.9.3.150.328.zip&ref_url=https://software-dl.ti.com/analog/TINA-TI"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/TINA-TI_SIMP_CHINESE"
+        },
+        {
+          "label": "lock Download",
+          "href": "https://software-dl.ti.com/dsps/forms/self_cert_export.html?prod_no=Tina90-TIzh.tra.9.3.150.328.zip&ref_url=https://software-dl.ti.com/analog/TINA-TI"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/TINA-TI_TRA_CHINESE"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/SLOC242"
+        },
+        {
+          "label": "download TINA-TI v.9.3 Japanese (zip) — 88049 K",
+          "href": "https://dr-download.ti.com/design-tools-simulation/simulation-tool/MD-1D8ewk4hzV/01.00.00.0C/sloc242c.zip"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/SLOC243"
+        },
+        {
+          "label": "download TINA-TI v.9.3 Russian (zip) — 88470 K",
+          "href": "https://dr-download.ti.com/design-tools-simulation/simulation-tool/MD-j9tAZa272w/01.00.00.0C/sloc243c.zip"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/SLOC244"
+        },
+        {
+          "label": "download TINA-TI v.9.3 Simplified Chinese (zip) — 88052 K",
+          "href": "https://dr-download.ti.com/design-tools-simulation/simulation-tool/MD-zujtZh9Lul/01.00.00.0C/sloc244c.zip"
+        },
+        {
+          "label": "THS4551",
+          "href": "/product/THS4551"
+        },
+        {
+          "label": "THS4552",
+          "href": "/product/THS4552"
+        },
+        {
+          "label": "ADS127L01",
+          "href": "/product/ADS127L01"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/SBOC461"
+        },
+        {
+          "label": "download TINA-TI ADS127L01 MFB Driver LG Test of Figure78 THS4551 (zip) — 66 K",
+          "href": "https://dr-download.ti.com/software-development/support-software/MD-GEnyA0k1ul/01.00.00.00/sboc461.zip"
+        },
+        {
+          "label": "THS4551",
+          "href": "/product/THS4551"
+        },
+        {
+          "label": "THS4552",
+          "href": "/product/THS4552"
+        },
+        {
+          "label": "ADS127L01",
+          "href": "/product/ADS127L01"
+        },
+        {
+          "label": "THS4551",
+          "href": "/product/THS4551"
+        },
+        {
+          "label": "THS4552",
+          "href": "/product/THS4552"
+        },
+        {
+          "label": "ADS127L01",
+          "href": "/product/ADS127L01"
+        },
+        {
+          "label": "open-in-new View all versions",
+          "href": "/tool/download/SBOC462"
+        },
+        {
+          "label": "download TINA-TI ADS127L01 MFB Driver of Figure78 THS4551 (zip) — 67 K",
+          "href": "https://dr-download.ti.com/software-development/support-software/MD-zQ5qlPmQxz/01.00.00.00/sboc462.zip"
+        },
+        {
+          "label": "THS4551",
+          "href": "/product/THS4551"
+        },
+        {
+          "label": "THS4552",
+          "href": "/product/THS4552"
+        },
+        {
+          "label": "ADS127L01",
+          "href": "/product/ADS127L01"
+        },
+        {
+          "label": "Designing signal chains for portable diagnostics",
+          "href": "https://www.ti.com/lit/pdf/SSZT075"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT075"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT075"
+        },
+        {
+          "label": "How to simulate complex analog power and signal-chain circuits with PSpice for TI",
+          "href": "https://www.ti.com/lit/pdf/SSZT255"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT255"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT255"
+        },
+        {
+          "label": "No lab access? Check out these tips and tools to keep your design on track",
+          "href": "https://www.ti.com/lit/pdf/SSZT312"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT312"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT312"
+        },
+        {
+          "label": "What is an op amp?",
+          "href": "https://www.ti.com/lit/pdf/SSZT348"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT348"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT348"
+        },
+        {
+          "label": "Taking the family-first approach to op amp selection",
+          "href": "https://www.ti.com/lit/pdf/SSZT397"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT397"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT397"
+        },
+        {
+          "label": "Design, optimize and simulate an active filter within minutes",
+          "href": "https://www.ti.com/lit/pdf/SSZT444"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT444"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT444"
+        },
+        {
+          "label": "How to add hysteresis to a DC/DC converter",
+          "href": "https://www.ti.com/lit/pdf/SSZT587"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT587"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT587"
+        },
+        {
+          "label": "Voltage and current sensing in HEV/EV applications",
+          "href": "https://www.ti.com/lit/pdf/SSZT876"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT876"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT876"
+        },
+        {
+          "label": "Inductor-free innovation: low EMI Class-D audio",
+          "href": "https://www.ti.com/lit/pdf/SSZT971"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZT971"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZT971"
+        },
+        {
+          "label": "What floats your boat? Exploring linear regulators in medical ultrasound",
+          "href": "https://www.ti.com/lit/pdf/SSZTA69"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTA69"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTA69"
+        },
+        {
+          "label": "3 ways to scale an analog input signal",
+          "href": "https://www.ti.com/lit/pdf/SSZTAW1"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTAW1"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTAW1"
+        },
+        {
+          "label": "What you need to know about transimpedance amplifiers – part 2",
+          "href": "https://www.ti.com/lit/pdf/SSZTAY1"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTAY1"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTAY1"
+        },
+        {
+          "label": "How to use a fully differential amplifier as a level shifter",
+          "href": "https://www.ti.com/lit/pdf/SSZTB43"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTB43"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTB43"
+        },
+        {
+          "label": "What you need to know about transimpedance amplifiers – part 1",
+          "href": "https://www.ti.com/lit/pdf/SSZTBC4"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTBC4"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTBC4"
+        },
+        {
+          "label": "How to detect insulation failures in electrical equipment – part 1",
+          "href": "https://www.ti.com/lit/pdf/SSZTBE5"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTBE5"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTBE5"
+        },
+        {
+          "label": "SPICE it up: How to extract the input capacitance of an op amp (part 3)",
+          "href": "https://www.ti.com/lit/pdf/SSZTBI1"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTBI1"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTBI1"
+        },
+        {
+          "label": "Generating bias current networks with arbitrary magnitudes - Part two",
+          "href": "https://www.ti.com/lit/pdf/SSZTBO9"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTBO9"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTBO9"
+        },
+        {
+          "label": "GaN to the rescue! Part 2: Measurements",
+          "href": "https://www.ti.com/lit/pdf/SSZTBQ8"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTBQ8"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTBQ8"
+        },
+        {
+          "label": "Simulating electromagnetic interference – is it possible?",
+          "href": "https://www.ti.com/lit/pdf/SSZTBV5"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTBV5"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTBV5"
+        },
+        {
+          "label": "GaN to the rescue! Part 1: Body-diode reverse recovery",
+          "href": "https://www.ti.com/lit/pdf/SSZTC00"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTC00"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTC00"
+        },
+        {
+          "label": "The secret life of MOSFET/IGBT gate drivers",
+          "href": "https://www.ti.com/lit/pdf/SSZTC70"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTC70"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTC70"
+        },
+        {
+          "label": "New advanced WEBENCH® tools empower the expert power supply designer",
+          "href": "https://www.ti.com/lit/pdf/SSZTCG2"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTCG2"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTCG2"
+        },
+        {
+          "label": "Power up with SIMPLE SWITCHER® products and new WEBENCH® tools",
+          "href": "https://www.ti.com/lit/pdf/SSZTCI6"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTCI6"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTCI6"
+        },
+        {
+          "label": "How to optimize differential amplifier noise",
+          "href": "https://www.ti.com/lit/pdf/SSZTCI7"
+        },
+        {
+          "label": "PDF",
+          "href": "https://www.ti.com/lit/pdf/SSZTCI7"
+        },
+        {
+          "label": "HTML",
+          "href": "https://www.ti.com/document-viewer/lit/html/SSZTCI7"
+        },
+        {
+          "label": "Importing a SPICE NetList into TINA9-TI",
+          "href": "https://www.ti.com/lit/pdf/SLVA527"
+        },
+        {
+          "label": "Getting Started with TINA-TI: A Quick Start Guide (Rev. A)",
+          "href": "https://www.ti.com/lit/pdf/SBOU052"
+        },
+        {
+          "label": "View all forum topics",
+          "href": "https://e2e.ti.com/search?category=forum&q=TINA-TI"
+        },
+        {
+          "label": "terms of use",
+          "href": "/legal/terms-of-use.html"
+        },
+        {
+          "label": "TI support",
+          "href": "/guidedsupport/call-ti-support/#popularlinks"
+        },
+        {
+          "label": "View all videos",
+          "href": "/sitesearch/en-us/docs/universalsearch.tsp?langPref=en-us&searchTerm=Operational amplifiers (op amps)#f-videos=Video,Video%20series"
+        }
+      ],
+      "format": "official HTML extracted text; not a device model",
+      "snapshot": "source_snapshots/tina_page.txt",
+      "snapshot_sha256": "fd064dff0389da929b440922ff0acedb92ed56f84a28991dc580a2c465609adf",
+      "result": "retrieved"
+    },
+    {
+      "id": "rf_tool",
+      "url": "https://www.analog.com/en/lp/resources/adisimrf.html",
+      "retrieved_utc": "2026-11-17T16:29:44.049797+00:00",
+      "status": 200,
+      "final_url": "https://www.analog.com/en/lp/resources/adisimrf.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 29282,
+      "raw_sha256": "07ad9335b92fbc64b9a71ad05094a2c4b01f2744ab0cae5eb1015338a0825ff3",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\rf_tool.html",
+      "links": [
+        {
+          "label": "Home",
+          "href": "https://www.analog.com/en/index.html"
+        },
+        {
+          "label": "Back to Home",
+          "href": "https://www.analog.com/en/index.html"
+        },
+        {
+          "label": "Download ADIsimRF",
+          "href": "https://adisimrf.download.analog.com/ADISimRF/publish.htm"
+        },
+        {
+          "label": "visit the ADIsimRF video series page",
+          "href": "/en/resources/media-center/videos/series/adisimrf-video-series.html"
+        }
+      ],
+      "format": "official HTML extracted text; not a device model",
+      "snapshot": "source_snapshots/rf_tool.txt",
+      "snapshot_sha256": "0dd641474cecce573fc033a22164fc6818a95f22e04c895a1afb160231b6427d",
+      "result": "retrieved"
+    },
+    {
+      "id": "cmp_pspice_zip",
+      "url": "https://www.ti.com/lit/zip/SBOMBU5",
+      "retrieved_utc": "2026-11-17T16:29:45.254680+00:00",
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/mo/sbombu5/sbombu5.zip?ts=1794857278567",
+      "content_type": "application/zip",
+      "bytes": 94923,
+      "raw_sha256": "3f61b6eae05a5a734ee195160bfcc637fdd75a06c898f8fad15ca26a9b5d8e1e",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\cmp_pspice_zip.zip",
+      "entries": [
+        {
+          "name": "library/tlv3501.olb",
+          "bytes": 53248,
+          "sha256": "128969ea52fe84a0bee34afe5c195587c9bc3d780b3a8781e787ce3a5db87d90",
+          "header_hex": "d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff0900"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/schematic1.net",
+          "bytes": 338,
+          "sha256": "49093aa0632810caaab30a46db4102a82c1b8de1e45fbc41d77122f67b918588",
+          "header_hex": "2a20736f7572636520544c56333530310d0a2e45585445524e414c20494e5055"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.1OP",
+          "bytes": 2292,
+          "sha256": "5dcc93b198aeee1d6cb1f606612e93b72dc8e3106cb32af9ea204592c2c4345f",
+          "header_hex": "50000000d245ff6065000000006e03494e2d666666666666fa3f6e02562b6666"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.cir",
+          "bytes": 633,
+          "sha256": "76341de2219754aa384da0d32a2c11de98026195ec3662cd33deee812079800c",
+          "header_hex": "2a2a2050726f66696c653a2022534348454d41544943312d544c56333530315f",
+          "text_readable": true,
+          "subckt_lines": []
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.dat",
+          "bytes": 156344,
+          "sha256": "96c9f43f27bcfebc965a881fb29c93d5d05f4b86d47cbb34711ca6c777dc4755",
+          "header_hex": "fffffffffffffffa000000004000000001000000000000000000000000000000"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.mif",
+          "bytes": 1635,
+          "sha256": "9284c59a9357bc497ea49addda3b531a11472cfd82346412fbd63bb88b8d3502",
+          "header_hex": "206c69623d433a5c4d6f64656c696e675c544c56333530315c5053504943455c"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.mrk",
+          "bytes": 319,
+          "sha256": "73c779bcbf51aae70aab70e6de954dafb2a918f83829e41b982bc31b1644749b",
+          "header_hex": "070000000000000000000000030000000400000004000000010100009242ff60"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.out",
+          "bytes": 7584,
+          "sha256": "6f048bb038c12136662b494946e4ce6deb5c6deeac0cc1848154378ca99c02e1",
+          "header_hex": "0c0d0a2a2a2a2a2030372f32362f32312031363a33313a3330202a2a2a2a2a2a"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.out.1",
+          "bytes": 1297,
+          "sha256": "c247814bf9318d24446f9d5c3773c0ccfbe23cc1cb03bffe2f2dd31aea79ef50",
+          "header_hex": "0d0a2a2a2a2a2030372f32362f32312031363a32383a3531202a2a2a2a2a2a2a"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/TLV3501_SIM/TLV3501_SIM.prb",
+          "bytes": 1093,
+          "sha256": "c70561a0f7b2f51b328117a78d84c177410450239cef39129d73295c72350e7f",
+          "header_hex": "5b444953504c4159535d0d0a424547494e20444953504c4159204c4153542053"
+        },
+        {
+          "name": "TLV3501-PSpiceFiles/SCHEMATIC1/tlv3501_sim.sim",
+          "bytes": 1860,
+          "sha256": "88f1409636a606b39bdb53b34e7bd2b4d34d8dd83ae0efccfc5da700609b5303",
+          "header_hex": "404f724341442053696d756c6174696f6e205365727665722056657273696f6e"
+        },
+        {
+          "name": "tlv3501.dsn",
+          "bytes": 31744,
+          "sha256": "03f2bd1af9e45bec2e4c956ce28a7ebed057dc649115745e6459764dd1ab547a",
+          "header_hex": "d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff0900"
+        },
+        {
+          "name": "tlv3501.lib",
+          "bytes": 12363,
+          "sha256": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+          "header_hex": "2a20544c56333530310d0a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a",
+          "text_readable": true,
+          "subckt_lines": [
+            ".SUBCKT TLV3501 IN+ IN- SHDN V+ V- OUT  ",
+            ".SUBCKT Input_Buffer IN+ IN+_BUFF IN- IN-_BUFF  ",
+            ".SUBCKT Supply_Enable EN POR V+_BUFFER V-_BUFFER  ",
+            ".SUBCKT Supply_Buffer V+ V+_BUFFER V- V-_BUFFER  ",
+            ".SUBCKT Output_Stage EN IN_RANGE POR SHDN_CTRL V+ V+_BUFFER V- V-_BUFFER VIN",
+            ".SUBCKT INPUTRANGE INN INP INRANGE V+_BUFFER V-_BUFFER  ",
+            ".SUBCKT Prop_Delay VIN VOUT  ",
+            ".subckt Top_Level_S1 1 2 3 4  ",
+            ".subckt Top_Level_S2 1 2 3 4  ",
+            ".subckt Output_Stage_SMID 1 2 3 4  ",
+            ".subckt Output_Stage_SHIZ 1 2 3 4  ",
+            ".subckt Output_Stage_SVOH 1 2 3 4  ",
+            ".subckt Output_Stage_SVOL 1 2 3 4  ",
+            ".SUBCKT ANDGATE 1 2 3 VDD VSS",
+            ".SUBCKT HPA_COMPHYS INP INN OUT_OUT VDD VSS VHYS",
+            ".SUBCKT DIGLEVSHIFT 1 2 VDD_OLD VSS_OLD VDD_NEW VSS_NEW",
+            ".SUBCKT ENABLE_LOGIC 1 2 OUT VDD VSS ",
+            ".SUBCKT ENABLE_TLV7021 1 2 3 OUT VDD VSS ",
+            ".SUBCKT INNNEWPOR 1 2 3 OUT VDD VSS ",
+            ".SUBCKT INPNEWPOR 1 2 3 OUT VDD VSS ",
+            ".SUBCKT VIN_INV 1 2 VDD VSS",
+            ".SUBCKT INVERTER 1 2 VDD VSS",
+            ".SUBCKT MID_SUPPLY OUT VDD VSS",
+            ".SUBCKT ORGATE 1 2 3 VDD VSS",
+            ".SUBCKT NOR_GATE 1 2 OUT VDD VSS",
+            ".SUBCKT ORGATE1701 1 2 3 4 OUT VDD VSS",
+            ".SUBCKT PORCHECK 1 2 OUT VDD VSS ",
+            ".SUBCKT Difference 1 2 OUT VDD VSS ",
+            ".SUBCKT SUPPLY_BUFFER1 1 2 VDD_NEW VSS_NEW ",
+            ".SUBCKT VCC_Range 1 2 OUT VDD VSS ",
+            ".SUBCKT VINRANGE_393 1 2 OUT VDD VSS ",
+            ".subckt SHUTDOWNCURRENT SHUTDOWN 2 3 OUT VDD VSS",
+            ".subckt SHUTDOWNOUTPUT DISABLE ENABLE SHUTDOWN  VSS OUT",
+            ".SUBCKT NORGATE 1 2 OUT VDD VSS",
+            ".SUBCKT LE_HYST LEHYST V- V-_BUF V+_BUF LATCH_OUT HYST_OUT",
+            ".SUBCKT IS_SET VCC VEE DISABLE VIEN VIDIS PBAD",
+            ".SUBCKT 4ORGATE 1 2 3 4 5 VDD VSS"
+          ]
+        },
+        {
+          "name": "tlv3501.libsig",
+          "bytes": 813,
+          "sha256": "e6a6d8fcceb71fde18c6804d20d6ee123bb05476fcdfd76de14ac380c339916c",
+          "header_hex": "7b227369676e6174757265223a22314334333136463239433030333933453139"
+        },
+        {
+          "name": "tlv3501.opj",
+          "bytes": 2278,
+          "sha256": "b1c80e1b79754e03239e089c315d2bd58e25248d45de8f56ffc1e2b6f2dfd2c3",
+          "header_hex": "284578707265737350726f6a6563742022544c5633353031220d0a2020285072"
+        }
+      ],
+      "format": "ZIP inventory only; no proprietary model conversion",
+      "snapshot": "source_snapshots/cmp_pspice_zip.txt",
+      "snapshot_sha256": "0d41dca387d8b39a610c8013c43b05bec2ce7675fc1a6adf222086b89fe442b8",
+      "result": "retrieved"
+    },
+    {
+      "id": "cmp_tina_zip",
+      "url": "https://www.ti.com/lit/zip/SBOMBU6",
+      "retrieved_utc": "2026-11-17T16:29:46.462093+00:00",
+      "status": 200,
+      "final_url": "https://www.ti.com/lit/mo/sbombu6/sbombu6.zip?ts=1794932992689",
+      "content_type": "application/zip",
+      "bytes": 10533,
+      "raw_sha256": "7f1eae2c140c1341dd2f9dbbcf267d9895009d32cb37653103669b275e40df21",
+      "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\cmp_tina_zip.zip",
+      "entries": [
+        {
+          "name": "Design/TLV3501.TSC",
+          "bytes": 19389,
+          "sha256": "807234c590c5f738015342014ccfc444f8f23178788549d5f9c442f4d7bdf112",
+          "header_hex": "4f4253531a01000000000002000000be00000014436972637569742044657363"
+        },
+        {
+          "name": "Macro/TLV3501.TSM",
+          "bytes": 14840,
+          "sha256": "196c338aaae3e57118b2eb367a32180d78b7d4cdb5ba6dee707b9d8909c25ebc",
+          "header_hex": "4f4253531a010000000000020000006b0000000c5370696365204d6163726f00"
+        }
+      ],
+      "format": "ZIP inventory only; no proprietary model conversion",
+      "snapshot": "source_snapshots/cmp_tina_zip.txt",
+      "snapshot_sha256": "102a5f74b9b7d3918862ed24cfed9093243944ed6ea2d64f23cd8f9bffa17f9b",
+      "result": "retrieved"
+    }
+  ]
+}

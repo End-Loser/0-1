@@ -1,0 +1,118 @@
+{
+  "case": "combined_candidate_crosscheck_center_triples_50ns_100ps_gear",
+  "profile": "combined",
+  "scope": "candidate_crosscheck",
+  "tag": "center_triples",
+  "errors": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "period_ns": 50,
+  "sequence": "triples",
+  "mode": "constant",
+  "dt_ps": 100,
+  "method": "gear",
+  "fingerprint": "3c546e4f7e83e223d224a63cec97058f856c2503fd796003aadeefbd9c17fbf1",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2.57e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2.57e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2.57e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2.57e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2.57e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2.57e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2.57e-05,
+        0
+      ]
+    ]
+  ],
+  "raw_points": 345905,
+  "unique_points": 345905,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 514,
+  "decisions": 1028,
+  "passed": 1028,
+  "sample_passed": 1028,
+  "minimum_late_margin_V": 0.7240405215477548,
+  "worst_slot": {
+    "slot": 342,
+    "state": "010",
+    "channel": "sum",
+    "margin_V": 0.7240405215477548
+  },
+  "first_bad": null,
+  "max_settling_ns": 33.286368566115165,
+  "unsettled": 0,
+  "energy_J": 7.491916213736879e-08,
+  "power_W": 0.0029151424956174623,
+  "energy_per_slot_J": 1.4575712478087312e-10,
+  "warning": false
+}

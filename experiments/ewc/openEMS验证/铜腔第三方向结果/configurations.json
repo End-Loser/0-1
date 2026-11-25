@@ -1,0 +1,30 @@
+[
+  {
+    "shape": [
+      24,
+      15,
+      9
+    ],
+    "mode": [
+      1,
+      2,
+      0
+    ],
+    "terms": 64,
+    "frequency_Q_relative_limit": 0.01
+  },
+  {
+    "shape": [
+      36,
+      23,
+      14
+    ],
+    "mode": [
+      1,
+      2,
+      0
+    ],
+    "terms": 64,
+    "frequency_Q_relative_limit": 0.01
+  }
+]

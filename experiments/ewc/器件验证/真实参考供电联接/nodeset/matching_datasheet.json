@@ -1,0 +1,17 @@
+{
+  "source": {
+    "id": "buffer_q1_datasheet",
+    "url": "https://www.ti.com/lit/gpn/opa320-q1",
+    "models_accepted": false,
+    "status": 200,
+    "final_url": "https://www.ti.com/lit/ds/symlink/opa320-q1.pdf?ts=1794937599131",
+    "content_type": "application/pdf",
+    "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-buffer-q1-sheet-frxwuysf\\buffer_q1_datasheet.raw",
+    "sha256": "8fc7020cde545578da1a192d4bc7878ecaf21670f458987e6b58a82ba4a7aab3",
+    "bytes": 1058217,
+    "official_lit_links": []
+  },
+  "reason": "downloaded model is OPAx320-Q1, not commercial OPA320",
+  "model_to_commercial_substitution_accepted": false,
+  "collector_sha256": "0433c3ab57a345ce31e54a66ce9e22668d884590ac58ceb3230de577e0094319"
+}

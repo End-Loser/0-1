@@ -1,0 +1,68 @@
+{
+  "scope": "full six-wall copper 120 mode, third electric orientation; frequency only",
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode": [
+        1,
+        2,
+        0
+      ],
+      "file": "copper_24x15x9_120.npz",
+      "sha256": "9dddc74c485d0c8ecfdaeefabe43964004a130bff77abf8bbf8e97695e671a91",
+      "frequency_solves": 6,
+      "frequency_Hz": 3119766024.751726,
+      "Q_pole": 24131.889176263616,
+      "Q_energy": 24132.129620421707,
+      "Q_error": 0.019307396205465954,
+      "frequency_error": 0.006728112293118427,
+      "Q_1percent_pass": false,
+      "frequency_1percent_pass": true,
+      "five_vs_three_Q": 6.586376999351273e-10,
+      "inverse_fit_residual": 2.3608536569083783e-05,
+      "elapsed_s": 26.894209300051443
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        1,
+        2,
+        0
+      ],
+      "file": "copper_36x23x14_120.npz",
+      "sha256": "a076d2084c31b85098d582bdd40522ed1b77feeccb910aeab177edade0bc51d8",
+      "frequency_solves": 6,
+      "frequency_Hz": 3131855620.5667987,
+      "Q_pole": 23869.141079092667,
+      "Q_energy": 23869.38707203615,
+      "Q_error": 0.00820917356615869,
+      "frequency_error": 0.002879023751997556,
+      "Q_1percent_pass": true,
+      "frequency_1percent_pass": true,
+      "five_vs_three_Q": 5.989605478262661e-10,
+      "inverse_fit_residual": 2.358089251894914e-05,
+      "elapsed_s": 353.6366368000163
+    }
+  ],
+  "frequency_solves": 12,
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "configuration_sha256": "8eb585dcceb20e3592dca3ef6263b9f59611098c895094a2fd3d0a07d9ebfc83",
+  "source_sha256": {
+    "run_copper_orientation.py": "bb1a423f845556b36844be87e081c97afe3b58aa6ea587b47794e6625136e6bb",
+    "run_copper_q_refinement.py": "463f85d17b76ebb7b2a6601b50761f9013c239dd6d290b4096433748d291602f",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "fine_grid_long_transient_passed": false,
+  "arbitrary_modes_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false
+}

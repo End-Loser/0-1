@@ -1,0 +1,66 @@
+[
+  {
+    "mutation": "sample",
+    "rehashed": true,
+    "rejected": true,
+    "execution": {
+      "command": [
+        "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-B",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\结果"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 157, in <module>\n    print(json.dumps(verify(sys.argv[1] if len(sys.argv) > 1\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 148, in verify\n    raise ValueError(\"scenario: \"+case[\"name\"])\nValueError: scenario: startup_single_max\n"
+    }
+  },
+  {
+    "mutation": "false_hardware_pass",
+    "rehashed": true,
+    "rejected": true,
+    "execution": {
+      "command": [
+        "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-B",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\结果"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 157, in <module>\n    print(json.dumps(verify(sys.argv[1] if len(sys.argv) > 1\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 122, in verify\n    raise ValueError(\"coverage_or_false_claim\")\nValueError: coverage_or_false_claim\n"
+    }
+  },
+  {
+    "mutation": "accept_rejected",
+    "rehashed": true,
+    "rejected": true,
+    "execution": {
+      "command": [
+        "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-B",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\结果"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 157, in <module>\n    print(json.dumps(verify(sys.argv[1] if len(sys.argv) > 1\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 148, in verify\n    raise ValueError(\"scenario: \"+case[\"name\"])\nValueError: scenario: startup_not_confirmed\n"
+    }
+  },
+  {
+    "mutation": "unrehashed_bytes",
+    "rehashed": false,
+    "rejected": true,
+    "execution": {
+      "command": [
+        "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-B",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py",
+        "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\结果"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 157, in <module>\n    print(json.dumps(verify(sys.argv[1] if len(sys.argv) > 1\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py\", line 109, in verify\n    raise ValueError(\"hash: \"+name)\nValueError: hash: 结果/evidence.json\n"
+    }
+  }
+]

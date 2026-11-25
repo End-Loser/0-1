@@ -1,0 +1,33 @@
+来源编号：S1
+URL：https://www.amphenolrf.com/132139.html
+读取日期：2026-11-18
+获取方式：WebFetch 返回的网页文本，以下为选取的规格及模型链接摘录。
+不是原始HTML，不以本文件哈希冒充厂家原始文件哈希。
+直接HTTP下载结果：403；响应体另存TEMP，见collection.json。
+
+标题：SMA Straight Jack Solder Cup Bulkhead 50 Ohm
+型号：132139
+Part Status: Active
+Body Finish: Gold
+Body Material: Brass
+Contact Finish: Gold
+Contact Material: Beryllium Copper
+Frequency (Max GHz): 12.4
+Impedance (Ohms): 50
+Insulator Material: PTFE
+Panel Mounting Feature: Bulkhead - Rear Mount
+Termination Style: Solder Cup
+Non Magnetic: Contains Magnetic Materials
+Temp (Min Degrees Celsius): -65
+Temp (Max Degrees Celsius): 165
+Mating Cycles (Min): 500
+
+All Related Documents
+Locked items require an Amphenol RF account
+132139 STP 3D Model: https://www.amphenolrf.com/en-us/assets/file/4073936905/
+网页发布日期：3/31/2026
+132139 PDF Customer Drawing: https://www.amphenolrf.com/en-us/assets/file/4065786252/
+网页发布日期：5/7/2026
+
+核查注：132139 STEP链接只作为本页发布信息记录，未访问或下载，不算第六个已核查资源。
+规格摘录没有内部导体截面、PTFE频率相关复介电参数、镀层厚度或端口参考面。

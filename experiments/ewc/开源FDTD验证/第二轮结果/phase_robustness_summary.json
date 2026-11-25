@@ -1,0 +1,1283 @@
+{
+  "solver": "flaport/fdtd 0.3.5",
+  "scope": "2D TMz linear model",
+  "phase_control": "B=0 degrees for add, B=180 degrees for subtract",
+  "operator_receiver_and_phase_switch": "Ideal commanded phase; control hardware not simulated.",
+  "decoder": "Fixed nominal matched projection and operation-specific fixed offset; no operands.",
+  "new_direct_fdtd_runs": 394,
+  "direct_subtraction_cases": 256,
+  "direct_subtraction_correct": 256,
+  "direct_subtraction_max_error": 9.547918011776346e-15,
+  "robustness_configurations": 34,
+  "basis_reconstructed_cases": 17408,
+  "direct_robustness_spots": 36,
+  "max_spot_reconstruction_error": 1.676583302047207e-14,
+  "parameters": [
+    {
+      "name": "nominal",
+      "kind": "nominal",
+      "value": 0,
+      "parameters": {}
+    },
+    {
+      "name": "phase_B_-20_deg",
+      "kind": "phase_B_degrees",
+      "value": -20,
+      "parameters": {
+        "phases": [
+          0,
+          -0.3490658503988659,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_-10_deg",
+      "kind": "phase_B_degrees",
+      "value": -10,
+      "parameters": {
+        "phases": [
+          0,
+          -0.17453292519943295,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_-5_deg",
+      "kind": "phase_B_degrees",
+      "value": -5,
+      "parameters": {
+        "phases": [
+          0,
+          -0.08726646259971647,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_-3_deg",
+      "kind": "phase_B_degrees",
+      "value": -3,
+      "parameters": {
+        "phases": [
+          0,
+          -0.05235987755982989,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_-1_deg",
+      "kind": "phase_B_degrees",
+      "value": -1,
+      "parameters": {
+        "phases": [
+          0,
+          -0.017453292519943295,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_1_deg",
+      "kind": "phase_B_degrees",
+      "value": 1,
+      "parameters": {
+        "phases": [
+          0,
+          0.017453292519943295,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_3_deg",
+      "kind": "phase_B_degrees",
+      "value": 3,
+      "parameters": {
+        "phases": [
+          0,
+          0.05235987755982989,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_5_deg",
+      "kind": "phase_B_degrees",
+      "value": 5,
+      "parameters": {
+        "phases": [
+          0,
+          0.08726646259971647,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_10_deg",
+      "kind": "phase_B_degrees",
+      "value": 10,
+      "parameters": {
+        "phases": [
+          0,
+          0.17453292519943295,
+          0
+        ]
+      }
+    },
+    {
+      "name": "phase_B_20_deg",
+      "kind": "phase_B_degrees",
+      "value": 20,
+      "parameters": {
+        "phases": [
+          0,
+          0.3490658503988659,
+          0
+        ]
+      }
+    },
+    {
+      "name": "gain_B_-5_percent",
+      "kind": "gain_B_percent",
+      "value": -5,
+      "parameters": {
+        "source_gains": [
+          1,
+          0.95,
+          1
+        ]
+      }
+    },
+    {
+      "name": "gain_B_-3_percent",
+      "kind": "gain_B_percent",
+      "value": -3,
+      "parameters": {
+        "source_gains": [
+          1,
+          0.97,
+          1
+        ]
+      }
+    },
+    {
+      "name": "gain_B_-1_percent",
+      "kind": "gain_B_percent",
+      "value": -1,
+      "parameters": {
+        "source_gains": [
+          1,
+          0.99,
+          1
+        ]
+      }
+    },
+    {
+      "name": "gain_B_1_percent",
+      "kind": "gain_B_percent",
+      "value": 1,
+      "parameters": {
+        "source_gains": [
+          1,
+          1.01,
+          1
+        ]
+      }
+    },
+    {
+      "name": "gain_B_3_percent",
+      "kind": "gain_B_percent",
+      "value": 3,
+      "parameters": {
+        "source_gains": [
+          1,
+          1.03,
+          1
+        ]
+      }
+    },
+    {
+      "name": "gain_B_5_percent",
+      "kind": "gain_B_percent",
+      "value": 5,
+      "parameters": {
+        "source_gains": [
+          1,
+          1.05,
+          1
+        ]
+      }
+    },
+    {
+      "name": "epsilon_-5_percent",
+      "kind": "epsilon_percent",
+      "value": -5,
+      "parameters": {
+        "epsilon_r": 1.9949999999999999
+      }
+    },
+    {
+      "name": "epsilon_-3_percent",
+      "kind": "epsilon_percent",
+      "value": -3,
+      "parameters": {
+        "epsilon_r": 2.037
+      }
+    },
+    {
+      "name": "epsilon_-1_percent",
+      "kind": "epsilon_percent",
+      "value": -1,
+      "parameters": {
+        "epsilon_r": 2.079
+      }
+    },
+    {
+      "name": "epsilon_-0.1_percent",
+      "kind": "epsilon_percent",
+      "value": -0.1,
+      "parameters": {
+        "epsilon_r": 2.0979
+      }
+    },
+    {
+      "name": "epsilon_0.1_percent",
+      "kind": "epsilon_percent",
+      "value": 0.1,
+      "parameters": {
+        "epsilon_r": 2.1021
+      }
+    },
+    {
+      "name": "epsilon_1_percent",
+      "kind": "epsilon_percent",
+      "value": 1,
+      "parameters": {
+        "epsilon_r": 2.121
+      }
+    },
+    {
+      "name": "epsilon_3_percent",
+      "kind": "epsilon_percent",
+      "value": 3,
+      "parameters": {
+        "epsilon_r": 2.1630000000000003
+      }
+    },
+    {
+      "name": "epsilon_5_percent",
+      "kind": "epsilon_percent",
+      "value": 5,
+      "parameters": {
+        "epsilon_r": 2.205
+      }
+    },
+    {
+      "name": "conductivity_0.0002_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.0002,
+      "parameters": {
+        "conductivity": 0.0002
+      }
+    },
+    {
+      "name": "conductivity_0.002_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.002,
+      "parameters": {
+        "conductivity": 0.002
+      }
+    },
+    {
+      "name": "conductivity_0.02_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.02,
+      "parameters": {
+        "conductivity": 0.02
+      }
+    },
+    {
+      "name": "source_B_dx_-5_mm",
+      "kind": "source_B_dx_mm",
+      "value": -5,
+      "parameters": {
+        "positions": [
+          [
+            40,
+            50
+          ],
+          [
+            115,
+            50
+          ],
+          [
+            80,
+            25
+          ]
+        ]
+      }
+    },
+    {
+      "name": "source_B_dx_5_mm",
+      "kind": "source_B_dx_mm",
+      "value": 5,
+      "parameters": {
+        "positions": [
+          [
+            40,
+            50
+          ],
+          [
+            125,
+            50
+          ],
+          [
+            80,
+            25
+          ]
+        ]
+      }
+    },
+    {
+      "name": "receiver_dx_-5_mm",
+      "kind": "receiver_dx_mm",
+      "value": -5,
+      "parameters": {
+        "receiver_mm": [
+          75,
+          75
+        ]
+      }
+    },
+    {
+      "name": "receiver_dx_5_mm",
+      "kind": "receiver_dx_mm",
+      "value": 5,
+      "parameters": {
+        "receiver_mm": [
+          85,
+          75
+        ]
+      }
+    },
+    {
+      "name": "receiver_dy_-5_mm",
+      "kind": "receiver_dy_mm",
+      "value": -5,
+      "parameters": {
+        "receiver_mm": [
+          80,
+          70
+        ]
+      }
+    },
+    {
+      "name": "receiver_dy_5_mm",
+      "kind": "receiver_dy_mm",
+      "value": 5,
+      "parameters": {
+        "receiver_mm": [
+          80,
+          80
+        ]
+      }
+    }
+  ],
+  "results": [
+    {
+      "configuration": "nominal",
+      "kind": "nominal",
+      "value": 0,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 3.552713678800501e-15,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.0,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "nominal",
+      "kind": "nominal",
+      "value": 0,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 3.552713678800501e-15,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.0,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-20_deg",
+      "kind": "phase_B_degrees",
+      "value": -20,
+      "operation": "add",
+      "cases": 256,
+      "passed": 128,
+      "accuracy": 0.5,
+      "max_absolute_error": 0.9841621480735014,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9343891901284334,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-20_deg",
+      "kind": "phase_B_degrees",
+      "value": -20,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 128,
+      "accuracy": 0.5,
+      "max_absolute_error": 0.9841621480734997,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9343891901284334,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-10_deg",
+      "kind": "phase_B_degrees",
+      "value": -10,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.26827303949607284,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.982115130700262,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-10_deg",
+      "kind": "phase_B_degrees",
+      "value": -10,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.2682730394960706,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.982115130700262,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-5_deg",
+      "kind": "phase_B_degrees",
+      "value": -5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.07735133631189939,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9948432442458734,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-5_deg",
+      "kind": "phase_B_degrees",
+      "value": -5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.07735133631189761,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9948432442458734,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-3_deg",
+      "kind": "phase_B_degrees",
+      "value": -3,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.03272995095703024,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9978180032695317,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-3_deg",
+      "kind": "phase_B_degrees",
+      "value": -3,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.03272995095702669,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9978180032695317,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-1_deg",
+      "kind": "phase_B_degrees",
+      "value": -1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.006343878625678201,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9995770747582884,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_-1_deg",
+      "kind": "phase_B_degrees",
+      "value": -1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.006343878625676425,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9995770747582884,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_1_deg",
+      "kind": "phase_B_degrees",
+      "value": 1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.0017747333174185087,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.0001183155544942,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_1_deg",
+      "kind": "phase_B_degrees",
+      "value": 1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.0017747333174131796,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.0001183155544942,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_3_deg",
+      "kind": "phase_B_degrees",
+      "value": 3,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.008384006405762534,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9994410662396161,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_3_deg",
+      "kind": "phase_B_degrees",
+      "value": 3,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.008384006405758537,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9994410662396161,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_5_deg",
+      "kind": "phase_B_degrees",
+      "value": 5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.036807720935737365,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9975461519376178,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_5_deg",
+      "kind": "phase_B_degrees",
+      "value": 5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.03680772093573914,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9975461519376178,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_10_deg",
+      "kind": "phase_B_degrees",
+      "value": 10,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.18749437013769565,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9875003753241539,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_10_deg",
+      "kind": "phase_B_degrees",
+      "value": 10,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.18749437013769388,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9875003753241539,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_20_deg",
+      "kind": "phase_B_degrees",
+      "value": 20,
+      "operation": "add",
+      "cases": 256,
+      "passed": 160,
+      "accuracy": 0.625,
+      "max_absolute_error": 0.8250592283492537,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9449960514433833,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "phase_B_20_deg",
+      "kind": "phase_B_degrees",
+      "value": 20,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 160,
+      "accuracy": 0.625,
+      "max_absolute_error": 0.8250592283492519,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9449960514433833,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_-5_percent",
+      "kind": "gain_B_percent",
+      "value": -5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 166,
+      "accuracy": 0.6484375,
+      "max_absolute_error": 0.7500000000000036,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9500000000000001,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_-5_percent",
+      "kind": "gain_B_percent",
+      "value": -5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 161,
+      "accuracy": 0.62890625,
+      "max_absolute_error": 0.7500000000000018,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9500000000000001,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_-3_percent",
+      "kind": "gain_B_percent",
+      "value": -3,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.4499999999999993,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9700000000000001,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_-3_percent",
+      "kind": "gain_B_percent",
+      "value": -3,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.45000000000000107,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.9700000000000001,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_-1_percent",
+      "kind": "gain_B_percent",
+      "value": -1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.15000000000000568,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.99,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_-1_percent",
+      "kind": "gain_B_percent",
+      "value": -1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.15000000000000036,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.99,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_1_percent",
+      "kind": "gain_B_percent",
+      "value": 1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.15000000000000924,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.0100000000000002,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_1_percent",
+      "kind": "gain_B_percent",
+      "value": 1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.1500000000000039,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.0100000000000002,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_3_percent",
+      "kind": "gain_B_percent",
+      "value": 3,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.4500000000000064,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.03,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_3_percent",
+      "kind": "gain_B_percent",
+      "value": 3,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.4500000000000046,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.03,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_5_percent",
+      "kind": "gain_B_percent",
+      "value": 5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 167,
+      "accuracy": 0.65234375,
+      "max_absolute_error": 0.7500000000000036,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.05,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "gain_B_5_percent",
+      "kind": "gain_B_percent",
+      "value": 5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 171,
+      "accuracy": 0.66796875,
+      "max_absolute_error": 0.7500000000000027,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.05,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "epsilon_-5_percent",
+      "kind": "epsilon_percent",
+      "value": -5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 5.0316004200611175,
+      "response_gain_A": 1.1094171328957008,
+      "response_gain_B": 1.1094171328957008,
+      "operator_residual_bias_result_units": 1.749086433190085
+    },
+    {
+      "configuration": "epsilon_-5_percent",
+      "kind": "epsilon_percent",
+      "value": -5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 5.139429859815682,
+      "response_gain_A": 1.1094171328957008,
+      "response_gain_B": 1.1094171328957008,
+      "operator_residual_bias_result_units": 3.49817286638017
+    },
+    {
+      "configuration": "epsilon_-3_percent",
+      "kind": "epsilon_percent",
+      "value": -3,
+      "operation": "add",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 3.3344793850841796,
+      "response_gain_A": 1.0717912236872065,
+      "response_gain_B": 1.0717912236872065,
+      "operator_residual_bias_result_units": 1.1807426744679745
+    },
+    {
+      "configuration": "epsilon_-3_percent",
+      "kind": "epsilon_percent",
+      "value": -3,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 3.438353704244051,
+      "response_gain_A": 1.0717912236872065,
+      "response_gain_B": 1.0717912236872065,
+      "operator_residual_bias_result_units": 2.361485348935949
+    },
+    {
+      "configuration": "epsilon_-1_percent",
+      "kind": "epsilon_percent",
+      "value": -1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 6,
+      "accuracy": 0.0234375,
+      "max_absolute_error": 1.2060525763329828,
+      "response_gain_A": 1.0257915736961385,
+      "response_gain_B": 1.0257915736961385,
+      "operator_residual_bias_result_units": 0.4323053654488213
+    },
+    {
+      "configuration": "epsilon_-1_percent",
+      "kind": "epsilon_percent",
+      "value": -1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 1,
+      "accuracy": 0.00390625,
+      "max_absolute_error": 1.251484336339722,
+      "response_gain_A": 1.0257915736961385,
+      "response_gain_B": 1.0257915736961385,
+      "operator_residual_bias_result_units": 0.8646107308976426
+    },
+    {
+      "configuration": "epsilon_-0.1_percent",
+      "kind": "epsilon_percent",
+      "value": -0.1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.12443563423809678,
+      "response_gain_A": 1.0026523849944544,
+      "response_gain_B": 1.0026523849944544,
+      "operator_residual_bias_result_units": 0.04486408440446669
+    },
+    {
+      "configuration": "epsilon_-0.1_percent",
+      "kind": "epsilon_percent",
+      "value": -0.1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.12951394372574754,
+      "response_gain_A": 1.0026523849944544,
+      "response_gain_B": 1.0026523849944544,
+      "operator_residual_bias_result_units": 0.08972816880893338
+    },
+    {
+      "configuration": "epsilon_0.1_percent",
+      "kind": "epsilon_percent",
+      "value": 0.1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.12522978530726903,
+      "response_gain_A": 0.9973327828239197,
+      "response_gain_B": 0.9973327828239197,
+      "operator_residual_bias_result_units": -0.045213270024851905
+    },
+    {
+      "configuration": "epsilon_0.1_percent",
+      "kind": "epsilon_percent",
+      "value": 0.1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.13043479769091348,
+      "response_gain_A": 0.9973327828239197,
+      "response_gain_B": 0.9973327828239197,
+      "operator_residual_bias_result_units": -0.09042654004970381
+    },
+    {
+      "configuration": "epsilon_1_percent",
+      "kind": "epsilon_percent",
+      "value": 1,
+      "operation": "add",
+      "cases": 256,
+      "passed": 3,
+      "accuracy": 0.01171875,
+      "max_absolute_error": 1.2863751332143352,
+      "response_gain_A": 0.9726834146297972,
+      "response_gain_B": 0.9726834146297972,
+      "operator_residual_bias_result_units": -0.46687757210824865
+    },
+    {
+      "configuration": "epsilon_1_percent",
+      "kind": "epsilon_percent",
+      "value": 1,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 1.343503924769541,
+      "response_gain_A": 0.9726834146297972,
+      "response_gain_B": 0.9726834146297972,
+      "operator_residual_bias_result_units": -0.9337551442164973
+    },
+    {
+      "configuration": "epsilon_3_percent",
+      "kind": "epsilon_percent",
+      "value": 3,
+      "operation": "add",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 4.045789902198873,
+      "response_gain_A": 0.9145229195246398,
+      "response_gain_B": 0.9145229195246398,
+      "operator_residual_bias_result_units": -1.4814774879380677
+    },
+    {
+      "configuration": "epsilon_3_percent",
+      "kind": "epsilon_percent",
+      "value": 3,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 4.245111183006534,
+      "response_gain_A": 0.9145229195246398,
+      "response_gain_B": 0.9145229195246398,
+      "operator_residual_bias_result_units": -2.9629549758761353
+    },
+    {
+      "configuration": "epsilon_5_percent",
+      "kind": "epsilon_percent",
+      "value": 5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 6.959735128163107,
+      "response_gain_A": 0.8532868440259737,
+      "response_gain_B": 0.8532868440259737,
+      "operator_residual_bias_result_units": -2.5583404489423156
+    },
+    {
+      "configuration": "epsilon_5_percent",
+      "kind": "epsilon_percent",
+      "value": 5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 7.317378237495025,
+      "response_gain_A": 0.8532868440259737,
+      "response_gain_B": 0.8532868440259737,
+      "operator_residual_bias_result_units": -5.116680897884631
+    },
+    {
+      "configuration": "conductivity_0.0002_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.0002,
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.09585560464541132,
+      "response_gain_A": 0.9977317472385073,
+      "response_gain_B": 0.9977317472385073,
+      "operator_residual_bias_result_units": -0.027808021800621356
+    },
+    {
+      "configuration": "conductivity_0.0002_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.0002,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "accuracy": 1.0,
+      "max_absolute_error": 0.08963983502363781,
+      "response_gain_A": 0.9977317472385073,
+      "response_gain_B": 0.9977317472385073,
+      "operator_residual_bias_result_units": -0.05561604360124271
+    },
+    {
+      "configuration": "conductivity_0.002_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.002,
+      "operation": "add",
+      "cases": 256,
+      "passed": 66,
+      "accuracy": 0.2578125,
+      "max_absolute_error": 0.9462118736777434,
+      "response_gain_A": 0.9775487192709994,
+      "response_gain_B": 0.9775487192709994,
+      "operator_residual_bias_result_units": -0.2726734518077203
+    },
+    {
+      "configuration": "conductivity_0.002_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.002,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 91,
+      "accuracy": 0.35546875,
+      "max_absolute_error": 0.8821161145504473,
+      "response_gain_A": 0.9775487192709994,
+      "response_gain_B": 0.9775487192709994,
+      "operator_residual_bias_result_units": -0.5453469036154406
+    },
+    {
+      "configuration": "conductivity_0.02_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.02,
+      "operation": "add",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 8.337380448913294,
+      "response_gain_A": 0.7978606398003116,
+      "response_gain_B": 0.7978606398003116,
+      "operator_residual_bias_result_units": -2.273199642922644
+    },
+    {
+      "configuration": "conductivity_0.02_S_m",
+      "kind": "conductivity_S_m",
+      "value": 0.02,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 7.5784896888406115,
+      "response_gain_A": 0.7978606398003116,
+      "response_gain_B": 0.7978606398003116,
+      "operator_residual_bias_result_units": -4.546399285845288
+    },
+    {
+      "configuration": "source_B_dx_-5_mm",
+      "kind": "source_B_dx_mm",
+      "value": -5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 48,
+      "accuracy": 0.1875,
+      "max_absolute_error": 3.4415374153961054,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.7705641723069265,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "source_B_dx_-5_mm",
+      "kind": "source_B_dx_mm",
+      "value": -5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 48,
+      "accuracy": 0.1875,
+      "max_absolute_error": 3.4415374153961054,
+      "response_gain_A": 1.0,
+      "response_gain_B": 0.7705641723069265,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "source_B_dx_5_mm",
+      "kind": "source_B_dx_mm",
+      "value": 5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 64,
+      "accuracy": 0.25,
+      "max_absolute_error": 2.222145036658862,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.1481430024439236,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "source_B_dx_5_mm",
+      "kind": "source_B_dx_mm",
+      "value": 5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 64,
+      "accuracy": 0.25,
+      "max_absolute_error": 2.2221450366588567,
+      "response_gain_A": 1.0,
+      "response_gain_B": 1.1481430024439236,
+      "operator_residual_bias_result_units": 0.0
+    },
+    {
+      "configuration": "receiver_dx_-5_mm",
+      "kind": "receiver_dx_mm",
+      "value": -5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 33,
+      "accuracy": 0.12890625,
+      "max_absolute_error": 2.655343610002447,
+      "response_gain_A": 0.8619319336600385,
+      "response_gain_B": 0.9595348304332811,
+      "operator_residual_bias_result_units": 0.02265492859776008
+    },
+    {
+      "configuration": "receiver_dx_-5_mm",
+      "kind": "receiver_dx_mm",
+      "value": -5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 102,
+      "accuracy": 0.3984375,
+      "max_absolute_error": 2.0257111379039063,
+      "response_gain_A": 0.8619319336600385,
+      "response_gain_B": 0.9595348304332811,
+      "operator_residual_bias_result_units": 0.04530985719552016
+    },
+    {
+      "configuration": "receiver_dx_5_mm",
+      "kind": "receiver_dx_mm",
+      "value": 5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 33,
+      "accuracy": 0.12890625,
+      "max_absolute_error": 2.655343610002447,
+      "response_gain_A": 0.9595348304332811,
+      "response_gain_B": 0.8619319336600385,
+      "operator_residual_bias_result_units": 0.02265492859776008
+    },
+    {
+      "configuration": "receiver_dx_5_mm",
+      "kind": "receiver_dx_mm",
+      "value": 5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 94,
+      "accuracy": 0.3671875,
+      "max_absolute_error": 2.1163308522949418,
+      "response_gain_A": 0.9595348304332811,
+      "response_gain_B": 0.8619319336600385,
+      "operator_residual_bias_result_units": 0.04530985719552016
+    },
+    {
+      "configuration": "receiver_dy_-5_mm",
+      "kind": "receiver_dy_mm",
+      "value": -5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 6,
+      "accuracy": 0.0234375,
+      "max_absolute_error": 11.160295917120038,
+      "response_gain_A": 1.3864353734032624,
+      "response_gain_B": 1.3864353734032624,
+      "operator_residual_bias_result_units": -0.4327652849778294
+    },
+    {
+      "configuration": "receiver_dy_-5_mm",
+      "kind": "receiver_dy_mm",
+      "value": -5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 42,
+      "accuracy": 0.1640625,
+      "max_absolute_error": 6.662061171004595,
+      "response_gain_A": 1.3864353734032624,
+      "response_gain_B": 1.3864353734032624,
+      "operator_residual_bias_result_units": -0.8655305699556588
+    },
+    {
+      "configuration": "receiver_dy_5_mm",
+      "kind": "receiver_dy_mm",
+      "value": 5,
+      "operation": "add",
+      "cases": 256,
+      "passed": 0,
+      "accuracy": 0.0,
+      "max_absolute_error": 9.837749971906433,
+      "response_gain_A": 0.6902257427012433,
+      "response_gain_B": 0.6902257427012433,
+      "operator_residual_bias_result_units": -0.5445222529437328
+    },
+    {
+      "configuration": "receiver_dy_5_mm",
+      "kind": "receiver_dy_mm",
+      "value": 5,
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 50,
+      "accuracy": 0.1953125,
+      "max_absolute_error": 5.735658365368817,
+      "response_gain_A": 0.6902257427012433,
+      "response_gain_B": 0.6902257427012433,
+      "operator_residual_bias_result_units": -1.0890445058874656
+    }
+  ],
+  "limitations": [
+    "Fixed, not time-varying phase/gain changes",
+    "No temperature material model",
+    "PEC conductor, ideal sources and receiver",
+    "No physical operator control circuit",
+    "No continuous-task reset or memory test",
+    "Perturbation sweeps use linear-response reconstruction, not all direct runs"
+  ]
+}

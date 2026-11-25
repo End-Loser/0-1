@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Static gate truth states, bit algorithms, bounded scalar error tests and assumption arithmetic; not physical hardware validation",
+  "verified_direct_gate_states": 16,
+  "verified_arithmetic_cases": 2048,
+  "zero_divisor_error_cases": 32,
+  "budget_rows": 12,
+  "delay_and_energy_are_measured": false
+}

@@ -1,0 +1,69 @@
+{
+  "scope": "full same-physics E/H/64-RL state comparison, CG versus original LU",
+  "cases": [
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "cg_rtol": 1e-13,
+      "maxiter": 80,
+      "file": "fine_011_5ps.npz",
+      "sha256": "14d1b4020a2b1b3f7611a139aa565d66baaab8952d633828f72e97de59139fac",
+      "LU_file": "fine_011_5ps.npz",
+      "LU_sha256": "3141ded1f87037c5c47dc9b0a8237ca232b774f455a0cc393c69c9ae07f2e2e3",
+      "steps": 3200,
+      "max_scaled_residual": 9.995616355348029e-14,
+      "max_CG_iterations": 8,
+      "mean_CG_iterations": 5.736875,
+      "stepping_seconds": 54.536215999978594,
+      "LU_stepping_seconds": 133.93801609997172
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "cg_rtol": 1e-13,
+      "maxiter": 80,
+      "file": "fine_011_2ps.npz",
+      "sha256": "0f950d51d4ec2e8ced911dac91a7d7a61d38ecf8741416c808ecec8252783f09",
+      "LU_file": "fine_011_2ps.npz",
+      "LU_sha256": "1a528f4ec9f2921cf689a6371c1e9d88f9834db958366e91c1219f4ab38d8d5e",
+      "steps": 8000,
+      "max_scaled_residual": 9.957328958168546e-14,
+      "max_CG_iterations": 6,
+      "mean_CG_iterations": 4.043125,
+      "stepping_seconds": 129.84338710003067,
+      "LU_stepping_seconds": 332.1826063999906
+    }
+  ],
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "LU_summary_sha256": "6ccbc5a3f42bb8c16ab95e581af750974a72c611620d9bae5cf132c8e6e55f26",
+  "configuration_sha256": "a373f30076d8cbb8288aad357d0dbf3654f6ac078aecd0fbe9082c4db828d48a",
+  "source_sha256": {
+    "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+    "run_copper_cg_validation.py": "a70e342353f27bde05ef6facfab71639bcd0e874cf298bd43a08987dc851dec0",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "full_long_time_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false
+}

@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "id": "product",
+      "url": "https://www.ti.com/product/DAC80501",
+      "final_url": "https://www.ti.com/product/DAC80501",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\product.html",
+      "sha256": "39ec2ed9857ab7c3892c66d79436ad276f77bdfc8a49bb38735c5b1f925de0f4",
+      "bytes": 342574,
+      "model_archive_links": [
+        "https://www.ti.com/lit/zip/SBAM417",
+        "https://www.ti.com/lit/zip/SBAM420",
+        "https://www.ti.com/lit/zip/SBAM485"
+      ]
+    },
+    {
+      "id": "datasheet",
+      "url": "https://www.ti.com/lit/gpn/dac80501",
+      "final_url": "https://www.ti.com/lit/ds/symlink/dac80501.pdf?ts=1794944434724",
+      "status": 200,
+      "content_type": "application/pdf",
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\datasheet.pdf",
+      "sha256": "51dcb60423765d2521c62af621e2d6c7f4d38c9aa48deec4b4044d49decbbc20",
+      "bytes": 3518337,
+      "pages": 52,
+      "text_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\datasheet_layout.txt",
+      "text_sha256": "f6565e7878d7934a3f4b6aa0c172043a44c894fd949d63c98d2f11ab5a07fd55"
+    }
+  ],
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l",
+  "originals_redistributed": false,
+  "collector_sha256": "b25b22e6420584e0497a2d09749d3ddf6fc4a37b818d7071328938aa5287d23c",
+  "device_model_run": false
+}

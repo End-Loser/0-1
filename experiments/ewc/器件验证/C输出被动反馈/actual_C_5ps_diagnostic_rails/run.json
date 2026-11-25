@@ -1,0 +1,42 @@
+{
+  "id": "actual_C_5ps_diagnostic_rails",
+  "step_s": 5e-12,
+  "real_rails": false,
+  "duration_s": 1.8e-06,
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    0
+  ],
+  "hold_s": 2e-07,
+  "ramp_s": 2e-09,
+  "input_high_V": 0.3,
+  "summing_resistance_ohm": 300,
+  "carry_threshold_V": 0.15,
+  "sum_threshold_V": 0.05,
+  "cancellation_input_equivalent_V": 0.2,
+  "feedback_resistance_ohm": 32750,
+  "sum_bias_difference_V": 0.17348484848484852,
+  "status": "failed_preserve_partial",
+  "returncode": 0,
+  "raw_wave": {
+    "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-actual-c-feedback-y86yv8ao\\actual_C_5ps_diagnostic_rails\\wave.txt",
+    "sha256": "760f822af01d857f17f80a2245ea794aa37164b8e4a949f356fd778059bcf5b1"
+  },
+  "rows": 41758,
+  "observed_last_time_s": 2.086509625839465e-07,
+  "reason": "AssertionError()",
+  "files_sha256": {
+    "full_vectors.npz": "4829063796ad866da6d2ad5a584754d2f05508b4193e5d3ef0b2f27bf2ec443f",
+    "solver_stderr.log": "bf68de9db00e7326aa98da1f5e2fb0fb6d2068c016f446d3b60f197d1dbb3bd5",
+    "solver_stdout.log": "4a22ab40b6483b4f2c9badd40f731c0fab4a9fa4d0d8c1aa45d6d118d634a3fc",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "70bee4ee55809d8943bb7d6813dfd011ea3553f7560252777a4b1db9409dbe62"
+  }
+}

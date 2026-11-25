@@ -1,0 +1,744 @@
+{
+  "status": "v1_simulation_prototype_complete",
+  "created": "2026-11-19T20:02:34",
+  "parameters": {
+    "steps_per_case": 30000,
+    "lockin_window_steps": 2263,
+    "periods": 20,
+    "frequency_Hz": 1767647745.190545,
+    "dt_s": 5e-12,
+    "shape": [
+      12,
+      9,
+      7
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "source_ports": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "load_ports": [
+      2,
+      5
+    ],
+    "load_ohm": 50.0,
+    "workers": 2
+  },
+  "codes": [
+    {
+      "input_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "td_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fd_bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        1.000000000000411,
+        1.0000000000005262,
+        1.0000000000004172,
+        1.0000000000007248
+      ],
+      "fd_coefficients": [
+        0.9612607297390517,
+        0.9927785646149503,
+        0.9779635302557222,
+        1.036051391342591
+      ],
+      "td_min_abs_coefficient": 1.000000000000411,
+      "td_decode_residual": 9.379014949922035e-14,
+      "fd_decode_residual": 0.0014935298431991693,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 140.64464549999684,
+      "fd_lu_seconds": 0.13627479993738234
+    },
+    {
+      "input_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "td_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "fd_bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        0.9999999999997764,
+        0.9999999999993822,
+        0.9999999999994406,
+        -1.0000000000005949
+      ],
+      "fd_coefficients": [
+        0.9425208581603562,
+        0.9442537479376845,
+        0.9434007517123726,
+        -0.9363302902616158
+      ],
+      "td_min_abs_coefficient": 0.9999999999993822,
+      "td_decode_residual": 2.5519375091025054e-12,
+      "fd_decode_residual": 0.006171739979626662,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 150.2348093999317,
+      "fd_lu_seconds": 0.08922289998736233
+    },
+    {
+      "input_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "td_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "fd_bits": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        1.0000000000002025,
+        1.0000000000000986,
+        -1.000000000000021,
+        0.9999999999999993
+      ],
+      "fd_coefficients": [
+        0.9541819851714101,
+        0.9743152474031266,
+        -0.9180615393332608,
+        1.00202610849128
+      ],
+      "td_min_abs_coefficient": 0.9999999999999993,
+      "td_decode_residual": 1.3228032403493683e-13,
+      "fd_decode_residual": 0.0022006032816501795,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 140.67879680008627,
+      "fd_lu_seconds": 0.11787960003130138
+    },
+    {
+      "input_bits": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "td_bits": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "fd_bits": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        1.0000000000002336,
+        1.0000000000002722,
+        -0.9999999999997357,
+        -0.9999999999992836
+      ],
+      "fd_coefficients": [
+        0.9354421135933697,
+        0.925790430727184,
+        -0.9526243178753654,
+        -0.9703555731108584
+      ],
+      "td_min_abs_coefficient": 0.9999999999992836,
+      "td_decode_residual": 4.3226062031628433e-13,
+      "fd_decode_residual": 0.0037901592412789434,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 156.09933909995016,
+      "fd_lu_seconds": 0.13099390000570565
+    },
+    {
+      "input_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "td_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "fd_bits": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        1.000000000000194,
+        -0.9999999999999105,
+        1.000000000000105,
+        1.0000000000001243
+      ],
+      "fd_coefficients": [
+        0.9513020818054456,
+        -0.9159777361783126,
+        0.9595718418109822,
+        0.9884631015470394
+      ],
+      "td_min_abs_coefficient": 0.9999999999999105,
+      "td_decode_residual": 3.8560384459249556e-13,
+      "fd_decode_residual": 0.0026568709188791186,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 143.787390600075,
+      "fd_lu_seconds": 0.09703659999649972
+    },
+    {
+      "input_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "td_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "fd_bits": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        1.0000000000002789,
+        -0.999999999999717,
+        1.000000000000251,
+        -0.9999999999993632
+      ],
+      "fd_coefficients": [
+        0.9325622102274554,
+        -0.9645025528542431,
+        0.9250090632687447,
+        -0.9839185800553029
+      ],
+      "td_min_abs_coefficient": 0.9999999999993632,
+      "td_decode_residual": 3.138094174591203e-13,
+      "fd_decode_residual": 0.002914934040819247,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 155.61685330001637,
+      "fd_lu_seconds": 0.09146530006546527
+    },
+    {
+      "input_bits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "td_bits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "fd_bits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        0.9999999999998971,
+        -1.0000000000003775,
+        -1.0000000000001876,
+        0.9999999999989377
+      ],
+      "fd_coefficients": [
+        0.9442233372377136,
+        -0.9344410533901831,
+        -0.9364532277778721,
+        0.9544378186952756
+      ],
+      "td_min_abs_coefficient": 0.9999999999989377,
+      "td_decode_residual": 9.021521157102078e-13,
+      "fd_decode_residual": 0.005424318190202414,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 139.86676540004555,
+      "fd_lu_seconds": 0.16810070001520216
+    },
+    {
+      "input_bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "td_bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "fd_bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        1.0000000000002371,
+        -1.0000000000000306,
+        -1.0000000000000309,
+        -0.9999999999998531
+      ],
+      "fd_coefficients": [
+        0.9254834656599698,
+        -0.9829658700659469,
+        -0.9710160063200861,
+        -1.017943862906375
+      ],
+      "td_min_abs_coefficient": 0.9999999999998531,
+      "td_decode_residual": 9.82416327829307e-14,
+      "fd_decode_residual": 0.0017948420548439196,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 151.1174096999457,
+      "fd_lu_seconds": 0.12874690000899136
+    },
+    {
+      "input_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "td_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "fd_bits": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -1.0000000000002371,
+        1.0000000000000306,
+        1.0000000000000309,
+        0.9999999999998531
+      ],
+      "fd_coefficients": [
+        -0.9254834656599698,
+        0.9829658700659469,
+        0.9710160063200861,
+        1.017943862906375
+      ],
+      "td_min_abs_coefficient": 0.9999999999998531,
+      "td_decode_residual": 9.82416327829307e-14,
+      "fd_decode_residual": 0.0017948420548439196,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 140.00571050005965,
+      "fd_lu_seconds": 0.08957999991253018
+    },
+    {
+      "input_bits": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "td_bits": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "fd_bits": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -0.9999999999998971,
+        1.0000000000003775,
+        1.0000000000001876,
+        -0.9999999999989377
+      ],
+      "fd_coefficients": [
+        -0.9442233372377136,
+        0.9344410533901831,
+        0.9364532277778721,
+        -0.9544378186952756
+      ],
+      "td_min_abs_coefficient": 0.9999999999989377,
+      "td_decode_residual": 9.021521157102078e-13,
+      "fd_decode_residual": 0.005424318190202414,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 152.909519799985,
+      "fd_lu_seconds": 0.13867100002244115
+    },
+    {
+      "input_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "td_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "fd_bits": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -1.0000000000002789,
+        0.999999999999717,
+        -1.000000000000251,
+        0.9999999999993632
+      ],
+      "fd_coefficients": [
+        -0.9325622102274554,
+        0.9645025528542431,
+        -0.9250090632687447,
+        0.9839185800553029
+      ],
+      "td_min_abs_coefficient": 0.9999999999993632,
+      "td_decode_residual": 3.138094174591203e-13,
+      "fd_decode_residual": 0.002914934040819247,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 139.66047220001929,
+      "fd_lu_seconds": 0.1086812000721693
+    },
+    {
+      "input_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "td_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "fd_bits": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -1.000000000000194,
+        0.9999999999999105,
+        -1.000000000000105,
+        -1.0000000000001243
+      ],
+      "fd_coefficients": [
+        -0.9513020818054456,
+        0.9159777361783126,
+        -0.9595718418109822,
+        -0.9884631015470394
+      ],
+      "td_min_abs_coefficient": 0.9999999999999105,
+      "td_decode_residual": 3.8560384459249556e-13,
+      "fd_decode_residual": 0.0026568709188791186,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 149.06933430000208,
+      "fd_lu_seconds": 0.09223970002494752
+    },
+    {
+      "input_bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "td_bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "fd_bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -1.0000000000002336,
+        -1.0000000000002722,
+        0.9999999999997357,
+        0.9999999999992836
+      ],
+      "fd_coefficients": [
+        -0.9354421135933697,
+        -0.925790430727184,
+        0.9526243178753654,
+        0.9703555731108584
+      ],
+      "td_min_abs_coefficient": 0.9999999999992836,
+      "td_decode_residual": 4.3226062031628433e-13,
+      "fd_decode_residual": 0.0037901592412789434,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 144.20318929990754,
+      "fd_lu_seconds": 0.09646439994685352
+    },
+    {
+      "input_bits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "td_bits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "fd_bits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -1.0000000000002025,
+        -1.0000000000000986,
+        1.000000000000021,
+        -0.9999999999999993
+      ],
+      "fd_coefficients": [
+        -0.9541819851714101,
+        -0.9743152474031266,
+        0.9180615393332608,
+        -1.00202610849128
+      ],
+      "td_min_abs_coefficient": 0.9999999999999993,
+      "td_decode_residual": 1.3228032403493683e-13,
+      "fd_decode_residual": 0.0022006032816501795,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 156.22181939997245,
+      "fd_lu_seconds": 0.13596420001704246
+    },
+    {
+      "input_bits": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "td_bits": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "fd_bits": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -0.9999999999997764,
+        -0.9999999999993822,
+        -0.9999999999994406,
+        1.0000000000005949
+      ],
+      "fd_coefficients": [
+        -0.9425208581603562,
+        -0.9442537479376845,
+        -0.9434007517123726,
+        0.9363302902616158
+      ],
+      "td_min_abs_coefficient": 0.9999999999993822,
+      "td_decode_residual": 2.5519375091025054e-12,
+      "fd_decode_residual": 0.006171739979626662,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 143.90661619999446,
+      "fd_lu_seconds": 0.11452319996897131
+    },
+    {
+      "input_bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "td_bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fd_bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "td_match": true,
+      "fd_match": true,
+      "td_coefficients": [
+        -1.000000000000411,
+        -1.0000000000005262,
+        -1.0000000000004172,
+        -1.0000000000007248
+      ],
+      "fd_coefficients": [
+        -0.9612607297390517,
+        -0.9927785646149503,
+        -0.9779635302557222,
+        -1.036051391342591
+      ],
+      "td_min_abs_coefficient": 1.000000000000411,
+      "td_decode_residual": 9.379014949922035e-14,
+      "fd_decode_residual": 0.0014935298431991693,
+      "basis_rank_td": 4,
+      "decode_condition": 5.216241775903052,
+      "td_seconds": 133.35527090006508,
+      "fd_lu_seconds": 0.12368250009603798
+    }
+  ],
+  "totals": {
+    "cases": 16,
+    "td_match": 16,
+    "fd_match": 16,
+    "all_td_match": true,
+    "all_fd_match": true,
+    "min_abs_coefficient": 0.9999999999989377,
+    "max_td_decode_residual": 2.5519375091025054e-12,
+    "max_fd_decode_residual": 0.006171739979626662,
+    "decode_condition": 5.216241775903052,
+    "basis_rank_td": 4
+  },
+  "one_bit": {
+    "decisions": [
+      {
+        "source_port": 1,
+        "amplitude_port1": 91.81723048632358,
+        "amplitude_port4": 76.59459188049838,
+        "ratio": 1.1987429951918185,
+        "bit": 1,
+        "margin": 0.19874299519181848
+      },
+      {
+        "source_port": 4,
+        "amplitude_port1": 76.59459188052249,
+        "amplitude_port4": 195.90764168190657,
+        "ratio": 0.3909729667660867,
+        "bit": 0,
+        "margin": 0.6090270332339133
+      }
+    ]
+  },
+  "scale_alpha": {
+    "real": 0.022813626919474517,
+    "imag": -1.0618300771021196,
+    "modulus": 1.0620751264444124,
+    "phase_deg": -88.76917833379514
+  },
+  "solve_seconds": {
+    "twenty_cases_wall": 1515.4192543999525,
+    "per_case_mean": 146.08612140000332
+  },
+  "source_sha256": {
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+    "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+    "copper_driven_midpoint.py": "5d383ec889e77b9f68b2ec4442eba1fa685a2c3f0df1798e807fddc68c5736e8",
+    "厚铜边界基准结果/passive_surface_models.json": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3"
+  },
+  "runner_sha256": "7658c55bc4959a75eece3b640ba9c04f160ae5b4bfd395d30c4e385b7fc3f5b7",
+  "full_system_gates_closed": 0,
+  "total_system_gates": 7,
+  "goal_complete": false
+}

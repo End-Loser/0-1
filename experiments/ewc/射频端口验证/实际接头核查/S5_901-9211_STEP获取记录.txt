@@ -1,0 +1,18 @@
+来源编号：S5
+URL：https://www.amphenolrf.com/en-us/assets/file/4068628677/
+读取日期：2026-11-18
+来源性质：S2厂家页面标为901-9211 STP 3D Model的链接。
+直接HTTP下载：403；TEMP响应体不是STEP交换文件。
+WebFetch返回登录页面：
+Login
+Welcome to our new site! If you had an account on our previous site,
+you will need to create a new account using the 'Register Now' button below.
+Registered users have access to:
+- 3D model files
+- RF simulation data
+- An online Parts List to easily save, send, and locate stock for your selected products
+
+结果：未取得STEP、内部材料分域、电气全波模型或RF仿真数据。
+未创建账号、未登录、未绕过访问控制，也未请求其他文件。
+即使取得机械STEP，也须独立确认内外导体/介质几何及电磁参数；不能直接判为完整全波电气模型。
+本文件是网页返回文本摘录及核查记录，不是原始STEP文件。

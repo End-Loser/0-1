@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-18",
+  "scope": "校准验证/第二批握手/",
+  "shell_tool_command_count": 21,
+  "shell_success_count": 19,
+  "shell_failure_count": 2,
+  "top_level_python_commands": 3,
+  "python_verifier_subprocess_commands": 2,
+  "total_command_invocations_including_subprocesses": 23,
+  "counting_note": "按Shell工具调用计21条，不按PowerShell管道中的cmdlet拆计；成功run_all另外启动2条独立verify子进程。apply_patch不是终端命令，不加计。",
+  "new_download_commands": 0,
+  "hardware_simulator_commands": 0,
+  "failures": [
+    {
+      "kind": "directory_probe",
+      "command": "Get-ChildItem -Force 校准验证/第二批握手 -ErrorAction SilentlyContinue",
+      "reason": "新增目录尚不存在，探测退出1；随后只在已确认校准验证父目录内用apply_patch创建本批文件。"
+    },
+    {
+      "kind": "pre_test_independent_verification",
+      "command": "python -B 校准验证/第二批握手/run_all.py",
+      "reason": "核验器错误地把resume后的运行观测参数[100]与旧参数[0]比较，单元测试尚未开始。",
+      "correction": "排除提交后的data观测在提交前冻结断言之外；仍由独立oracle完整核对该快照。协议与预算公式未为此更改。",
+      "intermediates": "OS TEMP自动清理，首次失败摘要在本记录保留。"
+    }
+  ],
+  "final_tests": {
+    "tests": 29,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "final_independent_verification": {
+    "checks": 15757,
+    "passed": true,
+    "counterexamples_rejected": 234,
+    "fault_recovery_traces": 15,
+    "nominal_events": 1261,
+    "note": "成功run_all中的TEMP/发布后子进程复核及额外只读verify均通过；不重复累加为新的测试或物理仿真数量。"
+  },
+  "writes_outside_batch_directory": false,
+  "temporary_intermediates": "OS TEMP",
+  "first_batch_or_main_plan_edited": false,
+  "real_ads8866_timing_passed": false,
+  "real_adc_dac_model_passed": false,
+  "rtl_passed": false,
+  "system_1pct_passed": false,
+  "procurement": false,
+  "real_hardware_missing": [
+    "ADS8866获取/转换、CONVST与SPI引脚时序及参考/输入驱动",
+    "逐点模拟建立、复用残留、实际ADC读取接口和跨时钟同步",
+    "DAC负载/阶跃/误差带建立、真实增益恢复、更新代次确认与故障安全状态",
+    "真实训练公式敏感度、细调传递与有效系数误差预算",
+    "实际故障/失锁/过载/超时检测、参数冻结接口、RTL/CDC/亚稳态及完整供能"
+  ]
+}

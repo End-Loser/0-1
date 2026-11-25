@@ -1,0 +1,61 @@
+{
+  "grid_shape": [
+    33,
+    21,
+    13
+  ],
+  "dx_mm": 5,
+  "dt_s": 8.339102379953802e-12,
+  "time_refinement": 1,
+  "size_mm": [
+    160,
+    100,
+    60
+  ],
+  "epsilon_r": 2.1,
+  "dielectric_sigma_S_per_m": 0.002,
+  "pickup_sigma_z_S_per_m": 0,
+  "pickup_box_mm": [
+    10,
+    10,
+    10
+  ],
+  "centers_mm": [
+    [
+      40,
+      50,
+      30
+    ],
+    [
+      120,
+      50,
+      30
+    ],
+    [
+      80,
+      25,
+      30
+    ],
+    [
+      80,
+      75,
+      30
+    ]
+  ],
+  "source_rate_normalized_per_s": 1000000000.0,
+  "source_volume_m3": [
+    1.0000000000000002e-06,
+    1.0000000000000002e-06,
+    1.0000000000000002e-06,
+    1.0000000000000002e-06
+  ],
+  "normalization": "Normalized source-density drive and weighted mean Ez; not V/V or watts",
+  "boundary": "PEC tangential E fixed on all six faces; normal E retained",
+  "kind": "impulse",
+  "driven": 0,
+  "steps": 1439,
+  "runtime_s": 1.0058247999986634,
+  "final_other_E_fraction": 0.6589308538259074,
+  "name": "load_removed",
+  "npz_sha256": "08159fb976f896c6053895cbd5aee455588fae73a1327ccc34c30a6292afe549"
+}

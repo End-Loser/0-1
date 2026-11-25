@@ -1,0 +1,79 @@
+{
+  "runs": [
+    {
+      "id": "nominal27_5p5V_200pF",
+      "temp_C": 27,
+      "vdd_V": 5.5,
+      "cout_F": 2e-10,
+      "status": "incomplete",
+      "waveform_complete": false,
+      "returncode": 1,
+      "reason": "No waveform",
+      "files_sha256": {
+        "analog_results/nominal27_5p5V_200pF/solver.log": "28ef41abc9d5aae53a6b9758d4a6be77f876ef392d9dd1545df0561bd81579ed",
+        "analog_results/nominal27_5p5V_200pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "analog_results/nominal27_5p5V_200pF/test.cir": "75fbc31c33c20b34593c8f290661de0a7f2712812ab67b6e40005fa9c1490ee6"
+      }
+    },
+    {
+      "id": "room25_5p5V_200pF",
+      "temp_C": 25,
+      "vdd_V": 5.5,
+      "cout_F": 2e-10,
+      "status": "incomplete",
+      "waveform_complete": false,
+      "returncode": 1,
+      "reason": "No waveform",
+      "files_sha256": {
+        "analog_results/room25_5p5V_200pF/solver.log": "28ef41abc9d5aae53a6b9758d4a6be77f876ef392d9dd1545df0561bd81579ed",
+        "analog_results/room25_5p5V_200pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "analog_results/room25_5p5V_200pF/test.cir": "28eb3226edb07b615e5dd63b02b63fad4b6df74516ad932110e364ad6c240103"
+      }
+    },
+    {
+      "id": "nominal27_5V_200pF",
+      "temp_C": 27,
+      "vdd_V": 5,
+      "cout_F": 2e-10,
+      "status": "incomplete",
+      "waveform_complete": false,
+      "returncode": 1,
+      "reason": "No waveform",
+      "files_sha256": {
+        "analog_results/nominal27_5V_200pF/solver.log": "28ef41abc9d5aae53a6b9758d4a6be77f876ef392d9dd1545df0561bd81579ed",
+        "analog_results/nominal27_5V_200pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "analog_results/nominal27_5V_200pF/test.cir": "585e96081bbc4cb344d627dc4d7307f58da03587b440335ded350b2fba42997a"
+      }
+    },
+    {
+      "id": "nominal27_5p5V_100nF",
+      "temp_C": 27,
+      "vdd_V": 5.5,
+      "cout_F": 1e-07,
+      "status": "incomplete",
+      "waveform_complete": false,
+      "returncode": 1,
+      "reason": "No waveform",
+      "files_sha256": {
+        "analog_results/nominal27_5p5V_100nF/solver.log": "28ef41abc9d5aae53a6b9758d4a6be77f876ef392d9dd1545df0561bd81579ed",
+        "analog_results/nominal27_5p5V_100nF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "analog_results/nominal27_5p5V_100nF/test.cir": "ce4ece0c7c20f14ebe0edd961728c1c42b6072bf819cb2d53e75f7fd79247595"
+      }
+    }
+  ],
+  "library": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-analog-gtpgi2k5\\dac80501.lib",
+  "library_sha256": "0a97817f51e0d9cdaf725e1f4744d837747d917add46f5cd9123081c46de04d8",
+  "simulator": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe",
+  "simulator_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "configuration_sha256": "a5b1819b6ca517d1fa7877fe8e5c97e6ef98b8e60bae30e73fad5f2deebb9fc6",
+  "runner_sha256": "4f0c36fc3eb0e08223210b4441ee8a1d6e0243aef31ab0890c38f69e36b97ba0",
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-analog-gtpgi2k5",
+  "vendor_parameters_modified": false,
+  "serial_interface_modeled": false,
+  "physical_input_levels_modeled": false,
+  "cold_start_modeled": false,
+  "full_supply_current_validated": false,
+  "device_accuracy_passed": false,
+  "full_joint_passed": false,
+  "supported_pspice_verified": false
+}

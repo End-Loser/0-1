@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "scope": "analytical timing, ideal quantization and bounded control tests only",
+  "budget_cases": 12,
+  "retained_failed_screen_cases": 10,
+  "matrix_attempts": 110,
+  "matrix_accepted": 22,
+  "matrix_rejected": 88,
+  "negative_control_attempts": 9,
+  "expectations_match": true,
+  "negative_controls_rejected": true,
+  "real_adc_dac_model_passed": false,
+  "system_1pct_passed": false,
+  "procurement": false,
+  "model_status": "LIMITED_ANALYTICAL_AND_DISCRETE_ONLY",
+  "artifact_sha256": {
+    "cases.json": "1ca00c19d1b1011d55f8e7d971cfd1d1262dfb9e3b8e1b986a5af697215f5184",
+    "budgets.json": "db7794d40839743c57cd5be5492748c6ef760ae55b1d1f0b3bdedc1595acb25d",
+    "control.json": "c6a8c5278913f5f46d94da516690c18decf1d4e4c26071759515978d0088b57e",
+    "provenance.json": "9c78fef306342aaad9f3f9168df54a54bb93f2fd989965f3d068f9cdc215580b"
+  },
+  "code_sha256": {
+    "model.py": "9a846498ae996a4c00cfdcc01e7c452f83947637e80c5f4102e0784b4ddb2523",
+    "runner.py": "6450e069d77a075b13d2ffc6782cdb6011875dab0c6dc9631f34ceeab6273cac",
+    "verify.py": "25e019a3656ea5fa35fb4895e2acec5eb5641277a77f011885dce7e78bc8aec5",
+    "tests.py": "f79a4fa97bb937e495805908de6e5425f97ba227c935d158feb173e7fffb9e8a",
+    "run_all.py": "83e7ffac61587fbec2f950730e4b499dc98ee7af3decb05641135f4a4f3b82ae",
+    "provenance.json": "431ac42bbd42783b869493564eaa47977aabf177953c57b789c5e0e0fb2fd2a5"
+  },
+  "verification": {
+    "passed": true,
+    "checks": 1656,
+    "method": "45-digit Decimal budget recalculation and separate protocol oracle",
+    "imports_model_or_runner": false,
+    "hardware_validation": false
+  },
+  "tests": {
+    "tests_run": 31,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "numeric_control_mutations": 8,
+    "hash_mutations": 1,
+    "system_claim_mutations": 1
+  }
+}

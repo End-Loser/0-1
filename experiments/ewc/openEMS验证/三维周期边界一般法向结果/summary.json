@@ -1,0 +1,149 @@
+{
+  "method": "independent 3-D integral Maxwell, periodic transverse, implicit midpoint",
+  "purpose": "N-30-2: -x termination sign and transverse refinement at fixed extent",
+  "cases": [
+    {
+      "case": "ny2_baseline",
+      "grid_class": "Grid",
+      "shape": [
+        120,
+        2,
+        3
+      ],
+      "spacing_m": [
+        0.001,
+        0.01,
+        0.015
+      ],
+      "electric_edge_count": 2172,
+      "magnetic_face_count": 2166,
+      "wall_edges": 12,
+      "RL_states": 768,
+      "dt_ps": 1,
+      "duration_ns": 8,
+      "polarization": "y",
+      "terms": 64,
+      "energy_closure_relative": 1.5083532551510993e-13,
+      "source_off_energy_increase_relative": 0.0,
+      "divergence_B_flux_max_Wb": 1.7670484276950664e-28,
+      "copper_loss_J": 6.35947129488057e-20,
+      "final_energy_J": 6.043627870391748e-29,
+      "reflection_absolute_error": 0.004022514013772074,
+      "wall_complex_impedance_error": 4.062936130262441e-05,
+      "wall_phase_error_deg": 0.0009809985706004448,
+      "plane_reflection_1percent_pass": true,
+      "wall_impedance_1percent_pass": true,
+      "data_file": "ny2_baseline.npz",
+      "data_sha256": "e3c8dca228cd388eb4f6cf0d597150871e9937c24732ea868f073079fc9ec077"
+    },
+    {
+      "case": "ny4",
+      "grid_class": "Grid",
+      "shape": [
+        120,
+        4,
+        3
+      ],
+      "spacing_m": [
+        0.001,
+        0.005,
+        0.015
+      ],
+      "electric_edge_count": 4344,
+      "magnetic_face_count": 4332,
+      "wall_edges": 24,
+      "RL_states": 1536,
+      "dt_ps": 1,
+      "duration_ns": 8,
+      "polarization": "y",
+      "terms": 64,
+      "energy_closure_relative": 8.643116908163978e-14,
+      "source_off_energy_increase_relative": 0.0,
+      "divergence_B_flux_max_Wb": 1.1517369216226772e-28,
+      "copper_loss_J": 6.359471294881017e-20,
+      "final_energy_J": 6.043627870395762e-29,
+      "reflection_absolute_error": 0.004022514013772662,
+      "wall_complex_impedance_error": 4.062936130256302e-05,
+      "wall_phase_error_deg": 0.000980998570557951,
+      "plane_reflection_1percent_pass": true,
+      "wall_impedance_1percent_pass": true,
+      "data_file": "ny4.npz",
+      "data_sha256": "210cd530766ec48bce5432b3858c93336d3473b9cb22296523afdd1bd04a22c7"
+    },
+    {
+      "case": "ny8",
+      "grid_class": "Grid",
+      "shape": [
+        120,
+        8,
+        3
+      ],
+      "spacing_m": [
+        0.001,
+        0.0025,
+        0.015
+      ],
+      "electric_edge_count": 8688,
+      "magnetic_face_count": 8664,
+      "wall_edges": 48,
+      "RL_states": 3072,
+      "dt_ps": 1,
+      "duration_ns": 8,
+      "polarization": "y",
+      "terms": 64,
+      "energy_closure_relative": 1.5193485540212098e-13,
+      "source_off_energy_increase_relative": 0.0,
+      "divergence_B_flux_max_Wb": 4.417621069237666e-29,
+      "copper_loss_J": 6.359471294880558e-20,
+      "final_energy_J": 6.043627870385259e-29,
+      "reflection_absolute_error": 0.004022514013773866,
+      "wall_complex_impedance_error": 4.0629361301837556e-05,
+      "wall_phase_error_deg": 0.0009809985705873695,
+      "plane_reflection_1percent_pass": true,
+      "wall_impedance_1percent_pass": true,
+      "data_file": "ny8.npz",
+      "data_sha256": "fb656c8bc2411e7320835e9a3f9d1d99fdf668eb5262e0b4d5e5ce27fc455412"
+    },
+    {
+      "case": "mirror_termination",
+      "grid_class": "MirroredGrid",
+      "shape": [
+        120,
+        2,
+        3
+      ],
+      "spacing_m": [
+        0.001,
+        0.01,
+        0.015
+      ],
+      "electric_edge_count": 2172,
+      "magnetic_face_count": 2166,
+      "wall_edges": 12,
+      "RL_states": 768,
+      "dt_ps": 1,
+      "duration_ns": 8,
+      "polarization": "y",
+      "terms": 64,
+      "energy_closure_relative": 1.5349583832855464e-13,
+      "source_off_energy_increase_relative": 0.0,
+      "divergence_B_flux_max_Wb": 1.5777218104420236e-28,
+      "copper_loss_J": 6.359471294880596e-20,
+      "final_energy_J": 6.043627870393872e-29,
+      "reflection_absolute_error": 0.0040225140137718045,
+      "wall_complex_impedance_error": 4.0629361301961785e-05,
+      "wall_phase_error_deg": 0.000980998570603714,
+      "plane_reflection_1percent_pass": true,
+      "wall_impedance_1percent_pass": true,
+      "data_file": "mirror_termination.npz",
+      "data_sha256": "86d59983d4ebb7f74c9518d1a22d8424ead012ebe41eb0f000d68c0ac867170b"
+    }
+  ],
+  "boundary_normal_into_metal": "+x",
+  "axis_permutation_note": "the module's only open axis is its first index; +/-y and +/-z runs are coordinate relabelings, not new evidence",
+  "arbitrary_oblique_normal_implemented": false,
+  "all_normal_orientations_verified": false,
+  "module_sha256": "908b13655ee0e9a3bc09b50dcfdd164f017d0d7f63c72745cccb7de71278b551",
+  "runner_sha256": "3032bc776d149539d292db3402077cc4a0fe801de11952457a1654a44a358b7b",
+  "models_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3"
+}

@@ -1,0 +1,15 @@
+{
+  "independent_verification_pass": true,
+  "source_snapshots_checked": 3,
+  "frequency_points_checked": 101,
+  "sensitivity_cases_checked": 36,
+  "constant_sigma_alpha_error_max": 0.19999994654004083,
+  "constant_sigma_alpha_error_low_end": 0.19999994654004083,
+  "constant_sigma_alpha_error_high_end": -0.14285711983237326,
+  "test_output": "test_Dk_spec_hypothesis_can_fail_allocation (__main__.MaterialTests.test_Dk_spec_hypothesis_can_fail_allocation) ... ok\ntest_center_conductivity_match (__main__.MaterialTests.test_center_conductivity_match) ... ok\ntest_independent_loss_components (__main__.MaterialTests.test_independent_loss_components) ... ok\ntest_invalid_inputs (__main__.MaterialTests.test_invalid_inputs) ... ok\ntest_inverse_frequency_relation (__main__.MaterialTests.test_inverse_frequency_relation) ... ok\ntest_lossless_limit (__main__.MaterialTests.test_lossless_limit) ... ok\ntest_nominal_budget (__main__.MaterialTests.test_nominal_budget) ... ok\ntest_positive_loss (__main__.MaterialTests.test_positive_loss) ... ok\ntest_temperature_and_expansion_are_distinct (__main__.MaterialTests.test_temperature_and_expansion_are_distinct) ... ok\ntest_wrong_band_loss_preserved (__main__.MaterialTests.test_wrong_band_loss_preserved) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.001s\n\nOK\n",
+  "summary_sha256": "da1cecccc00b93b6d87c2a375922a0d48a28cede9e8b95db7ee01cbd439bf6bc",
+  "verifier_sha256": "5a1a50b6ffa09083a4fd5365ade4e0358af8463ca5c0ca2299c4a1bfa5f67344",
+  "tests_sha256": "9ead2757dc481ed88d84c8dd4e856abf0f1d6f1d2897c8a9f8d5514d16505a35",
+  "material_3GHz_guarantee_passed": false,
+  "full_joint_simulation_passed": false
+}

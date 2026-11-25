@@ -1,0 +1,62 @@
+[
+  {
+    "shape": [
+      24,
+      15,
+      9
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "height_cells": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "side2_height_cells": [],
+    "tip_clearance_cells": 2,
+    "terms": 64,
+    "reference_impedance_ohm": 50.0,
+    "scan_points": 5,
+    "frequency_rule": "center - width/2 + linspace(-2, 2, 5) * width"
+  },
+  {
+    "shape": [
+      36,
+      23,
+      14
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "height_cells": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "side2_height_cells": [
+      7,
+      12
+    ],
+    "tip_clearance_cells": 2,
+    "terms": 64,
+    "reference_impedance_ohm": 50.0,
+    "scan_points": 5,
+    "frequency_rule": "center - width/2 + linspace(-2, 2, 5) * width"
+  }
+]

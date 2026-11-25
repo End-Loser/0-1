@@ -1,0 +1,1087 @@
+{
+  "runs": [
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "input_0pF",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 0.0,
+      "status": "fail",
+      "returncode": 0,
+      "observed_last_time_s": 9.999999999999997e-07,
+      "rows": 100308,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true,
+          "rail5": true,
+          "rail3": true,
+          "reference": true
+        },
+        "violations": [
+          "dc_amplitude"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000123e-07
+            ],
+            "fda_crossings_s": [
+              2.0793674774459646e-07
+            ],
+            "output_crossings_s": [
+              2.133888986211643e-07
+            ],
+            "total_delay_s": 1.2388898621163082e-08,
+            "fda_delay_s": 6.936747744595231e-09,
+            "comparator_delay_s": 5.452150876567851e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0099999999999873e-07
+            ],
+            "fda_crossings_s": [
+              4.07895976781774e-07
+            ],
+            "output_crossings_s": [
+              4.1347733282490017e-07
+            ],
+            "total_delay_s": 1.2477332824901432e-08,
+            "fda_delay_s": 6.895976781775256e-09,
+            "comparator_delay_s": 5.581356043126176e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.010000000000012e-07
+            ],
+            "fda_crossings_s": [
+              6.078955358214923e-07
+            ],
+            "output_crossings_s": [
+              6.133488986211191e-07
+            ],
+            "total_delay_s": 1.2348898621117932e-08,
+            "fda_delay_s": 6.895535821491084e-09,
+            "comparator_delay_s": 5.453362799626848e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999988e-07
+            ],
+            "fda_crossings_s": [
+              8.078982169091746e-07
+            ],
+            "output_crossings_s": [
+              8.134773328248422e-07
+            ],
+            "total_delay_s": 1.2477332824843463e-08,
+            "fda_delay_s": 6.898216909175813e-09,
+            "comparator_delay_s": 5.57911591566765e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.0018419402102574714,
+          0.001760446213088393,
+          0.001724660203626334,
+          0.0017662801199013617
+        ],
+        "cm_errors_V": [
+          0.0022902832242563953,
+          0.002286861455989664,
+          0.0022899097717101746,
+          0.0022867847089154125
+        ],
+        "fda_pin_min_V": 2.020680717161027,
+        "fda_pin_max_V": 2.058033159409065,
+        "output_current_max_A": 0.002119311603522427,
+        "comparator_pin_min_V": 1.613923992833098,
+        "comparator_pin_max_V": 1.690649719309821,
+        "mean_fda_supply_A": -0.0014083957473533379,
+        "mean_comparator_supply_A": -0.0033901720677568716,
+        "bias_threshold_range_V": [
+          0.03868414451492996,
+          0.16148516251913092
+        ],
+        "means_A": {
+          "upstream": 0.000945854766616527,
+          "reference": 0.0009458547666174727,
+          "buffers": [
+            0.001450000009896395,
+            0.0014500000101969326,
+            0.0014500000095958342
+          ]
+        },
+        "buffer_output_max_A": 0.008251705970255973,
+        "feedback_input_max_A": 8.641934529298595e-05,
+        "positive_input_max_A": 7.83228983891604e-07
+      },
+      "files": {
+        "results/input_0pF/solver.log": "b731eb50fb31f038f8aa09028b5f4708b00b8a84326e95a39a86b64f20d27c3f",
+        "results/input_0pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_0pF/test.cir": "35adee83b39ad9aa8e68901bc8e62d50c67332b4d2617a084bbfe2dc7ace96be",
+        "results/input_0pF/wave.csv": "28c571ec6ab47e5a415dd4af37e91904fb948b2ff512c0618f1fd8ef2284bbaa"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "input_100pF",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 1e-10,
+      "status": "pass",
+      "returncode": 0,
+      "observed_last_time_s": 9.999999999999997e-07,
+      "rows": 100308,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true,
+          "rail5": true,
+          "rail3": true,
+          "reference": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000123e-07
+            ],
+            "fda_crossings_s": [
+              2.079779267695362e-07
+            ],
+            "output_crossings_s": [
+              2.134288986211643e-07
+            ],
+            "total_delay_s": 1.2428898621163074e-08,
+            "fda_delay_s": 6.977926769534959e-09,
+            "comparator_delay_s": 5.450971851628115e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0099999999999873e-07
+            ],
+            "fda_crossings_s": [
+              4.0797957130551627e-07
+            ],
+            "output_crossings_s": [
+              4.135573328249e-07
+            ],
+            "total_delay_s": 1.2557332824901258e-08,
+            "fda_delay_s": 6.979571305517537e-09,
+            "comparator_delay_s": 5.577761519383721e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.010000000000012e-07
+            ],
+            "fda_crossings_s": [
+              6.079770661848311e-07
+            ],
+            "output_crossings_s": [
+              6.134288986211187e-07
+            ],
+            "total_delay_s": 1.2428898621117493e-08,
+            "fda_delay_s": 6.977066184829919e-09,
+            "comparator_delay_s": 5.451832436287574e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999988e-07
+            ],
+            "fda_crossings_s": [
+              8.079795967639983e-07
+            ],
+            "output_crossings_s": [
+              8.135573328248425e-07
+            ],
+            "total_delay_s": 1.2557332824843766e-08,
+            "fda_delay_s": 6.979596763999569e-09,
+            "comparator_delay_s": 5.577736060844197e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.00035552013111567887,
+          0.0003926663666492941,
+          0.00035507167706645,
+          0.0003930266790094644
+        ],
+        "cm_errors_V": [
+          0.0022884687730531095,
+          0.0022884541906140754,
+          0.002288435253792631,
+          0.00228841562363713
+        ],
+        "fda_pin_min_V": 2.020991829154935,
+        "fda_pin_max_V": 2.057717265302188,
+        "output_current_max_A": 0.00208816081013267,
+        "comparator_pin_min_V": 1.615873538733532,
+        "comparator_pin_max_V": 1.688703346374419,
+        "mean_fda_supply_A": -0.0014092773485773731,
+        "mean_comparator_supply_A": -0.003390173710369389,
+        "bias_threshold_range_V": [
+          0.04286775389013009,
+          0.15724182655560992
+        ],
+        "means_A": {
+          "upstream": 0.0009458547752841152,
+          "reference": 0.0009458547752850607,
+          "buffers": [
+            0.0014500000098963955,
+            0.0014500000101966004,
+            0.001450000009596188
+          ]
+        },
+        "buffer_output_max_A": 0.00824380014413059,
+        "feedback_input_max_A": 0.0001121643395137588,
+        "positive_input_max_A": 5.866442204526764e-05
+      },
+      "files": {
+        "results/input_100pF/solver.log": "0d91ba847da1639bcfc46aaf002e65f09496c026d710d765c39628558c26a0ac",
+        "results/input_100pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_100pF/test.cir": "5c79a957dbe67e8232de4f5e937bdfa1aa6a7d11aabb9d43a0dc002a4dd3f629",
+        "results/input_100pF/wave.csv": "dff30d1206ddc5ffbc9a607e54e9d2f96433ab83a446985291ce325549dd7089"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "input_1000pF",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 1e-09,
+      "status": "pass",
+      "returncode": 0,
+      "observed_last_time_s": 9.999999999999997e-07,
+      "rows": 100308,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true,
+          "rail5": true,
+          "rail3": true,
+          "reference": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000123e-07
+            ],
+            "fda_crossings_s": [
+              2.0798103975400265e-07
+            ],
+            "output_crossings_s": [
+              2.134288986211643e-07
+            ],
+            "total_delay_s": 1.2428898621163074e-08,
+            "fda_delay_s": 6.981039754001423e-09,
+            "comparator_delay_s": 5.447858867161651e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0099999999999873e-07
+            ],
+            "fda_crossings_s": [
+              4.079830048057727e-07
+            ],
+            "output_crossings_s": [
+              4.1356733282490016e-07
+            ],
+            "total_delay_s": 1.2567332824901428e-08,
+            "fda_delay_s": 6.983004805773991e-09,
+            "comparator_delay_s": 5.5843280191274375e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.010000000000012e-07
+            ],
+            "fda_crossings_s": [
+              6.079801963212362e-07
+            ],
+            "output_crossings_s": [
+              6.134288986211187e-07
+            ],
+            "total_delay_s": 1.2428898621117493e-08,
+            "fda_delay_s": 6.9801963212349654e-09,
+            "comparator_delay_s": 5.448702299882528e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999988e-07
+            ],
+            "fda_crossings_s": [
+              8.079830049044329e-07
+            ],
+            "output_crossings_s": [
+              8.135673328248423e-07
+            ],
+            "total_delay_s": 1.2567332824843512e-08,
+            "fda_delay_s": 6.983004904434112e-09,
+            "comparator_delay_s": 5.5843279204094e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.0003536328568514782,
+          0.00039542089288439886,
+          0.0003535759068454339,
+          0.00039542147879527423
+        ],
+        "cm_errors_V": [
+          0.0022884844030541807,
+          0.0022884830594676053,
+          0.002288480831161177,
+          0.002288478252701509
+        ],
+        "fda_pin_min_V": 2.021016318906807,
+        "fda_pin_max_V": 2.057692863307767,
+        "output_current_max_A": 0.0020858348288919784,
+        "comparator_pin_min_V": 1.615992208927911,
+        "comparator_pin_max_V": 1.688584703326372,
+        "mean_fda_supply_A": -0.0014093766533309383,
+        "mean_comparator_supply_A": -0.0033901745392836483,
+        "bias_threshold_range_V": [
+          0.04310325602223508,
+          0.15699655977586202
+        ],
+        "means_A": {
+          "upstream": 0.0009458547743545124,
+          "reference": 0.0009458547743554579,
+          "buffers": [
+            0.0014500000098963955,
+            0.0014500000101965844,
+            0.001450000009596203
+          ]
+        },
+        "buffer_output_max_A": 0.008244092994994736,
+        "feedback_input_max_A": 0.0001140590079224749,
+        "positive_input_max_A": 6.297338566688755e-05
+      },
+      "files": {
+        "results/input_1000pF/solver.log": "71a5e5c16548b14edc52d90aba6f64e736ac5cee46d59c0f1e3c4363713795a4",
+        "results/input_1000pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_1000pF/test.cir": "a9effb8ee9acb91b4b924df65bc67139371fc0775de52463d534f3198db47479",
+        "results/input_1000pF/wave.csv": "ded625d0339740bafe0a189e5f28cbc44103a362ead3bb60abbce9800f2c6da9"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "input_10000pF",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 1e-08,
+      "status": "pass",
+      "returncode": 0,
+      "observed_last_time_s": 9.999999999999997e-07,
+      "rows": 100308,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true,
+          "rail5": true,
+          "rail3": true,
+          "reference": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000123e-07
+            ],
+            "fda_crossings_s": [
+              2.079813772034747e-07
+            ],
+            "output_crossings_s": [
+              2.134288986211643e-07
+            ],
+            "total_delay_s": 1.2428898621163074e-08,
+            "fda_delay_s": 6.9813772034734795e-09,
+            "comparator_delay_s": 5.447521417689595e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0099999999999873e-07
+            ],
+            "fda_crossings_s": [
+              4.079833452279075e-07
+            ],
+            "output_crossings_s": [
+              4.1356733282490016e-07
+            ],
+            "total_delay_s": 1.2567332824901428e-08,
+            "fda_delay_s": 6.9833452279087575e-09,
+            "comparator_delay_s": 5.583987596992671e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.010000000000012e-07
+            ],
+            "fda_crossings_s": [
+              6.079805326465892e-07
+            ],
+            "output_crossings_s": [
+              6.134288986211187e-07
+            ],
+            "total_delay_s": 1.2428898621117493e-08,
+            "fda_delay_s": 6.980532646587998e-09,
+            "comparator_delay_s": 5.448365974529495e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999988e-07
+            ],
+            "fda_crossings_s": [
+              8.079833452867727e-07
+            ],
+            "output_crossings_s": [
+              8.135673328248423e-07
+            ],
+            "total_delay_s": 1.2567332824843512e-08,
+            "fda_delay_s": 6.9833452867739474e-09,
+            "comparator_delay_s": 5.583987538069565e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.0003539231516965294,
+          0.0003957666717663705,
+          0.0003538666519045733,
+          0.0003957666599591486
+        ],
+        "cm_errors_V": [
+          0.002288487822449614,
+          0.0022884878143272225,
+          0.0022884875835411655,
+          0.0022884873374762194
+        ],
+        "fda_pin_min_V": 2.02101897560966,
+        "fda_pin_max_V": 2.057690215243599,
+        "output_current_max_A": 0.0020855829087388735,
+        "comparator_pin_min_V": 1.616005011675401,
+        "comparator_pin_max_V": 1.688571905566256,
+        "mean_fda_supply_A": -0.0014093876440452351,
+        "mean_comparator_supply_A": -0.0033901746040116937,
+        "bias_threshold_range_V": [
+          0.04312881028990989,
+          0.15697088470878007
+        ],
+        "means_A": {
+          "upstream": 0.0009458547741811394,
+          "reference": 0.000945854774182085,
+          "buffers": [
+            0.0014500000098963955,
+            0.0014500000101965837,
+            0.0014500000095962035
+          ]
+        },
+        "buffer_output_max_A": 0.00824412423182922,
+        "feedback_input_max_A": 0.000114263903256407,
+        "positive_input_max_A": 6.34395492231004e-05
+      },
+      "files": {
+        "results/input_10000pF/solver.log": "f103a205b51020b746ef3dee8909227e3f390f15df17076ad3254810e94f560f",
+        "results/input_10000pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_10000pF/test.cir": "d44f4c4b4981304a378264a747cfdbfedd497d016474dcc581b39a510a1f7973",
+        "results/input_10000pF/wave.csv": "ee010de39102c25e6b030cbf4813f46df796d91a27e017031d90cc90bb54315c"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-12,
+      "ramp_s": 2e-09,
+      "id": "input_1000pF_5ps",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 1e-09,
+      "status": "blocked",
+      "returncode": 0,
+      "observed_last_time_s": 2.081141645751913e-07,
+      "reason": "Incomplete transient",
+      "partial_waveform": {
+        "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-input-decoupling-2te31wa2\\input_1000pF_5ps\\wave.txt",
+        "sha256": "16828e637f439e20a3d7bb5d75a3b7bd6bc2cb6946f4e4e687ec5d34f21f3f96",
+        "accepted": false
+      },
+      "files": {
+        "results/input_1000pF_5ps/solver.log": "5ad21187fd543c70a3bd6cc287ea47c85674d0ab7fe59d76df23d924de68a65b",
+        "results/input_1000pF_5ps/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_1000pF_5ps/test.cir": "3c20e6f2cb6c739d808f902e4bf7dd824bb15a316245791a205f82285a8c7423"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-12,
+      "ramp_s": 2e-09,
+      "id": "input_10000pF_5ps",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 1e-08,
+      "status": "blocked",
+      "returncode": 0,
+      "observed_last_time_s": 2.081145119458776e-07,
+      "reason": "Incomplete transient",
+      "partial_waveform": {
+        "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-input-decoupling-2te31wa2\\input_10000pF_5ps\\wave.txt",
+        "sha256": "1cc41f7a2490dd2e25ba7d17eb583999e9af9b9bc38d13d84dfb3b113b637086",
+        "accepted": false
+      },
+      "files": {
+        "results/input_10000pF_5ps/solver.log": "fb33572f9a4228de46bcc052a088ca381e15dd18941d87f928c7fac280d3337c",
+        "results/input_10000pF_5ps/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_10000pF_5ps/test.cir": "733a83c7ebb6d181400bed620823d71e807de77f975bc6199d12e33833e34745"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "input_1000pF_ratio",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0.001,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 1e-09,
+      "status": "fail",
+      "returncode": 0,
+      "observed_last_time_s": 9.999999999999997e-07,
+      "rows": 100308,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true,
+          "rail5": true,
+          "rail3": true,
+          "reference": true
+        },
+        "violations": [
+          "dc_amplitude"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000123e-07
+            ],
+            "fda_crossings_s": [
+              2.0783754028141466e-07
+            ],
+            "output_crossings_s": [
+              2.132888986211642e-07
+            ],
+            "total_delay_s": 1.2288898621162968e-08,
+            "fda_delay_s": 6.8375402814134324e-09,
+            "comparator_delay_s": 5.451358339749536e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0099999999999873e-07
+            ],
+            "fda_crossings_s": [
+              4.081238825634281e-07
+            ],
+            "output_crossings_s": [
+              4.136973328249002e-07
+            ],
+            "total_delay_s": 1.269733282490147e-08,
+            "fda_delay_s": 7.12388256342935e-09,
+            "comparator_delay_s": 5.57345026147212e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.010000000000012e-07
+            ],
+            "fda_crossings_s": [
+              6.078366946494439e-07
+            ],
+            "output_crossings_s": [
+              6.132888986211193e-07
+            ],
+            "total_delay_s": 1.2288898621118076e-08,
+            "fda_delay_s": 6.836694649442712e-09,
+            "comparator_delay_s": 5.452203971675364e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999988e-07
+            ],
+            "fda_crossings_s": [
+              8.081238826766647e-07
+            ],
+            "output_crossings_s": [
+              8.13697332824842e-07
+            ],
+            "total_delay_s": 1.2697332824843183e-08,
+            "fda_delay_s": 7.123882676665955e-09,
+            "comparator_delay_s": 5.573450148177228e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.002406335645017403,
+          0.002513368006634195,
+          0.002406295926912598,
+          0.0025133685897513053
+        ],
+        "cm_errors_V": [
+          8.043591814077544e-05,
+          8.043457937212395e-05,
+          8.043234639965036e-05,
+          8.042976553612746e-05
+        ],
+        "fda_pin_min_V": 2.01990397886053,
+        "fda_pin_max_V": 2.056580521907639,
+        "output_current_max_A": 0.002090154053184707,
+        "comparator_pin_min_V": 1.612725186881085,
+        "comparator_pin_max_V": 1.68743562841116,
+        "mean_fda_supply_A": -0.0014095752491644785,
+        "mean_comparator_supply_A": -0.003390196686626684,
+        "bias_threshold_range_V": [
+          0.03868097695221606,
+          0.15257428072219503
+        ],
+        "means_A": {
+          "upstream": 0.000945839798514694,
+          "reference": 0.0009458397985156398,
+          "buffers": [
+            0.001450000009909663,
+            0.0014500000101835134,
+            0.001450000009609673
+          ]
+        },
+        "buffer_output_max_A": 0.008232102989111513,
+        "feedback_input_max_A": 0.0001140590072462953,
+        "positive_input_max_A": 6.297338607785624e-05
+      },
+      "files": {
+        "results/input_1000pF_ratio/solver.log": "44cc0198665c49b215474ab5d2cdeddc3316f939bfb3d5af18f2214112634a6a",
+        "results/input_1000pF_ratio/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_1000pF_ratio/test.cir": "aeec8e675ae3e168b4a1216438db485fb8359ba569dc88506b60acf9c2d9893a",
+        "results/input_1000pF_ratio/wave.csv": "499ad8ddfb8d653a49bfa4c0f42321e05b055e2e929d16d8c720fb1aecaa803d"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "input_1000pF_realrails",
+      "bias": "buffered",
+      "real_rails": true,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-11,
+      "input_cap_F": 1e-09,
+      "status": "blocked",
+      "returncode": 0,
+      "reason": "No waveform",
+      "files": {
+        "results/input_1000pF_realrails/solver.log": "0441eb336c40a3c18c780986bc103faaf49a24853d53d5af856732623dd65ae5",
+        "results/input_1000pF_realrails/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_1000pF_realrails/test.cir": "82e1a8a393b6f3d183fc86283f1c1b4b4f63d43a6a579979980da311e257b3cf"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "input_1000pF_output100pF",
+      "bias": "buffered",
+      "real_rails": false,
+      "perturbation": 0,
+      "slow_startup": false,
+      "bias_cap_F": 1e-10,
+      "input_cap_F": 1e-09,
+      "status": "pass",
+      "returncode": 0,
+      "observed_last_time_s": 9.999999999999997e-07,
+      "rows": 100308,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true,
+          "rail5": true,
+          "rail3": true,
+          "reference": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000123e-07
+            ],
+            "fda_crossings_s": [
+              2.0839239031713662e-07
+            ],
+            "output_crossings_s": [
+              2.1385889862116482e-07
+            ],
+            "total_delay_s": 1.2858898621163588e-08,
+            "fda_delay_s": 7.392390317135385e-09,
+            "comparator_delay_s": 5.466508304028203e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0099999999999873e-07
+            ],
+            "fda_crossings_s": [
+              4.083951242784466e-07
+            ],
+            "output_crossings_s": [
+              4.1400733282490066e-07
+            ],
+            "total_delay_s": 1.3007332824901927e-08,
+            "fda_delay_s": 7.395124278447861e-09,
+            "comparator_delay_s": 5.612208546454066e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.010000000000012e-07
+            ],
+            "fda_crossings_s": [
+              6.083919676996965e-07
+            ],
+            "output_crossings_s": [
+              6.138588986211169e-07
+            ],
+            "total_delay_s": 1.2858898621115704e-08,
+            "fda_delay_s": 7.3919676996952755e-09,
+            "comparator_delay_s": 5.466930921420429e-09,
+            "low_V": 3.29795526661986,
+            "high_V": 3.29795526661986,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999988e-07
+            ],
+            "fda_crossings_s": [
+              8.083951242828986e-07
+            ],
+            "output_crossings_s": [
+              8.140073328248405e-07
+            ],
+            "total_delay_s": 1.3007332824841682e-08,
+            "fda_delay_s": 7.395124282899814e-09,
+            "comparator_delay_s": 5.612208541941868e-09,
+            "low_V": 3.034290752777536e-10,
+            "high_V": 3.034290752777536e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.0002026702411455708,
+          0.0002445080668282279,
+          0.0002026627762846192,
+          0.0002445086589223794
+        ],
+        "cm_errors_V": [
+          0.0022884850149580416,
+          0.0022884830632774467,
+          0.002288480833604112,
+          0.002288478247827186
+        ],
+        "fda_pin_min_V": 2.024175870118653,
+        "fda_pin_max_V": 2.054533312132985,
+        "output_current_max_A": 0.0018523580300488305,
+        "comparator_pin_min_V": 1.619750819171841,
+        "comparator_pin_max_V": 1.684826026835145,
+        "mean_fda_supply_A": -0.001399103417442084,
+        "mean_comparator_supply_A": -0.003390175353036048,
+        "bias_threshold_range_V": [
+          0.06447371399548296,
+          0.13562653385132406
+        ],
+        "means_A": {
+          "upstream": 0.0009458547737055733,
+          "reference": 0.0009458547737065189,
+          "buffers": [
+            0.0014500000098963955,
+            0.0014500000101965956,
+            0.001450000009596192
+          ]
+        },
+        "buffer_output_max_A": 0.008333826843210492,
+        "feedback_input_max_A": 2.906679413428037e-05,
+        "positive_input_max_A": 1.604792353712713e-05
+      },
+      "files": {
+        "results/input_1000pF_output100pF/solver.log": "979d5eb4a467ebeae78e46e527cf861a8ded2b1acd086a2b45950da98827522b",
+        "results/input_1000pF_output100pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/input_1000pF_output100pF/test.cir": "c97cd132b8662b0b53af48573f410180f849b510429214121837984bc145c289",
+        "results/input_1000pF_output100pF/wave.csv": "3a3bd2c988a102496b2b6089588e3e45875219bb47c8161806cd1cb2b65f0bad"
+      }
+    }
+  ],
+  "cache": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-input-decoupling-2te31wa2",
+  "previous_evidence_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\run_feedback_audit.py": "b3321c6cced89f7cb132e1c5ea54d1fdd4de6b5fb2e1e218839a08849d7984cf",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\summary.json": "a86f3695c4f1431301014f5b7cd9f68e5545d69fbf5a5dddfcae1fed4f3cea1c",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\test_feedback_audit.py": "3c8d0758ab4e35582aace9b588e3d55f5f13204783417308538b8313e17d0685",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\verification.json": "e145a9452eaae8b3dfa5c1e8c00851f57d92a76d5d6358ca5bc94d98442ba4e4",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\verify_feedback_audit.py": "ee99888d6c5002be172fab67cbef2cef64e21cece80aea87cd348b83cc44382a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF\\solver.log": "1949ec1842b72ecbdfec5194f3652ece69c8e9df6dc72662c24f3138488075c6",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF\\test.cir": "f1af0b7d2e8f290cf0fae017f5471614005a5d0ff2fe21333db097387914f859",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF\\wave.csv": "58555be67d2f21ab03f86d8e2342d35642c7c1dad3f6143b23bb4fbc33280d2e",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_5ps\\solver.log": "f758d08978e9ea35d6e1303e8818d20c42cfeeef08d6511310d949707cd7f7f3",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_5ps\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_5ps\\test.cir": "40ba53c2e1cc50fd06d2373f32176d72dc358fb26d01023ac1f573b18c447ece",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_ratio\\solver.log": "3e91f8ad41af3a692b3a4a2a2b038c5469257ae90016e88f0cef6043bbe67447",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_ratio\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_ratio\\test.cir": "9e046c02e4c370eb55e5f06d4827a6963f8469abaacb9abfbaf829747bab4fdd",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_ratio\\wave.csv": "51137ea5827dd6e70091e462bc1b4af70c7068c49cd4dc900509c326aba37f78",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_realrails\\solver.log": "8d3baa295ddb1596ae69cd11d5635ab5ebc0b75519dc3e0378d9505b5f7ba9d3",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_realrails\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_1000pF_realrails\\test.cir": "afd99dce905332032f9cd7b51e9a3772f33db8bbd003935456900de05d9bce8f",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_100pF\\solver.log": "d1566028be1d2d01bf9f494962f0bf11df246becd42502bf8834bb3d2cb62a6f",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_100pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_100pF\\test.cir": "8550552caefe4e8732578247b3e374e41355587b0f84814555cc80cd92b3355a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_100pF\\wave.csv": "972ce5743c11d21555994f74657e72945427bd73b43cae596ffbd83216f6efaa",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_10pF\\solver.log": "251f3273be8e06246a2ae495fd5c92ed9e533ec1212f319aa6ce09bbc9c6fb7f",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_10pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_10pF\\test.cir": "a260aa487f0e4ea30466aa001b998536990e8397ff559f0af422fc9bbf20caf0",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_10pF\\wave.csv": "c6a61d48ef94b3dfbdae029e54b22e0c7e28992fc6b482cba634acd4eb7f5f3b",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_470pF\\solver.log": "f305a42fde14336214c2061f3bc4be2b87a0b47c7533f7c443a90313af2a0b22",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_470pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_470pF\\test.cir": "d066db17c93463adc9a3258d30988828ca50ece5d765dc28ee9961c1e60f37c6",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u53c2\u8003\u53cd\u9988\u7535\u6d41\u590d\u6838\\results\\bias_470pF\\wave.csv": "3a4089eeab027c2ebc277768f8cea903f297408edb7707f29651687255a584d2"
+  },
+  "original_files_sha256": {
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-linked-reference-rbzxf63z\\OPAx320-Q1.LIB": "a272838427e8988bdc662887238d2698d23feb0d39400a2c4c4a929f10c29460",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551.lib": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tlv3501.lib": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\REF5050.LIB": "ed2d2602cfee90ae26eb7bf3644a4bcb6ce71f3eba71a7d014c53b87cc20f3ab",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\tps7a20-adj_trans.lib": "154acfdd2199ac44259908b90b07d15bc7e535a45c8c51d1413894c900718b69",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+  },
+  "vendor_library_edits": false,
+  "candidate_components_ideal": true,
+  "synthetic_receiver": true,
+  "upstream_ideal": true,
+  "input_capacitors_require_startup_and_tolerance_validation": true,
+  "full_G4_G5_passed": false,
+  "full_power_passed": false,
+  "startup_passed": false,
+  "full_joint_passed": false,
+  "runner_sha256": "96971e1bebf6b6f52d00543109387ec492780c23ee46cbbfa677b8f7f7c69205",
+  "declared_configurations_sha256": "d4bceead4a74c05363167d3fc06d87deec92d54395d918f43bd28ef536f8e60b"
+}

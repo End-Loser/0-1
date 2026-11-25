@@ -1,0 +1,18 @@
+[
+  {
+    "id": "original_single_control",
+    "finish_s": 0.01,
+    "window_s": [
+      0.0097,
+      0.0099
+    ]
+  },
+  {
+    "id": "direct_5Vin_3.3Vout",
+    "finish_s": 0.002,
+    "window_s": [
+      0.0017,
+      0.0019
+    ]
+  }
+]

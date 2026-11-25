@@ -1,0 +1,124 @@
+{
+  "case": "combined_timing_probe_078_euler_15ns_200ps_trap",
+  "profile": "combined",
+  "scope": "timing_probe",
+  "tag": "078_euler",
+  "errors": [
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 15,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "3a59f9c2a7a5a6cdd96b118656e9ff196807e7bbc04899889b55e1afc9d2a552",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        9.75e-07,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        9.75e-07,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 13297,
+  "unique_points": 13297,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 64,
+  "sample_passed": 73,
+  "minimum_late_margin_V": -2.099284011843475,
+  "worst_slot": {
+    "slot": 41,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.099284011843475
+  },
+  "first_bad": {
+    "slot": 2,
+    "state": "001",
+    "channel": "sum",
+    "sample_error6": -0.01,
+    "slot_start_ns": 30.000000000000004
+  },
+  "max_settling_ns": 14.931731132792752,
+  "unsettled": 55,
+  "energy_J": 7.662542334467266e-09,
+  "power_W": 0.007859017778940786,
+  "energy_per_slot_J": 1.178852666841118e-10,
+  "warning": false
+}

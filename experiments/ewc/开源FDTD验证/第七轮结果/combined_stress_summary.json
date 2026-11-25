@@ -1,0 +1,34 @@
+{
+  "scenario": "combined_stress",
+  "wave_scenario": "epsilon_plus_1_percent",
+  "parameters": {
+    "offset": 0.0065,
+    "input_temperature": 330,
+    "supply": 3.0,
+    "capacitance": 2e-11,
+    "path_gain_scale": [
+      1.05,
+      0.95,
+      1.05
+    ],
+    "cancel_gain_scale": 1.05
+  },
+  "slot_ns": 40,
+  "dt_ps": 100,
+  "supply_V": 3.0,
+  "capacitance_F": 2e-11,
+  "method": "trap",
+  "state_slots": 65,
+  "covered_directed_transitions": 64,
+  "decisions": 130,
+  "passed_decisions": 121,
+  "sample_passed_decisions": 130,
+  "unsettled_decisions": 0,
+  "max_observed_settling_s": 3.476660800000002e-08,
+  "unchanged_expected_excursions": 6,
+  "duration_s": 2.6e-06,
+  "supply_energy_J": 9.07503689309729e-09,
+  "mean_supply_power_W": 0.0034903988050374196,
+  "peak_supply_power_W": 0.0426111369,
+  "solver_log_mentions_warning": false
+}

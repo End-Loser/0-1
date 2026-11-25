@@ -1,0 +1,1199 @@
+{
+  "partial_mode": true,
+  "source_manifest_read_sha256": "f97e71293359231e57b7bcae0941e882bc357f329b4b59cec7c5f3fb24b7487a",
+  "manifest_snapshot": {
+    "status": "failed_preserve_partial",
+    "source_sha256": {
+      "run_copper_gauss_longtime.py": "3bf1f0679d197fc2b942764ada3a4c61fcafc4b1e8d3984a5bca7297e68bf600",
+      "copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+      "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+      "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+      "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+      "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+    },
+    "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "approval_sha256": "27617c5451c5096cc3593b22b69fe4b03be819e52ef60e4ae5b63ddb55ccaf27",
+    "configuration_sha256": "65b639ce20408924ce5ffb81d503cbca1cb0dbea994d2d7eab5df0d9aeab66ae",
+    "cases": [
+      {
+        "id": "111_loss0_2.5ps",
+        "status": "running",
+        "chunks": [
+          {
+            "file": "steps_0000000_0040000.npz",
+            "sha256": "16716014d736fe9b941cb5f3be5c221202309a21a9482b50f7e4baeed38ca43d",
+            "start_step": 0,
+            "end_step": 40000,
+            "stepping_seconds": 2357.2834202999948
+          },
+          {
+            "file": "steps_0040000_0080000.npz",
+            "sha256": "adc6fb4e03c573dee5d53831fb084be429af583ffc101cbb269e8ae98d152b55",
+            "start_step": 40000,
+            "end_step": 80000,
+            "stepping_seconds": 2555.113002600032
+          },
+          {
+            "file": "steps_0080000_0120000.npz",
+            "sha256": "54cdf7940b0b8ebd41dccee2c892b88137acc065469c26577a68bcace9eec583",
+            "start_step": 80000,
+            "end_step": 120000,
+            "stepping_seconds": 2364.718706000014
+          },
+          {
+            "file": "steps_0120000_0160000.npz",
+            "sha256": "51398998265075cffe86db29b9f34ee2f2840a016694750b3c98223e2d9c78d7",
+            "start_step": 120000,
+            "end_step": 160000,
+            "stepping_seconds": 2463.723483699956
+          },
+          {
+            "file": "steps_0160000_0200000.npz",
+            "sha256": "0ab7db4e076ec7288f01a898c18257c2a62dd917627639fc14cce3c6a27e6c4a",
+            "start_step": 160000,
+            "end_step": 200000,
+            "stepping_seconds": 2400.1390381000238
+          },
+          {
+            "file": "steps_0200000_0240000.npz",
+            "sha256": "7e9a4176fac8503513b36f17fa4797745f7229ed719c1c4a3e1dd820f888105f",
+            "start_step": 200000,
+            "end_step": 240000,
+            "stepping_seconds": 2345.3580449
+          },
+          {
+            "file": "steps_0240000_0280000.npz",
+            "sha256": "56d72ac5fe624cfee0241e8442ed34e6ac6b2e4aa5ed1fcc5e9ce7eadfae445a",
+            "start_step": 240000,
+            "end_step": 280000,
+            "stepping_seconds": 2309.691667899955
+          },
+          {
+            "file": "steps_0280000_0320000.npz",
+            "sha256": "6425b38c047d5b2301ad22376829163637b9d69250dc308bf9e41691bdfc333c",
+            "start_step": 280000,
+            "end_step": 320000,
+            "stepping_seconds": 2195.439499200089
+          },
+          {
+            "file": "steps_0320000_0360000.npz",
+            "sha256": "9c43605e39851d4d6af7b62647472371239dfa70f2ad95b0d0e754ae6ce95a93",
+            "start_step": 320000,
+            "end_step": 360000,
+            "stepping_seconds": 2218.0325666000135
+          },
+          {
+            "file": "steps_0360000_0400000.npz",
+            "sha256": "4f024603974c95a514fd22f28c71b5a4c595a3f695f6b9401a851f9a78dc793c",
+            "start_step": 360000,
+            "end_step": 400000,
+            "stepping_seconds": 3113.698265200015
+          },
+          {
+            "file": "steps_0400000_0440000.npz",
+            "sha256": "235a323753e3f2778d4dfe04bf07d3ce42ca24a64553aa32fef25c6b164dc34c",
+            "start_step": 400000,
+            "end_step": 440000,
+            "stepping_seconds": 4811.143996699946
+          },
+          {
+            "file": "steps_0440000_0480000.npz",
+            "sha256": "2c6da32a2773174bc141e5147dab41d07b7f8455450e7f1c55adde1bb53e1e38",
+            "start_step": 440000,
+            "end_step": 480000,
+            "stepping_seconds": 4323.699383300031
+          },
+          {
+            "file": "steps_0480000_0520000.npz",
+            "sha256": "ec9f275e1810680f38cd034d92c0a91226d589944303ab6aed4e960d57aada4e",
+            "start_step": 480000,
+            "end_step": 520000,
+            "stepping_seconds": 4780.691333199968
+          },
+          {
+            "file": "steps_0520000_0560000.npz",
+            "sha256": "5e230d7cfb18bf0b02083c0d10c02601c30da5a5cf8bbfbcab954b4b19e75d15",
+            "start_step": 520000,
+            "end_step": 560000,
+            "stepping_seconds": 4636.407929699984
+          },
+          {
+            "file": "steps_0560000_0600000.npz",
+            "sha256": "4cbd7a3c79cfaab8db9e3066fd540e7dd0a57f7b1dd4a4494a956917bb73e9e7",
+            "start_step": 560000,
+            "end_step": 600000,
+            "stepping_seconds": 4517.588493200019
+          },
+          {
+            "file": "steps_0600000_0640000.npz",
+            "sha256": "d6103811862548dcd286f9df95756fc90165cf089b071eebcf81a2f88f9f0930",
+            "start_step": 600000,
+            "end_step": 640000,
+            "stepping_seconds": 4475.248054499971
+          },
+          {
+            "file": "steps_0640000_0680000.npz",
+            "sha256": "8585d004374ce10fd45c8c3b573dd6c2adaae79338a814d39926be4c9edd364b",
+            "start_step": 640000,
+            "end_step": 680000,
+            "stepping_seconds": 4134.86917630001
+          },
+          {
+            "file": "steps_0680000_0720000.npz",
+            "sha256": "931775f5f10d28c814804e7316a9b0635dc4f894850ec60c29de52dac2806d42",
+            "start_step": 680000,
+            "end_step": 720000,
+            "stepping_seconds": 3529.722052500001
+          },
+          {
+            "file": "steps_0720000_0760000.npz",
+            "sha256": "15598a840bf44cde3ec4ed1fa1e5b5baa1e6d0ec7a3c2e7265759b6d3c9605f5",
+            "start_step": 720000,
+            "end_step": 760000,
+            "stepping_seconds": 3534.952799199964
+          },
+          {
+            "file": "steps_0760000_0800000.npz",
+            "sha256": "b7a2870380a5baf269f24ffee1cdd9eeba8cfc5ee8d842e6f0608f77317657ed",
+            "start_step": 760000,
+            "end_step": 800000,
+            "stepping_seconds": 3624.120662900037
+          },
+          {
+            "file": "steps_0800000_0840000.npz",
+            "sha256": "a27c8c1e0f0fc0059a19f952048e5ae7796d25790c3d28052f522db11773bc82",
+            "start_step": 800000,
+            "end_step": 840000,
+            "stepping_seconds": 5839.610703700106
+          },
+          {
+            "file": "steps_0840000_0880000.npz",
+            "sha256": "a80c803af0dada10e380dfb37cb1b570dba4ce0b77414bf109fa6bb4ff2e9fd3",
+            "start_step": 840000,
+            "end_step": 880000,
+            "stepping_seconds": 6032.5224080999615
+          },
+          {
+            "file": "steps_0880000_0920000.npz",
+            "sha256": "23903bcfdb5a4fa043176519b65416bc5a0d468e2b4b3683faae04878b721b6b",
+            "start_step": 880000,
+            "end_step": 920000,
+            "stepping_seconds": 4549.92393639998
+          },
+          {
+            "file": "steps_0920000_0960000.npz",
+            "sha256": "ecc43eb9de3b601a45c45e8e990654fb9830d1bd40e881864fc5807046262f11",
+            "start_step": 920000,
+            "end_step": 960000,
+            "stepping_seconds": 5707.036298899911
+          },
+          {
+            "file": "steps_0960000_1000000.npz",
+            "sha256": "a40515352f6a3171dbfe93489328f4234c243b188014cd39573f6bcba8a85bc1",
+            "start_step": 960000,
+            "end_step": 1000000,
+            "stepping_seconds": 6187.618370500044
+          },
+          {
+            "file": "steps_1000000_1040000.npz",
+            "sha256": "5e98ac1ca377aa33c79ed0faa5f5fe41ccab155b707fc8daf993715e78640c49",
+            "start_step": 1000000,
+            "end_step": 1040000,
+            "stepping_seconds": 6210.251417399966
+          }
+        ],
+        "completed_steps": 1040000
+      }
+    ],
+    "full_long_history_passed": false,
+    "general_initial_state_approved": false,
+    "actual_feed_passed": false,
+    "full_joint_simulation_passed": false,
+    "full_system_gates_closed": 0,
+    "failure_type": "RuntimeError",
+    "failure_message": "Less than 8 GiB free; preserve originals and request storage"
+  },
+  "sources_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0000000_0040000.npz": "16716014d736fe9b941cb5f3be5c221202309a21a9482b50f7e4baeed38ca43d",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0040000_0080000.npz": "adc6fb4e03c573dee5d53831fb084be429af583ffc101cbb269e8ae98d152b55",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0080000_0120000.npz": "54cdf7940b0b8ebd41dccee2c892b88137acc065469c26577a68bcace9eec583",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0120000_0160000.npz": "51398998265075cffe86db29b9f34ee2f2840a016694750b3c98223e2d9c78d7",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0160000_0200000.npz": "0ab7db4e076ec7288f01a898c18257c2a62dd917627639fc14cce3c6a27e6c4a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0200000_0240000.npz": "7e9a4176fac8503513b36f17fa4797745f7229ed719c1c4a3e1dd820f888105f",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0240000_0280000.npz": "56d72ac5fe624cfee0241e8442ed34e6ac6b2e4aa5ed1fcc5e9ce7eadfae445a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0280000_0320000.npz": "6425b38c047d5b2301ad22376829163637b9d69250dc308bf9e41691bdfc333c",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0320000_0360000.npz": "9c43605e39851d4d6af7b62647472371239dfa70f2ad95b0d0e754ae6ce95a93",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0360000_0400000.npz": "4f024603974c95a514fd22f28c71b5a4c595a3f695f6b9401a851f9a78dc793c",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0400000_0440000.npz": "235a323753e3f2778d4dfe04bf07d3ce42ca24a64553aa32fef25c6b164dc34c",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0440000_0480000.npz": "2c6da32a2773174bc141e5147dab41d07b7f8455450e7f1c55adde1bb53e1e38",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0480000_0520000.npz": "ec9f275e1810680f38cd034d92c0a91226d589944303ab6aed4e960d57aada4e",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0520000_0560000.npz": "5e230d7cfb18bf0b02083c0d10c02601c30da5a5cf8bbfbcab954b4b19e75d15",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0560000_0600000.npz": "4cbd7a3c79cfaab8db9e3066fd540e7dd0a57f7b1dd4a4494a956917bb73e9e7",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0600000_0640000.npz": "d6103811862548dcd286f9df95756fc90165cf089b071eebcf81a2f88f9f0930",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0640000_0680000.npz": "8585d004374ce10fd45c8c3b573dd6c2adaae79338a814d39926be4c9edd364b",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0680000_0720000.npz": "931775f5f10d28c814804e7316a9b0635dc4f894850ec60c29de52dac2806d42",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0720000_0760000.npz": "15598a840bf44cde3ec4ed1fa1e5b5baa1e6d0ec7a3c2e7265759b6d3c9605f5",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0760000_0800000.npz": "b7a2870380a5baf269f24ffee1cdd9eeba8cfc5ee8d842e6f0608f77317657ed",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0800000_0840000.npz": "a27c8c1e0f0fc0059a19f952048e5ae7796d25790c3d28052f522db11773bc82",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0840000_0880000.npz": "a80c803af0dada10e380dfb37cb1b570dba4ce0b77414bf109fa6bb4ff2e9fd3",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0880000_0920000.npz": "23903bcfdb5a4fa043176519b65416bc5a0d468e2b4b3683faae04878b721b6b",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0920000_0960000.npz": "ecc43eb9de3b601a45c45e8e990654fb9830d1bd40e881864fc5807046262f11",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_0960000_1000000.npz": "a40515352f6a3171dbfe93489328f4234c243b188014cd39573f6bcba8a85bc1",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u94dc\u8154\u56db\u9636\u53cc\u6781\u5316\u4e0e\u591a\u7d22\u5f158us\u7ed3\u679c\\111_loss0_2.5ps\\steps_1000000_1040000.npz": "5e98ac1ca377aa33c79ed0faa5f5fe41ccab155b707fc8daf993715e78640c49"
+  },
+  "cases": [
+    {
+      "id": "111_loss0_2.5ps",
+      "completed_steps": 1040000,
+      "completed_s": 2.5999999999999997e-06,
+      "complete": false,
+      "chunks": [
+        {
+          "file": "steps_0000000_0040000.npz",
+          "energy_closure": 1.4000800518942924e-11,
+          "anchors": [
+            {
+              "step": 0,
+              "electric": 4.817185115454539e-12,
+              "magnetic": 1.3526284086186097e-16,
+              "RL": 9.737255925489652e-12,
+              "charge": 2.0758673397412583e-11,
+              "wall": 8.343848907383473e-14,
+              "energy": 1.3981692479186305e-15,
+              "before_energy_J": 0.5,
+              "after_energy_J": 0.49999999111321597,
+              "heat_J": 8.886784729966124e-09,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 799,
+              "electric": 2.317687743760185e-13,
+              "magnetic": 1.8471196235915547e-15,
+              "RL": 4.532565162371239e-11,
+              "charge": 7.197500838993804e-13,
+              "wall": 3.263106788176349e-13,
+              "energy": 1.4518377466363333e-15,
+              "before_energy_J": 0.49907149145496116,
+              "after_energy_J": 0.4990698667931024,
+              "heat_J": 1.6246618594924327e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 1599,
+              "electric": 2.221659405967286e-13,
+              "magnetic": 1.116790296873759e-14,
+              "RL": 8.147998486457319e-11,
+              "charge": 6.73624044631305e-13,
+              "wall": 6.094703357721765e-13,
+              "energy": 8.221211091987716e-16,
+              "before_energy_J": 0.4981133664041081,
+              "after_energy_J": 0.4981114083521936,
+              "heat_J": 1.9580519149063373e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 2399,
+              "electric": 2.1416529701079078e-13,
+              "magnetic": 4.571297708230734e-15,
+              "RL": 1.2023865214458627e-10,
+              "charge": 6.360172647096138e-13,
+              "wall": 1.5410926217682867e-12,
+              "energy": 1.0083834588451634e-15,
+              "before_energy_J": 0.4971616446557746,
+              "after_energy_J": 0.4971606303520706,
+              "heat_J": 1.0143037045291043e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 3199,
+              "electric": 1.936109774080583e-13,
+              "magnetic": 9.804773566733544e-16,
+              "RL": 4.936281005811674e-11,
+              "charge": 5.309609800847673e-13,
+              "wall": 4.5001010940902475e-13,
+              "energy": 2.088646223807143e-15,
+              "before_energy_J": 0.49622583098927986,
+              "after_energy_J": 0.49622548550753104,
+              "heat_J": 3.454817498566491e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 3999,
+              "electric": 2.5372967930973634e-13,
+              "magnetic": 7.838255621881242e-16,
+              "RL": 2.387309249295951e-11,
+              "charge": 8.110932516628821e-13,
+              "wall": 1.861192433803596e-13,
+              "energy": 1.1517171084909713e-16,
+              "before_energy_J": 0.49529216133481485,
+              "after_energy_J": 0.495291115732,
+              "heat_J": 1.0456028147738601e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 4799,
+              "electric": 2.2716740050047173e-13,
+              "magnetic": 3.705029888731925e-15,
+              "RL": 6.275445985142772e-11,
+              "charge": 6.962952279177561e-13,
+              "wall": 4.362200095951921e-13,
+              "energy": 3.399388567060161e-16,
+              "before_energy_J": 0.4943463266169669,
+              "after_energy_J": 0.49434436826503164,
+              "heat_J": 1.958351935114773e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 5599,
+              "electric": 2.1916141466290282e-13,
+              "magnetic": 2.0252914902446117e-14,
+              "RL": 1.0110283565991261e-10,
+              "charge": 6.614060758418615e-13,
+              "wall": 8.313888871785949e-13,
+              "energy": 1.7593080701010336e-16,
+              "before_energy_J": 0.49339695617606594,
+              "after_energy_J": 0.4933953736661521,
+              "heat_J": 1.5825099139201558e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 6399,
+              "electric": 2.0833473689074689e-13,
+              "magnetic": 2.1916101928123184e-15,
+              "RL": 1.0687762840085287e-10,
+              "charge": 6.094579954896622e-13,
+              "wall": 6.018608478518506e-12,
+              "energy": 1.511008144960429e-16,
+              "before_energy_J": 0.4924613759950776,
+              "after_energy_J": 0.4924608401026619,
+              "heat_J": 5.358924157950182e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 39999,
+              "electric": 2.6633624818519377e-13,
+              "magnetic": 5.289794717108666e-16,
+              "RL": 1.6312406324946332e-11,
+              "charge": 8.726635281868343e-13,
+              "wall": 1.2778577751261976e-13,
+              "energy": 1.5246733744070558e-15,
+              "before_energy_J": 0.45468524867062743,
+              "after_energy_J": 0.45468444455978535,
+              "heat_J": 8.041108413854071e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0040000_0080000.npz",
+          "energy_closure": 2.6917135187431995e-11,
+          "anchors": [
+            {
+              "step": 40000,
+              "electric": 2.580645268608662e-13,
+              "magnetic": 6.394425616957767e-16,
+              "RL": 1.984050315622756e-11,
+              "charge": 8.349052037059435e-13,
+              "wall": 1.5493130138056222e-13,
+              "energy": 1.3823919755695014e-15,
+              "before_energy_J": 0.45468444455978535,
+              "after_energy_J": 0.45468357094859685,
+              "heat_J": 8.736111891295966e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 79999,
+              "electric": 2.445151341948998e-13,
+              "magnetic": 1.1227299703373656e-15,
+              "RL": 3.199301778206617e-11,
+              "charge": 7.735831710129949e-13,
+              "wall": 2.2442759280704582e-13,
+              "energy": 9.397184924890275e-17,
+              "before_energy_J": 0.4134601304469406,
+              "after_energy_J": 0.4134590835384611,
+              "heat_J": 1.046908479501725e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0080000_0120000.npz",
+          "energy_closure": 3.876210463715779e-11,
+          "anchors": [
+            {
+              "step": 80000,
+              "electric": 2.405808441641608e-13,
+              "magnetic": 1.2479626797354675e-15,
+              "RL": 3.489176755417746e-11,
+              "charge": 7.53019585473486e-13,
+              "wall": 2.3801027265731547e-13,
+              "energy": 5.341578280531998e-16,
+              "before_energy_J": 0.4134590835384611,
+              "after_energy_J": 0.4134579706606362,
+              "heat_J": 1.112877825114518e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 119999,
+              "electric": 2.3341893904625045e-13,
+              "magnetic": 1.877472516291576e-15,
+              "RL": 4.5254040759030176e-11,
+              "charge": 7.240153597879385e-13,
+              "wall": 3.3894092946057584e-13,
+              "energy": 5.982692814882986e-16,
+              "before_energy_J": 0.3759714015111448,
+              "after_energy_J": 0.3759701748491552,
+              "heat_J": 1.2266619898200225e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0120000_0160000.npz",
+          "energy_closure": 4.9541259983243435e-11,
+          "anchors": [
+            {
+              "step": 120000,
+              "electric": 2.317542826831464e-13,
+              "magnetic": 2.0553028868008716e-15,
+              "RL": 4.782109939342517e-11,
+              "charge": 7.168178639364194e-13,
+              "wall": 3.500776386375966e-13,
+              "energy": 5.067934299000041e-16,
+              "before_energy_J": 0.3759701748491552,
+              "after_energy_J": 0.3759688983258937,
+              "heat_J": 1.2765232612936578e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 159999,
+              "electric": 2.2739389933675946e-13,
+              "magnetic": 2.982570764041742e-15,
+              "RL": 5.733062567864945e-11,
+              "charge": 6.959108796288895e-13,
+              "wall": 4.0050437533370236e-13,
+              "energy": 2.3961310653433076e-16,
+              "before_energy_J": 0.3418807034917688,
+              "after_energy_J": 0.34187940208401535,
+              "heat_J": 1.3014077533693034e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0160000_0200000.npz",
+          "energy_closure": 5.934852609357222e-11,
+          "anchors": [
+            {
+              "step": 160000,
+              "electric": 2.2636623511402297e-13,
+              "magnetic": 3.275117740440528e-15,
+              "RL": 5.977163205776409e-11,
+              "charge": 6.892677074781681e-13,
+              "wall": 4.1951230665610864e-13,
+              "energy": 1.0198510813375525e-15,
+              "before_energy_J": 0.34187940208401535,
+              "after_energy_J": 0.34187807409887844,
+              "heat_J": 1.3279851372605683e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 199999,
+              "electric": 2.2479883918215525e-13,
+              "magnetic": 5.0551142536402454e-15,
+              "RL": 6.912086607702723e-11,
+              "charge": 6.856078724628609e-13,
+              "wall": 4.820901829533538e-13,
+              "energy": 6.910617954959815e-16,
+              "before_energy_J": 0.310880483472722,
+              "after_energy_J": 0.31087922466678075,
+              "heat_J": 1.258805941476991e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0200000_0240000.npz",
+          "energy_closure": 6.82660594719664e-11,
+          "anchors": [
+            {
+              "step": 200000,
+              "electric": 2.246339202088431e-13,
+              "magnetic": 5.672179189508841e-15,
+              "RL": 7.159761664549875e-11,
+              "charge": 6.860994288752268e-13,
+              "wall": 5.010906803433145e-13,
+              "energy": 3.822529069364995e-17,
+              "before_energy_J": 0.31087922466678075,
+              "after_energy_J": 0.31087796384950495,
+              "heat_J": 1.2608172757936313e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 239999,
+              "electric": 2.220595674888501e-13,
+              "magnetic": 1.1220021941992222e-14,
+              "RL": 8.135327636763259e-11,
+              "charge": 6.679949722338457e-13,
+              "wall": 5.886287877100786e-13,
+              "energy": 1.7080776691400018e-15,
+              "before_energy_J": 0.28269108605903115,
+              "after_energy_J": 0.28268997254384937,
+              "heat_J": 1.1135151822660118e-06,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0240000_0280000.npz",
+          "energy_closure": 7.63817897819763e-11,
+          "anchors": [
+            {
+              "step": 240000,
+              "electric": 2.215755524788742e-13,
+              "magnetic": 1.4498617566724643e-14,
+              "RL": 8.400116539342474e-11,
+              "charge": 6.654703695246711e-13,
+              "wall": 6.04129288706524e-13,
+              "energy": 5.314601160443633e-16,
+              "before_energy_J": 0.28268997254384937,
+              "after_energy_J": 0.28268887772598295,
+              "heat_J": 1.0948178662702781e-06,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 279999,
+              "electric": 1.8216184398570636e-15,
+              "magnetic": 3.130951385540378e-13,
+              "RL": 9.458514636884045e-11,
+              "charge": 5.608021605085251e-15,
+              "wall": 7.462135577816925e-13,
+              "energy": 1.0588954102109153e-15,
+              "before_energy_J": 0.2570580955072586,
+              "after_energy_J": 0.25705719586536363,
+              "heat_J": 8.996418952524608e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0280000_0320000.npz",
+          "energy_closure": 8.374745341654943e-11,
+          "anchors": [
+            {
+              "step": 280000,
+              "electric": 2.1984586292846934e-13,
+              "magnetic": 4.228925241621859e-14,
+              "RL": 9.746636040873215e-11,
+              "charge": 6.634569013727805e-13,
+              "wall": 7.812966445441165e-13,
+              "energy": 1.734836705567739e-16,
+              "before_energy_J": 0.25705719586536363,
+              "after_energy_J": 0.25705632830964725,
+              "heat_J": 8.675557163327154e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 319999,
+              "electric": 2.173567331385047e-13,
+              "magnetic": 9.476334208274051e-15,
+              "RL": 1.0863746530040962e-10,
+              "charge": 6.494699867345224e-13,
+              "wall": 9.910101005741365e-13,
+              "energy": 5.67418349068035e-16,
+              "before_energy_J": 0.23374998480785955,
+              "after_energy_J": 0.23374932481118252,
+              "heat_J": 6.599966771652822e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0320000_0360000.npz",
+          "energy_closure": 9.04507579946312e-11,
+          "anchors": [
+            {
+              "step": 320000,
+              "electric": 2.1680204750312517e-13,
+              "magnetic": 7.820739333311208e-15,
+              "RL": 1.1145838202146162e-10,
+              "charge": 6.475203444082341e-13,
+              "wall": 1.0777316259790487e-12,
+              "energy": 2.614304534527496e-17,
+              "before_energy_J": 0.23374932481118252,
+              "after_energy_J": 0.23374870156330133,
+              "heat_J": 6.232478811990563e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 359999,
+              "electric": 2.1512554453089706e-13,
+              "magnetic": 4.459898228469471e-15,
+              "RL": 1.2012387002362665e-10,
+              "charge": 6.4455741203683e-13,
+              "wall": 1.6615648920109657e-12,
+              "energy": 9.707343043002578e-16,
+              "before_energy_J": 0.21255602598166043,
+              "after_energy_J": 0.21255558959943904,
+              "heat_J": 4.3638222159231347e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0360000_0400000.npz",
+          "energy_closure": 9.653500221418199e-11,
+          "anchors": [
+            {
+              "step": 360000,
+              "electric": 2.1464578684941875e-13,
+              "magnetic": 4.045345595020586e-15,
+              "RL": 1.2128433339094038e-10,
+              "charge": 6.429752562720169e-13,
+              "wall": 1.8702110312601963e-12,
+              "energy": 3.696937082422908e-16,
+              "before_energy_J": 0.21255558959943904,
+              "after_energy_J": 0.21255518647691932,
+              "heat_J": 4.0312251980509804e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 399999,
+              "electric": 2.1063972263099809e-13,
+              "magnetic": 2.753877181434629e-15,
+              "RL": 1.173093652978676e-10,
+              "charge": 6.154405137114202e-13,
+              "wall": 7.372082147442294e-12,
+              "energy": 6.195222146408038e-17,
+              "before_energy_J": 0.19328441520306647,
+              "after_energy_J": 0.19328415412163719,
+              "heat_J": 2.6108142929335896e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0400000_0440000.npz",
+          "energy_closure": 1.0210365886109685e-10,
+          "anchors": [
+            {
+              "step": 400000,
+              "electric": 2.0997527205633428e-13,
+              "magnetic": 2.5126155186713845e-15,
+              "RL": 1.1347035980941191e-10,
+              "charge": 6.127378592785458e-13,
+              "wall": 1.382310177159352e-10,
+              "energy": 3.9190975100340853e-16,
+              "before_energy_J": 0.19328415412163719,
+              "after_energy_J": 0.1932839167700178,
+              "heat_J": 2.3735161931078887e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 439999,
+              "electric": 2.0663017541548572e-13,
+              "magnetic": 1.6995734312477676e-15,
+              "RL": 8.892695277121934e-11,
+              "charge": 6.061893076759156e-13,
+              "wall": 1.6507301658647624e-12,
+              "energy": 7.987136130086263e-16,
+              "before_energy_J": 0.17576061609800617,
+              "after_energy_J": 0.17576046415599017,
+              "heat_J": 1.5194201613715788e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0440000_0480000.npz",
+          "energy_closure": 1.0719913845491646e-10,
+          "anchors": [
+            {
+              "step": 440000,
+              "electric": 2.0505348196080617e-13,
+              "magnetic": 1.5146732334159003e-15,
+              "RL": 8.089168575957064e-11,
+              "charge": 5.995653342956222e-13,
+              "wall": 1.1844887824479003e-12,
+              "energy": 2.914101786230828e-16,
+              "before_energy_J": 0.17576046415599017,
+              "after_energy_J": 0.17576032331982164,
+              "heat_J": 1.4083616858410577e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 479999,
+              "electric": 1.9480598861653498e-13,
+              "magnetic": 9.962267487806936e-16,
+              "RL": 5.001417883387805e-11,
+              "charge": 5.466060231837231e-13,
+              "wall": 4.3826064931766593e-13,
+              "energy": 7.786056159690242e-17,
+              "before_energy_J": 0.15982586497966417,
+              "after_energy_J": 0.15982575362607082,
+              "heat_J": 1.1135359333368658e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0480000_0520000.npz",
+          "energy_closure": 1.118583004000584e-10,
+          "anchors": [
+            {
+              "step": 480000,
+              "electric": 1.912193930674323e-13,
+              "magnetic": 8.686999857281638e-16,
+              "RL": 4.257734698092299e-11,
+              "charge": 5.326573912721896e-13,
+              "wall": 3.473590880272917e-13,
+              "energy": 8.669014409484062e-16,
+              "before_energy_J": 0.15982575362607082,
+              "after_energy_J": 0.15982564072150598,
+              "heat_J": 1.1290456497481128e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 519999,
+              "electric": 1.6011669528824238e-13,
+              "magnetic": 4.059568364107078e-16,
+              "RL": 1.7879804957155054e-11,
+              "charge": 4.921678054562353e-13,
+              "wall": 1.1924544280445263e-13,
+              "energy": 1.710338436832416e-15,
+              "before_energy_J": 0.14533580417896902,
+              "after_energy_J": 0.14533567586424725,
+              "heat_J": 1.2831472201312869e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0520000_0560000.npz",
+          "energy_closure": 1.1610934436134812e-10,
+          "anchors": [
+            {
+              "step": 520000,
+              "electric": 5.021443451008467e-11,
+              "magnetic": 2.9608299118939194e-16,
+              "RL": 1.2374632074322126e-11,
+              "charge": 6.238574427346019e-11,
+              "wall": 7.133658404078223e-14,
+              "energy": 1.2470653177038474e-16,
+              "before_energy_J": 0.14533567586424725,
+              "after_energy_J": 0.1453355358427319,
+              "heat_J": 1.4002151537276233e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 559999,
+              "electric": 9.159003261368745e-11,
+              "magnetic": 2.4214455568113977e-16,
+              "RL": 5.69875110580512e-12,
+              "charge": 1.469846588087632e-10,
+              "wall": 5.84150573944611e-14,
+              "energy": 8.349479426532089e-16,
+              "before_energy_J": 0.13215923217007405,
+              "after_energy_J": 0.13215904929630462,
+              "heat_J": 1.8287376954350222e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0560000_0600000.npz",
+          "energy_closure": 1.2002088212170747e-10,
+          "anchors": [
+            {
+              "step": 560000,
+              "electric": 3.052710089591695e-13,
+              "magnetic": 3.3978887209244557e-16,
+              "RL": 9.772717743234665e-12,
+              "charge": 1.0465174742933158e-12,
+              "wall": 8.720728181099433e-14,
+              "energy": 8.491704979810837e-16,
+              "before_energy_J": 0.13215904929630462,
+              "after_energy_J": 0.1321588486574293,
+              "heat_J": 2.0063887543173986e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 599999,
+              "electric": 2.494871958861219e-13,
+              "magnetic": 7.756579657706899e-16,
+              "RL": 2.3522959371845727e-11,
+              "charge": 7.922192076118324e-13,
+              "wall": 1.8103628606843958e-13,
+              "energy": 4.206383591096691e-16,
+              "before_energy_J": 0.12017694315433404,
+              "after_energy_J": 0.12017669154935012,
+              "heat_J": 2.516049839674043e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0600000_0640000.npz",
+          "energy_closure": 1.2360557022361718e-10,
+          "anchors": [
+            {
+              "step": 600000,
+              "electric": 2.459212341236939e-13,
+              "magnetic": 9.094626673058214e-16,
+              "RL": 2.6732524755878384e-11,
+              "charge": 7.788880544859551e-13,
+              "wall": 2.0143584090680777e-13,
+              "energy": 4.2387569882304564e-16,
+              "before_energy_J": 0.12017669154935012,
+              "after_energy_J": 0.12017642072035362,
+              "heat_J": 2.708289964560488e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 639999,
+              "electric": 2.3694609731682727e-13,
+              "magnetic": 1.4411542452588223e-15,
+              "RL": 3.796690285398189e-11,
+              "charge": 7.367278452266882e-13,
+              "wall": 2.790843163678535e-13,
+              "energy": 5.557962259483266e-16,
+              "before_energy_J": 0.10928064135134553,
+              "after_energy_J": 0.10928032847317076,
+              "heat_J": 3.128781748320627e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0640000_0680000.npz",
+          "energy_closure": 1.2690959394490164e-10,
+          "anchors": [
+            {
+              "step": 640000,
+              "electric": 2.352054067494654e-13,
+              "magnetic": 1.5726089727010737e-15,
+              "RL": 4.069189203855908e-11,
+              "charge": 7.274979925703305e-13,
+              "wall": 2.8995786738253205e-13,
+              "energy": 5.088935475221665e-16,
+              "before_energy_J": 0.10928032847317076,
+              "after_energy_J": 0.10927999900572871,
+              "heat_J": 3.294674421062581e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 679999,
+              "electric": 2.322684701805029e-13,
+              "magnetic": 2.2466456095280824e-15,
+              "RL": 5.0587894025632785e-11,
+              "charge": 7.177984608710503e-13,
+              "wall": 3.6346461253907185e-13,
+              "energy": 3.446512774161342e-16,
+              "before_energy_J": 0.0993719383495344,
+              "after_energy_J": 0.09937158757621273,
+              "heat_J": 3.507733217010239e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0680000_0720000.npz",
+          "energy_closure": 1.299154117617718e-10,
+          "anchors": [
+            {
+              "step": 680000,
+              "electric": 2.316189065502816e-13,
+              "magnetic": 2.506230771835847e-15,
+              "RL": 5.3078112086524935e-11,
+              "charge": 7.159336965719506e-13,
+              "wall": 3.6993481082507227e-13,
+              "energy": 3.8432056889982707e-16,
+              "before_energy_J": 0.09937158757621273,
+              "after_energy_J": 0.09937122570828147,
+              "heat_J": 3.618679312971096e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 719999,
+              "electric": 2.2758754438870595e-13,
+              "magnetic": 3.682830983551621e-15,
+              "RL": 6.244185307070729e-11,
+              "charge": 6.935874802101901e-13,
+              "wall": 4.2785586525522895e-13,
+              "energy": 1.3279851116125594e-16,
+              "before_energy_J": 0.09036142588692996,
+              "after_energy_J": 0.09036106864161779,
+              "heat_J": 3.572453121778546e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0720000_0760000.npz",
+          "energy_closure": 1.3267120735349636e-10,
+          "anchors": [
+            {
+              "step": 720000,
+              "electric": 2.2699771750144047e-13,
+              "magnetic": 4.1410604938140275e-15,
+              "RL": 6.487992051963245e-11,
+              "charge": 6.913565189317165e-13,
+              "wall": 4.617638318838487e-13,
+              "energy": 1.024849352629005e-15,
+              "before_energy_J": 0.09036106864161779,
+              "after_energy_J": 0.09036070706208832,
+              "heat_J": 3.615795295629637e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 759999,
+              "electric": 2.2484691439807944e-13,
+              "magnetic": 6.6350106124060064e-15,
+              "RL": 7.434044151638661e-11,
+              "charge": 6.87861975842941e-13,
+              "wall": 5.196424238640314e-13,
+              "energy": 7.69741764587972e-16,
+              "before_energy_J": 0.08216782045715455,
+              "after_energy_J": 0.08216748808354467,
+              "heat_J": 3.3237360994805425e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0760000_0800000.npz",
+          "energy_closure": 1.3517387209560638e-10,
+          "anchors": [
+            {
+              "step": 760000,
+              "electric": 2.2448750378651976e-13,
+              "magnetic": 8.044435508444942e-15,
+              "RL": 7.687701753989117e-11,
+              "charge": 6.873324979329262e-13,
+              "wall": 5.392164142011073e-13,
+              "energy": 1.1787797429939836e-15,
+              "before_energy_J": 0.08216748808354467,
+              "after_energy_J": 0.08216715783186904,
+              "heat_J": 3.302516757283562e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 799999,
+              "electric": 2.2117146717860086e-13,
+              "magnetic": 2.212125469414966e-14,
+              "RL": 8.695877709157201e-11,
+              "charge": 6.666240243087561e-13,
+              "wall": 6.316924513207715e-13,
+              "energy": 8.718775490339817e-17,
+              "before_energy_J": 0.07471719538405634,
+              "after_energy_J": 0.07471691259914091,
+              "heat_J": 2.8278491542203224e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0800000_0840000.npz",
+          "energy_closure": 1.3744538840398945e-10,
+          "anchors": [
+            {
+              "step": 800000,
+              "electric": 2.2067354741882098e-13,
+              "magnetic": 4.113391336244533e-14,
+              "RL": 8.971007925835867e-11,
+              "charge": 6.643733557750713e-13,
+              "wall": 6.674701200088455e-13,
+              "energy": 1.002205971029919e-15,
+              "before_energy_J": 0.07471691259914091,
+              "after_energy_J": 0.07471663685106758,
+              "heat_J": 2.7574807340829674e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 839999,
+              "electric": 2.2011255790124528e-13,
+              "magnetic": 2.1524482943449578e-14,
+              "RL": 1.0066378470849864e-10,
+              "charge": 6.681599628883148e-13,
+              "wall": 8.066465507100718e-13,
+              "energy": 4.652314234930453e-16,
+              "before_energy_J": 0.06794228789199329,
+              "after_energy_J": 0.06794206860891419,
+              "heat_J": 2.1928307912918527e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0840000_0880000.npz",
+          "energy_closure": 1.3950418598085434e-10,
+          "anchors": [
+            {
+              "step": 840000,
+              "electric": 2.1951943056903776e-13,
+              "magnetic": 1.4868172821690126e-14,
+              "RL": 1.0359932642388106e-10,
+              "charge": 6.651418265835775e-13,
+              "wall": 9.03422640192181e-13,
+              "energy": 1.790010122694674e-16,
+              "before_energy_J": 0.06794206860891419,
+              "after_energy_J": 0.06794185901931446,
+              "heat_J": 2.0958959971900195e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 879999,
+              "electric": 2.1722812401577844e-13,
+              "magnetic": 6.442938987523323e-15,
+              "RL": 1.1438465382299416e-10,
+              "charge": 6.492468276460214e-13,
+              "wall": 1.1565274326342915e-12,
+              "energy": 9.991331035805933e-16,
+              "before_energy_J": 0.061781878613899804,
+              "after_energy_J": 0.061781724715008805,
+              "heat_J": 1.538988910608218e-07,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0880000_0920000.npz",
+          "energy_closure": 1.4137846449102653e-10,
+          "anchors": [
+            {
+              "step": 880000,
+              "electric": 2.1659748748397423e-13,
+              "magnetic": 5.659534286829008e-15,
+              "RL": 1.1681200747706423e-10,
+              "charge": 6.467257422093538e-13,
+              "wall": 1.3251859656916605e-12,
+              "energy": 4.653178515773853e-16,
+              "before_energy_J": 0.061781724715008805,
+              "after_energy_J": 0.061781580770796166,
+              "heat_J": 1.4394421261094245e-07,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 919999,
+              "electric": 2.1460447663187253e-13,
+              "magnetic": 3.5964193853215045e-15,
+              "RL": 1.2167849704253132e-10,
+              "charge": 6.415368379191794e-13,
+              "wall": 2.419443605120026e-12,
+              "energy": 1.2156673433207391e-15,
+              "before_energy_J": 0.05618024692814476,
+              "after_energy_J": 0.05618014972587982,
+              "heat_J": 9.720226500671948e-08,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0920000_0960000.npz",
+          "energy_closure": 1.4307222073739467e-10,
+          "anchors": [
+            {
+              "step": 920000,
+              "electric": 2.1351180546361203e-13,
+              "magnetic": 3.2418167598377306e-15,
+              "RL": 1.2105218305644216e-10,
+              "charge": 6.352377258822416e-13,
+              "wall": 3.0885276986157527e-12,
+              "energy": 3.945970228617573e-16,
+              "before_energy_J": 0.05618014972587982,
+              "after_energy_J": 0.056180060704327114,
+              "heat_J": 8.9021552727961e-08,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 959999,
+              "electric": 2.0872889929676966e-13,
+              "magnetic": 2.2380595135015382e-15,
+              "RL": 1.0787825514510688e-10,
+              "charge": 6.095605427307312e-13,
+              "wall": 6.896760591285584e-12,
+              "energy": 1.3604066972124787e-15,
+              "before_energy_J": 0.05108668094281764,
+              "after_energy_J": 0.05108662446049129,
+              "heat_J": 5.648232642024723e-08,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_0960000_1000000.npz",
+          "energy_closure": 1.4462075981214184e-10,
+          "anchors": [
+            {
+              "step": 960000,
+              "electric": 2.0756776596232272e-13,
+              "magnetic": 2.0452640296655617e-15,
+              "RL": 1.016395077250276e-10,
+              "charge": 6.0466588602689e-13,
+              "wall": 3.0789014336848033e-12,
+              "energy": 5.224537514290772e-16,
+              "before_energy_J": 0.05108662446049129,
+              "after_energy_J": 0.05108657305763401,
+              "heat_J": 5.140285724953778e-08,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 999999,
+              "electric": 2.0175109082172714e-13,
+              "magnetic": 1.355002565632205e-15,
+              "RL": 7.187151292346875e-11,
+              "charge": 5.815155607528642e-13,
+              "wall": 9.002677101244067e-13,
+              "energy": 1.5218543402787144e-16,
+              "before_energy_J": 0.046455039483594404,
+              "after_energy_J": 0.04645500470155748,
+              "heat_J": 3.4782036931322193e-08,
+              "source_work_J": 0.0
+            }
+          ]
+        },
+        {
+          "file": "steps_1000000_1040000.npz",
+          "energy_closure": 1.4603318554406997e-10,
+          "anchors": [
+            {
+              "step": 1000000,
+              "electric": 1.9936846228183675e-13,
+              "magnetic": 1.2157291110576164e-15,
+              "RL": 6.367172261837825e-11,
+              "charge": 5.678663375835232e-13,
+              "wall": 7.188343921305959e-13,
+              "energy": 7.042668618757964e-16,
+              "before_energy_J": 0.04645500470155748,
+              "after_energy_J": 0.04645497141939003,
+              "heat_J": 3.3282167485291894e-08,
+              "source_work_J": 0.0
+            },
+            {
+              "step": 1039999,
+              "electric": 1.849529645442299e-13,
+              "magnetic": 7.187533342331632e-16,
+              "RL": 3.4883794105731686e-11,
+              "charge": 4.991376412920636e-13,
+              "wall": 2.862708118734032e-13,
+              "energy": 3.5249754178071417e-16,
+              "before_energy_J": 0.042243359538990374,
+              "after_energy_J": 0.04224332850128043,
+              "heat_J": 3.1037709928946797e-08,
+              "source_work_J": 0.0
+            }
+          ]
+        }
+      ],
+      "metrics": null
+    }
+  ],
+  "pairs": [],
+  "all_cases_complete": false,
+  "specified_8us_histories_passed": false,
+  "general_initial_state_approved": false,
+  "actual_feed_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0,
+  "verifier_sha256": "8e52ba96901e9ce999a33c3eb128885167676a201e76c60387af94a206d736f3"
+}

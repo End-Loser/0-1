@@ -1,0 +1,195 @@
+{
+  "id": "probe_equivalence_10ps",
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    0
+  ],
+  "step_s": 1e-11,
+  "hold_s": 2e-07,
+  "ramp_s": 2e-09,
+  "duration_s": 1.8e-06,
+  "real_rails": false,
+  "solver_timeout_s": 600,
+  "row_chunk_size": 10000,
+  "reset_between_transitions": false,
+  "amplitude_gate_V": 0.001,
+  "edge_time_difference_gate_s": 2e-11,
+  "source": "Actual C pin; independent input sources and passive raw summation",
+  "status": "solver_complete_unverified",
+  "returncode": 0,
+  "raw_wave": {
+    "path": "D:\\work\\trae_cn\\ewc-solver-cache\\ewc-continuous64-c-lh_6wfbz\\probe_equivalence_10ps\\wave.txt",
+    "sha256": "9afb60aaef2dbe4343e7d58e2b1f7f16b6bc29091b61a0f57e86b9b5e5be2169"
+  },
+  "chunks": [
+    {
+      "file": "vectors_00000.npz",
+      "sha256": "44f73d1850f52920249a639861d2267d7df38ed5b9dcad75cbfe6016bd381dc6",
+      "rows": 10000,
+      "first_time_s": 0.0,
+      "last_time_s": 9.992279999998857e-08
+    },
+    {
+      "file": "vectors_00001.npz",
+      "sha256": "dffd0d88ca7d021f98eea0f2b91075d4c8fde540d3c4200899d9770d7f552746",
+      "rows": 10000,
+      "first_time_s": 9.993279999998857e-08,
+      "last_time_s": 1.999228000000764e-07
+    },
+    {
+      "file": "vectors_00002.npz",
+      "sha256": "8546d0f61979684fd362beebe827c20b3b8e7bbd88f7d7d289f833ed058f0ab5",
+      "rows": 10000,
+      "first_time_s": 1.999328000000765e-07,
+      "last_time_s": 2.993299706868728e-07
+    },
+    {
+      "file": "vectors_00003.npz",
+      "sha256": "e9db6144db0a82bad237fdf263b56719ba918b3763d7436c12ff8e3e1d4f32ab",
+      "rows": 10000,
+      "first_time_s": 2.993399706868728e-07,
+      "last_time_s": 3.993299706869862e-07
+    },
+    {
+      "file": "vectors_00004.npz",
+      "sha256": "7c2d425afb5accc05cec58f336a50489432e2c65647af3f173c6a056c79418ad",
+      "rows": 10000,
+      "first_time_s": 3.993399706869862e-07,
+      "last_time_s": 4.992649999999915e-07
+    },
+    {
+      "file": "vectors_00005.npz",
+      "sha256": "df96a3b8f9212aba64172d61d2d5d07ef112455c84c4ec87ee0a485df2addb1e",
+      "rows": 10000,
+      "first_time_s": 4.992749999999915e-07,
+      "last_time_s": 5.992649999995755e-07
+    },
+    {
+      "file": "vectors_00006.npz",
+      "sha256": "eacaf39841489cdb97f2ef7d473f912fc64178ebfe4c2489885cff2bb844c892",
+      "rows": 10000,
+      "first_time_s": 5.992749999995755e-07,
+      "last_time_s": 6.976014276340806e-07
+    },
+    {
+      "file": "vectors_00007.npz",
+      "sha256": "be1d057345ee40a638867579089a5324605ba8a686d5289d80b6594f9b2031b6",
+      "rows": 10000,
+      "first_time_s": 6.976114276340806e-07,
+      "last_time_s": 7.976014276336646e-07
+    },
+    {
+      "file": "vectors_00008.npz",
+      "sha256": "10be7f2ece215159a79525e41fcdc264444562f60437fe23acf6f43d1e05ca9d",
+      "rows": 10000,
+      "first_time_s": 7.976114276336645e-07,
+      "last_time_s": 8.961314276340867e-07
+    },
+    {
+      "file": "vectors_00009.npz",
+      "sha256": "091bac3877d93f8a891449c772795a1564acc2a52fc21175a4bb6724ba7a2ac9",
+      "rows": 10000,
+      "first_time_s": 8.961414276340867e-07,
+      "last_time_s": 9.961314276341203e-07
+    },
+    {
+      "file": "vectors_00010.npz",
+      "sha256": "d2502102f3715982edd44b2ca96a7d24920ab72e32e6c7a03b2d7ae9f35f1527",
+      "rows": 10000,
+      "first_time_s": 9.961414276341203e-07,
+      "last_time_s": 1.094471427634977e-06
+    },
+    {
+      "file": "vectors_00011.npz",
+      "sha256": "beef8af57a8a544c59195db98b5f0ff01a5dc76596ab9deecd667158bedb851d",
+      "rows": 10000,
+      "first_time_s": 1.094481427634977e-06,
+      "last_time_s": 1.194471427635619e-06
+    },
+    {
+      "file": "vectors_00012.npz",
+      "sha256": "11aaeee9b240d4923806257558600b0f44a55ececaf6c8d89816460044afea42",
+      "rows": 10000,
+      "first_time_s": 1.194481427635619e-06,
+      "last_time_s": 1.294385875000594e-06
+    },
+    {
+      "file": "vectors_00013.npz",
+      "sha256": "daf2ef11063bdf7fa38685cf55fea245209c7fca61ad25d86c84fc1a8691b3de",
+      "rows": 10000,
+      "first_time_s": 1.294395875000594e-06,
+      "last_time_s": 1.394385875001237e-06
+    },
+    {
+      "file": "vectors_00014.npz",
+      "sha256": "895bcfb7015ba4e3d7beb27027c3ffb9cf79b33c53aa3ec8a718590714249278",
+      "rows": 10000,
+      "first_time_s": 1.394395875001237e-06,
+      "last_time_s": 1.493789970687329e-06
+    },
+    {
+      "file": "vectors_00015.npz",
+      "sha256": "0088992ae2d06f2eae16f15a9b8c615dd2d4dfc10087d1f25cde1b36eac9e3a0",
+      "rows": 10000,
+      "first_time_s": 1.493799970687329e-06,
+      "last_time_s": 1.593789970687971e-06
+    },
+    {
+      "file": "vectors_00016.npz",
+      "sha256": "eafecb8d68cf0476350f19213ba2520873f07c807a09f27c277e36b826bd274e",
+      "rows": 10000,
+      "first_time_s": 1.593799970687971e-06,
+      "last_time_s": 1.692052913895895e-06
+    },
+    {
+      "file": "vectors_00017.npz",
+      "sha256": "a78275bfd316a42f055f8e2756b2156dbea0d19b89da834db6bf1f825936ea77",
+      "rows": 10000,
+      "first_time_s": 1.692062913895895e-06,
+      "last_time_s": 1.792052913896538e-06
+    },
+    {
+      "file": "vectors_00018.npz",
+      "sha256": "a802dfe57cba3b3549ee65204d1cd81d4354c8c29d0e418cd203674145122303",
+      "rows": 795,
+      "first_time_s": 1.792062913896538e-06,
+      "last_time_s": 1.8e-06
+    }
+  ],
+  "rows": 180795,
+  "observed_last_time_s": 1.8e-06,
+  "time_strictly_monotonic": true,
+  "raw_header": "time                   v(a)                   v(b)                   v(cin)                 v(raw)                 v(carry)               v(sum)                 v(vref)                v(rail5)               v(rail3)               v(upstream)            v(cm)                  v(ip1)                 v(im1)                 v(op1)                 v(om1)                 v(cp1)                 v(cn1)                 v(sp1)                 v(sn1)                 v(dp1)                 v(dn1)                 v(ip2)                 v(im2)                 v(op2)                 v(om2)                 v(cp2)                 v(cn2)                 v(sp2)                 v(sn2)                 v(dp2)                 v(dn2)                 v(b1)                  v(cm)                  i(VBIN1)               i(VFB1)                i(VBOUT1)              i(VBUF1)               v(b2)                  v(bias2)               i(VBIN2)               i(VFB2)                i(VBOUT2)              i(VBUF2)               v(b3)                  v(bias3)               i(VBIN3)               i(VFB3)                i(VBOUT3)              i(VBUF3)               v(b4)                  v(bias4)               i(VBIN4)               i(VFB4)                i(VBOUT4)              i(VBUF4)               v(b5)                  v(bias5)               i(VBIN5)               i(VFB5)                i(VBOUT5)              i(VBUF5)               i(VUP)                 i(V5)                  i(V3)                  i(VREF)                i(VF1)                 i(VF2)                 i(VC1)                 i(VC2)                 i(VA)                  i(VB)                  i(VCI)                 i(VSP1)                i(VSN1)                i(VSP2)                i(VSN2)                i(VSC)                 i(VCFEED)              i(VCM1)                i(VCM2)                i(VROUT)               v(cref)",
+  "files_sha256": {
+    "solver_stderr.log": "d680499878ba83fa0ae393a6f994d7d8e4ffff07785fdebfaff93ab6d7658eee",
+    "solver_stdout.log": "17618e864cfcab3b758ab38035e01a31bcb2b15f36fc64e00899f3d3cd786a70",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "bf898240953892a43eb3126b8458c6856d6e641f51f242971376d5f008160025",
+    "vectors_00000.npz": "44f73d1850f52920249a639861d2267d7df38ed5b9dcad75cbfe6016bd381dc6",
+    "vectors_00001.npz": "dffd0d88ca7d021f98eea0f2b91075d4c8fde540d3c4200899d9770d7f552746",
+    "vectors_00002.npz": "8546d0f61979684fd362beebe827c20b3b8e7bbd88f7d7d289f833ed058f0ab5",
+    "vectors_00003.npz": "e9db6144db0a82bad237fdf263b56719ba918b3763d7436c12ff8e3e1d4f32ab",
+    "vectors_00004.npz": "7c2d425afb5accc05cec58f336a50489432e2c65647af3f173c6a056c79418ad",
+    "vectors_00005.npz": "df96a3b8f9212aba64172d61d2d5d07ef112455c84c4ec87ee0a485df2addb1e",
+    "vectors_00006.npz": "eacaf39841489cdb97f2ef7d473f912fc64178ebfe4c2489885cff2bb844c892",
+    "vectors_00007.npz": "be1d057345ee40a638867579089a5324605ba8a686d5289d80b6594f9b2031b6",
+    "vectors_00008.npz": "10be7f2ece215159a79525e41fcdc264444562f60437fe23acf6f43d1e05ca9d",
+    "vectors_00009.npz": "091bac3877d93f8a891449c772795a1564acc2a52fc21175a4bb6724ba7a2ac9",
+    "vectors_00010.npz": "d2502102f3715982edd44b2ca96a7d24920ab72e32e6c7a03b2d7ae9f35f1527",
+    "vectors_00011.npz": "beef8af57a8a544c59195db98b5f0ff01a5dc76596ab9deecd667158bedb851d",
+    "vectors_00012.npz": "11aaeee9b240d4923806257558600b0f44a55ececaf6c8d89816460044afea42",
+    "vectors_00013.npz": "daf2ef11063bdf7fa38685cf55fea245209c7fca61ad25d86c84fc1a8691b3de",
+    "vectors_00014.npz": "895bcfb7015ba4e3d7beb27027c3ffb9cf79b33c53aa3ec8a718590714249278",
+    "vectors_00015.npz": "0088992ae2d06f2eae16f15a9b8c615dd2d4dfc10087d1f25cde1b36eac9e3a0",
+    "vectors_00016.npz": "eafecb8d68cf0476350f19213ba2520873f07c807a09f27c277e36b826bd274e",
+    "vectors_00017.npz": "a78275bfd316a42f055f8e2756b2156dbea0d19b89da834db6bf1f825936ea77",
+    "vectors_00018.npz": "a802dfe57cba3b3549ee65204d1cd81d4354c8c29d0e418cd203674145122303"
+  }
+}

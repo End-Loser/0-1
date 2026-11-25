@@ -1,0 +1,110 @@
+{
+  "user_authorized_portable_build": true,
+  "portable_package": {
+    "name": "msys2-base-x86_64-20260927.tar.xz",
+    "official_asset_url": "https://github.com/msys2/msys2-installer/releases/download/2026-09-27/msys2-base-x86_64-20260927.tar.xz",
+    "actual_download_url": "https://repo.msys2.org/distrib/x86_64/msys2-base-x86_64-20260927.tar.xz",
+    "sha256": "ea2f31a0b6ade63914ce441ffb022f0f6aa96982bfefa2326460a26d5fb01322",
+    "official_digest": "sha256:ea2f31a0b6ade63914ce441ffb022f0f6aa96982bfefa2326460a26d5fb01322",
+    "size": 42860696,
+    "checksum_match": true,
+    "detached_signature_verified": false
+  },
+  "fixed_source": {
+    "commit": "a80f6e3e95d51534905b1f23410a951802666656",
+    "archive_sha256": "c6b166d99fef4902135a3d1cd1aee913837beba101a949b93e030ead7f8e20eb",
+    "tree_snapshot": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\official_source_tree.json",
+    "tree_snapshot_sha256": "2f4dd621d7d98d6e8773f298a59c1007394adb25b22f2227392bca40f168c126",
+    "url": "https://codeload.github.com/imr/ngspice/tar.gz/a80f6e3e95d51534905b1f23410a951802666656",
+    "complete_git_blob_comparison": true,
+    "regular_files_verified": 4613,
+    "tree_truncated": false,
+    "missing_windows_extracted_files": [
+      "examples/utf-8/стекло/ext-ascii-1.cir",
+      "examples/utf-8/стекло/ext-ascii-2.cir",
+      "examples/utf-8/стекло/ext-utf8-2.cir",
+      "examples/utf-8/стекло/ext-utf8-3.cir",
+      "examples/utf-8/стекло/ext-utf8-c.cir",
+      "examples/utf-8/стекло/ext-utf8-c2.cir",
+      "examples/utf-8/стекло/ext-utf8-c4.cir",
+      "examples/utf-8/стекло/ext-utf8-cyg2.cir",
+      "examples/utf-8/стекло/os_compiled.sp",
+      "examples/utf-8/стекло/있어요/adder_mos.cir",
+      "examples/utf-8/стекло/있어요/adder_mos3.cir",
+      "examples/utf-8/стекло/있어요/ext-utf8-1.cir",
+      "examples/utf-8/стекло/있어요/ext-utf8-2-있어요.cir",
+      "examples/utf-8/стекло/있어요/ext-utf8-2.cir",
+      "examples/utf-8/стекло/있어요/ext-utf8-3.cir",
+      "examples/utf-8/стекло/있어요/ext-utf8-4.cir",
+      "examples/utf-8/стекло/있어요/utf-8-inv.cir",
+      "examples/utf-8/стекло/있어요/utf-8-inv_w.cir"
+    ],
+    "archive_complete": true,
+    "windows_extraction_complete": false,
+    "complete_extraction_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\source-complete\\ngspice-a80f6e3e95d51534905b1f23410a951802666656",
+    "complete_extraction_git_blobs_verified": 4613
+  },
+  "package_log": {
+    "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\var\\log\\pacman.log",
+    "sha256": "1dd9c47606d686e1d5b7d98456120f7d11dbed8caf3b1215c9362d8ac1297713"
+  },
+  "official_release_snapshot": {
+    "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\official_msys_release.json",
+    "sha256": "f18313b47562d382703102f2c5c1940c383c0b6083e2f87327a39b8af45ea251"
+  },
+  "blocked_binary": {
+    "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe",
+    "sha256": "c33c40ebb006cdb5f0f651672d577fdf7c785f1141ba7ccdff9d6a1e32001417"
+  },
+  "code_integrity_events": [
+    {
+      "time": "2026-11-18T03:26:41.8867135+08:00",
+      "Id": 3077,
+      "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+    },
+    {
+      "time": "2026-11-18T03:26:41.8743649+08:00",
+      "Id": 3033,
+      "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe that did not meet the Enterprise signing level requirements."
+    },
+    {
+      "time": "2026-11-18T03:26:41.6300438+08:00",
+      "Id": 3077,
+      "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+    },
+    {
+      "time": "2026-11-18T03:26:41.6098693+08:00",
+      "Id": 3033,
+      "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe that did not meet the Enterprise signing level requirements."
+    },
+    {
+      "time": "2026-11-18T03:26:40.9476869+08:00",
+      "Id": 3077,
+      "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+    },
+    {
+      "time": "2026-11-18T03:26:40.9182204+08:00",
+      "Id": 3033,
+      "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume3\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe) attempted to load \\Device\\HarddiskVolume3\\Users\\13062\\AppData\\Local\\Temp\\ewc-build47\\msys64\\usr\\bin\\bash.exe that did not meet the Enterprise signing level requirements."
+    }
+  ],
+  "portable_base_partially_configured": true,
+  "compiler_dependencies_installed": false,
+  "security_policy_bypassed": false,
+  "global_path_changed": false,
+  "original_files_sha256": {
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-linked-reference-rbzxf63z\\OPAx320-Q1.LIB": "a272838427e8988bdc662887238d2698d23feb0d39400a2c4c4a929f10c29460",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551.lib": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tlv3501.lib": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\REF5050.LIB": "ed2d2602cfee90ae26eb7bf3644a4bcb6ce71f3eba71a7d014c53b87cc20f3ab",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-public-supply-h0uazuu_\\tps7a20-adj_trans.lib": "154acfdd2199ac44259908b90b07d15bc7e535a45c8c51d1413894c900718b69",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+  },
+  "compiled_original": false,
+  "compiled_candidate": false,
+  "candidate_solver_run": false,
+  "full_regulator_fix_verified": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "runner_sha256": "c948ff81d046d9177af5b79df81d7f2816888c9fb81e0bb5ff36ecbbcbea8d72"
+}

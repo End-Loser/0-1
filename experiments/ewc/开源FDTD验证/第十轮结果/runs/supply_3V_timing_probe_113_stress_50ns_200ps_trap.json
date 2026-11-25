@@ -1,0 +1,118 @@
+{
+  "case": "supply_3V_timing_probe_113_stress_50ns_200ps_trap",
+  "profile": "supply_3V",
+  "scope": "timing_probe",
+  "tag": "113_stress",
+  "errors": [
+    0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01
+  ],
+  "period_ns": 50,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "44dfe15868d7ac1db30574752607c42176da2c4f0532fe270c2891c59d89b776",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.2800000000000001e-05,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 109868,
+  "unique_points": 109868,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 512,
+  "sample_passed": 512,
+  "minimum_late_margin_V": 0.8942402621696979,
+  "worst_slot": {
+    "slot": 77,
+    "state": "110",
+    "channel": "carry",
+    "margin_V": 0.8942402621696979
+  },
+  "first_bad": null,
+  "max_settling_ns": 17.75520413654403,
+  "unsettled": 0,
+  "energy_J": 1.0714578631996742e-08,
+  "power_W": 0.0008370764556247455,
+  "energy_per_slot_J": 4.1853822781237275e-11,
+  "warning": false
+}

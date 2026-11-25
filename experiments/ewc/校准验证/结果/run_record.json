@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-11-17T16:32:34.181138+00:00",
+  "finished_utc": "2026-11-17T16:32:34.340764+00:00",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "temporary_outputs": "OS TEMP, cleaned on completion",
+  "final_output": "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\结果",
+  "stdlib_only": true,
+  "independent_checks": 1656,
+  "tests": {
+    "tests_run": 31,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "numeric_control_mutations": 8,
+    "hash_mutations": 1,
+    "system_claim_mutations": 1
+  },
+  "sha256": {
+    "budgets.json": "db7794d40839743c57cd5be5492748c6ef760ae55b1d1f0b3bdedc1595acb25d",
+    "cases.json": "1ca00c19d1b1011d55f8e7d971cfd1d1262dfb9e3b8e1b986a5af697215f5184",
+    "control.json": "c6a8c5278913f5f46d94da516690c18decf1d4e4c26071759515978d0088b57e",
+    "provenance.json": "9c78fef306342aaad9f3f9168df54a54bb93f2fd989965f3d068f9cdc215580b",
+    "summary.json": "17cc047036e48eb4dd1179964b97043f735d8b600fea3d44bf79a48784d7e47e",
+    "tests.json": "a2b2a0bf9fbad516ea3fd00db115a76d955d11c1fee80844e797209baa9ee875",
+    "tests.txt": "263a623a6c2e467e585a61c3bc610c9fd39129e54271cec30d754aff5dddfb7d",
+    "verify.json": "6d6cffb15277d3b17ea65cf79524a917c48f169fee561ddfcec2bcf8e9d8e318"
+  }
+}

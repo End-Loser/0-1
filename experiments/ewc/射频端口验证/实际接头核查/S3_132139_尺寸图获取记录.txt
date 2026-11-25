@@ -1,0 +1,9 @@
+来源编号：S3
+URL：https://www.amphenolrf.com/en-us/assets/file/4065786252/
+读取日期：2026-11-18
+来源性质：S1厂家页面标为132139 PDF Customer Drawing的链接。
+直接HTTP下载：403；TEMP响应体不是PDF，不能作为尺寸图原件。
+WebFetch返回：local crawler returned empty content
+结果：未取得图纸内容、修订号、尺寸数值和公差。
+不根据相似型号、图片缩放或50 Ohm标称值反推内部尺寸。
+本文件是核查过程记录，不是厂商尺寸图文本或原始文件。

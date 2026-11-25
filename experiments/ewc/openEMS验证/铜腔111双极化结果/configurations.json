@@ -1,0 +1,50 @@
+[
+  {
+    "shape": [
+      24,
+      15,
+      9
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "mode": [
+      1,
+      1,
+      1
+    ],
+    "independent_basis_drives": 2,
+    "independently_solved_mixed_drive": true,
+    "scan_frequencies": 5,
+    "peak_frequencies": 2,
+    "terms": 64,
+    "frequency_Q_limit": 0.01,
+    "three_five_Q_limit": 0.001
+  },
+  {
+    "shape": [
+      36,
+      23,
+      14
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "mode": [
+      1,
+      1,
+      1
+    ],
+    "independent_basis_drives": 2,
+    "independently_solved_mixed_drive": true,
+    "scan_frequencies": 5,
+    "peak_frequencies": 2,
+    "terms": 64,
+    "frequency_Q_limit": 0.01,
+    "three_five_Q_limit": 0.001
+  }
+]

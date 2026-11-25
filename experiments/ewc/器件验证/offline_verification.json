@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-17T16:36:18.908956+00:00",
+  "scope": "offline provenance and typical macro checks, not real-device acceptance",
+  "tests_run": 16,
+  "passed": 16,
+  "failures": [],
+  "errors": [],
+  "test_names": [
+    "__main__.EvidenceChecks.test_01_source_snapshots",
+    "__main__.EvidenceChecks.test_02_official_urls",
+    "__main__.EvidenceChecks.test_03_hidden_model_links",
+    "__main__.EvidenceChecks.test_04_pdf_revisions",
+    "__main__.EvidenceChecks.test_05_vendor_macro_identity",
+    "__main__.EvidenceChecks.test_06_binary_resources_not_spice",
+    "__main__.EvidenceChecks.test_07_execution_and_scripts",
+    "__main__.EvidenceChecks.test_08_raw_logs_and_wave_hashes",
+    "__main__.EvidenceChecks.test_09_native_blocker",
+    "__main__.EvidenceChecks.test_10_wave_integrity_and_logic",
+    "__main__.EvidenceChecks.test_11_independent_delay_measurements",
+    "__main__.EvidenceChecks.test_12_time_refinement",
+    "__main__.EvidenceChecks.test_13_load_dependence",
+    "__main__.EvidenceChecks.test_14_low_overdrive_gap_preserved",
+    "__main__.EvidenceChecks.test_15_shutdown_independent",
+    "__main__.EvidenceChecks.test_16_interface_blockers"
+  ],
+  "verifier_sha256": "7d08c7471f04e2ce84c72888600529d758a2b16791d85d35536e47b861598bf2",
+  "interface_table_sha256": "9e5fe13ba16e06558c43fa590cdac382bf29e9e605f1dce0da8129382d68a42b"
+}

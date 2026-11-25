@@ -1,0 +1,63 @@
+{
+  "case": "mode_011",
+  "pid": 25016,
+  "requested_threads": 1,
+  "threadpool_info": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "started_at_utc": "2026-11-18T07:07:01.764160+00:00",
+  "ended_at_utc": "2026-11-18T07:07:01.930751+00:00",
+  "solve_seconds": 0.16260009992402047,
+  "grid": {
+    "shape": [
+      16,
+      10,
+      6
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "unknowns": 2280,
+    "faces": 3196
+  },
+  "array_shapes": {
+    "mode_e": [
+      2280
+    ]
+  },
+  "array_sha256": {
+    "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+  },
+  "scalars": {
+    "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+    "mode_mass_norm": 1.0
+  }
+}

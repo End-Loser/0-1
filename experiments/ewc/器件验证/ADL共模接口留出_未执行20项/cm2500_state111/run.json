@@ -1,0 +1,20 @@
+{
+  "id": "cm2500_state111",
+  "state": 7,
+  "common_mode_V": 2.5,
+  "analysis": "DC operating point",
+  "source_model": "Ideal independent input sources; no ADL macro",
+  "feedback_resistance_ohm": 32750,
+  "bias_retuned": false,
+  "amplitude_gate_V": 0.001,
+  "solver_timeout_s": 60,
+  "status": "failed_preserve_output",
+  "returncode": 0,
+  "reason": "No DC vector export",
+  "files_sha256": {
+    "solver_stderr.log": "3638ff1810ebd10b34403925e18a86c97843b62e21efe8dafeca3c9a009cf8bb",
+    "solver_stdout.log": "d9c64fdd0553d91de8c4edd0daf826cf477dade35d99a520dbc6fd03c42b9615",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "a3eccf24aaca00673b9379ad95fddb81071ebb95cc3bf098a138f2d67bd333ed"
+  }
+}

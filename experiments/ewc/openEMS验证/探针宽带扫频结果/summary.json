@@ -1,0 +1,1054 @@
+{
+  "scope": "16-point 2.98-3.13 GHz sweep of the k x k wall-fed post, full six-wall frequency solve",
+  "evidence_level": "A (full six-wall frequency solve)",
+  "limitation": "post is a bundle of k^2 thin wires with E_axial forced to zero; no coaxial/SMA geometry; port defined as the mean wall-gap voltage at 1 A total drive current",
+  "configuration_sha256": "d2d08d03638f3e79b9d2de80b994f3b4151afe386aaba4b24990fdc3b5b82a4d",
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "source_sha256": {
+    "run_probe_resonance_scan.py": "73506ee5af9c8a2fd32ea835a98883c069a1ba21859fa144010776dafa59b27c",
+    "run_probe_cross_section.py": "672d47d31691b546d245745a15124e98ac7f9e77fd59b2c774dbef0bc35caf9b",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "side": 1,
+      "post_height_m": 0.026666666666666665,
+      "post_cells": 4,
+      "post_location_ij": [
+        12,
+        7
+      ],
+      "gap_edges": 1,
+      "removed_edges": 4,
+      "mode_center_Hz": 3048418251.896508,
+      "mode_width_Hz": 184635.369078647,
+      "peak_re_frequency_Hz": 3070000000.0,
+      "peak_re_ohm": 20.47762547058864,
+      "peak_offset_in_linewidths": 116.88848247866775,
+      "im_zero_crossing_Hz": 3062570735.1281185,
+      "im_zero_offset_in_linewidths": 76.6509867650652,
+      "min_abs_s11": 0.9927868248936503,
+      "max_gap_voltage_uniformity": 0.0,
+      "max_power_balance_error": 7.112696791737186e-14,
+      "scan": [
+        {
+          "frequency_Hz": 2980000000.0,
+          "z_real_ohm": 11.503703763563877,
+          "z_imag_ohm": 2842.0161420263757,
+          "abs_s11": 0.9998576320667444,
+          "power_balance_error": 9.264964793477596e-16,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.6128952000290155
+        },
+        {
+          "frequency_Hz": 2990000000.0,
+          "z_real_ohm": 4.481852663053592,
+          "z_imag_ohm": 1705.7389890042932,
+          "abs_s11": 0.9998461055325962,
+          "power_balance_error": 7.926886370200204e-16,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.6209501000121236
+        },
+        {
+          "frequency_Hz": 3000000000.0,
+          "z_real_ohm": 2.446930358709667,
+          "z_imag_ohm": 1199.6586353480784,
+          "abs_s11": 0.9998302875014142,
+          "power_balance_error": 1.6333946221330904e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.6297296999255195
+        },
+        {
+          "frequency_Hz": 3010000000.0,
+          "z_real_ohm": 1.5998584916385525,
+          "z_imag_ohm": 909.6505090214005,
+          "abs_s11": 0.9998072567847993,
+          "power_balance_error": 1.5266916836337068e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.6556562999030575
+        },
+        {
+          "frequency_Hz": 3020000000.0,
+          "z_real_ohm": 1.1865751114301994,
+          "z_imag_ohm": 717.655685715754,
+          "abs_s11": 0.9997707501759552,
+          "power_balance_error": 1.8713067785266211e-16,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.6615938000613824
+        },
+        {
+          "frequency_Hz": 3030000000.0,
+          "z_real_ohm": 0.9859796022539382,
+          "z_imag_ohm": 575.9364298647887,
+          "abs_s11": 0.9997050200002128,
+          "power_balance_error": 2.1394192556982706e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.7817153000505641
+        },
+        {
+          "frequency_Hz": 3040000000.0,
+          "z_real_ohm": 0.9385650831727885,
+          "z_imag_ohm": 458.8315218047865,
+          "abs_s11": 0.9995595124887158,
+          "power_balance_error": 9.463152163062227e-16,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.7846145000075921
+        },
+        {
+          "frequency_Hz": 3050000000.0,
+          "z_real_ohm": 1.1087814022639282,
+          "z_imag_ohm": 344.0908662475135,
+          "abs_s11": 0.9990833120839706,
+          "power_balance_error": 1.6020802980400427e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.8370704000117257
+        },
+        {
+          "frequency_Hz": 3060000000.0,
+          "z_real_ohm": 2.0691224222317612,
+          "z_imag_ohm": 183.08536960876918,
+          "abs_s11": 0.9942727523974246,
+          "power_balance_error": 2.6399101486049923e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.7173406999791041
+        },
+        {
+          "frequency_Hz": 3070000000.0,
+          "z_real_ohm": 20.47762547058864,
+          "z_imag_ohm": -529.1053481598971,
+          "abs_s11": 0.9927868248936503,
+          "power_balance_error": 1.804321614954466e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.7580665999557823
+        },
+        {
+          "frequency_Hz": 3080000000.0,
+          "z_real_ohm": 5.803317108124606,
+          "z_imag_ohm": 855.6178276723216,
+          "abs_s11": 0.9992103316216822,
+          "power_balance_error": 2.4487468891380933e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.7735720999771729
+        },
+        {
+          "frequency_Hz": 3090000000.0,
+          "z_real_ohm": 0.9288952849862774,
+          "z_imag_ohm": 502.0817347653928,
+          "abs_s11": 0.9996352028432003,
+          "power_balance_error": 6.573643697124126e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.7702783000422642
+        },
+        {
+          "frequency_Hz": 3100000000.0,
+          "z_real_ohm": 0.4497886468870294,
+          "z_imag_ohm": 392.3361989755405,
+          "abs_s11": 0.9997125039629354,
+          "power_balance_error": 1.542700988993621e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.8447483999188989
+        },
+        {
+          "frequency_Hz": 3110000000.0,
+          "z_real_ohm": 0.39163017488555607,
+          "z_imag_ohm": 321.970630868016,
+          "abs_s11": 0.9996311806332208,
+          "power_balance_error": 3.430200086571483e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.8074349000817165
+        },
+        {
+          "frequency_Hz": 3120000000.0,
+          "z_real_ohm": 2.8210033697701697,
+          "z_imag_ohm": 193.27494545558622,
+          "abs_s11": 0.9929481462832519,
+          "power_balance_error": 1.3538329112388441e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.8098237999947742
+        },
+        {
+          "frequency_Hz": 3130000000.0,
+          "z_real_ohm": 0.5026107879990025,
+          "z_imag_ohm": 313.714119783622,
+          "abs_s11": 0.9995020792562022,
+          "power_balance_error": 7.112696791737186e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 0.8043996000196785
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "side": 2,
+      "post_height_m": 0.026666666666666665,
+      "post_cells": 4,
+      "post_location_ij": [
+        12,
+        7
+      ],
+      "gap_edges": 4,
+      "removed_edges": 16,
+      "mode_center_Hz": 3048418251.896508,
+      "mode_width_Hz": 184635.369078647,
+      "peak_re_frequency_Hz": 3070000000.0,
+      "peak_re_ohm": 0.7918121053687619,
+      "peak_offset_in_linewidths": 116.88848247866775,
+      "im_zero_crossing_Hz": null,
+      "im_zero_offset_in_linewidths": null,
+      "min_abs_s11": 0.9974342483616432,
+      "max_gap_voltage_uniformity": 0.11881960557848137,
+      "max_power_balance_error": 3.7857493541247166e-14,
+      "scan": [
+        {
+          "frequency_Hz": 2980000000.0,
+          "z_real_ohm": 0.10281658827536697,
+          "z_imag_ohm": 231.35814350843523,
+          "abs_s11": 0.9998165029579144,
+          "power_balance_error": 3.509380043197004e-15,
+          "gap_voltage_uniformity": 0.03761311277483859,
+          "solve_seconds": 0.7717498000711203
+        },
+        {
+          "frequency_Hz": 2990000000.0,
+          "z_real_ohm": 0.09051305063699808,
+          "z_imag_ohm": 214.1923931837023,
+          "abs_s11": 0.9998129235264934,
+          "power_balance_error": 3.066472229175265e-15,
+          "gap_voltage_uniformity": 0.03781102234916632,
+          "solve_seconds": 0.7947918999707326
+        },
+        {
+          "frequency_Hz": 3000000000.0,
+          "z_real_ohm": 0.08115516416226552,
+          "z_imag_ohm": 199.24399188112255,
+          "abs_s11": 0.9998076993565835,
+          "power_balance_error": 2.223040805399211e-15,
+          "gap_voltage_uniformity": 0.03794563952186328,
+          "solve_seconds": 0.8586996999802068
+        },
+        {
+          "frequency_Hz": 3010000000.0,
+          "z_real_ohm": 0.07427351599463271,
+          "z_imag_ohm": 186.0415464579198,
+          "abs_s11": 0.9997998837016521,
+          "power_balance_error": 2.802705841100343e-15,
+          "gap_voltage_uniformity": 0.0379501497958592,
+          "solve_seconds": 0.8478064999217167
+        },
+        {
+          "frequency_Hz": 3020000000.0,
+          "z_real_ohm": 0.06980200909111937,
+          "z_imag_ohm": 174.19985919462633,
+          "abs_s11": 0.9997875069946933,
+          "power_balance_error": 6.958575828948489e-15,
+          "gap_voltage_uniformity": 0.03769685841685669,
+          "solve_seconds": 0.8408768000081182
+        },
+        {
+          "frequency_Hz": 3030000000.0,
+          "z_real_ohm": 0.06836139700679168,
+          "z_imag_ohm": 163.3578525585168,
+          "abs_s11": 0.9997657990873292,
+          "power_balance_error": 2.030062054822505e-15,
+          "gap_voltage_uniformity": 0.036911793671597797,
+          "solve_seconds": 0.7880116999149323
+        },
+        {
+          "frequency_Hz": 3040000000.0,
+          "z_real_ohm": 0.07256231458300666,
+          "z_imag_ohm": 153.0578131356458,
+          "abs_s11": 0.9997201642906988,
+          "power_balance_error": 1.1475202703413617e-15,
+          "gap_voltage_uniformity": 0.034891583003971625,
+          "solve_seconds": 0.8494528000010177
+        },
+        {
+          "frequency_Hz": 3050000000.0,
+          "z_real_ohm": 0.09483978492950353,
+          "z_imag_ohm": 142.27394375337005,
+          "abs_s11": 0.9995830599719585,
+          "power_balance_error": 3.146068267550349e-14,
+          "gap_voltage_uniformity": 0.02915368292374035,
+          "solve_seconds": 0.8811369000468403
+        },
+        {
+          "frequency_Hz": 3060000000.0,
+          "z_real_ohm": 0.28511336003212223,
+          "z_imag_ohm": 124.8768567503356,
+          "abs_s11": 0.9984255322481409,
+          "power_balance_error": 1.2460705729118535e-14,
+          "gap_voltage_uniformity": 0.0004302731051618272,
+          "solve_seconds": 0.8768494999967515
+        },
+        {
+          "frequency_Hz": 3070000000.0,
+          "z_real_ohm": 0.7918121053687619,
+          "z_imag_ohm": 168.28742553841835,
+          "abs_s11": 0.9974342483616432,
+          "power_balance_error": 3.7857493541247166e-14,
+          "gap_voltage_uniformity": 0.11881960557848137,
+          "solve_seconds": 0.9023273000493646
+        },
+        {
+          "frequency_Hz": 3080000000.0,
+          "z_real_ohm": 0.06374858803614132,
+          "z_imag_ohm": 136.3212771765957,
+          "abs_s11": 0.9996976831671408,
+          "power_balance_error": 1.0884780538156116e-14,
+          "gap_voltage_uniformity": 0.0709403118126007,
+          "solve_seconds": 0.8240807000547647
+        },
+        {
+          "frequency_Hz": 3090000000.0,
+          "z_real_ohm": 0.03671640976673318,
+          "z_imag_ohm": 126.8005978734511,
+          "abs_s11": 0.9998023898922834,
+          "power_balance_error": 1.1528156778603284e-14,
+          "gap_voltage_uniformity": 0.06415172519493705,
+          "solve_seconds": 0.7784752000588924
+        },
+        {
+          "frequency_Hz": 3100000000.0,
+          "z_real_ohm": 0.03016086285581289,
+          "z_imag_ohm": 119.8486023882898,
+          "abs_s11": 0.9998211650650419,
+          "power_balance_error": 1.2308362185582816e-14,
+          "gap_voltage_uniformity": 0.06239961906886847,
+          "solve_seconds": 0.785007799975574
+        },
+        {
+          "frequency_Hz": 3110000000.0,
+          "z_real_ohm": 0.027219606212033502,
+          "z_imag_ohm": 113.91808513537218,
+          "abs_s11": 0.9998241478885934,
+          "power_balance_error": 1.0196905641992155e-14,
+          "gap_voltage_uniformity": 0.0623628831215764,
+          "solve_seconds": 0.7629416999407113
+        },
+        {
+          "frequency_Hz": 3120000000.0,
+          "z_real_ohm": 0.025389122196837765,
+          "z_imag_ohm": 108.59311134546829,
+          "abs_s11": 0.9998223758570213,
+          "power_balance_error": 6.832546090123858e-16,
+          "gap_voltage_uniformity": 0.06318878366225242,
+          "solve_seconds": 0.7579712000442669
+        },
+        {
+          "frequency_Hz": 3130000000.0,
+          "z_real_ohm": 0.02403660806887578,
+          "z_imag_ohm": 103.69952826063309,
+          "abs_s11": 0.9998186572553788,
+          "power_balance_error": 6.06228514291647e-15,
+          "gap_voltage_uniformity": 0.06456852437243346,
+          "solve_seconds": 0.7895055999979377
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "side": 3,
+      "post_height_m": 0.026666666666666665,
+      "post_cells": 4,
+      "post_location_ij": [
+        11,
+        6
+      ],
+      "gap_edges": 9,
+      "removed_edges": 36,
+      "mode_center_Hz": 3048418251.896508,
+      "mode_width_Hz": 184635.369078647,
+      "peak_re_frequency_Hz": 2980000000.0,
+      "peak_re_ohm": 0.12213342799003082,
+      "peak_offset_in_linewidths": -370.55875175988024,
+      "im_zero_crossing_Hz": null,
+      "im_zero_offset_in_linewidths": null,
+      "min_abs_s11": 0.9992415938292126,
+      "max_gap_voltage_uniformity": 0.7368303289681608,
+      "max_power_balance_error": 2.975731883406197e-14,
+      "scan": [
+        {
+          "frequency_Hz": 2980000000.0,
+          "z_real_ohm": 0.12213342799003082,
+          "z_imag_ohm": 116.6097806391532,
+          "abs_s11": 0.9992415938292126,
+          "power_balance_error": 1.6021560297657084e-14,
+          "gap_voltage_uniformity": 0.7368303289681608,
+          "solve_seconds": 0.8809998999349773
+        },
+        {
+          "frequency_Hz": 2990000000.0,
+          "z_real_ohm": 0.04639936979015741,
+          "z_imag_ohm": 102.5151797939548,
+          "abs_s11": 0.9996434022643177,
+          "power_balance_error": 2.0936602176719272e-15,
+          "gap_voltage_uniformity": 0.5130120897787946,
+          "solve_seconds": 0.8644962999969721
+        },
+        {
+          "frequency_Hz": 3000000000.0,
+          "z_real_ohm": 0.03006610837614987,
+          "z_imag_ohm": 95.38396861528258,
+          "abs_s11": 0.9997408005951638,
+          "power_balance_error": 1.7655274071651507e-14,
+          "gap_voltage_uniformity": 0.3444362268276826,
+          "solve_seconds": 0.8460576999932528
+        },
+        {
+          "frequency_Hz": 3010000000.0,
+          "z_real_ohm": 0.02335285827132392,
+          "z_imag_ohm": 90.26259370907042,
+          "abs_s11": 0.9997806935272108,
+          "power_balance_error": 7.131180764209399e-15,
+          "gap_voltage_uniformity": 0.254999818984027,
+          "solve_seconds": 0.8598116000648588
+        },
+        {
+          "frequency_Hz": 3020000000.0,
+          "z_real_ohm": 0.01962320197142237,
+          "z_imag_ohm": 86.0894135988897,
+          "abs_s11": 0.9998020331688698,
+          "power_balance_error": 9.193771830118456e-15,
+          "gap_voltage_uniformity": 0.19971133574734307,
+          "solve_seconds": 0.892697999952361
+        },
+        {
+          "frequency_Hz": 3030000000.0,
+          "z_real_ohm": 0.017152044008977286,
+          "z_imag_ohm": 82.48545917806668,
+          "abs_s11": 0.9998156627532332,
+          "power_balance_error": 1.658663246848559e-14,
+          "gap_voltage_uniformity": 0.16237631467960562,
+          "solve_seconds": 0.8401492999400944
+        },
+        {
+          "frequency_Hz": 3040000000.0,
+          "z_real_ohm": 0.01530016103077554,
+          "z_imag_ohm": 79.27250062173692,
+          "abs_s11": 0.9998258355751691,
+          "power_balance_error": 1.394566940282274e-14,
+          "gap_voltage_uniformity": 0.13599147742089723,
+          "solve_seconds": 0.879807599936612
+        },
+        {
+          "frequency_Hz": 3050000000.0,
+          "z_real_ohm": 0.013730180517958481,
+          "z_imag_ohm": 76.34506787014513,
+          "abs_s11": 0.9998351571800641,
+          "power_balance_error": 2.387898225597153e-14,
+          "gap_voltage_uniformity": 0.1181095592528949,
+          "solve_seconds": 0.9245544000295922
+        },
+        {
+          "frequency_Hz": 3060000000.0,
+          "z_real_ohm": 0.013886290280229866,
+          "z_imag_ohm": 73.53732570147659,
+          "abs_s11": 0.9998244116024513,
+          "power_balance_error": 2.3485611124517066e-14,
+          "gap_voltage_uniformity": 0.1246631773513034,
+          "solve_seconds": 0.9684917000122368
+        },
+        {
+          "frequency_Hz": 3070000000.0,
+          "z_real_ohm": 0.015390062532571358,
+          "z_imag_ohm": 71.31991146534176,
+          "abs_s11": 0.9997971602061083,
+          "power_balance_error": 2.975731883406197e-14,
+          "gap_voltage_uniformity": 0.06683879916722192,
+          "solve_seconds": 0.9653363999677822
+        },
+        {
+          "frequency_Hz": 3080000000.0,
+          "z_real_ohm": 0.01267779783030282,
+          "z_imag_ohm": 68.95433685111449,
+          "abs_s11": 0.9998252623953408,
+          "power_balance_error": 2.6408500541258965e-14,
+          "gap_voltage_uniformity": 0.06415710584178483,
+          "solve_seconds": 0.9389165999600664
+        },
+        {
+          "frequency_Hz": 3090000000.0,
+          "z_real_ohm": 0.01165793307645321,
+          "z_imag_ohm": 66.76657186613413,
+          "abs_s11": 0.9998324614383917,
+          "power_balance_error": 6.8448908886008555e-15,
+          "gap_voltage_uniformity": 0.057213333730385826,
+          "solve_seconds": 0.9148389999754727
+        },
+        {
+          "frequency_Hz": 3100000000.0,
+          "z_real_ohm": 0.010949451816217577,
+          "z_imag_ohm": 64.707840535274,
+          "abs_s11": 0.9998362736049861,
+          "power_balance_error": 2.1229642331189474e-14,
+          "gap_voltage_uniformity": 0.05073879393979276,
+          "solve_seconds": 0.9053857000544667
+        },
+        {
+          "frequency_Hz": 3110000000.0,
+          "z_real_ohm": 0.010384981735592684,
+          "z_imag_ohm": 62.7587976039525,
+          "abs_s11": 0.9998387221343056,
+          "power_balance_error": 7.51686988060949e-15,
+          "gap_voltage_uniformity": 0.04532895023262347,
+          "solve_seconds": 0.8421753000002354
+        },
+        {
+          "frequency_Hz": 3120000000.0,
+          "z_real_ohm": 0.00991257054711481,
+          "z_imag_ohm": 60.90571824295587,
+          "abs_s11": 0.9998403773424741,
+          "power_balance_error": 1.0850147799640807e-14,
+          "gap_voltage_uniformity": 0.041170041210853874,
+          "solve_seconds": 0.7770145999966189
+        },
+        {
+          "frequency_Hz": 3130000000.0,
+          "z_real_ohm": 0.00950813303442365,
+          "z_imag_ohm": 59.13756413123174,
+          "abs_s11": 0.9998414710587442,
+          "power_balance_error": 2.2258445827688097e-14,
+          "gap_voltage_uniformity": 0.038384649749916094,
+          "solve_seconds": 0.79912689991761
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "side": 1,
+      "post_height_m": 0.030000000000000002,
+      "post_cells": 7,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "gap_edges": 1,
+      "removed_edges": 7,
+      "mode_center_Hz": 3055359591.6326942,
+      "mode_width_Hz": 187358.710651291,
+      "peak_re_frequency_Hz": 3080000000.0,
+      "peak_re_ohm": 21.029410727638357,
+      "peak_offset_in_linewidths": 131.51461323389486,
+      "im_zero_crossing_Hz": 3071202187.086309,
+      "im_zero_offset_in_linewidths": 84.55756019318842,
+      "min_abs_s11": 0.979306075510966,
+      "max_gap_voltage_uniformity": 0.0,
+      "max_power_balance_error": 7.832639656710394e-14,
+      "scan": [
+        {
+          "frequency_Hz": 2980000000.0,
+          "z_real_ohm": 20.57190576469868,
+          "z_imag_ohm": 3949.928386949696,
+          "abs_s11": 0.9998681785463885,
+          "power_balance_error": 7.425986193781261e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.768611900042742
+        },
+        {
+          "frequency_Hz": 2990000000.0,
+          "z_real_ohm": 6.49942305199692,
+          "z_imag_ohm": 2132.2923772137956,
+          "abs_s11": 0.9998571410307712,
+          "power_balance_error": 1.2162291748192022e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.536083100014366
+        },
+        {
+          "frequency_Hz": 3000000000.0,
+          "z_real_ohm": 3.2497863495203503,
+          "z_imag_ohm": 1434.7180098218444,
+          "abs_s11": 0.9998423267187165,
+          "power_balance_error": 1.8174691674354474e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.507181599969044
+        },
+        {
+          "frequency_Hz": 3010000000.0,
+          "z_real_ohm": 2.016624236654084,
+          "z_imag_ohm": 1061.6070777591851,
+          "abs_s11": 0.999821476771186,
+          "power_balance_error": 3.523426540479396e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.699506899924017
+        },
+        {
+          "frequency_Hz": 3020000000.0,
+          "z_real_ohm": 1.4344697090904714,
+          "z_imag_ohm": 825.1926840329769,
+          "abs_s11": 0.9997901339314297,
+          "power_balance_error": 7.739605915618085e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.765855800011195
+        },
+        {
+          "frequency_Hz": 3030000000.0,
+          "z_real_ohm": 1.1369106759698497,
+          "z_imag_ohm": 657.2483587345115,
+          "abs_s11": 0.9997383606597631,
+          "power_balance_error": 2.9295785009972035e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.721029700012878
+        },
+        {
+          "frequency_Hz": 3040000000.0,
+          "z_real_ohm": 1.003724298890351,
+          "z_imag_ohm": 525.4382313675601,
+          "abs_s11": 0.9996397728839488,
+          "power_balance_error": 6.636621386087056e-16,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 17.884371099993587
+        },
+        {
+          "frequency_Hz": 3050000000.0,
+          "z_real_ohm": 1.0161341001532294,
+          "z_imag_ohm": 409.1386723064677,
+          "abs_s11": 0.9994020851078379,
+          "power_balance_error": 6.774088923536747e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.506957600009628
+        },
+        {
+          "frequency_Hz": 3060000000.0,
+          "z_real_ohm": 1.2786584963882126,
+          "z_imag_ohm": 285.742271071149,
+          "abs_s11": 0.9984816586384492,
+          "power_balance_error": 2.604815189734795e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 17.20725990005303
+        },
+        {
+          "frequency_Hz": 3070000000.0,
+          "z_real_ohm": 2.4943451818212985,
+          "z_imag_ohm": 97.07666756407832,
+          "abs_s11": 0.979306075510966,
+          "power_balance_error": 2.456929834970179e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 17.332354999962263
+        },
+        {
+          "frequency_Hz": 3080000000.0,
+          "z_real_ohm": 21.029410727638357,
+          "z_imag_ohm": -710.4238343931037,
+          "abs_s11": 0.99586599621835,
+          "power_balance_error": 5.389193630841378e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 16.748408199986443
+        },
+        {
+          "frequency_Hz": 3090000000.0,
+          "z_real_ohm": 9.933054945195439,
+          "z_imag_ohm": 1137.1905068999797,
+          "abs_s11": 0.9992337364001669,
+          "power_balance_error": 1.019347425383864e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 17.89575339993462
+        },
+        {
+          "frequency_Hz": 3100000000.0,
+          "z_real_ohm": 1.3267158922073836,
+          "z_imag_ohm": 594.2161296458535,
+          "abs_s11": 0.9996269716685662,
+          "power_balance_error": 7.832639656710394e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 18.19494149996899
+        },
+        {
+          "frequency_Hz": 3110000000.0,
+          "z_real_ohm": 0.5604455575001277,
+          "z_imag_ohm": 449.823474362547,
+          "abs_s11": 0.9997264377649531,
+          "power_balance_error": 2.3771579803269013e-15,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 18.57699870003853
+        },
+        {
+          "frequency_Hz": 3120000000.0,
+          "z_real_ohm": 0.38337049930170564,
+          "z_imag_ohm": 369.5910753912267,
+          "abs_s11": 0.9997244255976011,
+          "power_balance_error": 2.403641156837391e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 20.694598599919118
+        },
+        {
+          "frequency_Hz": 3130000000.0,
+          "z_real_ohm": 1.236751206625975,
+          "z_imag_ohm": 283.52035984356263,
+          "abs_s11": 0.9985089882869483,
+          "power_balance_error": 6.427482596117782e-14,
+          "gap_voltage_uniformity": 0.0,
+          "solve_seconds": 18.830351199954748
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "side": 2,
+      "post_height_m": 0.030000000000000002,
+      "post_cells": 7,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "gap_edges": 4,
+      "removed_edges": 28,
+      "mode_center_Hz": 3055359591.6326942,
+      "mode_width_Hz": 187358.710651291,
+      "peak_re_frequency_Hz": 3070000000.0,
+      "peak_re_ohm": 1.0550088173897842,
+      "peak_offset_in_linewidths": 78.14106062329947,
+      "im_zero_crossing_Hz": null,
+      "im_zero_offset_in_linewidths": null,
+      "min_abs_s11": 0.9911574451156214,
+      "max_gap_voltage_uniformity": 0.04453885639435707,
+      "max_power_balance_error": 5.1388476531868626e-14,
+      "scan": [
+        {
+          "frequency_Hz": 2980000000.0,
+          "z_real_ohm": 0.11296947224270402,
+          "z_imag_ohm": 257.9474134783956,
+          "abs_s11": 0.9998363769779978,
+          "power_balance_error": 3.6853640719855803e-16,
+          "gap_voltage_uniformity": 0.014564594760734413,
+          "solve_seconds": 14.329071799991652
+        },
+        {
+          "frequency_Hz": 2990000000.0,
+          "z_real_ohm": 0.10148478145588652,
+          "z_imag_ohm": 239.39478602952397,
+          "abs_s11": 0.9998303354171787,
+          "power_balance_error": 4.786161691491056e-15,
+          "gap_voltage_uniformity": 0.014638753253707582,
+          "solve_seconds": 13.649245399981737
+        },
+        {
+          "frequency_Hz": 3000000000.0,
+          "z_real_ohm": 0.09286926813147856,
+          "z_imag_ohm": 223.00658610325797,
+          "abs_s11": 0.9998222141420512,
+          "power_balance_error": 5.080741939278372e-15,
+          "gap_voltage_uniformity": 0.014683932935782159,
+          "solve_seconds": 13.727655800059438
+        },
+        {
+          "frequency_Hz": 3010000000.0,
+          "z_real_ohm": 0.08680990484574946,
+          "z_imag_ohm": 208.32133562986849,
+          "abs_s11": 0.999810880428716,
+          "power_balance_error": 2.845581082228229e-14,
+          "gap_voltage_uniformity": 0.014674657695506247,
+          "solve_seconds": 14.361076200031675
+        },
+        {
+          "frequency_Hz": 3020000000.0,
+          "z_real_ohm": 0.08338977993425305,
+          "z_imag_ohm": 194.94279889443663,
+          "abs_s11": 0.9997941342340811,
+          "power_balance_error": 6.656829083255101e-16,
+          "gap_voltage_uniformity": 0.014565250538248944,
+          "solve_seconds": 13.58181240002159
+        },
+        {
+          "frequency_Hz": 3030000000.0,
+          "z_real_ohm": 0.0833624693111004,
+          "z_imag_ohm": 182.4788450447101,
+          "abs_s11": 0.999767161523525,
+          "power_balance_error": 2.1641782326326157e-15,
+          "gap_voltage_uniformity": 0.014266210975058724,
+          "solve_seconds": 13.543850799906068
+        },
+        {
+          "frequency_Hz": 3040000000.0,
+          "z_real_ohm": 0.08914117288955889,
+          "z_imag_ohm": 170.42911517134095,
+          "abs_s11": 0.9997174655292422,
+          "power_balance_error": 4.203447841944191e-15,
+          "gap_voltage_uniformity": 0.013577852417065378,
+          "solve_seconds": 14.104764000046998
+        },
+        {
+          "frequency_Hz": 3050000000.0,
+          "z_real_ohm": 0.10899038243985065,
+          "z_imag_ohm": 157.85291825528418,
+          "abs_s11": 0.9996025585600451,
+          "power_balance_error": 3.692581284855346e-15,
+          "gap_voltage_uniformity": 0.01195220961277948,
+          "solve_seconds": 13.869846500107087
+        },
+        {
+          "frequency_Hz": 3060000000.0,
+          "z_real_ohm": 0.18487839586040244,
+          "z_imag_ohm": 141.77103898079167,
+          "abs_s11": 0.9991822543886988,
+          "power_balance_error": 3.603091706172509e-15,
+          "gap_voltage_uniformity": 0.007172288214349395,
+          "solve_seconds": 13.9798574000597
+        },
+        {
+          "frequency_Hz": 3070000000.0,
+          "z_real_ohm": 1.0550088173897842,
+          "z_imag_ohm": 96.83703538147265,
+          "abs_s11": 0.9911574451156214,
+          "power_balance_error": 3.577940033775952e-15,
+          "gap_voltage_uniformity": 0.030740513181013937,
+          "solve_seconds": 13.906656700070016
+        },
+        {
+          "frequency_Hz": 3080000000.0,
+          "z_real_ohm": 0.9126909043003334,
+          "z_imag_ohm": 203.2361907891855,
+          "abs_s11": 0.9979186718230902,
+          "power_balance_error": 6.933641181857323e-15,
+          "gap_voltage_uniformity": 0.04453885639435707,
+          "solve_seconds": 14.0540984000545
+        },
+        {
+          "frequency_Hz": 3090000000.0,
+          "z_real_ohm": 0.11072870723124104,
+          "z_imag_ohm": 157.63424631665117,
+          "abs_s11": 0.9995952025680634,
+          "power_balance_error": 1.0778503437050077e-14,
+          "gap_voltage_uniformity": 0.031016603542114093,
+          "solve_seconds": 12.80547379993368
+        },
+        {
+          "frequency_Hz": 3100000000.0,
+          "z_real_ohm": 0.054466569069194205,
+          "z_imag_ohm": 143.60644973050103,
+          "abs_s11": 0.9997644743738386,
+          "power_balance_error": 4.267809589504058e-14,
+          "gap_voltage_uniformity": 0.02814840703072179,
+          "solve_seconds": 12.843792299972847
+        },
+        {
+          "frequency_Hz": 3110000000.0,
+          "z_real_ohm": 0.03989029716711328,
+          "z_imag_ohm": 134.34976467231417,
+          "abs_s11": 0.9998059041540646,
+          "power_balance_error": 1.600334628957747e-14,
+          "gap_voltage_uniformity": 0.027305471624632073,
+          "solve_seconds": 13.571257500094362
+        },
+        {
+          "frequency_Hz": 3120000000.0,
+          "z_real_ohm": 0.033892080237105694,
+          "z_imag_ohm": 126.89062325278104,
+          "abs_s11": 0.9998178131737018,
+          "power_balance_error": 5.1388476531868626e-14,
+          "gap_voltage_uniformity": 0.027238980620078748,
+          "solve_seconds": 13.012598700006492
+        },
+        {
+          "frequency_Hz": 3130000000.0,
+          "z_real_ohm": 0.03067822440058088,
+          "z_imag_ohm": 120.39417944035083,
+          "abs_s11": 0.9998195004986257,
+          "power_balance_error": 2.2618303501867086e-15,
+          "gap_voltage_uniformity": 0.027585370313314643,
+          "solve_seconds": 12.846535100019537
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "side": 3,
+      "post_height_m": 0.030000000000000002,
+      "post_cells": 7,
+      "post_location_ij": [
+        17,
+        10
+      ],
+      "gap_edges": 9,
+      "removed_edges": 63,
+      "mode_center_Hz": 3055359591.6326942,
+      "mode_width_Hz": 187358.710651291,
+      "peak_re_frequency_Hz": 3070000000.0,
+      "peak_re_ohm": 0.22776650241656815,
+      "peak_offset_in_linewidths": 78.14106062329947,
+      "im_zero_crossing_Hz": null,
+      "im_zero_offset_in_linewidths": null,
+      "min_abs_s11": 0.9971630720685378,
+      "max_gap_voltage_uniformity": 0.5038723762844244,
+      "max_power_balance_error": 2.3163620658736485e-14,
+      "scan": [
+        {
+          "frequency_Hz": 2980000000.0,
+          "z_real_ohm": 0.023922194641433792,
+          "z_imag_ohm": 111.89041189425953,
+          "abs_s11": 0.9998407380682952,
+          "power_balance_error": 1.638844225820833e-14,
+          "gap_voltage_uniformity": 0.06540686866650729,
+          "solve_seconds": 14.07430800003931
+        },
+        {
+          "frequency_Hz": 2990000000.0,
+          "z_real_ohm": 0.02240795098228452,
+          "z_imag_ohm": 107.36226547787606,
+          "abs_s11": 0.9998402601409477,
+          "power_balance_error": 1.3315471731614407e-14,
+          "gap_voltage_uniformity": 0.07186616696707887,
+          "solve_seconds": 16.035407799994573
+        },
+        {
+          "frequency_Hz": 3000000000.0,
+          "z_real_ohm": 0.021159785371108145,
+          "z_imag_ohm": 103.14970588093769,
+          "abs_s11": 0.9998389779019347,
+          "power_balance_error": 2.2954985825929883e-15,
+          "gap_voltage_uniformity": 0.08068275182342041,
+          "solve_seconds": 16.267039999947883
+        },
+        {
+          "frequency_Hz": 3010000000.0,
+          "z_real_ohm": 0.020179005643093398,
+          "z_imag_ohm": 99.20238419038077,
+          "abs_s11": 0.9998365029518749,
+          "power_balance_error": 6.8773397724700875e-15,
+          "gap_voltage_uniformity": 0.09321189504003084,
+          "solve_seconds": 16.10792850004509
+        },
+        {
+          "frequency_Hz": 3020000000.0,
+          "z_real_ohm": 0.01951405410356832,
+          "z_imag_ohm": 95.46750107106877,
+          "abs_s11": 0.9998319929324018,
+          "power_balance_error": 1.2978831879240369e-14,
+          "gap_voltage_uniformity": 0.11224772202991158,
+          "solve_seconds": 16.44906799995806
+        },
+        {
+          "frequency_Hz": 3030000000.0,
+          "z_real_ohm": 0.01934670450412808,
+          "z_imag_ohm": 91.87411531658694,
+          "abs_s11": 0.9998231856922747,
+          "power_balance_error": 2.510621760775152e-15,
+          "gap_voltage_uniformity": 0.1446988873147511,
+          "solve_seconds": 16.553655099938624
+        },
+        {
+          "frequency_Hz": 3040000000.0,
+          "z_real_ohm": 0.020505718434081686,
+          "z_imag_ohm": 88.26973599222907,
+          "abs_s11": 0.9998007716765015,
+          "power_balance_error": 1.7257800073519674e-14,
+          "gap_voltage_uniformity": 0.21414281744885633,
+          "solve_seconds": 14.425835200003348
+        },
+        {
+          "frequency_Hz": 3050000000.0,
+          "z_real_ohm": 0.035348078468563374,
+          "z_imag_ohm": 83.7806348194298,
+          "abs_s11": 0.9996287342140483,
+          "power_balance_error": 2.3163620658736485e-14,
+          "gap_voltage_uniformity": 0.5038723762844244,
+          "solve_seconds": 14.867507899994962
+        },
+        {
+          "frequency_Hz": 3060000000.0,
+          "z_real_ohm": 0.07691881153096862,
+          "z_imag_ohm": 84.3740506016492,
+          "abs_s11": 0.999200663363465,
+          "power_balance_error": 7.758113572721591e-15,
+          "gap_voltage_uniformity": 0.3941137363403883,
+          "solve_seconds": 16.007351499982178
+        },
+        {
+          "frequency_Hz": 3070000000.0,
+          "z_real_ohm": 0.22776650241656815,
+          "z_imag_ohm": 74.2779100954531,
+          "abs_s11": 0.9971630720685378,
+          "power_balance_error": 1.377015501089734e-14,
+          "gap_voltage_uniformity": 0.34812349131242876,
+          "solve_seconds": 17.016377600026317
+        },
+        {
+          "frequency_Hz": 3080000000.0,
+          "z_real_ohm": 0.0479035778074436,
+          "z_imag_ohm": 83.01084980992133,
+          "abs_s11": 0.9994900184414505,
+          "power_balance_error": 1.202265509977854e-14,
+          "gap_voltage_uniformity": 0.2899242554983902,
+          "solve_seconds": 15.125038099940866
+        },
+        {
+          "frequency_Hz": 3090000000.0,
+          "z_real_ohm": 0.015969955554423446,
+          "z_imag_ohm": 78.08670334402406,
+          "abs_s11": 0.9998142668170161,
+          "power_balance_error": 1.6728125159148133e-14,
+          "gap_voltage_uniformity": 0.13605106031879957,
+          "solve_seconds": 15.136605100007728
+        },
+        {
+          "frequency_Hz": 3100000000.0,
+          "z_real_ohm": 0.012756050998219923,
+          "z_imag_ohm": 75.09689120695587,
+          "abs_s11": 0.9998432952409424,
+          "power_balance_error": 2.7198440586649954e-15,
+          "gap_voltage_uniformity": 0.08941193612252885,
+          "solve_seconds": 15.864518699934706
+        },
+        {
+          "frequency_Hz": 3110000000.0,
+          "z_real_ohm": 0.011745768835385008,
+          "z_imag_ohm": 72.54697088599093,
+          "abs_s11": 0.999848708168444,
+          "power_balance_error": 2.3039518829719205e-14,
+          "gap_voltage_uniformity": 0.0669223324957928,
+          "solve_seconds": 16.631148700020276
+        },
+        {
+          "frequency_Hz": 3120000000.0,
+          "z_real_ohm": 0.011223100815899738,
+          "z_imag_ohm": 70.20970338223923,
+          "abs_s11": 0.9998489481067778,
+          "power_balance_error": 4.637016554781087e-16,
+          "gap_voltage_uniformity": 0.054916906542629776,
+          "solve_seconds": 16.206356600043364
+        },
+        {
+          "frequency_Hz": 3130000000.0,
+          "z_real_ohm": 0.010872056203905025,
+          "z_imag_ohm": 68.01082593333815,
+          "abs_s11": 0.9998474314958707,
+          "power_balance_error": 1.1009501569666952e-14,
+          "gap_voltage_uniformity": 0.048935605244998466,
+          "solve_seconds": 15.773847299977206
+        }
+      ],
+      "status": "complete"
+    }
+  ],
+  "status": "complete"
+}

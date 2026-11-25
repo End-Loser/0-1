@@ -1,0 +1,25 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "original_available_at_run": true,
+  "original_sha256": "27f211b009303a0923bfd207bc3aa346e7642ee07d8bf3bf0bcfffb9138c6c9c",
+  "offline_replay_needs_PDF": false,
+  "TEMP_independent_verification": {
+    "command": [
+      "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\oracle.py",
+      "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\结果"
+    ],
+    "returncode": 0,
+    "stdout": "{\"verified\": true, \"scenarios\": 12, \"trace_events_checked\": 2432, \"hardware_passed\": false}\n",
+    "stderr": ""
+  },
+  "scope": "D:\\work\\trae_cn\\电磁波计算机构想\\校准验证\\ADS8866时序",
+  "old_files_written": [],
+  "unittest_command": [
+    "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "-B",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ADS8866-timing-6s3qmxv6\\tests.py"
+  ]
+}

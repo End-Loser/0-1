@@ -1,0 +1,13 @@
+{
+  "build_provenance_verified": true,
+  "source_regular_files_verified": 4613,
+  "windows_extracted_missing_files": 18,
+  "separate_complete_extraction_verified": true,
+  "application_control_block_recorded": true,
+  "compiled_candidate": false,
+  "candidate_solver_run": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "evidence_sha256": "afcbb4e7e378175360ff3d0ce97fef61f4d298901684e5168cffd949b0e830a7",
+  "verifier_sha256": "9ceb6f2996387f26f5c31fbb93b358d49b8f20ec70af44cf8996f146761186d3"
+}

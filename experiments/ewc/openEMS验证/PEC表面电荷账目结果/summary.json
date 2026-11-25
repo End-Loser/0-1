@@ -1,0 +1,980 @@
+{
+  "method": "full_node dual charge from the finite six-face PEC FIT operator",
+  "charge_definition": "q_all = -full_gradient.T @ lift(m*e); equals the all-node discrete divergence of m*e",
+  "wall_definition": "PEC wall face interior: one node coordinate on a mesh boundary, the other two strictly interior",
+  "reference": "closed-form truncated midpoint sum of the analytic sin/cos mode ansatz",
+  "lengths_m": [
+    0.16,
+    0.1,
+    0.06
+  ],
+  "modes": [
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "cases": [
+    {
+      "case": "charge_36x23x14",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "mode_vectors": 7,
+      "file": "charge_36x23x14.npz",
+      "sha256": "9e5687c95485dd654e7c8855a53098c24e97ef8de52f49af67b744984a02ae70",
+      "solve_seconds": 59.07002300012391
+    },
+    {
+      "case": "charge_24x15x9",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "mode_vectors": 7,
+      "file": "charge_24x15x9.npz",
+      "sha256": "74eaab97b11ba3e6af9aa64907feffb0075404789f6c9fb11b5951ee993d8e8d",
+      "solve_seconds": 3.125058700097725
+    }
+  ],
+  "vectors": [
+    {
+      "case": "main_quantitative_36x23x14_mode110_v0",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode_indices": [
+        1,
+        1,
+        0
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 1766502334.375263,
+      "eigenvalue_rad2_s2": 1.2319360612164492e+20,
+      "degenerate_peers": 1,
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "live_components": [
+        2
+      ],
+      "analytic_fit_residual": 4.022059446773473e-14,
+      "charge_norm_C": 7.551940518074584e-08,
+      "total_to_norm": 9.857897443921215e-17,
+      "interior_to_norm": 4.680276413175581e-15,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 1.1982301532160748,
+      "ledger_closure": 1.026350884916589e-15,
+      "wall_partition_residual": 8.160148439690339e-16,
+      "attribute_vs_array_divergence": 2.819435046945933e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 1.231924878558993e-22,
+        "0hi": 2.914692637275646e-22,
+        "1lo": -1.1826140277485709e-21,
+        "1hi": 4.420292477728945e-22,
+        "2lo": 1.2427886542338788e-06,
+        "2hi": -1.2427886542338788e-06
+      },
+      "wall_predicted_C": {
+        "0lo": 0.0,
+        "0hi": 0.0,
+        "1lo": 0.0,
+        "1hi": 0.0,
+        "2lo": 1.2427886542338846e-06,
+        "2hi": -1.2427886542338846e-06
+      },
+      "wall_relative_error": {
+        "0lo": 1.6312693083460362e-09,
+        "0hi": 3.859528064740062e-09,
+        "1lo": 1.5659737055901575e-08,
+        "1hi": 5.853187623961751e-09,
+        "2lo": 4.600518659780537e-15,
+        "2hi": 4.600518659780537e-15
+      },
+      "worst_wall_relative_error": 1.5659737055901575e-08,
+      "worst_wall_abs_to_charge_norm": 7.570865236931493e-14,
+      "solve_seconds": 8.422734700026922
+    },
+    {
+      "case": "main_quantitative_36x23x14_mode101_v0",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode_indices": [
+        1,
+        0,
+        1
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 2663145268.7654667,
+      "eigenvalue_rad2_s2": 2.7999446779397092e+20,
+      "degenerate_peers": 1,
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "live_components": [
+        1
+      ],
+      "analytic_fit_residual": 2.918144551040858e-14,
+      "charge_norm_C": 5.8077740404754524e-08,
+      "total_to_norm": 2.2788231271761e-16,
+      "interior_to_norm": 2.3259979949294134e-13,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 1.000688864528168,
+      "ledger_closure": 3.881120638472572e-16,
+      "wall_partition_residual": 9.218795939122009e-17,
+      "attribute_vs_array_divergence": 3.3972524320920145e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": -1.7928880705219113e-21,
+        "0hi": 4.9219171243824045e-21,
+        "1lo": 7.436981548975274e-07,
+        "1hi": -7.436981548975225e-07,
+        "2lo": 4.267493607700528e-22,
+        "2hi": 5.044614195354321e-21
+      },
+      "wall_predicted_C": {
+        "0lo": 0.0,
+        "0hi": 0.0,
+        "1lo": 7.436981548975248e-07,
+        "1hi": -7.436981548975248e-07,
+        "2lo": 0.0,
+        "2hi": 0.0
+      },
+      "wall_relative_error": {
+        "0lo": 3.0870485973230755e-08,
+        "0hi": 8.474704921508057e-08,
+        "1lo": 3.4168416648997096e-15,
+        "1hi": 3.1321048594914005e-15,
+        "2lo": 7.3478988300157266e-09,
+        "2hi": 8.685968428174841e-08
+      },
+      "worst_wall_relative_error": 8.685968428174841e-08,
+      "worst_wall_abs_to_charge_norm": 8.68596842817484e-14,
+      "solve_seconds": 8.55740369996056
+    },
+    {
+      "case": "main_quantitative_36x23x14_mode011_v0",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode_indices": [
+        0,
+        1,
+        1
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 2908368224.287709,
+      "eigenvalue_rad2_s2": 3.339323692824272e+20,
+      "degenerate_peers": 1,
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "live_components": [
+        0
+      ],
+      "analytic_fit_residual": 2.3120972144912005e-14,
+      "charge_norm_C": 4.541267253846126e-08,
+      "total_to_norm": 1.1657441908656176e-15,
+      "interior_to_norm": 7.624489405953252e-14,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.9838445225005539,
+      "ledger_closure": 6.602847956081414e-17,
+      "wall_partition_residual": 1.925995208024676e-15,
+      "attribute_vs_array_divergence": 3.760344380544864e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 4.643831968929721e-07,
+        "0hi": -4.6438319689297287e-07,
+        "1lo": -6.166973052828188e-21,
+        "1hi": 4.113144825149241e-21,
+        "2lo": 4.0150211782532395e-21,
+        "2hi": 2.2394467552079327e-21
+      },
+      "wall_predicted_C": {
+        "0lo": 4.6438319689297054e-07,
+        "0hi": -4.6438319689297054e-07,
+        "1lo": 0.0,
+        "1hi": 0.0,
+        "2lo": 0.0,
+        "2hi": 0.0
+      },
+      "wall_relative_error": {
+        "0lo": 3.3059921788088685e-15,
+        "0hi": 5.01598813336518e-15,
+        "1lo": 1.357985053093981e-07,
+        "1hi": 9.057262202892165e-08,
+        "2lo": 8.841191134154913e-08,
+        "2hi": 4.931325619101767e-08
+      },
+      "worst_wall_relative_error": 1.357985053093981e-07,
+      "worst_wall_abs_to_charge_norm": 1.3579850530939809e-13,
+      "solve_seconds": 8.410841900040396
+    },
+    {
+      "case": "main_quantitative_36x23x14_mode210_v0",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode_indices": [
+        2,
+        1,
+        0
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 2396926410.5727224,
+      "eigenvalue_rad2_s2": 2.2681362420643257e+20,
+      "degenerate_peers": 1,
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "live_components": [
+        2
+      ],
+      "analytic_fit_residual": 2.0861038748506677e-14,
+      "charge_norm_C": 7.551940518074618e-08,
+      "total_to_norm": 5.4766096910673164e-18,
+      "interior_to_norm": 5.3588359827548456e-14,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.9696275564500308,
+      "ledger_closure": 1.6330860434887182e-15,
+      "wall_partition_residual": 1.3841663020903921e-15,
+      "attribute_vs_array_divergence": 2.807664970997786e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 8.242798116805629e-22,
+        "0hi": 2.3401221004149135e-22,
+        "1lo": 4.88715640585862e-22,
+        "1hi": 4.769669522404122e-23,
+        "2lo": -8.470329472543003e-22,
+        "2hi": 3.1763735522036263e-21
+      },
+      "wall_predicted_C": {
+        "0lo": 0.0,
+        "0hi": -0.0,
+        "1lo": 0.0,
+        "1hi": 0.0,
+        "2lo": 1.50605429460471e-24,
+        "2hi": -1.50605429460471e-24
+      },
+      "wall_relative_error": {
+        "0lo": 1.0914808051093001e-08,
+        "0hi": 3.098703035086315e-09,
+        "1lo": 6.471391550505234e-09,
+        "1hi": 6.315819769751258e-10,
+        "2lo": 1.123603926061168e-08,
+        "2hi": 4.2080305040702803e-08
+      },
+      "worst_wall_relative_error": 4.2080305040702803e-08,
+      "worst_wall_abs_to_charge_norm": 4.2080305040702803e-14,
+      "solve_seconds": 8.603525000042282
+    },
+    {
+      "case": "main_quantitative_36x23x14_mode120_v0",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode_indices": [
+        1,
+        2,
+        0
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 3131921217.850401,
+      "eigenvalue_rad2_s2": 3.872410551162494e+20,
+      "degenerate_peers": 1,
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "live_components": [
+        2
+      ],
+      "analytic_fit_residual": 2.5645223842793595e-14,
+      "charge_norm_C": 7.551940518074638e-08,
+      "total_to_norm": 2.190643876426921e-16,
+      "interior_to_norm": 1.4472711256883152e-14,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 1.001530410425757,
+      "ledger_closure": 1.9691519944618893e-16,
+      "wall_partition_residual": 2.0435996574498356e-16,
+      "attribute_vs_array_divergence": 2.837990092170685e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": -2.0396826283347085e-21,
+        "0hi": -8.532521455132939e-21,
+        "1lo": 1.940394026645907e-21,
+        "1hi": -2.572068051626331e-21,
+        "2lo": 8.37106779903664e-21,
+        "2hi": 3.9274535484017754e-21
+      },
+      "wall_predicted_C": {
+        "0lo": 0.0,
+        "0hi": 0.0,
+        "1lo": 0.0,
+        "1hi": -0.0,
+        "2lo": 3.775161198619549e-23,
+        "2hi": -3.775161198619549e-23
+      },
+      "wall_relative_error": {
+        "0lo": 2.7008722108615393e-08,
+        "0hi": 1.1298448967800265e-07,
+        "1lo": 2.569397920973839e-08,
+        "1hi": 3.4058372751617994e-08,
+        "2lo": 1.1034668727998693e-07,
+        "2hi": 5.2505778493590374e-08
+      },
+      "worst_wall_relative_error": 1.1298448967800265e-07,
+      "worst_wall_abs_to_charge_norm": 1.1298448967800264e-13,
+      "solve_seconds": 8.431618900038302
+    },
+    {
+      "case": "main_quantitative_36x23x14_mode111_v0",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode_indices": [
+        1,
+        1,
+        1
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 3055444235.1274886,
+      "eigenvalue_rad2_s2": 3.685602215990219e+20,
+      "degenerate_peers": 2,
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "live_components": [
+        0,
+        1,
+        2
+      ],
+      "analytic_fit_residual": 5.933982596583105e-14,
+      "charge_norm_C": 8.595494503332608e-08,
+      "total_to_norm": 3.079494680781209e-16,
+      "interior_to_norm": 2.3936950309072455e-13,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.9983259527344598,
+      "ledger_closure": 9.276639402463169e-17,
+      "wall_partition_residual": 0.0,
+      "attribute_vs_array_divergence": 2.613218663624634e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 3.664637734927347e-07,
+        "0hi": 3.6646377349270857e-07,
+        "1lo": 6.311294167231423e-07,
+        "1hi": 6.311294167231884e-07,
+        "2lo": -9.975931902158791e-07,
+        "2hi": -9.975931902158742e-07
+      },
+      "wall_predicted_C": {
+        "0lo": 3.6646377349272144e-07,
+        "0hi": 3.6646377349272144e-07,
+        "1lo": 6.311294167231641e-07,
+        "1hi": 6.311294167231642e-07,
+        "2lo": -9.975931902158772e-07,
+        "2hi": -9.975931902158772e-07
+      },
+      "wall_relative_error": {
+        "0lo": 3.625959868667825e-14,
+        "0hi": 3.510391426638571e-14,
+        "1lo": 3.455883660920429e-14,
+        "1hi": 3.841734749275622e-14,
+        "2lo": 1.910422154054359e-15,
+        "2hi": 2.9717677951956692e-15
+      },
+      "worst_wall_relative_error": 3.841734749275622e-14,
+      "worst_wall_abs_to_charge_norm": 2.8208171275955874e-13,
+      "solve_seconds": 8.318910100031644
+    },
+    {
+      "case": "main_quantitative_36x23x14_mode111_v1",
+      "role": "main_quantitative",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode_indices": [
+        1,
+        1,
+        1
+      ],
+      "vector_index": 1,
+      "frequency_Hz": 3055444235.1274915,
+      "eigenvalue_rad2_s2": 3.6856022159902265e+20,
+      "degenerate_peers": 2,
+      "active_edges": 31541,
+      "full_edges": 38157,
+      "dual_nodes": 13320,
+      "live_components": [
+        0,
+        1,
+        2
+      ],
+      "analytic_fit_residual": 3.870671901775219e-14,
+      "charge_norm_C": 7.216424253861807e-08,
+      "total_to_norm": 7.335982107075207e-16,
+      "interior_to_norm": 5.418708474711157e-14,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.9950612537773946,
+      "ledger_closure": 1.0012144708163166e-15,
+      "wall_partition_residual": 1.100397316061281e-15,
+      "attribute_vs_array_divergence": 2.827201491423441e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 5.057088401113683e-07,
+        "0hi": 5.057088401113797e-07,
+        "1lo": -6.619064854396873e-07,
+        "1hi": -6.61906485439714e-07,
+        "2lo": 1.5619764532832886e-07,
+        "2hi": 1.5619764532832047e-07
+      },
+      "wall_predicted_C": {
+        "0lo": 5.057088401113732e-07,
+        "0hi": 5.057088401113732e-07,
+        "1lo": -6.619064854397005e-07,
+        "1hi": -6.619064854397006e-07,
+        "2lo": 1.5619764532832417e-07,
+        "2hi": 1.5619764532832417e-07
+      },
+      "wall_relative_error": {
+        "0lo": 9.630916172316864e-15,
+        "0hi": 1.2980800058340121e-14,
+        "1lo": 1.9995105187791877e-14,
+        "1hi": 2.0155066029294206e-14,
+        "2lo": 2.999501676003028e-14,
+        "2hi": 2.3724872013583272e-14
+      },
+      "worst_wall_relative_error": 2.999501676003028e-14,
+      "worst_wall_abs_to_charge_norm": 1.8486674909829522e-13,
+      "solve_seconds": 8.324988699983805
+    },
+    {
+      "case": "cross_check_24x15x9_mode110_v0",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode_indices": [
+        1,
+        1,
+        0
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 1764971592.589642,
+      "eigenvalue_rad2_s2": 1.2298019469037234e+20,
+      "degenerate_peers": 1,
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "live_components": [
+        2
+      ],
+      "analytic_fit_residual": 1.3172388196216484e-14,
+      "charge_norm_C": 1.1453084861889203e-07,
+      "total_to_norm": 2.1667016944199514e-17,
+      "interior_to_norm": 8.014539288422132e-16,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 2.3069557871022246,
+      "ledger_closure": 1.0691318673403447e-15,
+      "wall_partition_residual": 9.419442279772132e-16,
+      "attribute_vs_array_divergence": 9.43966128793038e-17,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 5.427796491880574e-24,
+        "0hi": -3.645028757097093e-23,
+        "1lo": -4.160440601028261e-22,
+        "1hi": -7.403322385237051e-22,
+        "2lo": 1.2391863673911494e-06,
+        "2hi": -1.2391863673911483e-06
+      },
+      "wall_predicted_C": {
+        "0lo": 0.0,
+        "0hi": 0.0,
+        "1lo": 0.0,
+        "1hi": 0.0,
+        "2lo": 1.2391863673911475e-06,
+        "2hi": -1.2391863673911475e-06
+      },
+      "wall_relative_error": {
+        "0lo": 4.739156792544058e-11,
+        "0hi": 3.182573779075134e-10,
+        "1lo": 3.6325938829566927e-09,
+        "1hi": 6.464042198684856e-09,
+        "2lo": 1.5379640879478826e-15,
+        "2hi": 6.835395946435033e-16
+      },
+      "worst_wall_relative_error": 6.464042198684856e-09,
+      "worst_wall_abs_to_charge_norm": 1.6640269013145226e-14,
+      "solve_seconds": 0.4379801000468433
+    },
+    {
+      "case": "cross_check_24x15x9_mode101_v0",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode_indices": [
+        1,
+        0,
+        1
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 2656064030.0137177,
+      "eigenvalue_rad2_s2": 2.7850745038414116e+20,
+      "degenerate_peers": 1,
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "live_components": [
+        1
+      ],
+      "analytic_fit_residual": 6.38163197722557e-15,
+      "charge_norm_C": 8.871521386559413e-08,
+      "total_to_norm": 1.4918399251000676e-16,
+      "interior_to_norm": 9.718936523795867e-16,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.4069930185746794,
+      "ledger_closure": 4.2715572855404173e-16,
+      "wall_partition_residual": 5.741420199995058e-16,
+      "attribute_vs_array_divergence": 1.2305693615296265e-16,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": -5.932311868007592e-22,
+        "0hi": -5.259318003005668e-24,
+        "1lo": 7.386489292392534e-07,
+        "1hi": -7.386489292392517e-07,
+        "2lo": -8.429336456562465e-22,
+        "2hi": -1.8076588679959442e-22
+      },
+      "wall_predicted_C": {
+        "0lo": 0.0,
+        "0hi": 0.0,
+        "1lo": 7.386489292392524e-07,
+        "1hi": -7.386489292392524e-07,
+        "2lo": 0.0,
+        "2hi": 0.0
+      },
+      "wall_relative_error": {
+        "0lo": 6.686916042377129e-09,
+        "0hi": 5.928315757626051e-11,
+        "1lo": 1.2900743884412163e-15,
+        "1hi": 1.003391191009835e-15,
+        "2lo": 9.501568095561525e-09,
+        "2hi": 2.0375973739234795e-09
+      },
+      "worst_wall_relative_error": 9.501568095561525e-09,
+      "worst_wall_abs_to_charge_norm": 1.0741247460720487e-14,
+      "solve_seconds": 0.4424157999455929
+    },
+    {
+      "case": "cross_check_24x15x9_mode011_v0",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode_indices": [
+        0,
+        1,
+        1
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 2901193670.389947,
+      "eigenvalue_rad2_s2": 3.322868687686202e+20,
+      "degenerate_peers": 1,
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "live_components": [
+        0
+      ],
+      "analytic_fit_residual": 4.592169417779494e-15,
+      "charge_norm_C": 7.013553473105713e-08,
+      "total_to_norm": 2.2644537924917805e-15,
+      "interior_to_norm": 5.216788171462362e-15,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.8428755261244243,
+      "ledger_closure": 1.4447686957304302e-15,
+      "wall_partition_residual": 8.866224411131423e-16,
+      "attribute_vs_array_divergence": 3.634931625428836e-30,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 4.6062471702240526e-07,
+        "0hi": -4.6062471702240504e-07,
+        "1lo": -9.699546702967745e-22,
+        "1hi": -6.658428653398135e-22,
+        "2lo": 1.0578819634313656e-21,
+        "2hi": 6.745505108033784e-22
+      },
+      "wall_predicted_C": {
+        "0lo": 4.606247170224055e-07,
+        "0hi": -4.606247170224055e-07,
+        "1lo": 0.0,
+        "1hi": 0.0,
+        "2lo": 0.0,
+        "2hi": 0.0
+      },
+      "wall_relative_error": {
+        "0lo": 5.746495709740507e-16,
+        "0hi": 1.0343692277532912e-15,
+        "1lo": 1.3829718045441283e-08,
+        "1hi": 9.493659211312288e-09,
+        "2lo": 1.508339485095447e-08,
+        "2hi": 9.617813757177739e-09
+      },
+      "worst_wall_relative_error": 1.508339485095447e-08,
+      "worst_wall_abs_to_charge_norm": 1.508339485095447e-14,
+      "solve_seconds": 0.43828190001659095
+    },
+    {
+      "case": "cross_check_24x15x9_mode210_v0",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode_indices": [
+        2,
+        1,
+        0
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 2393625458.5612783,
+      "eigenvalue_rad2_s2": 2.26189336914876e+20,
+      "degenerate_peers": 1,
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "live_components": [
+        2
+      ],
+      "analytic_fit_residual": 1.2033045760439318e-14,
+      "charge_norm_C": 1.1453084861889198e-07,
+      "total_to_norm": 2.491706948582945e-16,
+      "interior_to_norm": 6.481798301289943e-14,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 1.0060653378820352,
+      "ledger_closure": 6.42313662663545e-16,
+      "wall_partition_residual": 3.744908186891971e-16,
+      "attribute_vs_array_divergence": 9.35032728308807e-17,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 1.2793049402991605e-21,
+        "0hi": -3.577228430145775e-23,
+        "1lo": 2.4267357111318613e-21,
+        "1hi": 5.161645602236045e-22,
+        "2lo": 4.870439446712227e-21,
+        "2hi": -1.5881867761018131e-21
+      },
+      "wall_predicted_C": {
+        "0lo": 0.0,
+        "0hi": -0.0,
+        "1lo": -0.0,
+        "1hi": -0.0,
+        "2lo": -6.312105939551703e-23,
+        "2hi": 6.312105939551703e-23
+      },
+      "wall_relative_error": {
+        "0lo": 1.116995949760332e-08,
+        "0hi": 3.123375468952657e-10,
+        "1lo": 2.1188489742243723e-08,
+        "1hi": 4.506773209558344e-09,
+        "2lo": 4.3076259065576756e-08,
+        "2hi": 1.4418017987382183e-08
+      },
+      "worst_wall_relative_error": 4.3076259065576756e-08,
+      "worst_wall_abs_to_charge_norm": 4.3076259065576754e-14,
+      "solve_seconds": 0.4490376999601722
+    },
+    {
+      "case": "cross_check_24x15x9_mode120_v0",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode_indices": [
+        1,
+        2,
+        0
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 3119830657.244118,
+      "eigenvalue_rad2_s2": 3.842569926636001e+20,
+      "degenerate_peers": 1,
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "live_components": [
+        2
+      ],
+      "analytic_fit_residual": 1.0929428486635116e-14,
+      "charge_norm_C": 1.1453084861889193e-07,
+      "total_to_norm": 6.680663557794856e-17,
+      "interior_to_norm": 1.409552301266764e-14,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 1.0078287438180231,
+      "ledger_closure": 1.7715687422517374e-16,
+      "wall_partition_residual": 6.134383044228076e-17,
+      "attribute_vs_array_divergence": 9.325026046323113e-17,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": 6.05491869718987e-23,
+        "0hi": 1.76796433571046e-24,
+        "1lo": -2.7018180519375874e-22,
+        "1hi": -5.5887822790421075e-22,
+        "2lo": 3.679299364635867e-21,
+        "2hi": -4.539567201691016e-21
+      },
+      "wall_predicted_C": {
+        "0lo": -0.0,
+        "0hi": -0.0,
+        "1lo": 0.0,
+        "1hi": -0.0,
+        "2lo": -5.78398375844716e-23,
+        "2hi": 5.78398375844716e-23
+      },
+      "wall_relative_error": {
+        "0lo": 5.286714252277974e-10,
+        "0hi": 1.5436577629783086e-11,
+        "1lo": 2.3590308502192667e-09,
+        "1hi": 4.8797178632973435e-09,
+        "2lo": 3.262997914785288e-08,
+        "2hi": 4.0141211688508726e-08
+      },
+      "worst_wall_relative_error": 4.0141211688508726e-08,
+      "worst_wall_abs_to_charge_norm": 4.014121168850872e-14,
+      "solve_seconds": 0.4463200999889523
+    },
+    {
+      "case": "cross_check_24x15x9_mode111_v0",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode_indices": [
+        1,
+        1,
+        1
+      ],
+      "vector_index": 0,
+      "frequency_Hz": 3048501727.6763864,
+      "eigenvalue_rad2_s2": 3.668872569215671e+20,
+      "degenerate_peers": 2,
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "live_components": [
+        0,
+        1,
+        2
+      ],
+      "analytic_fit_residual": 9.020517003649012e-15,
+      "charge_norm_C": 1.0538672799537043e-07,
+      "total_to_norm": 5.023361120550148e-16,
+      "interior_to_norm": 1.1813528816587171e-14,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.9142252562179735,
+      "ledger_closure": 1.5156385194593672e-15,
+      "wall_partition_residual": 7.535041680825223e-16,
+      "attribute_vs_array_divergence": 4.900053349988081e-17,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": -5.730503088652748e-07,
+        "0hi": -5.730503088652725e-07,
+        "1lo": 4.876917892615159e-07,
+        "1hi": 4.876917892615146e-07,
+        "2lo": 8.535851960375756e-08,
+        "2hi": 8.535851960375801e-08
+      },
+      "wall_predicted_C": {
+        "0lo": -5.730503088652748e-07,
+        "0hi": -5.730503088652748e-07,
+        "1lo": 4.876917892615154e-07,
+        "1hi": 4.876917892615155e-07,
+        "2lo": 8.535851960375764e-08,
+        "2hi": 8.535851960375764e-08
+      },
+      "wall_relative_error": {
+        "0lo": 0.0,
+        "0hi": 3.8800458740617805e-15,
+        "1lo": 1.085512620246431e-15,
+        "1hi": 1.736820192394289e-15,
+        "2lo": 9.30303608517537e-16,
+        "2hi": 4.3414168397485064e-15
+      },
+      "worst_wall_relative_error": 4.3414168397485064e-15,
+      "worst_wall_abs_to_charge_norm": 2.1098116706310623e-14,
+      "solve_seconds": 0.45468280010391027
+    },
+    {
+      "case": "cross_check_24x15x9_mode111_v1",
+      "role": "cross_check",
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode_indices": [
+        1,
+        1,
+        1
+      ],
+      "vector_index": 1,
+      "frequency_Hz": 3048501727.6763883,
+      "eigenvalue_rad2_s2": 3.668872569215674e+20,
+      "degenerate_peers": 2,
+      "active_edges": 8346,
+      "full_edges": 11190,
+      "dual_nodes": 4000,
+      "live_components": [
+        0,
+        1,
+        2
+      ],
+      "analytic_fit_residual": 1.0157556233711571e-14,
+      "charge_norm_C": 1.3458370342476721e-07,
+      "total_to_norm": 5.900368082044998e-16,
+      "interior_to_norm": 3.0823177491448566e-15,
+      "edge_to_norm": 0.0,
+      "corner_to_norm": 0.0,
+      "wall_to_interior_ratio": 0.5104702423953072,
+      "ledger_closure": 9.18849452395024e-16,
+      "wall_partition_residual": 1.3767525524771663e-15,
+      "attribute_vs_array_divergence": 7.761250553130344e-17,
+      "charge_api_vs_interior": 0.0,
+      "wall_measured_C": {
+        "0lo": -2.330235947767775e-07,
+        "0hi": -2.330235947767756e-07,
+        "1lo": -7.62528236807867e-07,
+        "1hi": -7.625282368078668e-07,
+        "2lo": 9.95551831584642e-07,
+        "2hi": 9.955518315846447e-07
+      },
+      "wall_predicted_C": {
+        "0lo": -2.330235947767759e-07,
+        "0hi": -2.330235947767759e-07,
+        "1lo": -7.625282368078661e-07,
+        "1hi": -7.625282368078662e-07,
+        "2lo": 9.95551831584645e-07,
+        "2hi": 9.95551831584645e-07
+      },
+      "wall_relative_error": {
+        "0lo": 6.929154780443004e-15,
+        "0hi": 1.2495197145061154e-15,
+        "1lo": 1.249674464056854e-15,
+        "1hi": 8.331163093712358e-16,
+        "2lo": 2.9778613441664793e-15,
+        "2hi": 2.1270438172617709e-16
+      },
+      "worst_wall_relative_error": 6.929154780443004e-15,
+      "worst_wall_abs_to_charge_norm": 2.202804083963466e-14,
+      "solve_seconds": 0.45634030003566295
+    }
+  ],
+  "main_quantitative_grid": [
+    36,
+    23,
+    14
+  ],
+  "cross_check_grid": [
+    24,
+    15,
+    9
+  ],
+  "worst_wall_abs_to_charge_norm": 2.8208171275955874e-13,
+  "all_wall_predictions_match": true,
+  "total_solve_seconds": 55.22709569998551,
+  "source_sha256": {
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+    "run_pec_surface_charge.py": "e045e350dd4d8e237b86952ba41fdfd8c2f23a964bb9bd34314b1f6a8b460cf6"
+  },
+  "PEC_surface_charge_complete": true,
+  "PEC_surface_charge_independently_verified": false,
+  "copper_boundary_complete": false,
+  "copper_cavity_Q_complete": false,
+  "full_joint_simulation_complete": false,
+  "full_system_gates_closed": 0,
+  "total_system_gates": 7,
+  "goal_complete": false
+}

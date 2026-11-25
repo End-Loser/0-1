@@ -1,0 +1,58 @@
+{
+  "scope": "Archived candidate values only; no manufacturer macro-model or procurement",
+  "read_date": "2026-11-18",
+  "inputs": [
+    {
+      "path": "EWC真实材料与器件候选首批核查.md",
+      "sha256": "d9bf958ce2054f967c625394cd8cc9c7c3ed177e32250c23c02e46456a2422ac"
+    },
+    {
+      "path": "EWC真实材料与器件统一规划.md",
+      "sha256": "0568d4b046bb19f02fd0d57b1c611541ca4c41c36bc36696f398389d97e06a48"
+    },
+    {
+      "path": "开源FDTD验证/真实器件选型结果/candidate_audit.json",
+      "sha256": "286b9d05052be666578e7d4c69cfc8c15cf6416831816126e50d432964177298"
+    }
+  ],
+  "adc": {
+    "candidate": "ADS8866",
+    "bits": 16,
+    "maximum_sample_rate_Hz": 100000,
+    "url": "https://www.ti.com/product/ADS8866",
+    "archived_snapshot_sha256": "d7f58202407602b76cef3d245a74ed0beefb6eac81c831c975e6617cd8c7a076",
+    "range_note": "Unipolar single-ended 0 to VREF; actual reference, driver and scaling are not frozen",
+    "not_used_as_precision_guarantees": [
+      "product-page SNR",
+      "INL",
+      "input-step settling"
+    ]
+  },
+  "dac": {
+    "candidate": "DAC80501",
+    "bits": 16,
+    "candidate_settling_s": 5e-06,
+    "settling_note": "Archived product-page value; load, step and accuracy conditions not modelled; not a worst-case guarantee",
+    "url": "https://www.ti.com/product/DAC80501",
+    "archived_snapshot_sha256": "4c41fd891ec03e512e3f285f236668cbb658e95c56f3433c689dd7c520e3375e",
+    "example_span_V": 2.5,
+    "span_note": "Explicit arithmetic example, not a frozen output interface",
+    "not_used_as_precision_guarantees": [
+      "INL",
+      "reference drift",
+      "glitch energy"
+    ]
+  },
+  "coarse": {
+    "candidate": "ADL5335",
+    "typical_step_dB": 0.5,
+    "url": "https://www.analog.com/en/products/adl5335.html",
+    "note": "Ideal uniform nearest-code rounding; actual steps and gain errors unknown"
+  },
+  "prohibited_conclusions": [
+    "real ADC/DAC hardware model passed",
+    "system +/-1% passed",
+    "BOM frozen",
+    "procurement approved"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "failed_preserve_partial",
+  "source_sha256": {
+    "run_copper_gauss_longtime.py": "3bf1f0679d197fc2b942764ada3a4c61fcafc4b1e8d3984a5bca7297e68bf600",
+    "copper_gauss_legendre.py": "f8a1710da88152baa5b93e4710b4761eebc683e750463c45b4e7eb6f34a4c24b",
+    "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+    "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "approval_sha256": "27617c5451c5096cc3593b22b69fe4b03be819e52ef60e4ae5b63ddb55ccaf27",
+  "configuration_sha256": "65b639ce20408924ce5ffb81d503cbca1cb0dbea994d2d7eab5df0d9aeab66ae",
+  "cases": [
+    {
+      "id": "111_loss0_2.5ps",
+      "status": "running",
+      "chunks": [
+        {
+          "file": "steps_0000000_0040000.npz",
+          "sha256": "16716014d736fe9b941cb5f3be5c221202309a21a9482b50f7e4baeed38ca43d",
+          "start_step": 0,
+          "end_step": 40000,
+          "stepping_seconds": 2357.2834202999948
+        }
+      ],
+      "completed_steps": 40000
+    }
+  ],
+  "full_long_history_passed": false,
+  "general_initial_state_approved": false,
+  "actual_feed_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0,
+  "failure_type": "MemoryError",
+  "failure_message": "Unable to allocate 6.75 MiB for an array with shape (6908, 64) and data type complex128"
+}

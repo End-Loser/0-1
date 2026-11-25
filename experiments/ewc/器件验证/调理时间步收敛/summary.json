@@ -1,0 +1,463 @@
+{
+  "scope": "d05_fixed_circuit_timestep_only",
+  "runs": [
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d05_50ps",
+      "status": "pass",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 21640,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000004e-07
+            ],
+            "fda_crossings_s": [
+              2.0860660572146516e-07
+            ],
+            "output_crossings_s": [
+              2.140589667997603e-07
+            ],
+            "total_delay_s": 1.305896679976027e-08,
+            "fda_delay_s": 7.606605721465123e-09,
+            "comparator_delay_s": 5.452361078295147e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.0861354357028785e-07
+            ],
+            "output_crossings_s": [
+              4.1425502803224005e-07
+            ],
+            "total_delay_s": 1.3255028032239997e-08,
+            "fda_delay_s": 7.61354357028779e-09,
+            "comparator_delay_s": 5.641484461952208e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.086061168892235e-07
+            ],
+            "output_crossings_s": [
+              6.140589667997606e-07
+            ],
+            "total_delay_s": 1.3058966799760509e-08,
+            "fda_delay_s": 7.60611688922344e-09,
+            "comparator_delay_s": 5.452849910537069e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.086135435767175e-07
+            ],
+            "output_crossings_s": [
+              8.142550280322403e-07
+            ],
+            "total_delay_s": 1.3255028032240368e-08,
+            "fda_delay_s": 7.613543576717564e-09,
+            "comparator_delay_s": 5.641484455522804e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.00018628221108418774,
+          0.0002458855145087771,
+          0.00018627377329127892,
+          0.0002458855035875132
+        ],
+        "cm_errors_V": [
+          0.0014375419346330798,
+          0.0014375402648965085,
+          0.001437541934549591,
+          0.001437540264918269
+        ],
+        "fda_pin_min_V": 2.024754688298211,
+        "fda_pin_max_V": 2.05267785336512,
+        "output_current_max_A": 0.001668527443240876,
+        "comparator_pin_min_V": 1.626622134623247,
+        "comparator_pin_max_V": 1.676252951800652,
+        "mean_fda_supply_A": 0.0013965848680849398,
+        "mean_comparator_supply_A": 0.004045599347418962
+      },
+      "files": {
+        "results/d05_50ps/solver.log": "80e96be12fb63c5ae10b9b616af94d13aca16818a5a73e88d2bc80d92155b188",
+        "results/d05_50ps/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d05_50ps/test.cir": "3ed4967262b5e128e2696ed715c68abd72834c7a71bb45e0cfb24f7380ccd3e7",
+        "results/d05_50ps/wave.csv": "85a44a03060cb70008f0020e4ecf7e639f2bf43c4af9fc286d471af26a29a2ca"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 2.5e-11,
+      "ramp_s": 2e-09,
+      "id": "d05_25ps",
+      "status": "pass",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 40956,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.01e-07
+            ],
+            "fda_crossings_s": [
+              2.0860652701610854e-07
+            ],
+            "output_crossings_s": [
+              2.140913193935121e-07
+            ],
+            "total_delay_s": 1.3091319393512092e-08,
+            "fda_delay_s": 7.60652701610853e-09,
+            "comparator_delay_s": 5.484792377403562e-09,
+            "low_V": 3.297955267430786,
+            "high_V": 3.297955267430786,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.01e-07
+            ],
+            "fda_crossings_s": [
+              4.0861346326997864e-07
+            ],
+            "output_crossings_s": [
+              4.142623814998296e-07
+            ],
+            "total_delay_s": 1.3262381499829598e-08,
+            "fda_delay_s": 7.613463269978638e-09,
+            "comparator_delay_s": 5.64891822985096e-09,
+            "low_V": 3.034322095782915e-10,
+            "high_V": 3.034322095782915e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.086060381864127e-07
+            ],
+            "output_crossings_s": [
+              6.140913193934964e-07
+            ],
+            "total_delay_s": 1.3091319393496343e-08,
+            "fda_delay_s": 7.606038186412603e-09,
+            "comparator_delay_s": 5.485281207083739e-09,
+            "low_V": 3.297955267430748,
+            "high_V": 3.297955267430748,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.086134632769425e-07
+            ],
+            "output_crossings_s": [
+              8.142623814998123e-07
+            ],
+            "total_delay_s": 1.3262381499812393e-08,
+            "fda_delay_s": 7.613463276942573e-09,
+            "comparator_delay_s": 5.64891822286982e-09,
+            "low_V": 3.034322095782915e-10,
+            "high_V": 3.034322095782915e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.0001862599851542024,
+          0.0002458548344438441,
+          0.00018625148245321466,
+          0.0002458548235947447
+        ],
+        "cm_errors_V": [
+          0.0014375419338952256,
+          0.0014375402644275503,
+          0.0014375419338745754,
+          0.001437540264077608
+        ],
+        "fda_pin_min_V": 2.024754611955842,
+        "fda_pin_max_V": 2.052677929695165,
+        "output_current_max_A": 0.0016685461328559657,
+        "comparator_pin_min_V": 1.626622200413911,
+        "comparator_pin_max_V": 1.676252886013316,
+        "mean_fda_supply_A": 0.0013960800573820016,
+        "mean_comparator_supply_A": 0.0037814417133863487
+      },
+      "files": {
+        "results/d05_25ps/solver.log": "ef4c45d00ae051cacc6cd3f5edfd69c8acb9ba7cda43a17613be8af8a9c6adf8",
+        "results/d05_25ps/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d05_25ps/test.cir": "8caf91ee0d92305a8810ee30b5b19918d94caabb7fe1eae15a1c9eb97600f2eb",
+        "results/d05_25ps/wave.csv": "fd1dbdd1a24aa529802d69e449dabe033d05d89b747b77b9697657fd309c9604"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 1e-11,
+      "ramp_s": 2e-09,
+      "id": "d05_10ps",
+      "status": "pass",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 100598,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0099999999999999e-07
+            ],
+            "fda_crossings_s": [
+              2.0860650403006934e-07
+            ],
+            "output_crossings_s": [
+              2.1409155840959998e-07
+            ],
+            "total_delay_s": 1.3091558409599994e-08,
+            "fda_delay_s": 7.60650403006935e-09,
+            "comparator_delay_s": 5.485054379530645e-09,
+            "low_V": 3.297955267430658,
+            "high_V": 3.297955267430658,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.01e-07
+            ],
+            "fda_crossings_s": [
+              4.086134377874444e-07
+            ],
+            "output_crossings_s": [
+              4.14260278914324e-07
+            ],
+            "total_delay_s": 1.3260278914324001e-08,
+            "fda_delay_s": 7.613437787444418e-09,
+            "comparator_delay_s": 5.646841126879583e-09,
+            "low_V": 3.034474086029694e-10,
+            "high_V": 3.034474086029694e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.086060154630887e-07
+            ],
+            "output_crossings_s": [
+              6.140915584095428e-07
+            ],
+            "total_delay_s": 1.3091558409542766e-08,
+            "fda_delay_s": 7.606015463088632e-09,
+            "comparator_delay_s": 5.485542946454134e-09,
+            "low_V": 3.297955267430658,
+            "high_V": 3.297955267430658,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.086134377942676e-07
+            ],
+            "output_crossings_s": [
+              8.142602789142607e-07
+            ],
+            "total_delay_s": 1.3260278914260738e-08,
+            "fda_delay_s": 7.613437794267639e-09,
+            "comparator_delay_s": 5.646841119993099e-09,
+            "low_V": 3.03460209450284e-10,
+            "high_V": 3.03460209450284e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.00018625278033546078,
+          0.0002458458691906376,
+          0.00018624420374313555,
+          0.00024584585835974587
+        ],
+        "cm_errors_V": [
+          0.0014375419334902162,
+          0.0014375402637116785,
+          0.0014375419334728967,
+          0.0014375402637352153
+        ],
+        "fda_pin_min_V": 2.024754575571715,
+        "fda_pin_max_V": 2.052677966077166,
+        "output_current_max_A": 0.0016685508614343485,
+        "comparator_pin_min_V": 1.626622191604644,
+        "comparator_pin_max_V": 1.676252894823149,
+        "mean_fda_supply_A": 0.001395758027435023,
+        "mean_comparator_supply_A": 0.0035129255142033766
+      },
+      "files": {
+        "results/d05_10ps/solver.log": "05f90754b2981f5c86854dcd14bed3d8636d5bc440564dd9c4fab0482ac55877",
+        "results/d05_10ps/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d05_10ps/test.cir": "57317354354691262478849e70d16dcf058879d034f20c20bb2156ef5a6b9d32",
+        "results/d05_10ps/wave.csv": "53c67c8a631f8ac2960c7743ce3fde12a8876fe7fea6c861e0bff63b6c6808b0"
+      }
+    }
+  ],
+  "original_evidence_sha256": {
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\artifact_manifest.json": "52ad1e4dc3093bf4347710bd4523446a07bab7e87d49641f7b3349d73ff61a39",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\collect_sources.py": "26bdfea6aa424782e63a023061301d9cfa9ee069394f248b4e45a2d96d5a74eb",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\datasheet_snapshot.txt": "a373edb5f254ef333ca65843b3b16835c8326d0eeae57243fb0deb539e6e90ef",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\discovery.json": "1852dedbc6bd5392be176a2604e9d4aca7894e6223a143457ffa114806935f3b",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\finalize_evidence.py": "963745fed4cbd4f377e227141b15b240e2a41248e3a356e5dcec6a51ad0cb866",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\inspect_model.py": "4347626cf9c0f890cc8fd9682d6104b3801a867db55979a323071d93a6ae3c29",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\model_inspection.json": "fafcce75a175a9b40ed8f57df3c7be4d903a4dd95ddb38bb4da3e1176b555b4e",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\run_validation.py": "4fe6382fcd29badcad906e1e68191d98d3c1740c38f5b3e1b6d0cff91cf70051",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\sources.json": "0116636306bd058340713fd7c118db732b633601adec5890ea8da82e8eccde7d",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\summary.json": "ced45772560fcee71a5af19f40918595971f5e60da782113f7ffc0a691cc0e96",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\tests.json": "2c131e7d291b6fda2fe8cc40e082f5534cb425d08d4b221d28d2c5afc4432c58",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\test_validation.py": "01f41287b65d9b7fe37e27ffb3fc8d436e3309b163a202a54b7d59f7302b797b",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\verification.json": "3bd475ba6d15f456f3ab378633f9d754166ad4ed950818b172bb716d843a349b",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\verify_offline.py": "cb7affb58792464621c423b15624b3f000e8554783ed6feaa8c5121982a33e2c",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\\u771f\u5b9eDC\u5dee\u5206\u8c03\u7406\u9a8c\u8bc1\u62a5\u544a.md": "c24f0d93b3eaa63ca664a912c80a26cf1d958e2ebb32d071ea2f21a26342359a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d01_nominal\\solver.log": "05cb079e3d03698e6249b3ef0fa7b9129c54533093f2499a597b9a4e7a25a160",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d01_nominal\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d01_nominal\\test.cir": "6f31c3d5c372cdd9ed10ca803412a594c86fa70b92fea6e49aa901a3f2874e1e",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d01_nominal\\wave.csv": "7d9f7e8bd789f686b575e2f8def6c50d0b4cd78161de3ca2a1659edea7f0af82",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d02_large\\solver.log": "5930e12c39f76df2bd9459d40799e36a4168c1a3fc7a5364d2fd6c913c251396",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d02_large\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d02_large\\test.cir": "080e42bb492b5745b2e92bdcf2c7b2f414f7822e70b91ec64380ab54c9c4299a",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d02_large\\wave.csv": "de15db8ca37becc733d67c08e3a2fd66c2fdcf7bd43a9dcc945c886067a88d72",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d03_negative_threshold\\solver.log": "3f424304314f9b22a9e941ba5adf366a4e78f608e2ddf4abe8fa4d4152ee30b0",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d03_negative_threshold\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d03_negative_threshold\\test.cir": "ca45895866c5cb9a5cf8e4d8b943d7b66719c3719c6ef22de9292110fd4d3120",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d03_negative_threshold\\wave.csv": "945f79d6129d4341867ee5d942edbe76a59f6813c105e687c8b57b0489efbd09",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d04_source_cm\\solver.log": "bcd2970d594ef0e3436bd77953f27016ad32b01619c3b2b0b43f4cb7009eb8f8",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d04_source_cm\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d04_source_cm\\test.cir": "8c15b26b7cc1379e1a1995eb8da6cce5f1ff2d4249243aa9ea717f0415e6c8fc",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d04_source_cm\\wave.csv": "e72f9594ab113db044b16ed38bbb92e8718bf88d5d3ac0148c3b248b2a3660bc",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d05_fda_100pF\\solver.log": "90d2b2fefbe42ad3b67ce205819d5c4f3851d9ff17e5ddf2c6e46d87b17a0767",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d05_fda_100pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d05_fda_100pF\\test.cir": "3ed4967262b5e128e2696ed715c68abd72834c7a71bb45e0cfb24f7380ccd3e7",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d05_fda_100pF\\wave.csv": "85a44a03060cb70008f0020e4ecf7e639f2bf43c4af9fc286d471af26a29a2ca",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d06_comparator_1000pF\\solver.log": "1b988248aee3b4fc4b99940661e37cd8799a42f31ce5c4bf0bf38c8f6aa7eace",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d06_comparator_1000pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d06_comparator_1000pF\\test.cir": "3f59fb13479c803dde66848f8840eab02b16982e7e1b17e50a783eac09514e40",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d06_comparator_1000pF\\wave.csv": "cbfae15f2f7081aac5e53a2c93e6187280df05e9d29cf59c07f19b5a576490c6",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d07_low_overdrive\\solver.log": "6ddfa4d1fb1aee3cad3294a324b0f06e37256e21a28f85693599e3fce24a5a37",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d07_low_overdrive\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d07_low_overdrive\\test.cir": "525fdc1cc35cd0f70c4d50ce4282555c692f2082864ddfabc73c7c74870e7dbd",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d07_low_overdrive\\wave.csv": "390240b63367a2bf2ba5a94a261aab4ddf46ada8f6b616b0bc41684a11b57485",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d08_refined\\solver.log": "4e8ed22d0057f530478cffb8f78bcb7fa05e48038bee1bd61ae559f9fe0852e2",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d08_refined\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d08_refined\\test.cir": "9428ea2587c565776d588491d358737bb120edcc51c0b5036b99306b39336bcb",
+    "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\\u5668\u4ef6\u9a8c\u8bc1\\\u771f\u5b9e\u57fa\u5e26\u8c03\u7406\\results\\d08_refined\\wave.csv": "9435bf4dd2bab125bada850f5363a01b308f299e150e6cc76655d26142ef03ac"
+  },
+  "original_files_sha256": {
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551.lib": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tlv3501.lib": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+  },
+  "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-d05-refinement-07qggad5",
+  "full_chain_accepted": false,
+  "criteria": {
+    "delay_difference_s": 2e-11,
+    "amplitude_difference_V": 0.001,
+    "cm_difference_V": 0.005
+  },
+  "runner_sha256": "f762082b22ea7293a5dbc96d398e49b3a12d29186c9f72d906386515835e5057"
+}

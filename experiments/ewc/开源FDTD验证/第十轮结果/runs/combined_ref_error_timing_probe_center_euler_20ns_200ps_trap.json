@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_center_euler_20ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "center_euler",
+  "errors": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "period_ns": 20,
+  "sequence": "euler",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "4828f40184d84ea23b934dc1427cc705fadb639f635110edeaa0320a3c518661",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1.3e-06,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1.3e-06,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1.3e-06,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1.3e-06,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1.3e-06,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1.3e-06,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1.3e-06,
+        0
+      ]
+    ]
+  ],
+  "raw_points": 14989,
+  "unique_points": 14989,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 65,
+  "decisions": 130,
+  "passed": 87,
+  "sample_passed": 106,
+  "minimum_late_margin_V": -2.0999862287967597,
+  "worst_slot": {
+    "slot": 41,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.0999862287967597
+  },
+  "first_bad": {
+    "slot": 3,
+    "state": "000",
+    "channel": "sum",
+    "sample_error6": 0.0,
+    "slot_start_ns": 60.00000000000001
+  },
+  "max_settling_ns": 17.825892407293644,
+  "unsettled": 24,
+  "energy_J": 8.253820429061414e-09,
+  "power_W": 0.006349092637739549,
+  "energy_per_slot_J": 1.2698185275479098e-10,
+  "warning": false
+}

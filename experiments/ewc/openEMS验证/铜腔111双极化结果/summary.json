@@ -1,0 +1,116 @@
+{
+  "scope": "111 two polarizations and one complex mixed drive; full Maxwell frequency only",
+  "configuration_sha256": "d47ca30568fc79962d944fc67dd765c1545f6769370f36656cd48a975ea0ba82",
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "source_sha256": {
+    "run_copper_doublet.py": "adebcf7f0629f6640f54995667068964c16d72cdb3ac14a2a2ece3637f80ed22",
+    "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "status": "solver_complete_unverified",
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "scan_file": "111_24x15x9_scan.npz",
+      "scan_sha256": "21bc9597bb495ad3888b27d403952efe9a3d3eb9fbed85a492e444bdb525b9d6",
+      "status": "solver_complete_unverified",
+      "peak_file": "111_24x15x9_peaks.npz",
+      "peak_sha256": "7dd14f1e3411c096b033de683978573e75bf8c7e1ecdbe1cb38f2971d24775de",
+      "poles_Hz": [
+        {
+          "real": 3048409423.659703,
+          "imag": 92317.41718677766
+        },
+        {
+          "real": 3048427080.133313,
+          "imag": 74660.84182909701
+        }
+      ],
+      "Q": [
+        16510.478285436246,
+        20415.16680933855
+      ],
+      "reference_Q": [
+        16164.645300826205,
+        20044.38250316824
+      ],
+      "Q_relative_error": [
+        0.021394406012259726,
+        0.018498165563928026
+      ],
+      "frequency_relative_error": [
+        0.003911904133973243,
+        0.0039061347635461763
+      ],
+      "three_five_Q_difference": [
+        1.3919160268827113e-09,
+        1.3847167856795295e-09
+      ],
+      "inverse_matrix_fit_residual": 3.486670781221388e-05,
+      "matrix_factorizations": 7,
+      "independent_current_rhs_solves": 21,
+      "solve_seconds": 5.943089700071141,
+      "selected_doublet_frequency_Q_passed": false
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "scan_file": "111_36x23x14_scan.npz",
+      "scan_sha256": "e9527360e20f325f2d6a1bad4a6053e73f28e6c39e68d92be5759b29a694df08",
+      "status": "solver_complete_unverified",
+      "peak_file": "111_36x23x14_peaks.npz",
+      "peak_sha256": "5faec70d2336edcce9f87082a2b46cc1edccd82a1a478852a62f40da15b16b42",
+      "poles_Hz": [
+        {
+          "real": 3055350569.406999,
+          "imag": 93679.07869821053
+        },
+        {
+          "real": 3055368613.858389,
+          "imag": 75634.55777303361
+        }
+      ],
+      "Q": [
+        16307.539590829487,
+        20198.23149509929
+      ],
+      "reference_Q": [
+        16164.645300826205,
+        20044.38250316824
+      ],
+      "Q_relative_error": [
+        0.008839927344151288,
+        0.007675416885839947
+      ],
+      "frequency_relative_error": [
+        0.0016438385005017597,
+        0.0016379423557496553
+      ],
+      "three_five_Q_difference": [
+        1.4119705404880278e-09,
+        1.4433531037028047e-09
+      ],
+      "inverse_matrix_fit_residual": 3.483340655865625e-05,
+      "matrix_factorizations": 7,
+      "independent_current_rhs_solves": 21,
+      "solve_seconds": 76.68547120003495,
+      "selected_doublet_frequency_Q_passed": true
+    }
+  ],
+  "full_matrix_factorizations": 14,
+  "full_current_rhs_solves": 42,
+  "doublet_long_transient_passed": false,
+  "arbitrary_modes_passed": false,
+  "general_boundaries_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0
+}

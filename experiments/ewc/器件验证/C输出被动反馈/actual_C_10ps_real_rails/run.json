@@ -1,0 +1,35 @@
+{
+  "id": "actual_C_10ps_real_rails",
+  "step_s": 1e-11,
+  "real_rails": true,
+  "duration_s": 1.8e-06,
+  "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    0
+  ],
+  "hold_s": 2e-07,
+  "ramp_s": 2e-09,
+  "input_high_V": 0.3,
+  "summing_resistance_ohm": 300,
+  "carry_threshold_V": 0.15,
+  "sum_threshold_V": 0.05,
+  "cancellation_input_equivalent_V": 0.2,
+  "feedback_resistance_ohm": 32750,
+  "sum_bias_difference_V": 0.17348484848484852,
+  "status": "failed_preserve_partial",
+  "returncode": 0,
+  "reason": "No waveform",
+  "files_sha256": {
+    "solver_stderr.log": "2dfa995bedfd1f8a98718eb01063e8f5bafe89f71a952e0c58365a3b4f688239",
+    "solver_stdout.log": "3f2d39273ab0bf4b1e79a4167f1ccba908a1673e09d84508eb1fee63b8df7ba5",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "500aceb6b90c0c9064418190a07803c7fa964a80949a7a8adb13455f9fe28dcb"
+  }
+}

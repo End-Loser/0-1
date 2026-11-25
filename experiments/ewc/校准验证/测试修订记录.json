@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-18",
+  "first_execution": {
+    "command": "python -B run_all.py",
+    "tests_run": 31,
+    "failures": 1,
+    "errors": 0,
+    "failed_test": "BudgetTests.test_fine_steep_slope_fails",
+    "incorrect_fixture_minimum_bits": 20,
+    "runner_and_independent_decimal_result_bits": 21,
+    "message": "AssertionError: 21 != 20"
+  },
+  "correction": {
+    "scope": "Test expectation only; no candidate parameter or model formula changed",
+    "synthetic_slope_dB_per_V": 20000,
+    "synthetic_span_V": 2.5,
+    "allocated_fine_error_relative": 0.002,
+    "reason": "At 20 bits the 0.0476837158203125 dB step exceeds 40*log10(1.002), approximately 0.03470886125 dB; 21 bits is the first sufficient integer",
+    "hardware_validation": false
+  }
+}

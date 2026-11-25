@@ -1,0 +1,215 @@
+{
+  "solvers": [
+    "flaport/fdtd 0.3.5",
+    "ahkab 0.18"
+  ],
+  "architecture": "Three external RF sources; one active receiver with linear demux, ideal controlled arithmetic branches, one common current readout",
+  "coupling": "One-way waveform handoff to ideal baseband current sources; not RF/circuit co-simulation",
+  "computation_location": "Active receiver circuit, not passive cavity and not output decoder",
+  "frequencies_Hz": [
+    3000000000.0,
+    3600000000.0,
+    4500000000.0
+  ],
+  "grid_mm": 1.25,
+  "frame_ns": 5,
+  "source_actual_frequencies_Hz": [
+    3000000000.0,
+    3600000000.0,
+    4500000000.0
+  ],
+  "direct_fdtd_runs": 34,
+  "dc_runs": 3978,
+  "reconstructed_sweep_cases": 4096,
+  "frontend_rank": 3,
+  "frontend_singular_values": [
+    6.33315970616773,
+    6.247301663533176,
+    1.0779279755814015
+  ],
+  "frontend_condition_number": 5.875308786518707,
+  "operator_codes": {
+    "add": 0.25,
+    "subtract": 0.5,
+    "multiply": 0.75,
+    "divide": 1.0
+  },
+  "output_scale_A_per_coordinate": 1e-06,
+  "input_zero_cleanup_threshold": 1e-09,
+  "division_zero_guard_coordinate_threshold": 0.5,
+  "nominal_division_zero_rejections": 16,
+  "maximum_direct_superposition_error": 3.3732206304287955e-15,
+  "collision_control": {
+    "first_input": [
+      2,
+      8
+    ],
+    "second_input": [
+      5,
+      5
+    ],
+    "products": [
+      16,
+      25
+    ],
+    "same_frequency_data_basis_rank": 1,
+    "same_frequency_relative_waveform_difference": 1.154607410162991e-15,
+    "FDM_relative_waveform_difference": 0.23474095563010772,
+    "FDM_difference_method": "Reconstruction from independently solved linear bases"
+  },
+  "results": [
+    {
+      "scenario": "nominal",
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 2.842170943040401e-14
+    },
+    {
+      "scenario": "nominal",
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 2.5757174171303632e-14
+    },
+    {
+      "scenario": "nominal",
+      "operation": "multiply",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.00019599980467432943
+    },
+    {
+      "scenario": "nominal",
+      "operation": "divide",
+      "cases": 240,
+      "passed": 240,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 3.2499984277123417e-06
+    },
+    {
+      "scenario": "B_gain_plus_0_1_percent",
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.015000000000018332
+    },
+    {
+      "scenario": "B_gain_plus_0_1_percent",
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.015000000000020108
+    },
+    {
+      "scenario": "B_gain_plus_0_1_percent",
+      "operation": "multiply",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.22480379019626184
+    },
+    {
+      "scenario": "B_gain_plus_0_1_percent",
+      "operation": "divide",
+      "cases": 240,
+      "passed": 135,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.01498500101390654
+    },
+    {
+      "scenario": "B_gain_plus_1_percent",
+      "operation": "add",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.1500000000000128
+    },
+    {
+      "scenario": "B_gain_plus_1_percent",
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 256,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.150000000000027
+    },
+    {
+      "scenario": "B_gain_plus_1_percent",
+      "operation": "multiply",
+      "cases": 256,
+      "passed": 146,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 2.24980190019744
+    },
+    {
+      "scenario": "B_gain_plus_1_percent",
+      "operation": "divide",
+      "cases": 240,
+      "passed": 21,
+      "wrong_operator": 0,
+      "rejected": 0,
+      "maximum_absolute_result_error": 0.1485147143416956
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "add",
+      "cases": 256,
+      "passed": 68,
+      "wrong_operator": 0,
+      "rejected": 17,
+      "maximum_absolute_result_error": 1.406615721414827
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "subtract",
+      "cases": 256,
+      "passed": 14,
+      "wrong_operator": 0,
+      "rejected": 20,
+      "maximum_absolute_result_error": 1.2040542066652293
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "multiply",
+      "cases": 256,
+      "passed": 19,
+      "wrong_operator": 0,
+      "rejected": 23,
+      "maximum_absolute_result_error": 24.53155804848879
+    },
+    {
+      "scenario": "epsilon_plus_1_percent",
+      "operation": "divide",
+      "cases": 240,
+      "passed": 0,
+      "wrong_operator": 0,
+      "rejected": 17,
+      "maximum_absolute_result_error": 19.063590551073542
+    }
+  ],
+  "limits": [
+    "Fixed pseudoinverse is an ideal software linear demultiplexer, not a simulated RF mixer",
+    "Mode selection rebuilds the ideal branch topology, not a simulated transistor switch",
+    "Ideal current conversion and common zero-volt current sensor",
+    "No ADC, output quantization, noise, supply rails, loads, finite bandwidth or EM feedback",
+    "Only isolated zero-initialized 5 ns frames; no consecutive-frame transient test",
+    "DC after waveform recovery; previous capacitive timing is not revalidated here",
+    "No result RF retransmission or passive nonlinear material computation"
+  ]
+}

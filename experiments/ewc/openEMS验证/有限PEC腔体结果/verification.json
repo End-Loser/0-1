@@ -1,0 +1,64 @@
+{
+  "independent_verification_pass": true,
+  "checks": [
+    {
+      "case": "pec_4x3x2",
+      "frequency_error_max": 0.15883482898967216,
+      "independent_discrete_frequency_difference": 4.440892098500626e-16,
+      "eigen_equation_residual": 3.7252191777703167e-16,
+      "interior_Gauss_residual": 2.499389245881674e-16
+    },
+    {
+      "case": "pec_8x5x3",
+      "frequency_error_max": 0.059196485638327245,
+      "independent_discrete_frequency_difference": 4.440892098500626e-16,
+      "eigen_equation_residual": 1.7791731729391272e-15,
+      "interior_Gauss_residual": 1.6139116118475522e-15
+    },
+    {
+      "case": "pec_16x10x6",
+      "frequency_error_max": 0.015045977777837005,
+      "independent_discrete_frequency_difference": 8.881784197001252e-16,
+      "eigen_equation_residual": 1.315684199560614e-14,
+      "interior_Gauss_residual": 1.3312137019113064e-14
+    },
+    {
+      "case": "pec_24x15x9",
+      "frequency_error_max": 0.006707534584015851,
+      "independent_discrete_frequency_difference": 6.661338147750939e-16,
+      "eigen_equation_residual": 3.307097019744477e-14,
+      "interior_Gauss_residual": 3.174145880565011e-14
+    },
+    {
+      "case": "forced_pec_dt5ps",
+      "all_steps_checked": 1600,
+      "electric_equation_residual": 7.623507119411928e-14,
+      "magnetic_equation_residual": 2.2126796075280298e-15,
+      "interior_charge_continuity_relative": 6.235830129629541e-16,
+      "magnetic_divergence_relative": 1.2355754682020916e-15,
+      "PEC_normal_wall_flux_max_Wb": 0.0,
+      "energy_closure_relative": 2.3467297760852396e-13,
+      "source_off_energy_growth_relative": 8.880718168723707e-16
+    },
+    {
+      "case": "forced_pec_dt20ps",
+      "all_steps_checked": 400,
+      "electric_equation_residual": 1.8768898385021416e-14,
+      "magnetic_equation_residual": 6.071065780416739e-16,
+      "interior_charge_continuity_relative": 5.867153496193085e-16,
+      "magnetic_divergence_relative": 1.1757551047906727e-15,
+      "PEC_normal_wall_flux_max_Wb": 0.0,
+      "energy_closure_relative": 1.393909706596573e-13,
+      "source_off_energy_growth_relative": 2.2160726654953464e-16
+    }
+  ],
+  "test_output": "test_dense_first_eigenfrequency_and_gradient_nullspace (__main__.FiniteTests.test_dense_first_eigenfrequency_and_gradient_nullspace) ... ok\ntest_divergence_curl_all_boundary_cells (__main__.FiniteTests.test_divergence_curl_all_boundary_cells) ... ok\ntest_forced_midpoint_charge_and_energy (__main__.FiniteTests.test_forced_midpoint_charge_and_energy) ... ok\ntest_full_curl_array (__main__.FiniteTests.test_full_curl_array) ... ok\ntest_full_transpose_array (__main__.FiniteTests.test_full_transpose_array) ... ok\ntest_gradient_and_boundary_restriction (__main__.FiniteTests.test_gradient_and_boundary_restriction) ... ok\ntest_independent_weights_and_zero_tangential_fields (__main__.FiniteTests.test_independent_weights_and_zero_tangential_fields) ... ok\ntest_interior_charge_sign (__main__.FiniteTests.test_interior_charge_sign) ... ok\ntest_invalid_arguments (__main__.FiniteTests.test_invalid_arguments) ... ok\ntest_three_positive_indices_and_targeted_eigensolve (__main__.FiniteTests.test_three_positive_indices_and_targeted_eigensolve) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.079s\n\nOK\n",
+  "summary_sha256": "bbc21bbbbc4519998eac96d5f0b0eef4be9eb1e9ac6ce5d8d7e06bed7b14ac83",
+  "verifier_sha256": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac",
+  "tests_sha256": "78748169cbe7ac97ab749c97b345c8c0b7923161e7ef7fa74883f9c9498d2907",
+  "selected_modes_only": true,
+  "surface_charge_verified": false,
+  "copper_cavity_complete": false,
+  "copper_Q_verified": false,
+  "full_joint_simulation_complete": false
+}

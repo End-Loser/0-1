@@ -1,0 +1,150 @@
+{
+  "scope": "Re(Z_in) versus normalized modal field amplitude at the probe",
+  "limitation": "single-edge delta-gap filament; probe cross-section is not mesh resolved",
+  "evidence_level": "A (full six-wall frequency solve)",
+  "configuration_sha256": "7464bac9a4c565bb3ad8f8fadc48174a54a28075cdf81f5746566efb89628577",
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "source_sha256": {
+    "run_port_matching.py": "777622a6b27c807f4cb95515160145ace0b4b8ea7e95c0a69f67baa07a2e7d11",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "center_frequency_Hz": 3048418251.896508,
+      "peak_amplitude": 171618.9177117583,
+      "log_log_slope": 1.9999533074312694,
+      "log_log_intercept": 4.427638525873715,
+      "required_ratio_for_50_ohm": 0.04321493721319528,
+      "reachable_50_ohm": true,
+      "best_abs_s11": 0.848157924713285,
+      "passive": true,
+      "positions": [
+        {
+          "target": 1.0,
+          "achieved_ratio": 1.0,
+          "probe_edge_full_index": 5784,
+          "z_real_ohm": 26768.942021931744,
+          "z_imag_ohm": 1854.614519392004,
+          "abs_s11": 0.9962890715959543,
+          "power_balance_error": 1.0192722981294304e-14,
+          "solve_seconds": 0.8435809999937192
+        },
+        {
+          "target": 0.5,
+          "achieved_ratio": 0.5,
+          "probe_edge_full_index": 4584,
+          "z_real_ohm": 6692.531270839628,
+          "z_imag_ohm": 546.0918030888892,
+          "abs_s11": 0.9852661521602557,
+          "power_balance_error": 1.2638417938131018e-14,
+          "solve_seconds": 0.8405347999650985
+        },
+        {
+          "target": 0.25,
+          "achieved_ratio": 0.24977887105804222,
+          "probe_edge_full_index": 4297,
+          "z_real_ohm": 1670.2953614313624,
+          "z_imag_ohm": 241.56513952121276,
+          "abs_s11": 0.9430284552789947,
+          "power_balance_error": 8.031541702693017e-15,
+          "solve_seconds": 0.8354947000043467
+        },
+        {
+          "target": 0.125,
+          "achieved_ratio": 0.12495443922841472,
+          "probe_edge_full_index": 4638,
+          "z_real_ohm": 418.01279354150114,
+          "z_imag_ohm": 280.8492013795396,
+          "abs_s11": 0.848157924713285,
+          "power_balance_error": 6.391289280462491e-15,
+          "solve_seconds": 0.8447918000165373
+        },
+        {
+          "target": 0.0625,
+          "achieved_ratio": 0.0628775221192149,
+          "probe_edge_full_index": 6301,
+          "z_real_ohm": 105.84595081676802,
+          "z_imag_ohm": 261.99783791463597,
+          "abs_s11": 0.8787518804535009,
+          "power_balance_error": 6.981508876704598e-15,
+          "solve_seconds": 0.8408838000614196
+        }
+      ]
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "center_frequency_Hz": 3055359591.6326942,
+      "peak_amplitude": 114070.1545737378,
+      "log_log_slope": 1.945592878629478,
+      "log_log_intercept": 4.066491510238021,
+      "required_ratio_for_50_ohm": 0.060692666631329835,
+      "reachable_50_ohm": true,
+      "best_abs_s11": 0.9156811937154478,
+      "passive": true,
+      "positions": [
+        {
+          "target": 1.0,
+          "achieved_ratio": 1.0,
+          "probe_edge_full_index": 19177,
+          "z_real_ohm": 11655.648888512702,
+          "z_imag_ohm": 1002.0793182812417,
+          "abs_s11": 0.991519532631235,
+          "power_balance_error": 4.978338188472756e-14,
+          "solve_seconds": 10.917937299935147
+        },
+        {
+          "target": 0.5,
+          "achieved_ratio": 0.49999999999999994,
+          "probe_edge_full_index": 15037,
+          "z_real_ohm": 2914.042553937905,
+          "z_imag_ohm": 431.50570362022876,
+          "abs_s11": 0.9669744372252786,
+          "power_balance_error": 5.867622066886057e-14,
+          "solve_seconds": 10.829067900078371
+        },
+        {
+          "target": 0.25,
+          "achieved_ratio": 0.25002477845122084,
+          "probe_edge_full_index": 28820,
+          "z_real_ohm": 879.3320589742452,
+          "z_imag_ohm": 474.45716013544643,
+          "abs_s11": 0.9156811937154478,
+          "power_balance_error": 4.9129333899879347e-14,
+          "solve_seconds": 10.792864999966696
+        },
+        {
+          "target": 0.125,
+          "achieved_ratio": 0.12503819437813626,
+          "probe_edge_full_index": 17976,
+          "z_real_ohm": 182.22162134899708,
+          "z_imag_ohm": 439.97259482852235,
+          "abs_s11": 0.923445640173423,
+          "power_balance_error": 1.1542024937983421e-14,
+          "solve_seconds": 10.81988960003946
+        },
+        {
+          "target": 0.0625,
+          "achieved_ratio": 0.06249473553555755,
+          "probe_edge_full_index": 34445,
+          "z_real_ohm": 54.96989960212719,
+          "z_imag_ohm": 405.9797285160287,
+          "abs_s11": 0.9682338215800101,
+          "power_balance_error": 4.9377446024997783e-14,
+          "solve_seconds": 10.7072182999691
+        }
+      ]
+    }
+  ],
+  "seconds": 60.396027000038885,
+  "status": "complete"
+}

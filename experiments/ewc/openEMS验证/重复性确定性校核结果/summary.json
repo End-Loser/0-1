@@ -1,0 +1,1107 @@
+{
+  "scope": "Same input, separate processes, different wall-clock times",
+  "evidence_level": "A (independent-process replay of the in-house FIT solver)",
+  "limitation": "Numerical repeatability of the model on this machine only. No temperature, supply, fabrication or device-level claim.",
+  "configuration_sha256": "cce707765825b5b61878f763500d0724beabe5abd5cd7a576d67bea39373e4f9",
+  "source_sha256": {
+    "runner": "86be87e2994e32bcb8d900ad1c39fc75d84da09934835bbed4f89cf320fe5195",
+    "finite_pec_cavity": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "numpy": "1.26.4",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "cpu_count": 16
+  },
+  "cases": [
+    {
+      "case": "mode_011",
+      "replays": [
+        {
+          "replay": 1,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "mode_011",
+            "pid": 25016,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:01.764160+00:00",
+            "ended_at_utc": "2026-11-18T07:07:01.930751+00:00",
+            "solve_seconds": 0.16260009992402047,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        },
+        {
+          "replay": 2,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "mode_011",
+            "pid": 4320,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:02.307704+00:00",
+            "ended_at_utc": "2026-11-18T07:07:02.465443+00:00",
+            "solve_seconds": 0.15286310005467385,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        },
+        {
+          "replay": 3,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "mode_011",
+            "pid": 26524,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:02.835198+00:00",
+            "ended_at_utc": "2026-11-18T07:07:02.998469+00:00",
+            "solve_seconds": 0.14911670004948974,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        },
+        {
+          "replay": 4,
+          "requested_threads": 4,
+          "returncode": 0,
+          "record": {
+            "case": "mode_011",
+            "pid": 21048,
+            "requested_threads": 4,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 4,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 4,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "4",
+              "OPENBLAS_NUM_THREADS": "4",
+              "MKL_NUM_THREADS": "4",
+              "NUMEXPR_NUM_THREADS": "4",
+              "VECLIB_MAXIMUM_THREADS": "4"
+            },
+            "started_at_utc": "2026-11-18T07:07:03.371508+00:00",
+            "ended_at_utc": "2026-11-18T07:07:03.535678+00:00",
+            "solve_seconds": 0.15364070003852248,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "3159bb86f79b9a5cfa4afe9180924714d66b404279385ddf83e830185531946c"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.2879714322612296e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        }
+      ],
+      "comparisons": [
+        {
+          "replay": 2,
+          "requested_threads": 1,
+          "digests_equal": true,
+          "arrays": {
+            "mode_e": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        },
+        {
+          "replay": 3,
+          "requested_threads": 1,
+          "digests_equal": true,
+          "arrays": {
+            "mode_e": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        },
+        {
+          "replay": 4,
+          "requested_threads": 4,
+          "digests_equal": true,
+          "arrays": {
+            "mode_e": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        }
+      ],
+      "verdict": {
+        "same_environment_bitwise_identical": true,
+        "same_environment_replays": 3,
+        "thread_variant_identical": true
+      }
+    },
+    {
+      "case": "mode_111",
+      "replays": [
+        {
+          "replay": 1,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "mode_111",
+            "pid": 25308,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:03.946896+00:00",
+            "ended_at_utc": "2026-11-18T07:07:04.098365+00:00",
+            "solve_seconds": 0.14681159995961934,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        },
+        {
+          "replay": 2,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "mode_111",
+            "pid": 27468,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:04.478572+00:00",
+            "ended_at_utc": "2026-11-18T07:07:04.630070+00:00",
+            "solve_seconds": 0.14782589999958873,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        },
+        {
+          "replay": 3,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "mode_111",
+            "pid": 27020,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:05.004371+00:00",
+            "ended_at_utc": "2026-11-18T07:07:05.165606+00:00",
+            "solve_seconds": 0.15623139997478575,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        },
+        {
+          "replay": 4,
+          "requested_threads": 4,
+          "returncode": 0,
+          "record": {
+            "case": "mode_111",
+            "pid": 27632,
+            "requested_threads": 4,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 4,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 4,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "4",
+              "OPENBLAS_NUM_THREADS": "4",
+              "MKL_NUM_THREADS": "4",
+              "NUMEXPR_NUM_THREADS": "4",
+              "VECLIB_MAXIMUM_THREADS": "4"
+            },
+            "started_at_utc": "2026-11-18T07:07:05.555536+00:00",
+            "ended_at_utc": "2026-11-18T07:07:05.713948+00:00",
+            "solve_seconds": 0.15426860004663467,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "mode_e": [
+                2280
+              ]
+            },
+            "array_sha256": {
+              "mode_e": "d26452ebb25dd92113a242d019bff3f7db090e6bc2016898a64fa09f5935405b"
+            },
+            "scalars": {
+              "eigenvalue_rad2_per_s2": 3.633358007172684e+20,
+              "mode_mass_norm": 1.0
+            }
+          }
+        }
+      ],
+      "comparisons": [
+        {
+          "replay": 2,
+          "requested_threads": 1,
+          "digests_equal": true,
+          "arrays": {
+            "mode_e": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        },
+        {
+          "replay": 3,
+          "requested_threads": 1,
+          "digests_equal": true,
+          "arrays": {
+            "mode_e": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        },
+        {
+          "replay": 4,
+          "requested_threads": 4,
+          "digests_equal": true,
+          "arrays": {
+            "mode_e": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        }
+      ],
+      "verdict": {
+        "same_environment_bitwise_identical": true,
+        "same_environment_replays": 3,
+        "thread_variant_identical": true
+      }
+    },
+    {
+      "case": "transient_800ns",
+      "replays": [
+        {
+          "replay": 1,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "transient_800ns",
+            "pid": 13120,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:06.106729+00:00",
+            "ended_at_utc": "2026-11-18T07:07:07.227106+00:00",
+            "solve_seconds": 0.45455639995634556,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "e_V": [
+                401,
+                2280
+              ],
+              "b_Wb": [
+                401,
+                3196
+              ],
+              "current_A": [
+                400,
+                2280
+              ],
+              "source_work_W": [
+                400
+              ]
+            },
+            "array_sha256": {
+              "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+              "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+              "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+              "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+            },
+            "scalars": {
+              "final_e_energy_J": 6.852720821740223e-20,
+              "final_b_energy_J": 1.9840863639625343e-38,
+              "source_work_total_J": 6.8652851954186e-20
+            }
+          }
+        },
+        {
+          "replay": 2,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "transient_800ns",
+            "pid": 16112,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:07.661155+00:00",
+            "ended_at_utc": "2026-11-18T07:07:08.784980+00:00",
+            "solve_seconds": 0.456663699937053,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "e_V": [
+                401,
+                2280
+              ],
+              "b_Wb": [
+                401,
+                3196
+              ],
+              "current_A": [
+                400,
+                2280
+              ],
+              "source_work_W": [
+                400
+              ]
+            },
+            "array_sha256": {
+              "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+              "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+              "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+              "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+            },
+            "scalars": {
+              "final_e_energy_J": 6.852720821740223e-20,
+              "final_b_energy_J": 1.9840863639625343e-38,
+              "source_work_total_J": 6.8652851954186e-20
+            }
+          }
+        },
+        {
+          "replay": 3,
+          "requested_threads": 1,
+          "returncode": 0,
+          "record": {
+            "case": "transient_800ns",
+            "pid": 20504,
+            "requested_threads": 1,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 1,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "1",
+              "OPENBLAS_NUM_THREADS": "1",
+              "MKL_NUM_THREADS": "1",
+              "NUMEXPR_NUM_THREADS": "1",
+              "VECLIB_MAXIMUM_THREADS": "1"
+            },
+            "started_at_utc": "2026-11-18T07:07:09.226995+00:00",
+            "ended_at_utc": "2026-11-18T07:07:10.344452+00:00",
+            "solve_seconds": 0.4454041999997571,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "e_V": [
+                401,
+                2280
+              ],
+              "b_Wb": [
+                401,
+                3196
+              ],
+              "current_A": [
+                400,
+                2280
+              ],
+              "source_work_W": [
+                400
+              ]
+            },
+            "array_sha256": {
+              "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+              "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+              "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+              "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+            },
+            "scalars": {
+              "final_e_energy_J": 6.852720821740223e-20,
+              "final_b_energy_J": 1.9840863639625343e-38,
+              "source_work_total_J": 6.8652851954186e-20
+            }
+          }
+        },
+        {
+          "replay": 4,
+          "requested_threads": 4,
+          "returncode": 0,
+          "record": {
+            "case": "transient_800ns",
+            "pid": 15828,
+            "requested_threads": 4,
+            "threadpool_info": [
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 4,
+                "prefix": "libopenblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+                "version": "0.3.23.dev",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              },
+              {
+                "user_api": "blas",
+                "internal_api": "openblas",
+                "num_threads": 4,
+                "prefix": "libscipy_openblas",
+                "filepath": "C:\\Users\\13062\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+                "version": "0.3.30",
+                "threading_layer": "pthreads",
+                "architecture": "Haswell"
+              }
+            ],
+            "thread_env": {
+              "OMP_NUM_THREADS": "4",
+              "OPENBLAS_NUM_THREADS": "4",
+              "MKL_NUM_THREADS": "4",
+              "NUMEXPR_NUM_THREADS": "4",
+              "VECLIB_MAXIMUM_THREADS": "4"
+            },
+            "started_at_utc": "2026-11-18T07:07:10.787372+00:00",
+            "ended_at_utc": "2026-11-18T07:07:11.924704+00:00",
+            "solve_seconds": 0.46591480006463826,
+            "grid": {
+              "shape": [
+                16,
+                10,
+                6
+              ],
+              "lengths_m": [
+                0.16,
+                0.1,
+                0.06
+              ],
+              "unknowns": 2280,
+              "faces": 3196
+            },
+            "array_shapes": {
+              "e_V": [
+                401,
+                2280
+              ],
+              "b_Wb": [
+                401,
+                3196
+              ],
+              "current_A": [
+                400,
+                2280
+              ],
+              "source_work_W": [
+                400
+              ]
+            },
+            "array_sha256": {
+              "e_V": "4d4ab3213fb48f860e708b81784564d17450827c48dd8410cfed1cc3d5292ef8",
+              "b_Wb": "12644d336f4831ffa6e863f8aea201cf56c254d35dd287b569fa5bcd13ed6d62",
+              "current_A": "311f5bc2c75fbec3d583a79cc84945453761759cf99980d6b88fb4ea6461aad4",
+              "source_work_W": "b38161f24d385001c42f43149392594571204acfb3076c7581cac127c87eb943"
+            },
+            "scalars": {
+              "final_e_energy_J": 6.852720821740223e-20,
+              "final_b_energy_J": 1.9840863639625343e-38,
+              "source_work_total_J": 6.8652851954186e-20
+            }
+          }
+        }
+      ],
+      "comparisons": [
+        {
+          "replay": 2,
+          "requested_threads": 1,
+          "digests_equal": true,
+          "arrays": {
+            "e_V": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "b_Wb": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "current_A": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "source_work_W": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        },
+        {
+          "replay": 3,
+          "requested_threads": 1,
+          "digests_equal": true,
+          "arrays": {
+            "e_V": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "b_Wb": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "current_A": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "source_work_W": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        },
+        {
+          "replay": 4,
+          "requested_threads": 4,
+          "digests_equal": true,
+          "arrays": {
+            "e_V": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "b_Wb": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "current_A": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            },
+            "source_work_W": {
+              "bitwise_identical": true,
+              "shape_mismatch": false,
+              "max_abs_diff": 0.0,
+              "max_rel_diff": 0.0
+            }
+          }
+        }
+      ],
+      "verdict": {
+        "same_environment_bitwise_identical": true,
+        "same_environment_replays": 3,
+        "thread_variant_identical": true
+      }
+    }
+  ],
+  "status": "complete"
+}

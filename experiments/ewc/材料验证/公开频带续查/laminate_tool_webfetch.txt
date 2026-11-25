@@ -1,0 +1,305 @@
+# Laminate Properties Tool
+
+Sort and compare all Rogers' high frequency laminates according to product properties.
+
+### Filters
+
+Product
+
+View All
+
+View AllView All  
+AD250C™, AD255C™, AD260A™, AD300C™, AD300D™ AD320A™, AD350A™ LaminatesAD250C™, AD255C™, AD260A™, AD300C™, AD300D™ AD320A™, AD350A™ Laminates  
+CLTE-AT™ LaminatesCLTE-AT™ Laminates  
+CLTE™ LaminatesCLTE™ Laminates  
+CLTE-XT™ LaminatesCLTE-XT™ Laminates  
+CuClad® 217/233/250 LaminatesCuClad® 217/233/250 Laminates  
+DiClad® 527 LaminatesDiClad® 527 Laminates  
+DiClad® 870/880 LaminatesDiClad® 870/880 Laminates  
+IsoClad® 917/933 LaminatesIsoClad® 917/933 Laminates  
+Kappa™ 438 LaminatesKappa™ 438 Laminates  
+MAGTREX™ 555 High Impedance LaminatesMAGTREX™ 555 High Impedance Laminates  
+RO3003™ LaminatesRO3003™ Laminates  
+RO3006™ and RO3010™ LaminatesRO3006™ and RO3010™ Laminates  
+RO3035™ LaminatesRO3035™ Laminates  
+RO3203™, RO3206™ and RO3210™ LaminatesRO3203™, RO3206™ and RO3210™ Laminates  
+RO4003C™ LaminatesRO4003C™ Laminates  
+RO4350B™ LaminatesRO4350B™ Laminates  
+RO4360G2™ LaminatesRO4360G2™ Laminates  
+RO4500™ LaminatesRO4500™ Laminates  
+RO4700™ Antenna Grade LaminatesRO4700™ Antenna Grade Laminates  
+RO4830™ LaminatesRO4830™ Laminates  
+RO4835T™ LaminatesRO4835T™ Laminates  
+RO4835™ LaminatesRO4835™ Laminates  
+RT/duroid® 5870 LaminatesRT/duroid® 5870 Laminates  
+RT/duroid® 5880 LaminatesRT/duroid® 5880 Laminates  
+RT/duroid® 5880LZ LaminatesRT/duroid® 5880LZ Laminates  
+RT/duroid® 6002 LaminatesRT/duroid® 6002 Laminates  
+RT/duroid® 6006 & 6010 LaminatesRT/duroid® 6006 & 6010 Laminates  
+RT/duroid® 6035HTC LaminatesRT/duroid® 6035HTC Laminates  
+RT/duroid® 6202 LaminatesRT/duroid® 6202 Laminates  
+RT/duroid® 6202PR LaminatesRT/duroid® 6202PR Laminates  
+TC350™ LaminatesTC350™ Laminates  
+TC350™ Plus LaminatesTC350™ Plus Laminates  
+TC600™ LaminatesTC600™ Laminates  
+TMM® 10 LaminatesTMM® 10 Laminates  
+TMM® 10i LaminatesTMM® 10i Laminates  
+TMM® 13i LaminatesTMM® 13i Laminates  
+TMM® 3 LaminatesTMM® 3 Laminates  
+TMM® 4 LaminatesTMM® 4 Laminates  
+TMM® 6 LaminatesTMM® 6 Laminates  
+Results Limit
+
+All
+
+55  
+1010  
+2020  
+AllAll  
+Sort By (Primary)
+
+None
+
+NoneNone  
+Product NameProduct Name  
+Dielectric Constant (Process)Dielectric Constant (Process)  
+Dielectric Constant (Design)Dielectric Constant (Design)  
+Dissipation FactorDissipation Factor  
+Thermal CoefficientThermal Coefficient  
+Volume ResistivityVolume Resistivity  
+Surface ResistivitySurface Resistivity  
+Water AbsorptionWater Absorption  
+Thermal ConductivityThermal Conductivity  
+Coefficient of Thermal Expansion XCoefficient of Thermal Expansion X  
+Coefficient of Thermal Expansion YCoefficient of Thermal Expansion Y  
+Coefficient of Thermal Expansion ZCoefficient of Thermal Expansion Z  
+Peel StrengthPeel Strength  
+DensityDensity  
+PIMPIM  
+Numeric Range (Primary Sort By)
+
+ To   
+
+Order
+
+Ascending
+
+AscendingAscending  
+DescendingDescending  
+Sort By (Secondary)
+
+None
+
+NoneNone  
+Product NameProduct Name  
+Dielectric Constant (Process)Dielectric Constant (Process)  
+Dielectric Constant (Design)Dielectric Constant (Design)  
+Dissipation FactorDissipation Factor  
+Thermal CoefficientThermal Coefficient  
+Volume ResistivityVolume Resistivity  
+Surface ResistivitySurface Resistivity  
+Water AbsorptionWater Absorption  
+Thermal ConductivityThermal Conductivity  
+Coefficient of Thermal Expansion XCoefficient of Thermal Expansion X  
+Coefficient of Thermal Expansion YCoefficient of Thermal Expansion Y  
+Coefficient of Thermal Expansion ZCoefficient of Thermal Expansion Z  
+Peel StrengthPeel Strength  
+DensityDensity  
+PIMPIM  
+Flammability Rating
+
+Show All Materials
+
+Show All MaterialsShow All Materials  
+Show Only UL Flame Rated MaterialsShow Only UL Flame Rated Materials  
+Order
+
+Dielectric Constant, @10GHZ (2.5 GHz) TypicalCoefficient of Thermal Expansion -55° to 288°C ppm/°C (Typical)
+
+ Product Name Process Design Dissipation Factor TAN @10 GHz (2.5 GHz) (Typical)Thermal Coefficient ε<sub>r</sub> -50°C to 150°C ppm/°C (Typical)
+
+[More](https://tools.rogerscorp.com/acs/properties/laminates/modals.aspx?id=2)
+
+ Volume Resistivity Mohm (Typical) Surface Resistivity Mohm (Typical) Water Absorption D48/50% (Typical) Thermal Conductivity W/m/°K (Typical) 50°C ASTM D5470 X Y Z Peel Strength 1 oz (35um) ED Foil lbs/in. (N/mm) (Typical) Density gm/cm<sup>3</sup> (Typical) Flammability Rating UL94 Lead-Free Process CompatiblePIM dBc Typical
+
+[More](https://tools.rogerscorp.com/acs/properties/laminates/modals.aspx?id=1)
+
+ [AD250C™](https://www.rogerscorp.com/advanced-electronics-solutions/ad-series-laminates/ad250c-laminates) 2.50+/-0.04 2.52 0.0013 -117 4.8x10<sup>8</sup> 4.1x10<sup>7</sup> 0.04<sup>22</sup> 0.33 47 29 196 14.8 (2.6) 2.28 V-0 Y -164
+
+ [AD255C™](https://www.rogerscorp.com/advanced-electronics-solutions/ad-series-laminates/ad255c-laminates) 2.55+/-0.04 2.60 0.0013 -110 7.4x10<sup>8</sup> 3.6x10<sup>7</sup> 0.03<sup>22</sup> 0.35 34 26 196 13.6 (2.4) 2.28 V-0 Y -164
+
+ [AD300D™](https://www.rogerscorp.com/advanced-electronics-solutions/ad-series-laminates/ad300d-laminates) 2.97, 3.03 +/-0.05 2.94, 3.03 0.0021 -73 1.7x10<sup>8</sup> 5.1x10<sup>7</sup> 0.04 0.37 24 23 98 18.3 (3.2) 2.23 V-0 Y -159
+
+ [AD350A™](https://www.rogerscorp.com/advanced-electronics-solutions/ad-series-laminates/ad350a-laminates) 3.50+/-0.05 3.54 0.0033 -57 1.5x10<sup>9</sup> 9.5x10<sup>7</sup> 0.10<sup>22</sup> 0.44 18 18 63 14.7 (2.6) 2.43 V-0 Y -164
+
+ [Anteo™](https://www.rogerscorp.com/advanced-electronics-solutions/anteo-laminates) 4.10+/-0.08 4.38 0.005 -21 2.9x10<sup>9</sup> 6.2x10<sup>7</sup> 0.12  0.64 13 16 42 5.3 1.99 V-0 Y -
+
+ [CLTE-AT™](https://www.rogerscorp.com/advanced-electronics-solutions/clte-series-laminates/clte-at-laminates) 3.00+/-0.04 3.0 0.0013 -10 4.3x10<sup>8</sup> 2.0x10<sup>8</sup> 0.03<sup>22</sup> 0.64 8 8 20 6.5 (1.16) 2.06 V-0 Y -
+
+ [CLTE-MW™](https://www.rogerscorp.com/advanced-electronics-solutions/clte-series-laminates/clte-mw-laminates) 2.94-3.02+/-0.04 3.03-3.10 0.0015 -35 1.3x10<sup>7</sup> 2.5x10<sup>6</sup> 0.03<sup>22</sup> 0.42 8 8 30 6.0 (1.1) 2.1 V-0 Y -
+
+ [CLTE-XT™](https://www.rogerscorp.com/advanced-electronics-solutions/clte-series-laminates/clte-xt-laminates) 2.94+/-0.03\* 2.94 0.0012 -9 4.3x10<sup>8</sup> 2.5x10<sup>8</sup> 0.02<sup>22</sup> 0.56 12.7 13.7 40.8 7.2 (1.29) 2.02 V-0 Y -
+
+ [CLTE™](https://www.rogerscorp.com/advanced-electronics-solutions/clte-series-laminates) 2.98+/-0.04 2.98 0.0023 -9 1.4x10<sup>9</sup> 1.3x10<sup>6</sup> 0.04<sup>22</sup> 0.50 9.9 9.4 57.9 7.0 (1.25) 2.38 V-0 Y -
+
+ [CuClad® 217](https://www.rogerscorp.com/advanced-electronics-solutions/cuclad-series-laminates/cuclad-217-laminates) 2.17, 2.20+/-0.02 2.17, 2.20 0.0009 -151 2.3x10<sup>8</sup> 3.4x10<sup>6</sup> 0.02<sup>22</sup> 0.26 29 28 246 14.0 (2.50) 2.23 V-0 Y -
+
+ [CuClad® 233](https://www.rogerscorp.com/advanced-electronics-solutions/cuclad-series-laminates/cuclad-233-laminates) 2.33+/-0.02 2.40 0.0013 -171 8.0x10<sup>8</sup> 2.4x10<sup>6</sup> 0.02<sup>22</sup> 0.26 23 24 194 14.0 (2.50) 2.26 V-0 Y -
+
+ [CuClad® 250](https://www.rogerscorp.com/advanced-electronics-solutions/cuclad-series-laminates/cuclad-250-laminates) 2.40-2.55+/-0.04 2.40-2.60 0.0017 -170 8.0x10<sup>9</sup> 1.5x10<sup>8</sup> 0.03<sup>22</sup> 0.25 18 19 177 14.0 (2.50) 2.31 V-0 Y -
+
+ [DiClad® 527](https://www.rogerscorp.com/advanced-electronics-solutions/diclad-series-laminates) 2.40-2.60+/-0.04 2.40-2.60 0.0017 -153 1.2x10<sup>9</sup> 4.5x10<sup>7</sup> 0.03<sup>22</sup> 0.25 14 21 173 14.0 (2.50) 2.31 V-0 Y -
+
+ [DiClad® 870](https://www.rogerscorp.com/advanced-electronics-solutions/diclad-series-laminates/diclad-870_880-laminates) 2.33+/-0.04 2.33 0.0013 -161 1.5x10<sup>9</sup> 3.4x10<sup>7</sup> 0.02<sup>22</sup> 0.26 17 29 217 14.0 (2.50) 2.26 V-0 Y -
+
+ [DiClad® 880](https://www.rogerscorp.com/advanced-electronics-solutions/diclad-series-laminates/diclad-870_880-laminates) 2.17, 2.20+/-0.02 2.2 0.0009 -160 1.4x10<sup>9</sup> 2.9x10<sup>6</sup> 0.02<sup>22</sup> 0.26 25 34 252 14.0 (2.50) 2.23 V-0 Y -
+
+ [IsoClad® 917](https://www.rogerscorp.com/advanced-electronics-solutions/isoclad-series-laminates/isoclad-917-laminates) 2.17+/-0.02 2.17 0.0013 -157 1.5x10<sup>10</sup> 1.0x10<sup>9</sup> 0.04<sup>22</sup> 0.26 46 47 236 10.0 (1.79) 2.23 V-0 Y -
+
+ [IsoClad® 933](https://www.rogerscorp.com/advanced-electronics-solutions/isoclad-series-laminates/isoclad-933-laminates) 2.33+/-0.04 2.33 0.0016 -132 3.5x10<sup>8</sup> 1.0x10<sup>8</sup> 0.05<sup>22</sup> 0.26 31 35 203 10.0 (1.79) 2.27 V-0 Y -
+
+ [Kappa™ 438](https://www.rogerscorp.com/advanced-electronics-solutions/kappa-438-laminates) 4.10+/-0.08 4.38 0.005 -21 2.9x10<sup>9</sup> 6.2x10<sup>7</sup> 0.12  0.64 13 16 42 5.8 1.99 V-0 Y -
+
+ [MAGTREX® 555](https://www.rogerscorp.com/advanced-electronics-solutions/magtrex-555-high-impedance-laminates)ε<sub>Γ</sub> = 6.5±0.5
+
+μ<sub>Γ</sub> = 6.0±0.2 - See Data Sheet \~+1000 6.15x10<sup>8</sup> 1.74x10<sup>8</sup> 0.25 0.47 22 25 25 3.1 3.45 N/A Y -
+
+ [RO3003G2™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3003g2-laminates) 3.00+/-0.04 3.07<sup>(29)</sup> 0.0011 -35 1.4x10<sup>9</sup> 2.6x10<sup>8</sup> 0.06 0.43 16 17 18 12.0<sup>(30)</sup> 2.15 V-0 Y -
+
+ [RO3003™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3003-laminates) 3.00+/-0.04<sup>7</sup> 3.16<sup>29</sup> 0.0010 -3 1x10<sup>7</sup> 1x10<sup>7</sup> 0.04 0.50 17 16 25 12.7 (2.2) 2.1 V-0 Y -
+
+ [RO3006™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3006-laminates) 6.15+/-0.15 6.4 0.002 -262 1x10<sup>5</sup> 1x10<sup>5</sup> 0.02 0.79 17 17 24 7.1 (1.2) 2.6 V-0 Y -
+
+ [RO3010™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3010-laminates) 10.20+/-0.30 11.2 0.0022 -395 1x10<sup>5</sup> 1x10<sup>5</sup> 0.05 0.95 13 11 16 9.4 (1.6) 2.8 V-0 Y -
+
+ [RO3035™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3035-laminates) 3.50+/-0.05 3.60 0.0015 -45 1x10<sup>7</sup> 1x10<sup>7</sup> 0.04 0.50 17 17 24 10.2 (1.8) 2.1 V-0 Y -
+
+ [RO3203™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3200-series-laminates) 3.02 +/- 0.04 3.02 0.0016 -13 1x10<sup>7</sup> 1x10<sup>7</sup> 0.03 0.48 13 13 58 10.2 (1.8) 2.1 V-0 Y -
+
+ [RO3206™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3200-series-laminates) 6.15+/-0.15 6.6 0.0027 -212 1x10<sup>3</sup> 1x10<sup>3</sup> 0.03 0.67 13 13 34 10.7 (1.9) 2.7 V-0 Y -
+
+ [RO3210™](https://www.rogerscorp.com/advanced-electronics-solutions/ro3000-series-laminates/ro3200-series-laminates) 10.20+/-0.50 10.8 0.0027 -459 1x10<sup>3</sup> 1x10<sup>3</sup> 0.12 0.81 13 13 34 11.0 (1.9) 3 V-0 Y -
+
+ [RO4003C™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4003c-laminates) 3.38+/-0.05 3.55 0.0027 40 1.7x10<sup>10</sup> 4.2x10<sup>9</sup> 0.04 0.71 11 14 46 6.0 (1.05) 1.8 NON FR Y -
+
+ [RO4350B™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4350b-laminates) 3.48 +/- 0.05 3.66 0.0037 50 1.2x10<sup>10</sup> 5.7x10<sup>9</sup> 0.05 0.69 10 12 32 5.0 (0.88) 1.9 V-0 Y -
+
+ [RO4360G2™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4350b-laminates) 6.15 +/- 0.15 6.4 0.0038 -131 4x10<sup>7</sup> 9x10<sup>6</sup> 0.08 0.75 13 14 28 5.2 (0.91) 2.16 V-0 Y -
+
+ [RO4533™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4500-laminates) 3.30+/-0.08 3.45 0.0025 (0.0020) 40 1.1x10<sup>10</sup> 9.9x10<sup>8</sup> 0.02 0.60 13 11 37 6.9 (1.2) 1.8 NON FR Y -157
+
+ [RO4534™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4500-laminates) 3.40 +/- 0.08 3.55 0.0027 (0.0022) 40 1.7x10<sup>10</sup> 4.2x10<sup>9</sup> 0.06 0.60 11 14 46 6.3 (1.1) 1.8 NON FR Y -157
+
+ [RO4535™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4500-laminates) 3.44+/-0.08 3.60 0.0037 (0.0032) 50 1.2x10<sup>10</sup> 5.7x10<sup>9</sup> 0.09 0.6 16 17 50 5.1 (0.9) 1.9 V-0 Y -157
+
+ [RO4725JXR™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4700-antenna-grade-laminates) 2.55+/-0.05 2.64 0.0026 (0.0022) 34 2.16x10<sup>8</sup> 4.8x10<sup>7</sup> 0.24 0.38<sup>(19)</sup> 13.9 19.0 25.6 8.5 (1.49) 1.27 NON FR Y ≤-160
+
+ [RO4730G3™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4700-antenna-grade-laminates) 3.00 +/- 0.05 2.98 0.0028  34 9.0x10<sup>7</sup> 7.2x10<sup>5</sup> 0.093 0.45 15.9 14.4 35.2 4.1  1.58 V-0 Y ≤-165
+
+ [RO4830™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4830-laminates) 3.25+/-0.05 3.24<sup>29</sup> 0.0033 -30 9.6x10<sup>9</sup> 1.1x10<sup>8</sup> 0.15 0.45 23 23 110 3.8 (0.67) 1.68 V-0 Y -
+
+ [RO4835T™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4835t-laminates) 3.33+/-0.05 3.48 0.0030 35 ppm/C (from -50 to 50C), -35 ppm/C (from 50 to 150C) 1.34x10<sup>8</sup> 1.17x10<sup>6</sup> 0.20 0.53, 0.52@80° 14 16 62 3.0 (0.53) 1.81 V-0 Y -
+
+ [RO4835™](https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4835-laminates) 3.48+/-0.05 3.66 0.0037 50 5x10<sup>8</sup> 7x10<sup>8</sup> 0.05 0.66 10 12 31 5.0 (0.88) 1.92 V-0 Y -
+
+ [RT/duroid® 5870](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5870-laminates) 2.33 +/- 0.02 2.33 0.0012 -115 2x10<sup>7</sup> 2x10<sup>7</sup> 0.02 0.22 22 28 173 27.2 (4.8) 2.2 V-0 Y -
+
+ [RT/duroid® 5880](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5880-laminates) 2.20 +/- 0.02 2.20 0.0009 -125 2x10<sup>7</sup> 3x10<sup>7</sup> 0.02 0.20 31 48 237 31.2 (5.5) 2.2 V-0 Y -
+
+ [RT/duroid® 5880LZ](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5880lz-laminates) 2.00 +/- 0.04 2.0 0.0021 20 1.74x10<sup>7</sup> 2.08x10<sup>6</sup> 0.31 0.33 54 47 40 >4.0 1.4 V-0 Y -
+
+ [RT/duroid® 6002](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-5880lz-laminates) 2.94+/-0.04 2.94 0.0012 12 1x10<sup>6</sup> 1x10<sup>7</sup> 0.02 0.60 16 16 24 8.9 (1.6) 2.1 V-0 Y -
+
+ [RT/duroid® 6006](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-6006-and-6010-2lm-laminates) 6.15 +/- 0.15 6.45 0.0027 -410 2x10<sup>7</sup> 7x10<sup>7</sup> 0.05 0.49 47 34 117 14.3 (2.5) 2.7 V-0 Y -
+
+ [RT/duroid® 6010.2LM](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-6006-and-6010-2lm-laminates) 10.20+/-0.25 10.7 0.0023 -425 5x10<sup>5</sup> 5x10<sup>6</sup> 0.01 0.86 24 24 47 12.3 (2.1) 3.1 V-0 Y -
+
+ [RT/duroid® 6035HTC](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-6035htc-laminates) 3.50+/-0.05 3.60 0.0013 -66 1x10<sup>8</sup> 1x10<sup>8</sup> 0.06<sup>12</sup> 1.44 19 19 39 7.9 (1.4) 2.2 V-0 Y -
+
+ [RT/duroid® 6202](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-6202-laminates) 2.94+/-0.04<sup>8</sup> 2.94+/-0.04<sup>8</sup> 0.0015 +5 to -15<sup>8</sup> 1x10<sup>6</sup> 1x10<sup>9</sup> 0.04 0.68 15 15 30 9.1 (1.6) 2.1 V-0 Y -
+
+ [RT/duroid® 6202PR<sup>20</sup>](https://www.rogerscorp.com/advanced-electronics-solutions/rt-duroid-laminates/rt-duroid-6202pr-laminates) 2.90-3.00+/-0.04 2.90-3.00 0.0020 +5 to -15<sup>8</sup> 1x10<sup>10</sup> 1x10<sup>9</sup> 0.03 0.68 15 15 30 14.3 (2.5) 2.1 V-0 Y -
+
+ [TC350™](https://www.rogerscorp.com/advanced-electronics-solutions/tc-series-laminates/tc350-laminates) 3.50+/-0.05 3.50 0.0020 -9 7.4x10<sup>6</sup> 3.2x10<sup>7</sup> 0.05<sup>(22)</sup> 0.72, 1.00<sup>(27)</sup> 7 7 23 7.0(1.2) 2.3 V-0 Y -
+
+ [TC350™ Plus](https://www.rogerscorp.com/advanced-electronics-solutions/tc-series-laminates/tc350-plus-laminates) 3.50+/-0.05 3.62 0.0017 -42 9.4x10<sup>11</sup> 3.3x10<sup>12</sup> 0.05<sup>(25)</sup> 1.24 10 9 38 4.0 (0.7) TBD V-0 Y -
+
+ [TC600™](https://www.rogerscorp.com/advanced-electronics-solutions/tc-series-laminates/tc600-laminates) 6.15+/-0.15 6.15 0.0020 -75 1.6x10<sup>9</sup> 3.1x10<sup>9</sup> 0.03<sup>(22)</sup> 1.10 9 9 35 8.0(1.4) 3.0 V-0 Y -
+
+ [TMM® 3](https://www.rogerscorp.com/advanced-electronics-solutions/tmm-laminates/tmm-3-laminates) 3.27 +/- 0.032 3.45 0.0020 37 3x10<sup>9</sup> 9x10<sup>9</sup>0.06<sup>(10)</sup> 0.70 15 15 23 5.7 (1.0) 1.8 NON FR Y -
+
+ [TMM® 4](https://www.rogerscorp.com/advanced-electronics-solutions/tmm-laminates/tmm-4-laminates) 4.50+/-0.045 4.7 0.0020 15 6x10<sup>8\*</sup> 1x10<sup>9\*</sup> 0.07<sup>(10)</sup> 0.70 16 16 21 5.7 (1.0) 2.1 NON FR Y -
+
+ [TMM® 6](https://www.rogerscorp.com/advanced-electronics-solutions/tmm-laminates/tmm-6-laminates) 6.00+/-0.08 6.3 0.0023 -11 1x10<sup>8\*</sup> 1x10<sup>9</sup> 0.06<sup>(10)</sup> 0.72 18 18 26 5.7 (1.0) 2.4 NON FR Y -
+
+ [TMM® 10](https://www.rogerscorp.com/advanced-electronics-solutions/tmm-laminates/tmm-10-laminates) 9.20 +/- 0.23 9.8 0.0022 -38 2x10<sup>8</sup> 4x10<sup>7</sup> 0.09<sup>(10)</sup> 0.76 21 21 20 5 (0.9) 2.8 NON FR Y -
+
+ [TMM® 10i](https://www.rogerscorp.com/advanced-electronics-solutions/tmm-laminates/tmm-10i-laminates) 9.80+/-0.245 9.9 0.0020 -43 2x10<sup>8</sup> 4x10<sup>7</sup> 0.16<sup>(10)</sup> 0.76 19 19 20 5 (0.9) 2.8 NON FR Y -
+
+ [TMM® 13i](https://www.rogerscorp.com/advanced-electronics-solutions/tmm-laminates/tmm-13i-laminates) 12.85+/-0.35<sup>(14)</sup> 12.2 0.0019 -70 TBD TBD 0.13 0.76<sup>17</sup> 19 19 20 4 (0.7) 3.0 NON FR Y -
+
+ [XtremeSpeed™ RO1200™](https://www.rogerscorp.com/advanced-electronics-solutions/xtremespeed-ro1200-laminates) 3.03-3.10+/-0.10 3.03-3.10 0.0017  -35 1.3x10<sup>7</sup> 2.5x10<sup>6</sup> 0.03 0.42 8 8 30 >4.5(>0.79) 2.1 V-0 Y -
+
+ Compare Materials
+
+### Properties Notes
+
+1. Measured by IPC-TM-650 method 2.5.5.5 @ \~10 GHz, 23°C. Materials were based on testing raw substrate material. er values and tolerance reported by IPC-TM-650 method 2.5.5.5 are the basis for quality acceptance, but for some products these values may be incorrect for design engineering applications, especially those in microstrip. We recommend that prototype boards of a new design be verified for electrical performance.
+
+2. Measured by IPC-TM-650 method 2.5.5.5 at \~10GHz modified.
+
+3. Typical values are mean values derived from populations of measurements involving multiple lots of the specific foil type.
+
+4. Measured after 48±1 hours immersion at 50±1ºC in accordance with the ASTM D570 standard.
+
+5. Tested by ASTM C518.
+
+6. Tested by IPC-TM-650 2.4.41. Values are average over temperature range but not necessarily linear. However for RT/duroid 6002 and TMM grades the response is essentially linear.
+
+7. The nominal dielectric constant of an 0.060" thick RO3003 laminate as measured by IPC-TM-2.5.5.5 will be 3.04 due to the elimination of biasing caused by air gaps in the test fixture. For further information refer to Rogers' T.R. 5242.
+
+8. Due to construction limitations, the dielectric constant of 0.005" laminates is 3.06 ± 0.04; 0.010" and 0.015" laminates are 3.02 ± 0.04: TCDK is +5 for the higher Dk range; and for 2.90 TCDK is -15
+
+9. Rogers' high frequency laminates and prepregs are lead-free process compatible and in accordance with IEC 61249-2-21.
+
+10. TMM® material test conditions D24/50 (twenty-four hours at 50°C) on 0.050" (1.27mm) thick specimens. TMM13i test condition D48/50.
+
+11. Design Dk is determined by testing thick microstrip transmission line circuits and reporting the thickness-axis dielectric constant of the raw material without the influence of copper. For more information, refer to the article on the Rogers website titled "The Influence of Test Method, Conductor Profile, and Substrate Anisotropy on the Permittivity Values Required for Accurate Modeling of High Frequency Planar Circuits", which was featured in a publication Sept. 2012. http://www.rogerscorp.com/acs/articles.aspx
+
+12. Testing conditions: 24 hours @ 23 C, specimens etched free of copper
+
+13. Available only with LoPro® copper foil
+
+14. Measured by IPC-TM-650 method 2.5.5.6 .
+
+15. 2oz available on TC350 Plus only
+
+16. Values for 2.5 mil thickness.
+
+17. Estimated
+
+18. IPC-TM-650.2.5.5.5.1
+
+19. Test method: ASTM D5470-12 @ 50°C
+
+20. PR stands for Planar Resistor. Resistive foil, if required, must be specified when ordering 6202PR laminate.
+
+21. Conditions 125ºC/24 hours. Test method IPC-TM-650 2.5.17.1
+
+22. Measured after 24+1/2-0 hours immersion at 23 ± 1ºC in accordance with the ASTM D570 standard.
+
+23. 12 microstrip transmission line test circuit on 0.060" thick laminate.
+
+24. N/A
+
+25. (D24/23) IPC TM-650 2.6.2.1
+
+26. ASTM E1461
+
+27. 1.0 W/(m•K) based on ASTM E1461
+
+28. Values for 3 mil thickness.
+
+29. Measured using differential phase length method at 77GHz.
+
+30. Value shown is for 1/2 oz ED copper.

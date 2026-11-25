@@ -1,0 +1,124 @@
+{
+  "case": "combined_timing_probe_078_stress_20ns_200ps_trap",
+  "profile": "combined",
+  "scope": "timing_probe",
+  "tag": "078_stress",
+  "errors": [
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 20,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "d799a1ac0c267d542ce7d51c1692b58114ee0de479910f7d48082e85c6987d3f",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 56633,
+  "unique_points": 56633,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 365,
+  "sample_passed": 445,
+  "minimum_late_margin_V": -2.0999999994226797,
+  "worst_slot": {
+    "slot": 224,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.0999999994226797
+  },
+  "first_bad": {
+    "slot": 2,
+    "state": "000",
+    "channel": "carry",
+    "sample_error6": -0.01,
+    "slot_start_ns": 40.0
+  },
+  "max_settling_ns": 17.42253490834547,
+  "unsettled": 67,
+  "energy_J": 3.1801356140298794e-08,
+  "power_W": 0.006211202371152108,
+  "energy_per_slot_J": 1.2422404742304216e-10,
+  "warning": false
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "shape": [
+      24,
+      15,
+      9
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "sides": [
+      1,
+      2,
+      3
+    ],
+    "post_target_height_m": 0.03,
+    "terms": 64,
+    "reference_impedance_ohm": 50.0,
+    "band_Hz": [
+      2980000000.0,
+      3130000000.0
+    ],
+    "points": 16
+  },
+  {
+    "shape": [
+      36,
+      23,
+      14
+    ],
+    "lengths_m": [
+      0.16,
+      0.1,
+      0.06
+    ],
+    "sides": [
+      1,
+      2,
+      3
+    ],
+    "post_target_height_m": 0.03,
+    "terms": 64,
+    "reference_impedance_ohm": 50.0,
+    "band_Hz": [
+      2980000000.0,
+      3130000000.0
+    ],
+    "points": 16
+  }
+]

@@ -1,0 +1,546 @@
+{
+  "solver": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\solver\\openEMS\\openEMS.exe",
+  "solver_sha256": "90944e794b9656681bc4d529cfa4bae6b10663bdf501f0198821dbb1fb185e54",
+  "native_help_returncode": 0,
+  "benchmark": "uniform air TEM line, native voltage/H probes, lumped shunt load",
+  "geometry_mm": {
+    "length": 240.0,
+    "width": 75.34606269235414,
+    "height": 10.0
+  },
+  "reference_impedance_ohm": 50,
+  "measurement_planes_mm": [
+    60.0,
+    180.0
+  ],
+  "shunt_position_mm": 150.0,
+  "band_Hz": [
+    2500000000.0,
+    3500000000.0
+  ],
+  "duration_ns": 8,
+  "transverse_cells": [
+    80,
+    4
+  ],
+  "cases": [
+    {
+      "case": "dx2_ny80_load50_t8",
+      "spacing_x_mm": 2.0,
+      "load_ohm": 50.0,
+      "s11_max_complex_error": 0.017657878029520693,
+      "s21_max_complex_error": 0.01859697069287267,
+      "load_z_max_relative_error": 0.6155622739015805,
+      "power_identity_error": 4.1900042605631885e-16,
+      "energy_balance_max_error": 0.0321383536009216,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8"
+    },
+    {
+      "case": "dx2_ny80_load100_t8",
+      "spacing_x_mm": 2.0,
+      "load_ohm": 100.0,
+      "s11_max_complex_error": 0.009574687557833934,
+      "s21_max_complex_error": 0.010754105795400542,
+      "load_z_max_relative_error": 0.8374801731731342,
+      "power_identity_error": 4.1887582799421206e-16,
+      "energy_balance_max_error": 0.019981861397900202,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8"
+    },
+    {
+      "case": "dx2_ny80_load25_t8",
+      "spacing_x_mm": 2.0,
+      "load_ohm": 25.0,
+      "s11_max_complex_error": 0.03547751404678044,
+      "s21_max_complex_error": 0.03460103781073941,
+      "load_z_max_relative_error": 0.3870596590739848,
+      "power_identity_error": 5.239365557291773e-16,
+      "energy_balance_max_error": 0.048447677094405006,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8"
+    },
+    {
+      "case": "dx1_ny80_load50_t8",
+      "spacing_x_mm": 1.0,
+      "load_ohm": 50.0,
+      "s11_max_complex_error": 0.008441066252172513,
+      "s21_max_complex_error": 0.008286015985877582,
+      "load_z_max_relative_error": 0.35808264187970557,
+      "power_identity_error": 5.424943034653298e-16,
+      "energy_balance_max_error": 0.012230428403913196,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8"
+    },
+    {
+      "case": "dx1_ny80_load100_t8",
+      "spacing_x_mm": 1.0,
+      "load_ohm": 100.0,
+      "s11_max_complex_error": 0.00427515839165883,
+      "s21_max_complex_error": 0.0040916604750895836,
+      "load_z_max_relative_error": 0.6011580471363199,
+      "power_identity_error": 5.424572570150698e-16,
+      "energy_balance_max_error": 0.007987536908703352,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8"
+    },
+    {
+      "case": "dx1_ny80_load25_t8",
+      "spacing_x_mm": 1.0,
+      "load_ohm": 25.0,
+      "s11_max_complex_error": 0.016986142828530178,
+      "s21_max_complex_error": 0.016675530320079797,
+      "load_z_max_relative_error": 0.20204982164064192,
+      "power_identity_error": 5.42540150015071e-16,
+      "energy_balance_max_error": 0.01699625472988331,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8"
+    },
+    {
+      "case": "dx0.5_ny80_load50_t8",
+      "spacing_x_mm": 0.5,
+      "load_ohm": 50.0,
+      "s11_max_complex_error": 0.004855292853227909,
+      "s21_max_complex_error": 0.004532885586660305,
+      "load_z_max_relative_error": 0.18866858865250258,
+      "power_identity_error": 4.501657141138464e-16,
+      "energy_balance_max_error": 0.007211747920351785,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8"
+    },
+    {
+      "case": "dx0.5_ny80_load100_t8",
+      "spacing_x_mm": 0.5,
+      "load_ohm": 100.0,
+      "s11_max_complex_error": 0.002689551411503463,
+      "s21_max_complex_error": 0.0024304058865519417,
+      "load_z_max_relative_error": 0.35120372896344126,
+      "power_identity_error": 4.501591401795874e-16,
+      "energy_balance_max_error": 0.004976823444617917,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8"
+    },
+    {
+      "case": "dx0.5_ny80_load25_t8",
+      "spacing_x_mm": 0.5,
+      "load_ohm": 25.0,
+      "s11_max_complex_error": 0.00893628286500486,
+      "s21_max_complex_error": 0.008569800031385551,
+      "load_z_max_relative_error": 0.10434682257225811,
+      "power_identity_error": 5.627176262240265e-16,
+      "energy_balance_max_error": 0.008950827082303436,
+      "raw_folder": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8"
+    }
+  ],
+  "axial_refinement": [
+    {
+      "coarse_mm": 2.0,
+      "fine_mm": 1.0,
+      "load_ohm": 50.0,
+      "s11_max_change": 0.009555052348867206,
+      "s21_max_change": 0.010883360362624515
+    },
+    {
+      "coarse_mm": 2.0,
+      "fine_mm": 1.0,
+      "load_ohm": 100.0,
+      "s11_max_change": 0.005458367078086254,
+      "s21_max_change": 0.00709050508411624
+    },
+    {
+      "coarse_mm": 2.0,
+      "fine_mm": 1.0,
+      "load_ohm": 25.0,
+      "s11_max_change": 0.019111786354969167,
+      "s21_max_change": 0.01869299742149464
+    },
+    {
+      "coarse_mm": 1.0,
+      "fine_mm": 0.5,
+      "load_ohm": 50.0,
+      "s11_max_change": 0.003609276794121297,
+      "s21_max_change": 0.004378706969859897
+    },
+    {
+      "coarse_mm": 1.0,
+      "fine_mm": 0.5,
+      "load_ohm": 100.0,
+      "s11_max_change": 0.0015962449900137792,
+      "s21_max_change": 0.002253960070096869
+    },
+    {
+      "coarse_mm": 1.0,
+      "fine_mm": 0.5,
+      "load_ohm": 25.0,
+      "s11_max_change": 0.008051108774933598,
+      "s21_max_change": 0.008635802676760045
+    }
+  ],
+  "raw_manifest": [
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\model.xml",
+      "sha256": "f0791470b7213eeb380227e2a0f1700e40a692e4ceaa96789118f10353dd07df"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\solver.log",
+      "sha256": "1276ddc1ee80c768c2bfc5153ec850a6bdd2f9e1ec264cefa7a1c7ee9209e006"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_ut1",
+      "sha256": "75662f7ab6b13e89f1a3d64245da71b267f123f4ddc62252802e4d93d82da6ca"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_it1a",
+      "sha256": "918651def67361b2172f1d12cac386161f8043c9156d001cfd1a81842b2db245"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_it1b",
+      "sha256": "f89070ab995f0a2761d01580826d1ed6d7afbea856460bd0c99319024936468a"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_ut2",
+      "sha256": "ce9829ca5f8d2b18c7de2b7415c43b29df3a2d39e19376656f98bdcccdee310f"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_it2a",
+      "sha256": "fc215b3e09131eb2543e066d41f9e5d200dda9558c3154ddc67de9b192e1d71c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_it2b",
+      "sha256": "106ac33766b6ed332612f44be89dd7467e6ac4d57323dc313ca001d3ba713f60"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_ut3",
+      "sha256": "385140a5a949206b4a09486ddc99ff54c6f61148e637bff1164ac0fc88933522"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load50_t8\\port_it3",
+      "sha256": "231e96f7ce0a7e7587f10576e2e85cc4c6efcd9b9b9dad4d7b134381fde295ce"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\model.xml",
+      "sha256": "015c8d4c5bac9e1a434d1a1272b3a9a072accba1346e1cd26e2fd310f7f159e6"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\solver.log",
+      "sha256": "64ff63934d043e1eb0136a44fb45da3b75cb343ea12a8cda89fc2dd4c0c52dc3"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_ut1",
+      "sha256": "ea60779d04ba8362e466d6c3f7326342386b5ab34ebbafb1978a7ac687530293"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_it1a",
+      "sha256": "706e0e46202f0f842328049d1716d8b90c87bb13008f62d39f244c5d729f8681"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_it1b",
+      "sha256": "901d0be7544cb2ce2366ec9b3c4fdfb6210610dff9711536b668ba3c7643f17b"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_ut2",
+      "sha256": "a21642343517cec98b1e89b4d758e7851ebe4ac413e446c6b628987c7ad4f55c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_it2a",
+      "sha256": "907fafc9e0baa96e98da04c027ee9049192191ab581b1b7f9e9fd960b96a6d88"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_it2b",
+      "sha256": "abf880e003fb348fe4f4b12ab1e81f9f902b1483fafc8b1cfb8130ec09fd1cd3"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_ut3",
+      "sha256": "7c320b147d374a29ac21687f0c58d309db439c4eef65f68cc6d8cf9be8657085"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load100_t8\\port_it3",
+      "sha256": "1b7a1ae66aedb4c6d502e3fd794f24b35824704c168919182acffd5df733c95e"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\model.xml",
+      "sha256": "fd912dc96a956d232808cf9d5e6e00fd6a2a1212f321af0ebbd1cebdbfa8ad81"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\solver.log",
+      "sha256": "8dff7579a4e2cfdf87ad3da3afe8aa1deb535bbe368919321c8c9e7adbe7450d"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_ut1",
+      "sha256": "6fe2e3dc7f9a8173cb1a3293d297eb3e49ffd03fa8966730ac22fb7d03a1572c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_it1a",
+      "sha256": "457366678ccd1af92f7f76307706ebe631dacba7c94ad5f035ef3d6d7996c1cf"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_it1b",
+      "sha256": "c602e79bde664be78916f0e4a4c3f0e96e5e61c204a449ef80e8ed0c6ee7d85c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_ut2",
+      "sha256": "9c670a0d6029370927ed37832c69d2c36111e548f2e70c460de5cb0e8fbc1834"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_it2a",
+      "sha256": "3b02ff715b2ce85bcead2348fc23e169d53f23921bbfaf3d1dc246f9a158a645"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_it2b",
+      "sha256": "b7a695cf7b0419aae74595f4d1a6d6b7aa2f13d687f8bc925f1c9832bac5e283"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_ut3",
+      "sha256": "cfd685eea0cc7c351bb729c3cb0a0f2605d510ac798ed2f8429efaeab99e34c3"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx2_ny80_load25_t8\\port_it3",
+      "sha256": "0beb18b30ba4bf919d04d5786c08e07645376cfe779363f9ffe068504a494cf6"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\model.xml",
+      "sha256": "1c08a968579beae0fc4d93f9c33e02fb64d249585fd60d04da12c1430dd6ab28"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\solver.log",
+      "sha256": "d114e12507bd45feb2d3c12117f83fa563d02aa6893024ef6c48b0d06757e1b1"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_ut1",
+      "sha256": "ba766cbafe6c78c621515516646c08e96a5a719409a8d1f5de6bfd6037a5620e"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_it1a",
+      "sha256": "fafda194541f91a1fec873f5ad48126f5d84939b9c80c61271ad06aba7eb4f69"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_it1b",
+      "sha256": "b109fe8cf97bfc3e804dfc6d34773fdbc712b3664d4d95aad37596b2ec751ea1"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_ut2",
+      "sha256": "bf9c048f795e421c363ed945f877081e601be2cafbd9c9140559b7fe5db6f514"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_it2a",
+      "sha256": "beed7259899d4e271c7e77c39e8423f8a21e8df6edd0d935c23cf90a7ffa0f8e"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_it2b",
+      "sha256": "7c2d46b594d66330524056b038000bc7b1952f58872e722e2de32579a7b6b856"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_ut3",
+      "sha256": "c54b2dd696c0a2bbc7b7250fccc3d543a0d878af905486396c9913a29f6f44cb"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load50_t8\\port_it3",
+      "sha256": "6be834290ec0adff6f2d91e856abc31801a180877241ce163752d21b7f81de65"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\model.xml",
+      "sha256": "10e4a3811a8294a9fadf2b8fa323d9819de921016440017ee9659d05c034c8c9"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\solver.log",
+      "sha256": "4980fdcfb5ac035c3313ee6df06e4b86b2bd0c1b10674f8eaa9177fe83a3f807"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_ut1",
+      "sha256": "41032821956099f38d43e077e483e8e55eb621626487e17b7ef16b1bcfdd01fb"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_it1a",
+      "sha256": "78e1f6a51baf97cb2372502952ea6a90094e3127594e57a0038b0818512ff64c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_it1b",
+      "sha256": "dc468b5ecee3526b6383003c8ddaa11e79b192eb703c4a0c9345e8f0be49e36c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_ut2",
+      "sha256": "84d766240ab073ef060c15a7f6372c5d57a60d2fac5b4e18e954c24c532b156c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_it2a",
+      "sha256": "c0242474f101d6a30b32c2cf3e16a17a7d3571cdde132d59b5a2a4218974e3f6"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_it2b",
+      "sha256": "36a6e1fa676b7325037f49056ec1245282862606354738c7b0c9ad6388e4a3a2"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_ut3",
+      "sha256": "5d1c6e9ec0559b4d28b0f8d93fd8cfc5927cf7f7ca612af33657c556580a694d"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load100_t8\\port_it3",
+      "sha256": "573a70fe44cc0cb16db8d10016ada53aa336ebb03df45989cb37eb07e6d961dd"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\model.xml",
+      "sha256": "c25dacb897653f22576540a02f43eb03683307feb1514670fa09dbce13adbf5d"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\solver.log",
+      "sha256": "8f45c3fda6237d2e86cdc0a54c6a267a6e6bfd4057923b282f925318f4671d88"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_ut1",
+      "sha256": "9ee555b06f8a5fc51593e0653c7fc2b49c21b4e6f2142a3df8056c0fd2e8f97c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_it1a",
+      "sha256": "d92f539289ed02ae52319f0ad8f3045fddd6c381cd66e6683879e1f59604f650"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_it1b",
+      "sha256": "a2a056d3529b75fd731722f87a7b80c306b28f7b399c35471220ef05250eae9a"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_ut2",
+      "sha256": "30dba9f90986105faaf99b03f2a60e23ce23c71dfa14adacbe857850d329d1e7"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_it2a",
+      "sha256": "c3eef948fbbd3ad2ad1bfc5ddccef79a332858d605781e73eced3fd2dac43a84"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_it2b",
+      "sha256": "c2c36646fd3732c4f280055636b784277f839fb70941032c348b988531ecf7b9"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_ut3",
+      "sha256": "8ea13f9af1f2a2cd2cdf7482cb64df94d58d95d2ee591cdb6550742d4ceea82a"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx1_ny80_load25_t8\\port_it3",
+      "sha256": "a70a1923015d119c55123369017a8cbf7599c36837a0bb47c0b23cdc7d843eb1"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\model.xml",
+      "sha256": "1686a4b7bd0cb4fa2b06b9a32f3450f1bd27ef46a60f3232a809c202f1e552df"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\solver.log",
+      "sha256": "28575db3972a385e864ce461d324b19ace9f5daca7219c558d20c5b4d73bef7c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_ut1",
+      "sha256": "c00a855eeda09a6ee8145ab0d7ab242eeb4e5b3b79cb2cffb2c07ca68128a3b0"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_it1a",
+      "sha256": "6fc1ebcbab05fac775b05a735b22f28c2afa847992466257bd07ea2d5183be4b"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_it1b",
+      "sha256": "f013d5b2acc1e0cbc53db508414d3c0e3558e4dbbf8c8753724a8b1afcd00709"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_ut2",
+      "sha256": "93e257b6d3d314dee6a2369e818adc5fc29d7e0c112dd0b0c74c1da1df1bf522"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_it2a",
+      "sha256": "41a9eb5c03d8e527d834939d0ee230b0afb66b7bd5c4e5e981e424336e8c04e5"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_it2b",
+      "sha256": "5cd5d43a38259ce5f4eaea9fbd2ef73a7ea03f940f0dcd60db05ee92a05796ad"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_ut3",
+      "sha256": "4a018c4692e4fa78d34657fa492f65be946c3639e21e11e560843e78632995ff"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load50_t8\\port_it3",
+      "sha256": "5a101919e9a1fbe35f7cae491ea41b272f1ff29814a01cd6f4f885f27d110e46"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\model.xml",
+      "sha256": "5445f9c834487f510f56bae3fdc7d8ada908d82664194675662ff6763ee2912e"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\solver.log",
+      "sha256": "8f893133e67cbc81f1b45e9255fe4d1219c8b7e0aa42cd20a23c7479924ec119"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_ut1",
+      "sha256": "7d9aff221ff6d8ee444e790ae39f3d071a4b781787f24bd22b63a7a9e94410a9"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_it1a",
+      "sha256": "638cb14b0845dc67e9feeadc29a390c9012ba2d3c29bb48172c6150766e8b578"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_it1b",
+      "sha256": "6be90046ba4ea7084e50a885f5d39794843a528b0b318b6a8e5373c2bd96452d"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_ut2",
+      "sha256": "1c8ccf1ebb7a89ec51124bd9d73745974828ece315a1baba5692a4732857ab54"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_it2a",
+      "sha256": "ca1740ebd54a2196ebae6ac4aca287e8239ba3a74962c2768efd588bbd6dd8f2"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_it2b",
+      "sha256": "01e5e7f641d22f01ab879bec68d198675ff52cefae69190f39eea0df51a3c6c9"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_ut3",
+      "sha256": "2258ee7ae3f2c8d8be0775f8a4f56dcb0cb2720fdd655b8079eb85b53eb38f5c"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load100_t8\\port_it3",
+      "sha256": "a53522716169f1534b54bac06660b3de1c8d4fd69ac410032f3eea600210235f"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\model.xml",
+      "sha256": "01278bd049228340a2d1130559a0c082e7e86296d08e0dcb575a355b73ff9dd1"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\solver.log",
+      "sha256": "050f0fac03e25bde316b599658dd6dcb30e655d870644f603eb7ac98dd22d708"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_ut1",
+      "sha256": "6127baa9ad6d5f42d970604b42d6e990a912708a903dc5083c9f3e188e4b2d5a"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_it1a",
+      "sha256": "cdeee0fe8189b2966f9aac3fca6e6dba22b72f0766b5419106733bc122c81dc9"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_it1b",
+      "sha256": "45057787171e4fac9e9bf9b03568ca9246a32c7d8349201652eb6985651148db"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_ut2",
+      "sha256": "f7a36abdc8163b974ed71d61dd91677a40c2ad13e64952b130f651e5f52679e6"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_it2a",
+      "sha256": "73da0b189b110f6cf514179625469b53dc4cc0d1cd85e5c77e61709de247f105"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_it2b",
+      "sha256": "e01b8f5a693d73f02dfd3f74324b89e1017c33d4a19a6566a7f5fe2ea360df96"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_ut3",
+      "sha256": "737ca5fc95da02664c7ef76e181a663614d46f5fdcfc06179b8dfe496d189384"
+    },
+    {
+      "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\native-port-final\\dx0.5_ny80_load25_t8\\port_it3",
+      "sha256": "1e8fea2eb64b5d6ea0819dcab55a8b72d76e2f85f3f0ba50e338e7f8ada4310d"
+    }
+  ],
+  "finest_analytic_1percent_pass": false,
+  "finest_transmission_and_power_1percent_pass": true,
+  "full_joint_simulation_complete": false,
+  "limitations": [
+    "PEC plates; copper surface loss is not implemented.",
+    "PMC symmetry gives a uniform TEM mode; no SMA/probe connector.",
+    "50 ohm is the TEM reference; the lumped resistor is a shunt, not an end termination.",
+    "Transverse grid is fixed; refinement addresses this axial TEM benchmark only.",
+    "TEM current uses the uniform-mode integral width*Hy; not a general connector current.",
+    "Native load loop measures conduction plus displacement current; pure-R comparison is diagnostic.",
+    "Power identity is an algebraic sanity check, not independent energy closure.",
+    "No physical RF chipset, material tolerances or arithmetic feedback loop."
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "case": "compound_gain_loss_10pct_beyond_budget_gain_ramp_20ns_100ps_trap",
+  "profile": "compound_gain_loss_10pct",
+  "scope": "beyond_budget",
+  "tag": "gain_ramp",
+  "errors": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "period_ns": 20,
+  "sequence": "triples",
+  "mode": "gain_ramp",
+  "dt_ps": 100,
+  "method": "trap",
+  "fingerprint": "f775b8c6337a0ddac62ae235ecf55d24486662c7404af735f379b8807000b597",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.0
+      ],
+      [
+        9.960000000000001e-06,
+        0.0
+      ],
+      [
+        1.028e-05,
+        0.0
+      ]
+    ],
+    [
+      [
+        0,
+        0.0
+      ],
+      [
+        9.960000000000001e-06,
+        0.0
+      ],
+      [
+        1.028e-05,
+        0.0
+      ]
+    ],
+    [
+      [
+        0,
+        0.0
+      ],
+      [
+        9.960000000000001e-06,
+        0.0
+      ],
+      [
+        1.028e-05,
+        0.0
+      ]
+    ],
+    [
+      [
+        0,
+        0.0
+      ],
+      [
+        9.960000000000001e-06,
+        0.0
+      ],
+      [
+        1.028e-05,
+        0.0
+      ]
+    ],
+    [
+      [
+        0,
+        0.0
+      ],
+      [
+        9.960000000000001e-06,
+        0.0
+      ],
+      [
+        1.028e-05,
+        0.0
+      ]
+    ],
+    [
+      [
+        0,
+        0.0
+      ],
+      [
+        9.960000000000001e-06,
+        0.0
+      ],
+      [
+        1.028e-05,
+        0.0
+      ]
+    ],
+    [
+      [
+        0,
+        0.0
+      ],
+      [
+        9.960000000000001e-06,
+        0.35
+      ],
+      [
+        1.028e-05,
+        0.35
+      ]
+    ]
+  ],
+  "raw_points": 180416,
+  "unique_points": 180416,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 514,
+  "decisions": 1028,
+  "passed": 1003,
+  "sample_passed": 1004,
+  "minimum_late_margin_V": -2.3099999994297824,
+  "worst_slot": {
+    "slot": 499,
+    "state": "111",
+    "channel": "sum",
+    "margin_V": -2.3099999994297824
+  },
+  "first_bad": {
+    "slot": 356,
+    "state": "111",
+    "channel": "sum",
+    "sample_error6": 0.2508333333333334,
+    "slot_start_ns": 7120.0
+  },
+  "max_settling_ns": 15.688573633808142,
+  "unsettled": 25,
+  "energy_J": 1.771144647597893e-08,
+  "power_W": 0.0017229033536944485,
+  "energy_per_slot_J": 3.4458067073888967e-11,
+  "warning": false
+}

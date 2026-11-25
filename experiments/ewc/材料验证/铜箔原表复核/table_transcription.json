@@ -1,0 +1,36 @@
+{
+  "scope": "Visually checked Table 1 rows listing RT/duroid 5880; candidate PCB copper only",
+  "source_pdf_sha256": "efb862793ca3262e88e6fa447a9b7af6c91b7aecbd5ae89363f2a4436e89fc66",
+  "table_page": 4,
+  "table_image_sha256": "78da6aa5726ad7393ea1f8dc1b4cc21ffe7055ad4ada3999263012fe2d7cc6f8",
+  "printed_revision": "Revised 1530 081826 Publication #92-243",
+  "printed_copyright": "2021 Rogers Corporation",
+  "roughness_metric": "Sq",
+  "roughness_method": "Optical surface profiler; RMS, not mechanical Rz",
+  "printed_unit_ascii": "um",
+  "si_unit": "m",
+  "printed_to_si_factor": 0.000001,
+  "statistics": "Typical mean values from populations involving multiple lots; not limits",
+  "rows": [
+    {"id": "rolled_1oz", "foil_type": "Rolled", "weight_oz": 1, "thickness_um": 35, "thickness_m": 0.000035, "dielectric_side_Sq_um": 0.4, "dielectric_side_Sq_m": 0.0000004, "top_side_Sq_um": 0.3, "top_side_Sq_m": 0.0000003},
+    {"id": "rolled_half_oz", "foil_type": "Rolled", "weight_oz": 0.5, "thickness_um": 18, "thickness_m": 0.000018, "dielectric_side_Sq_um": 0.4, "dielectric_side_Sq_m": 0.0000004, "top_side_Sq_um": 0.3, "top_side_Sq_m": 0.0000003},
+    {"id": "ed_1oz_5880_group", "foil_type": "Electrodeposited", "weight_oz": 1, "thickness_um": 35, "thickness_m": 0.000035, "dielectric_side_Sq_um": 2.4, "dielectric_side_Sq_m": 0.0000024, "top_side_Sq_um": 0.4, "top_side_Sq_m": 0.0000004},
+    {"id": "ed_half_oz_5880_group", "foil_type": "Electrodeposited", "weight_oz": 0.5, "thickness_um": 18, "thickness_m": 0.000018, "dielectric_side_Sq_um": 2.0, "dielectric_side_Sq_m": 0.0000020, "top_side_Sq_um": 0.4, "top_side_Sq_m": 0.0000004},
+    {"id": "ed_quarter_oz_5880_group", "foil_type": "Electrodeposited", "weight_oz": 0.25, "thickness_um": 9, "thickness_m": 0.000009, "dielectric_side_Sq_um": 1.3, "dielectric_side_Sq_m": 0.0000013, "top_side_Sq_um": 0.4, "top_side_Sq_m": 0.0000004}
+  ],
+  "limitations": [
+    "No candidate selected, no batch or sheet bound, no PCB stackup frozen",
+    "Rows for other laminates, reverse-treated, LoPro and resistive alloys are not substituted",
+    "Table 1 quarter-ounce thickness is 9 um; Table 2 prints 8 um, unresolved difference retained",
+    "Table 2 volume-resistivity unit renders as Mohm*cm; not silently interpreted as micro-ohm cm",
+    "Sq does not identify a unique surface morphology or Huray radius and area ratio",
+    "Not applicable to machined C11000 cavity walls without separate evidence",
+    "No target-band loss, phase, temperature or batch uncertainty measured"
+  ],
+  "resistivity_adopted": false,
+  "roughness_loss_model_identified": false,
+  "c11000_parameters_changed": false,
+  "bom_frozen": false,
+  "G2_closed": false,
+  "full_system_gates_closed": 0
+}

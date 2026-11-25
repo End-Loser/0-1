@@ -1,0 +1,144 @@
+{
+  "scope": "five-line independent evidence rechecks, not coupled physical simulation",
+  "started_utc": "2026-11-17T17:03:26.899826+00:00",
+  "finished_utc": "2026-11-17T17:03:32.737957+00:00",
+  "workers": 4,
+  "verification_lines": 5,
+  "jobs": [
+    {
+      "line": "copper_wall",
+      "exit_code": 0,
+      "commands": [
+        {
+          "arguments": [
+            "openEMS验证/verify_finite_copper_cavity.py",
+            "openEMS验证/六面铜壁频域结果"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "elapsed_s": 1.7788836000254378,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-expanded-verification-ddt27n8b\\copper_wall.txt",
+      "log_sha256": "7a2ff79c5468d452480b5ee9b10f6c33a8fad249a708b7739c4c3f49ca1c8eef"
+    },
+    {
+      "line": "receiver_interface",
+      "exit_code": 0,
+      "commands": [
+        {
+          "arguments": [
+            "器件验证/第二批接口/verify_offline.py"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "elapsed_s": 1.4623165000230074,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-expanded-verification-ddt27n8b\\receiver_interface.txt",
+      "log_sha256": "b6186073877f18c40e865c41fb4598a49038eb62bd78ba80a630acf2b31d8678"
+    },
+    {
+      "line": "calibration_handshake",
+      "exit_code": 0,
+      "commands": [
+        {
+          "arguments": [
+            "校准验证/第二批握手/verify.py",
+            "--results",
+            "校准验证/第二批握手/结果",
+            "--code-dir",
+            "校准验证/第二批握手"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "elapsed_s": 0.5226237999740988,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-expanded-verification-ddt27n8b\\calibration_handshake.txt",
+      "log_sha256": "9403e8829339500052d00261e3ce95ecd992a43431db7c753bc948f3af101fd8"
+    },
+    {
+      "line": "coax_port",
+      "exit_code": 0,
+      "commands": [
+        {
+          "arguments": [
+            "射频端口验证/verify_coax_benchmark.py"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "射频端口验证/test_coax_benchmark.py"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "elapsed_s": 5.821844600024633,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-expanded-verification-ddt27n8b\\coax_port.txt",
+      "log_sha256": "e8496a6a59967ce96e6f35a00da2bc924029f1e7051b573110c7e756248d3ed6"
+    },
+    {
+      "line": "dielectric_screen",
+      "exit_code": 0,
+      "commands": [
+        {
+          "arguments": [
+            "材料验证/verify_dielectric.py"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "elapsed_s": 0.4398425000254065,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-expanded-verification-ddt27n8b\\dielectric_screen.txt",
+      "log_sha256": "84d033a19504f1d7cbd568a0f9b73fb878765f335360732f06b0bcaeb3ec2aba"
+    },
+    {
+      "line": "EM_regressions",
+      "exit_code": 0,
+      "commands": [
+        {
+          "arguments": [
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "openEMS验证",
+            "-p",
+            "test_*.py"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "elapsed_s": 0.8957113000797108,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-expanded-verification-ddt27n8b\\EM_regressions.txt",
+      "log_sha256": "7f3be4006601b66e61f7c85ca3c0be866c21cb0995b2f8669c0469814ba42c36"
+    }
+  ],
+  "all_recheck_commands_pass": true,
+  "evidence_sha256": {
+    "openEMS验证/六面铜壁频域结果/summary.json": "fbc5735bfcb9237fbc3a997eb2c34e16bdd64148ba82d326d7273803b2d3f51e",
+    "openEMS验证/六面铜壁频域结果/verification.json": "4cd58beae3bad2f779c28e0458ababf79e18684f5a1b0459bee08a2cf054bbac",
+    "器件验证/第二批接口/summary.json": "645277faa47f0bde9a0f3f7e40ca896f8b0cb19f5fead91258ad724073d8c3cc",
+    "器件验证/第二批接口/verification.json": "c0707db91de10fa7922534285c652e9f8dbd7660d9b21fef699d6e84ccb53140",
+    "校准验证/第二批握手/结果/summary.json": "c88a49b49b3beccf006d6e896f968e55c8a1dc1c84ecdcb69374a6c1f3cc5fac",
+    "校准验证/第二批握手/结果/manifest.json": "a4a192521f67e9ed5b49a05ab8f471ab5b68a8d7f4cd1e57417db1dba6e6ce97",
+    "校准验证/第二批握手/结果/evidence.json": "b6e77796e58fd743a8e7734c49259b00f40400f0a6c76ddf49c4df33975a83fb",
+    "校准验证/第二批握手/结果/tests.json": "077861be7926862033268d465aeb0821ab5f2bed7b637459f9cd889cfb63d763",
+    "射频端口验证/结果/summary.json": "51a120a4098af2b9da3c7dc46c5039f23ca92069a26102950d431a2a23c5ffb2",
+    "射频端口验证/结果/verification.json": "ae21cf765de5218974013fd7c320d470121a5a111b51bc7ddb997b0b0bac3188",
+    "射频端口验证/结果/tests.json": "464a471e92ccaecfa47c6cd8771e3cd187a79bc847fc0d9212c7fb80ba07f441",
+    "材料验证/source_manifest.json": "9adb2e2b7eb4fd44e6df4415d3aa254d87e0162a7f4df8c138ccd951276cb0b4",
+    "材料验证/结果/summary.json": "da1cecccc00b93b6d87c2a375922a0d48a28cede9e8b95db7ee01cbd439bf6bc",
+    "材料验证/结果/verification.json": "3cf70bc07120eebe75df036cf103df7d5cd8d1c7dd5c3959afc32dc2916c802a"
+  },
+  "missing_evidence": [],
+  "registry_sha256": "a28d3d0ff9a288c791c29375ea31703529881ee3a9465d8543eba311cf645528",
+  "script_sha256": "2fca3553ae87e706786bad608218f14b26af0b1d0a15a9ff64eb3ce13423dd54",
+  "copper_Q_accuracy_passed": false,
+  "real_copper_cavity_passed": false,
+  "real_RF_port_passed": false,
+  "real_receiver_chain_passed": false,
+  "real_calibration_hardware_passed": false,
+  "dielectric_3GHz_guarantee_passed": false,
+  "full_joint_simulation_passed": false,
+  "BOM_frozen": false
+}

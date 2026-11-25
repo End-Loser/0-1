@@ -1,0 +1,387 @@
+{
+  "runs": [
+    {
+      "id": "resistive_dc_gear",
+      "status": "fail",
+      "waveform_accepted": true,
+      "output_error_V": 3.298793192985695,
+      "terminal_output_range_V": [
+        0.001206807014305125,
+        0.001305488898156747
+      ],
+      "output_min_V": 0.001090346992802031,
+      "output_max_V": 1.650134547119668,
+      "negative_output_samples": 0,
+      "nonnegative_output_all_samples": true,
+      "ideal_current_fixture_not_startup_safety": false,
+      "algebraic_errors": {
+        "load_A": 6.989038360896704e-08,
+        "upstream_resistor_A": 2.4868996598636454e-14,
+        "load_control_V": 4.3376413572104866e-13,
+        "enable_V": 0.0
+      },
+      "algebraic_passed": false,
+      "algebraic_limits": {
+        "load_A": 1e-09,
+        "upstream_resistor_A": 1e-06,
+        "load_control_V": 1e-09,
+        "enable_V": 1e-09
+      },
+      "output_capacitor": {
+        "charge_relative_error": 2.474876692579876e-07,
+        "window_kcl_A": 3.026746103219484e-14,
+        "accounting_passed": true,
+        "initial_energy_J": 1.3614720117989124e-06,
+        "final_energy_J": 6.912898142320623e-13,
+        "energy_change_J": -1.361471320509098e-06
+      },
+      "internal_output_terminal_range_V": [
+        3.300268975604808,
+        3.30026897561185
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "reported_final_switch_conductance_S": null,
+      "enable_off_max_abs_output_V": null,
+      "source_energies_J": {
+        "upstream": 1.9145536532621607e-07,
+        "enable": 1.0889999999999996e-07
+      },
+      "output_load_absorbed_energy_J": 1.3622339503501223e-06,
+      "energy_scope": "individual_channels_no_full_system_sum; internal_quiescent_current_not_modeled",
+      "internal_output_current_independently_measured": false
+    },
+    {
+      "id": "resistive_dc_trap",
+      "status": "fail",
+      "waveform_accepted": true,
+      "output_error_V": 3.298793192957345,
+      "terminal_output_range_V": [
+        0.001206807042654828,
+        0.001305488947101148
+      ],
+      "output_min_V": 0.001090346993703486,
+      "output_max_V": 1.650134547119667,
+      "negative_output_samples": 0,
+      "nonnegative_output_all_samples": true,
+      "ideal_current_fixture_not_startup_safety": false,
+      "algebraic_errors": {
+        "load_A": 6.989113721881518e-08,
+        "upstream_resistor_A": 2.4868996598636454e-14,
+        "load_control_V": 4.3376413572104866e-13,
+        "enable_V": 0.0
+      },
+      "algebraic_passed": false,
+      "algebraic_limits": {
+        "load_A": 1e-09,
+        "upstream_resistor_A": 1e-06,
+        "load_control_V": 1e-09,
+        "enable_V": 1e-09
+      },
+      "output_capacitor": {
+        "charge_relative_error": 7.575756823349439e-08,
+        "window_kcl_A": 1.514061885272229e-14,
+        "accounting_passed": true,
+        "initial_energy_J": 1.3614720117989124e-06,
+        "final_energy_J": 6.912898395656863e-13,
+        "energy_change_J": -1.3614713205090729e-06
+      },
+      "internal_output_terminal_range_V": [
+        3.300268975606219,
+        3.300268975613258
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "reported_final_switch_conductance_S": null,
+      "enable_off_max_abs_output_V": null,
+      "source_energies_J": {
+        "upstream": 1.9145536461876335e-07,
+        "enable": 1.0889999999999996e-07
+      },
+      "output_load_absorbed_energy_J": 1.3622343679125928e-06,
+      "energy_scope": "individual_channels_no_full_system_sum; internal_quiescent_current_not_modeled",
+      "internal_output_current_independently_measured": false
+    },
+    {
+      "id": "resistive_cycle_gear",
+      "status": "blocked",
+      "waveform_accepted": false,
+      "reason": "Incomplete transient: timestep too small",
+      "original_reason": "Incomplete transient",
+      "partial_waveform": {
+        "rows": 61281,
+        "last_time_s": 0.006000728787878787,
+        "accepted": false,
+        "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-load-history-q30vs2x0\\resistive_cycle_gear\\wave.txt",
+        "sha256": "a2d7da6407a919b4454ba931c994e4e0f5883d9a168941bfe6742d6412a656d5"
+      }
+    },
+    {
+      "id": "resistive_cycle_trap",
+      "status": "fail",
+      "waveform_accepted": true,
+      "output_error_V": 3.2515826302101445,
+      "terminal_output_range_V": [
+        0.04841736978985537,
+        0.08785211538969448
+      ],
+      "output_min_V": 2.046165002128855e-07,
+      "output_max_V": 3.291195907181056,
+      "negative_output_samples": 0,
+      "nonnegative_output_all_samples": true,
+      "ideal_current_fixture_not_startup_safety": false,
+      "algebraic_errors": {
+        "load_A": 1.394475722428512e-07,
+        "upstream_resistor_A": 2.4874199922031437e-14,
+        "load_control_V": 4.3376413572104866e-13,
+        "enable_V": 5.119904500361372e-12
+      },
+      "algebraic_passed": false,
+      "algebraic_limits": {
+        "load_A": 1e-09,
+        "upstream_resistor_A": 1e-06,
+        "load_control_V": 1e-09,
+        "enable_V": 1e-09
+      },
+      "output_capacitor": {
+        "charge_relative_error": 3.2803330009219166e-07,
+        "window_kcl_A": 6.0473934887506076e-12,
+        "accounting_passed": true,
+        "initial_energy_J": 2.0933956079684925e-20,
+        "final_energy_J": 6.494076903283456e-10,
+        "energy_change_J": 6.494076903074116e-10
+      },
+      "internal_output_terminal_range_V": [
+        3.300194436236408,
+        3.300235473023109
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "reported_final_switch_conductance_S": null,
+      "enable_off_max_abs_output_V": 0.0003305629521743543,
+      "source_energies_J": {
+        "upstream": 3.305489836635443e-05,
+        "enable": 9.691014652289189e-08
+      },
+      "output_load_absorbed_energy_J": 1.081423792334895e-05,
+      "energy_scope": "individual_channels_no_full_system_sum; internal_quiescent_current_not_modeled",
+      "internal_output_current_independently_measured": false
+    },
+    {
+      "id": "current_dc_gear",
+      "status": "fail",
+      "waveform_accepted": true,
+      "output_error_V": 60.050591154314475,
+      "terminal_output_range_V": [
+        -56.75059115431448,
+        -54.77454497594596
+      ],
+      "output_min_V": -57.73930614649444,
+      "output_max_V": 1.650134547119668,
+      "negative_output_samples": 83353,
+      "nonnegative_output_all_samples": false,
+      "ideal_current_fixture_not_startup_safety": true,
+      "algebraic_errors": {
+        "load_A": 4.336808689942018e-15,
+        "upstream_resistor_A": 2.4869002527867085e-14,
+        "load_control_V": 4.3376413572104866e-13,
+        "enable_V": 0.0
+      },
+      "algebraic_passed": true,
+      "algebraic_limits": {
+        "load_A": 1e-09,
+        "upstream_resistor_A": 1e-06,
+        "load_control_V": 1e-09,
+        "enable_V": 1e-09
+      },
+      "output_capacitor": {
+        "charge_relative_error": 1.42657733829332e-08,
+        "window_kcl_A": 5.297672023285571e-13,
+        "accounting_passed": true,
+        "initial_energy_J": 1.3614720117989124e-06,
+        "final_energy_J": 0.0016668852105187772,
+        "energy_change_J": 0.0016655237385069784
+      },
+      "internal_output_terminal_range_V": [
+        3.300264890522157,
+        3.300265032690819
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "reported_final_switch_conductance_S": null,
+      "enable_off_max_abs_output_V": null,
+      "source_energies_J": {
+        "upstream": 1.5763221448398557e-06,
+        "enable": 1.0889999999999996e-07
+      },
+      "output_load_absorbed_energy_J": -0.0016887584435759974,
+      "energy_scope": "individual_channels_no_full_system_sum; internal_quiescent_current_not_modeled",
+      "internal_output_current_independently_measured": false
+    },
+    {
+      "id": "current_dc_trap",
+      "status": "fail",
+      "waveform_accepted": true,
+      "output_error_V": 60.050590588148545,
+      "terminal_output_range_V": [
+        -56.75059058814855,
+        -54.77454440953136
+      ],
+      "output_min_V": -57.73930558045362,
+      "output_max_V": 1.650134547119667,
+      "negative_output_samples": 83353,
+      "nonnegative_output_all_samples": false,
+      "ideal_current_fixture_not_startup_safety": true,
+      "algebraic_errors": {
+        "load_A": 4.336808689942018e-15,
+        "upstream_resistor_A": 2.4869002527867085e-14,
+        "load_control_V": 4.3376413572104866e-13,
+        "enable_V": 0.0
+      },
+      "algebraic_passed": true,
+      "algebraic_limits": {
+        "load_A": 1e-09,
+        "upstream_resistor_A": 1e-06,
+        "load_control_V": 1e-09,
+        "enable_V": 1e-09
+      },
+      "output_capacitor": {
+        "charge_relative_error": 4.3325342545517005e-09,
+        "window_kcl_A": 6.595123752672905e-13,
+        "accounting_passed": true,
+        "initial_energy_J": 1.3614720117989124e-06,
+        "final_energy_J": 0.0016668851778362502,
+        "energy_change_J": 0.0016655237058244513
+      },
+      "internal_output_terminal_range_V": [
+        3.300264890523605,
+        3.30026503269227
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "reported_final_switch_conductance_S": null,
+      "enable_off_max_abs_output_V": null,
+      "source_energies_J": {
+        "upstream": 1.5763221276091117e-06,
+        "enable": 1.0889999999999996e-07
+      },
+      "output_load_absorbed_energy_J": -0.001688758409399038,
+      "energy_scope": "individual_channels_no_full_system_sum; internal_quiescent_current_not_modeled",
+      "internal_output_current_independently_measured": false
+    },
+    {
+      "id": "current_cycle_gear",
+      "status": "blocked",
+      "waveform_accepted": false,
+      "reason": "Incomplete transient: timestep too small",
+      "original_reason": "Incomplete transient",
+      "partial_waveform": {
+        "rows": 61276,
+        "last_time_s": 0.006000728787878787,
+        "accepted": false,
+        "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-load-history-q30vs2x0\\current_cycle_gear\\wave.txt",
+        "sha256": "b616a9fbd254af103dd7724e6d1997eeb851ba01a21797ae4205d2fa02188db9"
+      }
+    },
+    {
+      "id": "current_cycle_trap",
+      "status": "fail",
+      "waveform_accepted": true,
+      "output_error_V": 13.983840184684421,
+      "terminal_output_range_V": [
+        -10.68384018468442,
+        -8.689372829349672
+      ],
+      "output_min_V": -41.5063541153617,
+      "output_max_V": 3.291199488380185,
+      "negative_output_samples": 64274,
+      "nonnegative_output_all_samples": false,
+      "ideal_current_fixture_not_startup_safety": true,
+      "algebraic_errors": {
+        "load_A": 4.336808689942018e-15,
+        "upstream_resistor_A": 2.4874199922031437e-14,
+        "load_control_V": 4.3376413572104866e-13,
+        "enable_V": 5.119904500361372e-12
+      },
+      "algebraic_passed": true,
+      "algebraic_limits": {
+        "load_A": 1e-09,
+        "upstream_resistor_A": 1e-06,
+        "load_control_V": 1e-09,
+        "enable_V": 1e-09
+      },
+      "output_capacitor": {
+        "charge_relative_error": 3.043284160586926e-08,
+        "window_kcl_A": 3.0566348063754134e-13,
+        "accounting_passed": true,
+        "initial_energy_J": 2.0933956079684925e-20,
+        "final_energy_J": 6.822607583118631e-05,
+        "energy_change_J": 6.82260758311863e-05
+      },
+      "internal_output_terminal_range_V": [
+        3.30019380278674,
+        3.300234698892395
+      ],
+      "discharge_control_terminal_range_V": [
+        0.0,
+        0.0
+      ],
+      "reported_final_switch_conductance_S": null,
+      "enable_off_max_abs_output_V": 4.733430947729734,
+      "source_energies_J": {
+        "upstream": 3.593881944935717e-05,
+        "enable": 9.691014652289186e-08
+      },
+      "output_load_absorbed_energy_J": -0.0009240463006787682,
+      "energy_scope": "individual_channels_no_full_system_sum; internal_quiescent_current_not_modeled",
+      "internal_output_current_independently_measured": false
+    }
+  ],
+  "method_contrasts": [
+    {
+      "first": "resistive_dc_gear",
+      "second": "resistive_dc_trap",
+      "complete": true,
+      "terminal_output_method_difference_V": 4.894440104943887e-11,
+      "scope": "diagnostic_only_not_ns_conditioner_convergence"
+    },
+    {
+      "first": "resistive_cycle_gear",
+      "second": "resistive_cycle_trap",
+      "complete": false
+    },
+    {
+      "first": "current_dc_gear",
+      "second": "current_dc_trap",
+      "complete": true,
+      "terminal_output_method_difference_V": 5.664145987793745e-07,
+      "scope": "diagnostic_only_not_ns_conditioner_convergence"
+    },
+    {
+      "first": "current_cycle_gear",
+      "second": "current_cycle_trap",
+      "complete": false
+    }
+  ],
+  "evidence_integrity_passed": true,
+  "complete_waveforms": 6,
+  "terminal_output_pass_count": 0,
+  "startup_safety_passed": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "supported_pspice_verified": false,
+  "root_cause_proven": false,
+  "charge_normalization": "C_times_max_absolute_cap_voltage",
+  "summary_sha256": "753c9c681f704e698aff0fe800095497696f3f9ea867e3e1baed85b0ea8d6ba6",
+  "verifier_sha256": "f7e3dd9ea6e922e1facd7baf793f259d85960c0c69769f5a66aedba8feea3ced"
+}

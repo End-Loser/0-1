@@ -1,0 +1,698 @@
+{
+  "scope": "k = 1 post height sweep at fixed mesh on both grids, 5 frequencies inside +-2 mode linewidths, full six-wall frequency solve",
+  "evidence_level": "A (full six-wall frequency solve)",
+  "limitation": "single-edge post (E_axial forced to zero); no coaxial/SMA geometry; port defined as the mean wall-gap voltage at 1 A drive",
+  "configuration_sha256": "b34575b52b0e7911c75977f0a0880133d333278b87eaee89063007feee868e6a",
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "source_sha256": {
+    "run_probe_height_sweep.py": "c308faa72a2d274ebe00d704a43528fd54ed15efdd0b18aeee4f5fa2eeaf8e75",
+    "run_probe_cross_section.py": "672d47d31691b546d245745a15124e98ac7f9e77fd59b2c774dbef0bc35caf9b",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "post_cells": 2,
+      "post_height_m": 0.013333333333333332,
+      "post_location_ij": [
+        12,
+        7
+      ],
+      "center_frequency_Hz": 3048418251.896508,
+      "width_Hz": 184635.369078647,
+      "positions": [
+        {
+          "frequency_Hz": 3047956663.4738116,
+          "z_real_ohm": 5.2361763940457,
+          "z_imag_ohm": 534.4017278697723,
+          "abs_s11": 0.9981842423902402,
+          "power_balance_error": 1.323063081209199e-14,
+          "solve_seconds": 0.8049365000333637
+        },
+        {
+          "frequency_Hz": 3048141298.8428903,
+          "z_real_ohm": 5.068189380692916,
+          "z_imag_ohm": 523.8960528864973,
+          "abs_s11": 0.9981719518021481,
+          "power_balance_error": 1.8400798996142275e-14,
+          "solve_seconds": 0.8178504999959841
+        },
+        {
+          "frequency_Hz": 3048325934.211969,
+          "z_real_ohm": 4.913337971129854,
+          "z_imag_ohm": 513.7413033298182,
+          "abs_s11": 0.998157726527957,
+          "power_balance_error": 3.0730703288929272e-15,
+          "solve_seconds": 0.7996181999333203
+        },
+        {
+          "frequency_Hz": 3048510569.5810475,
+          "z_real_ohm": 4.726140781840173,
+          "z_imag_ohm": 503.9046705190394,
+          "abs_s11": 0.9981587302096491,
+          "power_balance_error": 1.3155022723381772e-15,
+          "solve_seconds": 0.804507500026375
+        },
+        {
+          "frequency_Hz": 3048695204.950126,
+          "z_real_ohm": 4.586615086989914,
+          "z_imag_ohm": 494.3628003075171,
+          "abs_s11": 0.9981441582715299,
+          "power_balance_error": 0.0,
+          "solve_seconds": 0.797164999996312
+        }
+      ],
+      "mean_z_real_ohm": 4.906091922939711,
+      "mean_z_imag_ohm": 514.0613109825288,
+      "best_abs_s11": 0.9981441582715299,
+      "max_power_balance_error": 1.8400798996142275e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "post_cells": 3,
+      "post_height_m": 0.019999999999999997,
+      "post_location_ij": [
+        12,
+        7
+      ],
+      "center_frequency_Hz": 3048418251.896508,
+      "width_Hz": 184635.369078647,
+      "positions": [
+        {
+          "frequency_Hz": 3047956663.4738116,
+          "z_real_ohm": 2.1530681204745763,
+          "z_imag_ohm": 419.03348137481174,
+          "abs_s11": 0.9987917774273591,
+          "power_balance_error": 4.331434439146179e-15,
+          "solve_seconds": 1.0022116000764072
+        },
+        {
+          "frequency_Hz": 3048141298.8428903,
+          "z_real_ohm": 2.132804909170447,
+          "z_imag_ohm": 414.6387066245804,
+          "abs_s11": 0.9987780169969636,
+          "power_balance_error": 7.287643739903842e-15,
+          "solve_seconds": 1.0000881999731064
+        },
+        {
+          "frequency_Hz": 3048325934.211969,
+          "z_real_ohm": 2.1150086430863486,
+          "z_imag_ohm": 410.293126592108,
+          "abs_s11": 0.9987627954832864,
+          "power_balance_error": 3.527502712515609e-14,
+          "solve_seconds": 0.9840328999562189
+        },
+        {
+          "frequency_Hz": 3048510569.5810475,
+          "z_real_ohm": 2.080121907713791,
+          "z_imag_ohm": 405.98881397245486,
+          "abs_s11": 0.9987576554459545,
+          "power_balance_error": 2.348411066791584e-15,
+          "solve_seconds": 0.974860499962233
+        },
+        {
+          "frequency_Hz": 3048695204.950126,
+          "z_real_ohm": 2.0631910247082965,
+          "z_imag_ohm": 401.72160900773474,
+          "abs_s11": 0.9987418615840206,
+          "power_balance_error": 1.7219509179004885e-14,
+          "solve_seconds": 0.9997632000595331
+        }
+      ],
+      "mean_z_real_ohm": 2.1088389210306913,
+      "mean_z_imag_ohm": 410.33514751433796,
+      "best_abs_s11": 0.9987418615840206,
+      "max_power_balance_error": 3.527502712515609e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "post_cells": 4,
+      "post_height_m": 0.026666666666666665,
+      "post_location_ij": [
+        12,
+        7
+      ],
+      "center_frequency_Hz": 3048418251.896508,
+      "width_Hz": 184635.369078647,
+      "positions": [
+        {
+          "frequency_Hz": 3047956663.4738116,
+          "z_real_ohm": 1.0464041370799377,
+          "z_imag_ohm": 368.8028880465097,
+          "abs_s11": 0.9992448495720058,
+          "power_balance_error": 7.639119049746716e-15,
+          "solve_seconds": 0.8145184000022709
+        },
+        {
+          "frequency_Hz": 3048141298.8428903,
+          "z_real_ohm": 1.0520079545321785,
+          "z_imag_ohm": 366.61751185768566,
+          "abs_s11": 0.9992318984192887,
+          "power_balance_error": 1.4985786829613752e-14,
+          "solve_seconds": 0.808008199906908
+        },
+        {
+          "frequency_Hz": 3048325934.211969,
+          "z_real_ohm": 1.0587808450698273,
+          "z_imag_ohm": 364.42569156891494,
+          "abs_s11": 0.999217804465888,
+          "power_balance_error": 5.809167765986293e-14,
+          "solve_seconds": 0.7974540999857709
+        },
+        {
+          "frequency_Hz": 3048510569.5810475,
+          "z_real_ohm": 1.056948382076145,
+          "z_imag_ohm": 362.22357694725486,
+          "abs_s11": 0.9992098164909369,
+          "power_balance_error": 1.8907275683603935e-15,
+          "solve_seconds": 0.8286838000640273
+        },
+        {
+          "frequency_Hz": 3048695204.950126,
+          "z_real_ohm": 1.0640625325286526,
+          "z_imag_ohm": 360.00922330802337,
+          "abs_s11": 0.9991948737551354,
+          "power_balance_error": 1.2103223910202878e-14,
+          "solve_seconds": 0.8054710000287741
+        }
+      ],
+      "mean_z_real_ohm": 1.0556407702573485,
+      "mean_z_imag_ohm": 364.4157783456777,
+      "best_abs_s11": 0.9991948737551354,
+      "max_power_balance_error": 5.809167765986293e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "post_cells": 6,
+      "post_height_m": 0.039999999999999994,
+      "post_location_ij": [
+        12,
+        7
+      ],
+      "center_frequency_Hz": 3048418251.896508,
+      "width_Hz": 184635.369078647,
+      "positions": [
+        {
+          "frequency_Hz": 3047956663.4738116,
+          "z_real_ohm": 1.5322954221677825,
+          "z_imag_ohm": 364.6253178207731,
+          "abs_s11": 0.9988694095056,
+          "power_balance_error": 9.708955802354479e-15,
+          "solve_seconds": 0.7205325999530032
+        },
+        {
+          "frequency_Hz": 3048141298.8428903,
+          "z_real_ohm": 1.4861334130950092,
+          "z_imag_ohm": 361.52568214885486,
+          "abs_s11": 0.9988849312712005,
+          "power_balance_error": 1.5688149739244015e-14,
+          "solve_seconds": 0.7340268000261858
+        },
+        {
+          "frequency_Hz": 3048325934.211969,
+          "z_real_ohm": 1.4435556263739489,
+          "z_imag_ohm": 358.5225525942191,
+          "abs_s11": 0.9988989958574691,
+          "power_balance_error": 2.3072675642169327e-15,
+          "solve_seconds": 0.7362260000081733
+        },
+        {
+          "frequency_Hz": 3048510569.5810475,
+          "z_real_ohm": 1.3912198526730957,
+          "z_imag_ohm": 355.60683984091236,
+          "abs_s11": 0.9989217663877404,
+          "power_balance_error": 0.0,
+          "solve_seconds": 0.7368062000023201
+        },
+        {
+          "frequency_Hz": 3048695204.950126,
+          "z_real_ohm": 1.3526657415557113,
+          "z_imag_ohm": 352.7721874241952,
+          "abs_s11": 0.9989350568096738,
+          "power_balance_error": 1.0998274054658144e-14,
+          "solve_seconds": 0.7047895001014695
+        }
+      ],
+      "mean_z_real_ohm": 1.4411740111731095,
+      "mean_z_imag_ohm": 358.6105159657909,
+      "best_abs_s11": 0.9988694095056,
+      "max_power_balance_error": 1.5688149739244015e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "post_cells": 8,
+      "post_height_m": 0.05333333333333333,
+      "post_location_ij": [
+        12,
+        7
+      ],
+      "center_frequency_Hz": 3048418251.896508,
+      "width_Hz": 184635.369078647,
+      "positions": [
+        {
+          "frequency_Hz": 3047956663.4738116,
+          "z_real_ohm": 0.38359703839220033,
+          "z_imag_ohm": 304.7096594435537,
+          "abs_s11": 0.9995977687953792,
+          "power_balance_error": 7.669743821766915e-15,
+          "solve_seconds": 0.824378100107424
+        },
+        {
+          "frequency_Hz": 3048141298.8428903,
+          "z_real_ohm": 0.3822712519832223,
+          "z_imag_ohm": 303.8698025322411,
+          "abs_s11": 0.9995969988217203,
+          "power_balance_error": 9.874554427365636e-15,
+          "solve_seconds": 0.7980634000850841
+        },
+        {
+          "frequency_Hz": 3048325934.211969,
+          "z_real_ohm": 0.38130638537828315,
+          "z_imag_ohm": 303.03415297902643,
+          "abs_s11": 0.9995958549953913,
+          "power_balance_error": 7.23539998800829e-14,
+          "solve_seconds": 0.793198800063692
+        },
+        {
+          "frequency_Hz": 3048510569.5810475,
+          "z_real_ohm": 0.3773372121715509,
+          "z_imag_ohm": 302.2014802064992,
+          "abs_s11": 0.9995979133067948,
+          "power_balance_error": 8.53254507522356e-15,
+          "solve_seconds": 0.7665268999990076
+        },
+        {
+          "frequency_Hz": 3048695204.950126,
+          "z_real_ohm": 0.37640004121448223,
+          "z_imag_ohm": 301.37120343428126,
+          "abs_s11": 0.9995967584259299,
+          "power_balance_error": 5.45672787104231e-15,
+          "solve_seconds": 0.788431900087744
+        }
+      ],
+      "mean_z_real_ohm": 0.38018238582794783,
+      "mean_z_imag_ohm": 303.03725971912036,
+      "best_abs_s11": 0.9995958549953913,
+      "max_power_balance_error": 7.23539998800829e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "post_cells": 2,
+      "post_height_m": 0.008571428571428572,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "center_frequency_Hz": 3055359591.6326942,
+      "width_Hz": 187358.710651291,
+      "positions": [
+        {
+          "frequency_Hz": 3054891194.8560658,
+          "z_real_ohm": 25.314686302559732,
+          "z_imag_ohm": 800.7158370240719,
+          "abs_s11": 0.9960785858661122,
+          "power_balance_error": 1.473590989102372e-14,
+          "solve_seconds": 11.646304699941538
+        },
+        {
+          "frequency_Hz": 3055078553.566717,
+          "z_real_ohm": 22.15090817219679,
+          "z_imag_ohm": 752.6956681831546,
+          "abs_s11": 0.9961182806477118,
+          "power_balance_error": 8.340114538938318e-15,
+          "solve_seconds": 11.649758800049312
+        },
+        {
+          "frequency_Hz": 3055265912.2773685,
+          "z_real_ohm": 19.568323303932566,
+          "z_imag_ohm": 710.5513746117088,
+          "abs_s11": 0.9961535913793179,
+          "power_balance_error": 3.558464719892272e-14,
+          "solve_seconds": 11.761638600029983
+        },
+        {
+          "frequency_Hz": 3055453270.98802,
+          "z_real_ohm": 17.269887301890197,
+          "z_imag_ohm": 673.217997607912,
+          "abs_s11": 0.9962200600252817,
+          "power_balance_error": 4.525779442987819e-15,
+          "solve_seconds": 11.258802899974398
+        },
+        {
+          "frequency_Hz": 3055640629.6986713,
+          "z_real_ohm": 15.469253935513684,
+          "z_imag_ohm": 639.8765839044443,
+          "abs_s11": 0.9962539948227049,
+          "power_balance_error": 3.4449434603736693e-15,
+          "solve_seconds": 11.191372400033288
+        }
+      ],
+      "mean_z_real_ohm": 19.95461180321859,
+      "mean_z_imag_ohm": 715.4114922662582,
+      "best_abs_s11": 0.9960785858661122,
+      "max_power_balance_error": 3.558464719892272e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "post_cells": 3,
+      "post_height_m": 0.012857142857142859,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "center_frequency_Hz": 3055359591.6326942,
+      "width_Hz": 187358.710651291,
+      "positions": [
+        {
+          "frequency_Hz": 3054891194.8560658,
+          "z_real_ohm": 8.134094742056813,
+          "z_imag_ohm": 563.7367061973559,
+          "abs_s11": 0.9974642084403593,
+          "power_balance_error": 1.725234273299538e-14,
+          "solve_seconds": 18.237629999988712
+        },
+        {
+          "frequency_Hz": 3055078553.566717,
+          "z_real_ohm": 7.6901000053916295,
+          "z_imag_ohm": 547.6449774262937,
+          "abs_s11": 0.9974608246908148,
+          "power_balance_error": 2.8874085482549375e-14,
+          "solve_seconds": 18.066679100040346
+        },
+        {
+          "frequency_Hz": 3055265912.2773685,
+          "z_real_ohm": 7.289413153687678,
+          "z_imag_ohm": 532.4433763717622,
+          "abs_s11": 0.9974549301737503,
+          "power_balance_error": 3.618795986580725e-14,
+          "solve_seconds": 18.596903800033033
+        },
+        {
+          "frequency_Hz": 3055453270.98802,
+          "z_real_ohm": 6.8621977892752595,
+          "z_imag_ohm": 518.0383548987708,
+          "abs_s11": 0.9974701901606696,
+          "power_balance_error": 7.765836371737068e-15,
+          "solve_seconds": 18.20007370004896
+        },
+        {
+          "frequency_Hz": 3055640629.6986713,
+          "z_real_ohm": 6.523274166595403,
+          "z_imag_ohm": 504.35541347648234,
+          "abs_s11": 0.9974641556298312,
+          "power_balance_error": 2.5869508997059223e-15,
+          "solve_seconds": 18.372965199989267
+        }
+      ],
+      "mean_z_real_ohm": 7.299815971401356,
+      "mean_z_imag_ohm": 533.2437656741329,
+      "best_abs_s11": 0.9974549301737503,
+      "max_power_balance_error": 3.618795986580725e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "post_cells": 4,
+      "post_height_m": 0.017142857142857144,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "center_frequency_Hz": 3055359591.6326942,
+      "width_Hz": 187358.710651291,
+      "positions": [
+        {
+          "frequency_Hz": 3054891194.8560658,
+          "z_real_ohm": 3.9845434046534454,
+          "z_imag_ohm": 460.82268625118695,
+          "abs_s11": 0.9981473484465342,
+          "power_balance_error": 3.377025092195531e-14,
+          "solve_seconds": 11.62607170001138
+        },
+        {
+          "frequency_Hz": 3055078553.566717,
+          "z_real_ohm": 3.8748845335029434,
+          "z_imag_ohm": 452.8098872643308,
+          "abs_s11": 0.9981347914063138,
+          "power_balance_error": 1.5013527754791356e-14,
+          "solve_seconds": 11.644095800002106
+        },
+        {
+          "frequency_Hz": 3055265912.2773685,
+          "z_real_ohm": 3.773648372044654,
+          "z_imag_ohm": 445.02888908101886,
+          "abs_s11": 0.9981202573445477,
+          "power_balance_error": 2.9302733681238996e-14,
+          "solve_seconds": 11.694363599992357
+        },
+        {
+          "frequency_Hz": 3055453270.98802,
+          "z_real_ohm": 3.645937147139961,
+          "z_imag_ohm": 437.4577924481787,
+          "abs_s11": 0.9981212778912848,
+          "power_balance_error": 1.1571366491836127e-14,
+          "solve_seconds": 12.078983500017785
+        },
+        {
+          "frequency_Hz": 3055640629.6986713,
+          "z_real_ohm": 3.553548613474458,
+          "z_imag_ohm": 430.0816028716411,
+          "abs_s11": 0.9981063932013777,
+          "power_balance_error": 1.0122621050253327e-14,
+          "solve_seconds": 11.836654699989595
+        }
+      ],
+      "mean_z_real_ohm": 3.766512414163093,
+      "mean_z_imag_ohm": 445.2401715832713,
+      "best_abs_s11": 0.9981063932013777,
+      "max_power_balance_error": 3.377025092195531e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "post_cells": 5,
+      "post_height_m": 0.02142857142857143,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "center_frequency_Hz": 3055359591.6326942,
+      "width_Hz": 187358.710651291,
+      "positions": [
+        {
+          "frequency_Hz": 3054891194.8560658,
+          "z_real_ohm": 2.3994562445835736,
+          "z_imag_ohm": 405.15143738887326,
+          "abs_s11": 0.9985612470354621,
+          "power_balance_error": 4.738025041225389e-14,
+          "solve_seconds": 12.111340500065126
+        },
+        {
+          "frequency_Hz": 3055078553.566717,
+          "z_real_ohm": 2.367029548276981,
+          "z_imag_ohm": 400.2786894687668,
+          "abs_s11": 0.9985464693617071,
+          "power_balance_error": 3.0956402584242685e-14,
+          "solve_seconds": 12.032721400028095
+        },
+        {
+          "frequency_Hz": 3055265912.2773685,
+          "z_real_ohm": 2.337669939487753,
+          "z_imag_ohm": 395.4799281750155,
+          "abs_s11": 0.99853001358703,
+          "power_balance_error": 2.982542777691611e-14,
+          "solve_seconds": 12.721855100011453
+        },
+        {
+          "frequency_Hz": 3055453270.98802,
+          "z_real_ohm": 2.2897573749294997,
+          "z_imag_ohm": 390.74577650956746,
+          "abs_s11": 0.9985256089891933,
+          "power_balance_error": 7.757838707496e-15,
+          "solve_seconds": 12.41773159999866
+        },
+        {
+          "frequency_Hz": 3055640629.6986713,
+          "z_real_ohm": 2.2619836137681837,
+          "z_imag_ohm": 386.0709498527969,
+          "abs_s11": 0.9985086042889811,
+          "power_balance_error": 1.649149595971753e-14,
+          "solve_seconds": 12.240280600031838
+        }
+      ],
+      "mean_z_real_ohm": 2.331179344209198,
+      "mean_z_imag_ohm": 395.545356279004,
+      "best_abs_s11": 0.9985086042889811,
+      "max_power_balance_error": 4.738025041225389e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "post_cells": 6,
+      "post_height_m": 0.025714285714285717,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "center_frequency_Hz": 3055359591.6326942,
+      "width_Hz": 187358.710651291,
+      "positions": [
+        {
+          "frequency_Hz": 3054891194.8560658,
+          "z_real_ohm": 1.6063728180154466,
+          "z_imag_ohm": 372.325699936528,
+          "abs_s11": 0.9988624169631258,
+          "power_balance_error": 1.7969551225297503e-15,
+          "solve_seconds": 9.818085200036876
+        },
+        {
+          "frequency_Hz": 3055078553.566717,
+          "z_real_ohm": 1.599804024455181,
+          "z_imag_ohm": 369.0353217130442,
+          "abs_s11": 0.9988471507117032,
+          "power_balance_error": 9.576846604723855e-15,
+          "solve_seconds": 10.368943099980243
+        },
+        {
+          "frequency_Hz": 3055265912.2773685,
+          "z_real_ohm": 1.5949184527931075,
+          "z_imag_ohm": 365.76457440919256,
+          "abs_s11": 0.9988304131237149,
+          "power_balance_error": 5.443503420105544e-14,
+          "solve_seconds": 9.833168199984357
+        },
+        {
+          "frequency_Hz": 3055453270.98802,
+          "z_real_ohm": 1.5769278749448288,
+          "z_imag_ohm": 362.50786010104025,
+          "abs_s11": 0.998823128741289,
+          "power_balance_error": 3.2385919447675417e-15,
+          "solve_seconds": 9.844458600040525
+        },
+        {
+          "frequency_Hz": 3055640629.6986713,
+          "z_real_ohm": 1.572349990587567,
+          "z_imag_ohm": 359.262385328297,
+          "abs_s11": 0.998805663526539,
+          "power_balance_error": 1.2427211085555409e-14,
+          "solve_seconds": 9.76685980008915
+        }
+      ],
+      "mean_z_real_ohm": 1.5900746321592263,
+      "mean_z_imag_ohm": 365.77916829762046,
+      "best_abs_s11": 0.998805663526539,
+      "max_power_balance_error": 5.443503420105544e-14,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "post_cells": 7,
+      "post_height_m": 0.030000000000000002,
+      "post_location_ij": [
+        18,
+        11
+      ],
+      "center_frequency_Hz": 3055359591.6326942,
+      "width_Hz": 187358.710651291,
+      "positions": [
+        {
+          "frequency_Hz": 3054891194.8560658,
+          "z_real_ohm": 1.0983944868720488,
+          "z_imag_ohm": 351.6478808249946,
+          "abs_s11": 0.9991297249256126,
+          "power_balance_error": 2.2641224121967466e-14,
+          "solve_seconds": 17.590623699943535
+        },
+        {
+          "frequency_Hz": 3055078553.566717,
+          "z_real_ohm": 1.103659259012803,
+          "z_imag_ohm": 349.3713076968099,
+          "abs_s11": 0.9991143567658388,
+          "power_balance_error": 4.7681900856160854e-14,
+          "solve_seconds": 17.763575099990703
+        },
+        {
+          "frequency_Hz": 3055265912.2773685,
+          "z_real_ohm": 1.1101267263786516,
+          "z_imag_ohm": 347.0888608083926,
+          "abs_s11": 0.9990976588890419,
+          "power_balance_error": 5.780501387680859e-14,
+          "solve_seconds": 17.621716699912213
+        },
+        {
+          "frequency_Hz": 3055453270.98802,
+          "z_real_ohm": 1.10749876948728,
+          "z_imag_ohm": 344.7965689127847,
+          "abs_s11": 0.9990880374106932,
+          "power_balance_error": 1.0024598267853044e-15,
+          "solve_seconds": 17.694496299955063
+        },
+        {
+          "frequency_Hz": 3055640629.6986713,
+          "z_real_ohm": 1.1142600032498324,
+          "z_imag_ohm": 342.49243066969683,
+          "abs_s11": 0.9990703498627429,
+          "power_balance_error": 3.009058500340169e-14,
+          "solve_seconds": 17.42938910005614
+        }
+      ],
+      "mean_z_real_ohm": 1.106787849000123,
+      "mean_z_imag_ohm": 347.0794097825357,
+      "best_abs_s11": 0.9990703498627429,
+      "max_power_balance_error": 5.780501387680859e-14,
+      "status": "complete"
+    }
+  ],
+  "status": "complete"
+}

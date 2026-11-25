@@ -1,0 +1,61 @@
+{
+  "scope": "fine full E/H/RL short-window transient; not 8 us long-time acceptance",
+  "cases": [
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "file": "fine_011_5ps.npz",
+      "sha256": "3141ded1f87037c5c47dc9b0a8237ca232b774f455a0cc393c69c9ae07f2e2e3",
+      "steps": 3200,
+      "energy_closure": 4.422018307081999e-13,
+      "sampled_energy_growth_fraction": 0.0,
+      "final_energy_fraction": 0.9874070054309848,
+      "factor_seconds": 4.244076700066216,
+      "stepping_seconds": 133.93801609997172
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "file": "fine_011_2ps.npz",
+      "sha256": "1a528f4ec9f2921cf689a6371c1e9d88f9834db958366e91c1219f4ab38d8d5e",
+      "steps": 8000,
+      "energy_closure": 3.370304035854588e-12,
+      "sampled_energy_growth_fraction": 0.0,
+      "final_energy_fraction": 0.9873879684262479,
+      "factor_seconds": 4.195611799950711,
+      "stepping_seconds": 332.1826063999906
+    }
+  ],
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "frequency_reference_sha256": "70d494e2bd268353b0932b0f678d6ad67761287a0c0c856ff489a91030b0849c",
+  "configuration_sha256": "d10b12a5c8310ba8d08295d58539f3910e3033b1a111ea5434411e91b2f3fab8",
+  "source_sha256": {
+    "run_fine_copper_ringdown.py": "58b4497c4638d3bbbbddea9ba002ac8afb6f8b2b87223664436d71e65bef8606",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "fine_grid_long_time_passed": false,
+  "arbitrary_modes_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false
+}

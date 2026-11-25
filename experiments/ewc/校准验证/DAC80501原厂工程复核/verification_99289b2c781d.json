@@ -1,0 +1,110 @@
+{
+  "scope": "official_package_supplied_artifact_audit_not_local_PSpice_execution",
+  "source_url": "https://www.ti.com/lit/zip/SBAM485",
+  "archive_path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dac80501-official-74n3kb5l\\SBAM485.zip",
+  "archive_sha256": "7d79deb257e10f04cf53278741441bcbc067f47ac79bc74ea77c357f1d4bf211",
+  "inventory_sha256": "3fdae6152c28a689795d0780ec125b037ae96b78fd3d5436f5c776e523647d30",
+  "selected_members": {
+    "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/SCHEMATIC1.net": "7e61d6e8749596a90e70d3a53f3e0f701c0d4645da265c1ab6bdce47d6451750",
+    "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.cir": "9e6b711ec5ab993b7cad517e047e1d830f7126dc5ca471fdcd4ab7c3a6de4d96",
+    "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.out": "53b3badb52a9abcbb6d5469ed75be4f1030638e9f3952c41ab3f90de14fae00d",
+    "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.out.1": "3fd097709cd074479990f722a5579d0ea84be2f2c9f44b974c6b8e9821f3be4f",
+    "DAC80501_Pspice/dac80501.lib": "0a97817f51e0d9cdaf725e1f4744d837747d917add46f5cd9123081c46de04d8"
+  },
+  "declared_transient_s": 0.015,
+  "declared_max_step_s": 1e-07,
+  "network": {
+    "parallel_code_inputs": 16,
+    "all_code_inputs_share_one_stimulus": true,
+    "external_supply_V": 5,
+    "reference_capacitance_F": 1.5e-07,
+    "output_capacitance_F": 1e-07,
+    "explicit_output_resistive_load": false,
+    "serial_SPI_implemented": false,
+    "startup_POR_verified": false,
+    "project_matches_actual_EWC_load": false
+  },
+  "logs": [
+    {
+      "member": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.out",
+      "raw_sha256": "53b3badb52a9abcbb6d5469ed75be4f1030638e9f3952c41ab3f90de14fae00d",
+      "simulator_header": "PSpice 17.4.0 (Nov 2018)",
+      "failed_or_aborted": true,
+      "excerpts": [
+        {
+          "line": 337,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 338,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 339,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 340,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 342,
+          "text": "JOB ABORTED"
+        }
+      ],
+      "full_transient_verified": false
+    },
+    {
+      "member": "DAC80501_Pspice/dac80501_pspice-PSpiceFiles/SCHEMATIC1/test/test.out.1",
+      "raw_sha256": "3fd097709cd074479990f722a5579d0ea84be2f2c9f44b974c6b8e9821f3be4f",
+      "simulator_header": "PSpice 17.4.0 (Nov 2018)",
+      "failed_or_aborted": true,
+      "excerpts": [
+        {
+          "line": 338,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 339,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 340,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 341,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 342,
+          "text": "Reducing minimum delta to make the circuit converge."
+        },
+        {
+          "line": 1322,
+          "text": "ERROR(ORPSIM-16550): Floating point computation failed during matrix solution. Possible solutions: 1)Ensure that all device parameters are in valid range. 2)Try using .options LIMIT"
+        },
+        {
+          "line": 1324,
+          "text": "INTERNAL ERROR -- Divide by Zero, Divide"
+        },
+        {
+          "line": 1326,
+          "text": "ABORTING SIMULATION"
+        }
+      ],
+      "full_transient_verified": false
+    }
+  ],
+  "supplied_text_logs_both_failed": true,
+  "binary_dat_decoded": false,
+  "binary_dat_proves_completion": false,
+  "supplied_log_to_current_library_runtime_sha_binding": false,
+  "local_supported_pspice_executed": false,
+  "vendor_library_edits": false,
+  "full_DAC_passed": false,
+  "full_power_passed": false,
+  "full_joint_passed": false,
+  "full_system_gates_closed": 0,
+  "verifier_sha256": "0cf9d86f6068b3b9aacd2d4c6f304de336af8d5eca13048f11f10d494a971a2f"
+}

@@ -1,0 +1,13 @@
+{
+  "offline_verification_pass": true,
+  "original_downloads_checked": 9,
+  "zip_members_checked": 36,
+  "sampled_symbol_hits_rejected": 2,
+  "ads8881_to_ads8866_substitution_accepted": false,
+  "executable_rf_models_accepted": 0,
+  "whole_chain_passed": false,
+  "source_manifest_sha256": "2defe95b8a8f6337c81a1e9b89457ff1bfbf252f7737dfe09a26a80b30455d03",
+  "followup_manifest_sha256": "6ce871e0b501fbf9d72f2c16a89d9b9dcec87ffe5224c69af1c5f58164b2c18b",
+  "open_hits_sha256": "0e92ae5a2adbd8659fa71fab4a3cee9b12dd6b77590254f4d18c8700cac529ac",
+  "verifier_sha256": "660677c786f04dee8082e55d014644dd914508886ce9db827edc19bcf7633195"
+}

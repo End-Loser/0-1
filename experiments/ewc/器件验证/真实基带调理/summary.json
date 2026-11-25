@@ -1,0 +1,1241 @@
+{
+  "scope": "R12_R13_typical_DC_interface_only",
+  "workers": 3,
+  "previous_evidence_sha256": {
+    "器件验证\\collect_evidence.py": "9f38889e541ac44d8ab57c90ded0865a5e83ed3d336da84a9b5ff2ff7b87c85b",
+    "器件验证\\interface_model_gaps.json": "9e5fe13ba16e06558c43fa590cdac382bf29e9e605f1dce0da8129382d68a42b",
+    "器件验证\\model_inspection.json": "98a351629fa98e2642f457b7620b50475db607297bf5168829de15d23cd44e1c",
+    "器件验证\\model_test_results.json": "291d445cc07b3d44e5e0f35fcbf65ad5e5e16c41693d8eed51beb3df8513e32a",
+    "器件验证\\offline_verification.json": "35cb83368149a9a2d9f8242585c2efece06ec47f0d912cd7455700fd5c387393",
+    "器件验证\\run_model_checks.py": "3eb5ebaaf877a193de34e3eba0299dfd4bc7c30b4dab84ad5ef816211fc3ae29",
+    "器件验证\\source_manifest.json": "a127f69188f86689f2376428840ee47118695208c20029ab691d7c5a9e43d114",
+    "器件验证\\verify_offline.py": "7d08c7471f04e2ce84c72888600529d758a2b16791d85d35536e47b861598bf2",
+    "器件验证\\收发与判决模型可用性报告.md": "eef1582ad2d9b0af8c624eb235d981669505080ba88565f32ea521fc084c8b77",
+    "器件验证\\results\\native_5V_20mV.log": "4652761b2094349ed29163fe65cc2626f86b812b7a67f9a01926efe8c4290aec",
+    "器件验证\\results\\ps_3p3V_20mV.csv": "f61612a4814dc30e8c1e19e8ea10c610b4186dc6fc37bb909010d7f31ba1c743",
+    "器件验证\\results\\ps_3p3V_20mV.log": "a1a3c575b2631ed56a91a17d599905a5f563b3b790a49e14bbd845a2286e42e4",
+    "器件验证\\results\\ps_5V_20mV.csv": "1d1daa91d943946a54dc8c82d4a8eb9719617972766db6b6927cdae88626a8ab",
+    "器件验证\\results\\ps_5V_20mV.log": "bbdd0ff13ac40a0fcb5ca4db78d9db6d0ae69c6c5f766bbbda8a2dd3e356cb55",
+    "器件验证\\results\\ps_5V_20pF.csv": "8077b5795f492c67934abcb22c102337487a1f04bb48efb654a748785a99e3c6",
+    "器件验证\\results\\ps_5V_20pF.log": "6236491d9d2d609bedf21f9f5642457db69ba0ecd019bf124b66e6e52c4546ba",
+    "器件验证\\results\\ps_5V_5mV.csv": "8ebaa3adb45d99dc3236845f2f92f36c346deac77ad868ff011f2c4ad109087b",
+    "器件验证\\results\\ps_5V_5mV.log": "fe60f888ef715b5bb8a27d71dd9dd8abf086b6be72352c0453fd5e6e2183f1bd",
+    "器件验证\\results\\ps_5V_refined.csv": "16d2e902da5ae4a95af6db7cb5fd552ea17fa0bc010505482032020cf4ff063a",
+    "器件验证\\results\\ps_5V_refined.log": "b6b787b7b69d27d364e0f45fb57a99e9c3b0e1fb90b913ea8af722d4d2d30923",
+    "器件验证\\results\\ps_shutdown.csv": "75ebc91039f819243aeae1edd89bb9893e06b174d0e374b75ac7efac4de7ad82",
+    "器件验证\\results\\ps_shutdown.log": "ca793b8a14109910bc08e957f73910a7f0fd0e7c0362b2a591e298ac0eecdb64",
+    "器件验证\\source_snapshots\\cmp_page.txt": "951c94e8655a88836bed36a07ed9f3c058ca9bf749ad10b026238d1ad15f9bf0",
+    "器件验证\\source_snapshots\\cmp_pdf.txt": "6fd2bde8f47ca69ba2874c6ebf4e50dd44c5c95dfc23343f050450a828fb47e2",
+    "器件验证\\source_snapshots\\cmp_pspice_zip.txt": "0d41dca387d8b39a610c8013c43b05bec2ce7675fc1a6adf222086b89fe442b8",
+    "器件验证\\source_snapshots\\cmp_tina_zip.txt": "102a5f74b9b7d3918862ed24cfed9093243944ed6ea2d64f23cd8f9bffa17f9b",
+    "器件验证\\source_snapshots\\rf_tool.txt": "0dd641474cecce573fc033a22164fc6818a95f22e04c895a1afb160231b6427d",
+    "器件验证\\source_snapshots\\rx_page.txt": "c4b2072ee68a36d513dff938d1f24884792d8444e929935da3dfbe355e1fd19b",
+    "器件验证\\source_snapshots\\rx_pdf.txt": "a9cee860c911051f38675ae0844daf09b73fa5071d3ad22f7052996db412bfcd",
+    "器件验证\\source_snapshots\\tina_page.txt": "fd064dff0389da929b440922ff0acedb92ed56f84a28991dc580a2c465609adf",
+    "器件验证\\source_snapshots\\tipd_page.txt": "cc1fd533fd3e105906949d1469191b1021d2df4ac14c0a874ca881252788a22a",
+    "器件验证\\source_snapshots\\tipd_zip.txt": "6eeefe7cdf8b31217c784ea1f20de736d998d3fb8c31dc10cf1109ce34de1f58",
+    "器件验证\\source_snapshots\\tx_page.txt": "e69ae4c1ed41bb263688297fa70010825f498fcdef2b4a0ab78a882fc9e2ad7f",
+    "器件验证\\source_snapshots\\tx_pdf.txt": "4dfc018282106fb73568e16b9afbed6c674a575a8be529177e8630e6b7dac3a1",
+    "器件验证\\第二批接口\\run_screening.py": "845d84d4b272888773bfc515c0d5dbebfb7546133daaadf6399e28e1e4ceccd7",
+    "器件验证\\第二批接口\\summary.json": "645277faa47f0bde9a0f3f7e40ca896f8b0cb19f5fead91258ad724073d8c3cc",
+    "器件验证\\第二批接口\\verification.json": "c0707db91de10fa7922534285c652e9f8dbd7660d9b21fef699d6e84ccb53140",
+    "器件验证\\第二批接口\\verify_offline.py": "9c2cd64af55a1eda5bc3ca74bc7c0ef6fc64fb85d84d483d316c7bbb40c4d136",
+    "器件验证\\第二批接口\\接收判决接口筛选报告.md": "b0b118429bc1249d1c6104f0ef855be0433383ebaf28e1cc051002d31ef080ca",
+    "器件验证\\第二批接口\\results\\c01_3p3_mid\\solver.log": "374c4b98c21f78a988d8792d96dac9398b782116dad622da845c43d2adcc365b",
+    "器件验证\\第二批接口\\results\\c01_3p3_mid\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c01_3p3_mid\\test.cir": "a2645c8de6b8e6aaa28cf655c1d4aaa75537a62b614af0e2b3bbe6e7c9b8600c",
+    "器件验证\\第二批接口\\results\\c01_3p3_mid\\wave.csv": "69dc6823ee309a512b97a99769e130424db79a230345c1c22bc23ec917099b06",
+    "器件验证\\第二批接口\\results\\c02_5_mid\\solver.log": "36d39db0dfc4e174d09f90f5454fe469597889584fa0f029f990ae4c2ca0c87e",
+    "器件验证\\第二批接口\\results\\c02_5_mid\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c02_5_mid\\test.cir": "2f5146d16f52bb28fe28acebe9e786f1598d131f727320277c250ff0ded391bf",
+    "器件验证\\第二批接口\\results\\c02_5_mid\\wave.csv": "470fdc68271be4d558da806a6d0d1a1e88033c9e397428111c3c39d3e4301973",
+    "器件验证\\第二批接口\\results\\c03_3p3_low\\solver.log": "a7132cbab0550d13fe79472eec9a60b8abc4e9a387eb14cbd6f10de09a62716b",
+    "器件验证\\第二批接口\\results\\c03_3p3_low\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c03_3p3_low\\test.cir": "1084672aea4de12e53b76e7a21a49bf7d9a90b224b238df4a1ac148fd592e6d8",
+    "器件验证\\第二批接口\\results\\c03_3p3_low\\wave.csv": "c0c8bfc525e5e201b95ea310020db496b264201664c3c608e78bf89c87b9583e",
+    "器件验证\\第二批接口\\results\\c04_3p3_upper\\solver.log": "428c2e99d55359960413abe4a2e1aec9bdaa1516b4f9f7cfd396cbc8d8d1f37e",
+    "器件验证\\第二批接口\\results\\c04_3p3_upper\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c04_3p3_upper\\test.cir": "43416e24ed4d6fc83ea50dd85effa6d370132568f378ea5c09d32aa7b7e53e8e",
+    "器件验证\\第二批接口\\results\\c04_3p3_upper\\wave.csv": "ef997f027d71714a646d19436f1018cfce634d3c31c07404bf96a99ad2728a38",
+    "器件验证\\第二批接口\\results\\c05_5_rx_cm\\solver.log": "b3e72720394885b87040e7d627d544d24667efab4138386ec13cb9c464ad0008",
+    "器件验证\\第二批接口\\results\\c05_5_rx_cm\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c05_5_rx_cm\\test.cir": "8e8bea945e417b7d3a615e7a27b526bfaeb2ee27db89b5448d8db5c8c4032a7b",
+    "器件验证\\第二批接口\\results\\c05_5_rx_cm\\wave.csv": "9fd4dfbf0d46114323dde9536058b7982a521d3624ed643a2ef0cc0f562f3355",
+    "器件验证\\第二批接口\\results\\c06_3p3_cm_conflict\\solver.log": "78409adb8d6ee962ebcf1759af3335af8058ea96da019f3a8fd72b84a8f471da",
+    "器件验证\\第二批接口\\results\\c06_3p3_cm_conflict\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c06_3p3_cm_conflict\\test.cir": "3ee3556c9942140fe7f474dd4a2bcd66f190efd5b7304be029e9bf76630fad03",
+    "器件验证\\第二批接口\\results\\c06_3p3_cm_conflict\\wave.csv": "671279c033ed3798c22cfb080625f206d1c23436c2f5c514873f2ceee76a3cb9",
+    "器件验证\\第二批接口\\results\\c07_3p3_2mV\\solver.log": "c5cbd5d9dff4f3f2d70aad33f9d3571cf6af4ffca8e052c65b0991db694a2afc",
+    "器件验证\\第二批接口\\results\\c07_3p3_2mV\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c07_3p3_2mV\\test.cir": "2e1d762ccdd23b4deaac65bb4b594dddd9c452d1c1adef963b03dcb9c19f55fa",
+    "器件验证\\第二批接口\\results\\c07_3p3_2mV\\wave.csv": "a68cb12475a17d1714704edd346ebb264eea19c0558a48c31ce0fe6d0cb55a5f",
+    "器件验证\\第二批接口\\results\\c08_3p3_20pF\\solver.log": "3ce8ccbf7ccb95c94b641ca5f7058bfb272ff5d87be5f453209be998604c01ee",
+    "器件验证\\第二批接口\\results\\c08_3p3_20pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c08_3p3_20pF\\test.cir": "feaa01045f63d39fa5dc8c33c265e6e843cd40384b799b79803fe758feccf159",
+    "器件验证\\第二批接口\\results\\c08_3p3_20pF\\wave.csv": "56efc5cd7a37eff9c266e1efd47aa6f690ecbd9950af696d615ba9b11b4c3e61",
+    "器件验证\\第二批接口\\results\\c09_3p3_1000pF\\solver.log": "4d531bf67997ba8655b84c03f3c1bd78f4b508bd0fa590b2ccec2ee6bb7faa4d",
+    "器件验证\\第二批接口\\results\\c09_3p3_1000pF\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c09_3p3_1000pF\\test.cir": "640f79ad87f12db044b8dfc67d507afa0ff065c7ffcb80c1a00f62b3f4010850",
+    "器件验证\\第二批接口\\results\\c09_3p3_1000pF\\wave.csv": "1c442d819e34c4de6e47742c84353d7d7cf8d55db1145bd9b1d21215128af9cb",
+    "器件验证\\第二批接口\\results\\c10_3p3_slow\\solver.log": "4c99457f68a66e418e93fdfd7214bbe8cc075d8c69adc5ecd8ea8d55b49a263e",
+    "器件验证\\第二批接口\\results\\c10_3p3_slow\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c10_3p3_slow\\test.cir": "98274e73ffb65b729f62b63961cd648c8fb41edf37743b8276b701b9cffb19bf",
+    "器件验证\\第二批接口\\results\\c10_3p3_slow\\wave.csv": "67494a3fa949e0a56cee7d7665266ff30862e13fc7d1ba0165cf0c4e2c3b0cde",
+    "器件验证\\第二批接口\\results\\c11_3p3_refined\\solver.log": "120372c81c20d7b70fc79f0478a97c10f1b335b6614d41630d440d5a7c66d439",
+    "器件验证\\第二批接口\\results\\c11_3p3_refined\\spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "器件验证\\第二批接口\\results\\c11_3p3_refined\\test.cir": "3f6dd5f864fbf69670845945e648c687da7ad3a3623ba5ae74190131083b1e8b",
+    "器件验证\\第二批接口\\results\\c11_3p3_refined\\wave.csv": "41df1a85f6609892f3ad5ef640ed2830b9d8c5a9406f22ee5468cd38bb6871cb",
+    "EWC真实材料与器件统一规划.md": "c8b426a56ec22505cc3835e7356616b31819786eec716a20bae582e6372342a8"
+  },
+  "original_files_sha256": {
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-official-82hpty56\\ths4551.lib": "0a8c0db4398d7849ef46ba831bac4bc5f09352c9ead3a7be6a3a7e36d5a21527",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-device-audit-20261118\\tlv3501.lib": "4e4345dc2929ee91a99a0b5437369c32b3817e9c8673a7ae90310d5485a81ba9",
+    "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+  },
+  "temperature_C": 25,
+  "ideal_references": true,
+  "synthetic_baseband": true,
+  "RF_models": 0,
+  "full_chain_accepted": false,
+  "blockers": [],
+  "criteria": {
+    "dc_error_V": 0.001,
+    "cm_error_V": 0.005,
+    "delay_s": 3e-08,
+    "conservative_static_guard_V": 0.0095,
+    "refinement_s": 2e-11
+  },
+  "temporary_directory": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-dc-runs-046efgqx",
+  "runs": [
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-11,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d01_nominal",
+      "status": "fail",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 21640,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [
+          "dc_amplitude"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000004e-07
+            ],
+            "fda_crossings_s": [
+              2.0512519449684242e-07
+            ],
+            "output_crossings_s": [
+              2.1050896679976007e-07
+            ],
+            "total_delay_s": 9.50896679976003e-09,
+            "fda_delay_s": 4.125194496842377e-09,
+            "comparator_delay_s": 5.383772302917654e-09,
+            "low_V": 3.297955267430774,
+            "high_V": 3.297955267430774,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.049172148035617e-07
+            ],
+            "output_crossings_s": [
+              4.1040502803223977e-07
+            ],
+            "total_delay_s": 9.405028032239708e-09,
+            "fda_delay_s": 3.9172148035616315e-09,
+            "comparator_delay_s": 5.4878132286780765e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.049645586347332e-07
+            ],
+            "output_crossings_s": [
+              6.103589667997603e-07
+            ],
+            "total_delay_s": 9.35896679976023e-09,
+            "fda_delay_s": 3.964558634733199e-09,
+            "comparator_delay_s": 5.394408165027032e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.049589759941203e-07
+            ],
+            "output_crossings_s": [
+              8.1045502803224e-07
+            ],
+            "total_delay_s": 9.455028032240082e-09,
+            "fda_delay_s": 3.958975994120355e-09,
+            "comparator_delay_s": 5.496052038119727e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.011110133952637269,
+          0.009011946297910238,
+          0.009371588929463326,
+          0.009263111678034279
+        ],
+        "cm_errors_V": [
+          0.0014375419210801432,
+          0.001437540316068464,
+          0.001437541916882168,
+          0.0014375403167905532
+        ],
+        "fda_pin_min_V": 2.025899691585344,
+        "fda_pin_max_V": 2.051532848560514,
+        "output_current_max_A": 0.0007324124810775456,
+        "comparator_pin_min_V": 1.619626813854082,
+        "comparator_pin_max_V": 1.683248268319895,
+        "mean_fda_supply_A": 0.001381166680060917,
+        "mean_comparator_supply_A": 0.004045584380930497
+      },
+      "files": {
+        "results/d01_nominal/solver.log": "05cb079e3d03698e6249b3ef0fa7b9129c54533093f2499a597b9a4e7a25a160",
+        "results/d01_nominal/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d01_nominal/test.cir": "6f31c3d5c372cdd9ed10ca803412a594c86fa70b92fea6e49aa901a3f2874e1e",
+        "results/d01_nominal/wave.csv": "7d9f7e8bd789f686b575e2f8def6c50d0b4cd78161de3ca2a1659edea7f0af82"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 1,
+      "fda_load_F": 1e-11,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d02_large",
+      "status": "fail",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 21640,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [
+          "dc_amplitude"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000004e-07
+            ],
+            "fda_crossings_s": [
+              2.052239250872994e-07
+            ],
+            "output_crossings_s": [
+              2.105589667997601e-07
+            ],
+            "total_delay_s": 9.55896679976006e-09,
+            "fda_delay_s": 4.2239250872993626e-09,
+            "comparator_delay_s": 5.335041712460698e-09,
+            "low_V": 3.297955267430792,
+            "high_V": 3.297955267430792,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.049945284242447e-07
+            ],
+            "output_crossings_s": [
+              4.1030502803223976e-07
+            ],
+            "total_delay_s": 9.3050280322397e-09,
+            "fda_delay_s": 3.994528424244643e-09,
+            "comparator_delay_s": 5.310499607995058e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.050218097426457e-07
+            ],
+            "output_crossings_s": [
+              6.103589667997603e-07
+            ],
+            "total_delay_s": 9.35896679976023e-09,
+            "fda_delay_s": 4.021809742645669e-09,
+            "comparator_delay_s": 5.337157057114562e-09,
+            "low_V": 3.297955267430792,
+            "high_V": 3.297955267430792,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.01e-07
+            ],
+            "fda_crossings_s": [
+              8.050196970962696e-07
+            ],
+            "output_crossings_s": [
+              8.1035502803224e-07
+            ],
+            "total_delay_s": 9.355028032239969e-09,
+            "fda_delay_s": 4.019697096269601e-09,
+            "comparator_delay_s": 5.335330935970368e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.11742786841410086,
+          0.10649311220282481,
+          0.10689189313025987,
+          0.10690473468266976
+        ],
+        "cm_errors_V": [
+          0.0014375515136091366,
+          0.0014375314637120606,
+          0.001437551483792987,
+          0.0014375314646886128
+        ],
+        "fda_pin_min_V": 1.878087566135207,
+        "fda_pin_max_V": 2.199344964999826,
+        "output_current_max_A": 0.0042749730047175125,
+        "comparator_pin_min_V": 1.277936162503565,
+        "comparator_pin_max_V": 2.02493891840562,
+        "mean_fda_supply_A": 0.0017065732090461776,
+        "mean_comparator_supply_A": 0.004045575201668067
+      },
+      "files": {
+        "results/d02_large/solver.log": "5930e12c39f76df2bd9459d40799e36a4168c1a3fc7a5364d2fd6c913c251396",
+        "results/d02_large/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d02_large/test.cir": "080e42bb492b5745b2e92bdcf2c7b2f414f7822e70b91ec64380ab54c9c4299a",
+        "results/d02_large/wave.csv": "de15db8ca37becc733d67c08e3a2fd66c2fdcf7bd43a9dcc945c886067a88d72"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": -0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-11,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d03_negative_threshold",
+      "status": "fail",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 21640,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [
+          "dc_amplitude"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.01e-07
+            ],
+            "fda_crossings_s": [
+              2.0512519449683966e-07
+            ],
+            "output_crossings_s": [
+              2.1050896679976007e-07
+            ],
+            "total_delay_s": 9.508966799760057e-09,
+            "fda_delay_s": 4.12519449683965e-09,
+            "comparator_delay_s": 5.3837723029204065e-09,
+            "low_V": 3.297955267430774,
+            "high_V": 3.297955267430774,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.04917214803566e-07
+            ],
+            "output_crossings_s": [
+              4.1040502803223977e-07
+            ],
+            "total_delay_s": 9.405028032239708e-09,
+            "fda_delay_s": 3.91721480356592e-09,
+            "comparator_delay_s": 5.487813228673788e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              6.049645586347296e-07
+            ],
+            "output_crossings_s": [
+              6.103589667997603e-07
+            ],
+            "total_delay_s": 9.358966799760337e-09,
+            "fda_delay_s": 3.964558634729705e-09,
+            "comparator_delay_s": 5.3944081650306315e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.01e-07
+            ],
+            "fda_crossings_s": [
+              8.049589759941173e-07
+            ],
+            "output_crossings_s": [
+              8.1045502803224e-07
+            ],
+            "total_delay_s": 9.455028032239976e-09,
+            "fda_delay_s": 3.958975994117285e-09,
+            "comparator_delay_s": 5.4960520381226915e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.011110133952646366,
+          0.009011946297896256,
+          0.009371588929492185,
+          0.009263111677986324
+        ],
+        "cm_errors_V": [
+          0.0014375419210865825,
+          0.0014375403160615807,
+          0.0014375419168890513,
+          0.0014375403167961043
+        ],
+        "fda_pin_min_V": 2.025899691585355,
+        "fda_pin_max_V": 2.051532848560504,
+        "output_current_max_A": 0.0007324124810776562,
+        "comparator_pin_min_V": 1.619626813854087,
+        "comparator_pin_max_V": 1.683248268319881,
+        "mean_fda_supply_A": 0.001381166680060917,
+        "mean_comparator_supply_A": 0.004045584380930405
+      },
+      "files": {
+        "results/d03_negative_threshold/solver.log": "3f424304314f9b22a9e941ba5adf366a4e78f608e2ddf4abe8fa4d4152ee30b0",
+        "results/d03_negative_threshold/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d03_negative_threshold/test.cir": "ca45895866c5cb9a5cf8e4d8b943d7b66719c3719c6ef22de9292110fd4d3120",
+        "results/d03_negative_threshold/wave.csv": "945f79d6129d4341867ee5d942edbe76a59f6813c105e687c8b57b0489efbd09"
+      }
+    },
+    {
+      "source_cm_V": 3.6,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-11,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d04_source_cm",
+      "status": "fail",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 21640,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [
+          "dc_amplitude"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000004e-07
+            ],
+            "fda_crossings_s": [
+              2.0512520762946633e-07
+            ],
+            "output_crossings_s": [
+              2.1050896679976007e-07
+            ],
+            "total_delay_s": 9.50896679976003e-09,
+            "fda_delay_s": 4.12520762946629e-09,
+            "comparator_delay_s": 5.38375917029374e-09,
+            "low_V": 3.297955267430774,
+            "high_V": 3.297955267430774,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.0491719996872734e-07
+            ],
+            "output_crossings_s": [
+              4.1040502803223977e-07
+            ],
+            "total_delay_s": 9.405028032239708e-09,
+            "fda_delay_s": 3.917199968727284e-09,
+            "comparator_delay_s": 5.487828063512424e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.049645733572095e-07
+            ],
+            "output_crossings_s": [
+              6.103589667997603e-07
+            ],
+            "total_delay_s": 9.35896679976023e-09,
+            "fda_delay_s": 3.964573357209473e-09,
+            "comparator_delay_s": 5.394393442550758e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.049589613196632e-07
+            ],
+            "output_crossings_s": [
+              8.1045502803224e-07
+            ],
+            "total_delay_s": 9.455028032240082e-09,
+            "fda_delay_s": 3.9589613196632265e-09,
+            "comparator_delay_s": 5.496066712576856e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.011109795203326445,
+          0.009012285047689354,
+          0.009371250179677326,
+          0.00926345042804521
+        ],
+        "cm_errors_V": [
+          0.0015373921453660788,
+          0.001537390540689021,
+          0.001537392141355065,
+          0.0015373905414246547
+        ],
+        "fda_pin_min_V": 2.125949529169014,
+        "fda_pin_max_V": 2.151582861190958,
+        "output_current_max_A": 0.0008323621278938506,
+        "comparator_pin_min_V": 1.619726833458454,
+        "comparator_pin_max_V": 1.683347949175295,
+        "mean_fda_supply_A": 0.0013811666800605175,
+        "mean_comparator_supply_A": 0.004045584377062986
+      },
+      "files": {
+        "results/d04_source_cm/solver.log": "bcd2970d594ef0e3436bd77953f27016ad32b01619c3b2b0b43f4cb7009eb8f8",
+        "results/d04_source_cm/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d04_source_cm/test.cir": "8c15b26b7cc1379e1a1995eb8da6cce5f1ff2d4249243aa9ea717f0415e6c8fc",
+        "results/d04_source_cm/wave.csv": "e72f9594ab113db044b16ed38bbb92e8718bf88d5d3ac0148c3b248b2a3660bc"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-10,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d05_fda_100pF",
+      "status": "pass",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 21640,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000004e-07
+            ],
+            "fda_crossings_s": [
+              2.0860660572146516e-07
+            ],
+            "output_crossings_s": [
+              2.140589667997603e-07
+            ],
+            "total_delay_s": 1.305896679976027e-08,
+            "fda_delay_s": 7.606605721465123e-09,
+            "comparator_delay_s": 5.452361078295147e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.0861354357028785e-07
+            ],
+            "output_crossings_s": [
+              4.1425502803224005e-07
+            ],
+            "total_delay_s": 1.3255028032239997e-08,
+            "fda_delay_s": 7.61354357028779e-09,
+            "comparator_delay_s": 5.641484461952208e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.086061168892235e-07
+            ],
+            "output_crossings_s": [
+              6.140589667997606e-07
+            ],
+            "total_delay_s": 1.3058966799760509e-08,
+            "fda_delay_s": 7.60611688922344e-09,
+            "comparator_delay_s": 5.452849910537069e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.086135435767175e-07
+            ],
+            "output_crossings_s": [
+              8.142550280322403e-07
+            ],
+            "total_delay_s": 1.3255028032240368e-08,
+            "fda_delay_s": 7.613543576717564e-09,
+            "comparator_delay_s": 5.641484455522804e-09,
+            "low_V": 3.034145468487881e-10,
+            "high_V": 3.034145468487881e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.00018628221108418774,
+          0.0002458855145087771,
+          0.00018627377329127892,
+          0.0002458855035875132
+        ],
+        "cm_errors_V": [
+          0.0014375419346330798,
+          0.0014375402648965085,
+          0.001437541934549591,
+          0.001437540264918269
+        ],
+        "fda_pin_min_V": 2.024754688298211,
+        "fda_pin_max_V": 2.05267785336512,
+        "output_current_max_A": 0.001668527443240876,
+        "comparator_pin_min_V": 1.626622134623247,
+        "comparator_pin_max_V": 1.676252951800652,
+        "mean_fda_supply_A": 0.0013965848680849398,
+        "mean_comparator_supply_A": 0.004045599347418962
+      },
+      "files": {
+        "results/d05_fda_100pF/solver.log": "90d2b2fefbe42ad3b67ce205819d5c4f3851d9ff17e5ddf2c6e46d87b17a0767",
+        "results/d05_fda_100pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d05_fda_100pF/test.cir": "3ed4967262b5e128e2696ed715c68abd72834c7a71bb45e0cfb24f7380ccd3e7",
+        "results/d05_fda_100pF/wave.csv": "85a44a03060cb70008f0020e4ecf7e639f2bf43c4af9fc286d471af26a29a2ca"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-11,
+      "comparator_load_F": 1e-09,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d06_comparator_1000pF",
+      "status": "fail",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 21654,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": false
+        },
+        "violations": [
+          "dc_amplitude",
+          "delays"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.0100000000000004e-07
+            ],
+            "fda_crossings_s": [
+              2.0512519449684242e-07
+            ],
+            "output_crossings_s": [
+              2.5345268227965573e-07
+            ],
+            "total_delay_s": 5.2452682279655694e-08,
+            "fda_delay_s": 4.125194496842377e-09,
+            "comparator_delay_s": 4.832748778281332e-08,
+            "low_V": 2.724585628344343,
+            "high_V": 3.038278549787073,
+            "level_ok": true,
+            "delay_ok": false
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.0491721480365703e-07
+            ],
+            "output_crossings_s": [
+              4.5056507116778405e-07
+            ],
+            "total_delay_s": 4.956507116778399e-08,
+            "fda_delay_s": 3.917214803656976e-09,
+            "comparator_delay_s": 4.5647856364127017e-08,
+            "low_V": 0.2484362232583078,
+            "high_V": 0.5485504779279055,
+            "level_ok": true,
+            "delay_ok": false
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.049645586341807e-07
+            ],
+            "output_crossings_s": [
+              6.507138378670371e-07
+            ],
+            "total_delay_s": 4.971383786703704e-08,
+            "fda_delay_s": 3.964558634180616e-09,
+            "comparator_delay_s": 4.5749279232856426e-08,
+            "low_V": 2.748955085754548,
+            "high_V": 3.049315375387304,
+            "level_ok": true,
+            "delay_ok": false
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.049589759967563e-07
+            ],
+            "output_crossings_s": [
+              8.50734614330984e-07
+            ],
+            "total_delay_s": 4.973461433098407e-08,
+            "fda_delay_s": 3.958975996756322e-09,
+            "comparator_delay_s": 4.577563833422775e-08,
+            "low_V": 0.2491050464292408,
+            "high_V": 0.5500272483661988,
+            "level_ok": true,
+            "delay_ok": false
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.01111013395261129,
+          0.009011946398972286,
+          0.009371588790230256,
+          0.009263111763792346
+        ],
+        "cm_errors_V": [
+          0.0014375419210870266,
+          0.0014375403160444833,
+          0.0014375419168910497,
+          0.0014375403167661283
+        ],
+        "fda_pin_min_V": 2.025899691585344,
+        "fda_pin_max_V": 2.051532848560514,
+        "output_current_max_A": 0.0007324124810775456,
+        "comparator_pin_min_V": 1.619626813854249,
+        "comparator_pin_max_V": 1.683248268319701,
+        "mean_fda_supply_A": 0.001381166680060917,
+        "mean_comparator_supply_A": 0.01265210993279864
+      },
+      "files": {
+        "results/d06_comparator_1000pF/solver.log": "1b988248aee3b4fc4b99940661e37cd8799a42f31ce5c4bf0bf38c8f6aa7eace",
+        "results/d06_comparator_1000pF/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d06_comparator_1000pF/test.cir": "3f59fb13479c803dde66848f8840eab02b16982e7e1b17e50a783eac09514e40",
+        "results/d06_comparator_1000pF/wave.csv": "cbfae15f2f7081aac5e53a2c93e6187280df05e9d29cf59c07f19b5a576490c6"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.004,
+      "fda_load_F": 1e-11,
+      "comparator_load_F": 1e-12,
+      "step_s": 5e-11,
+      "ramp_s": 2e-09,
+      "id": "d07_low_overdrive",
+      "status": "fail",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 20467,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": true,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": false,
+          "levels": false,
+          "delays": false
+        },
+        "violations": [
+          "static_margin",
+          "levels",
+          "delays"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.01e-07
+            ],
+            "fda_crossings_s": [
+              2.050917643205317e-07
+            ],
+            "output_crossings_s": [
+              2.119589667997602e-07
+            ],
+            "total_delay_s": 1.0958966799760192e-08,
+            "fda_delay_s": 4.091764320531692e-09,
+            "comparator_delay_s": 6.8672024792285e-09,
+            "low_V": 3.297955267430796,
+            "high_V": 3.297955267430796,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.0100000000000006e-07
+            ],
+            "fda_crossings_s": [
+              4.049543808035643e-07
+            ],
+            "output_crossings_s": [],
+            "total_delay_s": null,
+            "fda_delay_s": 3.954380803564261e-09,
+            "comparator_delay_s": null,
+            "low_V": 3.297955267430801,
+            "high_V": 3.297955267430801,
+            "level_ok": false,
+            "delay_ok": false
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.049273743400214e-07
+            ],
+            "output_crossings_s": [],
+            "total_delay_s": null,
+            "fda_delay_s": 3.927374340021325e-09,
+            "comparator_delay_s": null,
+            "low_V": 3.297955267430807,
+            "high_V": 3.297955267430807,
+            "level_ok": true,
+            "delay_ok": false
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.049957390613878e-07
+            ],
+            "output_crossings_s": [],
+            "total_delay_s": null,
+            "fda_delay_s": 3.99573906138785e-09,
+            "comparator_delay_s": null,
+            "low_V": 3.297955267430811,
+            "high_V": 3.297955267430811,
+            "level_ok": false,
+            "delay_ok": false
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.0005982138237084146,
+          0.0004825595719974839,
+          0.0005113796189075916,
+          0.000494684810607534
+        ],
+        "cm_errors_V": [
+          0.001437541126908748,
+          0.001437541046892754,
+          0.0014375411267075755,
+          0.0014375410469233962
+        ],
+        "fda_pin_min_V": 2.038084124464267,
+        "fda_pin_max_V": 2.039348416417459,
+        "output_current_max_A": 0.0004045918420118865,
+        "comparator_pin_min_V": 1.6498256511593,
+        "comparator_pin_max_V": 1.65304943100932,
+        "mean_fda_supply_A": 0.001381166680060917,
+        "mean_comparator_supply_A": 0.003477571851112817
+      },
+      "files": {
+        "results/d07_low_overdrive/solver.log": "6ddfa4d1fb1aee3cad3294a324b0f06e37256e21a28f85693599e3fce24a5a37",
+        "results/d07_low_overdrive/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d07_low_overdrive/test.cir": "525fdc1cc35cd0f70c4d50ce4282555c692f2082864ddfabc73c7c74870e7dbd",
+        "results/d07_low_overdrive/wave.csv": "390240b63367a2bf2ba5a94a261aab4ddf46ada8f6b616b0bc41684a11b57485"
+      }
+    },
+    {
+      "source_cm_V": 3.2,
+      "threshold_V": 0.1,
+      "overdrive_V": 0.08,
+      "fda_load_F": 1e-11,
+      "comparator_load_F": 1e-12,
+      "step_s": 2.5e-11,
+      "ramp_s": 2e-09,
+      "id": "d08_refined",
+      "status": "fail",
+      "attempted": true,
+      "returncode": 0,
+      "rows": 40956,
+      "measurements": {
+        "checks": {
+          "dc_amplitude": false,
+          "common_mode": true,
+          "fda_pin_range": true,
+          "fda_output_range": true,
+          "comparator_pin_range": true,
+          "output_continuous_current": true,
+          "static_margin": true,
+          "levels": true,
+          "delays": true
+        },
+        "violations": [
+          "dc_amplitude"
+        ],
+        "events": [
+          {
+            "rising": true,
+            "input_crossings_s": [
+              2.01e-07
+            ],
+            "fda_crossings_s": [
+              2.0512500955571318e-07
+            ],
+            "output_crossings_s": [
+              2.105163193935118e-07
+            ],
+            "total_delay_s": 9.516319393511797e-09,
+            "fda_delay_s": 4.125009555713169e-09,
+            "comparator_delay_s": 5.391309837798628e-09,
+            "low_V": 3.297955267430748,
+            "high_V": 3.297955267430748,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              4.01e-07
+            ],
+            "fda_crossings_s": [
+              4.04918214786305e-07
+            ],
+            "output_crossings_s": [
+              4.104123814998293e-07
+            ],
+            "total_delay_s": 9.412381499829309e-09,
+            "fda_delay_s": 3.918214786305004e-09,
+            "comparator_delay_s": 5.494166713524305e-09,
+            "low_V": 3.034322095782915e-10,
+            "high_V": 3.034322095782915e-10,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": true,
+            "input_crossings_s": [
+              6.01e-07
+            ],
+            "fda_crossings_s": [
+              6.049656389493217e-07
+            ],
+            "output_crossings_s": [
+              6.103663193935044e-07
+            ],
+            "total_delay_s": 9.366319393504374e-09,
+            "fda_delay_s": 3.9656389493216594e-09,
+            "comparator_delay_s": 5.400680444182715e-09,
+            "low_V": 3.297955267430786,
+            "high_V": 3.297955267430786,
+            "level_ok": true,
+            "delay_ok": true
+          },
+          {
+            "rising": false,
+            "input_crossings_s": [
+              8.009999999999999e-07
+            ],
+            "fda_crossings_s": [
+              8.049599041834232e-07
+            ],
+            "output_crossings_s": [
+              8.104373814998201e-07
+            ],
+            "total_delay_s": 9.437381499820205e-09,
+            "fda_delay_s": 3.9599041834233035e-09,
+            "comparator_delay_s": 5.477477316396902e-09,
+            "low_V": 3.034322095782915e-10,
+            "high_V": 3.034322095782915e-10,
+            "level_ok": true,
+            "delay_ok": true
+          }
+        ],
+        "expected_loaded_gain": 0.4789272030651341,
+        "dc_errors_V": [
+          0.011111929809347276,
+          0.008999681427386379,
+          0.009368706863701282,
+          0.009256733881697225
+        ],
+        "cm_errors_V": [
+          0.0014375419206040796,
+          0.0014375403157560473,
+          0.0014375419164820435,
+          0.0014375403161754896
+        ],
+        "fda_pin_min_V": 2.025898733456947,
+        "fda_pin_max_V": 2.051533806675866,
+        "output_current_max_A": 0.0007324361392787178,
+        "comparator_pin_min_V": 1.619621957871406,
+        "comparator_pin_max_V": 1.683253124297597,
+        "mean_fda_supply_A": 0.001381166680060917,
+        "mean_comparator_supply_A": 0.0037814266979552375
+      },
+      "files": {
+        "results/d08_refined/solver.log": "4e8ed22d0057f530478cffb8f78bcb7fa05e48038bee1bd61ae559f9fe0852e2",
+        "results/d08_refined/spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+        "results/d08_refined/test.cir": "9428ea2587c565776d588491d358737bb120edcc51c0b5036b99306b39336bcb",
+        "results/d08_refined/wave.csv": "9435bf4dd2bab125bada850f5363a01b308f299e150e6cc76655d26142ef03ac"
+      }
+    }
+  ],
+  "counts": {
+    "configurations": 8,
+    "solver_attempts": 8,
+    "datasets": 8,
+    "pass": 1,
+    "fail": 7,
+    "blocked": 0
+  },
+  "original_hashes_unchanged": true,
+  "previous_evidence_unchanged": true,
+  "refinement": {
+    "differences_s": [
+      7.352593751766734e-12,
+      7.353467589601e-12,
+      7.352593744143437e-12,
+      1.764653241987706e-11
+    ],
+    "passed": true
+  },
+  "executed_runner_sha256": "4fe6382fcd29badcad906e1e68191d98d3c1740c38f5b3e1b6d0cff91cf70051",
+  "reused_source": {
+    "url": "https://www.ti.com/lit/zip/SBOMBU5",
+    "source_archive_sha256": "3f61b6eae05a5a734ee195160bfcc637fdd75a06c898f8fad15ca26a9b5d8e1e",
+    "original_manifest": "../source_manifest.json",
+    "new_download": false
+  },
+  "execution_accounting": {
+    "terminal_tool_commands": 31,
+    "terminal_command_failures": 1,
+    "terminal_failure": "pdftotext not installed; existing pypdf used instead",
+    "solver_subprocess_commands": 8,
+    "solver_reruns": 0,
+    "source_archive_downloads": 3,
+    "distinct_new_official_sources": 3,
+    "reused_official_sources": 1,
+    "candidate_count": 1,
+    "web_fetch_calls": 1,
+    "web_search_calls": 0,
+    "offline_verifier_terminal_invocations": 2,
+    "evidence_test_terminal_invocations": 1,
+    "evidence_tests": 18,
+    "extra_offline_recalculation_function_calls": 1,
+    "accounting_note": "Terminal tools and nested solver commands counted separately"
+  },
+  "limitations": [
+    "Synthetic baseband and per-leg 25 ohm assumption, no ADL5380/RF model",
+    "Ideal reference, VOCM and supply sources; no noise or startup acceptance",
+    "Only d05 passes the stated typical-condition screen",
+    "Seven failures preserved, including light-load amplitude and low overdrive",
+    "d05 needs its own refinement, tolerance/load history and solver crosscheck",
+    "No full-temperature/process/noise or protection/overload acceptance",
+    "TLV3501 fixed 4.5ns typical internal delay is unchanged",
+    "No RF/LO/C feedback/register/complete-chain or whole-system energy acceptance",
+    "FDA macro omits PD pin; already-enabled operating-point initialization only"
+  ],
+  "current_scripts_sha256": {
+    "collect_sources.py": "26bdfea6aa424782e63a023061301d9cfa9ee069394f248b4e45a2d96d5a74eb",
+    "finalize_evidence.py": "963745fed4cbd4f377e227141b15b240e2a41248e3a356e5dcec6a51ad0cb866",
+    "inspect_model.py": "4347626cf9c0f890cc8fd9682d6104b3801a867db55979a323071d93a6ae3c29",
+    "run_validation.py": "4fe6382fcd29badcad906e1e68191d98d3c1740c38f5b3e1b6d0cff91cf70051",
+    "test_validation.py": "01f41287b65d9b7fe37e27ffb3fc8d436e3309b163a202a54b7d59f7302b797b",
+    "verify_offline.py": "cb7affb58792464621c423b15624b3f000e8554783ed6feaa8c5121982a33e2c"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "independent_equations_passed": true,
+  "field_frequency_points_checked": 12,
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "mode": [
+        1,
+        2,
+        0
+      ],
+      "Q_error": 0.01930739620546551,
+      "frequency_error": 0.006728112293118427,
+      "electric_residual": 5.471512300737211e-15,
+      "magnetic_residual": 1.9616523809256925e-16,
+      "charge_residual": 3.9665945861769034e-14,
+      "power_closure": 4.107825191113079e-15,
+      "energy_vs_pole_Q": 9.963751961494793e-06,
+      "five_vs_three_Q": 6.586374778905224e-10
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        1,
+        2,
+        0
+      ],
+      "Q_error": 0.008209173566159578,
+      "frequency_error": 0.002879023751997556,
+      "electric_residual": 1.9291153891223187e-14,
+      "magnetic_residual": 2.668712325250891e-16,
+      "charge_residual": 1.8743161903722743e-13,
+      "power_closure": 4.884981308350689e-15,
+      "energy_vs_pole_Q": 1.0305898420437387e-05,
+      "five_vs_three_Q": 5.989609919154759e-10
+    }
+  ],
+  "summary_sha256": "3346c797de3e7f2cdcadf292ad526114b9ea6e613b8f8fa450224a4118ba699e",
+  "verifier_sha256": "7c732f5a51fd835fe4df730b350916081a7ef9a2e3e6e6a9022572313d4a7652",
+  "helper_sha256": {
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "fine_grid_long_transient_passed": false,
+  "arbitrary_modes_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false
+}

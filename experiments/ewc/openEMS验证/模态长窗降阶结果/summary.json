@@ -1,0 +1,169 @@
+{
+  "scope": "8 us modal reduced-order window from existing 111 complex poles and mode fields",
+  "evidence_level": "B (analytic reduced order; A-level poles and mode fields as input)",
+  "limitation": "two-mode diagonal decay only; no inter-mode coupling, no full-wave advance, no drive port, initial amplitudes idealised; G1 stays open",
+  "configuration_sha256": "65707148b350e798d01ce855251c7628d8d873e4045eeed8ea465cd70ccbc881",
+  "source_sha256": {
+    "run_modal_long_window.py": "5d1a7515ce95f71744a9fb2985a615cdab93ab12e3fc6131a31af01679365b23",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "cases": [
+    {
+      "shape": [
+        24,
+        15,
+        9
+      ],
+      "peaks_file": "111_24x15x9_peaks.npz",
+      "peaks_sha256": "7dd14f1e3411c096b033de683978573e75bf8c7e1ecdbe1cb38f2971d24775de",
+      "dt_s": 2e-12,
+      "steps": 4000000,
+      "duration_s": 8e-06,
+      "sample_interval_s": 2e-09,
+      "poles_Hz": [
+        {
+          "real": 3048409423.659703,
+          "imag": 92317.41718677766
+        },
+        {
+          "real": 3048427080.133313,
+          "imag": 74660.84182909701
+        }
+      ],
+      "input_Q": [
+        16510.478285436246,
+        20415.16680933855
+      ],
+      "gram_offdiag_relative": 7.5380597261101716e-06,
+      "decay_time_amplitude_us": [
+        1.7239969221614078,
+        2.1317057133672592
+      ],
+      "duration_in_amplitude_decay_times": [
+        4.640379514117837,
+        3.752863235217931
+      ],
+      "beat_period_us": 56.63645086020549,
+      "beats_in_window": 0.14125178888320922,
+      "energy_fraction_at_8us": {
+        "total": 0.0003215632774887574,
+        "mode": [
+          4.660017745486466e-05,
+          0.00027496310003389277
+        ]
+      },
+      "fits": [
+        {
+          "window_s": [
+            1e-06,
+            5e-06
+          ],
+          "points": 2001,
+          "mixed_Q": 18892.135164184663,
+          "mixed_log_residual": 0.001987219946993712,
+          "high_Q_mode": 20415.107687069172,
+          "high_Q_mode_log_residual": 1.0499655939855801e-16,
+          "high_Q_mode_input": 20415.16680933855,
+          "high_Q_mode_relative_error": 2.895997369467551e-06
+        },
+        {
+          "window_s": [
+            1e-06,
+            8e-06
+          ],
+          "points": 3501,
+          "mixed_Q": 19170.3277978645,
+          "mixed_log_residual": 0.003512487001420591,
+          "high_Q_mode": 20415.10768706918,
+          "high_Q_mode_log_residual": 3.464717814102184e-16,
+          "high_Q_mode_input": 20415.16680933855,
+          "high_Q_mode_relative_error": 2.8959973691344842e-06
+        }
+      ],
+      "mixed_window_Q_difference": 0.014511626332796679,
+      "window_Q_difference_below_one_percent": false,
+      "probe_edge_full_index": 5644,
+      "probe_peak_abs_V": 159087.24874189973,
+      "status": "complete"
+    },
+    {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "peaks_file": "111_36x23x14_peaks.npz",
+      "peaks_sha256": "5faec70d2336edcce9f87082a2b46cc1edccd82a1a478852a62f40da15b16b42",
+      "dt_s": 2e-12,
+      "steps": 4000000,
+      "duration_s": 8e-06,
+      "sample_interval_s": 2e-09,
+      "poles_Hz": [
+        {
+          "real": 3055350569.406999,
+          "imag": 93679.07869821053
+        },
+        {
+          "real": 3055368613.858389,
+          "imag": 75634.55777303361
+        }
+      ],
+      "input_Q": [
+        16307.539590829487,
+        20198.23149509929
+      ],
+      "gram_offdiag_relative": 7.4927288181506105e-06,
+      "decay_time_amplitude_us": [
+        1.6989379624944532,
+        2.1042622285105725
+      ],
+      "duration_in_amplitude_decay_times": [
+        4.708824086933733,
+        3.8018075369164026
+      ],
+      "beat_period_us": 55.41869788104769,
+      "beats_in_window": 0.14435561111831666,
+      "energy_fraction_at_8us": {
+        "total": 0.00028996123735630864,
+        "mode": [
+          4.0638471975562954e-05,
+          0.0002493227653807457
+        ]
+      },
+      "fits": [
+        {
+          "window_s": [
+            1e-06,
+            5e-06
+          ],
+          "points": 2001,
+          "mixed_Q": 18692.24409857791,
+          "mixed_log_residual": 0.002038264122106587,
+          "high_Q_mode": 20198.171851558294,
+          "high_Q_mode_log_residual": 2.9496471673181726e-16,
+          "high_Q_mode_input": 20198.23149509929,
+          "high_Q_mode_relative_error": 2.952909070819132e-06
+        },
+        {
+          "window_s": [
+            1e-06,
+            8e-06
+          ],
+          "points": 3501,
+          "mixed_Q": 18973.493190067118,
+          "mixed_log_residual": 0.003585423450352016,
+          "high_Q_mode": 20198.171851558298,
+          "high_Q_mode_log_residual": 3.2230917689450134e-16,
+          "high_Q_mode_input": 20198.23149509929,
+          "high_Q_mode_relative_error": 2.9529090707081096e-06
+        }
+      ],
+      "mixed_window_Q_difference": 0.014823263627408712,
+      "window_Q_difference_below_one_percent": false,
+      "probe_edge_full_index": 187,
+      "probe_peak_abs_V": 73489.17088980325,
+      "status": "complete"
+    }
+  ]
+}

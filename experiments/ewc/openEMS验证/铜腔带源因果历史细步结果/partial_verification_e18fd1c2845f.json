@@ -1,0 +1,423 @@
+{
+  "scope": "partial_saved_cases_only",
+  "paired_time_steps_s": [
+    1e-12,
+    5e-13
+  ],
+  "independent_equation_source_energy_checks_passed": true,
+  "cases": [
+    {
+      "case": "111_loss0",
+      "dt_s": 1e-12,
+      "raw_sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+      "anchors_checked": 9,
+      "source_energy_closure": 3.4849900742983664e-12,
+      "maximum_equation_residuals": {
+        "electric": 9.889512352139961e-11,
+        "magnetic": 8.720000192625881e-15,
+        "RL": 1.051746506451674e-10,
+        "wall": 2.9426584979569465e-12,
+        "charge": 7.102359130829271e-10,
+        "energy": 6.437115994826442e-16
+      },
+      "final_energy_J": 0.49246140116997045,
+      "cumulative_heat_J": 0.007538598831771993,
+      "cumulative_source_work_J": 0.0,
+      "decay_metrics": {
+        "frequency_Hz": 3055287259.481218,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 20199.71359189322,
+            "log_energy_RMS_residual": 1.2360088927369913e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 20199.41942399464,
+            "log_energy_RMS_residual": 1.2381882094589226e-05
+          }
+        ],
+        "directional_reference_Q": 20044.3825031682,
+        "Q_continuum_error": 0.0077346818143155804,
+        "frequency_continuum_error": 0.0016645254406914,
+        "window_Q_difference": 1.4562973739362661e-05,
+        "selected_short_decay_passed": true
+      }
+    },
+    {
+      "case": "111_loss0",
+      "dt_s": 5e-13,
+      "raw_sha256": "319c84c8c96e7fdd6aecbe97150faa3791d61565b99fd0d2c2d8e3a32f851f2c",
+      "anchors_checked": 9,
+      "source_energy_closure": 9.300338277284936e-13,
+      "maximum_equation_residuals": {
+        "electric": 3.0749232679869e-12,
+        "magnetic": 1.598733129800952e-14,
+        "RL": 1.7158613068112978e-10,
+        "wall": 2.746955648298313e-12,
+        "charge": 3.041998152627575e-11,
+        "energy": 3.874556944398775e-16
+      },
+      "final_energy_J": 0.49246098001960825,
+      "cumulative_heat_J": 0.0075390199799267215,
+      "cumulative_source_work_J": 0.0,
+      "decay_metrics": {
+        "frequency_Hz": 3055357782.389637,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 20198.795284187225,
+            "log_energy_RMS_residual": 1.2360054275459647e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 20198.48831632244,
+            "log_energy_RMS_residual": 1.2381754597495352e-05
+          }
+        ],
+        "directional_reference_Q": 20044.3825031682,
+        "Q_continuum_error": 0.0076882295141735835,
+        "frequency_continuum_error": 0.001641481610352602,
+        "window_Q_difference": 1.519733530963574e-05,
+        "selected_short_decay_passed": true
+      }
+    },
+    {
+      "case": "111_loss1",
+      "dt_s": 1e-12,
+      "raw_sha256": "8f21d373e8ffd656c3bdaa3c2cc0ced943ddac05e1b5402ef087f2a046aeeb9e",
+      "anchors_checked": 9,
+      "source_energy_closure": 5.069722419648312e-12,
+      "maximum_equation_residuals": {
+        "electric": 1.0619608594322321e-10,
+        "magnetic": 8.570848778384277e-15,
+        "RL": 1.0516179827044605e-10,
+        "wall": 3.3351359676965974e-12,
+        "charge": 6.732328569509387e-10,
+        "energy": 8.821916803712324e-16
+      },
+      "final_energy_J": 0.49067976957240644,
+      "cumulative_heat_J": 0.009320230430128371,
+      "cumulative_source_work_J": 0.0,
+      "decay_metrics": {
+        "frequency_Hz": 3055269156.925182,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 16308.843919042469,
+            "log_energy_RMS_residual": 1.530880461009458e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 16308.60866000911,
+            "log_energy_RMS_residual": 1.5335850425900305e-05
+          }
+        ],
+        "directional_reference_Q": 16164.645300826065,
+        "Q_continuum_error": 0.008906063603863146,
+        "frequency_continuum_error": 0.00167044057152399,
+        "window_Q_difference": 1.4425242802484917e-05,
+        "selected_short_decay_passed": true
+      }
+    },
+    {
+      "case": "111_loss1",
+      "dt_s": 5e-13,
+      "raw_sha256": "518e369d2985cfd9d214e851a822eb88e3ffdbe7a2c4b618b1fbba3a091ffa89",
+      "anchors_checked": 9,
+      "source_energy_closure": 5.422329252269262e-12,
+      "maximum_equation_residuals": {
+        "electric": 3.317704499349357e-12,
+        "magnetic": 1.6203869222887455e-14,
+        "RL": 1.7156702013736766e-10,
+        "wall": 2.573045430166718e-12,
+        "charge": 2.5111337576049917e-11,
+        "energy": 5.20742670040895e-16
+      },
+      "final_energy_J": 0.4906792495437699,
+      "cumulative_heat_J": 0.009320750458941315,
+      "cumulative_source_work_J": 0.0,
+      "decay_metrics": {
+        "frequency_Hz": 3055339712.082235,
+        "fits": [
+          {
+            "end_s": 8e-09,
+            "Q_decay": 16308.102682813518,
+            "log_energy_RMS_residual": 1.5308760548006036e-05
+          },
+          {
+            "end_s": 1.6e-08,
+            "Q_decay": 16307.857083512374,
+            "log_energy_RMS_residual": 1.533569290758953e-05
+          }
+        ],
+        "directional_reference_Q": 16164.645300826065,
+        "Q_continuum_error": 0.008859568522607164,
+        "frequency_continuum_error": 0.001647386203729173,
+        "window_Q_difference": 1.5059955527751967e-05,
+        "selected_short_decay_passed": true
+      }
+    },
+    {
+      "case": "mixed_history",
+      "dt_s": 1e-12,
+      "raw_sha256": "cf2f50f6b1ca4da419913701063940a2d5d2cbf56b328fb42633a72b99c943aa",
+      "anchors_checked": 9,
+      "source_energy_closure": 2.132874782636696e-11,
+      "maximum_equation_residuals": {
+        "electric": 2.811013747175078e-12,
+        "magnetic": 2.559121724942914e-15,
+        "RL": 1.0813476493762135e-10,
+        "wall": 6.532624527675003e-13,
+        "charge": 1.1115712772187994e-11,
+        "energy": 9.275885405597149e-14
+      },
+      "final_energy_J": 0.3519475205264575,
+      "cumulative_heat_J": 0.0043462655695449045,
+      "cumulative_source_work_J": 0.3562937861044294,
+      "decay_metrics": null
+    }
+  ],
+  "pairs": [
+    {
+      "case": "111_loss0",
+      "common_after_anchor_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        0.0008843098200954797,
+        0.0017686575543430874,
+        0.0026530118169953596,
+        0.003537284309154203,
+        0.00442153231964307,
+        0.005305902179976751,
+        0.006190344612451214,
+        0.007074641908880674
+      ],
+      "paired_short_history_passed": true
+    },
+    {
+      "case": "111_loss1",
+      "common_after_anchor_times_s": [
+        2e-09,
+        4e-09,
+        6.000000000000001e-09,
+        8e-09,
+        1e-08,
+        1.2000000000000002e-08,
+        1.4000000000000001e-08,
+        1.6e-08
+      ],
+      "complete_state_energy_norm_errors": [
+        0.0008842912589798111,
+        0.0017686295000014255,
+        0.002652975974597154,
+        0.003537221354089423,
+        0.004421436354622048,
+        0.005305802280103831,
+        0.006190258735058535,
+        0.007074536242435493
+      ],
+      "paired_short_history_passed": true
+    }
+  ],
+  "all_six_declared_cases_present": false,
+  "all_three_paired_short_histories_passed": false,
+  "summary_sha256": "34edad07cf80089612ae61491710ca3daef4f5f9940f91abb82e6bfefc78ded4",
+  "summary_snapshot": {
+    "status": "running",
+    "cases": [
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss0_1ps.npz",
+        "sha256": "191e5876faad07c3b3be0de444503b52248a77a6c71f472c28d330e996561e5b",
+        "stepping_seconds": 487.18565210001543
+      },
+      {
+        "case": "111_loss0",
+        "initial_seed": 1,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 5e-13,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss0_0.5ps.npz",
+        "sha256": "319c84c8c96e7fdd6aecbe97150faa3791d61565b99fd0d2c2d8e3a32f851f2c",
+        "stepping_seconds": 714.0071860000025
+      },
+      {
+        "case": "111_loss1",
+        "initial_seed": 2,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss1_1ps.npz",
+        "sha256": "8f21d373e8ffd656c3bdaa3c2cc0ced943ddac05e1b5402ef087f2a046aeeb9e",
+        "stepping_seconds": 435.37079319998156
+      },
+      {
+        "case": "111_loss1",
+        "initial_seed": 2,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 5e-13,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [],
+        "file": "111_loss1_0.5ps.npz",
+        "sha256": "518e369d2985cfd9d214e851a822eb88e3ffdbe7a2c4b618b1fbba3a091ffa89",
+        "stepping_seconds": 944.8595402999781
+      },
+      {
+        "case": "mixed_history",
+        "initial_seed": null,
+        "shape": [
+          36,
+          23,
+          14
+        ],
+        "lengths_m": [
+          0.16,
+          0.1,
+          0.06
+        ],
+        "dt_s": 1e-12,
+        "duration_s": 1.6e-08,
+        "sample_interval_s": 2e-11,
+        "snapshots": 9,
+        "pulses": [
+          {
+            "mode": 0,
+            "start_s": 5e-10,
+            "end_s": 2.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.0
+          },
+          {
+            "mode": 1,
+            "start_s": 2e-09,
+            "end_s": 4e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 0.3
+          },
+          {
+            "mode": 2,
+            "start_s": 3.5e-09,
+            "end_s": 5.5e-09,
+            "amplitude": 1000000000.0,
+            "phase_rad": 1.1
+          },
+          {
+            "mode": 0,
+            "start_s": 6e-09,
+            "end_s": 8e-09,
+            "amplitude": -800000000.0,
+            "phase_rad": 0.7
+          },
+          {
+            "mode": 1,
+            "start_s": 7.5e-09,
+            "end_s": 1e-08,
+            "amplitude": 900000000.0,
+            "phase_rad": 2.0
+          },
+          {
+            "mode": 2,
+            "start_s": 9.5e-09,
+            "end_s": 1.2e-08,
+            "amplitude": -1000000000.0,
+            "phase_rad": 0.2
+          }
+        ],
+        "file": "mixed_history_1ps.npz",
+        "sha256": "cf2f50f6b1ca4da419913701063940a2d5d2cbf56b328fb42633a72b99c943aa",
+        "stepping_seconds": 455.61599929991644
+      }
+    ],
+    "configuration_sha256": "69f9124503a3f90bd7d19779932ad375fdec1fc443aabd69a935bcb6ae77a93f",
+    "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "source_sha256": {
+      "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+      "copper_driven_midpoint.py": "5d383ec889e77b9f68b2ec4442eba1fa685a2c3f0df1798e807fddc68c5736e8",
+      "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+      "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+      "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+      "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+      "run_copper_driven_refinement.py": "fbd7cd268cedcdba333647b88085486cf1dc3dcd20a9582d9ddd95e7279598fd"
+    },
+    "full_long_history_passed": false,
+    "actual_feed_passed": false,
+    "manufactured_cavity_passed": false,
+    "full_joint_simulation_passed": false,
+    "full_system_gates_closed": 0
+  },
+  "configuration_sha256": "69f9124503a3f90bd7d19779932ad375fdec1fc443aabd69a935bcb6ae77a93f",
+  "verifier_sha256": "60536b00afea8309ff09dccbdfc94d3b1e6774fc38b56551cd47bf01acb75764",
+  "helper_sha256": {
+    "verify_copper_doublet.py": "beb2da57b6a09d4c71333bc3c61066180eacb256dc975be1e59997fefceedb59",
+    "verify_copper_driven_state.py": "d35d9b97d9d8008412e597d86e81dfa733a2df4ea36e8f7ecc32a4fa394ec3a1",
+    "verify_fine_copper_longtime.py": "646fc35f8145f8b32998f9238631f63b2f990220cb1f8d017481083f754cf35f",
+    "verify_fine_copper_ringdown.py": "5e868e53bd56bb9635209228a798e5a7afb26e708d05aac210c3429dc863651c",
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "full_long_history_passed": false,
+  "actual_feed_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0
+}

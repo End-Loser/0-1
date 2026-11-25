@@ -1,0 +1,17 @@
+{
+  "scope": "Historical topology regression failure before any SPICE execution",
+  "command": "python -B 器件验证/test_c_output_feedback.py",
+  "returncode": 1,
+  "tests_run": 5,
+  "failures": 1,
+  "test": "test_only_actual_carry_pin_drives_feedback",
+  "incorrect_counter": "net.count(' EWC_CMP\\n')",
+  "actual_count": 3,
+  "expected_instances": 2,
+  "cause": "Substring also counted .ends EWC_CMP, not a third comparator",
+  "fix": "Count XC instance lines and check their subcircuit type",
+  "frozen_source": "test_c_output_feedback_before_count_fix.py",
+  "physical_netlist_changed_by_fix": false,
+  "vendor_library_changed": false,
+  "full_system_gates_closed": 0
+}

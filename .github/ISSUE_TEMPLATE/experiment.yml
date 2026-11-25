@@ -1,0 +1,56 @@
+name: 提交实验或代码
+description: 提交与想法对应的原型、实验或复现代码
+labels:
+  - status:experiment
+  - needs-info
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先阅读贡献指南。实验结果应可复现，并明确区分假设、结果与结论。
+  - type: input
+    id: idea_link
+    attributes:
+      label: 对应想法
+      description: 填写相关 Issue、想法文件或 Pull Request 链接。
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: 实验目标
+      description: 要验证或否定什么假设？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 环境与复现步骤
+      description: 说明操作系统、依赖、硬件、命令和预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: 数据来源与许可
+      description: 说明数据来源、授权、匿名化或脱敏情况。
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: 已知风险与局限
+      description: 说明安全、隐私、偏差、可重复性和不可用场景。
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我确认未提交密钥、令牌、隐私数据或未经授权的内容。
+          required: true
+        - label: 我确认实验不以攻击、诈骗或破坏他人为目的。
+          required: true
+        - label: 我已说明第三方代码、依赖和许可证。
+          required: true

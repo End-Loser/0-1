@@ -1,0 +1,19 @@
+{
+  "id": "cm3800_state011",
+  "state": 3,
+  "common_mode_V": 3.8,
+  "analysis": "DC operating point",
+  "source_model": "Ideal independent input sources; no ADL macro",
+  "feedback_resistance_ohm": 32750,
+  "bias_retuned": false,
+  "amplitude_gate_V": 0.001,
+  "solver_timeout_s": 60,
+  "status": "failed_preserve_output",
+  "reason": "Solver timeout; original output retained",
+  "files_sha256": {
+    "solver_stderr.log": "949b1faf41e4c644f3e6b7b17f298156339b063e22f4a2ce3c9a660619a9dc0f",
+    "solver_stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "4b0b36ab935bc7e1316341598b8794340e84bd6ee48041fe60e75255443d5b75"
+  }
+}

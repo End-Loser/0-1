@@ -1,0 +1,70 @@
+{
+  "scope": "coarse 4x3x2 causal six-wall 011 ringdown, not spatial accuracy",
+  "cases": [
+    {
+      "dt_s": 5e-12,
+      "observed_frequency_Hz": 2664481302.278675,
+      "decay_fits": [
+        {
+          "end_s": 5e-06,
+          "Q_energy_decay": 35038.487691600756,
+          "log_energy_RMS_residual": 7.143337418410172e-06
+        },
+        {
+          "end_s": 8e-06,
+          "Q_energy_decay": 35038.4877036103,
+          "log_energy_RMS_residual": 7.1433429646022255e-06
+        }
+      ],
+      "energy_closure": 1.376454505930269e-12,
+      "final_energy_fraction": 0.021875163444003407,
+      "max_sample_energy_growth_fraction": 0.0,
+      "continuous_grid_Q": 34997.86568371652,
+      "midpoint_predicted_Q": 35038.77016454139,
+      "relative_Q_vs_continuous_grid": 0.0011606999198434664,
+      "relative_Q_vs_midpoint_mapping": 8.061382570367925e-06,
+      "elapsed_s": 298.153992400039,
+      "steps": 1600000,
+      "file": "ringdown_5ps.npz",
+      "sha256": "f77b9822d1e5cdc6f70b76544402b162afbb9a72acf0cd272d32fa7f32dd8dbd"
+    },
+    {
+      "dt_s": 2e-11,
+      "observed_frequency_Hz": 2641515043.559635,
+      "decay_fits": [
+        {
+          "end_s": 5e-06,
+          "Q_energy_decay": 35648.67405858255,
+          "log_energy_RMS_residual": 7.143356330713563e-06
+        },
+        {
+          "end_s": 8e-06,
+          "Q_energy_decay": 35648.674062221005,
+          "log_energy_RMS_residual": 7.143346991322345e-06
+        }
+      ],
+      "energy_closure": 2.6542101849713617e-11,
+      "final_energy_fraction": 0.024123303503855314,
+      "max_sample_energy_growth_fraction": 0.0,
+      "continuous_grid_Q": 34997.86568371652,
+      "midpoint_predicted_Q": 35648.9361261914,
+      "relative_Q_vs_continuous_grid": 0.018595659072069948,
+      "relative_Q_vs_midpoint_mapping": 7.351242389597168e-06,
+      "elapsed_s": 80.91998310002964,
+      "steps": 400000,
+      "file": "ringdown_20ps.npz",
+      "sha256": "b72b2bed4183a1e8d3adbbd1719990f8706f455b90eb3a29e4ac1db906a81a1b"
+    }
+  ],
+  "frequency_archive_sha256": "b43cfae45648f097dde3991f5366a6aab4fb1062bb5e5f9fba7d04240e05da4e",
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "source_sha256": {
+    "run_six_wall_ringdown.py": "de88863d1ae9d99994d5446ac313fcca1d4226f1ee3fe36f0458975c5b472179",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "fine_grid_transient_Q_passed": false,
+  "arbitrary_modes_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false
+}

@@ -1,0 +1,22 @@
+{
+  "cases": 9,
+  "executable_cases": 7,
+  "counterexamples": 234,
+  "fault_recovery_traces": 15,
+  "nominal_events": 1261,
+  "claims": {
+    "software_protocol_only": true,
+    "real_ads8866_timing_passed": false,
+    "rtl_passed": false,
+    "real_adc_dac_model_passed": false,
+    "system_1pct_passed": false,
+    "procurement": false
+  },
+  "first_batch_alignment_ns": {
+    "assumed_m1": 161200,
+    "assumed_m4": 439600,
+    "assumed_m16": 1553200,
+    "discard_two_each_point": 346800,
+    "first_batch_unknown_lower_bound": 85000
+  }
+}

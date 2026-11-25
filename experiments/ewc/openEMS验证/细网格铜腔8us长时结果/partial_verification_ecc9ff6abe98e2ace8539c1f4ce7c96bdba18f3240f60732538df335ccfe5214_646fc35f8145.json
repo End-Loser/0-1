@@ -1,0 +1,125 @@
+{
+  "scope": "partial_chunks_only",
+  "completed_steps": 150000,
+  "chunks_checked": 3,
+  "anchor_equations": [
+    {
+      "end_step": 50000,
+      "electric": 1.663905264506728e-13,
+      "magnetic": 4.582663493589054e-15,
+      "charge": 4.1877820627559705e-12,
+      "RL": 5.5330603134211764e-11,
+      "wall": 5.165000931863206e-13,
+      "energy_step": 1.3100884432440874e-16
+    },
+    {
+      "end_step": 100000,
+      "electric": 2.1362346132849267e-13,
+      "magnetic": 9.408480639396187e-16,
+      "charge": 5.256231338596029e-12,
+      "RL": 2.0532912251359825e-11,
+      "wall": 1.3669822010366963e-13,
+      "energy_step": 4.288703328589757e-16
+    },
+    {
+      "end_step": 150000,
+      "electric": 1.3859506519935606e-13,
+      "magnetic": 1.062876516384574e-15,
+      "charge": 3.4645966329354717e-12,
+      "RL": 4.797707433685394e-11,
+      "wall": 1.598694325601464e-12,
+      "energy_step": 2.665082788721557e-16
+    }
+  ],
+  "full_8us_window_present": false,
+  "decay_metrics": null,
+  "selected_011_8us_relative_Q_frequency_passed": false,
+  "manifest_sha256": "ecc9ff6abe98e2ace8539c1f4ce7c96bdba18f3240f60732538df335ccfe5214",
+  "manifest_snapshot": {
+    "scope": "actual fine-grid 011 full E/H/64-RL 8 us; not full G1 or system approval",
+    "configuration": {
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        0,
+        1,
+        1
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 8e-06,
+      "steps": 4000000,
+      "chunk_steps": 50000,
+      "sample_stride": 10,
+      "cg_rtol": 1e-13,
+      "maxiter": 80,
+      "terms": 64
+    },
+    "source_sha256": {
+      "run_fine_copper_longtime.py": "1751c11d8a2004acb24f5b380c74340a49b449bf4cf4f2fe45c45ae6e769426d",
+      "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+      "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+      "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+    },
+    "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+    "approval_sha256": "3a1a624959edcdeafc2460e4b201f3377cc7bc5dfda7f562b133f902878f8ecf",
+    "chunks": [
+      {
+        "file": "steps_0000000_0050000.npz",
+        "sha256": "cbced7f7f190121ee4da7819a014eb743668124e54430b5ced086c425f8eb625",
+        "start_step": 0,
+        "end_step": 50000,
+        "stepping_seconds": 801.6905453999061,
+        "max_scaled_residual": 9.999506654758108e-14,
+        "max_CG_iterations": 6,
+        "global_energy_closure": 5.1596504846429525e-12,
+        "final_energy_fraction": 0.9235380943612944
+      },
+      {
+        "file": "steps_0050000_0100000.npz",
+        "sha256": "4c07fc9ddeea25c4f895a7f61c4d5c47a682e072f428969e9e5f1434295c7403",
+        "start_step": 50000,
+        "end_step": 100000,
+        "stepping_seconds": 814.781774800038,
+        "max_scaled_residual": 1.0047258588410862e-13,
+        "max_CG_iterations": 6,
+        "global_energy_closure": 1.0001888206545573e-11,
+        "final_energy_fraction": 0.8529418431684476
+      },
+      {
+        "file": "steps_0100000_0150000.npz",
+        "sha256": "a72a7cdf44a1e707a109e36eb92d8dca3b590518aa31dc69bdc707402e1e7074",
+        "start_step": 100000,
+        "end_step": 150000,
+        "stepping_seconds": 811.5958323000232,
+        "max_scaled_residual": 9.995903013786549e-14,
+        "max_CG_iterations": 6,
+        "global_energy_closure": 1.4378498391920402e-11,
+        "final_energy_fraction": 0.7877017542870751
+      }
+    ],
+    "status": "running",
+    "completed_steps": 150000,
+    "full_long_time_passed": false,
+    "manufactured_cavity_passed": false,
+    "full_joint_simulation_passed": false
+  },
+  "verifier_sha256": "646fc35f8145f8b32998f9238631f63b2f990220cb1f8d017481083f754cf35f",
+  "helper_sha256": {
+    "verify_finite_copper_cavity.py": "2564767b7a81cf0678e481f11d8a73ba8828a4f8faa424cc9a55912150aafb96",
+    "verify_finite_pec_cavity.py": "7d34ec5b1bcf3b05363e359452e3feef0c2e94e4077f1674053536c3a993dcac"
+  },
+  "equation_coverage": "one final-step full-state anchor per chunk; per-step CG residuals",
+  "independent_chunk_evidence_passed": true,
+  "arbitrary_modes_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0
+}

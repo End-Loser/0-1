@@ -1,0 +1,20 @@
+{
+  "id": "cm3800_state000",
+  "state": 0,
+  "common_mode_V": 3.8,
+  "analysis": "DC operating point",
+  "source_model": "Ideal independent input sources; no ADL macro",
+  "feedback_resistance_ohm": 32750,
+  "bias_retuned": false,
+  "amplitude_gate_V": 0.001,
+  "solver_timeout_s": 60,
+  "status": "failed_preserve_output",
+  "returncode": 0,
+  "reason": "No DC vector export",
+  "files_sha256": {
+    "solver_stderr.log": "041b366615e70f42012c868664c6f89dbca326b1007631495813c1a79d448fad",
+    "solver_stdout.log": "ca40989f5445ea9102603d0ed8f375d31c02455d78b5c7e13209931f1f8bd76d",
+    "spiceinit.txt": "b793609d288257a537639901b0b305e6f745d1ed353d368af84b499fe799c874",
+    "test.cir": "e75fe829b1010d81796cf8505c58752e0945295de85c40d93917ed42c2d50052"
+  }
+}

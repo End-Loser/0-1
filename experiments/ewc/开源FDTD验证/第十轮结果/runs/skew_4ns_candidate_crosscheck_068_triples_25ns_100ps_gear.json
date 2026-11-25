@@ -1,0 +1,118 @@
+{
+  "case": "skew_4ns_candidate_crosscheck_068_triples_25ns_100ps_gear",
+  "profile": "skew_4ns",
+  "scope": "candidate_crosscheck",
+  "tag": "068_triples",
+  "errors": [
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    -0.01
+  ],
+  "period_ns": 25,
+  "sequence": "triples",
+  "mode": "constant",
+  "dt_ps": 100,
+  "method": "gear",
+  "fingerprint": "20945f3cf6f469b7d329a4b967dd53bdb63ee2266b2bb5f89f862c9a82e73960",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.285e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.285e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.285e-05,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 280562,
+  "unique_points": 280562,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 514,
+  "decisions": 1028,
+  "passed": 1028,
+  "sample_passed": 1028,
+  "minimum_late_margin_V": 0.9842871910671649,
+  "worst_slot": {
+    "slot": 65,
+    "state": "011",
+    "channel": "carry",
+    "margin_V": 0.9842871910671649
+  },
+  "first_bad": null,
+  "max_settling_ns": 16.915865881436943,
+  "unsettled": 0,
+  "energy_J": 2.106478523720104e-08,
+  "power_W": 0.0016392828978366567,
+  "energy_per_slot_J": 4.098207244591642e-11,
+  "warning": false
+}

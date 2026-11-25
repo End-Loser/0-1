@@ -1,0 +1,190 @@
+{
+  "source_summary_sha256": "265afeff592e870af3d80560f870a37661cf5e8d647746a42de8c660ee79c7a5",
+  "runner_sha256": "afa0d8c80a141d46a267914c4805659b60d29c7a55f0204ba20d00f16d8bdaf4",
+  "refinement_script_sha256": "5073307dfeae98a7ab2538c61ac8d6c1bae2861412db34273ebff936bdd581bd",
+  "cases": [
+    {
+      "grid_shape": [
+        81,
+        51,
+        31
+      ],
+      "dx_mm": 2,
+      "dt_s": 3.3356409519815207e-12,
+      "time_refinement": 1,
+      "size_mm": [
+        160,
+        100,
+        60
+      ],
+      "epsilon_r": 2.1,
+      "dielectric_sigma_S_per_m": 0.002,
+      "pickup_sigma_z_S_per_m": 0.02,
+      "pickup_box_mm": [
+        10,
+        10,
+        10
+      ],
+      "centers_mm": [
+        [
+          40,
+          50,
+          30
+        ],
+        [
+          120,
+          50,
+          30
+        ],
+        [
+          80,
+          25,
+          30
+        ],
+        [
+          80,
+          75,
+          30
+        ]
+      ],
+      "source_rate_normalized_per_s": 1000000000.0,
+      "source_volume_m3": [
+        1.0000000000000002e-06,
+        1.0000000000000002e-06,
+        1.0000000000000002e-06,
+        1.0000000000000002e-06
+      ],
+      "normalization": "Normalized source-density drive and weighted mean Ez; not V/V or watts",
+      "boundary": "PEC tangential E fixed on all six faces; normal E retained",
+      "kind": "impulse",
+      "driven": 0,
+      "steps": 3598,
+      "runtime_s": 61.9267833000049,
+      "final_other_E_fraction": 0.6180286885546896,
+      "name": "impulse_2mm_0",
+      "npz_sha256": "38d0bba929ba7b29590104324c6695656d058b08b668bd32af0b725dcb2f53e4"
+    },
+    {
+      "grid_shape": [
+        81,
+        51,
+        31
+      ],
+      "dx_mm": 2,
+      "dt_s": 3.3356409519815207e-12,
+      "time_refinement": 1,
+      "size_mm": [
+        160,
+        100,
+        60
+      ],
+      "epsilon_r": 2.1,
+      "dielectric_sigma_S_per_m": 0.002,
+      "pickup_sigma_z_S_per_m": 0.02,
+      "pickup_box_mm": [
+        10,
+        10,
+        10
+      ],
+      "centers_mm": [
+        [
+          40,
+          50,
+          30
+        ],
+        [
+          120,
+          50,
+          30
+        ],
+        [
+          80,
+          25,
+          30
+        ],
+        [
+          80,
+          75,
+          30
+        ]
+      ],
+      "source_rate_normalized_per_s": 1000000000.0,
+      "source_volume_m3": [
+        1.0000000000000002e-06,
+        1.0000000000000002e-06,
+        1.0000000000000002e-06,
+        1.0000000000000002e-06
+      ],
+      "normalization": "Normalized source-density drive and weighted mean Ez; not V/V or watts",
+      "boundary": "PEC tangential E fixed on all six faces; normal E retained",
+      "kind": "holdout",
+      "driven": 0,
+      "steps": 3598,
+      "runtime_s": 63.20385090005584,
+      "final_other_E_fraction": 0.09955145824957819,
+      "name": "holdout_2mm",
+      "npz_sha256": "f0755e1cf60aa395044d284ac13301630e6ff2e5491c14b7561abc6ae44633d8"
+    },
+    {
+      "grid_shape": [
+        33,
+        21,
+        13
+      ],
+      "dx_mm": 5,
+      "dt_s": 4.169551189976901e-12,
+      "time_refinement": 2,
+      "size_mm": [
+        160,
+        100,
+        60
+      ],
+      "epsilon_r": 2.1,
+      "dielectric_sigma_S_per_m": 0.002,
+      "pickup_sigma_z_S_per_m": 0.02,
+      "pickup_box_mm": [
+        10,
+        10,
+        10
+      ],
+      "centers_mm": [
+        [
+          40,
+          50,
+          30
+        ],
+        [
+          120,
+          50,
+          30
+        ],
+        [
+          80,
+          25,
+          30
+        ],
+        [
+          80,
+          75,
+          30
+        ]
+      ],
+      "source_rate_normalized_per_s": 1000000000.0,
+      "source_volume_m3": [
+        1.0000000000000002e-06,
+        1.0000000000000002e-06,
+        1.0000000000000002e-06,
+        1.0000000000000002e-06
+      ],
+      "normalization": "Normalized source-density drive and weighted mean Ez; not V/V or watts",
+      "boundary": "PEC tangential E fixed on all six faces; normal E retained",
+      "kind": "holdout",
+      "driven": 0,
+      "steps": 2878,
+      "runtime_s": 1.9756329000229016,
+      "final_other_E_fraction": 0.41010176832786954,
+      "name": "holdout_5mm_dt_half",
+      "npz_sha256": "1b07066d7650351056883b64ee55adcd05f02a0ad6e6dd05d65e1c94b8a7676d"
+    }
+  ]
+}

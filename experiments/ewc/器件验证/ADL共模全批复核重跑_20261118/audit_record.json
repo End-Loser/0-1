@@ -1,0 +1,104 @@
+{
+  "scope": "G4 ADL common-mode full-batch evidence audit, re-executed after ngspice_con.exe was restored",
+  "evidence_level": "A (local audit of archived solver artifacts; no solver relaunched, no new simulation)",
+  "generated_at": "2026-11-18T14:58:32.639005+08:00",
+  "command": "python verify_adl_dc_continuation.py",
+  "cwd": "D:\\work\\trae_cn\\电磁波计算机构想\\器件验证",
+  "exit_code": 0,
+  "no_solver_relaunched": true,
+  "report_path": "D:\\work\\trae_cn\\电磁波计算机构想\\器件验证\\ADL共模接口留出_未执行20项\\combined_verification_448d641ff10b.json",
+  "report_sha256": "30ebddb21a50cbc4889fdf8ddd4631cdf1837d6bd2cf7f47a4cd863b2df0a147",
+  "report_bytes": 53124,
+  "verifier_path": "D:\\work\\trae_cn\\电磁波计算机构想\\器件验证\\verify_adl_dc_continuation.py",
+  "verifier_sha256": "d35e5f2998c255e8f2d4bfdf43379ddce8ab581eb1f45a4a45f87bd37e36922a",
+  "restored_solver": {
+    "path": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-openems\\ngspice47\\Spice64\\bin\\ngspice_con.exe",
+    "bytes": 7641600,
+    "sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+    "matches_frozen_protected_sha256": true,
+    "matches_project_copy": "原始资料/ngspice_con.exe"
+  },
+  "protected_binding": {
+    "total": 112,
+    "missing": 0,
+    "changed": 0,
+    "sources": [
+      "器件验证/ADL共模接口留出/provenance.json",
+      "器件验证/ADL共模接口留出_未执行20项/provenance.json"
+    ]
+  },
+  "result": {
+    "partial": false,
+    "declared_cases": 24,
+    "archived_runs": 24,
+    "observed_DC_points": 1,
+    "status_counts": {
+      "solver_aborted": 18,
+      "timeout_or_nonzero_or_unknown_exit": 5,
+      "DC_observed": 1
+    },
+    "continuation_twenty": {
+      "solver_aborted": 15,
+      "timeout_or_nonzero_or_unknown_exit": 4,
+      "DC_observed": 1
+    },
+    "timeout_ids": [
+      "cm3200_state000",
+      "cm3200_state100",
+      "cm3800_state011",
+      "cm3800_state101",
+      "cm3800_state110"
+    ],
+    "dc_observed_ids": [
+      "cm3200_state111"
+    ],
+    "actual_ADL_model": false,
+    "real_rails": false,
+    "startup_passed": false,
+    "full_power_passed": false,
+    "table_common_mode_conflict_unresolved": true,
+    "full_system_gates_closed": 0,
+    "goal_complete": false
+  },
+  "preserved_anchors": {
+    "full_audit_missing_original_exit.json": {
+      "bytes": 338,
+      "sha256": "8f3201928aa8bab1d917e2ca478015c0e1e128bb2b6726002bd6f9fd6232f871"
+    },
+    "full_audit_missing_original_stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "full_audit_missing_original_stderr.log": {
+      "bytes": 1055,
+      "sha256": "ccb4a95ff06e78ac23efa9ed4b0fab6d8479035577c85bb81bdd0ebcae418591"
+    },
+    "summary.json": {
+      "bytes": 17686,
+      "sha256": "0ef12691d4f5a6766f92e904f27ce57c0d5dfb919c6672b642feb3660d5cfc5e"
+    },
+    "provenance.json": {
+      "bytes": 17860,
+      "sha256": "87d40740598e6cfcaf42bf6d70a5630630ae6271e22bfade3cdda1bd5de53b1f"
+    },
+    "declared_configurations.json": {
+      "bytes": 6425,
+      "sha256": "8335b6ed4c41da9df7faa8e026328142c65b44fac5f19dd0279515dff696ea2a"
+    },
+    "continuation_source.json": {
+      "bytes": 6612,
+      "sha256": "643b2b8466ef339e9c0ce1b2cda91c4b117209f9a83ff80c08416e9b68589b5f"
+    }
+  },
+  "prior_reports_unchanged": {
+    "combined_verification_0555c1368aed.json": "3fe0f9487efb39bdc903f2a8d389697f39f710744b789982fc884722c8e483cf",
+    "combined_verification_25e7ea386685.json": "6b2cb4d0500b74be74108f2d9f5884f49d1cfb82efd211a482ec76c50659383e",
+    "combined_verification_99d9fa42acdc.json": "b7626628c8fc540c30452d85c77484af5114d2dd2c527932b37d6119d6e9ccdf",
+    "combined_verification_dd73614412bc.json": "a88d13f6de9cf66b363e0f9c9265aa8dfd6711606b7e07bb8d869e7781a4943f"
+  },
+  "root_cause_of_prior_failure": "full_audit_missing_original_stderr.log line 15: FileNotFoundError on the temp ngspice_con.exe path; the solver binary had been removed from %TEMP%, so the audit aborted before writing any report. The archived exit.json (returncode 1, original_recovered=false, full_audit_passed=false) remains the valid record of that moment.",
+  "capability_gap": "All 24 declared runs use source_model=\"Ideal independent input sources; no ADL macro\"; provenance reports manufacturer_ADL_transient_model_available=false and source_tables_reconciled=false. No readable ADL5375/ADL5380 transient model exists on this machine, so even a clean full-batch audit cannot close G4.",
+  "limitation": "This record binds an evidence audit, not a new circuit simulation. The single DC point (cm3200_state111) is an unverified finite export whose independent checks fail (C/S 81.632/59.107 mV, output common mode 1.612706 V, REF 0.107237 V, REF ESR current 26.966756 mA, supply currents about 16.180/14.702 mA). It must not be read as steady state, startup completion, or power closure.",
+  "full_system_gates_closed": 0,
+  "goal_complete": false
+}

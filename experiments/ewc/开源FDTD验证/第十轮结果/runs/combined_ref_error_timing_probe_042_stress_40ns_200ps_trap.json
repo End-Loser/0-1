@@ -1,0 +1,124 @@
+{
+  "case": "combined_ref_error_timing_probe_042_stress_40ns_200ps_trap",
+  "profile": "combined_ref_error",
+  "scope": "timing_probe",
+  "tag": "042_stress",
+  "errors": [
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01,
+    0.01,
+    -0.01
+  ],
+  "period_ns": 40,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "73fb7f273ac16bb73167f954650a50df255d7fc2147ed89d74091b6128acd4f3",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.024e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.024e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.024e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.024e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.024e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.024e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.024e-05,
+        -0.01
+      ]
+    ]
+  ],
+  "raw_points": 88226,
+  "unique_points": 88226,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 510,
+  "sample_passed": 511,
+  "minimum_late_margin_V": -1.0634180454274609,
+  "worst_slot": {
+    "slot": 232,
+    "state": "101",
+    "channel": "sum",
+    "margin_V": -1.0634180454274609
+  },
+  "first_bad": {
+    "slot": 216,
+    "state": "011",
+    "channel": "sum",
+    "sample_error6": -0.01,
+    "slot_start_ns": 8640.0
+  },
+  "max_settling_ns": 36.214897234072374,
+  "unsettled": 0,
+  "energy_J": 3.5079871676068554e-08,
+  "power_W": 0.00342576871836607,
+  "energy_per_slot_J": 1.370307487346428e-10,
+  "warning": false
+}

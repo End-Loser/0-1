@@ -1,0 +1,9 @@
+{
+  "tests_run": 18,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "purpose": "evidence_consistency_tests_not_device_acceptance",
+  "solver_attempts": 0,
+  "script_sha256": "01f41287b65d9b7fe37e27ffb3fc8d436e3309b163a202a54b7d59f7302b797b"
+}

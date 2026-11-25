@@ -1,0 +1,79 @@
+{
+  "read_date": "2026-11-18",
+  "scope": "ADS8866 selected 3-wire CS mode digital timing contract only",
+  "existing_inputs_read_only": {
+    "校准验证/校准时序与量化预算报告.md": "8116ab5aae5aaaf063c6ac1f51cd7228718663fc2271ac7f9ee520db6677d630",
+    "校准验证/provenance.json": "431ac42bbd42783b869493564eaa47977aabf177953c57b789c5e0e0fb2fd2a5",
+    "校准验证/第二批握手/逐点校准握手与时序验证报告.md": "c9d537bee017b426b3a7367d0d86671678155a3732b4cc9378e461702f260b01",
+    "校准验证/第二批握手/provenance.json": "e0c682c5ed5270badfbf5c8f53dbe9dfef6b8e59ab0f1ce0d36541e4f6cfb60b"
+  },
+  "official_sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/ads8866.pdf",
+      "document": "SBAS614C, MAY 2013, REVISED MARCH 2019",
+      "pages": 48,
+      "original_path": "C:/Users/13062/AppData/Local/Temp/ADS8866-official-20261118.pdf",
+      "sha256": "27f211b009303a0923bfd207bc3aa346e7642ee07d8bf3bf0bcfffb9138c6c9c",
+      "original_redistributed": false,
+      "reviewed_pages": [1, 2, 6, 7, 8, 18, 19, 20, 21, 26, 31, 32],
+      "review_method": "pypdf layout and pdfplumber text; page 8 table and Figure 44 visually checked",
+      "source_count": 1
+    }
+  ],
+  "mode": {
+    "name": "3wire_CS_DIN_high",
+    "DIN": "tied to DVDD; high at every CONVST rising edge",
+    "CNV_alias": "CONVST pin 6, functioning as CS; not a separate CNV pin",
+    "SCLK": "idle low, host samples rising edges; bits advance falling edges",
+    "excluded": ["4-wire CS", "daisy-chain", "falling-edge host capture", "optional early CS pulse for other devices"]
+  },
+  "timing_ns": {
+    "tCONV": {"min": 500, "typ": null, "max": 8800, "page": 8},
+    "tACQ": {"min": 1200, "typ": null, "max": null, "page": 8},
+    "conversion_interval": {"min": 10000, "page": 8, "note": "10000 wraps as 1000 plus 0 in original PDF; visually checked"},
+    "CONVST_high": {"min": 10, "page": 8, "note": "selected implementation holds high until tCONV-max, stronger than pulse minimum"},
+    "SCLK_period": {"min": 15, "typ": 62.5, "max": null, "page": 8},
+    "SCLK_frequency_MHz": {"min": null, "typ": 16, "max": 66.6, "page": 8},
+    "SCLK_high_low_fraction": {"min": 0.45, "max": 0.55, "page": 8},
+    "DOUT_hold_after_fall": {"min": 3, "page": 8},
+    "DOUT_next_valid_after_fall": {"max": 13.4, "page": 8},
+    "DOUT_MSB_after_CONVST_low": {"max": 12.3, "page": 8},
+    "DOUT_Z_after_CONVST_high_or_16th_fall": {"max": 13.2, "page": 8},
+    "quiet_before_next_CONVST_rise": {"min": 20, "page": 8}
+  },
+  "conditions": {
+    "timing_table": "AVDD=3V, DVDD=3V, operating free-air temperature -40..85C",
+    "electrical_table": "min/max at AVDD=3V, DVDD=3V, VREF=5V, 100kSPS over free-air range unless otherwise noted; typical at 25C",
+    "supply_ranges_V": {"AVDD": [2.7, 3.6], "DVDD": [1.65, 3.6], "VREF": [2.5, 5]},
+    "selected_profile": "AVDD=DVDD=3V, VREF=5V, TA=25C, DOUT load <=20pF",
+    "supply_range_does_not_extend_timing_guarantee": true,
+    "digital_levels_at_3V": {"VIH_min_V": 2.1, "VIL_max_V": 0.9, "VOH_min_V": 2.4, "VOL_max_V": 0.6},
+    "digital_output_test": "500uA source/sink, CLOAD=20pF, page7; no board parasitic guarantee",
+    "host_setup_hold": "no real host supplied; trace instantaneous sample only. Board/host timing budget blocked"
+  },
+  "semantics": {
+    "conversion": "internal clock; disconnected sampling inputs; no current-result read during conversion",
+    "acquisition": "starts when conversion completes; datasheet permits reading during acquisition",
+    "serial_frontend": "additional conservative system rule: frontend only released after DOUT Z, then 1200ns acquisition eligibility; does not disable physical ADC acquisition",
+    "output": "16-bit straight binary, D15 first, D0 last; ideal tagged words, not an analog voltage converter",
+    "DOUT_trace": "chosen boundary envelope: current valid through min hold; X until max next-data delay; Z at max disable delay. Not silicon waveform or typical delay",
+    "startup": "t=0 externally asserted supplies/reference/frontend ready, then >=1200ns initial acquisition. No guaranteed power-up delay specified here",
+    "source_differences": "Only one current official source used. p6 and p8 agree tCONV 500 min/8800 max and tACQ 1200 min; no typical tCONV. p1 full-scale settling headline does not guarantee arbitrary driver/RC. p2 states Rev C changed SCLK throughput text; earlier PDF not obtained or relied on."
+  },
+  "blocked_external_evidence": [
+    "AVDD monotonic ramp and brownout recovery <=0.7V, DVDD/REF readiness and validated first-sample delay",
+    "Actual source/mux/driver, RC tolerances, step amplitude, stability, kickback, acquisition residual and cross-point memory",
+    "Reference driver and capacitor load stability, dynamic droop, noise, drift, INL/offset/gain error over real conditions",
+    "Host input setup/hold, IO levels, pin loading, PCB delay/skew/jitter and real logic-analyzer waveforms",
+    "RTL/firmware CDC, reset, timeout, fault safety and 8-point hardware trace",
+    "Training sensitivity and actual ADC precision budget; no system +/-1% acceptance"
+  ],
+  "claims": {
+    "analog_precision_passed": false,
+    "real_ADC_SPICE_passed": false,
+    "RTL_passed": false,
+    "hardware_passed": false,
+    "system_1pct_passed": false,
+    "procurement": false
+  }
+}

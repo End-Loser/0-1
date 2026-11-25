@@ -1,0 +1,51 @@
+{
+  "method": "full finite integral Maxwell with six copper surface admittances, frequency domain",
+  "purpose": "rule-6 minimum grid (36x23x14) 120-mode Q check, companion to the 011/101 batch",
+  "cases": [
+    {
+      "case": "copper_36x23x14_120_m64",
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "mode": [
+        1,
+        2,
+        0
+      ],
+      "terms": 64,
+      "frequency_solves": 10,
+      "full_edge_count": 38157,
+      "wall_records": 6908,
+      "solve_seconds": 1567.36585855484,
+      "frequency_Hz": 3131855619.6355104,
+      "Q_from_local_pole": 23869.14107834787,
+      "inverse_response_fit_residual": 2.2333743665676197e-05,
+      "continuum_Q": 23674.790613801506,
+      "Q_energy": 23869.387061390324,
+      "Q_relative_error": 0.008209173534699188,
+      "frequency_relative_error": 0.0028790240485012664,
+      "Q_1percent_pass": true,
+      "frequency_1percent_pass": true,
+      "file": "copper_36x23x14_120_m64.npz",
+      "sha256": "99bec5e0404ec084a174c1c53c2580dbbf8df05176910e2793b9fda48cdedaea"
+    }
+  ],
+  "full_frequency_solves": 10,
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "model_path": "D:\\work\\trae_cn\\\u7535\u78c1\u6ce2\u8ba1\u7b97\u673a\u6784\u60f3\\openEMS\u9a8c\u8bc1\\\u539a\u94dc\u8fb9\u754c\u57fa\u51c6\u7ed3\u679c\\passive_surface_models.json",
+  "source_sha256": {
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8",
+    "run_finite_copper_cavity_fine_120.py": "4121bd3651187103abadf150b709822ba06b6c90a28041c8d98beff90dc6be07"
+  },
+  "supersedes_nothing": true,
+  "total_solve_seconds": 1567.3970856666565,
+  "finite_copper_frequency_subtask_complete": true,
+  "copper_transient_boundary_complete": false,
+  "long_decay_Q_complete": false,
+  "arbitrary_corner_accuracy_complete": false,
+  "real_cavity_complete": false,
+  "full_joint_simulation_complete": false
+}

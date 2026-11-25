@@ -1,0 +1,14 @@
+Deliberate guard directory, 2026-11-19.
+
+The sequential runner (run_copper_gauss_longtime.py) iterates all six configurations
+after completing 111_loss0_2.5ps and would call Path.mkdir() on this path. Creating
+this directory in advance makes that mkdir() raise FileExistsError at the exact case
+boundary, so the runner stops after 111_loss0_2.5ps and never recomputes
+111_loss0_1.25ps (already stepped by the per-case parallel runner under
+E:\ewc-evidence\gauss_parallel) nor the other four redundant cases.
+
+Evidence chain is untouched: all completed chunks of 111_loss0_2.5ps stay listed and
+hashed in ..\progress.json; this directory holds no solver chunks and is ignored by
+verify_copper_gauss_all_histories.py (SERIAL = ("111_loss0_2.5ps",) only).
+
+See EWC全任务验收台账.md section 33.43 for the decision record.

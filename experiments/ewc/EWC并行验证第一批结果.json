@@ -1,0 +1,55 @@
+{
+  "scope": "parallel offline evidence rechecks only, not joint physical simulation",
+  "started_utc": "2026-11-17T16:36:18.054335+00:00",
+  "finished_utc": "2026-11-17T16:36:20.304164+00:00",
+  "workers": 3,
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "jobs": [
+    {
+      "name": "finite_PEC",
+      "exit_code": 0,
+      "elapsed_s": 2.2438020000699908,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-parallel-recheck-iqsfw8uv\\finite_PEC.txt",
+      "log_sha256": "fd6b35068219cb3f7cbe5801f8d90314dfaef7ffd8f5e4190f33c6bcce8032d1"
+    },
+    {
+      "name": "device_evidence",
+      "exit_code": 0,
+      "elapsed_s": 0.8812732000369579,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-parallel-recheck-iqsfw8uv\\device_evidence.txt",
+      "log_sha256": "6f6e540f0fc734b24f08807044735f743b4c75dbca5a1323a799df91f567dd84"
+    },
+    {
+      "name": "calibration_budget",
+      "exit_code": 0,
+      "elapsed_s": 0.08158410002943128,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-parallel-recheck-iqsfw8uv\\calibration_budget.txt",
+      "log_sha256": "cab789ba9e1b64a95032bc0ed9bee7fa1f3595ba60627ef838bccee7d606e88c"
+    },
+    {
+      "name": "EM_regressions",
+      "exit_code": 0,
+      "elapsed_s": 0.776286399923265,
+      "log": "C:\\Users\\13062\\AppData\\Local\\Temp\\ewc-parallel-recheck-iqsfw8uv\\EM_regressions.txt",
+      "log_sha256": "9b9694efc08077be807d7d5cc5af89a39149beb3f3cebefca8198fbc2937964d"
+    }
+  ],
+  "all_recheck_commands_pass": true,
+  "evidence_sha256": {
+    "openEMS验证/有限PEC腔体结果/summary.json": "bbc21bbbbc4519998eac96d5f0b0eef4be9eb1e9ac6ce5d8d7e06bed7b14ac83",
+    "openEMS验证/有限PEC腔体结果/verification.json": "9f20354e30ab3bdc7dac22eb38a811d52620d4f288bb61a989c4acfcc41cdcb6",
+    "器件验证/source_manifest.json": "a127f69188f86689f2376428840ee47118695208c20029ab691d7c5a9e43d114",
+    "器件验证/interface_model_gaps.json": "9e5fe13ba16e06558c43fa590cdac382bf29e9e605f1dce0da8129382d68a42b",
+    "器件验证/model_test_results.json": "291d445cc07b3d44e5e0f35fcbf65ad5e5e16c41693d8eed51beb3df8513e32a",
+    "器件验证/offline_verification.json": "35cb83368149a9a2d9f8242585c2efece06ec47f0d912cd7455700fd5c387393",
+    "校准验证/结果/summary.json": "17cc047036e48eb4dd1179964b97043f735d8b600fea3d44bf79a48784d7e47e",
+    "校准验证/结果/verify.json": "6d6cffb15277d3b17ea65cf79524a917c48f169fee561ddfcec2bcf8e9d8e318",
+    "校准验证/结果/tests.json": "a2b2a0bf9fbad516ea3fd00db115a76d955d11c1fee80844e797209baa9ee875"
+  },
+  "script_sha256": "766974ce960c8c31d8438686234a043bd7ccb532a8a78dae09f51418a39b76de",
+  "finite_copper_cavity_passed": false,
+  "device_chain_passed": false,
+  "real_calibration_hardware_passed": false,
+  "full_joint_simulation_passed": false,
+  "BOM_frozen": false
+}

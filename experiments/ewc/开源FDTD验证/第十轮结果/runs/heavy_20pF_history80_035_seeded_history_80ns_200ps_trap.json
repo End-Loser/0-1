@@ -1,0 +1,118 @@
+{
+  "case": "heavy_20pF_history80_035_seeded_history_80ns_200ps_trap",
+  "profile": "heavy_20pF",
+  "scope": "history80",
+  "tag": "035_seeded_history",
+  "errors": [
+    -0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 80,
+  "sequence": "seeded_history",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "5d6883c9f2179682df2e5daccc0a30416a10ad0787848a7b39be24498a270623",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        1.5360000000000002e-05,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 109772,
+  "unique_points": 109772,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 192,
+  "decisions": 384,
+  "passed": 384,
+  "sample_passed": 384,
+  "minimum_late_margin_V": 0.9842959822068882,
+  "worst_slot": {
+    "slot": 101,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": 0.9842959822068882
+  },
+  "first_bad": null,
+  "max_settling_ns": 26.92465381883699,
+  "unsettled": 0,
+  "energy_J": 3.635894041798702e-08,
+  "power_W": 0.0023671185167960297,
+  "energy_per_slot_J": 1.893694813436824e-10,
+  "warning": false
+}

@@ -1,0 +1,141 @@
+{
+  "independent_verification_pass": true,
+  "run": {
+    "id": "d05_5ps",
+    "checks": {
+      "dc_amplitude": true,
+      "common_mode": true,
+      "fda_pin_range": true,
+      "fda_output_range": true,
+      "comparator_pin_range": true,
+      "output_continuous_current": true,
+      "static_margin": true,
+      "levels": true,
+      "delays": true
+    },
+    "events": [
+      {
+        "input_crossings_s": [
+          2.0099999999999999e-07
+        ],
+        "fda_crossings_s": [
+          2.086065005812963e-07
+        ],
+        "output_crossings_s": [
+          2.140952527175123e-07
+        ],
+        "total_delay_s": 1.3095252717512306e-08,
+        "fda_delay_s": 7.606500581296301e-09,
+        "comparator_delay_s": 5.4887521362160045e-09,
+        "level_ok": true,
+        "delay_ok": true,
+        "low_V": 3.297955267430467,
+        "high_V": 3.297955267430467
+      },
+      {
+        "input_crossings_s": [
+          4.01e-07
+        ],
+        "fda_crossings_s": [
+          4.0861343434614776e-07
+        ],
+        "output_crossings_s": [
+          4.1426384679829354e-07
+        ],
+        "total_delay_s": 1.3263846798293536e-08,
+        "fda_delay_s": 7.613434346147759e-09,
+        "comparator_delay_s": 5.650412452145777e-09,
+        "level_ok": true,
+        "delay_ok": true,
+        "low_V": 3.035183875859165e-10,
+        "high_V": 3.035183875859165e-10
+      },
+      {
+        "input_crossings_s": [
+          6.01e-07
+        ],
+        "fda_crossings_s": [
+          6.086060118867945e-07
+        ],
+        "output_crossings_s": [
+          6.140944938904887e-07
+        ],
+        "total_delay_s": 1.3094493890488662e-08,
+        "fda_delay_s": 7.606011886794403e-09,
+        "comparator_delay_s": 5.488482003694259e-09,
+        "level_ok": true,
+        "delay_ok": true,
+        "low_V": 3.297955267430458,
+        "high_V": 3.297955267430458
+      },
+      {
+        "input_crossings_s": [
+          8.009999999999999e-07
+        ],
+        "fda_crossings_s": [
+          8.086134343531556e-07
+        ],
+        "output_crossings_s": [
+          8.142638467984223e-07
+        ],
+        "total_delay_s": 1.3263846798422338e-08,
+        "fda_delay_s": 7.613434353155633e-09,
+        "comparator_delay_s": 5.650412445266705e-09,
+        "level_ok": true,
+        "delay_ok": true,
+        "low_V": 3.034775713080652e-10,
+        "high_V": 3.034775713080652e-10
+      }
+    ],
+    "dc_errors_V": [
+      0.00018625175579922715,
+      0.00024584433944652845,
+      0.0001862431580074153,
+      0.00024584432862873734
+    ],
+    "cm_errors_V": [
+      0.001437541936759601,
+      0.0014375402663082681,
+      0.0014375419367906872,
+      0.0014375402662749615
+    ],
+    "platform_statistics": [
+      {
+        "mean_error_V": 3.3739833764077944e-05,
+        "error_peak_to_peak_V": 0.00034219852565198217
+      },
+      {
+        "mean_error_V": 5.616914926253037e-05,
+        "error_peak_to_peak_V": 0.0003421777064398501
+      },
+      {
+        "mean_error_V": 3.374222136324521e-05,
+        "error_peak_to_peak_V": 0.0003421777022192263
+      },
+      {
+        "mean_error_V": 5.616914860309325e-05,
+        "error_peak_to_peak_V": 0.0003421776880290217
+      }
+    ],
+    "max_rc_kcl_residual_A": 7.874190512638518e-12,
+    "max_abs_fda_input_current_A": 1.070909827008981e-06,
+    "max_synthetic_source_current_A": 0.008657188110947739,
+    "output_current_max_A": 0.0016685524541171094,
+    "independently_reproduced_status": "pass"
+  },
+  "delay_differences_s": [
+    3.6943079123115085e-12,
+    3.567883969535003e-12,
+    2.935480945895629e-12,
+    3.5678841615997237e-12
+  ],
+  "dc_error_difference_V": 1.529744109163289e-09,
+  "cm_error_difference_V": 3.317790486789818e-12,
+  "ten_vs_five_ps_passed": true,
+  "coarse_50_vs_25ps_failed": true,
+  "whole_chain_passed": false,
+  "history_tolerance_noise_passed": false,
+  "summary_sha256": "54f61b1278282e50eac43d1ef9a9268d23a2024c4dec72988abdac1f059c43c7",
+  "oracle_sha256": "cb7affb58792464621c423b15624b3f000e8554783ed6feaa8c5121982a33e2c",
+  "verifier_sha256": "fd35abf20daf35b9a1c37c6e06165d4d570deac864d7aec37b5f9ce5d9dd58fd"
+}

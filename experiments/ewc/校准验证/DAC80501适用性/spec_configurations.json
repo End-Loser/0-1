@@ -1,0 +1,98 @@
+[
+  {
+    "id": "external5_on3p3_divided",
+    "vdd_V": 3.3,
+    "ref_V": 5,
+    "ref_div": 1,
+    "buff_gain": 0,
+    "expected_reference_in_range": false
+  },
+  {
+    "id": "external5_on5_divided_2p5FSR",
+    "vdd_V": 5,
+    "ref_V": 5,
+    "ref_div": 1,
+    "buff_gain": 0,
+    "expected_reference_in_range": true
+  },
+  {
+    "id": "external5_on5_divided_5FSR",
+    "vdd_V": 5,
+    "ref_V": 5,
+    "ref_div": 1,
+    "buff_gain": 1,
+    "expected_reference_in_range": true
+  },
+  {
+    "id": "external5_on5p5_divided",
+    "vdd_V": 5.5,
+    "ref_V": 5,
+    "ref_div": 1,
+    "buff_gain": 0,
+    "expected_reference_in_range": true
+  },
+  {
+    "id": "external5_on5p5_undivided",
+    "vdd_V": 5.5,
+    "ref_V": 5,
+    "ref_div": 0,
+    "buff_gain": 0,
+    "expected_reference_in_range": false
+  },
+  {
+    "id": "internal2p5_on3p3_default",
+    "vdd_V": 3.3,
+    "ref_V": 2.5,
+    "ref_div": 0,
+    "buff_gain": 1,
+    "expected_reference_in_range": false
+  },
+  {
+    "id": "internal2p5_on3p3_divided",
+    "vdd_V": 3.3,
+    "ref_V": 2.5,
+    "ref_div": 1,
+    "buff_gain": 1,
+    "expected_reference_in_range": true
+  },
+  {
+    "id": "internal2p5_on4p99_default",
+    "vdd_V": 4.99,
+    "ref_V": 2.5,
+    "ref_div": 0,
+    "buff_gain": 1,
+    "expected_reference_in_range": false
+  },
+  {
+    "id": "below3p3_branch",
+    "vdd_V": 3.299,
+    "ref_V": 3.2,
+    "ref_div": 1,
+    "buff_gain": 0,
+    "expected_reference_in_range": false
+  },
+  {
+    "id": "at3p3_branch",
+    "vdd_V": 3.3,
+    "ref_V": 3.2,
+    "ref_div": 1,
+    "buff_gain": 0,
+    "expected_reference_in_range": true
+  },
+  {
+    "id": "lower_ref_boundary",
+    "vdd_V": 2.7,
+    "ref_V": 1.2,
+    "ref_div": 0,
+    "buff_gain": 1,
+    "expected_reference_in_range": true
+  },
+  {
+    "id": "below_ref_boundary",
+    "vdd_V": 2.7,
+    "ref_V": 1.199,
+    "ref_div": 0,
+    "buff_gain": 1,
+    "expected_reference_in_range": false
+  }
+]

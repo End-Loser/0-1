@@ -1,0 +1,118 @@
+{
+  "case": "combined_history80_center_triples_80ns_200ps_trap",
+  "profile": "combined",
+  "scope": "history80",
+  "tag": "center_triples",
+  "errors": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "period_ns": 80,
+  "sequence": "triples",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "6423a37e99ba08358e308a7f79b72351dd7d2e76d4526982d1e9036a585f4f17",
+  "archive_numdgt": 17,
+  "supply_V": 3.0,
+  "control_points": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4.112e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4.112e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4.112e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4.112e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4.112e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4.112e-05,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        4.112e-05,
+        0
+      ]
+    ]
+  ],
+  "raw_points": 285780,
+  "unique_points": 285780,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 514,
+  "decisions": 1028,
+  "passed": 1028,
+  "sample_passed": 1028,
+  "minimum_late_margin_V": 0.8938997768542265,
+  "worst_slot": {
+    "slot": 296,
+    "state": "010",
+    "channel": "sum",
+    "margin_V": 0.8938997768542265
+  },
+  "first_bad": null,
+  "max_settling_ns": 33.36147592515361,
+  "unsettled": 0,
+  "energy_J": 8.232306855077602e-08,
+  "power_W": 0.002002020149581129,
+  "energy_per_slot_J": 1.601616119664903e-10,
+  "warning": false
+}

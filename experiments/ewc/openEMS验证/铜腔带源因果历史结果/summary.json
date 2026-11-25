@@ -1,0 +1,238 @@
+{
+  "status": "solver_complete_unverified",
+  "cases": [
+    {
+      "case": "111_loss0",
+      "initial_seed": 1,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [],
+      "file": "111_loss0_5ps.npz",
+      "sha256": "bf0ea3c50e5eead4f7f1959679c86e99328e6340a6cf6928af9760a17e6eeb11",
+      "stepping_seconds": 75.9094118999783
+    },
+    {
+      "case": "111_loss0",
+      "initial_seed": 1,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [],
+      "file": "111_loss0_2ps.npz",
+      "sha256": "2c6b9f5f1f097a9a0d180d9875c33a339312b8e086c91da4b10cad81f5784600",
+      "stepping_seconds": 178.08226500009187
+    },
+    {
+      "case": "111_loss1",
+      "initial_seed": 2,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [],
+      "file": "111_loss1_5ps.npz",
+      "sha256": "e32e08cae17363869cc6936cc8c4bc0d4dc4df882eabd86aa3aba04f66f53a92",
+      "stepping_seconds": 77.87974290002603
+    },
+    {
+      "case": "111_loss1",
+      "initial_seed": 2,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [],
+      "file": "111_loss1_2ps.npz",
+      "sha256": "522a2d4bea79b0b7ac1fbd876840793e8e66ca6c8a621bc6e9abdf21c5628a0b",
+      "stepping_seconds": 218.32640340004582
+    },
+    {
+      "case": "mixed_history",
+      "initial_seed": null,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 5e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [
+        {
+          "mode": 0,
+          "start_s": 5e-10,
+          "end_s": 2.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.0
+        },
+        {
+          "mode": 1,
+          "start_s": 2e-09,
+          "end_s": 4e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.3
+        },
+        {
+          "mode": 2,
+          "start_s": 3.5e-09,
+          "end_s": 5.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 1.1
+        },
+        {
+          "mode": 0,
+          "start_s": 6e-09,
+          "end_s": 8e-09,
+          "amplitude": -800000000.0,
+          "phase_rad": 0.7
+        },
+        {
+          "mode": 1,
+          "start_s": 7.5e-09,
+          "end_s": 1e-08,
+          "amplitude": 900000000.0,
+          "phase_rad": 2.0
+        },
+        {
+          "mode": 2,
+          "start_s": 9.5e-09,
+          "end_s": 1.2e-08,
+          "amplitude": -1000000000.0,
+          "phase_rad": 0.2
+        }
+      ],
+      "file": "mixed_history_5ps.npz",
+      "sha256": "10790300002334b67ced45d8db328b67ee440ce936041064a9a3a869d8f068d2",
+      "stepping_seconds": 107.86980159999803
+    },
+    {
+      "case": "mixed_history",
+      "initial_seed": null,
+      "shape": [
+        36,
+        23,
+        14
+      ],
+      "lengths_m": [
+        0.16,
+        0.1,
+        0.06
+      ],
+      "dt_s": 2e-12,
+      "duration_s": 1.6e-08,
+      "sample_interval_s": 2e-11,
+      "snapshots": 9,
+      "pulses": [
+        {
+          "mode": 0,
+          "start_s": 5e-10,
+          "end_s": 2.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.0
+        },
+        {
+          "mode": 1,
+          "start_s": 2e-09,
+          "end_s": 4e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 0.3
+        },
+        {
+          "mode": 2,
+          "start_s": 3.5e-09,
+          "end_s": 5.5e-09,
+          "amplitude": 1000000000.0,
+          "phase_rad": 1.1
+        },
+        {
+          "mode": 0,
+          "start_s": 6e-09,
+          "end_s": 8e-09,
+          "amplitude": -800000000.0,
+          "phase_rad": 0.7
+        },
+        {
+          "mode": 1,
+          "start_s": 7.5e-09,
+          "end_s": 1e-08,
+          "amplitude": 900000000.0,
+          "phase_rad": 2.0
+        },
+        {
+          "mode": 2,
+          "start_s": 9.5e-09,
+          "end_s": 1.2e-08,
+          "amplitude": -1000000000.0,
+          "phase_rad": 0.2
+        }
+      ],
+      "file": "mixed_history_2ps.npz",
+      "sha256": "f34bfe9ebaccfd196cfd83effa40c2ab422de576646977d72edf057f115b2aa6",
+      "stepping_seconds": 265.79390699998476
+    }
+  ],
+  "configuration_sha256": "2aee3578f2a8f3aeafc50e4e58411165c6620ece12c74ecaee005e7483d0197b",
+  "model_sha256": "5a21f3ede2f78b7863925c322a106999fbde630f51761c9a7fdab8db4f6a10f3",
+  "source_sha256": {
+    "run_copper_driven_history.py": "a5796e06cc67eaa97f928c92ee724535cf2373e6fcf5a7ce1524acabd9b466ae",
+    "copper_driven_midpoint.py": "5d383ec889e77b9f68b2ec4442eba1fa685a2c3f0df1798e807fddc68c5736e8",
+    "copper_midpoint_cg.py": "e396e3fc83d5dbe35ee9f00bd3d8f5637c6097918b4104ed4875762055dda119",
+    "copper_doublet.py": "f959c36bda393c5cd5530331280e7bb978a217147c6d16f2e5bf6bf124276ee8",
+    "finite_copper_cavity.py": "548348e0fdb10983a82f5777443e0dab01158144fd9b90a591fa0b5c5dfc8248",
+    "finite_pec_cavity.py": "e90eba04b8a618f3102087365427c0ecd95bba255b2471ffdd9e20086d6ab2d8"
+  },
+  "full_long_history_passed": false,
+  "actual_feed_passed": false,
+  "manufactured_cavity_passed": false,
+  "full_joint_simulation_passed": false,
+  "full_system_gates_closed": 0
+}

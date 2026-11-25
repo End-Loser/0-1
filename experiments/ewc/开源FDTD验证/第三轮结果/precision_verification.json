@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": "Counts, DC analytic agreement, KCL, direct arithmetic, settling, transient refinement, finite waveforms, finite-IS formulas",
+  "max_settling_difference_ps": 11.63258231646906,
+  "transient_observed_orders": [
+    {
+      "operation": "multiply",
+      "A_before": 1,
+      "A_after": 15,
+      "order_20_to_10_ps": 0.9907935857038865,
+      "order_10_to_5_ps": 0.9998654339258397
+    },
+    {
+      "operation": "multiply",
+      "A_before": 15,
+      "A_after": 1,
+      "order_20_to_10_ps": 0.9899252347245294,
+      "order_10_to_5_ps": 0.9753444976414154
+    },
+    {
+      "operation": "divide",
+      "A_before": 1,
+      "A_after": 15,
+      "order_20_to_10_ps": 0.9907935370974178,
+      "order_10_to_5_ps": 0.9998654015722356
+    },
+    {
+      "operation": "divide",
+      "A_before": 15,
+      "A_after": 1,
+      "order_20_to_10_ps": 0.989925246546099,
+      "order_10_to_5_ps": 0.9753445052227423
+    }
+  ],
+  "euler_cross_check": "FAILED, not treated as a passed test",
+  "scope": "Archived model consistency only, not hardware accuracy or independent solver validation"
+}

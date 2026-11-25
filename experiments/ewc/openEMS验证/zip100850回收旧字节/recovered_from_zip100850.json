@@ -1,0 +1,56 @@
+{
+  "scope": "pre-18:59 bytes recovered from sealed 10:08 archive; no live file overwritten",
+  "archive": "EWC_project_full_20261118_100850.zip",
+  "archive_entries": 18650,
+  "files": [
+    {
+      "recovered_path": "openEMS验证/六壁长时衰减结果/verification.json",
+      "zip_entry": "电磁波计算机构想/openEMS验证/六壁长时衰减结果/verification.json",
+      "bytes": 2692,
+      "sha256": "b6ce11c6d692474fe3092c714a8330309865aa25fa6875e3ddcef6a6a41c5b85",
+      "bytes_equal_zip_entry": true
+    },
+    {
+      "recovered_path": "openEMS验证/铜Q细化结果/verification.json",
+      "zip_entry": "电磁波计算机构想/openEMS验证/铜Q细化结果/verification.json",
+      "bytes": 3279,
+      "sha256": "e247057d82372b8502bf8af97de1cbc7e74d854ee03ad05e338d7421135f257c",
+      "bytes_equal_zip_entry": true
+    },
+    {
+      "recovered_path": "器件验证/开关兼容性源码复核/build_verification.json",
+      "zip_entry": "电磁波计算机构想/器件验证/开关兼容性源码复核/build_verification.json",
+      "bytes": 532,
+      "sha256": "17b255e9fdb044e615b4775b31ea906e190f820de4de0e2fac105d7d6d433ba8",
+      "bytes_equal_zip_entry": true
+    },
+    {
+      "recovered_path": "器件验证/开关兼容性源码复核/verify_build_evidence.py",
+      "zip_entry": "电磁波计算机构想/器件验证/开关兼容性源码复核/verify_build_evidence.py",
+      "bytes": 4280,
+      "sha256": "9ceb6f2996387f26f5c31fbb93b358d49b8f20ec70af44cf8996f146761186d3",
+      "bytes_equal_zip_entry": true
+    },
+    {
+      "recovered_path": "射频端口验证/实际接头核查/verification.json",
+      "zip_entry": "电磁波计算机构想/射频端口验证/实际接头核查/verification.json",
+      "bytes": 1032,
+      "sha256": "cc040a587047a3f44e9cf44d7c15c074d0eaa69eb603591b0263d66de48652ca",
+      "bytes_equal_zip_entry": true
+    },
+    {
+      "recovered_path": "校准验证/DAC80501适用性/verification.json",
+      "zip_entry": "电磁波计算机构想/校准验证/DAC80501适用性/verification.json",
+      "bytes": 427,
+      "sha256": "7929394521046e139bfdb910f4d8b97ca32ea28d2af7a6bfe09ecc002a578283",
+      "bytes_equal_zip_entry": true
+    },
+    {
+      "recovered_path": "校准验证/DAC80501适用性/verify_dac.py",
+      "zip_entry": "电磁波计算机构想/校准验证/DAC80501适用性/verify_dac.py",
+      "bytes": 10956,
+      "sha256": "249cbf52ab1b039337d1d30ef1b2bfbd99b0b40dd535ce975b27b7bcab2d0db6",
+      "bytes_equal_zip_entry": true
+    }
+  ]
+}

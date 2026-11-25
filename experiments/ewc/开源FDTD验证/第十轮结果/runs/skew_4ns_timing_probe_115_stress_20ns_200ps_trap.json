@@ -1,0 +1,124 @@
+{
+  "case": "skew_4ns_timing_probe_115_stress_20ns_200ps_trap",
+  "profile": "skew_4ns",
+  "scope": "timing_probe",
+  "tag": "115_stress",
+  "errors": [
+    0.01,
+    0.01,
+    0.01,
+    -0.01,
+    -0.01,
+    0.01,
+    0.01
+  ],
+  "period_ns": 20,
+  "sequence": "stress",
+  "mode": "constant",
+  "dt_ps": 200,
+  "method": "trap",
+  "fingerprint": "989e624b1a8fa5f68368a6eb59c8e9147c242ab335f65d9545b3db4f760b4ee1",
+  "archive_numdgt": 17,
+  "supply_V": 3.3,
+  "control_points": [
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        -0.01
+      ],
+      [
+        5.12e-06,
+        -0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ],
+    [
+      [
+        0,
+        0.01
+      ],
+      [
+        5.12e-06,
+        0.01
+      ]
+    ]
+  ],
+  "raw_points": 84484,
+  "unique_points": 84484,
+  "duplicate_time_points": 0,
+  "duplicate_vector_max_difference": 0,
+  "duplicate_output_max_difference_V": 0,
+  "slots": 256,
+  "decisions": 512,
+  "passed": 511,
+  "sample_passed": 512,
+  "minimum_late_margin_V": -2.3008403663395263,
+  "worst_slot": {
+    "slot": 224,
+    "state": "100",
+    "channel": "sum",
+    "margin_V": -2.3008403663395263
+  },
+  "first_bad": {
+    "slot": 224,
+    "state": "100",
+    "channel": "sum",
+    "sample_error6": 0.01,
+    "slot_start_ns": 4480.0
+  },
+  "max_settling_ns": 16.943269335248804,
+  "unsettled": 0,
+  "energy_J": 8.809923807706937e-09,
+  "power_W": 0.0017206882436927612,
+  "energy_per_slot_J": 3.4413764873855224e-11,
+  "warning": false
+}

@@ -1,0 +1,3429 @@
+{
+  "scope": "10-state scalar-time protocol, not RTL, CDC or analog simulation",
+  "nominal_m1": [
+    {
+      "event": "data",
+      "time_s": 0,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 0.0
+    },
+    {
+      "event": "request",
+      "time_s": 0,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "PAUSE",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 0.0
+    },
+    {
+      "event": "ack",
+      "time_s": 1e-06,
+      "wait_s": 0,
+      "before": "PAUSE",
+      "after": "SWITCH_CAL",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 0.0
+    },
+    {
+      "event": "switch",
+      "time_s": 2e-06,
+      "wait_s": 3e-06,
+      "before": "SWITCH_CAL",
+      "after": "PROBE_SETTLE",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "settled",
+      "time_s": 5e-06,
+      "wait_s": 0,
+      "before": "PROBE_SETTLE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 1.4999999999999999e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 1,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 2.4999999999999998e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 2,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 3.5e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 3,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 4.4999999999999996e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 4,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 5.4999999999999995e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 5,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 6.5e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 6,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 7.5e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 7,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 8.499999999999999e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 8,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "solve",
+      "time_s": 8.499999999999999e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "SOLVE",
+      "version": 1,
+      "readings": 8,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "program",
+      "time_s": 8.699999999999999e-05,
+      "wait_s": 5e-06,
+      "before": "SOLVE",
+      "after": "DAC_SETTLE",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.199999999999999e-05
+    },
+    {
+      "event": "settled",
+      "time_s": 9.199999999999999e-05,
+      "wait_s": 0,
+      "before": "DAC_SETTLE",
+      "after": "SWITCH_RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.199999999999999e-05
+    },
+    {
+      "event": "switch",
+      "time_s": 9.3e-05,
+      "wait_s": 2e-06,
+      "before": "SWITCH_RUN",
+      "after": "RESTORE",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "resume",
+      "time_s": 9.499999999999999e-05,
+      "wait_s": 0,
+      "before": "RESTORE",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    },
+    {
+      "event": "data",
+      "time_s": 9.599999999999999e-05,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 8,
+      "deadline_s": 9.499999999999999e-05
+    }
+  ],
+  "nominal_m4": [
+    {
+      "event": "data",
+      "time_s": 0,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 0.0
+    },
+    {
+      "event": "request",
+      "time_s": 0,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "PAUSE",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 0.0
+    },
+    {
+      "event": "ack",
+      "time_s": 1e-06,
+      "wait_s": 0,
+      "before": "PAUSE",
+      "after": "SWITCH_CAL",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 0.0
+    },
+    {
+      "event": "switch",
+      "time_s": 2e-06,
+      "wait_s": 3e-06,
+      "before": "SWITCH_CAL",
+      "after": "PROBE_SETTLE",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "settled",
+      "time_s": 5e-06,
+      "wait_s": 0,
+      "before": "PROBE_SETTLE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 0,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 1.4999999999999999e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 1,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 2.4999999999999998e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 2,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 3.5e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 3,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 4.4999999999999996e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 4,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 5.4999999999999995e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 5,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 6.5e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 6,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 7.5e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 7,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 8.499999999999999e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 8,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 9.499999999999999e-05,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 9,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.00010499999999999999,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 10,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.00011499999999999999,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 11,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000125,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 12,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000135,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 13,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000145,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 14,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000155,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 15,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000165,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 16,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000175,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 17,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000185,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 18,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000195,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 19,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000205,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 20,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000215,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 21,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000225,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 22,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000235,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 23,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000245,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 24,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.00025499999999999996,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 25,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000265,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 26,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.00027499999999999996,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 27,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000285,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 28,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.00029499999999999996,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 29,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000305,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 30,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.00031499999999999996,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 31,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "read",
+      "time_s": 0.000325,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "MEASURE",
+      "version": 1,
+      "readings": 32,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "solve",
+      "time_s": 0.000325,
+      "wait_s": 0,
+      "before": "MEASURE",
+      "after": "SOLVE",
+      "version": 1,
+      "readings": 32,
+      "deadline_s": 4.9999999999999996e-06
+    },
+    {
+      "event": "program",
+      "time_s": 0.000327,
+      "wait_s": 5e-06,
+      "before": "SOLVE",
+      "after": "DAC_SETTLE",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.000332
+    },
+    {
+      "event": "settled",
+      "time_s": 0.000332,
+      "wait_s": 0,
+      "before": "DAC_SETTLE",
+      "after": "SWITCH_RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.000332
+    },
+    {
+      "event": "switch",
+      "time_s": 0.00033299999999999996,
+      "wait_s": 2e-06,
+      "before": "SWITCH_RUN",
+      "after": "RESTORE",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "resume",
+      "time_s": 0.000335,
+      "wait_s": 0,
+      "before": "RESTORE",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    },
+    {
+      "event": "data",
+      "time_s": 0.000336,
+      "wait_s": 0,
+      "before": "RUN",
+      "after": "RUN",
+      "version": 2,
+      "readings": 32,
+      "deadline_s": 0.00033499999999999996
+    }
+  ],
+  "transition_matrix": [
+    {
+      "state": "RUN",
+      "event": "data",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "data",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "RUN",
+        "after": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "RUN",
+      "event": "request",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "request",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "RUN",
+        "after": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "RUN",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in RUN"
+    },
+    {
+      "state": "RUN",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in RUN"
+    },
+    {
+      "state": "RUN",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in RUN"
+    },
+    {
+      "state": "RUN",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in RUN"
+    },
+    {
+      "state": "RUN",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in RUN"
+    },
+    {
+      "state": "RUN",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in RUN"
+    },
+    {
+      "state": "RUN",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in RUN"
+    },
+    {
+      "state": "RUN",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "RUN",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "RUN",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in RUN"
+    },
+    {
+      "state": "PAUSE",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "ack",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "ack",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "PAUSE",
+        "after": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "PAUSE",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in PAUSE"
+    },
+    {
+      "state": "PAUSE",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "PAUSE",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "PAUSE",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in PAUSE"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "switch",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "switch",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "SWITCH_CAL",
+        "after": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 1.000005
+      }
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in SWITCH_CAL"
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "SWITCH_CAL",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "SWITCH_CAL",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_CAL",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in SWITCH_CAL"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "settled",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "settled",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "PROBE_SETTLE",
+        "after": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in PROBE_SETTLE"
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "PROBE_SETTLE",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "PROBE_SETTLE",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "PROBE_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in PROBE_SETTLE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in MEASURE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in MEASURE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in MEASURE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in MEASURE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in MEASURE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "read",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "read",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "MEASURE",
+        "after": "MEASURE",
+        "version": 1,
+        "readings": 1,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "MEASURE",
+      "event": "solve",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "solve",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "MEASURE",
+        "after": "SOLVE",
+        "version": 1,
+        "readings": 8,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "MEASURE",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in MEASURE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in MEASURE"
+    },
+    {
+      "state": "MEASURE",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "MEASURE",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "MEASURE",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in MEASURE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "program",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "program",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "SOLVE",
+        "after": "DAC_SETTLE",
+        "version": 2,
+        "readings": 0,
+        "deadline_s": 1.000005
+      }
+    },
+    {
+      "state": "SOLVE",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in SOLVE"
+    },
+    {
+      "state": "SOLVE",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "SOLVE",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "SOLVE",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in SOLVE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "settled",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "settled",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "DAC_SETTLE",
+        "after": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in DAC_SETTLE"
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "DAC_SETTLE",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "DAC_SETTLE",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in DAC_SETTLE"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "switch",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "switch",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "SWITCH_RUN",
+        "after": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 1.000005
+      }
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in SWITCH_RUN"
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "SWITCH_RUN",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "SWITCH_RUN",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "SWITCH_RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in SWITCH_RUN"
+    },
+    {
+      "state": "RESTORE",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in RESTORE"
+    },
+    {
+      "state": "RESTORE",
+      "event": "resume",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "resume",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "RESTORE",
+        "after": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "RESTORE",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "RESTORE",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "RESTORE",
+      "event": "reset",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event reset in RESTORE"
+    },
+    {
+      "state": "FAULT",
+      "event": "data",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "request",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event request in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "ack",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event ack in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "switch",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event switch in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "settled",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event settled in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "read",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event read in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "solve",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event solve in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "program",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "resume",
+      "accepted": false,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in FAULT"
+    },
+    {
+      "state": "FAULT",
+      "event": "fault",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "fault",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "FAULT",
+        "after": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    },
+    {
+      "state": "FAULT",
+      "event": "reset",
+      "accepted": true,
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "trace": {
+        "event": "reset",
+        "time_s": 1.0,
+        "wait_s": 5e-06,
+        "before": "FAULT",
+        "after": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline_s": 0.0
+      }
+    }
+  ],
+  "negative_attempts": [
+    {
+      "id": "program_during_run",
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "event": "program",
+      "time_s": 0,
+      "wait_s": 5e-06,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event program in RUN"
+    },
+    {
+      "id": "data_during_pause",
+      "initial": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "event": "data",
+      "time_s": 0,
+      "wait_s": 0,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "PAUSE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event data in PAUSE"
+    },
+    {
+      "id": "solve_after_seven",
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 7,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "event": "solve",
+      "time_s": 1,
+      "wait_s": 0,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 7,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "incomplete readings"
+    },
+    {
+      "id": "ninth_read",
+      "initial": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "event": "read",
+      "time_s": 1,
+      "wait_s": 0,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "MEASURE",
+        "version": 1,
+        "readings": 8,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "too many readings"
+    },
+    {
+      "id": "early_dac_completion",
+      "initial": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 5e-06,
+        "now": 0.0
+      },
+      "event": "settled",
+      "time_s": 4e-06,
+      "wait_s": 0,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "DAC_SETTLE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 5e-06,
+        "now": 0.0
+      },
+      "error": "premature completion"
+    },
+    {
+      "id": "short_dac_wait",
+      "initial": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "event": "program",
+      "time_s": 0,
+      "wait_s": 4e-06,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "SOLVE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "DAC candidate wait not scheduled"
+    },
+    {
+      "id": "early_restore",
+      "initial": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 5e-06,
+        "now": 0.0
+      },
+      "event": "resume",
+      "time_s": 4e-06,
+      "wait_s": 0,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "RESTORE",
+        "version": 1,
+        "readings": 0,
+        "deadline": 5e-06,
+        "now": 0.0
+      },
+      "error": "premature completion"
+    },
+    {
+      "id": "resume_from_fault",
+      "initial": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "event": "resume",
+      "time_s": 1,
+      "wait_s": 0,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "FAULT",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 0.0
+      },
+      "error": "illegal event resume in FAULT"
+    },
+    {
+      "id": "time_reversal",
+      "initial": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 2
+      },
+      "event": "request",
+      "time_s": 1,
+      "wait_s": 0,
+      "rejected": true,
+      "final": {
+        "averages": 1,
+        "state": "RUN",
+        "version": 1,
+        "readings": 0,
+        "deadline": 0.0,
+        "now": 2
+      },
+      "error": "time reversal"
+    }
+  ]
+}

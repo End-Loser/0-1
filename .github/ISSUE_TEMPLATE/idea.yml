@@ -1,0 +1,70 @@
+name: 提交想法、批评或反例
+description: 提交需要讨论、核验或证伪的问题、想法或反例
+labels:
+  - status:draft
+  - needs-info
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先阅读投稿与审核指南。提交不代表维护者认同观点，也不代表会自动公开。
+  - type: input
+    id: title_summary
+    attributes:
+      label: 标题与领域
+      description: 准确概括主题和所属领域。
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: 核心主张
+      description: 清楚说明想讨论、验证或证伪的内容，以及适用范围。
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 背景与动机
+      description: 为什么提出这个问题？解决什么困惑或问题？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 依据、来源与反例
+      description: 提供可核查的论文、数据、观察或链接，并说明可能不成立的条件。
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: 验证或证伪方法
+      description: 说明如何复现、测量、反驳或修正该主张。
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: 风险与边界
+      description: 说明隐私、合法性、安全、偏差、滥用风险或已知限制。
+    validations:
+      required: true
+  - type: input
+    id: attribution
+    attributes:
+      label: 作者与许可
+      description: 填写署名、来源以及希望采用的许可；第三方材料须获得授权。
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我确认未提交密钥、令牌、隐私数据或未经授权的内容。
+          required: true
+        - label: 我已区分事实、推断、猜测和观点。
+          required: true
+        - label: 我理解审核不是绝对真理或官方认证。
+          required: true

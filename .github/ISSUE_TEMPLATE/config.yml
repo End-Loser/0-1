@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安全、隐私或滥用风险
+    url: https://github.com/End-Loser/0-1/security
+    about: 查看安全说明，并优先使用 GitHub 的私密安全报告功能或与维护者私密沟通。
+  - name: 投稿与审核指南
+    url: https://github.com/End-Loser/0-1/blob/main/.github/CONTRIBUTING.md
+    about: 提交想法、反例或实验前请先阅读规则。
