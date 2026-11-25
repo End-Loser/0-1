@@ -1,0 +1,29 @@
+{
+  "task_id": "P01E",
+  "proposal_only": true,
+  "cardinality": "one_proposal_or_blocked_schema_gap",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "proposal_id",
+    "resource_cycle",
+    "realm_ladder",
+    "cross_modeling",
+    "growth_paths",
+    "injury_granularity",
+    "source_labels",
+    "conflict_register",
+    "approval_points",
+    "schema_gap_flags"
+  ],
+  "status_values": [
+    "PROPOSAL",
+    "APPROVED",
+    "REJECTED",
+    "BLOCKED_SCHEMA_GAP"
+  ],
+  "notes": [
+    "CultivationSystemProposal is a proposal, not WorldConstants; it becomes effective only after the P21A single-rule revision and project approval flow."
+  ]
+}

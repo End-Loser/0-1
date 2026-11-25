@@ -1,0 +1,91 @@
+{
+  "task_id": "P13B",
+  "cardinality": "one_scope_event_opportunity_plan",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "scope_ref",
+    "event_clusters",
+    "deferred_asset_phases",
+    "no_event_asset_phases",
+    "unassigned_confirmed_interactions"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "phase_values": [
+    "SETUP",
+    "REVEAL",
+    "PAYOFF"
+  ],
+  "event_cluster_fields": [
+    "cluster_id",
+    "target_chapter",
+    "driver_refs",
+    "asset_deployments",
+    "source_relationship_ids",
+    "shared_dramatic_question",
+    "shared_event_purpose",
+    "clustering_basis",
+    "time_window",
+    "location",
+    "primary_actors",
+    "core_action",
+    "expected_state_changes",
+    "initiating_force_or_condition"
+  ],
+  "asset_deployment_fields": [
+    "asset_id",
+    "phase",
+    "function_to_serve",
+    "payload_ceiling",
+    "dependency_refs",
+    "target_chapter"
+  ],
+  "phase_terminal_fields": [
+    "asset_id",
+    "phase",
+    "reason",
+    "revisit_condition"
+  ],
+  "invariants": [
+    "An asset may be deployed in multiple distinct event clusters only through different phases (e.g. SETUP in one, REVEAL in another, PAYOFF in a later one).",
+    "Within this scope, each required (asset_id, phase) pair appears exactly once across event_clusters, deferred_asset_phases and no_event_asset_phases.",
+    "A cluster may serve multiple assets only when one observable action/decision interaction preserves each deployment function and payload boundary.",
+    "A cluster can be relationship-driven without a StoryAsset only when it cites at least one P10 CAUSAL_INTERACTION_CONFIRMED relationship and has an actionable dramatic question.",
+    "Do not make one event per asset or one event per causal relationship. A cluster is an actual shared dramatic opportunity, not a bookkeeping bucket.",
+    "Same time/place/theme is insufficient for clustering; require shared core action, interacting choices and compatible state changes.",
+    "Do not reveal an asset payload before its release condition or reader-cognition contract allows it.",
+    "Do not create Events here; P13C plans participant decisions, P14A creates the Event.",
+    "Every asset deployment must have a matching driver_ref of kind ASSET_PHASE with ref asset_id:phase.",
+    "Every confirmed causal relationship must be assigned exactly once using the exact P10 candidate_ref: either to one cluster source_relationship_ids plus matching driver_ref, or to unassigned_confirmed_interactions with reason and revisit_condition.",
+    "A confirmed causal interaction may not be silently dropped, duplicated across clusters, or replaced with a thematic/co-occurrence reference.",
+    "Each expected state change must identify its target (BASE/DERIVED proposal/reader cognition/world state) and cite at least one driver_ref from this same cluster; do not emit uncited state deltas.",
+    "One event opportunity cluster corresponds to exactly one target chapter and one eventual R-06.2 Event.",
+    "An asset phase target_chapter must equal its cluster target_chapter and must copy the original StoryAsset phase chapter; P13B cannot silently reschedule assets.",
+    "A single cluster may carry multiple distinct phases of the same asset only when their original StoryAsset target chapters are identical to the cluster target_chapter and one observable action sequence genuinely fulfills each distinct phase without violating payload ceilings; duplicate (asset_id, phase) remains forbidden."
+  ],
+  "assignment_rule": "Exactly one assignment per required (asset_id, phase) pair in a scope. The same asset may be deployed in multiple event clusters only through different phases (SETUP, REVEAL, PAYOFF). Repeated instances of the same phase are not supported by this contract version. Each cluster has one target_chapter; every deployment target_chapter must equal it and must match the original StoryAsset chapter for that phase.",
+  "driver_ref_values": [
+    "ASSET_PHASE",
+    "CONFIRMED_CAUSAL_INTERACTION"
+  ],
+  "no_event_rule": "Every event cluster must have at least one driver_ref; an empty or atmosphere-only cluster is invalid.",
+  "notes": [
+    "P13B may run when there are no selected assets if confirmed causal interaction candidates exist.",
+    "If there are neither selected assets nor confirmed causal interactions, host records NOT_APPLICABLE without an LLM call."
+  ],
+  "payload_model": "EventOpportunityPlan",
+  "payload_schema": "schemas/EVENT_OPPORTUNITY_PLAN_SCHEMA.json",
+  "expected_state_change_fields": [
+    "target_kind",
+    "target_ref",
+    "change_intent",
+    "cause_driver_refs"
+  ]
+}

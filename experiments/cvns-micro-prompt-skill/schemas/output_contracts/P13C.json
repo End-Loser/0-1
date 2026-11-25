@@ -1,0 +1,27 @@
+{
+  "task_id": "P13C",
+  "payload_model": "EventDecisionPlan",
+  "payload_schema": "schemas/EVENT_DECISION_PLAN_SCHEMA.json",
+  "cardinality": "one_event_opportunity_cluster",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "cluster_id",
+    "decision",
+    "actor_decisions",
+    "unresolved_gaps"
+  ],
+  "decision_values": [
+    "READY",
+    "CONDITIONAL",
+    "BLOCKED",
+    "NO_AGENT_DECISION_REQUIRED"
+  ],
+  "notes": [
+    "One call per opportunity cluster, not one call per actor.",
+    "Only primary agents who make consequential choices are included.",
+    "P14A consumes this read-only plan; P13C does not generate Event.",
+    "If preflight is NOT_APPLICABLE, the host—not an LLM—must materialize a terminal EventDecisionPlan with an empty actor_decisions array and the exact cluster_id."
+  ]
+}

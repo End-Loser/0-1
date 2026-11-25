@@ -1,0 +1,23 @@
+{
+  "task_id": "P05B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "entity_id",
+    "narrative_function",
+    "theme_role",
+    "genre_role",
+    "reader_effect",
+    "removal_test",
+    "non_directives"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

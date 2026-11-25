@@ -19,3 +19,4 @@
 ## 当前状态
 
 - [EWC 电磁波计算实验（计算与仿真验证）](ewc-electromagnetic-wave-computing.md) —— `status:experiment`
+- [CVNS R-06.2 小说写作 Skill v1.7.0：设计、代码与问题记录](cvns-micro-prompt-skill.md) —— `status:experiment`

@@ -1,0 +1,23 @@
+{
+  "task_id": "P08",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "payload_schema": "schemas/RHYTHM_INTENT_SCHEMA.json",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "chapter",
+    "rhythm_type",
+    "span",
+    "precision",
+    "target_anchor",
+    "unknowns"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

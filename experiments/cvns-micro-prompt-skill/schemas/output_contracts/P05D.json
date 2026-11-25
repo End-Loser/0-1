@@ -1,0 +1,22 @@
+{
+  "task_id": "P05D",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "curve_id",
+    "stages",
+    "emotion_trend",
+    "contrast",
+    "release_points",
+    "assumptions"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

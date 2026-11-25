@@ -1,0 +1,67 @@
+{
+  "task_id": "P19D",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "event_id",
+    "preconditions",
+    "actor_knowledge",
+    "available_resources",
+    "causal_findings",
+    "decision",
+    "conditional_items"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "PASS",
+    "CONDITIONAL_PASS",
+    "REVISE",
+    "BLOCKED",
+    "NOT_APPLICABLE"
+  ],
+  "required_inputs": [
+    "Event",
+    "preceding_events",
+    "participant_state_snapshots",
+    "planned_transition_nodes",
+    "EventDecisionPlan",
+    "decision_profile_refs"
+  ],
+  "planning_boundary": "Check source-node chapter/seq and observable planned carriers for reader obligations. Absence of prose alone is not a failed design precondition; missing carriers and genuine causal gaps still require findings. Rendered fidelity belongs to P19D2; never relabel old CONDITIONAL_PASS outputs.",
+  "field_shapes": {
+    "causal_findings": {
+      "type": "array",
+      "item_required_fields": ["finding_id", "result", "blocking", "detail", "evidence_refs"],
+      "item_field_enums": {
+        "result": ["PASS", "NOTE", "NOT_APPLICABLE", "CONDITIONAL", "REVISE", "BLOCKED"]
+      }
+    },
+    "conditional_items": {
+      "type": "array",
+      "item_required_fields": ["condition_id", "finding_id", "condition_type", "owner_stage", "target_ref", "event_action_indices", "required_action"],
+      "item_field_enums": {
+        "condition_type": ["READER_BEAT_EMBODIMENT"],
+        "owner_stage": ["P15A"]
+      }
+    }
+  },
+  "conditional_gate": "Only nonblocking READER_BEAT_EMBODIMENT obligations owned by P15A may continue: bind an existing READER_COGNITION target_ref to zero-based indices of existing observable Event.actions. Each CONDITIONAL finding has exactly one item. Existing unknowns outside the current action prerequisites may be NOTE with explicit retained limits, not unaccounted CONDITIONAL findings. Genuine causal/knowledge/resource gaps remain REVISE/BLOCKED; no provisional BASE node is an already-known event-start fact. PASS uses an empty conditional_items array.",
+  "audit_dimensions": [
+    "decision_traceability",
+    "character_tendency_consistency",
+    "knowledge_boundary",
+    "opponent_independent_agency",
+    "alternative_rejection_logic",
+    "cause_to_effect_state_delta",
+    "profile_deviation_with_arc_evidence",
+    "tendency_used_as_preference_not_rule"
+  ]
+}

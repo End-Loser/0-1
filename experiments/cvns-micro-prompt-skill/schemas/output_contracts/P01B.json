@@ -1,0 +1,10 @@
+{
+  "task_id": "P01B",
+  "payload_model": "MechanismRuleDraft",
+  "payload_schema": "schemas/MECHANISM_RULE_SCHEMA.json",
+  "cardinality": "one_rule",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "notes": [
+    "MechanismRuleDraft is a Skill-level canonical artifact; uploaded data_models.py has WorldConstants.rule_interfaces but no MechanismRule Pydantic class. Persist the rule ledger separately; do not claim direct Pydantic compatibility."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TaskPreflightDecision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "task_id",
+    "decision",
+    "reason",
+    "evidence",
+    "checked_at_utc",
+    "note"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "SKIP",
+        "BLOCKED",
+        "NOT_APPLICABLE",
+        "NEEDS_HOST_CHECK"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object"
+    },
+    "input_pack_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "checked_at_utc": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "task_id": "P05E",
+  "payload_model": "CharacterDecisionProfile",
+  "payload_schema": "schemas/CHARACTER_DECISION_PROFILE_SCHEMA.json",
+  "cardinality": "one_decision_capable_entity",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "entity_id",
+    "actor_class",
+    "stable_tendencies",
+    "value_priorities",
+    "decision_patterns",
+    "blind_spots",
+    "evidence_refs",
+    "unknowns"
+  ],
+  "terminal_status_values": [
+    "NOT_APPLICABLE",
+    "INSUFFICIENT_BASIS"
+  ],
+  "notes": [
+    "Not a BASE line and not a new dimension.",
+    "Generate only for CORE/MAJOR or consequential SUPPORTING agents with a real downstream decision consumer."
+  ]
+}

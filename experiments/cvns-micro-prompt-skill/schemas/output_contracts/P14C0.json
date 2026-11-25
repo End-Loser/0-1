@@ -1,0 +1,61 @@
+{
+  "task_id": "P14C0",
+  "cardinality": "one_chapter_event_ownership_plan",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "chapter",
+    "event_units",
+    "excluded_source_events",
+    "merge_groups",
+    "node_owners",
+    "required_state_nodes",
+    "blocking_conflicts",
+    "decision"
+  ],
+  "decision_values": [
+    "OWNERSHIP_RESOLVED",
+    "BLOCKED",
+    "NO_EVENTS"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "invariants": [
+    "Every source event must be represented exactly once in an event_unit or an explicit approved exclusion.",
+    "Every event_unit has a unique unit_id, one or more source_event_ids, and a canonical_event conforming to EVENT_MODEL_SCHEMA.",
+    "Each BASE state-change node has at most one owning event unit per chapter; node_owners must exactly match event_units.owned_state_nodes.",
+    "Merged units preserve all source_event_ids and require a new derived Event ID.",
+    "An excluded source event requires a non-empty reason and approved=true; exclusions are not silent drops."
+  ],
+  "event_unit_item_fields": [
+    "unit_id",
+    "source_event_ids",
+    "canonical_event",
+    "owned_state_nodes",
+    "decision_plan_refs",
+    "asset_phase_refs",
+    "source_relationship_ids"
+  ],
+  "canonical_event_schema": "schemas/EVENT_MODEL_SCHEMA.json",
+  "excluded_source_event_fields": [
+    "source_event_id",
+    "reason",
+    "approved"
+  ],
+  "node_owner_fields": [
+    "node_id",
+    "unit_id"
+  ],
+  "provenance_rules": [
+    "Every source Event must carry one P13C EventDecisionPlan or host-authored NO_AGENT_DECISION_REQUIRED receipt ref in its Artifact Envelope; event_units aggregate these refs without putting custom fields into canonical_event.",
+    "Every asset phase referenced by a source Event must appear in event_units.asset_phase_refs as {asset_id, phase, target_chapter, source_opportunity_plan_ref}; preserve all mappings on merge.",
+    "All P10 confirmed causal relationship candidate_refs consumed by source Events must be preserved in source_relationship_ids; no relationship is lost on merge.",
+    "Merging is invalid if it drops a unique decision plan, asset phase, relationship, or independent actor choice."
+  ]
+}

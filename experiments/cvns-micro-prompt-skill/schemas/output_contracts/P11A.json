@@ -1,0 +1,13 @@
+{
+  "task_id": "P11A",
+  "cardinality": "one_conflict_candidate_set",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "payload_model": "ConflictExplanationCandidates",
+  "payload_schema": "schemas/CONFLICT_EXPLANATION_SCHEMA.json",
+  "required_fields": ["artifact_id", "task_id", "status", "source_candidate_ref", "source_decision_ref", "source_refs", "source_claim_refs", "hypotheses"],
+  "notes": [
+    "All hypotheses remain proposals. Include a MINIMAL_REPAIR comparator; one comparator alone is valid when no substantive creative explanation is available.",
+    "Cover every source claim exactly once per hypothesis; no silent state or world-rule rewrite.",
+    "The host supplies source_claim_refs from original evidence, not from a candidate's invented claim list."
+  ]
+}

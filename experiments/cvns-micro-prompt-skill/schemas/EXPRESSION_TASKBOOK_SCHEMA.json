@@ -1,0 +1,39 @@
+{
+  "model": "ExpressionTaskEntry",
+  "description": "One row in the global ExpressionTaskBook; fields match R-06.2 data_models.py.",
+  "required_fields": [
+    "entity_id",
+    "dimension",
+    "theme_role",
+    "emotion_curve",
+    "structural_function",
+    "purpose_contract",
+    "withholding_intents",
+    "skip_generation"
+  ],
+  "purpose_contract_fields": [
+    "narrative_need",
+    "necessity_reason",
+    "expected_effects",
+    "dependencies",
+    "acceptance_criteria",
+    "removal_test"
+  ],
+  "withholding_intent_fields": [
+    "payload",
+    "constituent_elements",
+    "release_mode",
+    "release_chapter",
+    "release_event_anchor",
+    "prerequisite_entry_ids"
+  ],
+  "release_mode_values": [
+    "章粒度",
+    "语义事件锚"
+  ],
+  "notes": [
+    "purpose_contract may be null only where skip_generation=true; active entries require a complete contract.",
+    "章粒度 requires release_chapter; 语义事件锚 requires release_event_anchor.",
+    "release_event_anchor cannot use beat coordinates; chapter/beat mapping is performed after outline beat IDs exist."
+  ]
+}

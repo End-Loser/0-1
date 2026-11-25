@@ -1,0 +1,23 @@
+{
+  "task_id": "P11",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "conflict_id",
+    "repair_options",
+    "recommended_option",
+    "modified_source_refs",
+    "affected_dependencies",
+    "risks",
+    "approval_points"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "task_id": "P10",
+  "cardinality": "one_relationship_candidate",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "required_fields": [
+    "candidate_ref",
+    "candidate_kind",
+    "decision",
+    "evidence_refs",
+    "time_alignment_basis",
+    "reason"
+  ],
+  "decision_values": [
+    "TENSION_ASSET_CANDIDATE",
+    "MUTUALLY_EXCLUSIVE_ERROR",
+    "CAUSAL_INTERACTION_CONFIRMED",
+    "PENDING_EVIDENCE",
+    "NO_MATERIAL_RELATION"
+  ],
+  "notes": [
+    "A confirmed causal interaction is a typed relationship finding, not a Conflict Pydantic object.",
+    "Do not turn correlation, co-occurrence, thematic resonance or psychological ambivalence into a causal edge.",
+    "MUTUALLY_EXCLUSIVE_ERROR means incompatible under the current approved rules. P11A explores explanations; no unresolved error directly enters P12.",
+    "After an approved revision, run a fresh P09/P10. Keep the original candidate_ref in the resolution manifest, not by relabeling the original finding."
+  ],
+  "payload_model": "RelationshipDecision",
+  "conditional_fields": {
+    "TENSION_ASSET_CANDIDATE": [
+      "coexistence_basis",
+      "choice_or_cost_created"
+    ],
+    "MUTUALLY_EXCLUSIVE_ERROR": [
+      "mutual_exclusion_rule",
+      "repair_required"
+    ],
+    "CAUSAL_INTERACTION_CONFIRMED": [
+      "source_line_id",
+      "source_node_id",
+      "target_line_id",
+      "target_node_id",
+      "causal_direction",
+      "causal_path",
+      "temporal_order_basis",
+      "effect_node_refs"
+    ],
+    "PENDING_EVIDENCE": [
+      "missing_evidence",
+      "recheck_condition"
+    ]
+  },
+  "routing": {
+    "TENSION_ASSET_CANDIDATE": "P12",
+    "MUTUALLY_EXCLUSIVE_ERROR": "P11A",
+    "CAUSAL_INTERACTION_CONFIRMED": "P13B",
+    "PENDING_EVIDENCE": "hold_for_evidence",
+    "NO_MATERIAL_RELATION": "terminal"
+  },
+  "candidate_kind_values": [
+    "CONFLICT",
+    "CAUSAL_INTERACTION"
+  ],
+  "candidate_identity_rule": "candidate_ref must be the host-canonicalized P09 candidate reference and must be copied exactly; no downstream stage may replace it.",
+  "explanation_fallback": "P11 when explanation exploration is explicitly declined, P11B=REPAIR_REQUIRED or no acceptable creative hypothesis exists; PENDING_EVIDENCE needs explicit exploration authorization.",
+  "temporal_rule": "seq is local to each line, not a shared clock. Different entities' seq values alone cannot prove temporal order; require an explicit prerequisite/causal path or shared time evidence. effect_node_refs must include the target_node_id.",
+  "causal_requirements": [
+    "source_line_id",
+    "source_node_id",
+    "target_line_id",
+    "target_node_id",
+    "causal_direction",
+    "causal_path",
+    "temporal_order_basis",
+    "evidence_refs"
+  ]
+}

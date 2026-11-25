@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LineLifecycleDecision",
+  "type": "object",
+  "required": ["line_id", "decision", "effective_chapter", "effective_seq", "cause_ref", "previous_status", "new_status", "dependency_refs", "reason", "successor_line"],
+  "properties": {
+    "line_id": {"type": "string", "minLength": 1},
+    "decision": {"enum": ["TERMINATE", "TRANSFER", "UPGRADE"]},
+    "effective_chapter": {"type": "integer", "minimum": 1},
+    "effective_seq": {"type": "integer", "minimum": 0},
+    "cause_ref": {"type": "string", "minLength": 1},
+    "previous_status": {"const": "active"},
+    "new_status": {"enum": ["terminated", "transferred", "upgraded"]},
+    "dependency_refs": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "reason": {"type": "string", "minLength": 1},
+    "successor_line": {"type": ["object", "null"]}
+  },
+  "additionalProperties": false
+}

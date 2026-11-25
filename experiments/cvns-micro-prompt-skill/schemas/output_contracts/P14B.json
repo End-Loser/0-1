@@ -1,0 +1,57 @@
+{
+  "task_id": "P14B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "event_id",
+    "decision",
+    "condition_checks",
+    "blocked_reasons",
+    "evidence_refs"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "FEASIBLE",
+    "FEASIBLE_WITH_CONDITIONS",
+    "BLOCKED",
+    "UNASSESSED"
+  ],
+  "field_shapes": {
+    "blocked_reasons": {
+      "type": "array",
+      "item_required_fields": [
+        "code",
+        "severity",
+        "blocks_event",
+        "description",
+        "evidence_refs"
+      ]
+    },
+    "condition_checks": {
+      "type": "array",
+      "item_required_fields": [
+        "condition_id",
+        "result",
+        "evidence_refs"
+      ]
+    }
+  },
+  "required_inputs": [
+    "Event",
+    "EventDecisionPlan_or_NO_AGENT_DECISION_REQUIRED",
+    "participant_state_snapshots",
+    "WorldConstants_refs"
+  ],
+  "invariants": [
+    "Check each selected action against actor knowledge, capability, resources, location, time and rules.",
+    "A decision profile is a behavioral tendency, not proof of physical feasibility or a world rule."
+  ]
+}

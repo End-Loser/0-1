@@ -1,0 +1,21 @@
+{
+  "task_id": "P19C",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "chapter",
+    "entity_id",
+    "state_checks",
+    "source_quotes",
+    "findings"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

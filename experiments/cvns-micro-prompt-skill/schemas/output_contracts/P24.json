@@ -1,0 +1,22 @@
+{
+  "task_id": "P24",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "project_scale",
+    "full_line_range",
+    "active_line_range",
+    "chapter_information_risk",
+    "assumptions",
+    "test_plan"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

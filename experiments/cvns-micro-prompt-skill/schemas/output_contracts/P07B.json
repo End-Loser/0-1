@@ -1,0 +1,36 @@
+{
+  "task_id": "P07B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "line_id",
+    "valid_interval",
+    "source_refs",
+    "missing_change_candidates",
+    "blocking_findings",
+    "decision",
+    "findings"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "PASS",
+    "REVIEW",
+    "CONFIRMED_MISSING",
+    "NOT_YET_VERIFIABLE"
+  ],
+  "decision_rule": "Judge coverage of this dimension over valid_interval, not whether future plans have happened. List blocking_findings only for a source-backed opening mismatch, confirmed missing in-scope change, or a required source genuinely absent. With adequate opening sources and no such blocker, use PASS; unrelated historical unknowns and proposed future status stay informational. REVIEW must identify a concrete in-scope blocker, not merely annotate planning status.",
+  "field_shapes": {
+    "blocking_findings": {
+      "type": "array",
+      "item_required_fields": ["issue", "source_ref", "affected_node_or_interval"]
+    }
+  }
+}

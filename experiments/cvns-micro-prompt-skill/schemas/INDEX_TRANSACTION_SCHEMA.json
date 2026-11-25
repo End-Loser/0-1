@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HostCanonTransaction",
+  "type": "object",
+  "required": ["operation", "tx_id", "project_id", "chapter", "canon_id", "new_version", "expected_index_sha256", "canon", "approval"],
+  "oneOf": [
+    {
+      "properties": {"operation": {"const": "ACK_EXECUTE"}},
+      "required": ["ack_id", "prose", "review", "ship"],
+      "not": {"anyOf": [{"required": ["candidate"]}, {"required": ["input_pack"]}, {"required": ["registration_context"]}, {"required": ["lifecycle_review"]}]}
+    },
+    {
+      "properties": {"operation": {"enum": ["DERIVED_REGISTER", "ACK_REGISTER"]}},
+      "required": ["candidate", "input_pack", "registration_context"],
+      "not": {"anyOf": [{"required": ["ack_id"]}, {"required": ["prose"]}, {"required": ["review"]}, {"required": ["ship"]}, {"required": ["lifecycle_review"]}]}
+    },
+    {
+      "properties": {"operation": {"const": "LIFECYCLE_APPLY"}},
+      "required": ["candidate", "input_pack", "registration_context", "lifecycle_review"],
+      "not": {"anyOf": [{"required": ["ack_id"]}, {"required": ["prose"]}, {"required": ["review"]}, {"required": ["ship"]}]}
+    }
+  ],
+  "properties": {
+    "operation": {"enum": ["ACK_EXECUTE", "DERIVED_REGISTER", "ACK_REGISTER", "LIFECYCLE_APPLY"]},
+    "tx_id": {"type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"},
+    "project_id": {"type": "string", "minLength": 1},
+    "chapter": {"type": "integer", "minimum": 1},
+    "canon_id": {"type": "string", "minLength": 1},
+    "new_version": {"type": "string", "minLength": 1},
+    "expected_index_sha256": {"$ref": "#/$defs/hash"},
+    "canon": {"$ref": "#/$defs/binding"},
+    "ack_id": {"type": "string", "minLength": 1},
+    "prose": {"$ref": "#/$defs/binding"},
+    "review": {"$ref": "#/$defs/binding"},
+    "ship": {"$ref": "#/$defs/binding"},
+    "candidate": {"$ref": "#/$defs/binding"},
+    "input_pack": {"$ref": "#/$defs/binding"},
+    "registration_context": {"$ref": "#/$defs/binding"},
+    "lifecycle_review": {"$ref": "#/$defs/binding"},
+    "approval": {"$ref": "#/$defs/binding"},
+    "base_lines": {"type": "array", "items": {"$ref": "#/$defs/binding"}}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "binding": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"$ref": "#/$defs/hash"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

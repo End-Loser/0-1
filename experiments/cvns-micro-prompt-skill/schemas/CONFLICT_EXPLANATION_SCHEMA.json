@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConflictExplanationCandidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["artifact_id", "task_id", "status", "source_candidate_ref", "source_decision_ref", "source_refs", "source_claim_refs", "hypotheses"],
+  "properties": {
+    "artifact_id": {"type": "string", "minLength": 1},
+    "task_id": {"const": "P11A"},
+    "status": {"enum": ["DRAFT", "REVIEW", "VALIDATED", "FROZEN"]},
+    "source_candidate_ref": {"type": "string", "minLength": 1},
+    "source_decision_ref": {"type": "string", "minLength": 1},
+    "source_refs": {"$ref": "#/$defs/refs"},
+    "source_claim_refs": {"$ref": "#/$defs/refs"},
+    "hypotheses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["hypothesis_id", "kind", "explanation", "claim_treatments", "rule_requirements", "assumptions", "boundaries", "causal_chain", "cross_line_effects", "reader_clues", "narrative_gain", "source_refs"],
+        "properties": {
+          "hypothesis_id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["EXISTING_RULE", "NEW_MECHANISM", "KNOWLEDGE_REINTERPRETATION", "TEMPORAL_RECONCILIATION", "MINIMAL_REPAIR"]},
+          "explanation": {"type": "string", "minLength": 1},
+          "claim_treatments": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["claim_ref", "treatment", "reason"],
+              "properties": {
+                "claim_ref": {"type": "string", "minLength": 1},
+                "treatment": {"enum": ["PRESERVED", "REINTERPRETED", "REVISED"]},
+                "reason": {"type": "string", "minLength": 1}
+              }
+            }
+          },
+          "rule_requirements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["kind", "rule_ref", "requirement"],
+              "properties": {
+                "kind": {"enum": ["EXISTING", "NEW", "REVISED"]},
+                "rule_ref": {"type": "string", "minLength": 1},
+                "requirement": {"type": "string", "minLength": 1}
+              }
+            }
+          },
+          "assumptions": {"type": "array", "items": {"type": "string", "minLength": 1}},
+          "boundaries": {"$ref": "#/$defs/refs"},
+          "causal_chain": {"$ref": "#/$defs/refs"},
+          "cross_line_effects": {"$ref": "#/$defs/refs"},
+          "reader_clues": {"$ref": "#/$defs/refs"},
+          "narrative_gain": {"type": "string", "minLength": 1},
+          "source_refs": {"$ref": "#/$defs/refs"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "refs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  }
+}

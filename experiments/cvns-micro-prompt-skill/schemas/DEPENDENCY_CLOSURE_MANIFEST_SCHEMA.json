@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DependencyClosureManifest",
+  "type": "object",
+  "required": [
+    "chapter",
+    "items",
+    "required_ref_ids",
+    "resolved_ref_ids",
+    "complete"
+  ],
+  "properties": {
+    "chapter": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "version",
+          "sha256",
+          "reason_included",
+          "consumer_task"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "reason_included": {
+            "type": "string"
+          },
+          "consumer_task": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "required_ref_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "resolved_ref_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "complete": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

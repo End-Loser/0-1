@@ -1,0 +1,55 @@
+{
+  "task_id": "P17A",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "event_id",
+    "decision",
+    "precondition_checks",
+    "blockers",
+    "evidence_refs"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "READY",
+    "CONDITIONAL_READY",
+    "BLOCKED",
+    "NOT_RUN",
+    "NOT_APPLICABLE"
+  ],
+  "field_shapes": {
+    "blockers": {
+      "type": "array",
+      "item_required_fields": [
+        "code",
+        "severity",
+        "blocking",
+        "description",
+        "evidence_refs"
+      ]
+    },
+    "precondition_checks": {
+      "type": "array",
+      "item_required_fields": [
+        "condition_id",
+        "result",
+        "evidence_refs"
+      ]
+    }
+  },
+  "required_inputs": [
+    "Event",
+    "EventDecisionPlan_or_NO_AGENT_DECISION_REQUIRED",
+    "participant_state_snapshots",
+    "WorldConstants_refs"
+  ],
+  "decision_gate": "Only READY or CONDITIONAL_READY events proceed to P14C0."
+}

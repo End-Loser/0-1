@@ -1,0 +1,12 @@
+﻿dimension,type_class,state_format,node_semantics,runtime_note
+power,ladder,{level} | {condition},只在力量等级或 condition 实际变化时设节点；不规定单调上升。,VariableType.power；TIME 不得替代本维度。
+location,venue_migration,{place} | {sub_location} | {condition},只在 place/sub_location/condition 的承重变化时设节点；不能把计划前往当作已到达。,VariableType.location；场馆覆盖按 sub_location 注册名逐拍核对。
+existence,ladder,{status} | {detail},死亡必须有致死事件；dead 后续状态不得继续按活人行动。受伤、疲劳、恢复必须有相应因果。,设计书称6种中间态，旧 variable_prompts.py 对应 injury/fatigue/recovery/dead/missing/departed；采用这六类加 alive 基线。
+skill,event_driven,技能名: 熟练度 (condition) | latent: 潜在能力,新增、进化、失效、废弃、恢复等真实变化才设节点；不制造固定升级频率。,VariableType.skill；原 ActionPackGenerator 合并 skill/item/faction 是实现偏差，Skill 提示词仍分线。
+item,event_driven,物品名: 品质 (condition),取得、移交、消耗、遗失、损坏、修复等变化必须有来源事件；不得重复持有或无交接瞬移。,VariableType.item；关键物件单源化后不得同时在 BASE 与 DERIVED 双写。
+faction,ladder,{affiliation} | {rank} | {standing},仅在加入、离开、被逐、晋升、降级或立场发生真实变化时设节点。,VariableType.faction。
+relation,event_driven,{target}→{status}({subtext}) | ...,每个变化节点给出该时点全部持续重要关系；同场不自动产生亲密、敌对或秘密。,VariableType.relation；共享客观关系变化需有同一事件引用，双方主观态度仍可不同。
+goal,ladder,{surface} | {deep},目标可长期稳定、分化、收缩、放弃或转向；只在实际改变时设节点。,VariableType.goal。
+desire,ladder,{core} | {conflict},欲望可能稳定、变化或自我修正；变化必须来自经历/选择，不能按成长模板推进。,VariableType.desire；DesireSpec sidecar 不等同完整 BASE 线，见运行时差异登记。
+cognition,event_driven,{stage} | {belief} | {mood},认知变化必须有事件、证据或选择触发；旧认知历史保留，后续修订引用新证据。,VariableType.cognition；旧 variable_prompts.py 使用1–10阶段，但以本项目登记标度为准。
+charm,ladder,{source} | {phase} | {condition},魅力可增长、停滞、反复、衰减或被重新评价；只在实际变化时设节点。,VariableType.charm；读者吸引表现不可替代真实读者反馈。

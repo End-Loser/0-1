@@ -1,0 +1,29 @@
+{
+  "task_id": "P15A",
+  "payload_model": "ChapterOutline",
+  "payload_schema": "schemas/CHAPTER_OUTLINE_SCHEMA.json",
+  "cardinality": "one_chapter",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "source_model": "data_models.py::ChapterOutline + OutlineBeat",
+  "note": "最终 beat_id 由 chapter_composer 确定性发放；LLM 不得自行铸造全局 ID。",
+  "required_inputs": [
+    "approved_chapter_event_sequence",
+    "variable_snapshots",
+    "NarrativeLens",
+    "chapter_location_plan",
+    "P13B_asset_phase_bindings_for_chapter",
+    "asset_payload_ceilings_and_reveal_conditions",
+    "P13C_decision_plan_refs_via_event_envelopes"
+  ],
+  "invariants": [
+    "Each active asset phase assigned to this chapter must appear in ChapterOutline.active_assets with the original asset ID and the source phase action.",
+    "A REVEAL payload may only be placed at/after its approved release beat; no reveal payload is created by the composer.",
+    "Beat payload used for reader-cognition derivation must be traceable to the approved asset phase or event evidence.",
+    "Preserve independently motivated actor actions represented by the approved Event; do not collapse opponent choice into protagonist narration."
+  ],
+  "reader_cognition_mapping": [
+    "Consume Event.causal_links where target_kind=READER_COGNITION as reveal obligations.",
+    "Map those obligations to authorized OutlineBeat payload and required_elements.",
+    "ReaderCognition remains a derived plan artifact from approved reveal beats; it is not participant knowledge_changes."
+  ]
+}

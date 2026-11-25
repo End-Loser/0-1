@@ -1,0 +1,55 @@
+{
+  "title": "AckNode",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "target_chapter"
+  ],
+  "source_model": "R-06.2 data_models.py::AckNode",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "broken_vow",
+        "change",
+        "reveal",
+        "termination"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pre-registered",
+        "executed",
+        "cancelled"
+      ],
+      "default": "pre-registered"
+    },
+    "target_chapter": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "related_lines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ack_ref": {
+      "type": "string"
+    },
+    "obligations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scene_pressure": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EventOpportunityPlan",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "scope_ref",
+    "event_clusters",
+    "deferred_asset_phases",
+    "no_event_asset_phases",
+    "unassigned_confirmed_interactions"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string"
+    },
+    "task_id": {
+      "const": "P13B"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "REVIEW",
+        "VALIDATED",
+        "FROZEN",
+        "REJECTED"
+      ]
+    },
+    "scope_ref": {
+      "type": "string"
+    },
+    "event_clusters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "cluster_id",
+          "target_chapter",
+          "driver_refs",
+          "asset_deployments",
+          "source_relationship_ids",
+          "shared_dramatic_question",
+          "shared_event_purpose",
+          "clustering_basis",
+          "time_window",
+          "location",
+          "primary_actors",
+          "core_action",
+          "expected_state_changes",
+          "initiating_force_or_condition"
+        ],
+        "properties": {
+          "cluster_id": {
+            "type": "string"
+          },
+          "driver_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "kind",
+                "ref"
+              ],
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "ASSET_PHASE",
+                    "CONFIRMED_CAUSAL_INTERACTION"
+                  ]
+                },
+                "ref": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "asset_deployments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "asset_id",
+                "phase",
+                "function_to_serve",
+                "payload_ceiling",
+                "dependency_refs",
+                "target_chapter"
+              ],
+              "properties": {
+                "asset_id": {
+                  "type": "string"
+                },
+                "phase": {
+                  "enum": [
+                    "SETUP",
+                    "REVEAL",
+                    "PAYOFF"
+                  ]
+                },
+                "function_to_serve": {
+                  "type": "string"
+                },
+                "payload_ceiling": {
+                  "type": "string"
+                },
+                "dependency_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "target_chapter": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "source_relationship_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "shared_dramatic_question": {
+            "type": "string"
+          },
+          "shared_event_purpose": {
+            "type": "string"
+          },
+          "clustering_basis": {
+            "type": "string"
+          },
+          "time_window": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "primary_actors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "entity_id",
+                "role",
+                "decision_required",
+                "profile_required"
+              ],
+              "properties": {
+                "entity_id": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string"
+                },
+                "decision_required": {
+                  "type": "boolean"
+                },
+                "profile_required": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "initiating_force_or_condition": {
+            "type": "string"
+          },
+          "core_action": {
+            "type": "string"
+          },
+          "expected_state_changes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "target_kind",
+                "target_ref",
+                "change_intent",
+                "cause_driver_refs"
+              ],
+              "properties": {
+                "target_kind": {
+                  "enum": [
+                    "BASE_LINE",
+                    "DERIVED_LINE_PROPOSAL",
+                    "READER_COGNITION",
+                    "WORLD_STATE"
+                  ]
+                },
+                "target_ref": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "change_intent": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "cause_driver_refs": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "kind",
+                      "ref"
+                    ],
+                    "properties": {
+                      "kind": {
+                        "enum": [
+                          "ASSET_PHASE",
+                          "CONFIRMED_CAUSAL_INTERACTION"
+                        ]
+                      },
+                      "ref": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "unresolved": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "target_chapter": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "deferred_asset_phases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "phase",
+          "reason",
+          "revisit_condition"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": "string"
+          },
+          "phase": {
+            "enum": [
+              "SETUP",
+              "REVEAL",
+              "PAYOFF"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "revisit_condition": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "no_event_asset_phases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "phase",
+          "reason",
+          "revisit_condition"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": "string"
+          },
+          "phase": {
+            "enum": [
+              "SETUP",
+              "REVEAL",
+              "PAYOFF"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "revisit_condition": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "unassigned_confirmed_interactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "relationship_id",
+          "reason",
+          "revisit_condition"
+        ],
+        "properties": {
+          "relationship_id": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "revisit_condition": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "decision_summary": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

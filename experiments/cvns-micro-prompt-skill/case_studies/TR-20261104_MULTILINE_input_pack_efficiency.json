@@ -1,0 +1,2728 @@
+{
+  "run_root": "/mnt/data/multiline_review/TR-20261104-MULTILINE",
+  "pack_count": 73,
+  "total_bytes": 4536162,
+  "total_mib": 4.326,
+  "warn_threshold_kb": 200,
+  "exception_threshold_kb": 300,
+  "oversize_packs": [
+    {
+      "pack": "P14C_chapter6_input_pack.json",
+      "bytes": 234127,
+      "kb": 228.6,
+      "status": "OVERSIZE_REVIEW"
+    },
+    {
+      "pack": "P17C_chapter6_input_pack.json",
+      "bytes": 452981,
+      "kb": 442.4,
+      "status": "EXCEPTION_REQUIRED"
+    },
+    {
+      "pack": "P18_chapter6_input_pack.json",
+      "bytes": 516249,
+      "kb": 504.1,
+      "status": "EXCEPTION_REQUIRED"
+    },
+    {
+      "pack": "WRITER_PACK_chapter6.json",
+      "bytes": 424575,
+      "kb": 414.6,
+      "status": "EXCEPTION_REQUIRED"
+    }
+  ],
+  "duplicate_subtrees": [
+    {
+      "sha256": "a1c52c776a19d4c5b579465aaed59ea6292f95b5c86c5d1d4c5ea47d0c586578",
+      "bytes_each": 348112,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack",
+          "bytes": 348112
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack",
+          "bytes": 348112
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$",
+          "bytes": 348112
+        }
+      ]
+    },
+    {
+      "sha256": "c6ae1d28584e95c5b571647bc431868fb02f17a11a2f8266eea131b870a88006",
+      "bytes_each": 173704,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks",
+          "bytes": 173704
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks",
+          "bytes": 173704
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks",
+          "bytes": 173704
+        }
+      ]
+    },
+    {
+      "sha256": "abe1f0f4aa3ebb9fec69561956e356095cc0aca3d355380ab50e23a57be7cd26",
+      "bytes_each": 7180,
+      "occurrences": [
+        {
+          "pack": "P07A_relation_linwan_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P07B_relation_linwan_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P07C_relation_linwan_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P07C_relation_linwan_v2_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P09_linwan_zhouyan_input_pack.json",
+          "path": "$.inputs.all_signed_lines_a[2].base_line.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P10_P09-C02_input_pack.json",
+          "path": "$.inputs.line_a.all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P10_P09-C03_input_pack.json",
+          "path": "$.inputs.line_a.all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P10_P09-C06_input_pack.json",
+          "path": "$.inputs.line_a.all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P12_P09-C02_input_pack.json",
+          "path": "$.inputs.source_traces[0].change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P12_P09-C03_input_pack.json",
+          "path": "$.inputs.source_traces[0].change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2].all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2].all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2].all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2].all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2].all_change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot.relation_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot.relation_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot.relation_nodes",
+          "bytes": 7180
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.state_snapshots.BASE-E-LINWAN-RELATION.change_nodes",
+          "bytes": 7180
+        }
+      ]
+    },
+    {
+      "sha256": "c22f849edfdfafbf7adcca73c6ed12eb0f1b09b1a32c34cc0434ac025a6e6a27",
+      "bytes_each": 5743,
+      "occurrences": [
+        {
+          "pack": "P07A_relation_zhouyan_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P07B_relation_zhouyan_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P07C_relation_zhouyan_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P07C_relation_zhouyan_v2_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P09_linwan_zhouyan_input_pack.json",
+          "path": "$.inputs.all_signed_lines_b[0].base_line.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P10_P09-C01_input_pack.json",
+          "path": "$.inputs.line_b.all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P10_P09-C02_input_pack.json",
+          "path": "$.inputs.line_b.all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P10_P09-C03_input_pack.json",
+          "path": "$.inputs.line_b.all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P10_P09-C04_input_pack.json",
+          "path": "$.inputs.line_b.all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P10_P09-C05_input_pack.json",
+          "path": "$.inputs.line_b.all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P10_P09-C06_input_pack.json",
+          "path": "$.inputs.line_b.all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P10_P09-C07_input_pack.json",
+          "path": "$.inputs.line_b.all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P11_P09-C01_input_pack.json",
+          "path": "$.inputs.source_versions[1].change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P12_P09-C02_input_pack.json",
+          "path": "$.inputs.source_traces[1].change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P12_P09-C03_input_pack.json",
+          "path": "$.inputs.source_traces[1].change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P12_P09-C04_input_pack.json",
+          "path": "$.inputs.source_traces[1].change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P12_P09-C05_input_pack.json",
+          "path": "$.inputs.source_traces[1].change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P12_P09-C07_input_pack.json",
+          "path": "$.inputs.source_traces[1].change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4].all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4].all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4].all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4].all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4].all_change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.state_snapshots.BASE-E-ZHOUYAN-RELATION.change_nodes",
+          "bytes": 5743
+        }
+      ]
+    },
+    {
+      "sha256": "69f2f4fb99ce5a1e6863e23b09b1d2989fced73a008d5260579384ca40562d32",
+      "bytes_each": 38173,
+      "occurrences": [
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline_beat_map",
+          "bytes": 38173
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline",
+          "bytes": 38173
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline",
+          "bytes": 38173
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline",
+          "bytes": 38173
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.beat_map",
+          "bytes": 38173
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_outline",
+          "bytes": 38173
+        }
+      ]
+    },
+    {
+      "sha256": "02d21aa6271eda5bd090b001b4068b2d4398cc6ac0a3ce1a9a7368de77f8ee82",
+      "bytes_each": 23549,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 23549
+        },
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[1].event",
+          "bytes": 23549
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[1]",
+          "bytes": 23549
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 23549
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].event",
+          "bytes": 23549
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].event",
+          "bytes": 23549
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.focal_event",
+          "bytes": 23549
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.predecessor_events[1]",
+          "bytes": 23549
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[1].event",
+          "bytes": 23549
+        }
+      ]
+    },
+    {
+      "sha256": "af88148f0d46880e8bb93ed04cc976f0e11b44b0ac2b270aa71e948d60246753",
+      "bytes_each": 36935,
+      "occurrences": [
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline_beat_map.payload",
+          "bytes": 36935
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload",
+          "bytes": 36935
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline.payload",
+          "bytes": 36935
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload",
+          "bytes": 36935
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.beat_map.payload",
+          "bytes": 36935
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_outline.payload",
+          "bytes": 36935
+        }
+      ]
+    },
+    {
+      "sha256": "1f40b330ff0c65c25bd1908650a110a120f724b43e13f9f36720c55f44c351dc",
+      "bytes_each": 18040,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 18040
+        },
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[0].event",
+          "bytes": 18040
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[0]",
+          "bytes": 18040
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 18040
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].event",
+          "bytes": 18040
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].event",
+          "bytes": 18040
+        },
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.focal_event",
+          "bytes": 18040
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.predecessor_events[0]",
+          "bytes": 18040
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.predecessor_events[0]",
+          "bytes": 18040
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[0].event",
+          "bytes": 18040
+        }
+      ]
+    },
+    {
+      "sha256": "02c76f8a07551ec5e68e06b979f08705bda1ba00bec16d7229b60f78dd71bf91",
+      "bytes_each": 40418,
+      "occurrences": [
+        {
+          "pack": "P13_chapter-6_input_pack.json",
+          "path": "$.inputs.story_assets",
+          "bytes": 40418
+        },
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.selected_story_assets",
+          "bytes": 40418
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets",
+          "bytes": 40418
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets",
+          "bytes": 40418
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.story_assets",
+          "bytes": 40418
+        }
+      ]
+    },
+    {
+      "sha256": "01f6a8ca1a6447e5641d29d774f734d2587e5698764f45e7da09d44416f25ba1",
+      "bytes_each": 23041,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 23041
+        },
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[2].event",
+          "bytes": 23041
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[2]",
+          "bytes": 23041
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 23041
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].event",
+          "bytes": 23041
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].event",
+          "bytes": 23041
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.focal_event",
+          "bytes": 23041
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[2].event",
+          "bytes": 23041
+        }
+      ]
+    },
+    {
+      "sha256": "dac766d897772e5afa398bdfb9c088e88fe1d8d7d1b831bca9cfd448f72d7806",
+      "bytes_each": 26783,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[0].p17a_result",
+          "bytes": 26783
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p17a",
+          "bytes": 26783
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p17a",
+          "bytes": 26783
+        },
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.preflight_results[0]",
+          "bytes": 26783
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[0]",
+          "bytes": 26783
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[0]",
+          "bytes": 26783
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[0].p17a",
+          "bytes": 26783
+        }
+      ]
+    },
+    {
+      "sha256": "fd66d61f6ad7ffbf34b2b101050ea9735364b5f947027d6f249ebb77ce2775fd",
+      "bytes_each": 4813,
+      "occurrences": [
+        {
+          "pack": "P07C_cognition_linwan_v2_input_pack.json",
+          "path": "$.inputs.base_line.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P09_linwan_zhouyan_input_pack.json",
+          "path": "$.inputs.all_signed_lines_a[0].base_line.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P10_P09-C01_input_pack.json",
+          "path": "$.inputs.line_a.all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P10_P09-C05_input_pack.json",
+          "path": "$.inputs.line_a.all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P10_P09-C07_input_pack.json",
+          "path": "$.inputs.line_a.all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P11_P09-C01_input_pack.json",
+          "path": "$.inputs.source_versions[0].change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P12_P09-C05_input_pack.json",
+          "path": "$.inputs.source_traces[0].change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P12_P09-C07_input_pack.json",
+          "path": "$.inputs.source_traces[0].change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.state_snapshots.BASE-E-LINWAN-COGNITION-V2.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0].all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0].all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0].all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0].all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0].all_change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-COGNITION-V2.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-COGNITION-V2.change_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot.cognition_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot.cognition_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot.cognition_nodes",
+          "bytes": 4813
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.state_snapshots.BASE-E-LINWAN-COGNITION-V2.change_nodes",
+          "bytes": 4813
+        }
+      ]
+    },
+    {
+      "sha256": "1d55b19954ee6058a4d244a5f8b5a5493dd98e420d90406d9861d45a4d962dd6",
+      "bytes_each": 16651,
+      "occurrences": [
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19A2_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19C1_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19C2_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19C3_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19F_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19G_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19H_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        },
+        {
+          "pack": "P19I_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_text",
+          "bytes": 16651
+        }
+      ]
+    },
+    {
+      "sha256": "cf92ff7467269f7e393201dc314c5e3fabd2d731ceb5293f95ca48cc57d70345",
+      "bytes_each": 59354,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0]",
+          "bytes": 59354
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0]",
+          "bytes": 59354
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[0]",
+          "bytes": 59354
+        }
+      ]
+    },
+    {
+      "sha256": "7bec36ca69b26556916de7de7de3a2d68d30b90234ce86cb43b3146efb2d0fe9",
+      "bytes_each": 58589,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1]",
+          "bytes": 58589
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1]",
+          "bytes": 58589
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[1]",
+          "bytes": 58589
+        }
+      ]
+    },
+    {
+      "sha256": "0c5bc59767ec43ae3a312562346584313106aef5fe08db1b73f5835e899f2b63",
+      "bytes_each": 22781,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[1].p17a_result",
+          "bytes": 22781
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p17a",
+          "bytes": 22781
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p17a",
+          "bytes": 22781
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[1]",
+          "bytes": 22781
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[1]",
+          "bytes": 22781
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[1].p17a",
+          "bytes": 22781
+        }
+      ]
+    },
+    {
+      "sha256": "61d0a910aaef5ff39bf4cd96f2203761f78a5c2f5b1bcda815dc82f535f21fee",
+      "bytes_each": 55757,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2]",
+          "bytes": 55757
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2]",
+          "bytes": 55757
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[2]",
+          "bytes": 55757
+        }
+      ]
+    },
+    {
+      "sha256": "f4435f90f13b9a14ccdcb8139a43ed3d84556a9b2640ca790d3bccc7edf41e02",
+      "bytes_each": 18351,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[0].p17a_result.precondition_checks",
+          "bytes": 18351
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p17a.precondition_checks",
+          "bytes": 18351
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p17a.precondition_checks",
+          "bytes": 18351
+        },
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.preflight_results[0].precondition_checks",
+          "bytes": 18351
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[0].precondition_checks",
+          "bytes": 18351
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[0].precondition_checks",
+          "bytes": 18351
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[0].p17a.precondition_checks",
+          "bytes": 18351
+        }
+      ]
+    },
+    {
+      "sha256": "c88837942a9b305e6b7434959afdbdbf6d62c0469cee9e70c5b41f09762f5a54",
+      "bytes_each": 20254,
+      "occurrences": [
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline_beat_map.payload.beats",
+          "bytes": 20254
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats",
+          "bytes": 20254
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline.payload.beats",
+          "bytes": 20254
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats",
+          "bytes": 20254
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.beat_map.payload.beats",
+          "bytes": 20254
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_outline.payload.beats",
+          "bytes": 20254
+        }
+      ]
+    },
+    {
+      "sha256": "fc1bdb9ca5ba5a1c4f7f1fd7b994eb531437e2349b0890125c050a7505f18e22",
+      "bytes_each": 25068,
+      "occurrences": [
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.state_snapshot",
+          "bytes": 25068
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.state_snapshot",
+          "bytes": 25068
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot",
+          "bytes": 25068
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot",
+          "bytes": 25068
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot",
+          "bytes": 25068
+        }
+      ]
+    },
+    {
+      "sha256": "278de96febebfeee11f591b37ec4e4f099126ac11109735f04c723636ed4bb89",
+      "bytes_each": 24878,
+      "occurrences": [
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24878
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24878
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24878
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24878
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24878
+        }
+      ]
+    },
+    {
+      "sha256": "bf9ccac7a6cd41cab79341f5923a9cd2cc8957e1e9099a590d2d1bc46f979ef5",
+      "bytes_each": 24738,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24738
+        },
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24738
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24738
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24738
+        },
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots",
+          "bytes": 24738
+        }
+      ]
+    },
+    {
+      "sha256": "dab461ddcde9adc2fe4bf10bfe1d9a0ef65ce1526dfc4541e7f9fc9c44bf8a4d",
+      "bytes_each": 31889,
+      "occurrences": [
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_event_sequence",
+          "bytes": 31889
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_event_sequence",
+          "bytes": 31889
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_event_sequence",
+          "bytes": 31889
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_event_sequence",
+          "bytes": 31889
+        }
+      ]
+    },
+    {
+      "sha256": "eedeabc72d3f0985dec991619e3755276a784dde3c430968eb17d3f3a6a27f21",
+      "bytes_each": 14976,
+      "occurrences": [
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_event_sequence.unresolved_dependencies",
+          "bytes": 14976
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_event_sequence.unresolved_dependencies",
+          "bytes": 14976
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_event_sequence.unresolved_dependencies",
+          "bytes": 14976
+        },
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.event_chain_reference.unresolved_dependencies",
+          "bytes": 14976
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.event_chain_reference.unresolved_dependencies",
+          "bytes": 14976
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.event_chain_reference.unresolved_dependencies",
+          "bytes": 14976
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_event_sequence.unresolved_dependencies",
+          "bytes": 14976
+        }
+      ]
+    },
+    {
+      "sha256": "f08a68c4929933d19ea896c311fea8b068fa16f9c307d8768bc4a09d087b62fa",
+      "bytes_each": 18201,
+      "occurrences": [
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.narrative_lens",
+          "bytes": 18201
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.narrative_lens",
+          "bytes": 18201
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.narrative_lens",
+          "bytes": 18201
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.narrative_lens",
+          "bytes": 18201
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.narrative_lens",
+          "bytes": 18201
+        }
+      ]
+    },
+    {
+      "sha256": "6e233655385e127b5c5b9bf84ada6e25314eaac740989c40fd96a757f0d5d069",
+      "bytes_each": 14535,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[1].p17a_result.precondition_checks",
+          "bytes": 14535
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p17a.precondition_checks",
+          "bytes": 14535
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p17a.precondition_checks",
+          "bytes": 14535
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[1].precondition_checks",
+          "bytes": 14535
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[1].precondition_checks",
+          "bytes": 14535
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[1].p17a.precondition_checks",
+          "bytes": 14535
+        }
+      ]
+    },
+    {
+      "sha256": "bd10dd13b8e222d6961bfdd587e75ad9be5ea30b3abdd5d8279040dbabefb15b",
+      "bytes_each": 17107,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[2].p17a_result",
+          "bytes": 17107
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p17a",
+          "bytes": 17107
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p17a",
+          "bytes": 17107
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[2]",
+          "bytes": 17107
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[2].p17a",
+          "bytes": 17107
+        }
+      ]
+    },
+    {
+      "sha256": "298988425b33af9d51cf543efc0fcb0d0b640ec83fcbd3550d1779fb5011e280",
+      "bytes_each": 15984,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[2].p17a_result.precondition_checks",
+          "bytes": 15984
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p17a.precondition_checks",
+          "bytes": 15984
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p17a.precondition_checks",
+          "bytes": 15984
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.preflight_results[2].precondition_checks",
+          "bytes": 15984
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[2].p17a.precondition_checks",
+          "bytes": 15984
+        }
+      ]
+    },
+    {
+      "sha256": "b73f221f01a4d079e7b3117766d774b8db2d3517d431a3ab9d7dbd87434da397",
+      "bytes_each": 15583,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[2].p14b_result",
+          "bytes": 15583
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.p14b_feasibility_result",
+          "bytes": 15583
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p14b",
+          "bytes": 15583
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p14b",
+          "bytes": 15583
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[2].p14b",
+          "bytes": 15583
+        }
+      ]
+    },
+    {
+      "sha256": "88deb5ee6c887a160b704bf5599ca0c0732b28acc081eb06510ea230d7631bda",
+      "bytes_each": 14505,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[0].p14b_result",
+          "bytes": 14505
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.p14b_feasibility_result",
+          "bytes": 14505
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p14b",
+          "bytes": 14505
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p14b",
+          "bytes": 14505
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[0].p14b",
+          "bytes": 14505
+        }
+      ]
+    },
+    {
+      "sha256": "e335e8e7f306b447ea9e47699bad02fbd5ee2d2988436929ed78407af89c9653",
+      "bytes_each": 13252,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[2].p14b_result.condition_checks",
+          "bytes": 13252
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.p14b_feasibility_result.condition_checks",
+          "bytes": 13252
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p14b.condition_checks",
+          "bytes": 13252
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[2].p14b.condition_checks",
+          "bytes": 13252
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[2].p14b.condition_checks",
+          "bytes": 13252
+        }
+      ]
+    },
+    {
+      "sha256": "6fa5890bc749c25dea8e7295bf9c68e0b7077c72aee5170c3936932799dc6af7",
+      "bytes_each": 25214,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots",
+          "bytes": 25214
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots",
+          "bytes": 25214
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.state_snapshots",
+          "bytes": 25214
+        }
+      ]
+    },
+    {
+      "sha256": "cd2d342bb91b6ed6b92833c6f6e92c5a92fc9c0aefb0520cc2678b910c672f99",
+      "bytes_each": 12233,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[1].p14b_result",
+          "bytes": 12233
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.p14b_feasibility_result",
+          "bytes": 12233
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p14b",
+          "bytes": 12233
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p14b",
+          "bytes": 12233
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[1].p14b",
+          "bytes": 12233
+        }
+      ]
+    },
+    {
+      "sha256": "6e2f4c6d8c7ef812c8feb67ee16f6b396bcd13639bfe2a846c86259970f1fb5f",
+      "bytes_each": 12078,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[0].p14b_result.condition_checks",
+          "bytes": 12078
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.p14b_feasibility_result.condition_checks",
+          "bytes": 12078
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p14b.condition_checks",
+          "bytes": 12078
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[0].p14b.condition_checks",
+          "bytes": 12078
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[0].p14b.condition_checks",
+          "bytes": 12078
+        }
+      ]
+    },
+    {
+      "sha256": "9785da3b420764865c5ca97fc8cd4410efba223f47d4d6d0060b251c0ba530a8",
+      "bytes_each": 9648,
+      "occurrences": [
+        {
+          "pack": "P13_chapter-6_input_pack.json",
+          "path": "$.inputs.story_assets[1]",
+          "bytes": 9648
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.story_asset",
+          "bytes": 9648
+        },
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.selected_story_assets[1]",
+          "bytes": 9648
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[1]",
+          "bytes": 9648
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[1]",
+          "bytes": 9648
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.story_assets[1]",
+          "bytes": 9648
+        }
+      ]
+    },
+    {
+      "sha256": "55b46472db735e251b25f583b8b5fd869480cc8b34045d760e0095a695ffe53e",
+      "bytes_each": 8955,
+      "occurrences": [
+        {
+          "pack": "P13_chapter-6_input_pack.json",
+          "path": "$.inputs.story_assets[2]",
+          "bytes": 8955
+        },
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.story_asset",
+          "bytes": 8955
+        },
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.selected_story_assets[2]",
+          "bytes": 8955
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[2]",
+          "bytes": 8955
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[2]",
+          "bytes": 8955
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.story_assets[2]",
+          "bytes": 8955
+        }
+      ]
+    },
+    {
+      "sha256": "ee9b6716d1182139c835dd8be164a376667338fa32677ff2d4efb8279d863b12",
+      "bytes_each": 8337,
+      "occurrences": [
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline_beat_map.payload.beats[1]",
+          "bytes": 8337
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats[1]",
+          "bytes": 8337
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline.payload.beats[1]",
+          "bytes": 8337
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats[1]",
+          "bytes": 8337
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.beat_map.payload.beats[1]",
+          "bytes": 8337
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_outline.payload.beats[1]",
+          "bytes": 8337
+        }
+      ]
+    },
+    {
+      "sha256": "d6f8a763229cdf44188c416366f22df7e98594d331b734ae2d991e4b7dfab0bd",
+      "bytes_each": 8233,
+      "occurrences": [
+        {
+          "pack": "P13_chapter-6_input_pack.json",
+          "path": "$.inputs.story_assets[3]",
+          "bytes": 8233
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.story_asset",
+          "bytes": 8233
+        },
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.selected_story_assets[3]",
+          "bytes": 8233
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[3]",
+          "bytes": 8233
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[3]",
+          "bytes": 8233
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.story_assets[3]",
+          "bytes": 8233
+        }
+      ]
+    },
+    {
+      "sha256": "27435c07226228d8b748dfef75e093517ce4c2220a77aac145d650b04887fcf5",
+      "bytes_each": 9763,
+      "occurrences": [
+        {
+          "pack": "P14C_chapter6_input_pack.json",
+          "path": "$.inputs.approved_events[1].p14b_result.condition_checks",
+          "bytes": 9763
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.p14b_feasibility_result.condition_checks",
+          "bytes": 9763
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p14b.condition_checks",
+          "bytes": 9763
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.approved_events_with_checks[1].p14b.condition_checks",
+          "bytes": 9763
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.approved_events_with_checks[1].p14b.condition_checks",
+          "bytes": 9763
+        }
+      ]
+    },
+    {
+      "sha256": "70239516e44f666993302e72a5f778d737e8e1a688b606b0e4950ae36e33b44b",
+      "bytes_each": 7674,
+      "occurrences": [
+        {
+          "pack": "P13_chapter-6_input_pack.json",
+          "path": "$.inputs.story_assets[4]",
+          "bytes": 7674
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.story_asset",
+          "bytes": 7674
+        },
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.selected_story_assets[4]",
+          "bytes": 7674
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[4]",
+          "bytes": 7674
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[4]",
+          "bytes": 7674
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.story_assets[4]",
+          "bytes": 7674
+        }
+      ]
+    },
+    {
+      "sha256": "1587512be24e04a75b3cbe94290672d0bbfa2ae3191e31618dd4e56ff4c29a95",
+      "bytes_each": 18869,
+      "occurrences": [
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.event_chain_reference",
+          "bytes": 18869
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.event_chain_reference",
+          "bytes": 18869
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.event_chain_reference",
+          "bytes": 18869
+        }
+      ]
+    },
+    {
+      "sha256": "8f24ef04c6d2b8a0a7138614480a17b5aeabe4356b4c897d4011a31d2ca7e23d",
+      "bytes_each": 8492,
+      "occurrences": [
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.p06_purpose_contracts",
+          "bytes": 8492
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.p06_purpose_contracts",
+          "bytes": 8492
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.p06_purpose_contracts",
+          "bytes": 8492
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.p06_purpose_contracts",
+          "bytes": 8492
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.p06_purpose_contracts",
+          "bytes": 8492
+        }
+      ]
+    },
+    {
+      "sha256": "6477e987efb522bfa43d29f3b826d39efd5c478c73074374dd4e58775434f872",
+      "bytes_each": 6514,
+      "occurrences": [
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline_beat_map.payload.beats[2]",
+          "bytes": 6514
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats[2]",
+          "bytes": 6514
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline.payload.beats[2]",
+          "bytes": 6514
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats[2]",
+          "bytes": 6514
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.beat_map.payload.beats[2]",
+          "bytes": 6514
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_outline.payload.beats[2]",
+          "bytes": 6514
+        }
+      ]
+    },
+    {
+      "sha256": "2c827dcbaf8912dc6335a64af17f84a794f3d1e2e28aec909d3def8de9c4985f",
+      "bytes_each": 15873,
+      "occurrences": [
+        {
+          "pack": "P19D_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot",
+          "bytes": 15873
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot",
+          "bytes": 15873
+        },
+        {
+          "pack": "P19D_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.actor_state_snapshot",
+          "bytes": 15873
+        }
+      ]
+    },
+    {
+      "sha256": "8a62ab37c301fd4d6a4c2ff0710b3cbe5a18deeb95068389b175032b95aec809",
+      "bytes_each": 5902,
+      "occurrences": [
+        {
+          "pack": "P13_chapter-6_input_pack.json",
+          "path": "$.inputs.story_assets[0]",
+          "bytes": 5902
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.story_asset",
+          "bytes": 5902
+        },
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.selected_story_assets[0]",
+          "bytes": 5902
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[0]",
+          "bytes": 5902
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.story_assets[0]",
+          "bytes": 5902
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.story_assets[0]",
+          "bytes": 5902
+        }
+      ]
+    },
+    {
+      "sha256": "6dcf83c717d023d99c7be452e2ed055d1a7508ab0da21cec15b4e5c3347fd4d2",
+      "bytes_each": 7334,
+      "occurrences": [
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2]",
+          "bytes": 7334
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2]",
+          "bytes": 7334
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2]",
+          "bytes": 7334
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2]",
+          "bytes": 7334
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[2]",
+          "bytes": 7334
+        }
+      ]
+    },
+    {
+      "sha256": "f758eec52ed7ad17cd149de48db2de0754964fb965dff6f61f5f568faa18f5d5",
+      "bytes_each": 5843,
+      "occurrences": [
+        {
+          "pack": "P12_P09-C02_input_pack.json",
+          "path": "$.inputs.source_traces[1]",
+          "bytes": 5843
+        },
+        {
+          "pack": "P12_P09-C03_input_pack.json",
+          "path": "$.inputs.source_traces[1]",
+          "bytes": 5843
+        },
+        {
+          "pack": "P12_P09-C04_input_pack.json",
+          "path": "$.inputs.source_traces[1]",
+          "bytes": 5843
+        },
+        {
+          "pack": "P12_P09-C05_input_pack.json",
+          "path": "$.inputs.source_traces[1]",
+          "bytes": 5843
+        },
+        {
+          "pack": "P12_P09-C07_input_pack.json",
+          "path": "$.inputs.source_traces[1]",
+          "bytes": 5843
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5843
+        }
+      ]
+    },
+    {
+      "sha256": "f3b830b5c2ce7b68b38cc20edcdce330806a53cf18c8f06867bbfc912c20266d",
+      "bytes_each": 7271,
+      "occurrences": [
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7271
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7271
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7271
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7271
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7271
+        }
+      ]
+    },
+    {
+      "sha256": "21c659e21adec7f1ff5f58d4a9818f77a51f1a5b6ba8a1f80a5ce7f5fbc7d9a9",
+      "bytes_each": 7243,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7243
+        },
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7243
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7243
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7243
+        },
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7243
+        }
+      ]
+    },
+    {
+      "sha256": "718cd7363c1564e8e4fb22f4094d56aafaebaee2a35932d377a2356dd21ca824",
+      "bytes_each": 5399,
+      "occurrences": [
+        {
+          "pack": "P15B_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline_beat_map.payload.beats[0]",
+          "bytes": 5399
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats[0]",
+          "bytes": 5399
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_outline.payload.beats[0]",
+          "bytes": 5399
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_outline.payload.beats[0]",
+          "bytes": 5399
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.beat_map.payload.beats[0]",
+          "bytes": 5399
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_outline.payload.beats[0]",
+          "bytes": 5399
+        }
+      ]
+    },
+    {
+      "sha256": "e62382bfbeb1ddefee83a0c3db143c691086180643597fb6835d101c163d0c3d",
+      "bytes_each": 8474,
+      "occurrences": [
+        {
+          "pack": "P07A_relation_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 8474
+        },
+        {
+          "pack": "P07B_relation_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 8474
+        },
+        {
+          "pack": "P07C_relation_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 8474
+        },
+        {
+          "pack": "P07C_relation_linwan_v2_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 8474
+        }
+      ]
+    },
+    {
+      "sha256": "3ffd858403d0ada7983bef8362b759099d67b22a8e1fbee3a2c9a329eea963b0",
+      "bytes_each": 12383,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.hook_contract",
+          "bytes": 12383
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.hook_contract",
+          "bytes": 12383
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.hook_contract",
+          "bytes": 12383
+        }
+      ]
+    },
+    {
+      "sha256": "4b1eac7e3c49a7b0bb7ac96658183fd90023332ea33710a4d56b29b237fa051a",
+      "bytes_each": 5899,
+      "occurrences": [
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4]",
+          "bytes": 5899
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4]",
+          "bytes": 5899
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4]",
+          "bytes": 5899
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4]",
+          "bytes": 5899
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[4]",
+          "bytes": 5899
+        }
+      ]
+    },
+    {
+      "sha256": "02cf3433408975b8dd1a9135922f2e064a865b80a37971bcaef21c4915b38ec5",
+      "bytes_each": 5835,
+      "occurrences": [
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5835
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5835
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5835
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5835
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5835
+        }
+      ]
+    },
+    {
+      "sha256": "16e4b5ac77841020a7bea796008ed118a55f559118ea6ce08d4031e991874010",
+      "bytes_each": 5829,
+      "occurrences": [
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.narrative_lens.details_to_notice",
+          "bytes": 5829
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.narrative_lens.details_to_notice",
+          "bytes": 5829
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.narrative_lens.details_to_notice",
+          "bytes": 5829
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.narrative_lens.details_to_notice",
+          "bytes": 5829
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.narrative_lens.details_to_notice",
+          "bytes": 5829
+        }
+      ]
+    },
+    {
+      "sha256": "5530788f956cf10e0d3c121c1dd1d8eb7ec332553bc1a5bcb2f5c64ba873f409",
+      "bytes_each": 5807,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5807
+        },
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5807
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5807
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5807
+        },
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5807
+        }
+      ]
+    },
+    {
+      "sha256": "c70163f42b26bfdce3588c22fc953f00daea6235af4d2ad699f1943060931a28",
+      "bytes_each": 22253,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 22253
+        },
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 22253
+        }
+      ]
+    },
+    {
+      "sha256": "48b71a3a8c2c47d3623c813ae3801c7e62f9a5f47c0269e4e5d9279ad9582509",
+      "bytes_each": 5380,
+      "occurrences": [
+        {
+          "pack": "P07A_item_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 5380
+        },
+        {
+          "pack": "P07B_item_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 5380
+        },
+        {
+          "pack": "P07C_item_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 5380
+        },
+        {
+          "pack": "P09_linwan_zhouyan_input_pack.json",
+          "path": "$.inputs.all_signed_lines_a[3].base_line",
+          "bytes": 5380
+        },
+        {
+          "pack": "P19C1_chapter6_input_pack.json",
+          "path": "$.inputs.item_ledger.base_item_line",
+          "bytes": 5380
+        }
+      ]
+    },
+    {
+      "sha256": "c940cf466d0a8dd1c5918268db5fd5ea807857fc243cbf6484e6abcc2022b297",
+      "bytes_each": 20818,
+      "occurrences": [
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 20818
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.event",
+          "bytes": 20818
+        }
+      ]
+    },
+    {
+      "sha256": "eff88cb87df8507d7f316256db0123732dd734bfa569b898f536757acad145b2",
+      "bytes_each": 6696,
+      "occurrences": [
+        {
+          "pack": "P07A_relation_zhouyan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 6696
+        },
+        {
+          "pack": "P07B_relation_zhouyan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 6696
+        },
+        {
+          "pack": "P07C_relation_zhouyan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 6696
+        },
+        {
+          "pack": "P07C_relation_zhouyan_v2_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 6696
+        }
+      ]
+    },
+    {
+      "sha256": "eead7e334d84ad584e370e2dfcdfb53497b4729bc7eb9cba399904e096b6c5a9",
+      "bytes_each": 4969,
+      "occurrences": [
+        {
+          "pack": "P17A_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0]",
+          "bytes": 4969
+        },
+        {
+          "pack": "P17A_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0]",
+          "bytes": 4969
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0]",
+          "bytes": 4969
+        },
+        {
+          "pack": "P17A_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0]",
+          "bytes": 4969
+        },
+        {
+          "pack": "P17A_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.state_snapshot[0]",
+          "bytes": 4969
+        }
+      ]
+    },
+    {
+      "sha256": "da5b05fe7ebfe524ef9a282d01e343bf5901abb0ab8ba8f249619272e17849eb",
+      "bytes_each": 4905,
+      "occurrences": [
+        {
+          "pack": "P14A_AST-P09-C04-BURNED-LOG-PAGE-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4905
+        },
+        {
+          "pack": "P14A_AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4905
+        },
+        {
+          "pack": "P14A_SA-P09-C05-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4905
+        },
+        {
+          "pack": "P14A_SA-P09-C07-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4905
+        },
+        {
+          "pack": "P14A_SA-REL-LINWAN-ZHOUYAN-IRONY-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4905
+        }
+      ]
+    },
+    {
+      "sha256": "46eea890a76c17cb0ec0e5e9fd124b32074eec74fa1d0f37b151d2e7bcf1e150",
+      "bytes_each": 4877,
+      "occurrences": [
+        {
+          "pack": "P14B_EV-CH06-SA-REL-LINWAN-ZHOUYAN-IRONY-01-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4877
+        },
+        {
+          "pack": "P14B_EV-P14A-AST-REL-ASYMMETRY-LINWAN-ZHOUYAN-01-CH6-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4877
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C05-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4877
+        },
+        {
+          "pack": "P14B_EV-SA-P09-C07-01-C06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4877
+        },
+        {
+          "pack": "P14B_EVT-P14A-AST-P09-C04-BURNED-LOG-PAGE-01-CH06-01_input_pack.json",
+          "path": "$.inputs.entity_state_snapshots.BASE-E-LINWAN-COGNITION",
+          "bytes": 4877
+        }
+      ]
+    },
+    {
+      "sha256": "8438788b018c7d7b38ec19608aa5b890e092fa8b02c726396b7a3b2d34bc240b",
+      "bytes_each": 4624,
+      "occurrences": [
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.narrative_lens.observation_focus",
+          "bytes": 4624
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.narrative_lens.observation_focus",
+          "bytes": 4624
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.narrative_lens.observation_focus",
+          "bytes": 4624
+        },
+        {
+          "pack": "P19A1_chapter6_input_pack.json",
+          "path": "$.inputs.perceptible_conditions.narrative_lens.observation_focus",
+          "bytes": 4624
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.narrative_lens.observation_focus",
+          "bytes": 4624
+        }
+      ]
+    },
+    {
+      "sha256": "2eb7e3ed6d1817bbd3b9ee4aa8adcb0940dda3c2b01bde52d65eff61b1df1e25",
+      "bytes_each": 5742,
+      "occurrences": [
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.chapter_event_sequence.event_order",
+          "bytes": 5742
+        },
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_event_sequence.event_order",
+          "bytes": 5742
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.chapter_event_sequence.event_order",
+          "bytes": 5742
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.chapter_event_sequence.event_order",
+          "bytes": 5742
+        }
+      ]
+    },
+    {
+      "sha256": "90670986f1315cc1900133ec98ed94fea03e8163c72112f3c9430ebe60108fd6",
+      "bytes_each": 7338,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7338
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7338
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7338
+        }
+      ]
+    },
+    {
+      "sha256": "cdf3ffc4195f585356eeef10db95dd81c38dde40c564620bc3717f3862ebc21e",
+      "bytes_each": 7278,
+      "occurrences": [
+        {
+          "pack": "P12_P09-C02_input_pack.json",
+          "path": "$.inputs.source_traces[0]",
+          "bytes": 7278
+        },
+        {
+          "pack": "P12_P09-C03_input_pack.json",
+          "path": "$.inputs.source_traces[0]",
+          "bytes": 7278
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.state_snapshots.BASE-E-LINWAN-RELATION",
+          "bytes": 7278
+        }
+      ]
+    },
+    {
+      "sha256": "d08ae2e3287789f7a0bb3e1b70b1032457980a605f5a941ef32162d8f45dcfb7",
+      "bytes_each": 13124,
+      "occurrences": [
+        {
+          "pack": "P12_P09-C02_input_pack.json",
+          "path": "$.inputs.source_traces",
+          "bytes": 13124
+        },
+        {
+          "pack": "P12_P09-C03_input_pack.json",
+          "path": "$.inputs.source_traces",
+          "bytes": 13124
+        }
+      ]
+    },
+    {
+      "sha256": "9af36091a7f6f35c2a0093502266364cabbaf124fb5bdcb074fee40b066f1fa0",
+      "bytes_each": 5903,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5903
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5903
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.state_snapshots.BASE-E-ZHOUYAN-RELATION",
+          "bytes": 5903
+        }
+      ]
+    },
+    {
+      "sha256": "188718065f7f1ebc0668617ff9a65a5e4d364d337003f3690d79203ceb8275f0",
+      "bytes_each": 10759,
+      "occurrences": [
+        {
+          "pack": "P12_P09-C05_input_pack.json",
+          "path": "$.inputs.source_traces",
+          "bytes": 10759
+        },
+        {
+          "pack": "P12_P09-C07_input_pack.json",
+          "path": "$.inputs.source_traces",
+          "bytes": 10759
+        }
+      ]
+    },
+    {
+      "sha256": "bc2faf09fe789039203421f51332c10ab62d8471de0579bc310d8e3b214b7d01",
+      "bytes_each": 5093,
+      "occurrences": [
+        {
+          "pack": "P10_P09-C01_input_pack.json",
+          "path": "$.inputs.time_alignment_basis",
+          "bytes": 5093
+        },
+        {
+          "pack": "P10_P09-C05_input_pack.json",
+          "path": "$.inputs.time_alignment_basis",
+          "bytes": 5093
+        },
+        {
+          "pack": "P10_P09-C07_input_pack.json",
+          "path": "$.inputs.time_alignment_basis",
+          "bytes": 5093
+        }
+      ]
+    },
+    {
+      "sha256": "23bc3ba0ecaf878b37e265fe1471ca19c9c59c5c9a86b021623363340e23bd2f",
+      "bytes_each": 4991,
+      "occurrences": [
+        {
+          "pack": "P07A_goal_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 4991
+        },
+        {
+          "pack": "P07B_goal_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 4991
+        },
+        {
+          "pack": "P07C_goal_linwan_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 4991
+        }
+      ]
+    },
+    {
+      "sha256": "51c086e7f97d0edbea9ea155b57adbcb8eca49225552aec1e8a5db5690b8f135",
+      "bytes_each": 4977,
+      "occurrences": [
+        {
+          "pack": "P17C_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-COGNITION-V2",
+          "bytes": 4977
+        },
+        {
+          "pack": "P18_chapter6_input_pack.json",
+          "path": "$.inputs.writer_input_pack.state_snapshots.BASE-E-LINWAN-COGNITION-V2",
+          "bytes": 4977
+        },
+        {
+          "pack": "WRITER_PACK_chapter6.json",
+          "path": "$.state_snapshots.BASE-E-LINWAN-COGNITION-V2",
+          "bytes": 4977
+        }
+      ]
+    },
+    {
+      "sha256": "f4da1e556d078ad69795f776a6e130949e98fce5fe474df37f389d7d9553e2a7",
+      "bytes_each": 4913,
+      "occurrences": [
+        {
+          "pack": "P12_P09-C05_input_pack.json",
+          "path": "$.inputs.source_traces[0]",
+          "bytes": 4913
+        },
+        {
+          "pack": "P12_P09-C07_input_pack.json",
+          "path": "$.inputs.source_traces[0]",
+          "bytes": 4913
+        },
+        {
+          "pack": "P15A_chapter6_input_pack.json",
+          "path": "$.inputs.state_snapshots.BASE-E-LINWAN-COGNITION-V2",
+          "bytes": 4913
+        }
+      ]
+    },
+    {
+      "sha256": "0fd48111e62a24e89bcf1450cbc078d64e8896bbc3d30ed14b34e0dc9c8ea302",
+      "bytes_each": 4429,
+      "occurrences": [
+        {
+          "pack": "P10_P09-C02_input_pack.json",
+          "path": "$.inputs.time_alignment_basis",
+          "bytes": 4429
+        },
+        {
+          "pack": "P10_P09-C03_input_pack.json",
+          "path": "$.inputs.time_alignment_basis",
+          "bytes": 4429
+        },
+        {
+          "pack": "P10_P09-C06_input_pack.json",
+          "path": "$.inputs.time_alignment_basis",
+          "bytes": 4429
+        }
+      ]
+    },
+    {
+      "sha256": "7b4dd59fd132b67b065d5194c176ab0161760395babd959113877526eefdfec0",
+      "bytes_each": 6173,
+      "occurrences": [
+        {
+          "pack": "P07C_cognition_linwan_v2_input_pack.json",
+          "path": "$.inputs.base_line",
+          "bytes": 6173
+        },
+        {
+          "pack": "P09_linwan_zhouyan_input_pack.json",
+          "path": "$.inputs.all_signed_lines_a[0].base_line",
+          "bytes": 6173
+        }
+      ]
+    }
+  ],
+  "caveat": "Duplicate subtree groups can be nested; duplicate_bytes is not summed as a unique saving estimate. Byte size is not token count. Inspect paths and consumer needs before removing any data."
+}

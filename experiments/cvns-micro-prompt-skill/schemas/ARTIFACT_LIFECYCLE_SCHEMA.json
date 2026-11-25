@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ArtifactLifecycleRecord",
+  "type": "object",
+  "required": [
+    "run_id",
+    "artifact_id",
+    "producer_task_id",
+    "output_path",
+    "lifecycle_status",
+    "reference_evidence_level",
+    "semantic_use_status",
+    "disposition",
+    "consumers"
+  ],
+  "properties": {
+    "run_id": {"type": "string"},
+    "artifact_id": {"type": "string"},
+    "producer_task_id": {"type": "string"},
+    "output_path": {"type": "string"},
+    "version": {"type": "string"},
+    "lifecycle_status": {
+      "enum": [
+        "GENERATED", "VALIDATED", "FROZEN", "SELECTED", "MERGED",
+        "MATERIALIZED", "RENDERED", "VERIFIED", "BLOCKED", "SUPERSEDED",
+        "REJECTED", "DEFERRED", "NOT_APPLICABLE", "PROPOSAL_PENDING",
+        "DIAGNOSTIC_ONLY", "NO_ASSET", "NO_EVENT"
+      ]
+    },
+    "reference_evidence_level": {
+      "enum": ["EXACT_ARTIFACT_ID", "DOMAIN_ID_ONLY", "NO_REFERENCE", "TERMINAL_ONLY"]
+    },
+    "semantic_use_status": {
+      "enum": ["CONFIRMED_BY_DOWNSTREAM_RECEIPT", "INFERRED_FROM_REFERENCES", "UNKNOWN", "NOT_APPLICABLE"]
+    },
+    "disposition": {
+      "enum": [
+        "ACTIVE_DOWNSTREAM", "GATE_OR_AUDIT", "NO_ACTION_NEEDED",
+        "PROPOSAL_NOT_APPLIED", "DIAGNOSTIC_NOT_DELIVERABLE", "SUPERSEDED_VERSION",
+        "SKIPPED_BEFORE_CALL", "EMPTY_OUTPUT", "ORPHAN_REVIEW"
+      ]
+    },
+    "consumers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["task_id", "consumption_stage", "reference_ids"],
+        "properties": {
+          "task_id": {"type": "string"},
+          "consumption_stage": {
+            "enum": ["LOADED", "REFERENCED", "SELECTED", "MERGED", "MATERIALIZED", "RENDERED", "AUDITED", "GATED"]
+          },
+          "reference_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "reason": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "not_used_reason": {"type": "string"},
+    "supersedes_artifact_id": {"type": "string"},
+    "source_hash": {"type": "string"}
+  },
+  "additionalProperties": false
+}

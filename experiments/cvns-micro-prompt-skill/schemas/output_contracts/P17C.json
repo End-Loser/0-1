@@ -1,0 +1,55 @@
+{
+  "task_id": "P17C",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "chapter",
+    "decision",
+    "required_refs",
+    "missing_refs",
+    "version_mismatches",
+    "unknowns"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "READY",
+    "BLOCKED",
+    "NOT_APPLICABLE"
+  ],
+  "field_shapes": {
+    "required_refs": {
+      "type": "array",
+      "item_required_fields": [
+        "artifact_id",
+        "version",
+        "role"
+      ]
+    },
+    "missing_refs": {
+      "type": "array",
+      "item_required_fields": [
+        "ref_id",
+        "severity",
+        "reason"
+      ]
+    }
+  },
+  "dependency_manifest_schema": "schemas/DEPENDENCY_CLOSURE_MANIFEST_SCHEMA.json",
+  "host_evidence_policy": "WRITER_DEPENDENCY_POLICY.md",
+  "host_evidence_fields": [
+    "project_id",
+    "version",
+    "checked_dependency_subject_sha256",
+    "checked_frozen_manifest_sha256"
+  ],
+  "host_evidence_rule": "Production Writer requires a newly executed, host-validated P17C bound to the current dependency subject and frozen manifest. Preserve the original response and execution evidence; never relabel an old READY response by adding hashes.",
+  "notes": "P17C is READY only when required_ref_ids is a subset of resolved_ref_ids and every included artifact has an approved status."
+}

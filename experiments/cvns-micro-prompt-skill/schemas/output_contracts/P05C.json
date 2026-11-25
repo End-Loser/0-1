@@ -1,0 +1,19 @@
+{
+  "task_id": "P05C",
+  "payload_model": "VoiceCard",
+  "cardinality": "one_character",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "required_fields": [
+    "entity_id",
+    "entity_name"
+  ],
+  "optional_fields": [
+    "sentence_style",
+    "oral_marks",
+    "word_domain",
+    "rhythm",
+    "signature_gesture",
+    "forbidden"
+  ],
+  "field_source": "uploaded R-06.2 data_models.py VoiceCard"
+}

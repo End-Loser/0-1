@@ -1,0 +1,27 @@
+{
+  "task_id": "P04B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "candidate_id",
+    "decision",
+    "unique_contribution",
+    "removal_test",
+    "reuse_candidate",
+    "evidence"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "REGISTER",
+    "REUSE",
+    "REJECT"
+  ]
+}

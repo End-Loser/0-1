@@ -1,0 +1,11 @@
+{
+  "opening_date": "<calendar date or relative day 1>",
+  "calendar_table_ref": "<registered calendar table>",
+  "chapter_rhythm_declarations": [
+    {"chapter": 1, "type": "顺延", "span": "1天", "precision": "日", "target_anchor": null}
+  ],
+  "computed_axis": "<computed by deterministic tool/code, not free-written by LLM>",
+  "event_time_anchors": [
+    {"event_id": "<event id>", "event_name": "<name>", "time": "<time>", "chapter_window_ref": "<computed axis window>"}
+  ]
+}

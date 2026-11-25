@@ -1,0 +1,215 @@
+{
+  "title": "MechanismRuleDraft",
+  "type": "object",
+  "required": [
+    "rule_id",
+    "name",
+    "target",
+    "trigger_mode",
+    "trigger",
+    "preconditions",
+    "action",
+    "effect",
+    "scope",
+    "cost",
+    "limits",
+    "failure_or_counter",
+    "load_bearing_state_variables",
+    "randomness",
+    "state_transitions",
+    "unknowns",
+    "source_refs",
+    "layering",
+    "contact_semantics"
+  ],
+  "properties": {
+    "rule_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "trigger_mode": {
+      "type": "string",
+      "enum": [
+        "active",
+        "passive",
+        "RULE_GAP"
+      ]
+    },
+    "trigger": {
+      "type": "string"
+    },
+    "preconditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "action": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "object",
+      "required": [
+        "measure",
+        "bearer",
+        "per_trigger",
+        "settlement_time"
+      ],
+      "properties": {
+        "measure": {
+          "type": "string"
+        },
+        "bearer": {
+          "type": "string"
+        },
+        "per_trigger": {
+          "type": "string"
+        },
+        "settlement_time": {
+          "type": "string"
+        },
+        "none_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "limits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failure_or_counter": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "load_bearing_state_variables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "randomness": {
+      "type": "object",
+      "required": [
+        "is_random",
+        "plan_may_choose_outcome",
+        "handling"
+      ],
+      "properties": {
+        "is_random": {
+          "type": "boolean"
+        },
+        "plan_may_choose_outcome": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "handling": {
+          "type": "string"
+        }
+      }
+    },
+    "layering": {
+      "type": "object",
+      "required": [
+        "applicable",
+        "semantics"
+      ],
+      "properties": {
+        "applicable": {
+          "type": "boolean"
+        },
+        "semantics": {
+          "type": "string"
+        },
+        "not_applicable_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "contact_semantics": {
+      "type": "object",
+      "required": [
+        "applicable",
+        "start",
+        "end",
+        "last_disconnection"
+      ],
+      "properties": {
+        "applicable": {
+          "type": "boolean"
+        },
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        },
+        "last_disconnection": {
+          "type": "string"
+        },
+        "not_applicable_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "state_transitions": {
+      "type": "object",
+      "required": [
+        "death",
+        "incapacity",
+        "forced_removal",
+        "open",
+        "seal",
+        "reseal"
+      ],
+      "properties": {
+        "death": {
+          "type": "string"
+        },
+        "incapacity": {
+          "type": "string"
+        },
+        "forced_removal": {
+          "type": "string"
+        },
+        "open": {
+          "type": "string"
+        },
+        "seal": {
+          "type": "string"
+        },
+        "reseal": {
+          "type": "string"
+        }
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

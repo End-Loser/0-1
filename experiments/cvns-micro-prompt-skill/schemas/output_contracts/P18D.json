@@ -1,0 +1,25 @@
+{
+  "task_id": "P18D",
+  "payload_model": "ChapterContent",
+  "cardinality": "one_chapter_diagnostic_only",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "render_mode",
+    "chapter",
+    "text",
+    "source_outline_id",
+    "diagnostic_notice"
+  ],
+  "render_mode_values": [
+    "DIAGNOSTIC_ONLY"
+  ],
+  "status_values": [
+    "DIAGNOSTIC_ONLY"
+  ],
+  "invariants": [
+    "Must never be marked VALIDATED or FROZEN.",
+    "Must not enter production Writer delivery directory."
+  ]
+}

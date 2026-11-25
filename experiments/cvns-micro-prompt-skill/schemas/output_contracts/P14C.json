@@ -1,0 +1,46 @@
+{
+  "task_id": "P14C",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "chapter",
+    "event_order",
+    "causal_edges",
+    "unresolved_dependencies",
+    "decision"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "SEQUENCED",
+    "BLOCKED",
+    "NO_EVENTS"
+  ],
+  "field_shapes": {
+    "event_order": {
+      "type": "array",
+      "item_required_fields": [
+        "position",
+        "event_id",
+        "node_owner_refs"
+      ]
+    },
+    "unresolved_dependencies": {
+      "type": "array",
+      "item_required_fields": [
+        "dependency_id",
+        "severity",
+        "blocking",
+        "reason",
+        "evidence_refs"
+      ]
+    }
+  }
+}

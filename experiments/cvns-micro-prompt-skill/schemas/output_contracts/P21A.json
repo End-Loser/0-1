@@ -1,0 +1,22 @@
+{
+  "task_id": "P21A",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "rule_ref",
+    "reason",
+    "new_rule_candidate",
+    "full_wc_recheck",
+    "affected_refs",
+    "approval_status"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "P20",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "change_ref",
+    "affected_artifacts",
+    "invalidated_reviews",
+    "retest_scope",
+    "unaffected_scope",
+    "risk"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

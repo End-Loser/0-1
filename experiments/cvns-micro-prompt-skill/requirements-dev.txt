@@ -1,0 +1,4 @@
+# 测试与 schema 校验依赖（未锁定精确版本）
+pytest>=8
+jsonschema>=4
+referencing>=0.30

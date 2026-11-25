@@ -1,0 +1,34 @@
+{
+  "task_id": "P12",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "asset_id",
+    "source_conflict_id",
+    "decision",
+    "asset_type",
+    "reader_question",
+    "setup_requirements",
+    "reveal_condition",
+    "payoff_requirements",
+    "costs_and_risks",
+    "theme_refs"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "CREATE_ASSET",
+    "NO_ASSET"
+  ],
+  "conditional_fields": {
+    "CREATE_ASSET": ["introduce_chapter", "reveal_chapter", "payoff_chapter"]
+  },
+  "notes": "CREATE_ASSET requires an asset_id, distinct narrative value and explicit integer source phase chapters. P12B copies these fields, never invents missing phase targets. NO_ASSET is a valid terminal result."
+}

@@ -1,0 +1,11 @@
+{
+  "entity_id": "<id>",
+  "dimension": "<dimension>",
+  "taskbook_ref": "<id>",
+  "criteria_source": "<exact taskbook criterion or registered rule>",
+  "evidence": "<line/node/event/body excerpt or explicit unavailable>",
+  "status": "PASS | FAIL | NOT_YET_VERIFIABLE | NOT_APPLICABLE",
+  "reason": "<why>",
+  "judge": "code | llm | human",
+  "limitations": []
+}

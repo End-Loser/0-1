@@ -1,0 +1,20 @@
+{
+  "task_id": "<unique-task-id>",
+  "call_unit": "<one natural operation>",
+  "kind": "GENERATE|AUDIT|ASSEMBLE|CODE",
+  "primary_goal": "<one sentence>",
+  "active_constraints": [
+    "<1-3 semantic constraints>"
+  ],
+  "output_contract_file": "<one small structural contract>",
+  "read_scope": [
+    "<approved input refs>"
+  ],
+  "write_scope": "<one output artifact>",
+  "predecessor": [
+    "<task ids>"
+  ],
+  "validators": [
+    "<code or LLM validator ids>"
+  ]
+}

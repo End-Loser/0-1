@@ -1,0 +1,63 @@
+{
+  "event_id": "EV-<chapter>-<sequence>",
+  "chapter": 1,
+  "purpose_refs": [
+    "<theme subtheme / anchor / conflict / asset refs>"
+  ],
+  "participants": [
+    "<entity IDs>"
+  ],
+  "location": "<registered place/sub_location>",
+  "preconditions": [
+    "<facts and refs>"
+  ],
+  "causal_chain": [
+    "<cause refs in order>"
+  ],
+  "participant_states": [
+    {
+      "entity_id": "<id>",
+      "goal": "<current goal>",
+      "knowledge": [
+        "<known facts only>"
+      ],
+      "beliefs": [
+        "<beliefs, not objective facts>"
+      ],
+      "resources": [
+        "<available resources>"
+      ]
+    }
+  ],
+  "actions": [
+    "<observable actions>"
+  ],
+  "outcomes": [
+    "<results>"
+  ],
+  "state_deltas": [
+    {
+      "line_id": "<existing line or planned derived line>",
+      "change": "<delta>"
+    }
+  ],
+  "costs": [
+    {
+      "mechanism_id": "<id>",
+      "trigger": "<per use>",
+      "amount": "<value or qualitative cost>",
+      "basis": "<rule ref>"
+    }
+  ],
+  "event_anchors": [
+    "<event name/time if known>"
+  ],
+  "evidence_or_clues": [
+    "<plan-level evidence>"
+  ],
+  "downstream_obligations": [
+    "<what later event/chapter must consume or resolve>"
+  ],
+  "unresolved": [],
+  "description": "Legacy Skill-level normalized event sketch only. It is NOT the R-06.2 production Event Pydantic model. P14A, P14C0 and ChapterOutline.event_records must use schemas/EVENT_MODEL_SCHEMA.json; do not emit this sketch as a production Event."
+}

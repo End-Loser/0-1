@@ -1,0 +1,30 @@
+{
+  "task_id": "P19D2",
+  "cardinality": "one_rendered_event",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "event_id",
+    "text_span_refs",
+    "rendered_actions",
+    "omitted_actions",
+    "new_facts",
+    "causal_drift_findings",
+    "decision"
+  ],
+  "decision_values": [
+    "FAITHFUL",
+    "PARTIAL",
+    "DRIFT",
+    "BLOCKED",
+    "NOT_APPLICABLE"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

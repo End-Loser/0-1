@@ -1,0 +1,30 @@
+{
+  "task_id": "P15B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "chapter",
+    "hook_type",
+    "payload",
+    "landing_beat",
+    "reveal_condition",
+    "next_chapter_consumer",
+    "hold_until",
+    "decision"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "ACCEPT",
+    "CONDITIONAL_ACCEPT",
+    "REJECT",
+    "NOT_APPLICABLE"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "task_id": "P01F",
+  "proposal_only": true,
+  "cardinality": "one_proposal_or_blocked_schema_gap",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "proposal_id",
+    "victory_factors",
+    "ability_bounds",
+    "action_chain",
+    "victory_conditions",
+    "overlevel_conditions",
+    "consequence_persistence",
+    "opponent_profiles",
+    "source_labels",
+    "approval_points",
+    "schema_gap_flags"
+  ],
+  "status_values": [
+    "PROPOSAL",
+    "APPROVED",
+    "REJECTED",
+    "BLOCKED_SCHEMA_GAP"
+  ],
+  "notes": [
+    "CombatSystemProposal is a proposal, not WorldConstants; it becomes effective only after the P21A single-rule revision and project approval flow."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "P06B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "anchor_id",
+    "required_functions",
+    "covered_taskbook_refs",
+    "uncovered_functions",
+    "decision",
+    "evidence_refs"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "COVERED",
+    "UNCOVERED",
+    "NO_LINE_REQUIRED",
+    "REVIEW"
+  ]
+}

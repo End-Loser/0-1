@@ -1,0 +1,22 @@
+{
+  "task_id": "P02B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "theme_id",
+    "position_a",
+    "position_b",
+    "legitimacy_a",
+    "legitimacy_b",
+    "possible_costs"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

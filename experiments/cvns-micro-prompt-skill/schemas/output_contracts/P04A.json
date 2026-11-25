@@ -1,0 +1,24 @@
+{
+  "task_id": "P04A",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "candidate_id",
+    "entity_type",
+    "narrative_need",
+    "theme_refs",
+    "genre_function",
+    "dependencies",
+    "reuse_candidates",
+    "uncertainties"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

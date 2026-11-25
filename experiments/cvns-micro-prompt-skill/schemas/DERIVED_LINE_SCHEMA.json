@@ -1,0 +1,138 @@
+{
+  "title": "VariableLine",
+  "type": "object",
+  "required": [
+    "id",
+    "dimension",
+    "scope",
+    "layer",
+    "valid_from",
+    "nodes",
+    "cause"
+  ],
+  "source_model": "R-06.2 data_models.py::VariableLine",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "dimension": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "layer": {
+      "const": "DERIVED"
+    },
+    "valid_from": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "valid_to": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "subject_ref": {"type": "string", "minLength": 1},
+    "predecessor_line_id": {"type": "string", "minLength": 1},
+    "lifecycle": {
+      "type": "object",
+      "required": ["status", "effective_chapter", "effective_seq", "successor_line_id", "reason", "causal_status"],
+      "properties": {
+        "status": {"enum": ["terminated", "transferred", "upgraded"]},
+        "causal_status": {"const": "proposed"},
+        "effective_chapter": {"type": "integer", "minimum": 1},
+        "effective_seq": {"type": "integer", "minimum": 0},
+        "successor_line_id": {"type": ["string", "null"], "minLength": 1},
+        "reason": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "BASE_LINE_SCHEMA.json#/$defs/TimelineNode"
+      }
+    },
+    "cause": {
+      "type": "object",
+      "required": [
+        "kind",
+        "ref",
+        "note"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "event",
+            "line",
+            "asset",
+            "outline_beat"
+          ]
+        },
+        "ref": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "purpose": {
+      "type": "object",
+      "properties": {
+        "setup": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "ref": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        },
+        "reveal": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "ref": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        },
+        "payoff": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "ref": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

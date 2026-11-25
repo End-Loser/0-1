@@ -84,6 +84,8 @@
 |---|---|---|---|
 | 想法 | 电磁波物理计算机构想（EWC） | `status:experiment` | [阅读](ideas/electromagnetic-wave-computing.md) |
 | 实验 / 原型 | EWC 电磁波计算实验 | `status:experiment` | [条目](experiments/ewc-electromagnetic-wave-computing.md) · [代码与报告](experiments/ewc/README.md) |
+| 想法 | 微任务变量线长篇小说写作（CVNS R-06.2） | `status:experiment` | [阅读](ideas/micro-task-variable-line-novel-writing.md) |
+| 实验 / 工具 | CVNS R-06.2 小说写作 Skill v1.7.0：设计、代码与问题记录 | `status:experiment` | [条目](experiments/cvns-micro-prompt-skill.md) · [代码与提示词](experiments/cvns-micro-prompt-skill/README.md) |
 
 > 更多条目会在通过审核后补充；当前目录不代表已经有大量成果。
 

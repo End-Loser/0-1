@@ -1,0 +1,16 @@
+{
+  "task_id": "P18",
+  "payload_model": "ChapterContent",
+  "payload_schema": "schemas/CHAPTER_CONTENT_SCHEMA.json",
+  "cardinality": "one_chapter",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "source_model": "data_models.py::ChapterContent",
+  "rendering_guidance": {
+    "progression": "Render approved actions as pressure, response, choice and observable consequence in their causal order. Keep every approved action and outcome; do not turn an intended, ordered or arranged action into a completed result.",
+    "repetition": "Consolidate explanations of the same evidentiary or procedural boundary. If the outline requires repeated requests, retain them with distinct approved resistance, response or choice consequences; do not delete required actions to avoid repetition.",
+    "cost": "Make the actor's approved tradeoff visible at the choice, through the permitted action or response. Use existing stakes and constraints, not invented deadlines, sanctions, rules, ledger entries, evidence or new knowledge.",
+    "ending": "Stop at the approved endpoint with its observable action or concrete unresolved question. Do not advance a later chapter, grant an unapproved result, or explain the theme on the reader's behalf.",
+    "scope": "These are rendering instructions, not new story facts, numeric event quotas or a publication certificate. Current author style and explicit word range remain authoritative. Return only the original ChapterContent fields; audit_records remains reserved."
+  },
+  "note": "audit_records reserved for audit pipeline; Writer returns text, word_count, source_outline_id, improvised_nouns."
+}

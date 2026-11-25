@@ -1,0 +1,161 @@
+{
+  "title": "ChapterOutline",
+  "type": "object",
+  "required": [
+    "chapter"
+  ],
+  "source_model": "R-06.2 data_models.py::ChapterOutline",
+  "properties": {
+    "chapter": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string"
+    },
+    "hook": {
+      "type": "string"
+    },
+    "event_sequence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "event_records": {
+      "type": "array",
+      "items": {
+        "$ref": "EVENT_MODEL_SCHEMA.json"
+      }
+    },
+    "primary_conflict_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "turning_point": {
+      "type": "object"
+    },
+    "cliffhanger": {
+      "type": "string"
+    },
+    "emotion_curve": {
+      "type": "string"
+    },
+    "pacing_map": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "word_count_target": {
+      "type": "integer"
+    },
+    "active_assets": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "theme_context": {
+      "type": "string"
+    },
+    "beats": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/OutlineBeat"
+      }
+    },
+    "validation_records": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "$defs": {
+    "OutlineBeat": {
+      "type": "object",
+      "required": [
+        "beat_id"
+      ],
+      "properties": {
+        "beat_id": {
+          "type": "string"
+        },
+        "event_id": {
+          "type": "string"
+        },
+        "narrative_flow": {
+          "type": "string"
+        },
+        "key_moment": {
+          "type": "string"
+        },
+        "transition_to_next": {
+          "type": "string"
+        },
+        "involved_entities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "related_line_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required_elements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "payload": {
+          "type": "boolean"
+        },
+        "cliffhanger_payload": {
+          "type": "boolean"
+        },
+        "plants": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "resolves": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "resolve_hints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "answer_material": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "answer_carrier": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

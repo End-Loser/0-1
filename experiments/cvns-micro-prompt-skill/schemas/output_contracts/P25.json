@@ -1,0 +1,24 @@
+{
+  "task_id": "P25",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "entity_id",
+    "necessity_evidence",
+    "valid_from",
+    "identity_record",
+    "required_dimensions",
+    "affected_refs",
+    "replan_tasks",
+    "approval_points"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

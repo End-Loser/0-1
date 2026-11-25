@@ -1,0 +1,14 @@
+{
+  "task_id": "P11B",
+  "cardinality": "one_conflict_candidate_comparison",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "payload_model": "ConflictExplanationReview",
+  "payload_schema": "schemas/CONFLICT_EXPLANATION_REVIEW_SCHEMA.json",
+  "decision_values": ["PROPOSE_REVISION", "REPAIR_REQUIRED", "NEEDS_EVIDENCE", "NO_DESIGN_VALUE"],
+  "required_fields": ["artifact_id", "task_id", "status", "source_candidate_ref", "candidate_set_ref", "decision", "selected_hypothesis_id", "reviews", "comparison_reason", "unresolved_gaps"],
+  "notes": [
+    "PROPOSE_REVISION is not factual approval; selected candidate must have all checks PASS and no unresolved gaps.",
+    "Every input hypothesis is reviewed exactly once. Rejected or unknown explanations never enter the Writer.",
+    "A host-approved, hash-bound revision bundle and fresh P09/P10 classification are required before downstream use."
+  ]
+}

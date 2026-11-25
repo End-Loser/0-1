@@ -1,0 +1,19 @@
+{
+  "task_id": "P16B",
+  "payload_model": "AckNode",
+  "payload_schema": "schemas/ACK_NODE_SCHEMA.json",
+  "cardinality": "one_ack_node",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "host_validator": "tools/canon_context.py::validate_p16",
+  "host_fulfillment_validator": "tools/canon_context.py::validate_ack_fulfillment",
+  "host_policy": "CANON_CONTEXT_POLICY.md",
+  "host_rules": [
+    "Register exactly the host-selected observable obligation with an existing approved event/beat reference.",
+    "Registration status is explicitly pre-registered; execution or cancellation is not generation.",
+    "Target chapter must match the supplied approved target outline; unknown future targets are not invented.",
+    "Post-ship fulfillment evidence must bind the exact ACK, current prose hash, complete obligation quotes and ship receipt.",
+    "Fulfillment evidence validation does not mutate the ACK or authenticate the ship issuer."
+  ],
+  "source_model": "data_models.py::AckNode",
+  "note": "executed 只能由正文出厂审计后的回写程序设置。"
+}

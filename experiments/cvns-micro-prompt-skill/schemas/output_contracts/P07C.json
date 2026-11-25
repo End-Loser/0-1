@@ -1,0 +1,27 @@
+{
+  "task_id": "P07C",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "line_id",
+    "input_manifest_result",
+    "cross_line_proper_nouns",
+    "cross_line_facts",
+    "future_outline_leaks",
+    "decision"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "decision_values": [
+    "PASS",
+    "REVIEW",
+    "REJECTED"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "ChapterContent",
+  "type": "object",
+  "required": [
+    "chapter",
+    "text",
+    "word_count"
+  ],
+  "source_model": "R-06.2 data_models.py::ChapterContent",
+  "properties": {
+    "chapter": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source_outline_id": {
+      "type": "string"
+    },
+    "improvised_nouns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audit_records": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "Reserved for audit pipeline; Writer should omit."
+    }
+  }
+}

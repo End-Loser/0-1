@@ -1,0 +1,229 @@
+{
+  "title": "Event",
+  "type": "object",
+  "required": [
+    "id",
+    "chapter",
+    "event_type",
+    "purpose"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "chapter": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "conflict_event",
+        "push_event",
+        "character_moment",
+        "hook_event",
+        "cognition_crisis_event"
+      ]
+    },
+    "event_name": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "serves_conflict": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scene_location": {
+      "type": "string"
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_moment": {
+      "type": "string"
+    },
+    "outcome": {
+      "type": "string"
+    },
+    "variable_changes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "transition_to_next": {
+      "type": "string"
+    },
+    "next_hook": {
+      "type": "string"
+    },
+    "source_conflict_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cognitive_impact": {
+      "type": "string"
+    },
+    "emotional_beat": {
+      "type": "string"
+    },
+    "pacing": {
+      "type": "string",
+      "enum": [
+        "快",
+        "中",
+        "慢",
+        ""
+      ]
+    },
+    "source_event_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "goal": {
+      "type": "string"
+    },
+    "preconditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resistance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "causal_links": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence_status": {
+      "type": "string",
+      "enum": [
+        "established",
+        "proposed",
+        "partially_verified",
+        "unresolved",
+        "unknown"
+      ]
+    },
+    "evidence_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "knowledge_changes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "goal_changes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "relation_changes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "theme_functions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "opponent_decision_plan": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "opponent_strategy": {
+      "type": "object"
+    },
+    "countermeasures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "state_at_start": {
+      "type": "object"
+    },
+    "state_at_end": {
+      "type": "object"
+    },
+    "required_next_event_links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "success_claim": {
+      "type": "boolean"
+    },
+    "success_basis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "protagonist_costs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stakes_level": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "item_transfers": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "rule_changes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "setup_payoff_links": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "continuity_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "source_model": "R-06.2 data_models.py::Event",
+  "additionalProperties": false
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "P23",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "passage_ref",
+    "edit_goal",
+    "original",
+    "revision",
+    "change_explanation",
+    "preservation_check"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

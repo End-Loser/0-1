@@ -1,0 +1,72 @@
+{
+  "task_id": "P12B",
+  "cardinality": "one_scope_asset_portfolio",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "scope_ref",
+    "selected_assets",
+    "merged_groups",
+    "deferred_assets",
+    "rejected_assets",
+    "decision_summary"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "invariants": [
+    "Each input asset_id appears exactly once across selected_assets, merged_groups, deferred_assets, rejected_assets.",
+    "Merged groups preserve all source asset IDs and all non-equivalent reader questions, reveal conditions and payoff requirements.",
+    "No asset may be silently omitted.",
+    "Portfolio selection is a marginal-value decision; do not select every candidate by default.",
+    "At most one asset is canonical within a merged group; source IDs remain traceable.",
+    "Selection does not imply one-event-only deployment; P13B may map separate asset phases to different event opportunities.",
+    "The canonical asset of a merged group must appear in selected_assets for downstream deployment; merged source IDs remain provenance, not duplicate payloads.",
+    "selected_assets.phase_chapters must copy the source StoryAsset chapter targets exactly; no inference or silent rescheduling.",
+    "Assets with materially incompatible stage chapter targets or non-equivalent reader/payoff functions must not be merged into one canonical asset.",
+    "A merged canonical asset preserves all source_asset_ids; if source schedules cannot be represented without changing a target, keep the assets separate."
+  ],
+  "disposition_values": [
+    "SELECTED",
+    "MERGED",
+    "DEFERRED",
+    "REJECTED"
+  ],
+  "selected_asset_fields": [
+    "asset_id",
+    "source_asset_ids",
+    "unique_reader_value",
+    "required_phases",
+    "phase_chapters",
+    "reason"
+  ],
+  "merged_group_fields": [
+    "group_id",
+    "source_asset_ids",
+    "canonical_asset_id",
+    "preserved_distinct_functions",
+    "merge_reason"
+  ],
+  "deferred_rejected_item_fields": [
+    "asset_id",
+    "reason",
+    "revisit_condition"
+  ],
+  "required_phase_values": [
+    "SETUP",
+    "REVEAL",
+    "PAYOFF"
+  ],
+  "phase_chapters_mapping": {
+    "SETUP": "StoryAsset.introduce_chapter",
+    "REVEAL": "StoryAsset.reveal_chapter",
+    "PAYOFF": "StoryAsset.payoff_chapter"
+  },
+  "payload_model": "AssetPortfolioDecision",
+  "payload_schema": "schemas/ASSET_PORTFOLIO_DECISION_SCHEMA.json"
+}

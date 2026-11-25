@@ -1,0 +1,28 @@
+{
+  "task_id": "P00",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "project_id",
+    "title",
+    "genre",
+    "theme_seed",
+    "target_chapters",
+    "chapter_word_range",
+    "target_total_words",
+    "story_time_span",
+    "audience",
+    "reader_experience_goals",
+    "constraints",
+    "unspecified"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

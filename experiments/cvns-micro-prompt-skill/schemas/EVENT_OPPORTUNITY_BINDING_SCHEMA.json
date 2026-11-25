@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EventOpportunityBinding",
+  "type": "object",
+  "required": [
+    "cluster_id",
+    "event_id",
+    "source_asset_ids",
+    "source_conflict_ids",
+    "created_from_artifact_id"
+  ],
+  "properties": {
+    "cluster_id": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "source_asset_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "source_conflict_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "created_from_artifact_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "VALIDATED",
+        "FROZEN",
+        "SUPERSEDED"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

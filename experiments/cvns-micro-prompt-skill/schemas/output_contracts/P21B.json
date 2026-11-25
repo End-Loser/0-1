@@ -1,0 +1,22 @@
+{
+  "task_id": "P21B",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "rule_a",
+    "rule_b",
+    "shared_semantics",
+    "missing_interfaces",
+    "evidence_refs",
+    "decision"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

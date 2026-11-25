@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChapterRhythmIntent",
+  "type": "object",
+  "required": [
+    "artifact_id", "task_id", "status", "chapter", "rhythm_type",
+    "span", "precision", "target_anchor", "unknowns"
+  ],
+  "properties": {
+    "artifact_id": {"type": "string", "minLength": 1},
+    "task_id": {"const": "P08"},
+    "status": {"enum": ["DRAFT", "REVIEW", "VALIDATED", "FROZEN", "REJECTED"]},
+    "chapter": {"type": "integer", "minimum": 1},
+    "rhythm_type": {"enum": ["顺延", "跳时", "回溯"]},
+    "span": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "object", "minProperties": 1}]},
+    "precision": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "object", "minProperties": 1}]},
+    "target_anchor": {
+      "oneOf": [
+        {"type": "string", "minLength": 1},
+        {
+          "type": "object",
+          "required": ["description"],
+          "properties": {
+            "description": {"type": "string", "minLength": 1},
+            "start_phase": {"$ref": "#/$defs/phase"},
+            "end_phase": {"$ref": "#/$defs/phase"},
+            "basis": {"enum": ["PROPOSED_NOT_APPROVED", "APPROVED_SOURCE"]},
+            "source_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+          }
+        }
+      ]
+    },
+    "unknowns": {"type": "array", "items": {"type": ["string", "object"]}}
+  },
+  "$defs": {
+    "phase": {
+      "enum": [null, "清晨", "早晨", "上午", "午前", "中午", "正午", "午后",
+               "下午", "黄昏", "傍晚", "夜晚", "夜间", "深夜", "午夜"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "P19A1",
+  "cardinality": "one_audit_target",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "scene_ref",
+    "pov_entity_id",
+    "findings"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "mutability": "report_only"
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "P13",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "lens_slice_id",
+    "scope_ref",
+    "observation_focus",
+    "details_to_notice",
+    "reader_information_intent",
+    "asset_refs",
+    "prohibitions"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

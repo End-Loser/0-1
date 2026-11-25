@@ -1,0 +1,47 @@
+{
+  "task_id": "P14A",
+  "payload_model": "Event",
+  "payload_schema": "schemas/EVENT_MODEL_SCHEMA.json",
+  "cardinality": "one_event",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "source_model": "data_models.py::Event",
+  "required_inputs": [
+    "EventOpportunityCluster",
+    "EventDecisionPlan_or_NO_AGENT_DECISION_REQUIRED",
+    "participant_state_snapshots",
+    "WorldConstants_refs"
+  ],
+  "invariants": [
+    "Must preserve R-06.2 Event source model; do not add custom Event fields.",
+    "Use existing Event fields for actor goals, knowledge changes, opponent strategy, causal links, actions, costs and state deltas.",
+    "Do not treat decision intentions as guaranteed event outcomes.",
+    "Event.chapter must equal EventOpportunityCluster.target_chapter.",
+    "No custom fields may be added to R-06.2 Event; map planned changes only into existing source-model fields.",
+    "P13C decision details and P13B asset-phase mappings remain separate immutable artifacts referenced through ARTIFACT_ENVELOPE.read_refs.",
+    "P13B expected_state_changes must each be mapped to an applicable Event field or explicitly reported as a blocking/conditional gap; silent omission is prohibited.",
+    "source_conflict_id/serves_conflict accept only real R-06.2 Conflict IDs, not P09/P10 relationship IDs or P13B cluster IDs."
+  ],
+  "source_field_mapping": {
+    "BASE_LINE": "variable_changes + state_at_start/state_at_end; use knowledge_changes, goal_changes, relation_changes, item_transfers where semantically applicable",
+    "DERIVED_LINE_PROPOSAL": "retain the proposal in the P13B sidecar/Envelope; P16A creates the legal DERIVED line with cause=Event ID; use setup_payoff_links only for registered StoryAsset setup/payoff links",
+    "READER_COGNITION": "causal_links retain the reveal obligation; cognitive_impact may summarize intended scene effect but is not an authoritative reader-information update; P15A maps the reveal to an authorized OutlineBeat payload and ReaderCognition derives from the approved outline.",
+    "WORLD_STATE": "state_at_start/state_at_end + variable_changes; use rule_changes only for a proposed/approved rule state change through the WC revision contract"
+  },
+  "event_field_mapping": {
+    "BASE_LINE": "Event.variable_changes + Event.causal_links (target_ref and exact driver_refs retained)",
+    "DERIVED_LINE_PROPOSAL": "Event.variable_changes as a proposed change + Event.causal_links; P16A later creates the DERIVED line after outline freeze",
+    "READER_COGNITION": "causal_links only as a reveal obligation; cognitive_impact is descriptive only and must not assert reader knowledge; P15A maps the obligation to an authorized OutlineBeat payload, and ReaderCognition derives from the approved outline; never write it into participant knowledge_changes.",
+    "WORLD_STATE": "Event.variable_changes only when target_ref resolves to a registered world-scope line; otherwise remain CONDITIONAL/UNRESOLVED"
+  },
+  "causal_link_provenance_requirements": [
+    "Each link preserves the original driver_refs from the opportunity cluster.",
+    "Each link identifies target_kind, target_ref, change_intent and actual/planned result without adding top-level Event fields."
+  ],
+  "forbidden_top_level_fields": [
+    "state_deltas",
+    "expected_state_changes",
+    "driver_refs",
+    "decision_plan_refs",
+    "asset_deployments"
+  ]
+}

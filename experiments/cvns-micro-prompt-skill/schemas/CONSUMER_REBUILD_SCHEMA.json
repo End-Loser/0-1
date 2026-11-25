@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceBoundConsumerRebuild",
+  "type": "object",
+  "required": ["operation", "tx_id", "project_id", "expected_index_sha256", "items", "approval"],
+  "properties": {
+    "operation": {"const": "CONSUMER_REBUILD"},
+    "tx_id": {"type": "string", "pattern": "^[A-Za-z0-9_-]+$"},
+    "project_id": {"type": "string", "minLength": 1},
+    "expected_index_sha256": {"$ref": "#/$defs/hash"},
+    "approval": {"$ref": "#/$defs/binding"},
+    "items": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["artifact_id", "candidate", "input_pack", "review", "depends_on"],
+        "properties": {
+          "artifact_id": {"type": "string", "minLength": 1},
+          "candidate": {"$ref": "#/$defs/binding"},
+          "input_pack": {"$ref": "#/$defs/binding"},
+          "review": {"$ref": "#/$defs/binding"},
+          "p17c_manifest": {"$ref": "#/$defs/binding"},
+          "execution": {"$ref": "#/$defs/binding"},
+          "depends_on": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "binding": {
+      "type": "object", "required": ["path", "sha256"],
+      "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/hash"}},
+      "additionalProperties": false
+    }
+  }
+}

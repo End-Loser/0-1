@@ -1,0 +1,22 @@
+{
+  "task_id": "P03A",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "subtheme_id",
+    "parent_theme_ref",
+    "question",
+    "value_tension",
+    "reader_understanding_target",
+    "distinctness"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

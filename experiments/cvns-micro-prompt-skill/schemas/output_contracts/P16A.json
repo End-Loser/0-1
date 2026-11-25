@@ -1,0 +1,16 @@
+{
+  "task_id": "P16A",
+  "payload_model": "VariableLine",
+  "payload_schema": "schemas/DERIVED_LINE_SCHEMA.json",
+  "cardinality": "one_derived_line_or_no_result",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "host_validator": "tools/canon_context.py::validate_p16",
+  "host_policy": "CANON_CONTEXT_POLICY.md",
+  "host_rules": [
+    "One new current-chapter entity/dimension line with proposed nodes; preserve BASE unchanged.",
+    "Cause and purpose references must resolve to the supplied frozen plan or relevant canonical lines.",
+    "Check line ID against the complete canonical registry, including records omitted from retrieval.",
+    "NO_DERIVED cannot contain a line ID or nonempty nodes. Structural validation never activates CanonIndex."
+  ],
+  "source_model": "data_models.py::VariableLine/CauseRef/Purpose"
+}

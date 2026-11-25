@@ -1,0 +1,35 @@
+{
+  "task_id": "P05F",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "voice_id",
+    "observer_preferences",
+    "lexicon_domains",
+    "syntax_rhythm",
+    "narrative_distance",
+    "sensory_selection",
+    "metaphor_density",
+    "information_reveal_habits",
+    "humor_intervention",
+    "positive_rules",
+    "prohibitions",
+    "scene_adaptations",
+    "voice_layers",
+    "motif_registry",
+    "example_and_counterexample",
+    "injection_note"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ],
+  "notes": [
+    "NarrativeVoiceGuide is injected as existing writer instructions; no external WriterInputPack schema change is allowed."
+  ]
+}

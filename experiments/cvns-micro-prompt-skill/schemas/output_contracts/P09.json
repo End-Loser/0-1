@@ -1,0 +1,73 @@
+{
+  "task_id": "P09",
+  "payload_model": "ConflictPairScan",
+  "cardinality": "one_entity_pair",
+  "envelope": "schemas/ARTIFACT_ENVELOPE.md",
+  "required_fields": [
+    "entity_a_id",
+    "entity_b_id",
+    "scanned_line_ids_a",
+    "scanned_line_ids_b",
+    "conflict_candidates",
+    "causal_interaction_candidates",
+    "unknowns"
+  ],
+  "conflict_candidate_fields": [
+    "candidate_local_id",
+    "variable_a_id",
+    "variable_b_id",
+    "chapter_or_window",
+    "candidate_type",
+    "description",
+    "evidence_a",
+    "evidence_b",
+    "coexistence_or_mutual_exclusion",
+    "confidence"
+  ],
+  "candidate_type_values": [
+    "goal_goal",
+    "goal_relation",
+    "goal_capability",
+    "goal_cognition",
+    "relation_relation",
+    "relation_capability",
+    "relation_cognition",
+    "capability_capability",
+    "capability_cognition",
+    "cognition_cognition",
+    "cross_temporal",
+    "desire_goal_tradeoff",
+    "information_asymmetry",
+    "resource_dependency",
+    "decision_constraint",
+    "state_change_interaction"
+  ],
+  "notes": [
+    "One entity pair per call; all line types included; if compact seeds are used, expansion roundtrip must be validated by code outside the LLM."
+  ],
+  "causal_interaction_candidate_fields": [
+    "candidate_local_id",
+    "source_line_id",
+    "source_node_id",
+    "target_line_id",
+    "target_node_id",
+    "chapter_or_window",
+    "cause_hypothesis",
+    "causal_direction",
+    "mechanism_or_path",
+    "temporal_order_basis",
+    "evidence_source_refs",
+    "confidence"
+  ],
+  "causal_candidate_rules": [
+    "Only material directional interactions are emitted; do not enumerate every co-occurrence.",
+    "A causal candidate is a hypothesis for P10, not a confirmed causal edge.",
+    "Require source and target node evidence, temporal precedence, and an explanatory path; otherwise place the gap in unknowns.",
+    "Theme similarity/resonance is not causal. Resonance remains disabled unless the separate R-06.2 P6 experiment is authorized."
+  ],
+  "candidate_identity_rules": [
+    "P09 assigns candidate_local_id unique within the entity-pair scan artifact; the host canonicalizes it to candidate_ref = scan_artifact_id + \"::\" + candidate_local_id before P10.",
+    "P10 and all downstream artifacts preserve the exact canonical candidate_ref; they must not mint a replacement ID.",
+    "A candidate without a canonical candidate_ref or resolvable source/target evidence is blocked before P10."
+  ]
+}

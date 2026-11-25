@@ -1,0 +1,25 @@
+{
+  "task_id": "P26",
+  "cardinality": "one_sidecar_ledger",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "frozen_baseline",
+    "chapter_runs",
+    "state_deltas",
+    "thread_register",
+    "rolling_reviews",
+    "regressions",
+    "final_verdict"
+  ],
+  "status_values": [
+    "PASS_WITHIN_SIMULATION",
+    "FAIL",
+    "BLOCKED_SCHEMA_GAP",
+    "NOT_TESTED"
+  ],
+  "notes": [
+    "LongFormPressureTestLedger is a test sidecar; it never replaces BASE_LINE_SCHEMA, EVENT_MODEL_SCHEMA, ACK_NODE_SCHEMA, the host DependencyClosureManifest, or formal audit receipts."
+  ]
+}

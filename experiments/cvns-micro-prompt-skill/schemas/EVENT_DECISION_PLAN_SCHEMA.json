@@ -1,0 +1,295 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EventDecisionPlan",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "cluster_id",
+    "decision",
+    "actor_decisions",
+    "unresolved_gaps"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string"
+    },
+    "task_id": {
+      "const": "P13C"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "REVIEW",
+        "VALIDATED",
+        "FROZEN",
+        "REJECTED"
+      ]
+    },
+    "cluster_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "READY",
+        "CONDITIONAL",
+        "BLOCKED",
+        "NO_AGENT_DECISION_REQUIRED"
+      ]
+    },
+    "actor_decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "actor_id",
+          "actor_role",
+          "current_goal",
+          "operative_desire",
+          "known_facts",
+          "beliefs",
+          "unknown_facts",
+          "active_pressures",
+          "feasible_options",
+          "selected_option_id",
+          "choice_reason",
+          "rejected_alternative_reason",
+          "accepted_costs",
+          "evidence_refs",
+          "coherence_status",
+          "counterfactual_sensitivity",
+          "tendencies_invoked",
+          "tendency_consistency",
+          "tendency_consistency_reason"
+        ],
+        "properties": {
+          "actor_id": {
+            "type": "string"
+          },
+          "actor_role": {
+            "enum": [
+              "INITIATOR",
+              "RESISTER",
+              "COUNTERPART",
+              "ALLY",
+              "WITNESS_WITH_AGENCY",
+              "INSTITUTIONAL_DECIDER",
+              "OTHER"
+            ]
+          },
+          "current_goal": {
+            "type": "string"
+          },
+          "operative_desire": {
+            "type": "string"
+          },
+          "known_facts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "beliefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "unknown_facts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "active_pressures": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tendencies_invoked": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Exact references in form profile_ref::tendency_id; empty when no validated profile tendency was used."
+          },
+          "profile_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "feasible_options": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "option_id",
+                "action_intent",
+                "feasibility",
+                "expected_gain",
+                "expected_cost",
+                "reason_for_or_against"
+              ],
+              "properties": {
+                "option_id": {
+                  "type": "string"
+                },
+                "action_intent": {
+                  "type": "string"
+                },
+                "feasibility": {
+                  "enum": [
+                    "FEASIBLE",
+                    "CONDITIONALLY_FEASIBLE",
+                    "INFEASIBLE"
+                  ]
+                },
+                "expected_gain": {
+                  "type": "string"
+                },
+                "expected_cost": {
+                  "type": "string"
+                },
+                "reason_for_or_against": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "selected_option_id": {
+            "type": "string"
+          },
+          "choice_reason": {
+            "type": "string"
+          },
+          "rejected_alternative_reason": {
+            "type": "string"
+          },
+          "accepted_costs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "expected_effects_not_facts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "anticipated_responses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "counterfactual_sensitivity": {
+            "type": "object",
+            "properties": {
+              "smallest_relevant_change": {
+                "type": "string"
+              },
+              "would_choice_change": {
+                "enum": [
+                  "YES",
+                  "NO",
+                  "UNCERTAIN"
+                ]
+              },
+              "reason": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "smallest_relevant_change",
+              "would_choice_change",
+              "reason"
+            ],
+            "additionalProperties": false
+          },
+          "coherence_status": {
+            "enum": [
+              "COHERENT",
+              "CONDITIONAL",
+              "UNRESOLVED",
+              "INCOHERENT"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "single_option_explanation": {
+            "type": "string"
+          },
+          "profile_required": {
+            "type": "boolean"
+          },
+          "tendency_consistency": {
+            "enum": [
+              "CONSISTENT",
+              "CONTEXTUAL_DEVIATION",
+              "UNRESOLVED"
+            ]
+          },
+          "tendency_consistency_reason": {
+            "type": "string"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "profile_required": {
+                  "const": true
+                }
+              },
+              "required": [
+                "profile_required"
+              ]
+            },
+            "then": {
+              "required": [
+                "profile_ref"
+              ],
+              "properties": {
+                "profile_ref": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "unresolved_gaps": {
+      "type": "array",
+      "description": "Only gaps affecting this cluster's selected choice or execution, with the specific impact. Unrelated historical mysteries or future preference unknowns belong in actor unknown_facts, not execution blockers. READY requires no unresolved execution gaps; never conceal real conditions.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision_summary": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "design_notes": [
+    "One P13C call per event opportunity cluster, not one call per participant.",
+    "Every major active decision-maker gets an independent decision record; non-agents do not.",
+    "Two or more feasible options are preferred. If only one exists, the reason must cite binding constraints, not plot convenience.",
+    "Selected actions are intentions; Event outcome is generated later from interacting actions and world constraints.",
+    "If a CORE/MAJOR decision-maker has profile_required=true and no valid P05E profile exists, decision must be BLOCKED/CONDITIONAL; do not silently invent a profile.",
+    "Stable tendencies influence preference/ranking but do not dictate choice. A contextual deviation is valid only when dynamic BASE state, accumulated arc evidence or current pressure explains it; unresolved tendency fit cannot be marked READY."
+  ]
+}

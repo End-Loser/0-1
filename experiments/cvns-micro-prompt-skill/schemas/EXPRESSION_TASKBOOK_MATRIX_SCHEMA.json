@@ -1,0 +1,13 @@
+{
+  "model": "ExpressionTaskBook",
+  "description": "LLM response root accepted by R-06.2 ExpressionDecomposer: one global matrix of per-entity×dimension entries.",
+  "required_fields": [
+    "entries"
+  ],
+  "entries": {
+    "type": "array",
+    "items_ref": "schemas/EXPRESSION_TASKBOOK_SCHEMA.json"
+  },
+  "coverage_rule": "Exactly one entry for every entity×dimension pair present in the supplied candidate matrix; no unrequested pairs.",
+  "runtime_meta": "Do not ask the LLM to create runtime meta counters; the engine computes meta after parsing."
+}

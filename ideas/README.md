@@ -18,3 +18,4 @@
 ## 当前状态
 
 - [电磁波物理计算机构想（EWC）](electromagnetic-wave-computing.md) —— `status:experiment`
+- [微任务变量线长篇小说写作（CVNS R-06.2）](micro-task-variable-line-novel-writing.md) —— `status:experiment`

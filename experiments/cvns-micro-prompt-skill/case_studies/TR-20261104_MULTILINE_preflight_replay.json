@@ -1,0 +1,72 @@
+{
+  "test_run": "TR-20261104-MULTILINE",
+  "preflight_replay_on_uploaded_input_packs": [
+    {
+      "input_pack": "P04B_bureau_input_pack.json",
+      "decision": "SKIP",
+      "reason": "ENTITY_ALREADY_REGISTERED",
+      "evidence": {
+        "candidate_entity_id": "E-BUREAU",
+        "registered_entity_ids": [
+          "E-BUREAU",
+          "E-FATHER",
+          "E-LINWAN",
+          "E-LOGBOOK",
+          "E-MOTHER",
+          "E-ZHOUYAN"
+        ]
+      }
+    },
+    {
+      "input_pack": "P04B_linwan_input_pack.json",
+      "decision": "SKIP",
+      "reason": "ENTITY_ALREADY_REGISTERED",
+      "evidence": {
+        "candidate_entity_id": "E-LINWAN",
+        "registered_entity_ids": [
+          "E-BUREAU",
+          "E-FATHER",
+          "E-LINWAN",
+          "E-LOGBOOK",
+          "E-MOTHER",
+          "E-ZHOUYAN"
+        ]
+      }
+    },
+    {
+      "input_pack": "P04B_zhouyan_input_pack.json",
+      "decision": "SKIP",
+      "reason": "ENTITY_ALREADY_REGISTERED",
+      "evidence": {
+        "candidate_entity_id": "E-ZHOUYAN",
+        "registered_entity_ids": [
+          "E-BUREAU",
+          "E-FATHER",
+          "E-LINWAN",
+          "E-LOGBOOK",
+          "E-MOTHER",
+          "E-ZHOUYAN"
+        ]
+      }
+    },
+    {
+      "input_pack": "P05C_linwan_input_pack.json",
+      "decision": "SKIP",
+      "reason": "NO_LANGUAGE_SAMPLE",
+      "evidence": {
+        "language_samples_count": 0,
+        "language_samples_status": "EMPTY_BY_FIXTURE"
+      }
+    },
+    {
+      "input_pack": "P19F_chapter6_input_pack.json",
+      "decision": "SKIP",
+      "reason": "NO_APPROVED_VOICE_CARD",
+      "evidence": {
+        "voice_card_present": true,
+        "voice_card_status": "EMPTY_CARD_NO_LANGUAGE_SAMPLES"
+      }
+    }
+  ],
+  "note": "The replay demonstrates deterministic skip rules on the historical input packs. It does not rerun the original LLM calls."
+}

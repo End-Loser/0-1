@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BASELineDraft",
+  "description": "R-06.2 design-level sparse BASE line. This is not directly the legacy Pydantic Variable.timeline payload; see BASE_RUNTIME_ADAPTER.md.",
+  "type": "object",
+  "required": [
+    "id",
+    "dimension",
+    "entity_id",
+    "entity_name",
+    "constraint_level",
+    "importance",
+    "valid_from",
+    "change_nodes",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "dimension": {
+      "type": "string",
+      "enum": [
+        "power",
+        "location",
+        "existence",
+        "skill",
+        "item",
+        "faction",
+        "relation",
+        "goal",
+        "desire",
+        "cognition",
+        "charm"
+      ]
+    },
+    "entity_id": {
+      "type": "string"
+    },
+    "entity_name": {
+      "type": "string"
+    },
+    "constraint_level": {
+      "type": "string",
+      "enum": [
+        "hard",
+        "soft"
+      ]
+    },
+    "sub_level": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "soft_strict",
+        "soft_directional",
+        null
+      ]
+    },
+    "importance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "valid_from": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "valid_to": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "change_nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TimelineNode"
+      },
+      "minItems": 1
+    },
+    "depends_on": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "layer": {
+      "const": "BASE"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "TimelineNode": {
+      "type": "object",
+      "required": [
+        "chapter",
+        "state",
+        "change_reason",
+        "change_magnitude"
+      ],
+      "properties": {
+        "chapter": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "state": {
+          "type": "string"
+        },
+        "change_reason": {
+          "type": "string"
+        },
+        "change_magnitude": {
+          "type": "integer",
+          "minimum": -10,
+          "maximum": 10
+        },
+        "is_anchor_point": {
+          "type": "boolean"
+        },
+        "sub_theme_id": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "is_locked": {
+          "type": "boolean"
+        },
+        "seq": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "beat_id": {
+          "type": "string"
+        },
+        "emotion_beat": {
+          "type": "string"
+        },
+        "action_seed": {
+          "type": "string"
+        },
+        "scene_tension": {
+          "type": "string"
+        },
+        "pov_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "theme_belief": {
+          "type": "string"
+        },
+        "theme_conviction": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "social_awareness": {
+          "type": "string"
+        },
+        "social_rank": {
+          "type": "string"
+        },
+        "mobility_direction": {
+          "type": "string"
+        },
+        "legitimacy_belief": {
+          "type": "string"
+        },
+        "tension_level": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "hope_level": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "moral_conflict": {
+          "type": "string"
+        },
+        "causal_status": {
+          "type": "string",
+          "description": "At initial design time the source-bound opening is established; future designed changes are proposed, not historical facts. Host planning validation enforces this phase distinction.",
+          "enum": [
+            "established",
+            "proposed",
+            "unresolved"
+          ]
+        },
+        "trigger_event_id": {
+          "type": "string"
+        },
+        "preconditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "state_delta": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

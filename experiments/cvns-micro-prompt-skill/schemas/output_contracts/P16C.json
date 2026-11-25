@@ -1,0 +1,31 @@
+{
+  "task_id": "P16C",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "host_validator": "tools/canon_context.py::validate_p16",
+  "host_policy": "CANON_CONTEXT_POLICY.md",
+  "host_rule": "Read-only validation checks one open DERIVED line, approved cause and (chapter,seq) boundary. TERMINATE closes without a successor; TRANSFER/UPGRADE require one fresh source-bound successor with stable subject_ref and predecessor_line_id. Nodes stay proposed and complete history/ACK remain intact. LIFECYCLE_APPLY requires separate source-bound semantic review and trusted approval through index_transaction; structural validation never commits.",
+  "payload_model": "LineLifecycleDecision",
+  "payload_schema": "schemas/LINE_LIFECYCLE_DECISION_SCHEMA.json",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "line_id",
+    "decision",
+    "effective_chapter",
+    "effective_seq",
+    "cause_ref",
+    "previous_status",
+    "new_status",
+    "dependency_refs",
+    "reason",
+    "successor_line"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}

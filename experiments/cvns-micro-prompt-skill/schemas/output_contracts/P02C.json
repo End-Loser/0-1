@@ -1,0 +1,20 @@
+{
+  "task_id": "P02C",
+  "cardinality": "one_artifact_or_explicit_no_result",
+  "required_fields": [
+    "artifact_id",
+    "task_id",
+    "status",
+    "theme_id",
+    "questions_to_answer",
+    "observable_payoff_conditions",
+    "unresolved_questions"
+  ],
+  "status_values": [
+    "DRAFT",
+    "REVIEW",
+    "VALIDATED",
+    "FROZEN",
+    "REJECTED"
+  ]
+}
