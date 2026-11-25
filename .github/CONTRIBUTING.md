@@ -8,7 +8,7 @@
 
 有两种入口，按你现在的完成度选：
 
-- **讨论区（适合先说出来）**：进入 [Discussions 的 Ideas 分类](https://github.com/End-Loser/0-1/discussions/new?category=ideas)，写标题和正文即可。一句话、一个问题、一个反例都可以；不需要先写完整设计书。讨论区即时公开，但不等于收录。
+- **讨论区（适合先说出来）**：进入 [Discussions 的 Ideas 分类](https://github.com/End-Loser/0-1/discussions/new?category=ideas)，写标题和正文即可。一句话、一个问题、一个反例都可以；不需要先写完整设计书。讨论区适合文字 + 链接；需要附图片/视频/文件时，用正式投稿表单，或在 Issue 提交后补附件。讨论区即时公开，但不等于收录。
 - **正式投稿（希望被整理进 `ideas/`）**：使用[想法 Issue 表单](https://github.com/End-Loser/0-1/issues/new?template=idea.yml)。至少写清“你的想法”；背景、依据、验证方式、风险和署名都可以后补。
 
 审核时我们会重点看：
