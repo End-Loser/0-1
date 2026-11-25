@@ -1,70 +1,55 @@
-name: 提交想法、批评或反例
-description: 提交需要讨论、核验或证伪的问题、想法或反例
+name: 说出一个想法
+description: 一句话也可以；通过审核后会整理进 ideas/
+title: "[想法] "
 labels:
+  - idea
   - status:draft
-  - needs-info
 body:
   - type: markdown
     attributes:
       value: |
-        请先阅读投稿与审核指南。提交不代表维护者认同观点，也不代表会自动公开。
+        不必写完整，也不必先证明它对。一句话、一个问题、一个反例都可以。
+        提交后进入待审核；讨论区即时公开，但收录进 `ideas/` 需要审核与整理。
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你的想法
+      description: 你想让别人看到什么？一句话也可以。可以写问题、判断、反例或半成品方案。
+      placeholder: 例如：如果让电磁波在封闭腔里完成计算，哪些物理量可以作为“程序状态”？
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景、例子或可能的验证方式（可选）
+      description: 为什么值得讨论？有没有相关链接、数据、反例或可复现步骤？
+    validations:
+      required: false
   - type: input
-    id: title_summary
+    id: links
     attributes:
-      label: 标题与领域
-      description: 准确概括主题和所属领域。
+      label: 相关链接（可选）
+      description: 论文、项目、视频、语音或大文件的外链。
     validations:
-      required: true
+      required: false
   - type: textarea
-    id: claim
+    id: attachments
     attributes:
-      label: 核心主张
-      description: 清楚说明想讨论、验证或证伪的内容，以及适用范围。
+      label: 附件说明（可选）
+      description: 图片、视频、文件可在提交后的 Issue 正文中直接拖入；大文件请贴外链。语音可上传音频文件或贴链接。
     validations:
-      required: true
-  - type: textarea
-    id: motivation
-    attributes:
-      label: 背景与动机
-      description: 为什么提出这个问题？解决什么困惑或问题？
-    validations:
-      required: true
-  - type: textarea
-    id: evidence
-    attributes:
-      label: 依据、来源与反例
-      description: 提供可核查的论文、数据、观察或链接，并说明可能不成立的条件。
-    validations:
-      required: true
-  - type: textarea
-    id: verification
-    attributes:
-      label: 验证或证伪方法
-      description: 说明如何复现、测量、反驳或修正该主张。
-    validations:
-      required: true
-  - type: textarea
-    id: risks
-    attributes:
-      label: 风险与边界
-      description: 说明隐私、合法性、安全、偏差、滥用风险或已知限制。
-    validations:
-      required: true
+      required: false
   - type: input
     id: attribution
     attributes:
-      label: 作者与许可
-      description: 填写署名、来源以及希望采用的许可；第三方材料须获得授权。
+      label: 署名（可选）
+      description: 希望如何署名；不填则使用 GitHub 用户名。
     validations:
-      required: true
+      required: false
   - type: checkboxes
-    id: rules
+    id: confirm
     attributes:
       label: 提交确认
       options:
-        - label: 我确认未提交密钥、令牌、隐私数据或未经授权的内容。
-          required: true
-        - label: 我已区分事实、推断、猜测和观点。
-          required: true
-        - label: 我理解审核不是绝对真理或官方认证。
+        - label: 我确认内容为原创或有权公开，不含密钥、隐私数据或未授权材料；我理解讨论区即时公开，收录进 ideas/ 需审核。
           required: true
