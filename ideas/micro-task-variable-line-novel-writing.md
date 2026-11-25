@@ -6,6 +6,7 @@
 - 相关实验：[CVNS R-06.2 Micro-Task Variable-Line Skill v1.7.0](../experiments/cvns-micro-prompt-skill.md)
 - 项目说明：[README](../experiments/cvns-micro-prompt-skill/README.md) · [SKILL.md](../experiments/cvns-micro-prompt-skill/SKILL.md)
 - 设计书 / 问题：[DESIGN.md](../experiments/cvns-micro-prompt-skill/DESIGN.md) · [PROBLEMS.md](../experiments/cvns-micro-prompt-skill/PROBLEMS.md)
+- 原始思路：[ORIGIN.md](../experiments/cvns-micro-prompt-skill/docs/origin/ORIGIN.md) · [原始文本](../experiments/cvns-micro-prompt-skill/docs/origin/最初思想.txt)
 - 最后更新：2026-11-25
 
 ## 核心主张

@@ -4,7 +4,7 @@ description: CVNS R-06.2 微任务专项提示词 Skill，V1.7.0。
 version: 1.7.0
 ---
 
-> **0-1 归档说明（2026-11-25）**：本目录只包含设计文档、提示词、工具、测试与问题记录；**不包含任何测试小说正文、样章、修订候选或样本输出**。详细设计书见 [DESIGN.md](DESIGN.md)，已知问题见 [PROBLEMS.md](PROBLEMS.md)，版本变更见 [CHANGELOG.md](CHANGELOG.md)。设计书是提案，不保证正确；高质量小说生成仍需讨论与对照实验。
+> **0-1 归档说明（2026-11-25）**：本目录只包含设计文档、提示词、工具、测试与问题记录；**不包含任何测试小说正文、样章、修订候选或样本输出**。原始思路见 [ORIGIN.md](docs/origin/ORIGIN.md)，详细设计书见 [DESIGN.md](DESIGN.md)，已知问题见 [PROBLEMS.md](PROBLEMS.md)，版本变更见 [CHANGELOG.md](CHANGELOG.md)。设计书是提案，不保证正确；高质量小说生成仍需讨论与对照实验。
 
 # CVNS R-06.2 Micro-Task Variable-Line Skill 1.7.0
 

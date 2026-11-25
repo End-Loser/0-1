@@ -25,6 +25,7 @@ version: 1.7.0
 13. 解释候选可提出异类机制，但必须说明命题覆盖、因果、边界和跨线后果。P11B通过只是修订提案；宿主批准、物化与激活分别执行，共鸣实验仍默认关闭。
 14. P01E 修炼体系与 P01F 战斗规则只产出提案；未通过 P21A 单规则修订与宿主批准前，不得写入有效 WorldConstants，也不得被 BASE_POWER 当作既定等级。P26 只做压力测试 sidecar，不进入正式 Canon。
 ## 关键文件
+- `docs/origin/ORIGIN.md`：作者提供的原始思路（最初思想）与原文。
 - `TASK_REGISTRY.csv`：任务目标、输入白名单、输出和依赖。
 - `NARRATIVE_DECISION_AND_EVENT_SYNTHESIS_V150.md`：变量线关系分类、人物决策和事件合成的语义判据。
 - `workflows/WORKFLOW.md`：完整顺序。
