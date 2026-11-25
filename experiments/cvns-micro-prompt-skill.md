@@ -7,6 +7,7 @@
 - 对应想法：[微任务变量线长篇小说写作（CVNS R-06.2）](../ideas/micro-task-variable-line-novel-writing.md)
 - 项目归档：[experiments/cvns-micro-prompt-skill/](cvns-micro-prompt-skill/README.md)
 - 设计书：[DESIGN.md](cvns-micro-prompt-skill/DESIGN.md) · [PROBLEMS.md](cvns-micro-prompt-skill/PROBLEMS.md) · [CHANGELOG.md](cvns-micro-prompt-skill/CHANGELOG.md)
+- 原始思路：[ORIGIN.md](cvns-micro-prompt-skill/docs/origin/ORIGIN.md) · [原始文本](cvns-micro-prompt-skill/docs/origin/最初思想.txt)
 - 最后更新：2026-11-25
 
 ## 目标
@@ -20,6 +21,7 @@
 **包含**：
 
 - 设计书：`DESIGN.md`（目标、架构、数据模型、流程、取舍、验证计划与不保证事项）
+- 原始思路：`docs/origin/ORIGIN.md`（作者提供的原始想法与原文，不是设计结论）
 - 提示词库：83 个 `TASK_REGISTRY.csv` 任务行、84 个提示词文件（含 BASE 维度）
 - 工具：27 个 Python 工具（preflight、校验、物化、索引事务、冲突解释、时间门禁、Writer 依赖等；含 real_novel_test / writer_length_contract 两个测试/契约工具；另有 18 个样章专用工具因依赖未上传测试证据而移除）
 - 测试：24 个核心测试（契约、schema、生命周期、数据流、冲突解释、时间门禁等；另有 19 个样章专用测试已移除）
